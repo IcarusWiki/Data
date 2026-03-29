@@ -29,14 +29,21 @@ jobs:
           chmod +x /usr/local/bin/steamguard
 
       - name: Setup steamguard maFiles
+        env:
+          STEAM_MAFILE_JSON: ${{ secrets.STEAM_MAFILE }}
+          STEAM_MAFILE_ACCOUNT_JSON: ${{ secrets.STEAM_MAFILE_ACCOUNT }}
         run: |
           MAFILES_DIR="$HOME/.config/steamguard-cli/maFiles"
           mkdir -p "$MAFILES_DIR"
-
-          echo '${{ secrets.STEAM_MAFILE }}' > "$MAFILES_DIR/manifest.json"
-
-          ACCOUNT_FILE=$(jq -r '.entries[0].filename' "$MAFILES_DIR/manifest.json")
-          echo '${{ secrets.STEAM_MAFILE_ACCOUNT }}' > "$MAFILES_DIR/$ACCOUNT_FILE"
+          chmod 700 "$HOME/.config/steamguard-cli" "$MAFILES_DIR"
+      
+          printf '%s' "$STEAM_MAFILE_JSON" > "$MAFILES_DIR/manifest.json"
+      
+          ACCOUNT_FILE="$(jq -r '.entries[0].filename' "$MAFILES_DIR/manifest.json")"
+          ACCOUNT_FILE="$(basename "$ACCOUNT_FILE")"
+      
+          printf '%s' "$STEAM_MAFILE_ACCOUNT_JSON" > "$MAFILES_DIR/$ACCOUNT_FILE"
+          chmod 600 "$MAFILES_DIR/manifest.json" "$MAFILES_DIR/$ACCOUNT_FILE"
 
       - name: Restore DepotDownloader auth cache
         uses: actions/cache@v4
