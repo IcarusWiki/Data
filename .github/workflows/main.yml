@@ -11,6 +11,7 @@ permissions:
 env:
   DD_VERSION: "3.4.0"
   STEAMGUARD_VERSION: "0.17.1"
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
 
 jobs:
   download-and-publish:
@@ -18,7 +19,7 @@ jobs:
 
     steps:
       - name: Checkout current repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -55,25 +56,17 @@ jobs:
           printf '%s' "$STEAM_MAFILE_ACCOUNT_JSON" > "$MAFILES_DIR/$ACCOUNT_FILE"
           chmod 600 "$MAFILES_DIR/manifest.json" "$MAFILES_DIR/$ACCOUNT_FILE"
 
-      - name: Restore DepotDownloader auth cache
-        uses: actions/cache@v4
-        with:
-          path: ${{ runner.temp }}/depotdownloader/account.config
-          key: depotdownloader-auth-${{ secrets.STEAM_USER }}-${{ github.run_id }}
-          restore-keys: |
-            depotdownloader-auth-${{ secrets.STEAM_USER }}-
-
       - name: Clean previous partial download
         run: |
           rm -rf ./game_files
           rm -f ./filelist.txt
+          rm -rf "$RUNNER_TEMP/depotdownloader"
 
       - name: Download data.pak
         timeout-minutes: 20
         run: |
           echo 'regex:^Icarus/Content/Data/data\.pak$' > filelist.txt
-
-          mkdir -p "${{ runner.temp }}/depotdownloader"
+          mkdir -p "$RUNNER_TEMP/depotdownloader"
 
           (
             while true; do
@@ -86,7 +79,7 @@ jobs:
 
           CODE="$(steamguard code)"
 
-          cd "${{ runner.temp }}/depotdownloader"
+          cd "$RUNNER_TEMP/depotdownloader"
 
           printf '%s\n' "$CODE" | DepotDownloader \
             -app 1149460 \
@@ -97,8 +90,7 @@ jobs:
             -no-mobile \
             -filelist "$GITHUB_WORKSPACE/filelist.txt" \
             -dir "$GITHUB_WORKSPACE/game_files" \
-            -validate \
-            -debug
+            -validate
 
       - name: Verify download
         run: |
@@ -119,11 +111,12 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          if git diff --quiet -- data.pak 2>/dev/null; then
+          git add data.pak
+
+          if git diff --cached --quiet -- data.pak; then
             echo "data.pak unchanged, skipping commit"
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git add data.pak
             git commit -m "Update data.pak ($(date -u +%Y-%m-%d))"
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -155,4 +148,5 @@ jobs:
         run: |
           rm -rf ./game_files
           rm -f ./filelist.txt
+          rm -rf "$RUNNER_TEMP/depotdownloader"
           rm -rf "$HOME/.config/steamguard-cli"
