@@ -1,9 +1,13 @@
 name: Check Icarus Update
 
 on:
-  #schedule:
-  #  - cron: '0 0 * * 6' # Saturday 00:00 UTC
+  # schedule:
+  #   - cron: '0 0 * * 6' # Saturday 00:00 UTC
   workflow_dispatch:
+
+concurrency:
+  group: icarus-data-update-${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -11,100 +15,131 @@ permissions:
 env:
   DD_VERSION: "3.4.0"
   STEAMGUARD_VERSION: "0.17.1"
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+  STEAM_APP_ID: "1149460"
+  STEAM_DEPOT_ID: "1149461"
 
 jobs:
   download-and-publish:
     runs-on: windows-latest   # Windows for Oodle DLL compatibility with pyuepak
     timeout-minutes: 9        # Hard cap for the entire job
 
+    defaults:
+      run:
+        shell: bash
+
     steps:
       - name: Checkout current repo
         timeout-minutes: 1
         uses: actions/checkout@v6
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
-      # Python for pak extraction
       - name: Set up Python
         timeout-minutes: 1
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
       - name: Install Python dependencies
         timeout-minutes: 1
-        run: pip install pyuepak cryptography
-
-      # Steam tooling
-      - name: Install DepotDownloader
-        timeout-minutes: 1
-        shell: bash
         run: |
+          python -m pip install --upgrade pip
+          pip install pyuepak cryptography
+
+      - name: Install Steam tools
+        id: steamtools
+        timeout-minutes: 1
+        run: |
+          RUNNER_TEMP_UNIX="$(cygpath -u "$RUNNER_TEMP")"
+          TOOL_DIR="$RUNNER_TEMP_UNIX/steam-tools"
+          mkdir -p "$TOOL_DIR"
+
           curl -sSL "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_${DD_VERSION}/DepotDownloader-windows-x64.zip" \
-            -o depotdownloader.zip
-          mkdir -p "$HOME/.local/bin/depotdownloader"
-          unzip depotdownloader.zip -d "$HOME/.local/bin/depotdownloader"
-          echo "$HOME/.local/bin/depotdownloader" >> "$GITHUB_PATH"
-          rm -f depotdownloader.zip
+            -o "$TOOL_DIR/depotdownloader.zip"
+          unzip -o "$TOOL_DIR/depotdownloader.zip" -d "$TOOL_DIR"
+          rm -f "$TOOL_DIR/depotdownloader.zip"
 
-      - name: Install steamguard-cli
-        timeout-minutes: 1
-        shell: bash
-        run: |
           curl -sSL "https://github.com/dyc3/steamguard-cli/releases/download/v${STEAMGUARD_VERSION}/steamguard.exe" \
-            -o "$HOME/.local/bin/depotdownloader/steamguard.exe"
+            -o "$TOOL_DIR/steamguard.exe"
+          chmod +x "$TOOL_DIR/steamguard.exe"
+
+          echo "tool_dir=$TOOL_DIR" >> "$GITHUB_OUTPUT"
 
       - name: Setup steamguard maFiles
-        shell: bash
         env:
           STEAM_MAFILE_JSON: ${{ secrets.STEAM_MAFILE }}
           STEAM_MAFILE_ACCOUNT_JSON: ${{ secrets.STEAM_MAFILE_ACCOUNT }}
         run: |
-          MAFILES_DIR="$APPDATA/steamguard-cli/maFiles"
+          APPDATA_UNIX="$(cygpath -u "$APPDATA")"
+          MAFILES_DIR="$APPDATA_UNIX/steamguard-cli/maFiles"
+
           mkdir -p "$MAFILES_DIR"
+          chmod 700 "$APPDATA_UNIX/steamguard-cli" "$MAFILES_DIR" || true
+
           printf '%s' "$STEAM_MAFILE_JSON" > "$MAFILES_DIR/manifest.json"
+
           ACCOUNT_FILE="$(jq -r '.entries[0].filename' "$MAFILES_DIR/manifest.json")"
           ACCOUNT_FILE="$(basename "$ACCOUNT_FILE")"
-          printf '%s' "$STEAM_MAFILE_ACCOUNT_JSON" > "$MAFILES_DIR/$ACCOUNT_FILE"
 
-      # Download data.pak from Steam
-      - name: Clean previous partial download
-        shell: bash
+          printf '%s' "$STEAM_MAFILE_ACCOUNT_JSON" > "$MAFILES_DIR/$ACCOUNT_FILE"
+          chmod 600 "$MAFILES_DIR/manifest.json" "$MAFILES_DIR/$ACCOUNT_FILE" || true
+
+      - name: Clean previous partial download and extraction
         run: |
-          rm -rf ./game_files
-          rm -f ./filelist.txt
-          rm -rf "$RUNNER_TEMP/depotdownloader"
+          WORKSPACE_UNIX="$(cygpath -u "$GITHUB_WORKSPACE")"
+          RUNNER_TEMP_UNIX="$(cygpath -u "$RUNNER_TEMP")"
+
+          rm -rf "$WORKSPACE_UNIX/game_files"
+          rm -rf "$WORKSPACE_UNIX/InGameFiles"
+          rm -f "$WORKSPACE_UNIX/filelist.txt"
+          rm -rf "$RUNNER_TEMP_UNIX/depotdownloader"
 
       - name: Download data.pak
-        timeout-minutes: 1
-        shell: bash
+        timeout-minutes: 2
+        env:
+          STEAM_USER: ${{ secrets.STEAM_USER }}
+          STEAM_PASS: ${{ secrets.STEAM_PASS }}
         run: |
-          echo 'regex:^Icarus/Content/Data/data\.pak$' > filelist.txt
-          mkdir -p "$RUNNER_TEMP/depotdownloader"
+          WORKSPACE_UNIX="$(cygpath -u "$GITHUB_WORKSPACE")"
+          RUNNER_TEMP_UNIX="$(cygpath -u "$RUNNER_TEMP")"
+          TOOL_DIR="${{ steps.steamtools.outputs.tool_dir }}"
+
+          echo 'regex:^Icarus/Content/Data/data\.pak$' > "$WORKSPACE_UNIX/filelist.txt"
+          mkdir -p "$RUNNER_TEMP_UNIX/depotdownloader"
+
           (
+            failures=0
             while true; do
-              steamguard approve --dangerously-approve-all >/dev/null 2>&1 || true
-              sleep 5
+              if ! "$TOOL_DIR/steamguard.exe" approve --dangerously-approve-all >/dev/null 2>&1; then
+                failures=$((failures + 1))
+                if [ "$failures" -ge 6 ]; then
+                  echo "::warning::steamguard approve has failed $failures times"
+                  failures=0
+                fi
+              else
+                failures=0
+              fi
+              sleep 2
             done
           ) &
           APPROVER_PID=$!
           trap 'kill "$APPROVER_PID" 2>/dev/null || true' EXIT
-          CODE="$(steamguard code)"
-          cd "$RUNNER_TEMP/depotdownloader"
-          printf '%s\n' "$CODE" | DepotDownloader \
-            -app 1149460 \
-            -depot 1149461 \
-            -username "${{ secrets.STEAM_USER }}" \
-            -password "${{ secrets.STEAM_PASS }}" \
+
+          CODE="$("$TOOL_DIR/steamguard.exe" code)"
+
+          cd "$RUNNER_TEMP_UNIX/depotdownloader"
+
+          printf '%s\n%s\n' "$STEAM_PASS" "$CODE" | "$TOOL_DIR/DepotDownloader.exe" \
+            -app "$STEAM_APP_ID" \
+            -depot "$STEAM_DEPOT_ID" \
+            -username "$STEAM_USER" \
             -remember-password \
             -no-mobile \
-            -filelist "$GITHUB_WORKSPACE/filelist.txt" \
-            -dir "$GITHUB_WORKSPACE/game_files" \
+            -filelist "$WORKSPACE_UNIX/filelist.txt" \
+            -dir "$WORKSPACE_UNIX/game_files" \
             -validate
 
       - name: Verify download
-        shell: bash
         run: |
           DATA_PAK="./game_files/Icarus/Content/Data/data.pak"
           if [ ! -f "$DATA_PAK" ]; then
@@ -112,20 +147,18 @@ jobs:
             find ./game_files -maxdepth 6 -type f | sort || true
             exit 1
           fi
+
           echo "DATA_PAK_PATH=$DATA_PAK" >> "$GITHUB_ENV"
           ls -lh "$DATA_PAK"
 
-      # Extract pak into InGameFiles
       - name: Extract data.pak
         timeout-minutes: 3
-        shell: bash
         run: |
           python scripts/extract_pak.py \
             --pak "$DATA_PAK_PATH" \
             --out ./InGameFiles
 
       - name: Verify extraction
-        shell: bash
         run: |
           FILE_COUNT=$(find ./InGameFiles -type f | wc -l)
           echo "Extracted $FILE_COUNT files"
@@ -134,15 +167,15 @@ jobs:
             exit 1
           fi
 
-      # Commit extracted files
       - name: Commit InGameFiles if changed
         timeout-minutes: 2
         id: commit
-        shell: bash
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add InGameFiles/
+
+          git add -A InGameFiles/
+
           if git diff --cached --quiet -- InGameFiles/; then
             echo "InGameFiles unchanged, skipping commit"
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -152,32 +185,33 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      # Notify downstream repos
       - name: Dispatch to consumer repos
         if: steps.commit.outputs.changed == 'true'
-        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.ORG_PAT }}
         run: |
           REPOS=(
-            # Add your consumer repos here, one per line:
             "TreeUI"
           )
+
           OWNER="${{ github.repository_owner }}"
           SHA=$(git rev-parse HEAD)
+
           for REPO in "${REPOS[@]}"; do
             echo "Dispatching to $OWNER/$REPO"
             gh api "/repos/$OWNER/$REPO/dispatches" \
               -f event_type="icarus-updated" \
               -f "client_payload[sha]=$SHA" || echo "::warning::Failed to dispatch to $REPO"
           done
-        env:
-          GH_TOKEN: ${{ secrets.ORG_PAT }}
 
-      # Cleanup
       - name: Cleanup
         if: always()
-        shell: bash
         run: |
+          RUNNER_TEMP_UNIX="$(cygpath -u "$RUNNER_TEMP")"
+          APPDATA_UNIX="$(cygpath -u "$APPDATA")"
+
           rm -rf ./game_files
+          rm -rf ./InGameFiles
           rm -f ./filelist.txt
-          rm -rf "$RUNNER_TEMP/depotdownloader"
-          rm -rf "$APPDATA/steamguard-cli" 2>/dev/null || true
+          rm -rf "$RUNNER_TEMP_UNIX/depotdownloader"
+          rm -rf "$APPDATA_UNIX/steamguard-cli" 2>/dev/null || true
