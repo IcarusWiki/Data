@@ -34,7 +34,7 @@ jobs:
 
       - name: Install Python dependencies
         timeout-minutes: 1
-        run: pip install pyuepak
+        run: pip install pyuepak cryptography
 
       # Steam tooling
       - name: Install DepotDownloader
