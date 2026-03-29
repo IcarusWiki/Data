@@ -159,8 +159,7 @@ jobs:
         run: |
           REPOS=(
             # Add your consumer repos here, one per line:
-            # "repo-a"
-            # "repo-b"
+            "TreeUI"
           )
           OWNER="${{ github.repository_owner }}"
           SHA=$(git rev-parse HEAD)
