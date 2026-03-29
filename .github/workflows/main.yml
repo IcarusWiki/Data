@@ -107,19 +107,16 @@ jobs:
           echo 'regex:^Icarus/Content/Data/data\.pak$' > "$WORKSPACE_UNIX/filelist.txt"
           mkdir -p "$RUNNER_TEMP_UNIX/depotdownloader"
 
+          attempts=0
+          max_attempts=12
+          
           (
-            failures=0
-            while true; do
+            while [ "$attempts" -lt "$max_attempts" ]; do
               if ! "$TOOL_DIR/steamguard.exe" approve --dangerously-approve-all >/dev/null 2>&1; then
-                failures=$((failures + 1))
-                if [ "$failures" -ge 6 ]; then
-                  echo "::warning::steamguard approve has failed $failures times"
-                  failures=0
-                fi
-              else
-                failures=0
+                echo "::warning::steamguard approve failed on attempt $((attempts + 1))"
               fi
-              sleep 2
+              attempts=$((attempts + 1))
+              sleep 5
             done
           ) &
           APPROVER_PID=$!
