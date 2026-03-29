@@ -49,10 +49,20 @@ jobs:
             steam-session-${{ secrets.STEAM_USER }}-
 
       - name: Download data.pak
+        timeout-minutes: 10
         run: |
-          CODE=$(steamguard code)
-
           echo "data.pak" > filelist.txt
+
+          # Keep approving any pending Steam login requests while DepotDownloader starts.
+          (
+            for _ in {1..60}; do
+              steamguard approve --dangerously-approve-all || true
+              sleep 2
+            done
+          ) &
+          APPROVER_PID=$!
+
+          CODE=$(steamguard code)
 
           DepotDownloader \
             -app 1149460 \
@@ -64,6 +74,8 @@ jobs:
             -2fa "$CODE" \
             -filelist filelist.txt \
             -dir ./game_files
+
+          kill "$APPROVER_PID" || true
 
       - name: Verify download
         run: |
