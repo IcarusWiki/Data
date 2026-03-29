@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  DD_VERSION: "2.7.4"
+  DD_VERSION: "3.4.0"
   STEAMGUARD_VERSION: "0.17.1"
 
 jobs:
@@ -49,7 +49,7 @@ jobs:
             steam-session-${{ secrets.STEAM_USER }}-
 
       - name: Download data.pak
-        timeout-minutes: 10
+        timeout-minutes: 20
         run: |
           echo 'regex:^Icarus/Content/Data/data\.pak$' > filelist.txt
       
@@ -73,7 +73,9 @@ jobs:
             -no-mobile \
             -2fa "$CODE" \
             -filelist filelist.txt \
-            -dir ./game_files
+            -dir ./game_files \
+            -validate \
+            -debug
 
       - name: Verify download
         run: |
