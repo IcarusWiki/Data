@@ -51,19 +51,19 @@ jobs:
       - name: Download data.pak
         timeout-minutes: 10
         run: |
-          echo "data.pak" > filelist.txt
-
-          # Keep approving any pending Steam login requests while DepotDownloader starts.
+          echo 'regex:^Icarus/Content/Data/data\.pak$' > filelist.txt
+      
           (
-            for _ in {1..60}; do
-              steamguard approve --dangerously-approve-all || true
-              sleep 2
+            while true; do
+              steamguard approve --dangerously-approve-all >/dev/null 2>&1 || true
+              sleep 5
             done
           ) &
           APPROVER_PID=$!
-
+          trap 'kill "$APPROVER_PID" 2>/dev/null || true' EXIT
+      
           CODE=$(steamguard code)
-
+      
           DepotDownloader \
             -app 1149460 \
             -depot 1149461 \
@@ -75,18 +75,17 @@ jobs:
             -filelist filelist.txt \
             -dir ./game_files
 
-          kill "$APPROVER_PID" || true
-
       - name: Verify download
         run: |
-          DATA_PAK=$(find ./game_files -name "data.pak" -print -quit)
-          if [ -z "$DATA_PAK" ]; then
+          DATA_PAK="./game_files/Icarus/Content/Data/data.pak"
+          if [ ! -f "$DATA_PAK" ]; then
             echo "::error::data.pak not found in download"
+            find ./game_files -maxdepth 6 -type f | sort
             exit 1
           fi
           echo "DATA_PAK_PATH=$DATA_PAK" >> "$GITHUB_ENV"
           ls -lh "$DATA_PAK"
-
+  
       - name: Checkout icarus-data repo
         uses: actions/checkout@v4
         with:
