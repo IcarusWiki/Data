@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  DD_VERSION: "3.4.0"
+  DD_VERSION: "2.7.4"
   STEAMGUARD_VERSION: "0.17.1"
 
 jobs:
