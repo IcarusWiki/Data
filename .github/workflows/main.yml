@@ -92,9 +92,9 @@ jobs:
           RUNNER_TEMP_UNIX="$(cygpath -u "$RUNNER_TEMP")"
 
           rm -rf "$WORKSPACE_UNIX/game_files"
-          rm -rf "$WORKSPACE_UNIX/InGameFiles"
           rm -f "$WORKSPACE_UNIX/filelist.txt"
           rm -rf "$RUNNER_TEMP_UNIX/depotdownloader"
+          rm -rf "$RUNNER_TEMP_UNIX/InGameFiles.new"
 
       - name: Download data.pak
         timeout-minutes: 2
@@ -111,7 +111,7 @@ jobs:
 
           attempts=0
           max_attempts=12
-          
+
           (
             while [ "$attempts" -lt "$max_attempts" ]; do
               if ! "$TOOL_DIR/steamguard.exe" approve --dangerously-approve-all >/dev/null 2>&1; then
@@ -150,21 +150,33 @@ jobs:
           echo "DATA_PAK_PATH=$DATA_PAK" >> "$GITHUB_ENV"
           ls -lh "$DATA_PAK"
 
-      - name: Extract data.pak
+      - name: Extract data.pak to temp directory
         timeout-minutes: 3
         run: |
+          RUNNER_TEMP_UNIX="$(cygpath -u "$RUNNER_TEMP")"
+          rm -rf "$RUNNER_TEMP_UNIX/InGameFiles.new"
+
           python scripts/extract_pak.py \
             --pak "$DATA_PAK_PATH" \
-            --out ./InGameFiles
+            --out "$RUNNER_TEMP_UNIX/InGameFiles.new"
 
       - name: Verify extraction
         run: |
-          FILE_COUNT=$(find ./InGameFiles -type f | wc -l)
+          RUNNER_TEMP_UNIX="$(cygpath -u "$RUNNER_TEMP")"
+          FILE_COUNT=$(find "$RUNNER_TEMP_UNIX/InGameFiles.new" -type f | wc -l)
           echo "Extracted $FILE_COUNT files"
           if [ "$FILE_COUNT" -eq 0 ]; then
             echo "::error::Extraction produced no files"
             exit 1
           fi
+
+      - name: Replace InGameFiles
+        run: |
+          WORKSPACE_UNIX="$(cygpath -u "$GITHUB_WORKSPACE")"
+          RUNNER_TEMP_UNIX="$(cygpath -u "$RUNNER_TEMP")"
+
+          rm -rf "$WORKSPACE_UNIX/InGameFiles"
+          mv "$RUNNER_TEMP_UNIX/InGameFiles.new" "$WORKSPACE_UNIX/InGameFiles"
 
       - name: Commit InGameFiles if changed
         timeout-minutes: 2
@@ -210,7 +222,7 @@ jobs:
           APPDATA_UNIX="$(cygpath -u "$APPDATA")"
 
           rm -rf ./game_files
-          rm -rf ./InGameFiles
           rm -f ./filelist.txt
           rm -rf "$RUNNER_TEMP_UNIX/depotdownloader"
+          rm -rf "$RUNNER_TEMP_UNIX/InGameFiles.new"
           rm -rf "$APPDATA_UNIX/steamguard-cli" 2>/dev/null || true
