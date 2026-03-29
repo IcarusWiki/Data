@@ -1,0 +1,126 @@
+name: Check Icarus Update
+ 
+on:
+  schedule:
+    - cron: '0 0 * * 6' # Saturday 00:00 UTC
+  workflow_dispatch:
+ 
+jobs:
+  download-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+ 
+      - name: Install DepotDownloader
+        run: dotnet tool install -g DepotDownloader
+ 
+      - name: Install steamguard-cli
+        run: |
+          curl -sSL https://github.com/dyc3/steamguard-cli/releases/download/v0.17.1/steamguard \
+            -o /usr/local/bin/steamguard
+          chmod +x /usr/local/bin/steamguard
+ 
+      - name: Setup steamguard maFiles
+        run: |
+          MAFILES_DIR="$HOME/.config/steamguard-cli/maFiles"
+          mkdir -p "$MAFILES_DIR"
+ 
+          # Write manifest
+          echo '${{ secrets.STEAM_MAFILE }}' > "$MAFILES_DIR/manifest.json"
+ 
+          # Extract the account filename from the manifest and write the account maFile
+          ACCOUNT_FILE=$(jq -r '.entries[0].filename' "$MAFILES_DIR/manifest.json")
+          echo '${{ secrets.STEAM_MAFILE_ACCOUNT }}' > "$MAFILES_DIR/$ACCOUNT_FILE"
+ 
+      - name: Restore Steam session cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.local/share/IsolatedStorage
+            ~/.steam/sentry
+          key: steam-session-${{ secrets.STEAM_USER }}-${{ github.run_id }}
+          restore-keys: |
+            steam-session-${{ secrets.STEAM_USER }}-
+ 
+      - name: Download data.pak
+        run: |
+          CODE=$(steamguard code)
+ 
+          echo "data.pak" > filelist.txt
+ 
+          DepotDownloader \
+            -app 1149460 \
+            -depot 1149461 \
+            -username "${{ secrets.STEAM_USER }}" \
+            -password "${{ secrets.STEAM_PASS }}" \
+            -remember-password \
+            -2fa "$CODE" \
+            -filelist filelist.txt \
+            -dir ./game_files
+ 
+      - name: Verify download
+        run: |
+          DATA_PAK=$(find ./game_files -name "data.pak" -print -quit)
+          if [ -z "$DATA_PAK" ]; then
+            echo "::error::data.pak not found in download"
+            exit 1
+          fi
+          echo "DATA_PAK_PATH=$DATA_PAK" >> "$GITHUB_ENV"
+          ls -lh "$DATA_PAK"
+ 
+      - name: Checkout icarus-data repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/icarus-data
+          token: ${{ secrets.ORG_PAT }}
+          path: icarus-data
+ 
+      - name: Commit data.pak if changed
+        id: commit
+        run: |
+          cp "$DATA_PAK_PATH" icarus-data/data.pak
+          cd icarus-data
+ 
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+ 
+          if git diff --quiet -- data.pak 2>/dev/null; then
+            echo "data.pak unchanged, skipping commit"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git add data.pak
+            git commit -m "Update data.pak ($(date -u +%Y-%m-%d))"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+ 
+      - name: Dispatch to consumer repos
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          REPOS=(
+            # Add your consumer repos here, one per line:
+            # "repo-a"
+            # "repo-b"
+          )
+ 
+          OWNER="${{ github.repository_owner }}"
+          SHA=$(cd icarus-data && git rev-parse HEAD)
+ 
+          for REPO in "${REPOS[@]}"; do
+            echo "Dispatching to $OWNER/$REPO"
+            gh api "/repos/$OWNER/$REPO/dispatches" \
+              -f event_type="icarus-updated" \
+              -f "client_payload[sha]=$SHA" || echo "::warning::Failed to dispatch to $REPO"
+          done
+        env:
+          GH_TOKEN: ${{ secrets.ORG_PAT }}
+ 
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -rf ./game_files
+          rm -f filelist.txt
+          rm -rf "$HOME/.config/steamguard-cli"
