@@ -1,40 +1,43 @@
 name: Check Icarus Update
- 
+
 on:
   schedule:
     - cron: '0 0 * * 6' # Saturday 00:00 UTC
   workflow_dispatch:
- 
+
+env:
+  DD_VERSION: "3.4.0"
+  STEAMGUARD_VERSION: "0.17.1"
+
 jobs:
   download-and-publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: '8.0.x'
- 
       - name: Install DepotDownloader
-        run: dotnet tool install -g DepotDownloader
- 
+        run: |
+          curl -sSL "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_${DD_VERSION}/DepotDownloader-linux-x64.zip" \
+            -o depotdownloader.zip
+          mkdir -p "$HOME/.local/bin/depotdownloader"
+          unzip depotdownloader.zip -d "$HOME/.local/bin/depotdownloader"
+          chmod +x "$HOME/.local/bin/depotdownloader/DepotDownloader"
+          echo "$HOME/.local/bin/depotdownloader" >> "$GITHUB_PATH"
+
       - name: Install steamguard-cli
         run: |
-          curl -sSL https://github.com/dyc3/steamguard-cli/releases/download/v0.17.1/steamguard \
+          curl -sSL "https://github.com/dyc3/steamguard-cli/releases/download/v${STEAMGUARD_VERSION}/steamguard" \
             -o /usr/local/bin/steamguard
           chmod +x /usr/local/bin/steamguard
- 
+
       - name: Setup steamguard maFiles
         run: |
           MAFILES_DIR="$HOME/.config/steamguard-cli/maFiles"
           mkdir -p "$MAFILES_DIR"
- 
-          # Write manifest
+
           echo '${{ secrets.STEAM_MAFILE }}' > "$MAFILES_DIR/manifest.json"
- 
-          # Extract the account filename from the manifest and write the account maFile
+
           ACCOUNT_FILE=$(jq -r '.entries[0].filename' "$MAFILES_DIR/manifest.json")
           echo '${{ secrets.STEAM_MAFILE_ACCOUNT }}' > "$MAFILES_DIR/$ACCOUNT_FILE"
- 
+
       - name: Restore Steam session cache
         uses: actions/cache@v4
         with:
@@ -44,13 +47,13 @@ jobs:
           key: steam-session-${{ secrets.STEAM_USER }}-${{ github.run_id }}
           restore-keys: |
             steam-session-${{ secrets.STEAM_USER }}-
- 
+
       - name: Download data.pak
         run: |
           CODE=$(steamguard code)
- 
+
           echo "data.pak" > filelist.txt
- 
+
           DepotDownloader \
             -app 1149460 \
             -depot 1149461 \
@@ -60,7 +63,7 @@ jobs:
             -2fa "$CODE" \
             -filelist filelist.txt \
             -dir ./game_files
- 
+
       - name: Verify download
         run: |
           DATA_PAK=$(find ./game_files -name "data.pak" -print -quit)
@@ -70,23 +73,23 @@ jobs:
           fi
           echo "DATA_PAK_PATH=$DATA_PAK" >> "$GITHUB_ENV"
           ls -lh "$DATA_PAK"
- 
+
       - name: Checkout icarus-data repo
         uses: actions/checkout@v4
         with:
           repository: ${{ github.repository_owner }}/icarus-data
           token: ${{ secrets.ORG_PAT }}
           path: icarus-data
- 
+
       - name: Commit data.pak if changed
         id: commit
         run: |
           cp "$DATA_PAK_PATH" icarus-data/data.pak
           cd icarus-data
- 
+
           git config user.name "github-actions"
           git config user.email "actions@github.com"
- 
+
           if git diff --quiet -- data.pak 2>/dev/null; then
             echo "data.pak unchanged, skipping commit"
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -96,7 +99,7 @@ jobs:
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
- 
+
       - name: Dispatch to consumer repos
         if: steps.commit.outputs.changed == 'true'
         run: |
@@ -105,10 +108,10 @@ jobs:
             # "repo-a"
             # "repo-b"
           )
- 
+
           OWNER="${{ github.repository_owner }}"
           SHA=$(cd icarus-data && git rev-parse HEAD)
- 
+
           for REPO in "${REPOS[@]}"; do
             echo "Dispatching to $OWNER/$REPO"
             gh api "/repos/$OWNER/$REPO/dispatches" \
@@ -117,7 +120,7 @@ jobs:
           done
         env:
           GH_TOKEN: ${{ secrets.ORG_PAT }}
- 
+
       - name: Cleanup
         if: always()
         run: |
