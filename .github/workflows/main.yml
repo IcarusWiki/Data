@@ -5,6 +5,9 @@ on:
     - cron: '0 0 * * 6' # Saturday 00:00 UTC
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 env:
   DD_VERSION: "3.4.0"
   STEAMGUARD_VERSION: "0.17.1"
@@ -12,7 +15,13 @@ env:
 jobs:
   download-and-publish:
     runs-on: ubuntu-latest
+
     steps:
+      - name: Checkout current repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Install DepotDownloader
         run: |
           curl -sSL "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_${DD_VERSION}/DepotDownloader-linux-x64.zip" \
@@ -21,6 +30,7 @@ jobs:
           unzip depotdownloader.zip -d "$HOME/.local/bin/depotdownloader"
           chmod +x "$HOME/.local/bin/depotdownloader/DepotDownloader"
           echo "$HOME/.local/bin/depotdownloader" >> "$GITHUB_PATH"
+          rm -f depotdownloader.zip
 
       - name: Install steamguard-cli
         run: |
@@ -36,30 +46,34 @@ jobs:
           MAFILES_DIR="$HOME/.config/steamguard-cli/maFiles"
           mkdir -p "$MAFILES_DIR"
           chmod 700 "$HOME/.config/steamguard-cli" "$MAFILES_DIR"
-      
+
           printf '%s' "$STEAM_MAFILE_JSON" > "$MAFILES_DIR/manifest.json"
-      
+
           ACCOUNT_FILE="$(jq -r '.entries[0].filename' "$MAFILES_DIR/manifest.json")"
           ACCOUNT_FILE="$(basename "$ACCOUNT_FILE")"
-      
+
           printf '%s' "$STEAM_MAFILE_ACCOUNT_JSON" > "$MAFILES_DIR/$ACCOUNT_FILE"
           chmod 600 "$MAFILES_DIR/manifest.json" "$MAFILES_DIR/$ACCOUNT_FILE"
 
       - name: Restore DepotDownloader auth cache
         uses: actions/cache@v4
         with:
-          path: account.config
+          path: ${{ runner.temp }}/depotdownloader/account.config
           key: depotdownloader-auth-${{ secrets.STEAM_USER }}-${{ github.run_id }}
           restore-keys: |
             depotdownloader-auth-${{ secrets.STEAM_USER }}-
 
       - name: Clean previous partial download
-        run: rm -rf ./game_files
+        run: |
+          rm -rf ./game_files
+          rm -f ./filelist.txt
 
       - name: Download data.pak
         timeout-minutes: 20
         run: |
           echo 'regex:^Icarus/Content/Data/data\.pak$' > filelist.txt
+
+          mkdir -p "${{ runner.temp }}/depotdownloader"
 
           (
             while true; do
@@ -72,6 +86,8 @@ jobs:
 
           CODE="$(steamguard code)"
 
+          cd "${{ runner.temp }}/depotdownloader"
+
           printf '%s\n' "$CODE" | DepotDownloader \
             -app 1149460 \
             -depot 1149461 \
@@ -79,8 +95,8 @@ jobs:
             -password "${{ secrets.STEAM_PASS }}" \
             -remember-password \
             -no-mobile \
-            -filelist filelist.txt \
-            -dir ./game_files \
+            -filelist "$GITHUB_WORKSPACE/filelist.txt" \
+            -dir "$GITHUB_WORKSPACE/game_files" \
             -validate \
             -debug
 
@@ -89,24 +105,16 @@ jobs:
           DATA_PAK="./game_files/Icarus/Content/Data/data.pak"
           if [ ! -f "$DATA_PAK" ]; then
             echo "::error::data.pak not found in download"
-            find ./game_files -maxdepth 6 -type f | sort
+            find ./game_files -maxdepth 6 -type f | sort || true
             exit 1
           fi
           echo "DATA_PAK_PATH=$DATA_PAK" >> "$GITHUB_ENV"
           ls -lh "$DATA_PAK"
 
-      - name: Checkout icarus-data repo
-        uses: actions/checkout@v4
-        with:
-          repository: ${{ github.repository_owner }}/icarus-data
-          token: ${{ secrets.ORG_PAT }}
-          path: icarus-data
-
       - name: Commit data.pak if changed
         id: commit
         run: |
-          cp "$DATA_PAK_PATH" icarus-data/data.pak
-          cd icarus-data
+          cp "$DATA_PAK_PATH" ./data.pak
 
           git config user.name "github-actions"
           git config user.email "actions@github.com"
@@ -131,7 +139,7 @@ jobs:
           )
 
           OWNER="${{ github.repository_owner }}"
-          SHA=$(cd icarus-data && git rev-parse HEAD)
+          SHA=$(git rev-parse HEAD)
 
           for REPO in "${REPOS[@]}"; do
             echo "Dispatching to $OWNER/$REPO"
@@ -146,5 +154,5 @@ jobs:
         if: always()
         run: |
           rm -rf ./game_files
-          rm -f filelist.txt
+          rm -f ./filelist.txt
           rm -rf "$HOME/.config/steamguard-cli"
