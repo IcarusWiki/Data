@@ -16,24 +16,29 @@ env:
 jobs:
   download-and-publish:
     runs-on: windows-latest   # Windows for Oodle DLL compatibility with pyuepak
+    timeout-minutes: 9        # Hard cap for the entire job
 
     steps:
       - name: Checkout current repo
+        timeout-minutes: 1
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       # Python for pak extraction
       - name: Set up Python
+        timeout-minutes: 1
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Install Python dependencies
-        run: pip install pyuepak cryptography
+        timeout-minutes: 1
+        run: pip install pyuepak
 
       # Steam tooling
       - name: Install DepotDownloader
+        timeout-minutes: 1
         shell: bash
         run: |
           curl -sSL "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_${DD_VERSION}/DepotDownloader-windows-x64.zip" \
@@ -44,6 +49,7 @@ jobs:
           rm -f depotdownloader.zip
 
       - name: Install steamguard-cli
+        timeout-minutes: 1
         shell: bash
         run: |
           curl -sSL "https://github.com/dyc3/steamguard-cli/releases/download/v${STEAMGUARD_VERSION}/steamguard.exe" \
@@ -71,7 +77,7 @@ jobs:
           rm -rf "$RUNNER_TEMP/depotdownloader"
 
       - name: Download data.pak
-        timeout-minutes: 20
+        timeout-minutes: 1
         shell: bash
         run: |
           echo 'regex:^Icarus/Content/Data/data\.pak$' > filelist.txt
@@ -111,6 +117,7 @@ jobs:
 
       # Extract pak into InGameFiles
       - name: Extract data.pak
+        timeout-minutes: 3
         shell: bash
         run: |
           python scripts/extract_pak.py \
@@ -129,6 +136,7 @@ jobs:
 
       # Commit extracted files
       - name: Commit InGameFiles if changed
+        timeout-minutes: 2
         id: commit
         shell: bash
         run: |
