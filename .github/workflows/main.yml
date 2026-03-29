@@ -38,21 +38,22 @@ jobs:
           ACCOUNT_FILE=$(jq -r '.entries[0].filename' "$MAFILES_DIR/manifest.json")
           echo '${{ secrets.STEAM_MAFILE_ACCOUNT }}' > "$MAFILES_DIR/$ACCOUNT_FILE"
 
-      - name: Restore Steam session cache
+      - name: Restore DepotDownloader auth cache
         uses: actions/cache@v4
         with:
-          path: |
-            ~/.local/share/IsolatedStorage
-            ~/.steam/sentry
-          key: steam-session-${{ secrets.STEAM_USER }}-${{ github.run_id }}
+          path: account.config
+          key: depotdownloader-auth-${{ secrets.STEAM_USER }}-${{ github.run_id }}
           restore-keys: |
-            steam-session-${{ secrets.STEAM_USER }}-
+            depotdownloader-auth-${{ secrets.STEAM_USER }}-
+
+      - name: Clean previous partial download
+        run: rm -rf ./game_files
 
       - name: Download data.pak
         timeout-minutes: 20
         run: |
           echo 'regex:^Icarus/Content/Data/data\.pak$' > filelist.txt
-      
+
           (
             while true; do
               steamguard approve --dangerously-approve-all >/dev/null 2>&1 || true
@@ -61,17 +62,16 @@ jobs:
           ) &
           APPROVER_PID=$!
           trap 'kill "$APPROVER_PID" 2>/dev/null || true' EXIT
-      
-          CODE=$(steamguard code)
-      
-          DepotDownloader \
+
+          CODE="$(steamguard code)"
+
+          printf '%s\n' "$CODE" | DepotDownloader \
             -app 1149460 \
             -depot 1149461 \
             -username "${{ secrets.STEAM_USER }}" \
             -password "${{ secrets.STEAM_PASS }}" \
             -remember-password \
             -no-mobile \
-            -2fa "$CODE" \
             -filelist filelist.txt \
             -dir ./game_files \
             -validate \
@@ -87,7 +87,7 @@ jobs:
           fi
           echo "DATA_PAK_PATH=$DATA_PAK" >> "$GITHUB_ENV"
           ls -lh "$DATA_PAK"
-  
+
       - name: Checkout icarus-data repo
         uses: actions/checkout@v4
         with:
