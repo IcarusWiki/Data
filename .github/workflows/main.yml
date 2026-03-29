@@ -30,7 +30,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install Python dependencies
-        run: pip install pyuepak
+        run: pip install pyuepak cryptography
 
       # Steam tooling
       - name: Install DepotDownloader
