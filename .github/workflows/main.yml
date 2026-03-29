@@ -1,8 +1,8 @@
 name: Check Icarus Update
 
 on:
-  schedule:
-    - cron: '0 0 * * 6' # Saturday 00:00 UTC
+  #schedule:
+  #  - cron: '0 0 * * 6' # Saturday 00:00 UTC
   workflow_dispatch:
 
 permissions:
@@ -15,7 +15,7 @@ env:
 
 jobs:
   download-and-publish:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest   # Windows for Oodle DLL compatibility with pyuepak
 
     steps:
       - name: Checkout current repo
@@ -23,40 +23,48 @@ jobs:
         with:
           fetch-depth: 0
 
+      # Python for pak extraction
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install pyuepak
+
+      # Steam tooling
       - name: Install DepotDownloader
+        shell: bash
         run: |
-          curl -sSL "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_${DD_VERSION}/DepotDownloader-linux-x64.zip" \
+          curl -sSL "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_${DD_VERSION}/DepotDownloader-windows-x64.zip" \
             -o depotdownloader.zip
           mkdir -p "$HOME/.local/bin/depotdownloader"
           unzip depotdownloader.zip -d "$HOME/.local/bin/depotdownloader"
-          chmod +x "$HOME/.local/bin/depotdownloader/DepotDownloader"
           echo "$HOME/.local/bin/depotdownloader" >> "$GITHUB_PATH"
           rm -f depotdownloader.zip
 
       - name: Install steamguard-cli
+        shell: bash
         run: |
-          curl -sSL "https://github.com/dyc3/steamguard-cli/releases/download/v${STEAMGUARD_VERSION}/steamguard" \
-            -o /usr/local/bin/steamguard
-          chmod +x /usr/local/bin/steamguard
+          curl -sSL "https://github.com/dyc3/steamguard-cli/releases/download/v${STEAMGUARD_VERSION}/steamguard.exe" \
+            -o "$HOME/.local/bin/depotdownloader/steamguard.exe"
 
       - name: Setup steamguard maFiles
+        shell: bash
         env:
           STEAM_MAFILE_JSON: ${{ secrets.STEAM_MAFILE }}
           STEAM_MAFILE_ACCOUNT_JSON: ${{ secrets.STEAM_MAFILE_ACCOUNT }}
         run: |
-          MAFILES_DIR="$HOME/.config/steamguard-cli/maFiles"
+          MAFILES_DIR="$APPDATA/steamguard-cli/maFiles"
           mkdir -p "$MAFILES_DIR"
-          chmod 700 "$HOME/.config/steamguard-cli" "$MAFILES_DIR"
-
           printf '%s' "$STEAM_MAFILE_JSON" > "$MAFILES_DIR/manifest.json"
-
           ACCOUNT_FILE="$(jq -r '.entries[0].filename' "$MAFILES_DIR/manifest.json")"
           ACCOUNT_FILE="$(basename "$ACCOUNT_FILE")"
-
           printf '%s' "$STEAM_MAFILE_ACCOUNT_JSON" > "$MAFILES_DIR/$ACCOUNT_FILE"
-          chmod 600 "$MAFILES_DIR/manifest.json" "$MAFILES_DIR/$ACCOUNT_FILE"
 
+      # Download data.pak from Steam
       - name: Clean previous partial download
+        shell: bash
         run: |
           rm -rf ./game_files
           rm -f ./filelist.txt
@@ -64,10 +72,10 @@ jobs:
 
       - name: Download data.pak
         timeout-minutes: 20
+        shell: bash
         run: |
           echo 'regex:^Icarus/Content/Data/data\.pak$' > filelist.txt
           mkdir -p "$RUNNER_TEMP/depotdownloader"
-
           (
             while true; do
               steamguard approve --dangerously-approve-all >/dev/null 2>&1 || true
@@ -76,11 +84,8 @@ jobs:
           ) &
           APPROVER_PID=$!
           trap 'kill "$APPROVER_PID" 2>/dev/null || true' EXIT
-
           CODE="$(steamguard code)"
-
           cd "$RUNNER_TEMP/depotdownloader"
-
           printf '%s\n' "$CODE" | DepotDownloader \
             -app 1149460 \
             -depot 1149461 \
@@ -93,6 +98,7 @@ jobs:
             -validate
 
       - name: Verify download
+        shell: bash
         run: |
           DATA_PAK="./game_files/Icarus/Content/Data/data.pak"
           if [ ! -f "$DATA_PAK" ]; then
@@ -103,37 +109,53 @@ jobs:
           echo "DATA_PAK_PATH=$DATA_PAK" >> "$GITHUB_ENV"
           ls -lh "$DATA_PAK"
 
-      - name: Commit data.pak if changed
-        id: commit
+      # Extract pak into InGameFiles
+      - name: Extract data.pak
+        shell: bash
         run: |
-          cp "$DATA_PAK_PATH" ./data.pak
+          python scripts/extract_pak.py \
+            --pak "$DATA_PAK_PATH" \
+            --out ./InGameFiles
 
+      - name: Verify extraction
+        shell: bash
+        run: |
+          FILE_COUNT=$(find ./InGameFiles -type f | wc -l)
+          echo "Extracted $FILE_COUNT files"
+          if [ "$FILE_COUNT" -eq 0 ]; then
+            echo "::error::Extraction produced no files"
+            exit 1
+          fi
+
+      # Commit extracted files
+      - name: Commit InGameFiles if changed
+        id: commit
+        shell: bash
+        run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-
-          git add data.pak
-
-          if git diff --cached --quiet -- data.pak; then
-            echo "data.pak unchanged, skipping commit"
+          git add InGameFiles/
+          if git diff --cached --quiet -- InGameFiles/; then
+            echo "InGameFiles unchanged, skipping commit"
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "Update data.pak ($(date -u +%Y-%m-%d))"
+            git commit -m "Update InGameFiles ($(date -u +%Y-%m-%d))"
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
+      # Notify downstream repos
       - name: Dispatch to consumer repos
         if: steps.commit.outputs.changed == 'true'
+        shell: bash
         run: |
           REPOS=(
             # Add your consumer repos here, one per line:
             # "repo-a"
             # "repo-b"
           )
-
           OWNER="${{ github.repository_owner }}"
           SHA=$(git rev-parse HEAD)
-
           for REPO in "${REPOS[@]}"; do
             echo "Dispatching to $OWNER/$REPO"
             gh api "/repos/$OWNER/$REPO/dispatches" \
@@ -143,10 +165,12 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.ORG_PAT }}
 
+      # Cleanup
       - name: Cleanup
         if: always()
+        shell: bash
         run: |
           rm -rf ./game_files
           rm -f ./filelist.txt
           rm -rf "$RUNNER_TEMP/depotdownloader"
-          rm -rf "$HOME/.config/steamguard-cli"
+          rm -rf "$APPDATA/steamguard-cli" 2>/dev/null || true
