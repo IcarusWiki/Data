@@ -1,0 +1,121 @@
+name: Poll Icarus Update
+
+on:
+  #schedule:
+  #  - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+permissions:
+  actions: read
+
+env:
+  STEAM_APP_ID: "1149460"
+  HEAVY_WORKFLOW: "process-icarus-data.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    steps:
+      - name: Install SteamCMD
+        run: |
+          sudo dpkg --add-architecture i386
+          echo steam steam/question select "I AGREE" | sudo debconf-set-selections
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq steamcmd
+
+      - name: Get current build ID
+        id: steam
+        run: |
+          # SteamCMD often needs two passes to populate the info cache
+          steamcmd +login anonymous \
+            +app_info_update 1 \
+            +app_info_print "$STEAM_APP_ID" \
+            +quit > /dev/null 2>&1 || true
+
+          steamcmd +login anonymous \
+            +app_info_update 1 \
+            +app_info_print "$STEAM_APP_ID" \
+            +quit > app_info.txt 2>&1 || true
+
+          # Extract the public branch buildid
+          BUILD_ID=$(
+            sed -n '/"branches"/,/^[[:space:]]*}/{
+              /"public"/,/}/{
+                /"buildid"/{
+                  s/.*"buildid"[[:space:]]*"\([0-9]*\)".*/\1/p
+                  q
+                }
+              }
+            }' app_info.txt
+          )
+
+          if [ -z "$BUILD_ID" ]; then
+            echo "::error::Failed to parse build ID from SteamCMD output"
+            cat app_info.txt
+            exit 1
+          fi
+
+          echo "build_id=$BUILD_ID" >> "$GITHUB_OUTPUT"
+          echo "Current build ID: $BUILD_ID"
+
+      - name: Compare with stored build ID
+        id: compare
+        env:
+          CURRENT: ${{ steps.steam.outputs.build_id }}
+          STORED: ${{ vars.ICARUS_BUILD_ID }}
+        run: |
+          if [ "$CURRENT" = "$STORED" ]; then
+            echo "Build ID unchanged ($CURRENT)"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Build ID changed: ${STORED:-<unset>} -> $CURRENT"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check for active processing runs
+        if: steps.compare.outputs.changed == 'true'
+        id: active
+        env:
+          GH_TOKEN: ${{ secrets.ORG_PAT }}
+        run: |
+          RUNNING=$(
+            gh api \
+              "/repos/${{ github.repository }}/actions/workflows/$HEAVY_WORKFLOW/runs" \
+              -f status=in_progress -f per_page=1 \
+              --jq '.total_count'
+          )
+          QUEUED=$(
+            gh api \
+              "/repos/${{ github.repository }}/actions/workflows/$HEAVY_WORKFLOW/runs" \
+              -f status=queued -f per_page=1 \
+              --jq '.total_count'
+          )
+
+          TOTAL=$((RUNNING + QUEUED))
+          echo "Active/queued heavy runs: $TOTAL"
+
+          if [ "$TOTAL" -gt 0 ]; then
+            echo "Heavy workflow already in progress, will retry next poll"
+            echo "busy=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "busy=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Dispatch heavy workflow
+        if: steps.compare.outputs.changed == 'true' && steps.active.outputs.busy == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.ORG_PAT }}
+        run: |
+          gh workflow run "$HEAVY_WORKFLOW"
+          echo "Dispatched $HEAVY_WORKFLOW"
+
+      - name: Update stored build ID
+        if: steps.compare.outputs.changed == 'true' && steps.active.outputs.busy == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.ORG_PAT }}
+        run: |
+          gh variable set ICARUS_BUILD_ID \
+            --body "${{ steps.steam.outputs.build_id }}"
+          echo "Stored build ID updated to ${{ steps.steam.outputs.build_id }}"
