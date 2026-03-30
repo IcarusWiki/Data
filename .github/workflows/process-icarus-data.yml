@@ -1,8 +1,6 @@
-name: Check Icarus Update
+name: Process Icarus Data
 
 on:
-  # schedule:
-  #   - cron: '0 0 * * 6' # Saturday 00:00 UTC
   workflow_dispatch:
 
 concurrency:
