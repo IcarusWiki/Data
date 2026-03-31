@@ -55,11 +55,6 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         help="Optional path to the GITHUB_OUTPUT file.",
     )
-    parser.add_argument(
-        "--debug",
-        action="store_true",
-        help="Print details about discovered manifest files and matching candidates.",
-    )
     return parser.parse_args()
 
 
@@ -256,80 +251,7 @@ def normalize_pak_path(path_text: str) -> str:
     return normalized
 
 
-def debug_print_file_inventory(root: Path) -> None:
-    print(f"Debug: manifest root = {root}")
-    files: list[Path] = []
-    for candidate in sorted(root.rglob("*")):
-        if candidate.is_file():
-            files.append(candidate)
-
-    print(f"Debug: total files under manifest root = {len(files)}")
-    for candidate in files[:50]:
-        try:
-            size = candidate.stat().st_size
-        except OSError:
-            size = -1
-        rel_path = candidate.relative_to(root).as_posix()
-        print(f"Debug: file {rel_path} ({size} bytes)")
-
-
-def debug_print_manifest_previews(root: Path, manifest_text_files: list[Path]) -> None:
-    if manifest_text_files:
-        print(f"Debug: manifest text files found = {len(manifest_text_files)}")
-    else:
-        print("Debug: no manifest_*.txt files found")
-
-    for candidate in manifest_text_files[:5]:
-        rel_path = candidate.relative_to(root).as_posix()
-        print(f"Debug: preview of {rel_path}")
-        try:
-            shown = 0
-            with candidate.open("r", encoding="utf-8", errors="replace") as handle:
-                for line in handle:
-                    print(f"Debug:   {line.rstrip()}")
-                    shown += 1
-                    if shown >= 20:
-                        break
-            if shown == 0:
-                print("Debug:   <empty file>")
-        except OSError as exc:
-            print(f"Debug:   <unable to read: {exc}>")
-
-
-def debug_print_binary_matches(root: Path) -> None:
-    print("Debug: scanning small files for fallback binary/text regex matches")
-    shown_files = 0
-    for candidate in sorted(root.rglob("*")):
-        if not candidate.is_file():
-            continue
-        try:
-            size = candidate.stat().st_size
-        except OSError:
-            continue
-        if size > 2 * 1024 * 1024:
-            continue
-        try:
-            payload = candidate.read_bytes()
-        except OSError:
-            continue
-        matches = []
-        for match in PAK_PATTERN.findall(payload):
-            path_text = match.decode("utf-8", errors="replace")
-            if any(char in path_text for char in "*?[]"):
-                continue
-            matches.append(path_text)
-        if not matches:
-            continue
-        rel_path = candidate.relative_to(root).as_posix()
-        print(f"Debug: regex matches from {rel_path}")
-        for path_text in matches[:10]:
-            print(f"Debug:   {path_text}")
-        shown_files += 1
-        if shown_files >= 10:
-            break
-
-
-def discover_paks(manifest_root: Path, *, debug: bool) -> list[str]:
+def discover_paks(manifest_root: Path) -> list[str]:
     root = resolve_user_path(manifest_root)
     if not root.is_dir():
         fail(f"Manifest root not found: {root}")
@@ -340,10 +262,6 @@ def discover_paks(manifest_root: Path, *, debug: bool) -> list[str]:
         for candidate in root.rglob("*")
         if candidate.is_file() and MANIFEST_TEXT_PATTERN.fullmatch(candidate.name)
     )
-
-    if debug:
-        debug_print_file_inventory(root)
-        debug_print_manifest_previews(root, manifest_text_files)
 
     for candidate in manifest_text_files:
         try:
@@ -362,9 +280,6 @@ def discover_paks(manifest_root: Path, *, debug: bool) -> list[str]:
 
     if discovered:
         return sorted(discovered)
-
-    if debug:
-        print("Debug: no pak paths found in manifest text files; trying fallback scan")
 
     for candidate in root.rglob("*"):
         if not candidate.is_file():
@@ -386,8 +301,6 @@ def discover_paks(manifest_root: Path, *, debug: bool) -> list[str]:
             discovered.add(path_text)
 
     if not discovered:
-        if debug:
-            debug_print_binary_matches(root)
         fail(
             "No pak paths were discovered in the DepotDownloader manifest output. "
             "Check the manifest-only step and parsing regex."
@@ -450,7 +363,7 @@ def write_github_output(path: Path, matrix: dict[str, Any]) -> None:
 def main() -> None:
     args = parse_args()
     rules = load_rules(args.rules)
-    discovered_paks = discover_paks(args.manifest_root, debug=args.debug)
+    discovered_paks = discover_paks(args.manifest_root)
     matrix = build_matrix(discovered_paks, rules)
 
     print(f"Discovered {matrix['discovered_count']} pak files.")
