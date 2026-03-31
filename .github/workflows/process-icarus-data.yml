@@ -342,6 +342,26 @@ jobs:
             exit 1
           fi
 
+      - name: Inspect depot manifest output
+        run: |
+          RUNNER_TEMP_UNIX="$(cygpath -u "$RUNNER_TEMP")"
+          MANIFEST_DIR="$RUNNER_TEMP_UNIX/depot-manifest"
+
+          echo "Manifest directory: $MANIFEST_DIR"
+          echo "Top-level entries:"
+          find "$MANIFEST_DIR" -maxdepth 2 -mindepth 1 -printf '%y %p\n' | sort || true
+
+          echo "Files with sizes:"
+          find "$MANIFEST_DIR" -type f -printf '%s %p\n' | sort -n || true
+
+          echo "Manifest text files:"
+          find "$MANIFEST_DIR" -type f \( -name 'manifest_*.txt' -o -name '*.log' \) -print | sort || true
+
+          for FILE in $(find "$MANIFEST_DIR" -type f \( -name 'manifest_*.txt' -o -name '*.log' \) | sort | head -n 5); do
+            echo "===== Preview: $FILE ====="
+            sed -n '1,40p' "$FILE" || true
+          done
+
       - name: Build pak matrix
         id: build_matrix
         run: |
@@ -349,6 +369,7 @@ jobs:
           python scripts/build_pak_matrix.py \
             --manifest-root "$RUNNER_TEMP_UNIX/depot-manifest" \
             --rules ".github/icarus-pak-processors.yml" \
+            --debug \
             --github-output "$GITHUB_OUTPUT"
 
       - name: Report matrix summary
