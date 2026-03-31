@@ -224,3 +224,242 @@ jobs:
           rm -rf "$RUNNER_TEMP_UNIX/depotdownloader"
           rm -rf "$RUNNER_TEMP_UNIX/InGameFiles.new"
           rm -rf "$APPDATA_UNIX/steamguard-cli" 2>/dev/null || true
+
+  discover_content_paks:
+    needs: download-and-publish
+    runs-on: windows-latest
+    timeout-minutes: 15
+
+    defaults:
+      run:
+        shell: bash
+
+    outputs:
+      matrix: ${{ steps.build_matrix.outputs.matrix }}
+      discovered_count: ${{ steps.build_matrix.outputs.discovered_count }}
+      scheduled_count: ${{ steps.build_matrix.outputs.scheduled_count }}
+
+    steps:
+      - name: Checkout current repo
+        timeout-minutes: 1
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        timeout-minutes: 1
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        timeout-minutes: 1
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml==6.0.3
+
+      - name: Install Steam tools
+        id: steamtools
+        timeout-minutes: 1
+        run: |
+          RUNNER_TEMP_UNIX="$(cygpath -u "$RUNNER_TEMP")"
+          TOOL_DIR="$RUNNER_TEMP_UNIX/steam-tools"
+          mkdir -p "$TOOL_DIR"
+
+          curl -sSL "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_${DD_VERSION}/DepotDownloader-windows-x64.zip" \
+            -o "$TOOL_DIR/depotdownloader.zip"
+          unzip -o "$TOOL_DIR/depotdownloader.zip" -d "$TOOL_DIR"
+          rm -f "$TOOL_DIR/depotdownloader.zip"
+
+          curl -sSL "https://github.com/dyc3/steamguard-cli/releases/download/v${STEAMGUARD_VERSION}/steamguard.exe" \
+            -o "$TOOL_DIR/steamguard.exe"
+          chmod +x "$TOOL_DIR/steamguard.exe"
+
+          echo "tool_dir=$TOOL_DIR" >> "$GITHUB_OUTPUT"
+
+      - name: Setup steamguard maFiles
+        env:
+          STEAM_MAFILE_JSON: ${{ secrets.STEAM_MAFILE }}
+          STEAM_MAFILE_ACCOUNT_JSON: ${{ secrets.STEAM_MAFILE_ACCOUNT }}
+        run: |
+          APPDATA_UNIX="$(cygpath -u "$APPDATA")"
+          MAFILES_DIR="$APPDATA_UNIX/steamguard-cli/maFiles"
+
+          mkdir -p "$MAFILES_DIR"
+          chmod 700 "$APPDATA_UNIX/steamguard-cli" "$MAFILES_DIR" || true
+
+          printf '%s' "$STEAM_MAFILE_JSON" > "$MAFILES_DIR/manifest.json"
+
+          ACCOUNT_FILE="$(jq -r '.entries[0].filename' "$MAFILES_DIR/manifest.json")"
+          ACCOUNT_FILE="$(basename "$ACCOUNT_FILE")"
+
+          printf '%s' "$STEAM_MAFILE_ACCOUNT_JSON" > "$MAFILES_DIR/$ACCOUNT_FILE"
+          chmod 600 "$MAFILES_DIR/manifest.json" "$MAFILES_DIR/$ACCOUNT_FILE" || true
+
+      - name: Download depot manifest only
+        timeout-minutes: 6
+        env:
+          STEAM_USER: ${{ secrets.STEAM_USER }}
+          STEAM_PASS: ${{ secrets.STEAM_PASS }}
+        run: |
+          RUNNER_TEMP_UNIX="$(cygpath -u "$RUNNER_TEMP")"
+          TOOL_DIR="${{ steps.steamtools.outputs.tool_dir }}"
+          MANIFEST_DIR="$RUNNER_TEMP_UNIX/depot-manifest"
+          DEPOT_WORK_DIR="$MANIFEST_DIR/depotdownloader"
+
+          rm -rf "$MANIFEST_DIR"
+          mkdir -p "$DEPOT_WORK_DIR"
+
+          attempts=0
+          max_attempts=12
+
+          (
+            while [ "$attempts" -lt "$max_attempts" ]; do
+              if ! "$TOOL_DIR/steamguard.exe" approve --dangerously-approve-all >/dev/null 2>&1; then
+                echo "::warning::steamguard approve failed on attempt $((attempts + 1))"
+              fi
+              attempts=$((attempts + 1))
+              sleep 5
+            done
+          ) &
+          APPROVER_PID=$!
+          trap 'kill "$APPROVER_PID" 2>/dev/null || true' EXIT
+
+          CODE="$("$TOOL_DIR/steamguard.exe" code)"
+          LOG_FILE="$MANIFEST_DIR/depot-manifest.log"
+
+          cd "$DEPOT_WORK_DIR"
+
+          if ! printf '%s\n%s\n' "$STEAM_PASS" "$CODE" | "$TOOL_DIR/DepotDownloader.exe" \
+            -app "$STEAM_APP_ID" \
+            -depot "$STEAM_DEPOT_ID" \
+            -username "$STEAM_USER" \
+            -remember-password \
+            -no-mobile \
+            -dir "$MANIFEST_DIR" \
+            -manifest-only >"$LOG_FILE" 2>&1; then
+            cat "$LOG_FILE"
+            exit 1
+          fi
+
+      - name: Build pak matrix
+        id: build_matrix
+        run: |
+          RUNNER_TEMP_UNIX="$(cygpath -u "$RUNNER_TEMP")"
+          python scripts/build_pak_matrix.py \
+            --manifest-root "$RUNNER_TEMP_UNIX/depot-manifest" \
+            --rules ".github/icarus-pak-processors.yml" \
+            --github-output "$GITHUB_OUTPUT"
+
+      - name: Report matrix summary
+        run: |
+          echo "Discovered paks: ${{ steps.build_matrix.outputs.discovered_count }}"
+          echo "Scheduled pak jobs: ${{ steps.build_matrix.outputs.scheduled_count }}"
+
+      - name: Cleanup
+        if: always()
+        run: |
+          RUNNER_TEMP_UNIX="$(cygpath -u "$RUNNER_TEMP")"
+          APPDATA_UNIX="$(cygpath -u "$APPDATA")"
+
+          rm -rf "$RUNNER_TEMP_UNIX/depot-manifest"
+          rm -rf "$RUNNER_TEMP_UNIX/steam-tools"
+          rm -rf "$APPDATA_UNIX/steamguard-cli" 2>/dev/null || true
+
+  process_content_paks:
+    needs: discover_content_paks
+    if: needs.discover_content_paks.outputs.scheduled_count != '0'
+    runs-on: windows-latest
+    timeout-minutes: 150
+
+    strategy:
+      fail-fast: true
+      max-parallel: 1
+      matrix: ${{ fromJSON(needs.discover_content_paks.outputs.matrix) }}
+
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Checkout current repo
+        timeout-minutes: 1
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        timeout-minutes: 1
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        timeout-minutes: 2
+        run: |
+          python -m pip install --upgrade pip
+          pip install \
+            pyuepak==0.2.6.2 \
+            cryptography==46.0.6 \
+            pyyaml==6.0.3
+
+      - name: Install Steam tools
+        id: steamtools
+        timeout-minutes: 1
+        run: |
+          RUNNER_TEMP_UNIX="$(cygpath -u "$RUNNER_TEMP")"
+          TOOL_DIR="$RUNNER_TEMP_UNIX/steam-tools"
+          mkdir -p "$TOOL_DIR"
+
+          curl -sSL "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_${DD_VERSION}/DepotDownloader-windows-x64.zip" \
+            -o "$TOOL_DIR/depotdownloader.zip"
+          unzip -o "$TOOL_DIR/depotdownloader.zip" -d "$TOOL_DIR"
+          rm -f "$TOOL_DIR/depotdownloader.zip"
+
+          curl -sSL "https://github.com/dyc3/steamguard-cli/releases/download/v${STEAMGUARD_VERSION}/steamguard.exe" \
+            -o "$TOOL_DIR/steamguard.exe"
+          chmod +x "$TOOL_DIR/steamguard.exe"
+
+          echo "tool_dir=$TOOL_DIR" >> "$GITHUB_OUTPUT"
+
+      - name: Setup steamguard maFiles
+        env:
+          STEAM_MAFILE_JSON: ${{ secrets.STEAM_MAFILE }}
+          STEAM_MAFILE_ACCOUNT_JSON: ${{ secrets.STEAM_MAFILE_ACCOUNT }}
+        run: |
+          APPDATA_UNIX="$(cygpath -u "$APPDATA")"
+          MAFILES_DIR="$APPDATA_UNIX/steamguard-cli/maFiles"
+
+          mkdir -p "$MAFILES_DIR"
+          chmod 700 "$APPDATA_UNIX/steamguard-cli" "$MAFILES_DIR" || true
+
+          printf '%s' "$STEAM_MAFILE_JSON" > "$MAFILES_DIR/manifest.json"
+
+          ACCOUNT_FILE="$(jq -r '.entries[0].filename' "$MAFILES_DIR/manifest.json")"
+          ACCOUNT_FILE="$(basename "$ACCOUNT_FILE")"
+
+          printf '%s' "$STEAM_MAFILE_ACCOUNT_JSON" > "$MAFILES_DIR/$ACCOUNT_FILE"
+          chmod 600 "$MAFILES_DIR/manifest.json" "$MAFILES_DIR/$ACCOUNT_FILE" || true
+
+      - name: Process current pak
+        uses: ./.github/actions/process-pak
+        env:
+          STEAM_USER: ${{ secrets.STEAM_USER }}
+          STEAM_PASS: ${{ secrets.STEAM_PASS }}
+        with:
+          pak-path: ${{ matrix.pak_path }}
+          pak-name: ${{ matrix.pak_name }}
+          processors-json: ${{ matrix.processors_json }}
+          pak-timeout-minutes: ${{ matrix.pak_timeout_minutes }}
+          tool-dir: ${{ steps.steamtools.outputs.tool_dir }}
+          work-root: ${{ runner.temp }}/pak-work/${{ matrix.pak_name }}
+
+      - name: Cleanup
+        if: always()
+        run: |
+          RUNNER_TEMP_UNIX="$(cygpath -u "$RUNNER_TEMP")"
+          APPDATA_UNIX="$(cygpath -u "$APPDATA")"
+
+          rm -rf "$RUNNER_TEMP_UNIX/steam-tools"
+          rm -rf "$RUNNER_TEMP_UNIX/pak-work"
+          rm -rf "$APPDATA_UNIX/steamguard-cli" 2>/dev/null || true

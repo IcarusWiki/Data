@@ -1,0 +1,40 @@
+# Rules for processing dynamically discovered files under Icarus/Content/Paks/.
+#
+# run_on_all:
+#   Processors that should run for every discovered pak.
+#
+# targeted:
+#   Additional processors that only run when include_globs match the
+#   depot-relative pak path. exclude_globs can be used to suppress a rule.
+#
+# Example:
+# run_on_all:
+#   - id: example-global
+#     repo: owner/repo
+#     ref: main
+#     workdir: .
+#     command: ./scripts/process-all.sh
+#     timeout_minutes: 20
+#
+# targeted:
+#   - id: example-subset
+#     include_globs:
+#       - Icarus/Content/Paks/pakchunk0_s2*-WindowsNoEditor.pak
+#     processors:
+#       - id: example-targeted
+#         repo: owner/repo
+#         ref: main
+#         workdir: .
+#         command: ./scripts/process-subset.sh
+#         timeout_minutes: 15
+
+version: 1
+
+defaults:
+  pak_timeout_minutes: 90
+  processor_timeout_minutes: 20
+  git_clone_depth: 1
+
+run_on_all: []
+
+targeted: []

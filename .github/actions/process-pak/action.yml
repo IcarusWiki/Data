@@ -1,0 +1,62 @@
+name: Process Pak
+description: Download, unpack, run processors against one pak, then clean up
+
+inputs:
+  pak-path:
+    description: Depot-relative pak path to download
+    required: true
+  pak-name:
+    description: Friendly pak name for logs and environment variables
+    required: true
+  processors-json:
+    description: JSON array of resolved processors for this pak
+    required: true
+  pak-timeout-minutes:
+    description: Overall timeout budget for this pak
+    required: true
+  tool-dir:
+    description: Directory containing DepotDownloader.exe and steamguard.exe
+    required: true
+  work-root:
+    description: Temporary work directory for this pak
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Prepare work root
+      id: prep
+      shell: bash
+      run: |
+        WORK_ROOT="${{ inputs.work-root }}"
+        mkdir -p "$WORK_ROOT"
+        echo "work_root=$WORK_ROOT" >> "$GITHUB_OUTPUT"
+
+    - name: Download, extract, and process pak
+      shell: bash
+      env:
+        PAK_PATH: ${{ inputs.pak-path }}
+        PAK_NAME: ${{ inputs.pak-name }}
+        PROCESSORS_JSON: ${{ inputs.processors-json }}
+        PAK_TIMEOUT_MINUTES: ${{ inputs.pak-timeout-minutes }}
+        TOOL_DIR: ${{ inputs.tool-dir }}
+        WORK_ROOT: ${{ steps.prep.outputs.work_root }}
+      run: |
+        python "$GITHUB_WORKSPACE/scripts/process_single_pak.py" \
+          --pak-path "$PAK_PATH" \
+          --pak-name "$PAK_NAME" \
+          --processors-json "$PROCESSORS_JSON" \
+          --pak-timeout-minutes "$PAK_TIMEOUT_MINUTES" \
+          --tool-dir "$TOOL_DIR" \
+          --work-root "$WORK_ROOT" \
+          --steam-app-id "$STEAM_APP_ID" \
+          --steam-depot-id "$STEAM_DEPOT_ID"
+
+    - name: Cleanup pak work root
+      if: always()
+      shell: bash
+      run: |
+        WORK_ROOT="${{ steps.prep.outputs.work_root }}"
+        if [ -n "$WORK_ROOT" ]; then
+          rm -rf "$WORK_ROOT"
+        fi
