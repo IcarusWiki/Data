@@ -19,6 +19,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 PAK_PATTERN = re.compile(rb"Icarus/Content/Paks/[^\r\n\x00\"']+?\.pak", re.IGNORECASE)
 REPO_PATTERN = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
+MANIFEST_TEXT_PATTERN = re.compile(r"^manifest_\d+_\d+\.txt$", re.IGNORECASE)
 
 
 def fail(message: str) -> "NoReturn":
@@ -242,6 +243,31 @@ def discover_paks(manifest_root: Path) -> list[str]:
         fail(f"Manifest root not found: {root}")
 
     discovered: set[str] = set()
+    manifest_text_files = sorted(
+        candidate
+        for candidate in root.rglob("*")
+        if candidate.is_file() and MANIFEST_TEXT_PATTERN.fullmatch(candidate.name)
+    )
+
+    for candidate in manifest_text_files:
+        try:
+            with candidate.open("r", encoding="utf-8", errors="replace") as handle:
+                for line in handle:
+                    marker = " Icarus/Content/Paks/"
+                    marker_index = line.find(marker)
+                    if marker_index == -1:
+                        continue
+                    pak_path = line[marker_index + 1 :].strip()
+                    if any(char in pak_path for char in "*?[]"):
+                        continue
+                    if pak_path.lower().endswith(".pak"):
+                        discovered.add(pak_path)
+        except OSError:
+            continue
+
+    if discovered:
+        return sorted(discovered)
+
     for candidate in root.rglob("*"):
         if not candidate.is_file():
             continue
