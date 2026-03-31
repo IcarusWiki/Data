@@ -17,9 +17,16 @@ from typing import Any
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-PAK_PATTERN = re.compile(rb"Icarus/Content/Paks/[^\r\n\x00\"']+?\.pak", re.IGNORECASE)
+PAK_PATTERN = re.compile(
+    rb"Icarus[\\/]+Content[\\/]+Paks[\\/]+[^\r\n\x00\"']+?\.pak",
+    re.IGNORECASE,
+)
 REPO_PATTERN = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
 MANIFEST_TEXT_PATTERN = re.compile(r"^manifest_\d+_\d+\.txt$", re.IGNORECASE)
+TEXT_PAK_PATTERN = re.compile(
+    r"Icarus[\\/]+Content[\\/]+Paks[\\/]+[^\r\n]+?\.pak",
+    re.IGNORECASE,
+)
 
 
 def fail(message: str) -> "NoReturn":
@@ -242,6 +249,13 @@ def load_rules(path: Path) -> dict[str, Any]:
     }
 
 
+def normalize_pak_path(path_text: str) -> str:
+    normalized = path_text.strip().replace("\\", "/")
+    while "//" in normalized:
+        normalized = normalized.replace("//", "/")
+    return normalized
+
+
 def debug_print_file_inventory(root: Path) -> None:
     print(f"Debug: manifest root = {root}")
     files: list[Path] = []
@@ -335,11 +349,10 @@ def discover_paks(manifest_root: Path, *, debug: bool) -> list[str]:
         try:
             with candidate.open("r", encoding="utf-8", errors="replace") as handle:
                 for line in handle:
-                    marker = " Icarus/Content/Paks/"
-                    marker_index = line.find(marker)
-                    if marker_index == -1:
+                    match = TEXT_PAK_PATTERN.search(line)
+                    if not match:
                         continue
-                    pak_path = line[marker_index + 1 :].strip()
+                    pak_path = normalize_pak_path(match.group(0))
                     if any(char in pak_path for char in "*?[]"):
                         continue
                     if pak_path.lower().endswith(".pak"):
@@ -367,7 +380,7 @@ def discover_paks(manifest_root: Path, *, debug: bool) -> list[str]:
         except OSError:
             continue
         for match in PAK_PATTERN.findall(payload):
-            path_text = match.decode("utf-8")
+            path_text = normalize_pak_path(match.decode("utf-8"))
             if any(char in path_text for char in "*?[]"):
                 continue
             discovered.add(path_text)
