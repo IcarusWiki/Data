@@ -15,6 +15,7 @@ from pathlib import Path
 from typing import Any
 
 import yaml
+from pak_path_utils import derive_pak_name, derive_pak_slug, normalize_pak_path, validate_pak_path
 
 ROOT = Path(__file__).resolve().parent.parent
 PAK_PATTERN = re.compile(
@@ -244,13 +245,6 @@ def load_rules(path: Path) -> dict[str, Any]:
     }
 
 
-def normalize_pak_path(path_text: str) -> str:
-    normalized = path_text.strip().replace("\\", "/")
-    while "//" in normalized:
-        normalized = normalized.replace("//", "/")
-    return normalized
-
-
 def discover_paks(manifest_root: Path) -> list[str]:
     root = resolve_user_path(manifest_root)
     if not root.is_dir():
@@ -273,8 +267,10 @@ def discover_paks(manifest_root: Path) -> list[str]:
                     pak_path = normalize_pak_path(match.group(0))
                     if any(char in pak_path for char in "*?[]"):
                         continue
-                    if pak_path.lower().endswith(".pak"):
-                        discovered.add(pak_path)
+                    try:
+                        discovered.add(validate_pak_path(pak_path))
+                    except ValueError as exc:
+                        fail(str(exc))
         except OSError:
             continue
 
@@ -298,7 +294,10 @@ def discover_paks(manifest_root: Path) -> list[str]:
             path_text = normalize_pak_path(match.decode("utf-8"))
             if any(char in path_text for char in "*?[]"):
                 continue
-            discovered.add(path_text)
+            try:
+                discovered.add(validate_pak_path(path_text))
+            except ValueError as exc:
+                fail(str(exc))
 
     if not discovered:
         fail(
@@ -334,11 +333,13 @@ def build_matrix(discovered_paks: list[str], rules: dict[str, Any]) -> dict[str,
         processors = resolve_processors(pak_path, rules)
         if not processors:
             continue
-        pak_name = Path(pak_path).stem
+        pak_name = derive_pak_name(pak_path)
+        pak_slug = derive_pak_slug(pak_path)
         include.append(
             {
                 "pak_path": pak_path,
                 "pak_name": pak_name,
+                "pak_slug": pak_slug,
                 "pak_timeout_minutes": pak_timeout,
                 "processor_count": len(processors),
                 "processors_json": json.dumps(processors, separators=(",", ":")),

@@ -5,51 +5,86 @@ on:
   #  - cron: '0 */4 * * *'
   workflow_dispatch:
 
+concurrency:
+  group: icarus-poll
+  cancel-in-progress: true
+
 permissions:
-  actions: read
+  actions: write
+  contents: read
 
 env:
   STEAM_APP_ID: "1149460"
   HEAVY_WORKFLOW: "process-icarus-data.yml"
+  STEAMCMD_URL: "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz"
 
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 5
 
     steps:
-      - name: Install SteamCMD
+      - name: Checkout current repo
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
         run: |
-          sudo dpkg --add-architecture i386
-          echo steam steam/question select "I AGREE" | sudo debconf-set-selections
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq steamcmd
+          python -m pip install --upgrade pip
+          pip install vdf==3.4
+
+      - name: Install SteamCMD
+        id: steamcmd
+        timeout-minutes: 2
+        run: |
+          STEAMCMD_DIR="$RUNNER_TEMP/steamcmd"
+          mkdir -p "$STEAMCMD_DIR"
+
+          if ! dpkg-query -W -f='${Status}' lib32gcc-s1 2>/dev/null | grep -q "ok installed"; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq lib32gcc-s1
+          fi
+
+          if [ ! -x "$STEAMCMD_DIR/steamcmd.sh" ]; then
+            curl -fsSL "$STEAMCMD_URL" | tar -xzf - -C "$STEAMCMD_DIR"
+            chmod +x "$STEAMCMD_DIR/steamcmd.sh"
+          fi
+
+          echo "steamcmd_path=$STEAMCMD_DIR/steamcmd.sh" >> "$GITHUB_OUTPUT"
 
       - name: Get current build ID
         id: steam
+        timeout-minutes: 2
         run: |
+          STEAMCMD_PATH="${{ steps.steamcmd.outputs.steamcmd_path }}"
+
           # SteamCMD often needs two passes to populate the info cache
-          steamcmd +login anonymous \
+          "$STEAMCMD_PATH" +login anonymous \
             +app_info_update 1 \
             +app_info_print "$STEAM_APP_ID" \
             +quit > /dev/null 2>&1 || true
 
-          steamcmd +login anonymous \
+          "$STEAMCMD_PATH" +login anonymous \
             +app_info_update 1 \
             +app_info_print "$STEAM_APP_ID" \
-            +quit > app_info.txt 2>&1 || true
+            +quit > app_info.txt 2>&1
 
-          # Extract the public branch buildid
-          BUILD_ID=$(
-            sed -n '/"branches"/,/^[[:space:]]*}/{
-              /"public"/,/}/{
-                /"buildid"/{
-                  s/.*"buildid"[[:space:]]*"\([0-9]*\)".*/\1/p
-                  q
-                }
-              }
-            }' app_info.txt
-          )
+          if [ ! -s app_info.txt ]; then
+            echo "::error::SteamCMD did not produce app_info.txt"
+            exit 1
+          fi
+
+          BUILD_ID="$(
+            python scripts/parse_steam_build_id.py \
+              --app-id "$STEAM_APP_ID" \
+              app_info.txt
+          )"
 
           if [ -z "$BUILD_ID" ]; then
             echo "::error::Failed to parse build ID from SteamCMD output"
@@ -74,12 +109,14 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Check for active processing runs
+      - name: Courtesy check for active processing runs
         if: steps.compare.outputs.changed == 'true'
         id: active
         env:
-          GH_TOKEN: ${{ secrets.ORG_PAT }}
+          GH_TOKEN: ${{ github.token }}
         run: |
+          # This is only a courtesy check to avoid queueing unnecessary work.
+          # The workflow-level concurrency settings are the real deduplication guard.
           RUNNING=$(
             gh api \
               "/repos/${{ github.repository }}/actions/workflows/$HEAVY_WORKFLOW/runs" \
@@ -97,7 +134,7 @@ jobs:
           echo "Active/queued heavy runs: $TOTAL"
 
           if [ "$TOTAL" -gt 0 ]; then
-            echo "Heavy workflow already in progress, will retry next poll"
+            echo "::warning::Heavy workflow already in progress or queued; skipping this poll cycle and leaving the stored build ID unchanged"
             echo "busy=true" >> "$GITHUB_OUTPUT"
           else
             echo "busy=false" >> "$GITHUB_OUTPUT"
@@ -106,16 +143,21 @@ jobs:
       - name: Dispatch heavy workflow
         if: steps.compare.outputs.changed == 'true' && steps.active.outputs.busy == 'false'
         env:
-          GH_TOKEN: ${{ secrets.ORG_PAT }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           gh workflow run "$HEAVY_WORKFLOW"
           echo "Dispatched $HEAVY_WORKFLOW"
+          echo "This dispatch intentionally marks the build as handled by automation."
+          echo "If the heavy workflow later fails or is cancelled, automation will not retry it."
+          echo "Use manual workflow_dispatch to rerun that same build."
 
       - name: Update stored build ID
         if: steps.compare.outputs.changed == 'true' && steps.active.outputs.busy == 'false'
         env:
           GH_TOKEN: ${{ secrets.ORG_PAT }}
         run: |
+          # Store the build ID immediately after a successful dispatch so failed heavy
+          # runs do not get auto-retried on the next poll. Manual reruns stay available.
           gh variable set ICARUS_BUILD_ID \
             --body "${{ steps.steam.outputs.build_id }}"
           echo "Stored build ID updated to ${{ steps.steam.outputs.build_id }}"

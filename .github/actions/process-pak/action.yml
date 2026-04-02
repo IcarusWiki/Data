@@ -8,6 +8,9 @@ inputs:
   pak-name:
     description: Friendly pak name for logs and environment variables
     required: true
+  pak-slug:
+    description: Filesystem-safe slug for temporary directories
+    required: true
   processors-json:
     description: JSON array of resolved processors for this pak
     required: true
@@ -17,9 +20,6 @@ inputs:
   tool-dir:
     description: Directory containing DepotDownloader.exe and steamguard.exe
     required: true
-  work-root:
-    description: Temporary work directory for this pak
-    required: true
 
 runs:
   using: composite
@@ -27,9 +27,27 @@ runs:
     - name: Prepare work root
       id: prep
       shell: bash
+      env:
+        PAK_SLUG: ${{ inputs.pak-slug }}
+        RUNNER_TEMP_DIR: ${{ runner.temp }}
       run: |
-        WORK_ROOT="${{ inputs.work-root }}"
+        to_unix_path() {
+          if command -v cygpath >/dev/null 2>&1; then
+            cygpath -u "$1"
+          else
+            printf '%s\n' "$1"
+          fi
+        }
+
+        if ! printf '%s' "$PAK_SLUG" | grep -Eq '^[a-z0-9][a-z0-9._-]{0,79}$'; then
+          echo "::error::Invalid pak slug: $PAK_SLUG"
+          exit 1
+        fi
+
+        BASE_ROOT="$(to_unix_path "$RUNNER_TEMP_DIR")/pak-work"
+        WORK_ROOT="$BASE_ROOT/$PAK_SLUG"
         mkdir -p "$WORK_ROOT"
+        echo "base_root=$BASE_ROOT" >> "$GITHUB_OUTPUT"
         echo "work_root=$WORK_ROOT" >> "$GITHUB_OUTPUT"
 
     - name: Download, extract, and process pak
@@ -37,6 +55,7 @@ runs:
       env:
         PAK_PATH: ${{ inputs.pak-path }}
         PAK_NAME: ${{ inputs.pak-name }}
+        PAK_SLUG: ${{ inputs.pak-slug }}
         PROCESSORS_JSON: ${{ inputs.processors-json }}
         PAK_TIMEOUT_MINUTES: ${{ inputs.pak-timeout-minutes }}
         TOOL_DIR: ${{ inputs.tool-dir }}
@@ -45,6 +64,7 @@ runs:
         python "$GITHUB_WORKSPACE/scripts/process_single_pak.py" \
           --pak-path "$PAK_PATH" \
           --pak-name "$PAK_NAME" \
+          --pak-slug "$PAK_SLUG" \
           --processors-json "$PROCESSORS_JSON" \
           --pak-timeout-minutes "$PAK_TIMEOUT_MINUTES" \
           --tool-dir "$TOOL_DIR" \
@@ -55,8 +75,19 @@ runs:
     - name: Cleanup pak work root
       if: always()
       shell: bash
+      env:
+        BASE_ROOT: ${{ steps.prep.outputs.base_root }}
+        WORK_ROOT: ${{ steps.prep.outputs.work_root }}
       run: |
-        WORK_ROOT="${{ steps.prep.outputs.work_root }}"
-        if [ -n "$WORK_ROOT" ]; then
-          rm -rf "$WORK_ROOT"
+        if [ -z "$WORK_ROOT" ] || [ -z "$BASE_ROOT" ]; then
+          exit 0
         fi
+
+        case "$WORK_ROOT" in
+          "$BASE_ROOT"/*)
+            rm -rf "$WORK_ROOT"
+            ;;
+          *)
+            echo "::warning::Skipping cleanup for unexpected work root: $WORK_ROOT"
+            ;;
+        esac

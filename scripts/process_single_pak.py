@@ -17,6 +17,8 @@ import time
 from pathlib import Path
 from typing import Any
 
+from pak_path_utils import validate_pak_name, validate_pak_path, validate_pak_slug
+
 ROOT = Path(__file__).resolve().parent.parent
 APPROVE_INTERVAL_SECONDS = 5
 APPROVE_ATTEMPTS = 12
@@ -33,6 +35,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--pak-path", required=True)
     parser.add_argument("--pak-name", required=True)
+    parser.add_argument("--pak-slug", required=True)
     parser.add_argument("--processors-json", required=True)
     parser.add_argument("--pak-timeout-minutes", type=int, required=True)
     parser.add_argument("--tool-dir", type=Path, required=True)
@@ -49,12 +52,21 @@ def resolve_user_path(path: Path) -> Path:
     return expanded.resolve()
 
 
-def ensure_safe_work_root(path: Path) -> Path:
+def ensure_safe_work_root(path: Path, *, pak_slug: str) -> Path:
     root = resolve_user_path(path)
     if root == Path(root.anchor):
         fail(f"Refusing to use filesystem root as work root: {root}")
     if root == ROOT:
         fail(f"Refusing to use repository root as work root: {root}")
+
+    runner_temp = os.environ.get("RUNNER_TEMP")
+    if runner_temp:
+        expected = resolve_user_path(Path(runner_temp) / "pak-work" / pak_slug)
+        if root != expected:
+            fail(
+                f"Unexpected work root for pak slug {pak_slug!r}: "
+                f"{root} (expected {expected})"
+            )
     return root
 
 
@@ -437,19 +449,26 @@ def run_processors(
 
 def main() -> None:
     args = parse_args()
-    work_root = ensure_safe_work_root(args.work_root)
+    try:
+        pak_path = validate_pak_path(args.pak_path)
+        pak_name = validate_pak_name(args.pak_name, pak_path=pak_path)
+        pak_slug = validate_pak_slug(args.pak_slug, pak_path=pak_path)
+    except ValueError as exc:
+        fail(str(exc))
+
+    work_root = ensure_safe_work_root(args.work_root, pak_slug=pak_slug)
     processors = load_processors(args.processors_json)
     deadline = Deadline(args.pak_timeout_minutes * 60)
 
-    print(f"Processing pak: {args.pak_name}")
-    print(f"Depot path: {args.pak_path}")
+    print(f"Processing pak: {pak_name}")
+    print(f"Depot path: {pak_path}")
     print(f"Per-pak timeout: {args.pak_timeout_minutes} minutes")
     print(f"Resolved processors: {len(processors)}")
 
     clear_directory(work_root)
     try:
         pak_file = download_pak(
-            pak_path=args.pak_path,
+            pak_path=pak_path,
             args=args,
             work_root=work_root,
             deadline=deadline,
@@ -461,14 +480,14 @@ def main() -> None:
         )
         run_processors(
             processors=processors,
-            pak_name=args.pak_name,
-            pak_path=args.pak_path,
+            pak_name=pak_name,
+            pak_path=pak_path,
             pak_file=pak_file,
             unpack_root=unpack_root,
             work_root=work_root,
             deadline=deadline,
         )
-        print(f"Finished processing pak: {args.pak_name}")
+        print(f"Finished processing pak: {pak_name}")
     finally:
         shutil.rmtree(work_root, ignore_errors=True)
 

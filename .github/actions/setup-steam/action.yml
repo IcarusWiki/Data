@@ -1,0 +1,66 @@
+name: Setup Steam Tools
+description: Install DepotDownloader and steamguard-cli, then configure Steam maFiles on Windows runners
+
+inputs:
+  dd-version:
+    description: DepotDownloader release version
+    required: true
+  steamguard-version:
+    description: steamguard-cli release version
+    required: true
+  steam-mafile-json:
+    description: Contents of the steamguard manifest.json file
+    required: true
+  steam-mafile-account-json:
+    description: Contents of the steamguard account maFile
+    required: true
+
+outputs:
+  tool-dir:
+    description: POSIX-style path to the installed Steam tools directory
+    value: ${{ steps.install.outputs.tool_dir }}
+
+runs:
+  using: composite
+  steps:
+    - name: Install Steam tools
+      id: install
+      shell: bash
+      env:
+        DD_VERSION: ${{ inputs.dd-version }}
+        STEAMGUARD_VERSION: ${{ inputs.steamguard-version }}
+      run: |
+        RUNNER_TEMP_UNIX="$(cygpath -u "$RUNNER_TEMP")"
+        TOOL_DIR="$RUNNER_TEMP_UNIX/steam-tools"
+        mkdir -p "$TOOL_DIR"
+
+        curl -sSL "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_${DD_VERSION}/DepotDownloader-windows-x64.zip" \
+          -o "$TOOL_DIR/depotdownloader.zip"
+        unzip -o "$TOOL_DIR/depotdownloader.zip" -d "$TOOL_DIR"
+        rm -f "$TOOL_DIR/depotdownloader.zip"
+
+        curl -sSL "https://github.com/dyc3/steamguard-cli/releases/download/v${STEAMGUARD_VERSION}/steamguard.exe" \
+          -o "$TOOL_DIR/steamguard.exe"
+        chmod +x "$TOOL_DIR/steamguard.exe"
+
+        echo "tool_dir=$TOOL_DIR" >> "$GITHUB_OUTPUT"
+
+    - name: Setup steamguard maFiles
+      shell: bash
+      env:
+        STEAM_MAFILE_JSON: ${{ inputs.steam-mafile-json }}
+        STEAM_MAFILE_ACCOUNT_JSON: ${{ inputs.steam-mafile-account-json }}
+      run: |
+        APPDATA_UNIX="$(cygpath -u "$APPDATA")"
+        MAFILES_DIR="$APPDATA_UNIX/steamguard-cli/maFiles"
+
+        mkdir -p "$MAFILES_DIR"
+        chmod 700 "$APPDATA_UNIX/steamguard-cli" "$MAFILES_DIR" || true
+
+        printf '%s' "$STEAM_MAFILE_JSON" > "$MAFILES_DIR/manifest.json"
+
+        ACCOUNT_FILE="$(jq -r '.entries[0].filename' "$MAFILES_DIR/manifest.json")"
+        ACCOUNT_FILE="$(basename "$ACCOUNT_FILE")"
+
+        printf '%s' "$STEAM_MAFILE_ACCOUNT_JSON" > "$MAFILES_DIR/$ACCOUNT_FILE"
+        chmod 600 "$MAFILES_DIR/manifest.json" "$MAFILES_DIR/$ACCOUNT_FILE" || true
