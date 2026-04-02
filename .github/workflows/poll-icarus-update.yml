@@ -109,68 +109,27 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Courtesy check for active processing runs
-        if: steps.compare.outputs.changed == 'true'
-        id: active
-        env:
-          GH_TOKEN: ${{ secrets.ORG_PAT }}
-        run: |
-          # This is only a courtesy check to avoid queueing unnecessary work.
-          # The workflow-level concurrency settings are the real deduplication guard.
-          WORKFLOW_PATH=".github/workflows/$HEAVY_WORKFLOW"
-          WORKFLOW_ID="$(
-            gh api "/repos/${{ github.repository }}/actions/workflows" \
-              --paginate \
-              --jq ".workflows[] | select(.path == \"$WORKFLOW_PATH\") | .id" \
-              | head -n 1
-          )"
-
-          if [ -z "$WORKFLOW_ID" ]; then
-            echo "::error::Unable to resolve workflow ID for $WORKFLOW_PATH"
-            exit 1
-          fi
-
-          RUNNING=$(
-            gh api \
-              "/repos/${{ github.repository }}/actions/workflows/$WORKFLOW_ID/runs" \
-              -f status=in_progress -f per_page=1 \
-              --jq '.total_count'
-          )
-          QUEUED=$(
-            gh api \
-              "/repos/${{ github.repository }}/actions/workflows/$WORKFLOW_ID/runs" \
-              -f status=queued -f per_page=1 \
-              --jq '.total_count'
-          )
-
-          TOTAL=$((RUNNING + QUEUED))
-          echo "Active/queued heavy runs: $TOTAL"
-
-          if [ "$TOTAL" -gt 0 ]; then
-            echo "::warning::Heavy workflow already in progress or queued; skipping this poll cycle and leaving the stored build ID unchanged"
-            echo "busy=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "busy=false" >> "$GITHUB_OUTPUT"
-          fi
-
-          echo "workflow_id=$WORKFLOW_ID" >> "$GITHUB_OUTPUT"
-
       - name: Dispatch heavy workflow
-        if: steps.compare.outputs.changed == 'true' && steps.active.outputs.busy == 'false'
+        if: steps.compare.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ secrets.ORG_PAT }}
         run: |
+          # We use repository_dispatch instead of the Actions workflows API here
+          # because some repo/token combinations return 404 for workflow lookup
+          # even when repo dispatching is allowed.
           gh api \
-            "/repos/${{ github.repository }}/actions/workflows/${{ steps.active.outputs.workflow_id }}/dispatches" \
+            "/repos/${{ github.repository }}/dispatches" \
             -X POST \
-            -f ref="${{ github.ref_name }}"
-          echo "Dispatched $HEAVY_WORKFLOW on ref ${{ github.ref_name }}"
+            -f event_type="icarus-poll-dispatch" \
+            -f "client_payload[build_id]=${{ steps.steam.outputs.build_id }}" \
+            -f "client_payload[source_workflow]=poll-icarus-update.yml"
+          echo "Dispatched $HEAVY_WORKFLOW via repository_dispatch"
           echo "This dispatch intentionally marks the build as handled by automation."
           echo "If the heavy workflow later fails or is cancelled, automation will not retry it."
           echo "Use manual workflow_dispatch to rerun that same build."
 
       - name: Update stored build ID
-        if: steps.compare.outputs.changed == 'true' && steps.active.outputs.busy == 'false'
+        if: steps.compare.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ secrets.ORG_PAT }}
         run: |

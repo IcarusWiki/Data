@@ -1,6 +1,9 @@
 name: Process Icarus Data
 
 on:
+  repository_dispatch:
+    types:
+      - icarus-poll-dispatch
   workflow_dispatch:
 
 concurrency:
