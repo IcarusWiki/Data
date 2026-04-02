@@ -117,15 +117,28 @@ jobs:
         run: |
           # This is only a courtesy check to avoid queueing unnecessary work.
           # The workflow-level concurrency settings are the real deduplication guard.
+          WORKFLOW_PATH=".github/workflows/$HEAVY_WORKFLOW"
+          WORKFLOW_ID="$(
+            gh api "/repos/${{ github.repository }}/actions/workflows" \
+              --paginate \
+              --jq ".workflows[] | select(.path == \"$WORKFLOW_PATH\") | .id" \
+              | head -n 1
+          )"
+
+          if [ -z "$WORKFLOW_ID" ]; then
+            echo "::error::Unable to resolve workflow ID for $WORKFLOW_PATH"
+            exit 1
+          fi
+
           RUNNING=$(
             gh api \
-              "/repos/${{ github.repository }}/actions/workflows/$HEAVY_WORKFLOW/runs" \
+              "/repos/${{ github.repository }}/actions/workflows/$WORKFLOW_ID/runs" \
               -f status=in_progress -f per_page=1 \
               --jq '.total_count'
           )
           QUEUED=$(
             gh api \
-              "/repos/${{ github.repository }}/actions/workflows/$HEAVY_WORKFLOW/runs" \
+              "/repos/${{ github.repository }}/actions/workflows/$WORKFLOW_ID/runs" \
               -f status=queued -f per_page=1 \
               --jq '.total_count'
           )
@@ -140,13 +153,18 @@ jobs:
             echo "busy=false" >> "$GITHUB_OUTPUT"
           fi
 
+          echo "workflow_id=$WORKFLOW_ID" >> "$GITHUB_OUTPUT"
+
       - name: Dispatch heavy workflow
         if: steps.compare.outputs.changed == 'true' && steps.active.outputs.busy == 'false'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh workflow run "$HEAVY_WORKFLOW"
-          echo "Dispatched $HEAVY_WORKFLOW"
+          gh api \
+            "/repos/${{ github.repository }}/actions/workflows/${{ steps.active.outputs.workflow_id }}/dispatches" \
+            -X POST \
+            -f ref="${{ github.ref_name }}"
+          echo "Dispatched $HEAVY_WORKFLOW on ref ${{ github.ref_name }}"
           echo "This dispatch intentionally marks the build as handled by automation."
           echo "If the heavy workflow later fails or is cancelled, automation will not retry it."
           echo "Use manual workflow_dispatch to rerun that same build."
