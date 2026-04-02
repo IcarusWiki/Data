@@ -113,7 +113,7 @@ jobs:
         if: steps.compare.outputs.changed == 'true'
         id: active
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.ORG_PAT }}
         run: |
           # This is only a courtesy check to avoid queueing unnecessary work.
           # The workflow-level concurrency settings are the real deduplication guard.
@@ -158,7 +158,7 @@ jobs:
       - name: Dispatch heavy workflow
         if: steps.compare.outputs.changed == 'true' && steps.active.outputs.busy == 'false'
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.ORG_PAT }}
         run: |
           gh api \
             "/repos/${{ github.repository }}/actions/workflows/${{ steps.active.outputs.workflow_id }}/dispatches" \
