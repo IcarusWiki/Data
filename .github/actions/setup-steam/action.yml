@@ -16,8 +16,11 @@ inputs:
     required: true
 
 outputs:
-  tool-dir:
+  tool_dir:
     description: POSIX-style path to the installed Steam tools directory
+    value: ${{ steps.install.outputs.tool_dir }}
+  tool-dir:
+    description: Backward-compatible alias for the Steam tools directory output
     value: ${{ steps.install.outputs.tool_dir }}
 
 runs:
