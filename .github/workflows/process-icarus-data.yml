@@ -183,7 +183,7 @@ jobs:
 
           for REPO in "${REPOS[@]}"; do
             echo "Dispatching to $OWNER/$REPO"
-            gh api "/repos/$OWNER/$REPO/dispatches" \
+            gh api "repos/$OWNER/$REPO/dispatches" \
               -f event_type="icarus-updated" \
               -f "client_payload[sha]=$SHA" || echo "::warning::Failed to dispatch to $REPO"
           done
