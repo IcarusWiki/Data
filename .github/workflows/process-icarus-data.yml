@@ -5,6 +5,12 @@ on:
     types:
       - icarus-poll-dispatch
   workflow_dispatch:
+    inputs:
+      force_consumer_dispatch:
+        description: "Redispatch consumer repos even when InGameFiles is unchanged"
+        required: false
+        type: boolean
+        default: false
 
 concurrency:
   group: icarus-data-update-${{ github.ref }}
@@ -23,6 +29,10 @@ jobs:
   download-and-publish:
     runs-on: windows-latest   # Windows for Oodle DLL compatibility with pyuepak
     timeout-minutes: 9        # Hard cap for the entire job
+    outputs:
+      ingamefiles_changed: ${{ steps.dispatch_state.outputs.ingamefiles_changed }}
+      published_sha: ${{ steps.dispatch_state.outputs.published_sha }}
+      dispatch_requested: ${{ steps.dispatch_state.outputs.dispatch_requested }}
 
     defaults:
       run:
@@ -33,7 +43,7 @@ jobs:
         timeout-minutes: 1
         uses: actions/checkout@v6
         with:
-          fetch-depth: 1
+          fetch-depth: 0
 
       - name: Set up Python
         timeout-minutes: 1
@@ -169,24 +179,41 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Dispatch to consumer repos
-        if: steps.commit.outputs.changed == 'true'
+      - name: Resolve publish and dispatch outputs
+        id: dispatch_state
         env:
-          GH_TOKEN: ${{ secrets.ORG_PAT }}
+          CHANGED: ${{ steps.commit.outputs.changed }}
+          FORCE_CONSUMER_DISPATCH: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force_consumer_dispatch || 'false' }}
         run: |
-          REPOS=(
-            "TreeUI"
-          )
+          DISPATCH_REQUESTED=false
+          PUBLISHED_SHA=""
 
-          OWNER="${{ github.repository_owner }}"
-          SHA=$(git rev-parse HEAD)
+          if [ "$CHANGED" = "true" ]; then
+            PUBLISHED_SHA="$(git rev-parse HEAD)"
+            DISPATCH_REQUESTED=true
+            echo "Published new InGameFiles commit: $PUBLISHED_SHA"
+            echo "Dispatching consumer repos for the fresh publish."
+          else
+            PUBLISHED_SHA="$(git log -1 --format=%H -- InGameFiles/ || true)"
 
-          for REPO in "${REPOS[@]}"; do
-            echo "Dispatching to $OWNER/$REPO"
-            gh api "repos/$OWNER/$REPO/dispatches" \
-              -f event_type="icarus-updated" \
-              -f "client_payload[sha]=$SHA" || echo "::warning::Failed to dispatch to $REPO"
-          done
+            if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ] && [ "$FORCE_CONSUMER_DISPATCH" = "true" ]; then
+              if [ -z "$PUBLISHED_SHA" ]; then
+                echo "::error::force_consumer_dispatch=true but no prior InGameFiles commit was found."
+                exit 1
+              fi
+
+              DISPATCH_REQUESTED=true
+              echo "Manual replay requested, dispatching the last InGameFiles commit: $PUBLISHED_SHA"
+            elif [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+              echo "Manual run did not request force_consumer_dispatch, so consumer dispatch is skipped because InGameFiles is unchanged."
+            else
+              echo "InGameFiles unchanged, so consumer dispatch is skipped."
+            fi
+          fi
+
+          echo "ingamefiles_changed=$CHANGED" >> "$GITHUB_OUTPUT"
+          echo "published_sha=$PUBLISHED_SHA" >> "$GITHUB_OUTPUT"
+          echo "dispatch_requested=$DISPATCH_REQUESTED" >> "$GITHUB_OUTPUT"
 
       - name: Cleanup
         if: always()
@@ -199,6 +226,43 @@ jobs:
           rm -rf "$RUNNER_TEMP_UNIX/depotdownloader"
           rm -rf "$RUNNER_TEMP_UNIX/InGameFiles.new"
           rm -rf "$APPDATA_UNIX/steamguard-cli" 2>/dev/null || true
+
+  dispatch_consumers:
+    needs: download-and-publish
+    if: needs.download-and-publish.outputs.dispatch_requested == 'true'
+    runs-on: windows-latest
+    timeout-minutes: 5
+
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Dispatch to consumer repos
+        env:
+          GH_TOKEN: ${{ secrets.ORG_PAT }}
+        run: |
+          REPOS=(
+            "TreeUI"
+          )
+
+          OWNER="${{ github.repository_owner }}"
+          SHA="${{ needs.download-and-publish.outputs.published_sha }}"
+
+          if [ -z "$SHA" ]; then
+            echo "::error::No published_sha available for consumer dispatch."
+            exit 1
+          fi
+
+          echo "Dispatching consumer repos for InGameFiles commit $SHA"
+
+          for REPO in "${REPOS[@]}"; do
+            echo "Dispatching to $OWNER/$REPO"
+            gh api "repos/$OWNER/$REPO/dispatches" \
+              -X POST \
+              -f event_type="icarus-updated" \
+              -f "client_payload[sha]=$SHA"
+          done
 
   discover_content_paks:
     needs: download-and-publish

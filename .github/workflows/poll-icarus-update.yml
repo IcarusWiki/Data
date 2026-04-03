@@ -126,7 +126,7 @@ jobs:
           echo "Dispatched $HEAVY_WORKFLOW via repository_dispatch"
           echo "This dispatch intentionally marks the build as handled by automation."
           echo "If the heavy workflow later fails or is cancelled, automation will not retry it."
-          echo "Use manual workflow_dispatch to rerun that same build."
+          echo "Use manual workflow_dispatch with force_consumer_dispatch=true to replay downstream consumer dispatches for that same build."
 
       - name: Update stored build ID
         if: steps.compare.outputs.changed == 'true'
