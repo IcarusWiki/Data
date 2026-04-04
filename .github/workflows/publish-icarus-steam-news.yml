@@ -1,0 +1,146 @@
+name: Publish Icarus Steam News
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Publish mode"
+        required: true
+        type: choice
+        options:
+          - backfill_all
+          - incremental
+        default: backfill_all
+      dry_run:
+        description: "Preview pages without editing the wiki"
+        required: false
+        type: boolean
+        default: true
+      max_items:
+        description: "Optional staged real-publish cap on pending posts, for example 1 or 5"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publish-icarus-steam-news
+  cancel-in-progress: false
+
+env:
+  STEAM_APP_ID: "1149460"
+  WIKI_API_URL: "https://icarus.wiki.gg/api.php"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Checkout current repo
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Resolve workflow inputs
+        id: inputs
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          DISPATCH_MODE: ${{ github.event.inputs.mode }}
+          DISPATCH_DRY_RUN: ${{ github.event.inputs.dry_run }}
+          DISPATCH_MAX_ITEMS: ${{ github.event.inputs.max_items }}
+        run: |
+          MODE="$DISPATCH_MODE"
+          DRY_RUN="$DISPATCH_DRY_RUN"
+          MAX_ITEMS="$DISPATCH_MAX_ITEMS"
+
+          if [ "$EVENT_NAME" = "schedule" ]; then
+            MODE="incremental"
+            DRY_RUN="false"
+            MAX_ITEMS=""
+          fi
+
+          if [ -z "$MODE" ]; then
+            MODE="backfill_all"
+          fi
+
+          if [ -z "$DRY_RUN" ]; then
+            DRY_RUN="true"
+          fi
+
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+          echo "dry_run=$DRY_RUN" >> "$GITHUB_OUTPUT"
+          echo "max_items=$MAX_ITEMS" >> "$GITHUB_OUTPUT"
+
+      - name: Verify incremental bootstrap state
+        env:
+          MODE: ${{ steps.inputs.outputs.mode }}
+          LAST_GID: ${{ vars.ICARUS_STEAM_NEWS_LAST_GID }}
+        run: |
+          if [ "$MODE" = "incremental" ] && [ -z "$LAST_GID" ]; then
+            echo "::error::ICARUS_STEAM_NEWS_LAST_GID is not set. Run workflow_dispatch with mode=backfill_all once to bootstrap the News: archive."
+            exit 1
+          fi
+
+      - name: Publish Steam news to wiki
+        id: sync
+        env:
+          WIKIGG_USERNAME: ${{ secrets.WIKIGG_USERNAME }}
+          WIKIGG_APP_PASSWORD: ${{ secrets.WIKIGG_APP_PASSWORD }}
+          LAST_GID: ${{ vars.ICARUS_STEAM_NEWS_LAST_GID }}
+          MODE: ${{ steps.inputs.outputs.mode }}
+          DRY_RUN: ${{ steps.inputs.outputs.dry_run }}
+          MAX_ITEMS: ${{ steps.inputs.outputs.max_items }}
+        run: |
+          ARGS=(
+            --mode "$MODE"
+            --wiki-api-url "$WIKI_API_URL"
+            --steam-app-id "$STEAM_APP_ID"
+            --github-output "$GITHUB_OUTPUT"
+          )
+
+          if [ -n "$LAST_GID" ]; then
+            ARGS+=(--last-gid "$LAST_GID")
+          fi
+
+          if [ "$DRY_RUN" = "true" ]; then
+            ARGS+=(--dry-run)
+          fi
+
+          if [ -n "$MAX_ITEMS" ]; then
+            ARGS+=(--max-items "$MAX_ITEMS")
+          fi
+
+          python scripts/sync_steam_news.py "${ARGS[@]}"
+
+      - name: Update stored Steam news gid
+        if: steps.inputs.outputs.dry_run != 'true' && steps.sync.outputs.advance_state == 'true' && steps.sync.outputs.newest_target_gid != ''
+        env:
+          GH_TOKEN: ${{ secrets.ORG_PAT }}
+        run: |
+          gh variable set ICARUS_STEAM_NEWS_LAST_GID \
+            --body "${{ steps.sync.outputs.newest_target_gid }}"
+          echo "Stored Steam news gid updated to ${{ steps.sync.outputs.newest_target_gid }}"
+
+      - name: Report sync summary
+        run: |
+          echo "Mode: ${{ steps.inputs.outputs.mode }}"
+          echo "Dry run: ${{ steps.inputs.outputs.dry_run }}"
+          echo "Target posts: ${{ steps.sync.outputs.target_count }}"
+          echo "Selected posts: ${{ steps.sync.outputs.selected_count }}"
+          echo "Changed pages: ${{ steps.sync.outputs.changed_count }}"
+          echo "Skipped pages: ${{ steps.sync.outputs.skipped_count }}"
+          echo "State advance gid: ${{ steps.sync.outputs.newest_target_gid }}"
+          echo "Advance state: ${{ steps.sync.outputs.advance_state }}"
