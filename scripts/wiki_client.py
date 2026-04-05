@@ -41,6 +41,10 @@ class MediaWikiRateLimitError(MediaWikiError):
         self.retry_after_seconds = retry_after_seconds
 
 
+class MediaWikiInvalidResponseError(MediaWikiError):
+    """Raised when the MediaWiki API returns a non-JSON response body."""
+
+
 def normalize_text(text: str) -> str:
     return text.replace("\r\n", "\n")
 
@@ -119,6 +123,7 @@ class MediaWikiClient:
         try:
             with self.opener.open(request, timeout=REQUEST_TIMEOUT_SECONDS) as response:
                 raw_body = response.read().decode("utf-8")
+                content_type = response.headers.get("Content-Type", "")
         except urllib.error.HTTPError as exc:
             if exc.code == 429:
                 raise MediaWikiRateLimitError(
@@ -137,7 +142,14 @@ class MediaWikiClient:
         try:
             data = json.loads(raw_body)
         except json.JSONDecodeError as exc:
-            raise MediaWikiError(f"MediaWiki API returned invalid JSON: {exc}") from exc
+            body_preview = raw_body[:200].replace("\r", " ").replace("\n", " ").strip()
+            if not body_preview:
+                body_preview = "<empty response body>"
+            raise MediaWikiInvalidResponseError(
+                "MediaWiki API returned invalid JSON: "
+                f"{exc}. Content-Type: {content_type or '<missing>'}. "
+                f"Response preview: {body_preview}"
+            ) from exc
 
         if "error" in data:
             error = data["error"]
@@ -343,18 +355,29 @@ class MediaWikiClient:
         if nocreate:
             payload["nocreate"] = "1"
 
-        edit_data = self._perform_write_request(
-            lambda: urllib.request.Request(
-                self.api_url,
-                data=urllib.parse.urlencode(payload).encode("utf-8"),
-                headers={
-                    "Accept": "application/json",
-                    "User-Agent": self.user_agent,
-                },
-                method="POST",
-            ),
-            error_context=f"Edit for {page_title}",
-        )
+        try:
+            edit_data = self._perform_write_request(
+                lambda: urllib.request.Request(
+                    self.api_url,
+                    data=urllib.parse.urlencode(payload).encode("utf-8"),
+                    headers={
+                        "Accept": "application/json",
+                        "User-Agent": self.user_agent,
+                    },
+                    method="POST",
+                ),
+                error_context=f"Edit for {page_title}",
+            )
+        except MediaWikiInvalidResponseError as exc:
+            verification_page = self.fetch_page(page_title)
+            if verification_page.exists and normalize_text(verification_page.text) == normalize_text(
+                text
+            ):
+                return
+            raise MediaWikiError(
+                f"Edit for {page_title} may not have completed cleanly: {exc}"
+            ) from exc
+
         edit_result = edit_data.get("edit", {})
         if edit_result.get("result") != "Success":
             raise MediaWikiError(f"Edit failed for {page_title}: {edit_result}")
