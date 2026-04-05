@@ -603,6 +603,12 @@ def main() -> None:
         if not password:
             fail(f"Missing required environment variable: {WIKIGG_APP_PASSWORD_ENV}")
         try:
+            if selected_count > 0:
+                print(
+                    "Wiki edit pacing: "
+                    f"{client.min_edit_interval_seconds:.1f}s minimum between edits, "
+                    f"with up to {client.max_rate_limit_retries} ratelimit retries."
+                )
             print(f"Logging into wiki API at {args.wiki_api_url} as {username}")
             client.login()
         except MediaWikiError as exc:

@@ -15,4 +15,5 @@ Manual Steam-news testing and staged backfills can be done in chunks by setting 
 workflow's `max_items` input to a small positive number such as `1` or `5`. Successful
 non-dry-run chunked publishes advance `ICARUS_STEAM_NEWS_LAST_GID` to the newest item
 included in that staged batch. To keep the cursor moving safely, chunked runs consume
-the oldest pending batch first.
+the oldest pending batch first. Real wiki edits are also paced conservatively in the
+script so publishes stay well below the wiki's observed anonymous edit ceiling.
