@@ -907,7 +907,7 @@ def build_page_text(
 ) -> str:
     body = convert_bbcode_to_wikitext(item.contents, body_images=body_images)
     lines = [
-        f"{{{{DISPLAYTITLE:1={escape_display_title(item.title)}}}}}",
+        f"{{{{DISPLAYTITLE:{escape_display_title(item.title)}}}}}",
         f"<!-- ICARUS_STEAM_NEWS_GID:{item.gid} -->",
         build_news_info_template(
             item,
