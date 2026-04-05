@@ -97,8 +97,8 @@ jobs:
       - name: Publish Steam news to wiki
         id: sync
         env:
-          WIKIGG_USERNAME: ${{ secrets.WIKIGG_USERNAME }}
-          WIKIGG_APP_PASSWORD: ${{ secrets.WIKIGG_APP_PASSWORD }}
+          WIKIGG_USERNAME: ${{ secrets.WIKIGG_NEWS_USERNAME }}
+          WIKIGG_APP_PASSWORD: ${{ secrets.WIKIGG_NEWS_APP_PASSWORD }}
           LAST_GID: ${{ vars.ICARUS_STEAM_NEWS_LAST_GID }}
           MODE: ${{ steps.inputs.outputs.mode }}
           DRY_RUN: ${{ steps.inputs.outputs.dry_run }}
