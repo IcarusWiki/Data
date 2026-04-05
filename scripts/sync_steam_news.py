@@ -57,6 +57,10 @@ STANDALONE_URL_PATTERN = re.compile(r"^https?://\S+$", re.IGNORECASE)
 VALID_IMAGE_SUFFIX_PATTERN = re.compile(r"\.[a-z0-9]{2,5}$", re.IGNORECASE)
 MAX_MEDIAWIKI_TITLE_LENGTH = 255
 GID_MARKER_PATTERN = re.compile(r"<!--\s*ICARUS_STEAM_NEWS_GID:(\d+)\s*-->")
+NEWS_INFO_GID_PATTERN = re.compile(
+    r"\{\{\s*" + re.escape(NEWS_INFO_TEMPLATE_NAME) + r"\b.*?^\|gid=(\d+)\s*$",
+    re.IGNORECASE | re.DOTALL | re.MULTILINE,
+)
 UNSAFE_TITLE_PATTERN = re.compile(r'[\\/:#<>\[\]{}|"]+')
 WHITESPACE_PATTERN = re.compile(r"\s+")
 TITLE_TRIM_CHARS = " .,:;!?\t\r\n-"
@@ -376,9 +380,29 @@ def build_page_title(base_title: str, suffix: str) -> str:
 
 def extract_existing_gid(text: str) -> str | None:
     match = GID_MARKER_PATTERN.search(text)
-    if match is None:
-        return None
-    return match.group(1)
+    if match is not None:
+        return match.group(1)
+
+    match = NEWS_INFO_GID_PATTERN.search(text)
+    if match is not None:
+        return match.group(1)
+
+    return None
+
+
+def is_blank_existing_page(text: str) -> bool:
+    return not normalize_text(text).strip()
+
+
+def matches_existing_news_page(text: str, item: SteamNewsItem) -> bool:
+    if is_blank_existing_page(text):
+        return True
+
+    existing_gid = extract_existing_gid(text)
+    if existing_gid == item.gid:
+        return True
+
+    return item.url in text
 
 
 def format_date_suffix(timestamp: int) -> str:
@@ -400,8 +424,7 @@ def resolve_page_title(client: MediaWikiClient, item: SteamNewsItem) -> tuple[st
         if not page.exists:
             return candidate_title, ""
 
-        existing_gid = extract_existing_gid(page.text)
-        if existing_gid == item.gid:
+        if matches_existing_news_page(page.text, item):
             return candidate_title, page.text
 
     fail(
