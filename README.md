@@ -17,3 +17,10 @@ non-dry-run chunked publishes advance `ICARUS_STEAM_NEWS_LAST_GID` to the newest
 included in that staged batch. To keep the cursor moving safely, chunked runs consume
 the oldest pending batch first. Real wiki edits are also paced conservatively in the
 script so publishes stay well below the wiki's observed anonymous edit ceiling.
+
+Cargo-backed scaffolding for the main-namespace `News` landing page lives in
+`wiki/news/`. Publish `Template:NewsInfo`, `Template:NewsYearSection`, and `News`
+from those files before republishing historical `News:` articles to populate the
+`NewsArticles` Cargo table. Real news publishes now also mirror Steam hero/body
+images to wiki files on a best-effort basis, so the automation account needs
+file-upload permission in addition to page-edit permission.

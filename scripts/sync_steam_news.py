@@ -37,6 +37,24 @@ REQUEST_TIMEOUT_SECONDS = 30
 WIKIGG_USERNAME_ENV = "WIKIGG_USERNAME"
 WIKIGG_APP_PASSWORD_ENV = "WIKIGG_APP_PASSWORD"
 NEWS_NAMESPACE_PREFIX = "News:"
+NEWS_INFO_TEMPLATE_NAME = "NewsInfo"
+WIKI_EMBED_IMAGE_WIDTH_PX = 1000
+STEAM_META_OG_IMAGE_PATTERN = re.compile(
+    r'<meta property=["\']og:image["\'] content=["\']([^"\']+)["\']',
+    re.IGNORECASE,
+)
+STEAM_EVENT_JSONDATA_PATTERN = re.compile(
+    r'&quot;event_name&quot;:&quot;(?P<event_name>.*?)&quot;.*?'
+    r'&quot;jsondata&quot;:&quot;(?P<jsondata>\{.*?\})&quot;',
+    re.DOTALL,
+)
+STEAM_IMAGE_BASE_URL_PATTERN = re.compile(
+    r"(https://clan(?:\.[a-z]+)?\.steamstatic\.com/images/\d+)",
+    re.IGNORECASE,
+)
+IMAGE_TAG_PATTERN = re.compile(r"\[img\](.*?)\[/img\]", re.IGNORECASE | re.DOTALL)
+STANDALONE_URL_PATTERN = re.compile(r"^https?://\S+$", re.IGNORECASE)
+VALID_IMAGE_SUFFIX_PATTERN = re.compile(r"\.[a-z0-9]{2,5}$", re.IGNORECASE)
 MAX_MEDIAWIKI_TITLE_LENGTH = 255
 GID_MARKER_PATTERN = re.compile(r"<!--\s*ICARUS_STEAM_NEWS_GID:(\d+)\s*-->")
 UNSAFE_TITLE_PATTERN = re.compile(r'[\\/:#<>\[\]{}|"]+')
@@ -54,6 +72,10 @@ def fail(message: str) -> "NoReturn":
     raise SystemExit(1)
 
 
+def warn(message: str) -> None:
+    print(f"Warning: {message}", file=sys.stderr)
+
+
 @dataclass(slots=True)
 class SteamNewsItem:
     gid: str
@@ -63,6 +85,18 @@ class SteamNewsItem:
     contents: str
     feedlabel: str
     date: int
+
+
+@dataclass(slots=True)
+class SteamAnnouncementPageData:
+    subtitle: str | None = None
+    hero_image_url: str | None = None
+
+
+@dataclass(slots=True)
+class BodyImageRenderPlan:
+    source_url: str | None
+    file_title: str | None
 
 
 def parse_args() -> argparse.Namespace:
@@ -155,6 +189,50 @@ def request_json(url: str, params: dict[str, str]) -> dict[str, Any]:
         fail(f"Steam API returned invalid JSON: {exc}")
 
     return data
+
+
+def request_text(url: str) -> str:
+    request = urllib.request.Request(
+        url,
+        headers={
+            "Accept": "text/html,application/xhtml+xml",
+            "User-Agent": USER_AGENT,
+        },
+        method="GET",
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=REQUEST_TIMEOUT_SECONDS) as response:
+            return response.read().decode("utf-8", errors="replace")
+    except urllib.error.HTTPError as exc:
+        raise RuntimeError(f"HTTP error {exc.code}: {exc.reason}") from exc
+    except urllib.error.URLError as exc:
+        raise RuntimeError(f"Failed to reach URL: {exc}") from exc
+    except socket.timeout as exc:
+        raise RuntimeError(
+            f"Timed out after {REQUEST_TIMEOUT_SECONDS} seconds while fetching {url}"
+        ) from exc
+
+
+def request_bytes(url: str) -> tuple[bytes, str | None]:
+    request = urllib.request.Request(
+        url,
+        headers={
+            "Accept": "image/*,*/*;q=0.8",
+            "User-Agent": USER_AGENT,
+        },
+        method="GET",
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=REQUEST_TIMEOUT_SECONDS) as response:
+            return response.read(), response.headers.get("Content-Type")
+    except urllib.error.HTTPError as exc:
+        raise RuntimeError(f"HTTP error {exc.code}: {exc.reason}") from exc
+    except urllib.error.URLError as exc:
+        raise RuntimeError(f"Failed to reach URL: {exc}") from exc
+    except socket.timeout as exc:
+        raise RuntimeError(
+            f"Timed out after {REQUEST_TIMEOUT_SECONDS} seconds while fetching {url}"
+        ) from exc
 
 
 def parse_news_item(raw_item: Any) -> SteamNewsItem:
@@ -336,6 +414,108 @@ def normalize_external_link_label(text: str) -> str:
     return WHITESPACE_PATTERN.sub(" ", text.strip()) or "link"
 
 
+def extract_first_localized_string(raw_value: Any) -> str | None:
+    if not isinstance(raw_value, list):
+        return None
+    for candidate in raw_value:
+        if not isinstance(candidate, str):
+            continue
+        normalized = normalize_text(html.unescape(candidate)).strip()
+        if normalized:
+            return normalized
+    return None
+
+
+def decode_steam_event_jsondata(raw_jsondata: str) -> dict[str, Any]:
+    decoded_json = html.unescape(raw_jsondata).encode("utf-8").decode("unicode_escape")
+    return json.loads(decoded_json)
+
+
+def infer_steam_image_base_url(page_html: str) -> str | None:
+    match = STEAM_IMAGE_BASE_URL_PATTERN.search(html.unescape(page_html))
+    if match is None:
+        return None
+    return match.group(1)
+
+
+def extract_announcement_page_data(
+    page_html: str,
+    *,
+    expected_title: str,
+) -> SteamAnnouncementPageData:
+    hero_image_url: str | None = None
+    og_image_match = STEAM_META_OG_IMAGE_PATTERN.search(page_html)
+    if og_image_match is not None:
+        candidate_url = html.unescape(og_image_match.group(1)).strip()
+        if candidate_url:
+            hero_image_url = candidate_url
+
+    subtitle: str | None = None
+    normalized_title = normalize_text(html.unescape(expected_title)).strip()
+    embedded_data: dict[str, Any] | None = None
+
+    for match in STEAM_EVENT_JSONDATA_PATTERN.finditer(page_html):
+        event_name = normalize_text(html.unescape(match.group("event_name"))).strip()
+        if event_name != normalized_title:
+            continue
+        embedded_data = decode_steam_event_jsondata(match.group("jsondata"))
+        break
+
+    if embedded_data is not None:
+        subtitle = extract_first_localized_string(embedded_data.get("localized_subtitle"))
+        if hero_image_url is None:
+            capsule_filename = extract_first_localized_string(
+                embedded_data.get("localized_capsule_image")
+            )
+            image_base_url = infer_steam_image_base_url(page_html)
+            if capsule_filename and image_base_url:
+                hero_image_url = f"{image_base_url}/{capsule_filename}"
+
+    return SteamAnnouncementPageData(
+        subtitle=subtitle,
+        hero_image_url=hero_image_url,
+    )
+
+
+def fetch_announcement_page_data(item: SteamNewsItem) -> SteamAnnouncementPageData:
+    try:
+        page_html = request_text(item.url)
+    except RuntimeError as exc:
+        warn(f"Unable to fetch Steam page metadata for {item.gid}: {exc}")
+        return SteamAnnouncementPageData()
+
+    try:
+        return extract_announcement_page_data(page_html, expected_title=item.title)
+    except (json.JSONDecodeError, ValueError, KeyError) as exc:
+        warn(f"Unable to parse Steam page metadata for {item.gid}: {exc}")
+        return SteamAnnouncementPageData()
+
+
+def strip_file_namespace(file_title: str) -> str:
+    if file_title.startswith("File:"):
+        return file_title[len("File:") :]
+    return file_title
+
+
+def guess_image_suffix(image_url: str, *, default_suffix: str = ".png") -> str:
+    suffix = Path(urllib.parse.urlsplit(image_url).path).suffix.lower()
+    if VALID_IMAGE_SUFFIX_PATTERN.fullmatch(suffix):
+        return suffix
+    return default_suffix
+
+
+def build_header_image_file_title(item: SteamNewsItem, image_url: str) -> str:
+    return f"File:Icarus_Steam_News_{item.gid}_Header{guess_image_suffix(image_url)}"
+
+
+def build_body_image_file_title(item: SteamNewsItem, index: int, image_url: str) -> str:
+    return f"File:Icarus_Steam_News_{item.gid}_Body_{index:02d}{guess_image_suffix(image_url)}"
+
+
+def build_file_embed(file_title: str) -> str:
+    return f"[[{file_title}|center|{WIKI_EMBED_IMAGE_WIDTH_PX}px]]"
+
+
 def convert_url_tag(match: re.Match[str]) -> str:
     url = match.group(1).strip()
     label = normalize_external_link_label(match.group(2))
@@ -371,11 +551,123 @@ def resolve_steam_image_url(raw_value: str) -> str | None:
     return None
 
 
-def convert_image_tag(match: re.Match[str]) -> str:
-    image_url = resolve_steam_image_url(match.group(1))
-    if image_url is None:
-        return ""
+def render_external_image_link(image_url: str) -> str:
     return f"\n[{image_url} Steam image]\n"
+
+
+def build_upload_description(
+    *,
+    page_title: str,
+    item: SteamNewsItem,
+    source_url: str,
+    role_label: str,
+) -> str:
+    lines = [
+        "== Summary ==",
+        "Imported automatically from Steam Community Announcements.",
+        "",
+        f"* Source announcement: [{item.url} {item.title}]",
+        f"* Source image: [{source_url} Steam CDN]",
+        f"* Target news page: [[{page_title}]]",
+        f"* Steam gid: <code>{item.gid}</code>",
+        f"* Image role: {role_label}",
+    ]
+    return "\n".join(lines) + "\n"
+
+
+def maybe_upload_news_image(
+    client: MediaWikiClient,
+    *,
+    dry_run: bool,
+    upload_cache: dict[str, str | None],
+    page_title: str,
+    item: SteamNewsItem,
+    source_url: str,
+    file_title: str,
+    role_label: str,
+) -> str | None:
+    if file_title in upload_cache:
+        return upload_cache[file_title]
+
+    if dry_run:
+        upload_cache[file_title] = file_title
+        return file_title
+
+    try:
+        if client.page_exists(file_title):
+            print(f"  Reusing uploaded image {file_title}")
+            upload_cache[file_title] = file_title
+            return file_title
+    except MediaWikiError as exc:
+        warn(f"Unable to check wiki file {file_title} for {item.gid}: {exc}")
+        upload_cache[file_title] = None
+        return None
+
+    try:
+        image_bytes, content_type = request_bytes(source_url)
+    except RuntimeError as exc:
+        warn(f"Unable to download Steam image for {item.gid} ({role_label}): {exc}")
+        upload_cache[file_title] = None
+        return None
+
+    try:
+        client.upload_file(
+            strip_file_namespace(file_title),
+            image_bytes,
+            comment=f"Automated Steam news image import ({item.gid}, {role_label})",
+            text=build_upload_description(
+                page_title=page_title,
+                item=item,
+                source_url=source_url,
+                role_label=role_label,
+            ),
+            content_type=content_type,
+        )
+    except MediaWikiError as exc:
+        warn(f"Unable to upload wiki image {file_title} for {item.gid}: {exc}")
+        upload_cache[file_title] = None
+        return None
+
+    print(f"  Uploaded image {file_title}")
+    upload_cache[file_title] = file_title
+    return file_title
+
+
+def build_body_image_render_plans(
+    item: SteamNewsItem,
+    *,
+    client: MediaWikiClient,
+    dry_run: bool,
+    page_title: str,
+    upload_cache: dict[str, str | None],
+) -> list[BodyImageRenderPlan]:
+    plans: list[BodyImageRenderPlan] = []
+
+    for index, match in enumerate(IMAGE_TAG_PATTERN.finditer(item.contents), start=1):
+        source_url = resolve_steam_image_url(match.group(1))
+        if source_url is None:
+            plans.append(BodyImageRenderPlan(source_url=None, file_title=None))
+            continue
+
+        file_title = build_body_image_file_title(item, index, source_url)
+        uploaded_file_title = maybe_upload_news_image(
+            client,
+            dry_run=dry_run,
+            upload_cache=upload_cache,
+            page_title=page_title,
+            item=item,
+            source_url=source_url,
+            file_title=file_title,
+            role_label=f"body-{index:02d}",
+        )
+        plans.append(
+            BodyImageRenderPlan(
+                source_url=source_url,
+                file_title=uploaded_file_title,
+            )
+        )
+
+    return plans
 
 
 def convert_quote_tag(match: re.Match[str]) -> str:
@@ -420,12 +712,38 @@ def cleanup_wikitext(text: str) -> str:
     return collapsed.strip()
 
 
-def convert_bbcode_to_wikitext(text: str) -> str:
+def convert_special_lines(text: str) -> str:
+    lines: list[str] = []
+    for line in text.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            lines.append("")
+            continue
+        if stripped.startswith("^"):
+            continuation = stripped[1:].lstrip()
+            if continuation:
+                lines.append(f"<br>{continuation}")
+            continue
+        if STANDALONE_URL_PATTERN.fullmatch(stripped):
+            lines.append(f"[{stripped} {stripped}]")
+            continue
+        lines.append(line)
+    return "\n".join(lines)
+
+
+def convert_bbcode_to_wikitext(
+    text: str,
+    *,
+    body_images: list[BodyImageRenderPlan],
+) -> str:
     converted = normalize_text(text)
     converted = re.sub(r"\[expand[^\]]*\]", "\n", converted, flags=re.IGNORECASE)
     converted = re.sub(r"\[/expand\]", "\n", converted, flags=re.IGNORECASE)
     converted = re.sub(r"\[hr\](?:\[/hr\])?", "\n----\n", converted, flags=re.IGNORECASE)
     converted = re.sub(r"\[/hr\]", "\n", converted, flags=re.IGNORECASE)
+    converted = re.sub(r"\[p\]", "", converted, flags=re.IGNORECASE)
+    converted = re.sub(r"\[/p\]", "\n\n", converted, flags=re.IGNORECASE)
+    converted = re.sub(r"\[br\s*/?\]", "<br>", converted, flags=re.IGNORECASE)
     converted = re.sub(r"\[list[^\]]*\]", "\n", converted, flags=re.IGNORECASE)
     converted = re.sub(r"\[/list\]", "\n", converted, flags=re.IGNORECASE)
     converted = re.sub(r"\[\*\]", "\n* ", converted)
@@ -442,12 +760,24 @@ def convert_bbcode_to_wikitext(text: str) -> str:
         converted,
         flags=re.IGNORECASE | re.DOTALL,
     )
-    converted = re.sub(
-        r"\[img\](.*?)\[/img\]",
-        convert_image_tag,
-        converted,
-        flags=re.IGNORECASE | re.DOTALL,
-    )
+    image_index = 0
+
+    def convert_image_tag(match: re.Match[str]) -> str:
+        nonlocal image_index
+        plan = body_images[image_index] if image_index < len(body_images) else None
+        image_index += 1
+
+        if plan is not None and plan.file_title:
+            return f"\n{build_file_embed(plan.file_title)}\n"
+        if plan is not None and plan.source_url:
+            return render_external_image_link(plan.source_url)
+
+        image_url = resolve_steam_image_url(match.group(1))
+        if image_url is None:
+            return ""
+        return render_external_image_link(image_url)
+
+    converted = IMAGE_TAG_PATTERN.sub(convert_image_tag, converted)
     converted = re.sub(
         r"\[(h[1-3])\](.*?)\[/\1\]",
         convert_heading,
@@ -463,6 +793,7 @@ def convert_bbcode_to_wikitext(text: str) -> str:
     converted = re.sub(r"\[b\](.*?)\[/b\]", r"'''\1'''", converted, flags=re.IGNORECASE | re.DOTALL)
     converted = re.sub(r"\[i\](.*?)\[/i\]", r"''\1''", converted, flags=re.IGNORECASE | re.DOTALL)
     converted = strip_unsupported_bbcode(converted)
+    converted = convert_special_lines(converted)
     return cleanup_wikitext(converted)
 
 
@@ -470,8 +801,23 @@ def escape_display_title(title: str) -> str:
     return html.escape(title, quote=False).replace("|", "&#124;")
 
 
-def format_utc_timestamp(timestamp: int) -> str:
-    return datetime.fromtimestamp(timestamp, UTC).strftime("%Y-%m-%d %H:%M:%S UTC")
+def escape_template_parameter_value(value: str) -> str:
+    normalized = normalize_text(value).replace("\n", " ").strip()
+    normalized = WHITESPACE_PATTERN.sub(" ", normalized)
+    return normalized.replace("|", "{{!}}")
+
+
+def format_utc_datetime_value(timestamp: int) -> str:
+    return datetime.fromtimestamp(timestamp, UTC).strftime("%Y-%m-%d %H:%M:%S")
+
+
+def format_publish_display_date(timestamp: int) -> str:
+    published = datetime.fromtimestamp(timestamp, UTC)
+    return published.strftime("%a, %B ") + str(published.day) + published.strftime(", %Y")
+
+
+def format_publish_year(timestamp: int) -> str:
+    return datetime.fromtimestamp(timestamp, UTC).strftime("%Y")
 
 
 def extract_changelog_version(item: SteamNewsItem) -> str | None:
@@ -500,22 +846,53 @@ def resolve_related_changelog(
     return None
 
 
-def build_page_text(item: SteamNewsItem, *, related_changelog: str | None) -> str:
-    body = convert_bbcode_to_wikitext(item.contents)
+def build_news_info_template(
+    item: SteamNewsItem,
+    *,
+    related_changelog: str | None,
+    subtitle: str | None,
+    header_image_file: str | None,
+) -> str:
+    fields = [
+        ("gid", item.gid),
+        ("steamTitle", item.title),
+        ("publishDateUtc", format_utc_datetime_value(item.date)),
+        ("publishDisplayDate", format_publish_display_date(item.date)),
+        ("publishYear", format_publish_year(item.date)),
+        ("steamUrl", item.url),
+        ("author", item.author),
+        ("feedLabel", item.feedlabel),
+        ("subtitle", subtitle or ""),
+        ("headerImageFile", header_image_file or ""),
+        ("relatedChangelog", related_changelog or ""),
+    ]
+
+    lines = [f"{{{{{NEWS_INFO_TEMPLATE_NAME}"]
+    for name, value in fields:
+        lines.append(f"|{name}={escape_template_parameter_value(value)}")
+    lines.append("}}")
+    return "\n".join(lines)
+
+
+def build_page_text(
+    item: SteamNewsItem,
+    *,
+    related_changelog: str | None,
+    subtitle: str | None,
+    header_image_file: str | None,
+    body_images: list[BodyImageRenderPlan],
+) -> str:
+    body = convert_bbcode_to_wikitext(item.contents, body_images=body_images)
     lines = [
         f"{{{{DISPLAYTITLE:1={escape_display_title(item.title)}}}}}",
         f"<!-- ICARUS_STEAM_NEWS_GID:{item.gid} -->",
-        "''Imported automatically from Steam Community Announcements.''",
-        "",
-        "== Announcement Info ==",
-        f"* Published (UTC): {format_utc_timestamp(item.date)}",
-        f"* Author: {item.author}",
-        f"* Feed: {item.feedlabel}",
-        f"* Steam URL: [{item.url} Original announcement]",
-        f"* Steam gid: <code>{item.gid}</code>",
+        build_news_info_template(
+            item,
+            related_changelog=related_changelog,
+            subtitle=subtitle,
+            header_image_file=header_image_file,
+        ),
     ]
-    if related_changelog is not None:
-        lines.append(f"* Related changelog: [[{related_changelog}]]")
 
     if body:
         lines.extend(["", body])
@@ -524,7 +901,10 @@ def build_page_text(item: SteamNewsItem, *, related_changelog: str | None) -> st
         [
             "",
             "----",
-            "''This page was imported automatically from Steam. Images are preserved as external Steam links in this archive.''",
+            (
+                "''This page was imported automatically from Steam. Images are mirrored from "
+                "Steam where available, with original Steam links used as fallback when needed.''"
+            ),
         ]
     )
     return cleanup_wikitext("\n".join(lines)) + "\n"
@@ -615,6 +995,7 @@ def main() -> None:
             fail(str(exc))
 
     changelog_cache: dict[str, bool] = {}
+    upload_cache: dict[str, str | None] = {}
     changed_count = 0
     skipped_count = 0
 
@@ -622,11 +1003,43 @@ def main() -> None:
         try:
             page_title, existing_text = resolve_page_title(client, item)
             related_changelog = resolve_related_changelog(item, client, changelog_cache)
-            page_text = build_page_text(item, related_changelog=related_changelog)
         except MediaWikiError as exc:
             fail(str(exc))
 
+        page_data = fetch_announcement_page_data(item)
+        header_image_file: str | None = None
+        if page_data.hero_image_url:
+            header_image_file = maybe_upload_news_image(
+                client,
+                dry_run=args.dry_run,
+                upload_cache=upload_cache,
+                page_title=page_title,
+                item=item,
+                source_url=page_data.hero_image_url,
+                file_title=build_header_image_file_title(item, page_data.hero_image_url),
+                role_label="header",
+            )
+
+        body_images = build_body_image_render_plans(
+            item,
+            client=client,
+            dry_run=args.dry_run,
+            page_title=page_title,
+            upload_cache=upload_cache,
+        )
+        page_text = build_page_text(
+            item,
+            related_changelog=related_changelog,
+            subtitle=page_data.subtitle,
+            header_image_file=header_image_file,
+            body_images=body_images,
+        )
+
         print(f"Processing {item.gid} -> {page_title}")
+        if page_data.subtitle:
+            print(f"  Subtitle: {page_data.subtitle}")
+        if header_image_file:
+            print(f"  Header image: {header_image_file}")
         if existing_text == page_text:
             skipped_count += 1
             print("  Unchanged on wiki; skipping edit")

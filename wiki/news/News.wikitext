@@ -1,0 +1,16 @@
+{{TOC right}}{{PC}}
+The '''News''' page is an automatically updated archive of official ICARUS Steam
+Community Announcements. Imported articles are grouped by year.
+
+{{#cargo_query:
+ table=NewsArticles
+ |fields=publishYear
+ |group by=publishYear
+ |order by=publishYear DESC
+ |format=template
+ |template=NewsYearSection
+ |named args=yes
+ |default=No imported news articles are available yet.
+}}
+
+[[Category:ICARUS (Game)]]

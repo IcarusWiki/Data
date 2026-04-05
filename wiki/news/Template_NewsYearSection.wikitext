@@ -1,0 +1,11 @@
+== {{{publishYear}}} ==
+{{#cargo_query:
+ table=NewsArticles
+ |fields=
+    CONCAT("[[", _pageName, "|", steamTitle, "]]") = Article,
+    CONCAT(DATE_FORMAT(publishDateUtc, "%Y-%m-%d %H:%i:%s"), " UTC") = Published (UTC),
+    IF(relatedChangelog != "", CONCAT("[[", relatedChangelog, "]]"), "") = Related Changelog,
+    CONCAT("[", steamUrl, " Steam]") = Steam
+ |where=publishYear={{{publishYear}}}
+ |order by=publishDateUtc DESC,_pageName
+}}

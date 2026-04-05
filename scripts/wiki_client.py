@@ -7,13 +7,16 @@ from __future__ import annotations
 
 import http.cookiejar
 import json
+import mimetypes
 import socket
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import uuid
 from dataclasses import dataclass
-from typing import Any
+from pathlib import Path
+from typing import Any, Callable
 
 REQUEST_TIMEOUT_SECONDS = 30
 DEFAULT_MIN_EDIT_INTERVAL_SECONDS = 10.0
@@ -89,7 +92,7 @@ class MediaWikiClient:
             return None
         return max(0.0, seconds)
 
-    def _wait_for_edit_slot(self) -> None:
+    def _wait_for_write_slot(self) -> None:
         if self.min_edit_interval_seconds <= 0:
             return
         if self._last_edit_request_finished_at is None:
@@ -99,7 +102,7 @@ class MediaWikiClient:
         if remaining > 0:
             time.sleep(remaining)
 
-    def _record_edit_attempt(self) -> None:
+    def _record_write_attempt(self) -> None:
         self._last_edit_request_finished_at = time.monotonic()
 
     def _get_retry_delay_seconds(
@@ -112,29 +115,7 @@ class MediaWikiClient:
             return max(retry_after_seconds, self.min_edit_interval_seconds)
         return self.rate_limit_retry_seconds * attempt_number
 
-    def request(self, params: dict[str, str], *, post: bool) -> dict[str, Any]:
-        request_headers = {
-            "Accept": "application/json",
-            "User-Agent": self.user_agent,
-        }
-        payload = dict(params)
-        payload["format"] = "json"
-
-        if post:
-            request = urllib.request.Request(
-                self.api_url,
-                data=urllib.parse.urlencode(payload).encode("utf-8"),
-                headers=request_headers,
-                method="POST",
-            )
-        else:
-            query = urllib.parse.urlencode(payload)
-            request = urllib.request.Request(
-                f"{self.api_url}?{query}",
-                headers=request_headers,
-                method="GET",
-            )
-
+    def _request_json(self, request: urllib.request.Request) -> dict[str, Any]:
         try:
             with self.opener.open(request, timeout=REQUEST_TIMEOUT_SECONDS) as response:
                 raw_body = response.read().decode("utf-8")
@@ -169,6 +150,108 @@ class MediaWikiClient:
             raise MediaWikiError(f"MediaWiki API error ({code}): {info}")
 
         return data
+
+    def request(self, params: dict[str, str], *, post: bool) -> dict[str, Any]:
+        request_headers = {
+            "Accept": "application/json",
+            "User-Agent": self.user_agent,
+        }
+        payload = dict(params)
+        payload["format"] = "json"
+
+        if post:
+            request = urllib.request.Request(
+                self.api_url,
+                data=urllib.parse.urlencode(payload).encode("utf-8"),
+                headers=request_headers,
+                method="POST",
+            )
+        else:
+            query = urllib.parse.urlencode(payload)
+            request = urllib.request.Request(
+                f"{self.api_url}?{query}",
+                headers=request_headers,
+                method="GET",
+            )
+
+        return self._request_json(request)
+
+    def _perform_write_request(
+        self,
+        request_factory: Callable[[], urllib.request.Request],
+        *,
+        error_context: str,
+    ) -> dict[str, Any]:
+        for attempt in range(1, self.max_rate_limit_retries + 2):
+            self._wait_for_write_slot()
+            try:
+                data = self._request_json(request_factory())
+            except MediaWikiRateLimitError as exc:
+                self._record_write_attempt()
+                if attempt > self.max_rate_limit_retries:
+                    raise MediaWikiError(
+                        f"{error_context} rate limit persisted: {exc}"
+                    ) from exc
+                retry_delay = self._get_retry_delay_seconds(
+                    exc.retry_after_seconds,
+                    attempt_number=attempt,
+                )
+                time.sleep(retry_delay)
+                continue
+            except Exception:
+                self._record_write_attempt()
+                raise
+
+            self._record_write_attempt()
+            return data
+
+        raise MediaWikiError(f"{error_context} failed unexpectedly.")
+
+    def _build_multipart_request(
+        self,
+        fields: dict[str, str],
+        *,
+        file_field_name: str,
+        filename: str,
+        file_bytes: bytes,
+        content_type: str,
+    ) -> urllib.request.Request:
+        boundary = f"----CodexBoundary{uuid.uuid4().hex}"
+        body = bytearray()
+
+        def append_text_part(name: str, value: str) -> None:
+            body.extend(f"--{boundary}\r\n".encode("utf-8"))
+            body.extend(
+                f'Content-Disposition: form-data; name="{name}"\r\n\r\n'.encode("utf-8")
+            )
+            body.extend(value.encode("utf-8"))
+            body.extend(b"\r\n")
+
+        for name, value in fields.items():
+            append_text_part(name, value)
+
+        body.extend(f"--{boundary}\r\n".encode("utf-8"))
+        body.extend(
+            (
+                f'Content-Disposition: form-data; name="{file_field_name}"; '
+                f'filename="{Path(filename).name}"\r\n'
+            ).encode("utf-8")
+        )
+        body.extend(f"Content-Type: {content_type}\r\n\r\n".encode("utf-8"))
+        body.extend(file_bytes)
+        body.extend(b"\r\n")
+        body.extend(f"--{boundary}--\r\n".encode("utf-8"))
+
+        return urllib.request.Request(
+            self.api_url,
+            data=bytes(body),
+            headers={
+                "Accept": "application/json",
+                "Content-Type": f"multipart/form-data; boundary={boundary}",
+                "User-Agent": self.user_agent,
+            },
+            method="POST",
+        )
 
     def login(self) -> None:
         if not self.username:
@@ -260,28 +343,60 @@ class MediaWikiClient:
         if nocreate:
             payload["nocreate"] = "1"
 
-        for attempt in range(1, self.max_rate_limit_retries + 2):
-            self._wait_for_edit_slot()
-            try:
-                edit_data = self.request(payload, post=True)
-            except MediaWikiRateLimitError as exc:
-                self._record_edit_attempt()
-                if attempt > self.max_rate_limit_retries:
-                    raise MediaWikiError(
-                        f"Edit rate limit persisted for {page_title}: {exc}"
-                    ) from exc
-                retry_delay = self._get_retry_delay_seconds(
-                    exc.retry_after_seconds,
-                    attempt_number=attempt,
-                )
-                time.sleep(retry_delay)
-                continue
-            except Exception:
-                self._record_edit_attempt()
-                raise
+        edit_data = self._perform_write_request(
+            lambda: urllib.request.Request(
+                self.api_url,
+                data=urllib.parse.urlencode(payload).encode("utf-8"),
+                headers={
+                    "Accept": "application/json",
+                    "User-Agent": self.user_agent,
+                },
+                method="POST",
+            ),
+            error_context=f"Edit for {page_title}",
+        )
+        edit_result = edit_data.get("edit", {})
+        if edit_result.get("result") != "Success":
+            raise MediaWikiError(f"Edit failed for {page_title}: {edit_result}")
 
-            self._record_edit_attempt()
-            edit_result = edit_data.get("edit", {})
-            if edit_result.get("result") != "Success":
-                raise MediaWikiError(f"Edit failed for {page_title}: {edit_result}")
-            return
+    def upload_file(
+        self,
+        filename: str,
+        file_bytes: bytes,
+        *,
+        comment: str,
+        text: str,
+        content_type: str | None = None,
+    ) -> None:
+        if not self.csrf_token:
+            raise MediaWikiError("Cannot upload wiki file before calling login().")
+
+        detected_content_type = content_type or mimetypes.guess_type(filename)[0]
+        upload_content_type = (detected_content_type or "application/octet-stream").split(
+            ";",
+            1,
+        )[0]
+        payload = {
+            "action": "upload",
+            "filename": Path(filename).name,
+            "ignorewarnings": "1",
+            "comment": comment,
+            "text": normalize_text(text),
+            "token": self.csrf_token,
+            "format": "json",
+        }
+
+        upload_data = self._perform_write_request(
+            lambda: self._build_multipart_request(
+                payload,
+                file_field_name="file",
+                filename=filename,
+                file_bytes=file_bytes,
+                content_type=upload_content_type,
+            ),
+            error_context=f"Upload for {filename}",
+        )
+        upload_result = upload_data.get("upload", {})
+        result = upload_result.get("result")
+        if result not in {"Success", "Warning"}:
+            raise MediaWikiError(f"Upload failed for {filename}: {upload_result}")

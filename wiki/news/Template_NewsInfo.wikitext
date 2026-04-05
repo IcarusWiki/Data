@@ -1,0 +1,41 @@
+<noinclude>{{#cargo_declare:
+_table=NewsArticles
+|gid=String
+|steamTitle=String
+|publishDateUtc=Datetime
+|publishYear=Integer
+|steamUrl=URL
+|author=String
+|feedLabel=String
+|subtitle=String
+|headerImageFile=Page
+|relatedChangelog=Page
+}}</noinclude><includeonly>{{#cargo_store:
+_table=NewsArticles
+|gid={{{gid|}}}
+|steamTitle={{{steamTitle|}}}
+|publishDateUtc={{{publishDateUtc|}}}
+|publishYear={{{publishYear|}}}
+|steamUrl={{{steamUrl|}}}
+|author={{{author|}}}
+|feedLabel={{{feedLabel|}}}
+|subtitle={{{subtitle|}}}
+|headerImageFile={{{headerImageFile|}}}
+|relatedChangelog={{{relatedChangelog|}}}
+}}{{#if:{{{headerImageFile|}}}|[[{{{headerImageFile}}}|center|1000px]]}}
+
+<div style="margin:0 auto 1.5em auto; max-width:1000px; padding:1.25em 1.5em 1.35em 1.5em; background:linear-gradient(180deg,#6a7079 0%,#4b5058 100%); color:#f3f5f7;">
+<div style="font-size:0.85em; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; line-height:1.4;">
+<span style="color:#33a8ff;">News</span> <span style="color:#d5d9de;">Posted {{{publishDisplayDate|}}}</span>
+</div>
+<div style="font-size:2.4em; line-height:1.15; font-weight:300; margin-top:0.25em;">{{{steamTitle|}}}</div>{{#if:{{{subtitle|}}}|
+<div style="font-size:1.25em; line-height:1.35; color:#d7dbe0; margin-top:0.35em;">{{{subtitle}}}</div>|}}
+<div style="margin-top:1.15em; padding-top:0.95em; border-top:1px solid rgba(255,255,255,0.2); font-size:0.96em; line-height:1.7; color:#eef1f4;">
+'''Published (UTC):''' {{{publishDateUtc|}}} UTC<br>
+'''Author:''' {{{author|Unknown}}}<br>
+'''Feed:''' {{{feedLabel|Community Announcements}}}<br>
+'''Steam URL:''' [{{{steamUrl|}}} Original announcement]<br>
+'''Steam gid:''' <code>{{{gid|}}}</code>{{#if:{{{relatedChangelog|}}}|<br>'''Related changelog:''' [[{{{relatedChangelog}}}]]|}}<br>
+<span style="color:#d0d5da;">''Imported automatically from Steam Community Announcements.''</span>
+</div>
+</div></includeonly>
