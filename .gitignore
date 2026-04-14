@@ -2,3 +2,5 @@
 /wiki/news/README.md
 /ExtractedData/
 /tools/
+/tmp/
+/consumerScripts/__pycache__/

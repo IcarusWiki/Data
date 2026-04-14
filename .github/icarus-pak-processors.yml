@@ -35,12 +35,17 @@ defaults:
   processor_timeout_minutes: 20
   git_clone_depth: 1
 
-run_on_all:
-  - id: elysium-plant-map
-    repo: IcarusWiki/Data
-    ref: main
-    workdir: consumerScripts
-    command: python generate_elysium_plants.py
-    timeout_minutes: 30
+run_on_all: []
 
-targeted: []
+targeted:
+  - id: elysium-plant-map
+    include_globs:
+      - Icarus/Content/Paks/pakchunk0_s30-WindowsNoEditor.pak
+      - Icarus/Content/Paks/pakchunk0_s31-WindowsNoEditor.pak
+    processors:
+      - id: elysium-plant-extract
+        repo: IcarusWiki/Data
+        ref: main
+        workdir: consumerScripts
+        command: python generate_elysium_plants.py
+        timeout_minutes: 30
