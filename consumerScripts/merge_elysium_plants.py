@@ -82,32 +82,72 @@ GROUP_ARTICLES: dict[str, str] = {
 
 
 # ---------------------------------------------------------------------------
-# Union-Find for clustering
+# Bounding-box cluster (matches IcarusDataMiner's ClusterBuilder)
 # ---------------------------------------------------------------------------
-class UnionFind:
-    __slots__ = ("parent", "rank")
+class _Cluster:
+    """A cluster with a bounding box.  A point is accepted only when it falls
+    within ``threshold`` of *every* edge of the current bounding box, which
+    naturally caps the cluster at ~threshold in each dimension."""
 
-    def __init__(self, n: int) -> None:
-        self.parent = list(range(n))
-        self.rank = [0] * n
+    __slots__ = ("min_x", "max_x", "min_y", "max_y", "min_z", "max_z",
+                 "count", "_threshold")
 
-    def find(self, x: int) -> int:
-        root = x
-        while self.parent[root] != root:
-            root = self.parent[root]
-        while self.parent[x] != root:
-            self.parent[x], x = root, self.parent[x]
-        return root
+    def __init__(self, x: float, y: float, z: float, threshold: float) -> None:
+        self.min_x = self.max_x = x
+        self.min_y = self.max_y = y
+        self.min_z = self.max_z = z
+        self.count = 1
+        self._threshold = threshold
 
-    def union(self, a: int, b: int) -> None:
-        ra, rb = self.find(a), self.find(b)
-        if ra == rb:
-            return
-        if self.rank[ra] < self.rank[rb]:
-            ra, rb = rb, ra
-        self.parent[rb] = ra
-        if self.rank[ra] == self.rank[rb]:
-            self.rank[ra] += 1
+    def try_add(self, x: float, y: float, z: float) -> bool:
+        t = self._threshold
+        if (x < self.min_x + t and x > self.max_x - t and
+                y < self.min_y + t and y > self.max_y - t):
+            if x < self.min_x:
+                self.min_x = x
+            elif x > self.max_x:
+                self.max_x = x
+            if y < self.min_y:
+                self.min_y = y
+            elif y > self.max_y:
+                self.max_y = y
+            if z < self.min_z:
+                self.min_z = z
+            elif z > self.max_z:
+                self.max_z = z
+            self.count += 1
+            return True
+        return False
+
+    def try_combine(self, other: "_Cluster") -> bool:
+        t = self._threshold
+        if (abs(self.max_x - other.min_x) < t and
+                abs(self.min_x - other.max_x) < t and
+                abs(self.max_y - other.min_y) < t and
+                abs(self.min_y - other.max_y) < t):
+            if other.min_x < self.min_x:
+                self.min_x = other.min_x
+            if other.max_x > self.max_x:
+                self.max_x = other.max_x
+            if other.min_y < self.min_y:
+                self.min_y = other.min_y
+            if other.max_y > self.max_y:
+                self.max_y = other.max_y
+            if other.min_z < self.min_z:
+                self.min_z = other.min_z
+            if other.max_z > self.max_z:
+                self.max_z = other.max_z
+            self.count += other.count
+            return True
+        return False
+
+    @property
+    def center_x(self) -> float:
+        return (self.min_x + self.max_x) * 0.5
+
+    @property
+    def center_y(self) -> float:
+        return (self.min_y + self.max_y) * 0.5
 
 
 # ---------------------------------------------------------------------------
@@ -120,54 +160,59 @@ def cluster_positions(
 ) -> list[tuple[float, float, int]]:
     """Cluster 3D positions into (center_x, center_y, count) groups.
 
-    Uses spatial hashing for O(n) average-case performance and union-find
-    for merging, matching IcarusDataMiner's FoliageMiner approach.
+    Uses the same bounding-box algorithm as IcarusDataMiner's ClusterBuilder:
+    each cluster's bounding box can grow at most ``threshold`` in each axis,
+    preventing the transitive chaining that union-find would cause.
     """
     if not positions:
         return []
 
-    n = len(positions)
-    threshold_sq = threshold * threshold
+    # World bounds for cell mapping (Elysium: -400000 to 400000)
+    world_min = -400000.0
 
-    # Build spatial grid (only x,y matter for clustering)
-    grid: dict[tuple[int, int], list[int]] = defaultdict(list)
-    for i, (x, y, _z) in enumerate(positions):
-        cx = int(math.floor(x / partition))
-        cy = int(math.floor(y / partition))
-        grid[(cx, cy)].append(i)
+    cell_count = int(math.ceil(800000.0 / partition))
 
-    # Union nearby points
-    uf = UnionFind(n)
-    for (cx, cy), indices in grid.items():
-        # Gather candidate indices from this cell and 8 neighbours
-        candidates: list[int] = []
-        for dx in (-1, 0, 1):
-            for dy in (-1, 0, 1):
-                candidates.extend(grid.get((cx + dx, cy + dy), ()))
+    # Phase 1: assign each point to a cluster within its partition cell
+    cells: list[list[_Cluster]] = [[] for _ in range(cell_count * cell_count)]
 
-        for i in indices:
-            xi, yi = positions[i][0], positions[i][1]
-            for j in candidates:
-                if j <= i:
-                    continue
-                dx = positions[j][0] - xi
-                dy = positions[j][1] - yi
-                if dx * dx + dy * dy < threshold_sq:
-                    uf.union(i, j)
+    def _cell_idx(x: float, y: float) -> int:
+        cx = min(max(int(math.floor((x - world_min) / partition)), 0), cell_count - 1)
+        cy = min(max(int(math.floor((y - world_min) / partition)), 0), cell_count - 1)
+        return cy * cell_count + cx
 
-    # Extract clusters
-    clusters_map: dict[int, list[int]] = defaultdict(list)
-    for i in range(n):
-        clusters_map[uf.find(i)].append(i)
+    for x, y, z in positions:
+        idx = _cell_idx(x, y)
+        added = False
+        for cluster in cells[idx]:
+            if cluster.try_add(x, y, z):
+                added = True
+                break
+        if not added:
+            cells[idx].append(_Cluster(x, y, z, threshold))
 
+    # Phase 2: merge clusters across adjacent cells (right, below, diagonal)
+    for cy in range(cell_count - 1):
+        for cx in range(cell_count - 1):
+            targets = cells[cy * cell_count + cx]
+            for dy in range(2):
+                for dx in range(2):
+                    if dx == 0 and dy == 0:
+                        continue
+                    sources = cells[(cy + dy) * cell_count + (cx + dx)]
+                    for target in targets:
+                        si = 0
+                        while si < len(sources):
+                            if target.try_combine(sources[si]):
+                                sources.pop(si)
+                            else:
+                                si += 1
+
+    # Collect results
     result: list[tuple[float, float, int]] = []
-    for indices in clusters_map.values():
-        sx = sum(positions[i][0] for i in indices)
-        sy = sum(positions[i][1] for i in indices)
-        count = len(indices)
-        result.append((sx / count, sy / count, count))
+    for cell in cells:
+        for cluster in cell:
+            result.append((cluster.center_x, cluster.center_y, cluster.count))
 
-    # Sort by x then y for stable output
     result.sort(key=lambda c: (c[0], c[1]))
     return result
 
