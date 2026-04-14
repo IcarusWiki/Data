@@ -2333,17 +2333,41 @@
 				"article": "Mushrooms"
 			},
 			{
-				"x": 100136.57,
-				"y": -210366.78,
-				"id": "Mushroom-39",
+				"x": 89843.85,
+				"y": -198734.93,
+				"id": "Mushroom-62",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 17",
+				"article": "Mushrooms"
+			},
+			{
+				"x": 94129.68,
+				"y": -200585.47,
+				"id": "Mushroom-63",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 43",
+				"article": "Mushrooms"
+			},
+			{
+				"x": 97518.68,
+				"y": -203027.53,
+				"id": "Mushroom-64",
+				"name": "Mushrooms",
+				"description": "Amount of Mushrooms: 12",
+				"article": "Mushrooms"
+			},
+			{
+				"x": 100270.34,
+				"y": -210431.52,
+				"id": "Mushroom-65",
 				"name": "Mushrooms",
 				"description": "Amount of Mushrooms: 35",
 				"article": "Mushrooms"
 			},
 			{
-				"x": 112277.69,
-				"y": -200923.34,
-				"id": "Mushroom-40",
+				"x": 112295.7,
+				"y": -200926.42,
+				"id": "Mushroom-66",
 				"name": "Mushrooms",
 				"description": "Amount of Mushrooms: 3",
 				"article": "Mushrooms"
@@ -2351,7 +2375,7 @@
 			{
 				"x": 322666.72,
 				"y": 264132.03,
-				"id": "Mushroom-41",
+				"id": "Mushroom-67",
 				"name": "Mushrooms",
 				"description": "Amount of Mushrooms: 1",
 				"article": "Mushrooms"
@@ -2359,7 +2383,7 @@
 			{
 				"x": 343652.19,
 				"y": 305449.06,
-				"id": "Mushroom-42",
+				"id": "Mushroom-68",
 				"name": "Mushrooms",
 				"description": "Amount of Mushrooms: 1",
 				"article": "Mushrooms"
