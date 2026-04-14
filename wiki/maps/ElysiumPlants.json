@@ -653,14 +653,6 @@
 				"name": "Soy Beans",
 				"description": "Amount of Soy Beans: 3",
 				"article": "Soy Beans"
-			},
-			{
-				"x": 322910.75,
-				"y": 283828.72,
-				"id": "Beans-8",
-				"name": "Soy Beans",
-				"description": "Amount of Soy Beans: 1",
-				"article": "Soy Beans"
 			}
 		],
 		"Berries": [
@@ -1813,31 +1805,15 @@
 				"name": "Coffee Beans",
 				"description": "Amount of Coffee Beans: 9",
 				"article": "Coffee Beans"
-			},
-			{
-				"x": 320788.28,
-				"y": 277750.84,
-				"id": "Coffee-7",
-				"name": "Coffee Beans",
-				"description": "Amount of Coffee Beans: 1",
-				"article": "Coffee Beans"
-			},
-			{
-				"x": 322555.0,
-				"y": 264197.53,
-				"id": "Coffee-8",
-				"name": "Coffee Beans",
-				"description": "Amount of Coffee Beans: 1",
-				"article": "Coffee Beans"
 			}
 		],
 		"Garlic": [
 			{
-				"x": 270868.14,
-				"y": 55722.69,
+				"x": 270846.28,
+				"y": 55687.82,
 				"id": "Garlic-1",
 				"name": "Garlic",
-				"description": "Amount of Garlic: 4",
+				"description": "Amount of Garlic: 2",
 				"article": "Garlic"
 			}
 		],
@@ -2357,219 +2333,35 @@
 				"article": "Mushrooms"
 			},
 			{
-				"x": 89843.85,
-				"y": -198734.93,
-				"id": "Mushroom-62",
+				"x": 100136.57,
+				"y": -210366.78,
+				"id": "Mushroom-39",
 				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 17",
+				"description": "Amount of Mushrooms: 35",
 				"article": "Mushrooms"
 			},
 			{
-				"x": 94129.68,
-				"y": -200585.47,
-				"id": "Mushroom-63",
+				"x": 112277.69,
+				"y": -200923.34,
+				"id": "Mushroom-40",
 				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 43",
+				"description": "Amount of Mushrooms: 3",
 				"article": "Mushrooms"
 			},
 			{
-				"x": 97518.68,
-				"y": -203027.53,
-				"id": "Mushroom-64",
+				"x": 322666.72,
+				"y": 264132.03,
+				"id": "Mushroom-41",
 				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 12",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 100726.83,
-				"y": -210742.43,
-				"id": "Mushroom-65",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 48",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 111128.07,
-				"y": -203111.43,
-				"id": "Mushroom-66",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 43",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 111216.54,
-				"y": -211371.58,
-				"id": "Mushroom-67",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 6",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 114153.54,
-				"y": -209363.08,
-				"id": "Mushroom-68",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 36",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 117032.39,
-				"y": -238184.45,
-				"id": "Mushroom-69",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 31",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 117710.92,
-				"y": -209663.1,
-				"id": "Mushroom-70",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 10",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 155682.39,
-				"y": -205566.07,
-				"id": "Mushroom-71",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 13",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 157308.05,
-				"y": -208547.65,
-				"id": "Mushroom-72",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 41",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 202342.9,
-				"y": -216287.69,
-				"id": "Mushroom-73",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 5",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 203010.03,
-				"y": -133914.53,
-				"id": "Mushroom-74",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 10",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 204417.28,
-				"y": -135949.76,
-				"id": "Mushroom-75",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 19",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 206485.45,
-				"y": -137564.9,
-				"id": "Mushroom-76",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 25",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 246688.55,
-				"y": -158460.98,
-				"id": "Mushroom-77",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 30",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 246873.3,
-				"y": -162878.21,
-				"id": "Mushroom-78",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 24",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 273047.05,
-				"y": -136434.66,
-				"id": "Mushroom-79",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 30",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 274099.04,
-				"y": -140060.38,
-				"id": "Mushroom-80",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 28",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 289349.88,
-				"y": -98463.77,
-				"id": "Mushroom-81",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 20",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 292164.84,
-				"y": -98344.3,
-				"id": "Mushroom-82",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 4",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 309000.6,
-				"y": -57789.46,
-				"id": "Mushroom-83",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 40",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 311089.42,
-				"y": -54835.98,
-				"id": "Mushroom-84",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 14",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 322549.52,
-				"y": 264100.91,
-				"id": "Mushroom-85",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 2",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 325245.86,
-				"y": -108829.93,
-				"id": "Mushroom-86",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 22",
-				"article": "Mushrooms"
-			},
-			{
-				"x": 326477.23,
-				"y": -112668.62,
-				"id": "Mushroom-87",
-				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 32",
+				"description": "Amount of Mushrooms: 1",
 				"article": "Mushrooms"
 			},
 			{
 				"x": 343652.19,
 				"y": 305449.06,
-				"id": "Mushroom-88",
+				"id": "Mushroom-42",
 				"name": "Mushrooms",
-				"description": "Amount of Mushrooms: 2",
+				"description": "Amount of Mushrooms: 1",
 				"article": "Mushrooms"
 			}
 		],
