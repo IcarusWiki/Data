@@ -467,12 +467,12 @@ jobs:
           pak-timeout-minutes: ${{ matrix.pak_timeout_minutes }}
           tool-dir: ${{ steps.steamtools.outputs.tool_dir }}
 
-      - name: Upload elysium plant partials
+      - name: Upload plant map partials
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: elysium-partials-${{ matrix.pak_slug }}
-          path: ${{ runner.temp }}/elysium-plants-partials/
+          name: plant-map-partials-${{ matrix.pak_slug }}
+          path: ${{ runner.temp }}/plant-map-partials/
           if-no-files-found: ignore
           retention-days: 1
 
@@ -484,11 +484,11 @@ jobs:
 
           rm -rf "$RUNNER_TEMP_UNIX/steam-tools"
           rm -rf "$RUNNER_TEMP_UNIX/pak-work"
-          rm -rf "$RUNNER_TEMP_UNIX/elysium-plants-partials"
+          rm -rf "$RUNNER_TEMP_UNIX/plant-map-partials"
           rm -rf "$RUNNER_TEMP_UNIX/ue4export" "$RUNNER_TEMP_UNIX/ue4export.zip"
           rm -rf "$APPDATA_UNIX/steamguard-cli" 2>/dev/null || true
 
-  finalize_elysium_plants:
+  finalize_plant_maps:
     needs: process_content_paks
     if: always() && needs.process_content_paks.result == 'success'
     runs-on: ubuntu-latest
@@ -499,18 +499,28 @@ jobs:
         uses: actions/checkout@v6
         with:
           fetch-depth: 1
+          path: Data
+
+      - name: Checkout DataMaps repo
+        uses: actions/checkout@v6
+        with:
+          repository: IcarusWiki/DataMaps
+          ref: main
+          token: ${{ secrets.ORG_PAT }}
+          fetch-depth: 1
+          path: DataMaps
 
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
-      - name: Download elysium plant partials
+      - name: Download plant map partials
         id: download_partials
         continue-on-error: true
         uses: actions/download-artifact@v4
         with:
-          pattern: elysium-partials-*
+          pattern: plant-map-partials-*
           merge-multiple: true
           path: partials/
 
@@ -522,24 +532,25 @@ jobs:
           echo "Found $COUNT partial result files"
           echo "has_partials=$( [ "$COUNT" -gt 0 ] && echo true || echo false )" >> "$GITHUB_OUTPUT"
 
-      - name: Merge and generate ElysiumPlants.json
+      - name: Merge and generate plant map JSON files
         if: steps.check_partials.outputs.has_partials == 'true'
         run: |
-          python consumerScripts/merge_elysium_plants.py \
+          python DataMaps/consumerScripts/merge_plant_maps.py \
             --partials-dir partials/ \
-            --out wiki/maps/ElysiumPlants.json
+            --data-root Data \
+            --out-dir DataMaps/plantMaps
 
-      - name: Commit ElysiumPlants.json if changed
+      - name: Commit plant map JSON files if changed
         if: steps.check_partials.outputs.has_partials == 'true'
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          git -C DataMaps config user.name "github-actions"
+          git -C DataMaps config user.email "actions@github.com"
 
-          git add wiki/maps/ElysiumPlants.json
+          git -C DataMaps add plantMaps/
 
-          if git diff --cached --quiet -- wiki/maps/ElysiumPlants.json; then
-            echo "ElysiumPlants.json unchanged, skipping commit"
+          if git -C DataMaps diff --cached --quiet -- plantMaps/; then
+            echo "plantMaps unchanged, skipping commit"
           else
-            git commit -m "Update ElysiumPlants.json ($(date -u +%Y-%m-%d))"
-            git push
+            git -C DataMaps commit -m "Update plant maps ($(date -u +%Y-%m-%d))"
+            git -C DataMaps push
           fi

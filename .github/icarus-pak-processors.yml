@@ -38,14 +38,23 @@ defaults:
 run_on_all: []
 
 targeted:
-  - id: elysium-plant-map
+  - id: plant-maps
     include_globs:
+      - Icarus/Content/Paks/pakchunk0_s21-WindowsNoEditor.pak
+      - Icarus/Content/Paks/pakchunk0_s22-WindowsNoEditor.pak
+      - Icarus/Content/Paks/pakchunk0_s23-WindowsNoEditor.pak
+      - Icarus/Content/Paks/pakchunk0_s24-WindowsNoEditor.pak
+      - Icarus/Content/Paks/pakchunk0_s25-WindowsNoEditor.pak
+      - Icarus/Content/Paks/pakchunk0_s26-WindowsNoEditor.pak
+      - Icarus/Content/Paks/pakchunk0_s27-WindowsNoEditor.pak
+      - Icarus/Content/Paks/pakchunk0_s28-WindowsNoEditor.pak
+      - Icarus/Content/Paks/pakchunk0_s29-WindowsNoEditor.pak
       - Icarus/Content/Paks/pakchunk0_s30-WindowsNoEditor.pak
       - Icarus/Content/Paks/pakchunk0_s31-WindowsNoEditor.pak
     processors:
-      - id: elysium-plant-extract
-        repo: IcarusWiki/Data
+      - id: plant-map-extract
+        repo: IcarusWiki/DataMaps
         ref: main
         workdir: consumerScripts
-        command: python generate_elysium_plants.py
+        command: python extract_plant_map_partials.py --data-root "$GITHUB_WORKSPACE"
         timeout_minutes: 30
