@@ -277,6 +277,8 @@ jobs:
       matrix: ${{ steps.build_matrix.outputs.matrix }}
       discovered_count: ${{ steps.build_matrix.outputs.discovered_count }}
       scheduled_count: ${{ steps.build_matrix.outputs.scheduled_count }}
+      finalizer_matrix: ${{ steps.build_matrix.outputs.finalizer_matrix }}
+      finalizer_count: ${{ steps.build_matrix.outputs.finalizer_count }}
 
     steps:
       - name: Checkout current repo
@@ -360,12 +362,14 @@ jobs:
           python scripts/build_pak_matrix.py \
             --manifest-root "$RUNNER_TEMP_UNIX/depot-manifest" \
             --rules ".github/icarus-pak-processors.yml" \
+            --consumers ".github/icarus-consumers.yml" \
             --github-output "$GITHUB_OUTPUT"
 
       - name: Report matrix summary
         run: |
           echo "Discovered paks: ${{ steps.build_matrix.outputs.discovered_count }}"
           echo "Scheduled pak jobs: ${{ steps.build_matrix.outputs.scheduled_count }}"
+          echo "Scheduled finalizer jobs: ${{ steps.build_matrix.outputs.finalizer_count }}"
 
       - name: Cleanup
         if: always()
@@ -467,12 +471,12 @@ jobs:
           pak-timeout-minutes: ${{ matrix.pak_timeout_minutes }}
           tool-dir: ${{ steps.steamtools.outputs.tool_dir }}
 
-      - name: Upload plant map partials
+      - name: Upload consumer artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: plant-map-partials-${{ matrix.pak_slug }}
-          path: ${{ runner.temp }}/plant-map-partials/
+          name: consumer-artifacts-${{ matrix.pak_slug }}
+          path: ${{ runner.temp }}/consumer-artifacts/
           if-no-files-found: ignore
           retention-days: 1
 
@@ -484,15 +488,21 @@ jobs:
 
           rm -rf "$RUNNER_TEMP_UNIX/steam-tools"
           rm -rf "$RUNNER_TEMP_UNIX/pak-work"
-          rm -rf "$RUNNER_TEMP_UNIX/plant-map-partials"
+          rm -rf "$RUNNER_TEMP_UNIX/consumer-artifacts"
           rm -rf "$RUNNER_TEMP_UNIX/ue4export" "$RUNNER_TEMP_UNIX/ue4export.zip"
           rm -rf "$APPDATA_UNIX/steamguard-cli" 2>/dev/null || true
 
-  finalize_plant_maps:
-    needs: process_content_paks
-    if: always() && needs.process_content_paks.result == 'success'
+  finalize_consumers:
+    needs:
+      - discover_content_paks
+      - process_content_paks
+    if: needs.discover_content_paks.outputs.scheduled_count != '0' && needs.discover_content_paks.outputs.finalizer_count != '0' && needs.process_content_paks.result == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
+    strategy:
+      fail-fast: true
+      matrix: ${{ fromJSON(needs.discover_content_paks.outputs.finalizer_matrix) }}
 
     steps:
       - name: Checkout current repo
@@ -501,56 +511,67 @@ jobs:
           fetch-depth: 1
           path: Data
 
-      - name: Checkout DataMaps repo
+      - name: Checkout consumer repo
         uses: actions/checkout@v6
         with:
-          repository: IcarusWiki/DataMaps
-          ref: main
+          repository: ${{ matrix.consumer_repo }}
+          ref: ${{ matrix.consumer_ref }}
           token: ${{ secrets.ORG_PAT }}
           fetch-depth: 1
-          path: DataMaps
+          path: ${{ matrix.consumer_checkout_path }}
 
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
-      - name: Download plant map partials
-        id: download_partials
+      - name: Download consumer artifacts
         continue-on-error: true
         uses: actions/download-artifact@v4
         with:
-          pattern: plant-map-partials-*
+          pattern: consumer-artifacts-*
           merge-multiple: true
-          path: partials/
+          path: consumer-artifacts/
 
-      - name: Check for partial results
-        id: check_partials
+      - name: Prepare finalizer artifacts
+        id: prepare_artifacts
+        env:
+          ARTIFACT_IDS_JSON: ${{ matrix.finalizer_artifact_ids_json }}
         run: |
-          mkdir -p partials/
-          COUNT=$(find partials/ -name '*.json' -type f | wc -l)
-          echo "Found $COUNT partial result files"
-          echo "has_partials=$( [ "$COUNT" -gt 0 ] && echo true || echo false )" >> "$GITHUB_OUTPUT"
+          python Data/scripts/prepare_consumer_finalizer_artifacts.py \
+            --download-root consumer-artifacts/ \
+            --consumer-id "${{ matrix.consumer_id }}" \
+            --artifact-ids-json "$ARTIFACT_IDS_JSON" \
+            --out-root finalizer-artifacts/ \
+            --github-output "$GITHUB_OUTPUT"
 
-      - name: Merge and generate plant map JSON files
-        if: steps.check_partials.outputs.has_partials == 'true'
+      - name: Run consumer finalizer
+        if: steps.prepare_artifacts.outputs.has_artifacts == 'true'
+        env:
+          ICARUS_FINALIZER_ARTIFACT_DIR: ${{ steps.prepare_artifacts.outputs.artifact_dir }}
+          ICARUS_DATA_REPO_DIR: ${{ github.workspace }}/Data
+          ICARUS_CONSUMER_REPO_DIR: ${{ format('{0}/{1}', github.workspace, matrix.consumer_checkout_path) }}
         run: |
-          python DataMaps/consumerScripts/merge_plant_maps.py \
-            --partials-dir partials/ \
-            --data-root Data \
-            --out-dir DataMaps/plantMaps
+          CONSUMER_WORKDIR="$GITHUB_WORKSPACE/${{ matrix.consumer_checkout_path }}/${{ matrix.finalizer_workdir }}"
+          cd "$CONSUMER_WORKDIR"
+          ${{ matrix.finalizer_command }}
 
-      - name: Commit plant map JSON files if changed
-        if: steps.check_partials.outputs.has_partials == 'true'
+      - name: Commit consumer changes if changed
+        if: steps.prepare_artifacts.outputs.has_artifacts == 'true'
+        env:
+          COMMIT_PATHS_JSON: ${{ matrix.finalizer_commit_paths_json }}
+          CONSUMER_REPO_DIR: ${{ format('{0}/{1}', github.workspace, matrix.consumer_checkout_path) }}
         run: |
-          git -C DataMaps config user.name "github-actions"
-          git -C DataMaps config user.email "actions@github.com"
+          git -C "$CONSUMER_REPO_DIR" config user.name "github-actions"
+          git -C "$CONSUMER_REPO_DIR" config user.email "actions@github.com"
 
-          git -C DataMaps add plantMaps/
+          python Data/scripts/stage_consumer_commit_paths.py \
+            --repo-dir "$CONSUMER_REPO_DIR" \
+            --paths-json "$COMMIT_PATHS_JSON"
 
-          if git -C DataMaps diff --cached --quiet -- plantMaps/; then
-            echo "plantMaps unchanged, skipping commit"
+          if git -C "$CONSUMER_REPO_DIR" diff --cached --quiet --; then
+            echo "${{ matrix.finalizer_id }} unchanged, skipping commit"
           else
-            git -C DataMaps commit -m "Update plant maps ($(date -u +%Y-%m-%d))"
-            git -C DataMaps push
+            git -C "$CONSUMER_REPO_DIR" commit -m "${{ matrix.finalizer_commit_message }} ($(date -u +%Y-%m-%d))"
+            git -C "$CONSUMER_REPO_DIR" push
           fi

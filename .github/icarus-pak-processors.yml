@@ -14,6 +14,8 @@
 #     ref: main
 #     workdir: .
 #     command: ./scripts/process-all.sh
+#     consumer_id: consumer-name
+#     artifact_id: extracted-partials
 #     timeout_minutes: 20
 #
 # targeted:
@@ -26,6 +28,8 @@
 #         ref: main
 #         workdir: .
 #         command: ./scripts/process-subset.sh
+#         consumer_id: consumer-name
+#         artifact_id: extracted-partials
 #         timeout_minutes: 15
 
 version: 1
@@ -57,4 +61,6 @@ targeted:
         ref: main
         workdir: consumerScripts
         command: python extract_plant_map_partials.py --data-root "$GITHUB_WORKSPACE"
+        consumer_id: datamaps
+        artifact_id: plant-map-partials
         timeout_minutes: 30

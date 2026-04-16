@@ -1,0 +1,16 @@
+version: 1
+
+consumers:
+  - id: datamaps
+    repo: IcarusWiki/DataMaps
+    ref: main
+    checkout_path: DataMaps
+    finalizers:
+      - id: plant-maps
+        artifact_ids:
+          - plant-map-partials
+        workdir: .
+        command: python consumerScripts/merge_plant_maps.py --partials-dir "$ICARUS_FINALIZER_ARTIFACT_DIR/plant-map-partials" --data-root "$ICARUS_DATA_REPO_DIR" --out-dir plantMaps
+        commit_paths:
+          - plantMaps/
+        commit_message: Update plant maps

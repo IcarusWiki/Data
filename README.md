@@ -24,3 +24,11 @@ from those files before republishing historical `News:` articles to populate the
 `NewsArticles` Cargo table. Real news publishes now also mirror Steam hero/body
 images to wiki files on a best-effort basis, so the automation account needs
 file-upload permission in addition to page-edit permission.
+
+The `process-icarus-data.yml` workflow now has two config layers:
+
+- `.github/icarus-pak-processors.yml` for per-pak extraction processors
+- `.github/icarus-consumers.yml` for consumer finalizers that merge artifacts and commit outputs
+
+That keeps the main workflow generic: adding a new heavy consumer should usually
+be a config change plus consumer-repo scripts, not a workflow edit.

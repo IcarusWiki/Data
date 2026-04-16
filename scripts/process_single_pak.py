@@ -76,6 +76,15 @@ def clear_directory(path: Path) -> None:
     path.mkdir(parents=True, exist_ok=True)
 
 
+def resolve_pak_artifact_base(work_root: Path, *, pak_slug: str) -> Path:
+    runner_temp = os.environ.get("RUNNER_TEMP")
+    if runner_temp:
+        root = Path(runner_temp)
+    else:
+        root = work_root.parent
+    return resolve_user_path(root / "consumer-artifacts" / pak_slug)
+
+
 class Deadline:
     def __init__(self, total_seconds: int) -> None:
         self.started = time.monotonic()
@@ -184,6 +193,16 @@ def load_processors(raw_json: str) -> list[dict[str, Any]]:
         clone_depth = item.get("clone_depth", 1)
         if not isinstance(clone_depth, int) or clone_depth <= 0:
             fail(f"processors[{index}].clone_depth must be a positive integer")
+        consumer_id = item.get("consumer_id")
+        artifact_id = item.get("artifact_id")
+        if consumer_id is None and artifact_id is not None:
+            fail(f"processors[{index}].artifact_id requires consumer_id")
+        if artifact_id is None and consumer_id is not None:
+            fail(f"processors[{index}].consumer_id requires artifact_id")
+        if consumer_id is not None and not isinstance(consumer_id, str):
+            fail(f"processors[{index}].consumer_id must be a string")
+        if artifact_id is not None and not isinstance(artifact_id, str):
+            fail(f"processors[{index}].artifact_id must be a string")
         processors.append(
             {
                 "id": str(item["id"]),
@@ -194,6 +213,8 @@ def load_processors(raw_json: str) -> list[dict[str, Any]]:
                 "timeout_minutes": timeout,
                 "clone_depth": clone_depth,
                 "env": {str(key): str(value) for key, value in env.items()},
+                "consumer_id": str(consumer_id) if consumer_id is not None else None,
+                "artifact_id": str(artifact_id) if artifact_id is not None else None,
             }
         )
     return processors
@@ -400,6 +421,8 @@ def run_processors(
     shared_env["ICARUS_PAK_UNPACK_DIR"] = str(unpack_root)
     shared_env["ICARUS_PAK_WORK_ROOT"] = str(work_root)
     shared_env["ICARUS_WORKFLOW_REPO"] = os.environ.get("GITHUB_REPOSITORY", "")
+    pak_artifact_base = resolve_pak_artifact_base(work_root, pak_slug=Path(work_root).name)
+    pak_artifact_base.mkdir(parents=True, exist_ok=True)
 
     repo_cache: dict[tuple[str, str], Path] = {}
     for index, processor in enumerate(processors, start=1):
@@ -429,6 +452,15 @@ def run_processors(
 
         env = shared_env.copy()
         env.update(processor["env"])
+        consumer_id = processor["consumer_id"] or ""
+        artifact_id = processor["artifact_id"] or ""
+        artifact_root = pak_artifact_base
+        if consumer_id and artifact_id:
+            artifact_root = pak_artifact_base / consumer_id / artifact_id
+        artifact_root.mkdir(parents=True, exist_ok=True)
+        env["ICARUS_PAK_ARTIFACT_ROOT"] = str(artifact_root)
+        env["ICARUS_CONSUMER_ID"] = consumer_id
+        env["ICARUS_PROCESSOR_ARTIFACT_ID"] = artifact_id
         timeout_seconds = deadline.timeout_for(
             f"processor {processor['id']}",
             limit_seconds=processor["timeout_minutes"] * 60,
