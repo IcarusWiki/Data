@@ -427,10 +427,19 @@ jobs:
       - name: Download Ue4Export
         timeout-minutes: 4
         shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
+          $headers = @{
+            Accept = "application/vnd.github+json"
+          }
+          if ($env:GITHUB_TOKEN) {
+            $headers.Authorization = "Bearer $env:GITHUB_TOKEN"
+          }
+
           $release = Invoke-RestMethod `
             -Uri "https://api.github.com/repos/CrystalFerrai/Ue4Export/releases/latest" `
-            -Headers @{ Accept = "application/vnd.github+json" }
+            -Headers $headers
 
           $asset = $release.assets | Where-Object { $_.name -like "*.zip" } | Select-Object -First 1
           if (-not $asset) { throw "No zip asset found in latest Ue4Export release." }
@@ -438,7 +447,7 @@ jobs:
           $zip = "$env:RUNNER_TEMP\ue4export.zip"
           $out = "$env:RUNNER_TEMP\ue4export"
 
-          Invoke-WebRequest -Uri $asset.browser_download_url -OutFile $zip
+          Invoke-WebRequest -Uri $asset.browser_download_url -Headers $headers -OutFile $zip
           Expand-Archive -Path $zip -DestinationPath $out -Force
 
           $exe = Get-ChildItem $out -Recurse -Filter Ue4Export.exe | Select-Object -First 1
