@@ -12434,9 +12434,6 @@
             "Type": "Debuff",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Poison_Hammerhead-ModifierName\", \"Poisoned\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Poison_Hammerhead-ModifierDescription\", \"Slowly drains health from poisoned targets.\")",
-            "GrantedStats": {
-                "(Value=\"BaseSprintSpeed_+%\")": -20
-            },
             "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_PoisonDamage.BP_ModifierStateBehaviour_PoisonDamage_C",
             "ModifierVariables": {
                 "Damage": {

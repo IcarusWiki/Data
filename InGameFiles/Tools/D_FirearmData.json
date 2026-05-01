@@ -3066,6 +3066,9 @@
             },
             "RoundsPerMinute": 60,
             "ReloadTime": 1,
+            "AudioData": {
+                "RowName": "LegendaryChainsaw"
+            },
             "WeaponLoudness": 1,
             "ScopeRow": {
                 "RowName": "Scope_06"

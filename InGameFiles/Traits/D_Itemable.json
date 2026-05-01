@@ -27895,6 +27895,30 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_20-Description\", \"A mutated fish found in radioactive areas.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_20-FlavorText\", \"You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.\")",
             "bAllowZeroWeight": true
+        },
+        {
+            "Name": "Item_Butcher_Knife",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Butcher_Knife-DisplayName\", \"Butcher\\'s Cleaver\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ITEM_Butcher_Knife.T_ITEM_Butcher_Knife",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Butcher_Knife-Description\", \"A knife designed to kill animal companions and mounts quickly.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Butcher_Knife-FlavorText\", \"Quick and Painless\")",
+            "Weight": 500
+        },
+        {
+            "Name": "Item_Fertility_Serum_Boar",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fertility_Serum_Boar-DisplayName\", \"Boar Fertility Serum\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_Serum_Boar.T_ITEM_Serum_Boar",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fertility_Serum_Boar-Description\", \"Primes Male Boars for mating. Once primed will seek out and fertilize nearby Female Boar. \")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fertility_Serum_Boar-FlavorText\", \"Husbandry has come to Icarus\")",
+            "Weight": 50,
+            "MaxStack": 10
+        },
+        {
+            "Name": "Item_Carcass_Juvenile_Boar",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Juvenile_Boar-DisplayName\", \"Juvenile Boar Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Juvenile_Boar.ITEM_AnimalCarcass_Juvenile_Boar",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Juvenile_Boar-Description\", \"A juvenile Boar which never quite made it to adulthood.\")",
+            "Weight": 3500
         }
     ]
 }
