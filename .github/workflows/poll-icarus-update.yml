@@ -1,8 +1,9 @@
 name: Poll Icarus Update
 
 on:
-  #schedule:
-  #  - cron: '0 */12 * * *'
+  schedule:
+    - cron: '0 12 * * 5'
+      timezone: 'Europe/Zurich'
   workflow_dispatch:
 
 concurrency:
