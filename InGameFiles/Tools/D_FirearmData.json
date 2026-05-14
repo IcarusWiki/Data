@@ -3069,10 +3069,7 @@
             "AudioData": {
                 "RowName": "LegendaryChainsaw"
             },
-            "WeaponLoudness": 1,
-            "ScopeRow": {
-                "RowName": "Scope_06"
-            }
+            "WeaponLoudness": 1
         }
     ]
 }

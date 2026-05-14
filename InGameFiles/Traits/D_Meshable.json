@@ -7271,6 +7271,7 @@
         {
             "Name": "Mesh_Molotov",
             "ItemMesh": "/Game/ASS/ITM/SK_ITM_Molotov.SK_ITM_Molotov",
+            "ItemActor": "/Game/BP/Objects/World/Items/Weapons/BP_SKItem_Molotov.BP_SKItem_Molotov_C",
             "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_Molotov.SK_ITM_Molotov"
         },
         {
@@ -8609,10 +8610,10 @@
         },
         {
             "Name": "Mesh_Fish20",
-            "ItemMesh": "/Game/ASS/CRE/Fish/Fish19/SM_CRE_Fish19_Var4.SM_CRE_Fish19_Var4",
+            "ItemMesh": "/Game/ASS/CRE/Fish/Fish20/SM_CRE_Fish20.SM_CRE_Fish20",
             "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_Basic_Wooden_Lure.SK_ITM_Basic_Wooden_Lure",
             "EquipHandActor": "/Game/BP/Objects/World/Items/Fish/BP_SkeletalItem_Fish.BP_SkeletalItem_Fish_C",
-            "ExtraMesh": "/Game/ASS/CRE/Fish/Fish19/SK_CRE_Fish19_Var4.SK_CRE_Fish19_Var4"
+            "ExtraMesh": "/Game/ASS/CRE/Fish/Fish20/SK_CRE_Fish20.SK_CRE_Fish20"
         },
         {
             "Name": "Mesh_Butcher_Knife",
@@ -8625,6 +8626,18 @@
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Boar_Juvenile_Corpse.BP_Boar_Juvenile_Corpse_C",
             "EquipBackMesh": "/Game/ASS/CRE/Wild_Boar_Juvienile/SK_CRE_Wild_Boar_Juvenile.SK_CRE_Wild_Boar_Juvenile",
             "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Boar_Juvenile_Corpse.BP_Boar_Juvenile_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Lead_Lined_Crate_Small",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Machining.SM_KIT_Machining",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Lead_Lined_Crate_Small.BP_Lead_Lined_Crate_Small_C"
+        },
+        {
+            "Name": "Mesh_Lead_Lined_Crate_Medium",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Machining.SM_KIT_Machining",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Lead_Lined_Crate_Medium.BP_Lead_Lined_Crate_Medium_C"
         }
     ]
 }

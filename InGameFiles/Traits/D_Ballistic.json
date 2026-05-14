@@ -1611,11 +1611,11 @@
             "DamageVariationPercentage": 10,
             "bCanStealthAttack": false,
             "bHomingProjectile": false,
-            "Weight": 0.5,
+            "Weight": 1,
             "AllowPickupAfterSettle": false,
             "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_Molotov.BP_Payload_Molotov_C",
             "PayloadDeploymentType": "OnBounceImmediate",
-            "BreakChance": 0,
+            "BreakChance": 1,
             "PostDeployLifetime": 0.10000000149011612,
             "AttachOnHit": false,
             "ProjectileBounceSettings": {

@@ -21900,6 +21900,12 @@
                 "RowName": "Ranged_Weapon"
             },
             "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "PreventRadiationSpread_?",
+            "StatCategory": {
+                "RowName": "Item"
+            }
         }
     ]
 }

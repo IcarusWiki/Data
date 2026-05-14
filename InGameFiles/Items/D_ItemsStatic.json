@@ -10452,7 +10452,7 @@
                 "RowName": "Mesh_Molotov"
             },
             "Itemable": {
-                "RowName": "Item_Frag_Grenade"
+                "RowName": "Item_Molotov"
             },
             "Interactable": {
                 "RowName": "Item"
@@ -88132,6 +88132,74 @@
             }
         },
         {
+            "Name": "Fish_15_Var2",
+            "Meshable": {
+                "RowName": "Mesh_Fish15_Var2"
+            },
+            "Itemable": {
+                "RowName": "Item_Fish_15_Var2"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Focusable": {
+                "RowName": "Focusable_Fish"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Fish"
+            },
+            "Usable": {
+                "RowName": "Convert_Fish_To_Chunks"
+            },
+            "Decayable": {
+                "RowName": "Decay_Raw_Meat"
+            },
+            "Audio": {
+                "RowName": "Fish"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "NPC.Fish.Freshwater"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "NPC.Fish.Freshwater"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    }
+                ],
+                "ParentTags": []
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
             "Name": "Fish_16",
             "Meshable": {
                 "RowName": "Mesh_Fish16"
@@ -88177,6 +88245,74 @@
                     },
                     {
                         "TagName": "NPC.Fish.Unique"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    }
+                ],
+                "ParentTags": []
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_16_Var2",
+            "Meshable": {
+                "RowName": "Mesh_Fish16_Var2"
+            },
+            "Itemable": {
+                "RowName": "Item_Fish_16_Var2"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Focusable": {
+                "RowName": "Focusable_Fish"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Fish"
+            },
+            "Usable": {
+                "RowName": "Convert_Fish_To_Chunks"
+            },
+            "Decayable": {
+                "RowName": "Decay_Raw_Meat"
+            },
+            "Audio": {
+                "RowName": "Fish"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "NPC.Fish.Saltwater"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "NPC.Fish.Saltwater"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -88286,142 +88422,6 @@
             },
             "Itemable": {
                 "RowName": "Item_Fish_17_Var2"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Focusable": {
-                "RowName": "Focusable_Fish"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Fish"
-            },
-            "Usable": {
-                "RowName": "Convert_Fish_To_Chunks"
-            },
-            "Decayable": {
-                "RowName": "Decay_Raw_Meat"
-            },
-            "Audio": {
-                "RowName": "Fish"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "NPC.Fish.Saltwater"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "NPC.Fish.Saltwater"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    }
-                ],
-                "ParentTags": []
-            },
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "NewFrontiers"
-                }
-            }
-        },
-        {
-            "Name": "Fish_17_Var3",
-            "Meshable": {
-                "RowName": "Mesh_Fish17_Var3"
-            },
-            "Itemable": {
-                "RowName": "Item_Fish_17_Var3"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Focusable": {
-                "RowName": "Focusable_Fish"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Fish"
-            },
-            "Usable": {
-                "RowName": "Convert_Fish_To_Chunks"
-            },
-            "Decayable": {
-                "RowName": "Decay_Raw_Meat"
-            },
-            "Audio": {
-                "RowName": "Fish"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "NPC.Fish.Saltwater"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "NPC.Fish.Saltwater"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    }
-                ],
-                "ParentTags": []
-            },
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "NewFrontiers"
-                }
-            }
-        },
-        {
-            "Name": "Fish_17_Var4",
-            "Meshable": {
-                "RowName": "Mesh_Fish17_Var4"
-            },
-            "Itemable": {
-                "RowName": "Item_Fish_17_Var4"
             },
             "Interactable": {
                 "RowName": "Item"
@@ -230269,7 +230269,8 @@
                 "RowName": "GenericDeployable"
             },
             "AdditionalStats": {
-                "(Value=\"IsInvulnerable_?\")": 1
+                "(Value=\"IsInvulnerable_?\")": 1,
+                "(Value=\"DoNotRecordForPrebuilt_?\")": 1
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -233482,6 +233483,74 @@
                     },
                     {
                         "TagName": "Traits.Ballistic"
+                    }
+                ],
+                "ParentTags": []
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Fish_20",
+            "Meshable": {
+                "RowName": "Mesh_Fish20"
+            },
+            "Itemable": {
+                "RowName": "Item_Fish_20"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Focusable": {
+                "RowName": "Focusable_Fish"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Fish"
+            },
+            "Usable": {
+                "RowName": "Convert_Fish_To_Chunks"
+            },
+            "Decayable": {
+                "RowName": "Decay_Raw_Meat"
+            },
+            "Audio": {
+                "RowName": "Fish"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "NPC.Fish.Freshwater"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "NPC.Fish.Freshwater"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
                     }
                 ],
                 "ParentTags": []

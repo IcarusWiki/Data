@@ -7608,9 +7608,31 @@
             }
         },
         {
+            "Name": "Fish_15_Var2",
+            "ItemStaticData": {
+                "RowName": "Fish_15_Var2"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
             "Name": "Fish_16",
             "ItemStaticData": {
                 "RowName": "Fish_16"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Galileo"
+                }
+            }
+        },
+        {
+            "Name": "Fish_16_Var2",
+            "ItemStaticData": {
+                "RowName": "Fish_16_Var2"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -7633,28 +7655,6 @@
             "Name": "Fish_17_Var2",
             "ItemStaticData": {
                 "RowName": "Fish_17_Var2"
-            },
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "Galileo"
-                }
-            }
-        },
-        {
-            "Name": "Fish_17_Var3",
-            "ItemStaticData": {
-                "RowName": "Fish_17_Var3"
-            },
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "Galileo"
-                }
-            }
-        },
-        {
-            "Name": "Fish_17_Var4",
-            "ItemStaticData": {
-                "RowName": "Fish_17_Var4"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -26443,6 +26443,17 @@
             "Name": "Sawblade",
             "ItemStaticData": {
                 "RowName": "Chainsaw_Sawblade"
+            }
+        },
+        {
+            "Name": "Fish_20",
+            "ItemStaticData": {
+                "RowName": "Fish_20"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
             }
         },
         {

@@ -2488,6 +2488,27 @@
             }
         },
         {
+            "Name": "Fish_15_Var2",
+            "Fish": {
+                "RowName": "Fish_15_Var2"
+            },
+            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Fish/T_Fish15_Var2.T_Fish15_Var2",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_15_Var2-Lore\", \"This elusive fish is only found in the Styx region of Icarus. The UDA advises that any contractors that catch and consume this species do so at their own risk.\")",
+            "Rarity": "Unique",
+            "Type": "Saltwater",
+            "Maps": [
+                {
+                    "RowName": "Terrain_017",
+                    "DataTableName": "D_Terrains"
+                }
+            ],
+            "MinWeight": 250,
+            "MinLength": 500,
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish15_+%"
+            }
+        },
+        {
             "Name": "Fish_16",
             "Fish": {
                 "RowName": "Fish_16"
@@ -2507,12 +2528,53 @@
             }
         },
         {
+            "Name": "Fish_16_Var2",
+            "Fish": {
+                "RowName": "Fish_16_Var2"
+            },
+            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Fish/T_Fish16_Var2.T_Fish16_Var2",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_16_Var2-Lore\", \"Found only in the Olympus region of Icarus, scientists are unsure if this fish is a result of exotic mutation or if it is truly native to the planet.\")",
+            "Rarity": "Unique",
+            "Maps": [
+                {
+                    "RowName": "Terrain_016",
+                    "DataTableName": "D_Terrains"
+                }
+            ],
+            "MinLength": 250,
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish16_+%"
+            }
+        },
+        {
             "Name": "Fish_17",
             "Fish": {
                 "RowName": "Fish_17"
             },
             "Image": "/Game/Assets/2DArt/UI/FieldGuide/Fish/T_Fish17_Var1.T_Fish17_Var1",
             "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_17-Lore\", \"Unique to the Prometheus region, these fish are known for their elongated snouts, and extremely thin fins.\")",
+            "Rarity": "Unique",
+            "Type": "Saltwater",
+            "Maps": [
+                {
+                    "RowName": "Terrain_019",
+                    "DataTableName": "D_Terrains"
+                }
+            ],
+            "MinLength": 650,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Fish_17_Var2",
+            "Fish": {
+                "RowName": "Fish_17_Var2"
+            },
+            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Fish/T_Fish17_Var2.T_Fish17_Var2",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_17_Var2-Lore\", \"Unique to the Prometheus region, these fish are known for their elongated snouts, and extremely thin fins.\")",
             "Rarity": "Unique",
             "Type": "Saltwater",
             "Maps": [
@@ -2705,6 +2767,28 @@
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Fish_20",
+            "Fish": {
+                "RowName": "Fish_20"
+            },
+            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Fish/T_Fish20_Var1.T_Fish20_Var1",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_20-Lore\", \"Heavily affected by radiation, this odd looking fish is known for its strange mutation of its eyes. \")",
+            "Rarity": "Unique",
+            "Maps": [
+                {
+                    "RowName": "Terrain_021",
+                    "DataTableName": "D_Terrains"
+                }
+            ],
+            "MinWeight": 1000,
+            "MinLength": 500,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
                 }
             }
         }
