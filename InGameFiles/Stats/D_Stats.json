@@ -21951,6 +21951,24 @@
             "StatCategory": {
                 "RowName": "AI"
             }
+        },
+        {
+            "Name": "IsRadBossSpawnedAdd_?",
+            "bIsReplicated": true,
+            "bHideStatInUserInterface": true
+        },
+        {
+            "Name": "ShouldEmergeAtSpawn_?",
+            "bIsReplicated": true,
+            "bHideStatInUserInterface": true
+        },
+        {
+            "Name": "BaseFistMeleeDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFistMeleeDamage_+%-PositiveDescription\", \"+{0}% Melee Damage\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFistMeleeDamage_+%-NegativeDescription\", \"-{0}% Melee Damage\")",
+            "StatCategory": {
+                "RowName": "Melee_Weapon"
+            }
         }
     ]
 }

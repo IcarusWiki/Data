@@ -938,6 +938,11 @@
             "Name": "OilStorage_DrawOil",
             "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_OilStorage_Draw.BP_Interactable_OilStorage_Draw_C",
             "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"OilStorage_DrawOil-InteractionText\", \"Fill Container\")"
+        },
+        {
+            "Name": "Interact_OpenArmorStand",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_ToggleArmourStand.BP_Interactable_ToggleArmourStand_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_OpenArmorStand-InteractionText\", \"Open/Close\")"
         }
     ]
 }

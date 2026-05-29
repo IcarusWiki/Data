@@ -1634,6 +1634,19 @@
                     "DataTableName": "D_InventoryInfo"
                 }
             ]
+        },
+        {
+            "Name": "Faction_Mission_Hoverframe_Repair",
+            "Inventories": [
+                {
+                    "RowName": "Faction_Mission_Hoverframe_Repair",
+                    "DataTableName": "D_InventoryInfo"
+                },
+                {
+                    "RowName": "Faction_Mission_Ship_Salvage",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
         }
     ]
 }

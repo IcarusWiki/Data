@@ -19279,7 +19279,7 @@
         {
             "Name": "ELY_Story_5_Interference",
             "Class": "/Game/BP/Quests/Elysium/Story/Story5/BPQ_ELY_Story_5_Interference.BPQ_ELY_Story_5_Interference_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_5_Interference-Description\", \"Eliminate the Sandwrym Queen to clear the Satellite Interference\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_5_Interference-Description\", \"Eliminate the Sandwyrm Queen to clear the Satellite Interference\")",
             "LocationQuery": {
                 "RowName": "ELY_STORY_5_THUMPER"
             },

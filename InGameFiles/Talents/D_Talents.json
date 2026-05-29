@@ -66454,7 +66454,7 @@
         {
             "Name": "Creature_Chew_WaterRetention",
             "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Chew_WaterRetention-DisplayName\", \"Water Retention\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Chew_WaterRetention-Description\", \"Increased Physical Damage Reduction\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Chew_WaterRetention-Description\", \"Reduced Water Consumption for nearby allies\")",
             "Icon": "/Game/Assets/2DArt/UI/Talents/Exploration/Talent_Exploration_Amphibious.Talent_Exploration_Amphibious",
             "TalentTree": {
                 "RowName": "Creature_Chew"
@@ -66486,7 +66486,7 @@
         {
             "Name": "Creature_Chew_Extoic",
             "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Chew_Extoic-DisplayName\", \"Exotic Hauler\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Chew_Extoic-Description\", \"Reduces the weight of any Exotics Carried.\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Chew_Extoic-Description\", \"Reduces the weight of any Exotics Carried\")",
             "Icon": "/Game/Assets/2DArt/UI/Talents/Resources/Talent_Resources_ExoticStrongman.Talent_Resources_ExoticStrongman",
             "TalentTree": {
                 "RowName": "Creature_Chew"
