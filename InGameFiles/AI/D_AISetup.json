@@ -13335,7 +13335,7 @@
             },
             "DefaultNavigationFilter": "BlueprintGeneratedClass'/Game/BP/AI/GOAP/Misc/NavFilter_AllowAllAreas.NavFilter_AllowAllAreas_C'",
             "Relationships": {
-                "RowName": "EnemyAll"
+                "RowName": "DefaultMediumCarnivore"
             },
             "NotifiedNPCTypes": [
                 {
@@ -13585,7 +13585,7 @@
             },
             "DefaultNavigationFilter": "BlueprintGeneratedClass'/Game/BP/AI/GOAP/Misc/NavFilter_AllowAllAreas.NavFilter_AllowAllAreas_C'",
             "Relationships": {
-                "RowName": "EnemyAll"
+                "RowName": "DefaultMediumCarnivore"
             },
             "NotifiedNPCTypes": [
                 {

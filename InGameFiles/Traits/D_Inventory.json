@@ -1647,6 +1647,24 @@
                     "DataTableName": "D_InventoryInfo"
                 }
             ]
+        },
+        {
+            "Name": "Thumper_Deep",
+            "Inventories": [
+                {
+                    "RowName": "Fuel_Oil",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Settlement_Main",
+            "Inventories": [
+                {
+                    "RowName": "Settlement_Main",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
         }
     ]
 }

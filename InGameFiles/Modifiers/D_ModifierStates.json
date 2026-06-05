@@ -9247,7 +9247,7 @@
             "Name": "Treated_Water",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Water_Treated.T_ICON_Water_Treated'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Treated_Water-ModifierName\", \"Treated Water\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Treated_Water-ModifierDescription\", \"Water that has be treated with charcoal.\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Treated_Water-ModifierDescription\", \"Water that has been treated with charcoal.\")",
             "GrantedStats": {
                 "(Value=\"BaseWaterConsumption_+%\")": -10,
                 "(Value=\"BaseStaminaActionCost_+%\")": -10

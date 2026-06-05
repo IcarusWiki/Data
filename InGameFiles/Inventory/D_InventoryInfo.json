@@ -2282,6 +2282,13 @@
                     "Location": 3
                 }
             ]
+        },
+        {
+            "Name": "Settlement_Main",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "StartingSlots": 6
         }
     ]
 }

@@ -5500,6 +5500,13 @@
             "SnapToSurfaceNormal": false
         },
         {
+            "Name": "Anvil_Bench_T4_v2",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_Anvil_Bench_T4_v2.BP_Anvil_Bench_T4_v2_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Bench_Forge_v2/SM_DEP_Bench_Forge_v2_Combined.SM_DEP_Bench_Forge_v2_Combined",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false
+        },
+        {
             "Name": "Masonry_Bench_T3",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_Masonry_Bench_T3.BP_Masonry_Bench_T3_C",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Bench_Masonry_T3/SM_DEP_Bench_Masonry_T3.SM_DEP_Bench_Masonry_T3",
@@ -9968,6 +9975,8 @@
         {
             "Name": "Homestead_Barbed_Wire",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Railings/BP_Barbed_Wire.BP_Barbed_Wire_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Barbed_Wire_Fence.T_ITEM_Homestead_Barbed_Wire_Fence",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Homestead_Barbed_Wire-DeployableName\", \"Floor\")",
             "PreviewStaticMesh": "/Game/ASS/BLD/Railing_BarbedWire/SM_BLD_Railing_BarbedWire.SM_BLD_Railing_BarbedWire",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD.SFX_BLD_WOOD",
             "SupportsCustomRotation": false,
@@ -9994,6 +10003,7 @@
         {
             "Name": "Homestead_Barbed_Wire_Stairs",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Railings/BP_Barbed_Wire_Stairs.BP_Barbed_Wire_Stairs_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Barbed_Wire_Fence_Stairs.T_ITEM_Homestead_Barbed_Wire_Fence_Stairs",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Homestead_Barbed_Wire_Stairs-DeployableName\", \"Stairs\")",
             "PreviewStaticMesh": "/Game/ASS/BLD/Railing_BarbedWire/SM_BLD_Railing_Stairs_BarbedWire.SM_BLD_Railing_Stairs_BarbedWire",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
@@ -15840,6 +15850,13 @@
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Armor_Stand_T4/SM_DEP_Armor_Stand_T4.SM_DEP_Armor_Stand_T4",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
             "SnapToSurfaceNormal": false
+        },
+        {
+            "Name": "Thumper_Deep",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Resources/BP_Thumper_Deep.BP_Thumper_Deep_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Thumper.SM_DEP_Thumper",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SupportsCustomRotation": false
         }
     ]
 }

@@ -120636,6 +120636,77 @@
             "Audio": {
                 "RowName": "SkinningBench"
             }
+        },
+        {
+            "Name": "Thumper_Deep",
+            "Requirement": {
+                "RowName": "Deep_Thumper"
+            },
+            "RequiredMillijoules": 12500,
+            "RecipeSets": [
+                {
+                    "RowName": "Manufacturer",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Titanium_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10
+                },
+                {
+                    "Element": {
+                        "RowName": "Electronics",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8
+                },
+                {
+                    "Element": {
+                        "RowName": "Aluminium_Screw",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 18
+                },
+                {
+                    "Element": {
+                        "RowName": "Composites",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 15
+                },
+                {
+                    "Element": {
+                        "RowName": "Concrete_Mix",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8
+                },
+                {
+                    "Element": {
+                        "RowName": "Synthetics",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Thumper_Deep",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "MachiningBench"
+            }
         }
     ]
 }

@@ -4483,10 +4483,10 @@
         },
         {
             "Name": "Mesh_Thumper",
-            "ItemMesh": "/Game/ASS/DEP/SM_DEP_Thumper_Back.SM_DEP_Thumper_Back",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Fabricator.SM_KIT_Fabricator",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
             "EquipBackMesh": "/Game/ASS/DEP/SM_DEP_Thumper_Back.SM_DEP_Thumper_Back",
-            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Resources/BP_SandwormThumper.BP_SandwormThumper_C"
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Resources/BP_Thumper.BP_Thumper_C"
         },
         {
             "Name": "Mesh_Landshark_Spit",
@@ -8657,6 +8657,13 @@
             "Name": "Mesh_RadBoss_Spit_Web",
             "ItemMesh": "/Game/ASS/VFX/CRE/Spider/SM_WebProjectile.SM_WebProjectile",
             "ItemActor": "/Game/BP/AI/GOAP/Misc/BP_RadBoss_Spit_Web.BP_RadBoss_Spit_Web_C"
+        },
+        {
+            "Name": "Mesh_Thumper_Deep",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Fabricator.SM_KIT_Fabricator",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "EquipBackMesh": "/Game/ASS/DEP/SM_DEP_ThumperDeep_Back.SM_DEP_ThumperDeep_Back",
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Resources/BP_Thumper_Deep.BP_Thumper_Deep_C"
         }
     ]
 }

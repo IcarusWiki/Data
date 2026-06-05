@@ -1511,7 +1511,7 @@
         {
             "Name": "Colonist_A_Healed",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Colonist_A_Healed-DisplayName\", \"Colonist Rian\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Colonist_A_Healed-Description\", \"A Colonist who is recovering for injury.\")"
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Colonist_A_Healed-Description\", \"A Colonist who is recovering from injuries.\")"
         },
         {
             "Name": "Colonist_B",
@@ -1527,6 +1527,21 @@
             "Name": "Broken_Heavy_Hoverframe",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Broken_Heavy_Hoverframe-DisplayName\", \"Damaged Heavy Hoverframe\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"Broken_Heavy_Hoverframe-Description\", \"A prototype vehicle that has been partially repaired. Still requires additional repairs to get up an running.\")"
+        },
+        {
+            "Name": "Settlement_Hub",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Settlement_Hub-DisplayName\", \"Settlement Hub\")",
+            "Description": ""
+        },
+        {
+            "Name": "NPC_Settlement_NPC",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Settlement_NPC-DisplayName\", \"Settler\")",
+            "Description": ""
+        },
+        {
+            "Name": "NPC_Settlement_Visitor",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Settlement_Visitor-DisplayName\", \"Visitor\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Settlement_Visitor-Description\", \"Maybe they\\'d like to join?\")"
         }
     ]
 }

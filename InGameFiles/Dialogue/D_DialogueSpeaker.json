@@ -99,6 +99,10 @@
         {
             "Name": "ColonistA",
             "Speaker": "NSLOCTEXT(\"D_DialogueSpeaker\", \"ColonistA-Speaker\", \"Colonist Rian\")"
+        },
+        {
+            "Name": "Rian",
+            "Speaker": "NSLOCTEXT(\"D_DialogueSpeaker\", \"Rian-Speaker\", \"Rian\")"
         }
     ]
 }

@@ -4003,6 +4003,15 @@
             ]
         },
         {
+            "Name": "Anvil_Bench_T4_v2",
+            "Variants": [
+                {
+                    "RowName": "Anvil_Bench_T4_v2",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ]
+        },
+        {
             "Name": "Masonry_Bench_T3",
             "Variants": [
                 {
@@ -11446,6 +11455,40 @@
             "Variants": [
                 {
                     "RowName": "Armour_Stand_T4",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Settlement_Starter",
+            "Variants": [
+                {
+                    "RowName": "Settlement_Starter",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Settlement_Building",
+            "Variants": [
+                {
+                    "RowName": "Settlement_Building_House",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Settlement_Building_WaterTower",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Thumper_Deep",
+            "Variants": [
+                {
+                    "RowName": "Thumper_Deep",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],
