@@ -26006,7 +26006,11 @@
                 "RowName": "Agent"
             },
             "Text": [
-                "NSLOCTEXT(\"D_Dialogue\", \"DH_AGENT_BM_MISSIONSTART-Text-0\", \"Hello Meatbag!\")"
+                "NSLOCTEXT(\"D_Dialogue\", \"DH_AGENT_BM_MISSIONSTART-Text-0\", \"Hello Meatbag!\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"DH_AGENT_BM_MISSIONSTART-Text-1\", \"Norex figured out a way to tether me to one of your ghastly Envirosuits.\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"DH_AGENT_BM_MISSIONSTART-Text-2\", \"I\\'ve marked an objective. It\\'s simple enough that even a meatsack with a room temperature IQ should be able to manage it.\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"DH_AGENT_BM_MISSIONSTART-Text-3\", \"Norex wants data, I want to be anywhere else.\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"DH_AGENT_BM_MISSIONSTART-Text-4\", \"Since neither of us gets what we want, get to work.\")"
             ]
         },
         {
@@ -26017,7 +26021,9 @@
                 "RowName": "Agent"
             },
             "Text": [
-                "NSLOCTEXT(\"D_Dialogue\", \"DH_AGENT_BM_BOSSKILL-Text-0\", \"Stunning work!\")"
+                "NSLOCTEXT(\"D_Dialogue\", \"DH_AGENT_BM_BOSSKILL-Text-0\", \"Stunning work!\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"DH_AGENT_BM_BOSSKILL-Text-1\", \"I\\'ll make sure to add a gold star to your file.\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"DH_AGENT_BM_BOSSKILL-Text-2\", \"Right next to the insurance waiver.\")"
             ]
         },
         {
@@ -26932,20 +26938,6 @@
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
                 }
-            }
-        },
-        {
-            "Name": "GH_NPC_RIAN_INJURED",
-            "Audio": "/Game/FMOD/Events/Dialogue/DH/DH_NPCS/DH_NPC_RIAN_INJURED.DH_NPC_RIAN_INJURED",
-            "Speaker": {
-                "RowName": "Rian"
-            }
-        },
-        {
-            "Name": "GH_NPC_RIAN_HEALED",
-            "Audio": "/Game/FMOD/Events/Dialogue/DH/DH_NPCS/DH_NPC_RIAN_HEALED.DH_NPC_RIAN_HEALED",
-            "Speaker": {
-                "RowName": "Rian"
             }
         }
     ]

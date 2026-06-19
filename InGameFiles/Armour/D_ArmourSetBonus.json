@@ -335,6 +335,14 @@
                 "(Value=\"BaseFrostDamageResistance_%\")": 50,
                 "(Value=\"BasePoisonDamageResistance_%\")": 50
             }
+        },
+        {
+            "Name": "RadBoss_5",
+            "RequiredGear": 5,
+            "Description": "INVTEXT(\"[DNT] Radboss Armor Set\")",
+            "StatsGranted": {
+                "(Value=\"BaseMovementSpeed_+%\")": 5
+            }
         }
     ]
 }

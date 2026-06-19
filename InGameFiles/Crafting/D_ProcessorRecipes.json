@@ -116369,10 +116369,10 @@
                 },
                 {
                     "Element": {
-                        "RowName": "Sandwyrm_Egg",
+                        "RowName": "Sandwyrm_Wing",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 5
+                    "Count": 10
                 }
             ],
             "Outputs": [
@@ -116493,6 +116493,13 @@
                         "DataTableName": "D_ItemsStatic"
                     },
                     "Count": 3
+                },
+                {
+                    "Element": {
+                        "RowName": "Sandwyrm_Wing",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10
                 }
             ],
             "Outputs": [
@@ -118024,7 +118031,7 @@
                 },
                 {
                     "Element": {
-                        "RowName": "Sandwyrm_Egg",
+                        "RowName": "Sandwyrm_Wing",
                         "DataTableName": "D_ItemsStatic"
                     },
                     "Count": 3
@@ -118100,6 +118107,48 @@
             }
         },
         {
+            "Name": "Sandwyrm_Biomass_2",
+            "RequiredMillijoules": 150000,
+            "RecipeSets": [
+                {
+                    "RowName": "Exotic_Processor",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Cleaning_Device",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Sandwyrm_Wing",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 5
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ExoticProcessor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Biomass_To_Sandwyrm_Egg",
             "RequiredMillijoules": 1,
             "RecipeSets": [
@@ -118124,6 +118173,44 @@
                         "DataTableName": "D_ItemTemplate"
                     },
                     "Count": 2,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ExoticProcessor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Biomass_To_Sandwyrm_Wing",
+            "RequiredMillijoules": 1,
+            "RecipeSets": [
+                {
+                    "RowName": "Biomass_Exchange",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Sandwyrm_Wing",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 3,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -120790,6 +120877,386 @@
             ],
             "Audio": {
                 "RowName": "CookingStation"
+            }
+        },
+        {
+            "Name": "Biomass_To_Boss_Vestiage_Wolf",
+            "RequiredMillijoules": 1,
+            "RecipeSets": [
+                {
+                    "RowName": "Biomass_Exchange",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "AlphaWolf_Head",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ExoticProcessor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Biomass_To_Boss_Vestiage_Sandworm",
+            "RequiredMillijoules": 1,
+            "RecipeSets": [
+                {
+                    "RowName": "Biomass_Exchange",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Sandworm_Head",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ExoticProcessor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Biomass_To_Boss_Vestiage_Scorpion",
+            "RequiredMillijoules": 1,
+            "RecipeSets": [
+                {
+                    "RowName": "Biomass_Exchange",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Scorpion_Boss_Head",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ExoticProcessor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Biomass_To_Boss_Vestiage_Landshark",
+            "RequiredMillijoules": 1,
+            "RecipeSets": [
+                {
+                    "RowName": "Biomass_Exchange",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Land_Shark_Head",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ExoticProcessor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Biomass_To_Boss_Vestiage_Hammerhead",
+            "RequiredMillijoules": 1,
+            "RecipeSets": [
+                {
+                    "RowName": "Biomass_Exchange",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Slug_Head",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ExoticProcessor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Biomass_To_Boss_Vestiage_LavaHunter",
+            "RequiredMillijoules": 1,
+            "RecipeSets": [
+                {
+                    "RowName": "Biomass_Exchange",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Lava_Hunter_Head",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ExoticProcessor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Biomass_To_Boss_Vestiage_Golem",
+            "RequiredMillijoules": 1,
+            "RecipeSets": [
+                {
+                    "RowName": "Biomass_Exchange",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Rock_Golem_Head",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ExoticProcessor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Biomass_To_Boss_Vestiage_Mammoth",
+            "RequiredMillijoules": 1,
+            "RecipeSets": [
+                {
+                    "RowName": "Biomass_Exchange",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "IceMammoth_Head",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ExoticProcessor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Biomass_To_Boss_Vestiage_Ape",
+            "RequiredMillijoules": 1,
+            "RecipeSets": [
+                {
+                    "RowName": "Biomass_Exchange",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Ape_Head",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ExoticProcessor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Biomass_To_Boss_Vestiage_SandWyrm",
+            "RequiredMillijoules": 1,
+            "RecipeSets": [
+                {
+                    "RowName": "Biomass_Exchange",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Biomass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Sandwyrm_Queen_Head",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "ExoticProcessor"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
             }
         }
     ]

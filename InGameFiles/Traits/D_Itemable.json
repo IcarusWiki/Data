@@ -9487,6 +9487,14 @@
             "Weight": 5000
         },
         {
+            "Name": "Item_XL_Advanced_Aquarium",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_XL_Advanced_Aquarium-DisplayName\", \"Extra Large Aquarium\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Large_Advanced_Aquarium.ITEM_Large_Advanced_Aquarium",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_XL_Advanced_Aquarium-Description\", \"A very fancy large fish tank for keeping your favourite finned friends around, must be connected to both power and water.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_XL_Advanced_Aquarium-FlavorText\", \"The latest technology for storing your fish friends.\")",
+            "Weight": 10000
+        },
+        {
             "Name": "Item_Saltwater_Fish_Fillet",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Saltwater_Fish_Fillet-DisplayName\", \"Saltwater Fish Fillet\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Saltwater_Fish_Fillet.ITEM_Saltwater_Fish_Fillet",
@@ -26419,7 +26427,7 @@
         },
         {
             "Name": "Item_Alloy_Armor_Head",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Alloy_Armor_Head-DisplayName\", \"Bastion Armor Head\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Alloy_Armor_Head-DisplayName\", \"Bastion Head Armor\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Alloy_Head.T_ITEM_Alloy_Head",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Alloy_Armor_Head-Description\", \"Crafting through a process of combining metals to create a strong protective armor.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Alloy_Armor_Head-FlavorText\", \"Stronger is always better\")",
@@ -27261,6 +27269,15 @@
             "MaxStack": 25
         },
         {
+            "Name": "Item_Sandwyrm_Wing",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandwyrm_Wing-DisplayName\", \"Sandwyrm Wing Fragment\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_Sandwyrm_Wing.T_Sandwyrm_Wing",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandwyrm_Wing-Description\", \"A torn wing fragment which is suprising tough.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandwyrm_Wing-FlavorText\", \"Many have died trying to acquire these\")",
+            "Weight": 1000,
+            "MaxStack": 25
+        },
+        {
             "Name": "Item_Sandwyrm_Lantern",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandwyrm_Lantern-DisplayName\", \"Sandwyrm Queen Lantern\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Sandwyrm_Latern.T_ITEM_Sandwyrm_Latern",
@@ -28087,7 +28104,7 @@
             "Name": "Item_Mission_Rad_Serum",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Rad_Serum-DisplayName\", \"FE-2 Antiserum\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_FE2AntiSerum.T_ITEM_FE2AntiSerum",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Rad_Serum-Description\", \"A Sample of a potential cure to the FE-2 Virus, crafted from Mushrooms, Lillies and a radioactive Fish.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Rad_Serum-Description\", \"A Sample of a potential cure to the FE-2 Virus, crafted from Mushrooms, Lillies and a Radioactive Fish.\")",
             "Weight": 250
         },
         {
@@ -28123,14 +28140,14 @@
             "Name": "Item_Stasis_Bag_Full_RAD_B_Colonist",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stasis_Bag_Full_RAD_B_Colonist-DisplayName\", \"Stasis Bag (Colonist Chris)\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Stasis_Bag_Full.T_ITEM_Stasis_Bag_Full",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stasis_Bag_Full_RAD_B_Colonist-Description\", \"Chris is frozen in a medically induced stasis ready to be transported off planet.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stasis_Bag_Full_RAD_B_Colonist-Description\", \"Chris is frozen in a medically induced stasis, ready to be transported off planet.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Stasis_Bag_Full_RAD_B_Colonist-FlavorText\", \"Another XIGO product that is at the bleeding edge of medical technology.\")",
             "Weight": 75000
         },
         {
             "Name": "Item_Mission_Hoverframe_Keys",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Hoverframe_Keys-DisplayName\", \"Rian\\'s Heavy Hoverframe Keys\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_MedicalGradeSyringe.T_ITEM_MedicalGradeSyringe",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/T_ITEM_Quest_HoverframeKey.T_ITEM_Quest_HoverframeKey",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Hoverframe_Keys-Description\", \"Keys and Tracker for a Heavy Hoverframe.\")",
             "Weight": 250
         },
@@ -28164,7 +28181,7 @@
         },
         {
             "Name": "Item_Envirosuit_Radboss",
-            "DisplayName": "INVTEXT(\"[DNT] Radboss Envirosuit\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Envirosuit_Radboss-DisplayName\", \"Malformation Envirosuit\")",
             "Weight": 100
         },
         {
@@ -28185,7 +28202,7 @@
             "Name": "Item_Stasis_Bag_Full_RAD_B2_Colonist",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stasis_Bag_Full_RAD_B2_Colonist-DisplayName\", \"Stasis Bag (Mutated Colonist)\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Stasis_Bag_Mutated_Prospector.T_ITEM_Stasis_Bag_Mutated_Prospector",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stasis_Bag_Full_RAD_B2_Colonist-Description\", \"A Mutated Human who frozen in a medically induced stasis ready to be cured if possible.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stasis_Bag_Full_RAD_B2_Colonist-Description\", \"A Mutated Human who has been frozen in a medically induced stasis, ready to be cured (if possible).\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Stasis_Bag_Full_RAD_B2_Colonist-FlavorText\", \"Another XIGO product that is at the bleeding edge of medical technology.\")",
             "Weight": 75000
         },
@@ -28206,9 +28223,16 @@
             "Name": "GH_Rad_B2_Research",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"GH_Rad_B2_Research-DisplayName\", \"Distillation Notes\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"GH_Rad_B2_Research-Description\", \"A quick guide as to how to create solutions with various properties.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"GH_Rad_B2_Research-FlavorText\", \"This is incomplete....\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"GH_Rad_B2_Research-Description\", \"A quick guide on how to create solutions with various properties.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"GH_Rad_B2_Research-FlavorText\", \"This appears to be incomplete...\")",
             "Weight": 100
+        },
+        {
+            "Name": "Item_Settlement_PathPlacer",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Settlement_PathPlacer-DisplayName\", \"Path Creator\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_Agility.Icon_Agility",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Settlement_PathPlacer-Description\", \"Used to mark out Settlement paths\")",
+            "Weight": 10
         },
         {
             "Name": "Item_Fertility_Serum_SwampBird",
@@ -28218,6 +28242,140 @@
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fertility_Serum_SwampBird-FlavorText\", \"Husbandry has come to Icarus\")",
             "Weight": 50,
             "MaxStack": 10
+        },
+        {
+            "Name": "Item_AntiRadiation_Stew",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AntiRadiation_Stew-DisplayName\", \"Surf \\'n\\' Shroom\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Fish_And_Mushroom.T_ITEM_Fish_And_Mushroom",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AntiRadiation_Stew-Description\", \"The distilled essence of a three eyed fish and mushrooms that seems radition resistant and slowly removes radiation poisioning.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AntiRadiation_Stew-FlavorText\", \"What could go wrong?\")",
+            "Weight": 250,
+            "MaxStack": 10
+        },
+        {
+            "Name": "Item_RadBoss_Attachment",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Attachment-DisplayName\", \"Malformation Attachment\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Attachments/T_ITEM_AttArmor_RadBoss.T_ITEM_AttArmor_RadBoss",
+            "Weight": 500
+        },
+        {
+            "Name": "Item_RadBoss_Claw",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Claw-DisplayName\", \"Malformation Claw\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Claw-FlavorText\", \"Evidence of a hard-won fight.\")",
+            "Weight": 1000,
+            "MaxStack": 5
+        },
+        {
+            "Name": "Item_RadBoss_Egg",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Egg-DisplayName\", \"Malformation Hide\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Egg-FlavorText\", \"Evidence of a hard-won fight.\")",
+            "Weight": 1000,
+            "MaxStack": 5
+        },
+        {
+            "Name": "Item_RadBoss_Module",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Module-DisplayName\", \"Malformation Module\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Modules/T_ITEM_MODULE_BOSS_RadBoss.T_ITEM_MODULE_BOSS_RadBoss",
+            "Weight": 500
+        },
+        {
+            "Name": "Item_Envirosuit_Colonist",
+            "DisplayName": "INVTEXT(\"[DNT] Colonist Envirosuit\")",
+            "Weight": 100
+        },
+        {
+            "Name": "Item_RadBoss_Armor_Head",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Armor_Head-DisplayName\", \"Malformation Head Armor\")",
+            "Weight": 2000
+        },
+        {
+            "Name": "Item_RadBoss_Armor_Chest",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Armor_Chest-DisplayName\", \"Malformation Chest Armor\")",
+            "Weight": 2000
+        },
+        {
+            "Name": "Item_RadBoss_Armor_Arms",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Armor_Arms-DisplayName\", \"Malformation Arms Armor\")",
+            "Weight": 2000
+        },
+        {
+            "Name": "Item_RadBoss_Armor_Legs",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Armor_Legs-DisplayName\", \"Malformation Legs Armor\")",
+            "Weight": 2000
+        },
+        {
+            "Name": "Item_RadBoss_Armor_Feet",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Armor_Feet-DisplayName\", \"Malformation Feet Armor\")",
+            "Weight": 2000
+        },
+        {
+            "Name": "Item_RadBoss_Crossbow",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Crossbow-DisplayName\", \"Malformation Crossbow\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Carbon_Rod",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carbon_Rod-DisplayName\", \"Carbon Fishing Rod\")",
+            "Weight": 1250
+        },
+        {
+            "Name": "Item_RadBoss_Rod",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Rod-DisplayName\", \"Malformation Fishing Rod\")",
+            "Weight": 1250
+        },
+        {
+            "Name": "Item_Animal_Virus",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Virus-DisplayName\", \"Forced Evolution Virus\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_ForcedEvolutionVirus.T_ITEM_ForcedEvolutionVirus",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Virus-Description\", \"Can be injected into animal companions to force evolution for better or worse. Can make animal companions infertile.\")",
+            "Weight": 50,
+            "MaxStack": 10
+        },
+        {
+            "Name": "Item_DNA_Serum",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DNA_Serum-DisplayName\", \"DNA Augmentation Serum\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_DNA_AugmentationSerum.T_ITEM_DNA_AugmentationSerum",
+            "Weight": 50,
+            "MaxStack": 10
+        },
+        {
+            "Name": "Item_Drone_Companion",
+            "DisplayName": "INVTEXT(\"[DNT] Drone Companion\")",
+            "Weight": 10000
+        },
+        {
+            "Name": "Item_RadBoss_Habitat_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Habitat_Trophy-DisplayName\", \"Malformation Habitat Trophy\")",
+            "Weight": 8500
+        },
+        {
+            "Name": "Item_RadBoss_Head_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Head_Trophy-DisplayName\", \"Malformation Head Trophy\")",
+            "Weight": 4000
+        },
+        {
+            "Name": "Item_RadBoss_Head",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Head-DisplayName\", \"Malformation Vestige\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Head-Description\", \"A preserved memory of an apex mutation.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Head-FlavorText\", \"Who knew taxidermy would be so popular on Icarus?\")",
+            "Weight": 2000,
+            "MaxStack": 5
+        },
+        {
+            "Name": "Item_Mission_Explosives_Cart",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Explosives_Cart-DisplayName\", \"Explosives Cart\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Saddle_Cart.T_ITEM_Saddle_Cart",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Explosives_Cart-Description\", \"A cart containing volatile explosives, requires a creature to pull it.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Explosives_Cart-FlavorText\", \"Lending a helping hand, or hoof.\")",
+            "Weight": 100000
+        },
+        {
+            "Name": "Item_Mission_Laser_Utility",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Laser_Utility-DisplayName\", \"MK-200 Weaponized Laser (Repaired)\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Mission_Prototype_Laser.ITEM_Mission_Prototype_Laser",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Laser_Utility-Description\", \"The result of a makeshift repair.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Laser_Utility-FlavorText\", \"It doesn\\'t look that unstable....\")",
+            "Weight": 2000
         }
     ]
 }

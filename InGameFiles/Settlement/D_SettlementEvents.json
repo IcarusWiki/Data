@@ -8,7 +8,9 @@
         "DisplayName": "",
         "Description": "",
         "PossibleOutcomes": [],
-        "MinSettlementLevel": 1
+        "MinSettlementLevel": 1,
+        "bOverridesNPCActivity": false,
+        "ActivityOverride": "UnderAttack"
     },
     "Rows": []
 }

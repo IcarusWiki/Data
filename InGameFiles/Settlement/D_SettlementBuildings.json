@@ -14,13 +14,16 @@
             "DataTableName": "D_Talents"
         },
         "ConstructionTime": 60,
+        "BoundaryBuildRule": "BuildWithinSettlement",
         "ItemConstructionCost": [],
         "QueryItemConstructionCost": [],
         "ResourceConstructionCost": [],
         "ConstructionExperienceReward": {
             "RowName": "Settlement_Building_Complete",
             "DataTableName": "D_ExperienceEvents"
-        }
+        },
+        "DefaultTasks": [],
+        "Generation": []
     },
     "Rows": [
         {
@@ -28,7 +31,7 @@
             "BuildingClass": "None",
             "BuildingStats": {
                 "(Value=\"BaseSettlementMaxNPCs_+\")": 1,
-                "(Value=\"BaseSettlementRange_+\")": 10000
+                "(Value=\"BaseSettlementRange_+\")": 3000
             }
         },
         {
@@ -43,9 +46,35 @@
                 "GameplayTags": [
                     {
                         "TagName": "Settlement.Building.House"
+                    },
+                    {
+                        "TagName": "Settlement.BuildingType.Housing"
                     }
                 ]
-            }
+            },
+            "ItemConstructionCost": [
+                {
+                    "Element": {
+                        "RowName": "Wood_Refined",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 200
+                },
+                {
+                    "Element": {
+                        "RowName": "Iron_Nail",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 20
+                },
+                {
+                    "Element": {
+                        "RowName": "Refined_Metal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 5
+                }
+            ]
         },
         {
             "Name": "Stockpile",
@@ -59,6 +88,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Settlement.Building.Stockpile"
+                    },
+                    {
+                        "TagName": "Settlement.BuildingType.Storage"
                     }
                 ]
             },
@@ -88,13 +120,37 @@
             "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"WaterTower-BuildingDescription\", \"Stores and generates water (if a Settler is assigned)\")",
             "BuildingClass": "BlueprintGeneratedClass'/Game/BP/Settlement/Buildings/BP_SettlementBuilding_Watertower.BP_SettlementBuilding_Watertower_C'",
             "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Water_Tower_Blocking.SM_COL_Water_Tower_Blocking",
+            "BuildingStats": {
+                "(Value=\"BaseSettlementWaterProduction_+\")": 200
+            },
             "BuildingTags": {
                 "GameplayTags": [
                     {
                         "TagName": "Settlement.Building.Watertower"
                     }
                 ]
-            }
+            },
+            "DefaultTasks": [
+                {
+                    "RowName": "OperateBuilding",
+                    "DataTableName": "D_SettlementNPCTaskTypes"
+                }
+            ],
+            "Generation": [
+                {
+                    "Item": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Resource": {
+                        "Value": "Water"
+                    },
+                    "RateStat": {
+                        "Value": "SettlementWaterProduction_+"
+                    },
+                    "RequiredActivity": "Work"
+                }
+            ]
         },
         {
             "Name": "Medical",
@@ -156,6 +212,86 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Workshop"
             }
+        },
+        {
+            "Name": "LoggingCamp",
+            "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"LoggingCamp-BuildingName\", \"Logging Camp\")",
+            "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"LoggingCamp-BuildingDescription\", \"Generates wood (if a Settler is assigned)\")",
+            "BuildingClass": "BlueprintGeneratedClass'/Game/BP/Settlement/Buildings/BP_SettlementBuilding_LoggingCamp.BP_SettlementBuilding_LoggingCamp_C'",
+            "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Stockpile_Blocking.SM_COL_Stockpile_Blocking",
+            "BuildingStats": {
+                "(Value=\"BaseSettlementWoodProduction_+\")": 5
+            },
+            "BuildingTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Settlement.Building.LoggingCamp"
+                    }
+                ]
+            },
+            "BoundaryBuildRule": "BuildOutsideSettlement",
+            "DefaultTasks": [
+                {
+                    "RowName": "ChopWood",
+                    "DataTableName": "D_SettlementNPCTaskTypes"
+                }
+            ],
+            "Generation": [
+                {
+                    "Item": {
+                        "RowName": "Wood",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Resource": {
+                        "Value": "None"
+                    },
+                    "RateStat": {
+                        "Value": "SettlementWoodProduction_+"
+                    },
+                    "RequiredActivity": "Work"
+                }
+            ]
+        },
+        {
+            "Name": "Farm",
+            "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"Farm-BuildingName\", \"Farm\")",
+            "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"Farm-BuildingDescription\", \"Generates food (if a Settler is assigned)\")",
+            "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Stockpile_Blocking.SM_COL_Stockpile_Blocking",
+            "BuildingStats": {
+                "(Value=\"BaseSettlementFoodProduction_+\")": 5
+            },
+            "BuildingTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Settlement.Building.Farm"
+                    },
+                    {
+                        "TagName": "Settlement.BuildingType.Farm"
+                    }
+                ]
+            },
+            "BoundaryBuildRule": "BuildAnywhere",
+            "DefaultTasks": [
+                {
+                    "RowName": "OperateBuilding",
+                    "DataTableName": "D_SettlementNPCTaskTypes"
+                }
+            ],
+            "Generation": [
+                {
+                    "Item": {
+                        "RowName": "Carrot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Resource": {
+                        "Value": "None"
+                    },
+                    "RateStat": {
+                        "Value": "SettlementFoodProduction_+"
+                    },
+                    "RequiredActivity": "Work"
+                }
+            ]
         }
     ]
 }

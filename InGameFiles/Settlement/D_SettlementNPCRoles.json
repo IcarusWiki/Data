@@ -3,10 +3,63 @@
     "Defaults": {
         "DisplayName": "",
         "DefaultSchedule": [],
-        "DefaultTaskType": {
-            "RowName": "None",
-            "DataTableName": "D_SettlementNPCTaskTypes"
+        "ActivityDefaultTasks": {},
+        "ClothingOverride": {
+            "RowName": "Default",
+            "DataTableName": "D_SettlementNPCClothing"
         }
     },
-    "Rows": []
+    "Rows": [
+        {
+            "Name": "Default",
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCRoles\", \"Default-DisplayName\", \"Default\")",
+            "DefaultSchedule": [
+                {
+                    "Activity": "Sleep",
+                    "StartHour": 0,
+                    "EndHour": 6
+                },
+                {
+                    "Activity": "Work",
+                    "StartHour": 6,
+                    "EndHour": 21
+                },
+                {
+                    "Activity": "Sleep",
+                    "StartHour": 21,
+                    "EndHour": 0
+                }
+            ],
+            "ActivityDefaultTasks": {
+                "Sleep": {
+                    "RowName": "Sleep",
+                    "DataTableName": "D_SettlementNPCTaskTypes"
+                }
+            }
+        },
+        {
+            "Name": "Guard",
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCRoles\", \"Guard-DisplayName\", \"Guard\")",
+            "DefaultSchedule": [
+                {
+                    "Activity": "Work",
+                    "StartHour": 0,
+                    "EndHour": 23
+                }
+            ],
+            "ActivityDefaultTasks": {
+                "Work": {
+                    "RowName": "Guard",
+                    "DataTableName": "D_SettlementNPCTaskTypes"
+                },
+                "Sleep": {
+                    "RowName": "Sleep",
+                    "DataTableName": "D_SettlementNPCTaskTypes"
+                }
+            },
+            "ClothingOverride": {
+                "RowName": "Guard"
+            }
+        }
+    ]
 }

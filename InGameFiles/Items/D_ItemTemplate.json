@@ -25259,6 +25259,17 @@
             }
         },
         {
+            "Name": "Sandwyrm_Wing",
+            "ItemStaticData": {
+                "RowName": "Sandwyrm_Wing"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
             "Name": "Sandwyrm_Lantern",
             "ItemStaticData": {
                 "RowName": "Sandwyrm_Lantern"

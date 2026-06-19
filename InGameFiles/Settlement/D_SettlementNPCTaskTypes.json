@@ -4,22 +4,63 @@
         "DisplayName": "",
         "bRequiresTarget": false,
         "bRequiresSource": false,
+        "Behaviour": "None",
         "Priority": 128,
         "ExperienceReward": {
             "RowName": "None",
             "DataTableName": "D_ExperienceEvents"
-        }
+        },
+        "SupportedActivities": [
+            "Work"
+        ],
+        "WhitelistedNPCRoles": []
     },
     "Rows": [
         {
             "Name": "Build",
             "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Build-DisplayName\", \"Build\")",
-            "bRequiresTarget": true
+            "bRequiresTarget": true,
+            "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Build.BT_SettlementNPC_Build"
+        },
+        {
+            "Name": "Deconstruct",
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Deconstruct-DisplayName\", \"Deconstruct\")",
+            "bRequiresTarget": true,
+            "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Deconstruct.BT_SettlementNPC_Deconstruct"
         },
         {
             "Name": "OperateBuilding",
             "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"OperateBuilding-DisplayName\", \"Operate\")",
             "bRequiresTarget": true,
+            "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Operate.BT_SettlementNPC_Operate",
+            "Priority": 64
+        },
+        {
+            "Name": "Sleep",
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Sleep-DisplayName\", \"Sleep\")",
+            "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Sleep.BT_SettlementNPC_Sleep",
+            "Priority": 254,
+            "SupportedActivities": [
+                "Sleep"
+            ]
+        },
+        {
+            "Name": "Guard",
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Guard-DisplayName\", \"Guard\")",
+            "Priority": 255,
+            "SupportedActivities": [],
+            "WhitelistedNPCRoles": [
+                {
+                    "RowName": "Guard",
+                    "DataTableName": "D_SettlementNPCRoles"
+                }
+            ]
+        },
+        {
+            "Name": "ChopWood",
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"ChopWood-DisplayName\", \"Chop Wood\")",
+            "bRequiresTarget": true,
+            "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Woodcutter.BT_SettlementNPC_Woodcutter",
             "Priority": 64
         }
     ]

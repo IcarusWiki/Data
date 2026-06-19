@@ -1,0 +1,129 @@
+{
+    "RowStruct": "/Script/Icarus.SettlementNPCClothingData",
+    "Defaults": {
+        "Head": [],
+        "Torso": [],
+        "Arms": [],
+        "Legs": [],
+        "Feet": [],
+        "Misc": []
+    },
+    "Rows": [
+        {
+            "Name": "Default",
+            "Head": [
+                {
+                    "Mesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Fur.SK_CHA_MAL_ARM_Head_Fur",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                },
+                {
+                    "Mesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Leather.SK_CHA_MAL_ARM_Head_Leather",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                },
+                {
+                    "Mesh": "/Game/ASS/CHA/ARMOR/SK_CHA_ARM_Head_NewLeather.SK_CHA_ARM_Head_NewLeather",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                },
+                {
+                    "Mesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Obsidian.SK_CHA_MAL_ARM_Head_Obsidian",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                }
+            ],
+            "Torso": [
+                {
+                    "Mesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Chest_Fur.SK_CHA_MAL_ARM_Chest_Fur",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                },
+                {
+                    "Mesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Chest_Leather.SK_CHA_MAL_ARM_Chest_Leather",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                },
+                {
+                    "Mesh": "/Game/ASS/CHA/ARMOR/SK_CHA_ARM_Chest_NewLeather.SK_CHA_ARM_Chest_NewLeather",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                },
+                {
+                    "Mesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Chest_Obsidian.SK_CHA_MAL_ARM_Chest_Obsidian",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                }
+            ],
+            "Arms": [
+                {
+                    "Mesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Arm_Fur.SK_CHA_MAL_ARM_Arm_Fur",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                },
+                {
+                    "Mesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Arm_Leather.SK_CHA_MAL_ARM_Arm_Leather",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                },
+                {
+                    "Mesh": "/Game/ASS/CHA/ARMOR/SK_CHA_MAL_ARM_NewLeatherB.SK_CHA_MAL_ARM_NewLeatherB",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                },
+                {
+                    "Mesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Arms_Obsidian.SK_CHA_MAL_ARM_Arms_Obsidian",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                }
+            ],
+            "Legs": [
+                {
+                    "Mesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Legs_Fur.SK_CHA_MAL_ARM_Legs_Fur",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                },
+                {
+                    "Mesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Legs_Leather.SK_CHA_MAL_ARM_Legs_Leather",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                },
+                {
+                    "Mesh": "/Game/ASS/CHA/ARMOR/SK_CHA_ARM_Legs_NewLeather.SK_CHA_ARM_Legs_NewLeather",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                },
+                {
+                    "Mesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Legs_Obsidian.SK_CHA_MAL_ARM_Legs_Obsidian",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                }
+            ],
+            "Feet": [
+                {
+                    "Mesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Feet_Fur.SK_CHA_MAL_ARM_Feet_Fur",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                },
+                {
+                    "Mesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Feet_Leather.SK_CHA_MAL_ARM_Feet_Leather",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                },
+                {
+                    "Mesh": "/Game/ASS/CHA/ARMOR/SK_CHA_ARM_Feet_NewLeather.SK_CHA_ARM_Feet_NewLeather",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                },
+                {
+                    "Mesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Feet_Obsidian.SK_CHA_MAL_ARM_Feet_Obsidian",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                }
+            ]
+        },
+        {
+            "Name": "Guard"
+        }
+    ]
+}

@@ -3670,6 +3670,13 @@
             "SnapToSurfaceNormal": false
         },
         {
+            "Name": "XL_Advanced_Aquarium",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Fishing/BP_Advanced_Aquarium_XL.BP_Advanced_Aquarium_XL_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Aquarium_T4_XL/SM_DEP_Aquarium_T4_XL.SM_DEP_Aquarium_T4_XL",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "SnapToSurfaceNormal": false
+        },
+        {
             "Name": "Filletting_Bench",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Fishing/BP_FillettingStation.BP_FillettingStation_C",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Bench_Alteration_T3_V2.SM_DEP_Bench_Alteration_T3_V2",
@@ -15791,7 +15798,7 @@
         {
             "Name": "Lead_Lined_Crate_Small",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Lead_Lined_Crate_Small.BP_Lead_Lined_Crate_Small_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Crate_Lead_Lined_Small.SM_DEP_Crate_Lead_Lined_Small",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Crate_Lead_Lined_SML.SM_DEP_Crate_Lead_Lined_SML",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
             "MaxRestackingAmount": 1
         },
@@ -15873,6 +15880,44 @@
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "SupportsCustomRotation": false,
             "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "RadBoss_Habitat_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_RadBoss_Habitat.BP_Trophy_RadBoss_Habitat_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Slug_Boss/SM_DEP_Trophy_Slug_Boss_Tank_LRG.SM_DEP_Trophy_Slug_Boss_Tank_LRG",
+            "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Hammerhead_Trophys/SFX_DEPLOY_HAMMERHEAD_SOLID_TROPHY.SFX_DEPLOY_HAMMERHEAD_SOLID_TROPHY",
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "RadBoss_Head_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_RadBoss.BP_Trophy_RadBoss_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Flying_Tank/SM_DEP_Trophy_Flying_Tank.SM_DEP_Trophy_Flying_Tank",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Mission_Laser_Utility",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_Faction_Mission_Laser_Utility.BP_Faction_Mission_Laser_Utility_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Disruption_Heat_Assembled_v2.SM_DEP_Disruption_Heat_Assembled_v2",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Mission_Laser_Utility"
+            ],
+            "SnapSocketsOrTags": [
+                "Laser_Socket_A"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "DeployCollisionExtentOffset": {
+                "X": -20,
+                "Y": -20,
+                "Z": -20
+            }
         }
     ]
 }

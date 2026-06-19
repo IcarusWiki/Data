@@ -2322,6 +2322,16 @@
                 "RowName": "Any_Launcher_Projectiles"
             },
             "StartingSlots": 3
+        },
+        {
+            "Name": "Weapon_Launcher_Legendary",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Launcher_Projectiles"
+            },
+            "StartingSlots": 6
         }
     ]
 }

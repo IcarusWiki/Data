@@ -3936,6 +3936,18 @@
             ]
         },
         {
+            "Name": "Settlement_Building",
+            "WorldPressInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_Settlement_Building",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ]
+        },
+        {
             "Name": "Settlement_NPC",
             "WorldPressInteracts": [
                 {

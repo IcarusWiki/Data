@@ -255,6 +255,12 @@
             "InventoryInfo": {
                 "RowName": "Weapon_Launcher"
             }
+        },
+        {
+            "Name": "LauncherInventory_Legendary",
+            "InventoryInfo": {
+                "RowName": "Weapon_Launcher_Legendary"
+            }
         }
     ]
 }

@@ -2741,6 +2741,45 @@
                     "Amount": 1
                 }
             ]
+        },
+        {
+            "Name": "Drone_Companion",
+            "Max_Durability": 3000,
+            "Destroyed_At_Zero": true,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Powerbank",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 1
+                }
+            ],
+            "NoRecipe_RequiredRecipeSet": [
+                {
+                    "RowName": "Repair_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ]
+        },
+        {
+            "Name": "LegendaryWeapon_Grenade_Launcher",
+            "Max_Durability": 20000,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Meta_Repair_Item",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 1
+                }
+            ],
+            "NoRecipe_RequiredRecipeSet": [
+                {
+                    "RowName": "Repair_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ]
         }
     ]
 }

@@ -4146,6 +4146,11 @@
                     "RowName": "DangerousHorizons"
                 }
             }
+        },
+        {
+            "Name": "RadBoss_Attachment",
+            "DisplayName": "INVTEXT(\"[DNT] Rad Boss\")",
+            "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1"
         }
     ]
 }

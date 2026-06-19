@@ -2766,6 +2766,15 @@
             ]
         },
         {
+            "Name": "XL_Advanced_Aquarium",
+            "Variants": [
+                {
+                    "RowName": "XL_Advanced_Aquarium",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ]
+        },
+        {
             "Name": "Filletting_Bench",
             "Variants": [
                 {
@@ -11504,6 +11513,14 @@
                 {
                     "RowName": "Settlement_Building_Workshop",
                     "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Settlement_Building_LoggingCamp",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Settlement_Building_Farm",
+                    "DataTableName": "D_DeployableSetup"
                 }
             ],
             "EffectedByWeather": false
@@ -11533,6 +11550,36 @@
             "Variants": [
                 {
                     "RowName": "Mission_Distiller",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "RadBoss_Habitat_Trophy",
+            "Variants": [
+                {
+                    "RowName": "RadBoss_Habitat_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "RadBoss_Head_Trophy",
+            "Variants": [
+                {
+                    "RowName": "RadBoss_Head_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Mission_Laser_Utility",
+            "Variants": [
+                {
+                    "RowName": "Mission_Laser_Utility",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],

@@ -21647,7 +21647,7 @@
         },
         {
             "Name": "WorldRadBossDecreasedLaserResistance_?",
-            "Title": "INVTEXT(\"[DNT] Rad Boss will have a Weakness to Lasers.\")",
+            "Title": "INVTEXT(\"[DNT] Malformation will have a Weakness to Lasers.\")",
             "PositiveTitleFormat": "INVTEXT(\"{0}\")",
             "NegativeTitleFormat": "INVTEXT(\"{0}\")",
             "bIsWorldStat": true,
@@ -21657,7 +21657,7 @@
         },
         {
             "Name": "WorldRadBossDecreasedElectricResistance_?",
-            "Title": "INVTEXT(\"[DNT] Rad Boss will have a Weakness to Electricity.\")",
+            "Title": "INVTEXT(\"[DNT] Malformation will have a Weakness to Electricity.\")",
             "PositiveTitleFormat": "INVTEXT(\"{0}\")",
             "NegativeTitleFormat": "INVTEXT(\"{0}\")",
             "bIsWorldStat": true,
@@ -21667,7 +21667,7 @@
         },
         {
             "Name": "WorldRadioactiveCreaturesPhysicalVulnerability_?",
-            "Title": "NSLOCTEXT(\"D_Stats\", \"WorldRadioactiveCreaturesPhysicalVulnerability_?-Title\", \"3-Eyed Fish can now be caught in Irradiated Zones\")",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"WorldRadioactiveCreaturesPhysicalVulnerability_?-Title\", \"Radioactive Creatures have Decreased Physical Resistance\")",
             "PositiveTitleFormat": "INVTEXT(\"{0}\")",
             "NegativeTitleFormat": "INVTEXT(\"{0}\")",
             "bIsWorldStat": true,
@@ -21918,15 +21918,15 @@
         },
         {
             "Name": "BaseRadBossExtraDamage_+%",
-            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Damage vs Radiation Boss\")",
-            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Damage vs Radiation Boss\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseRadBossExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Malformation \")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseRadBossExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Malformation \")",
             "StatCategory": {
                 "RowName": "AI"
             }
         },
         {
             "Name": "RadBossExtraDamage_+%",
-            "Title": "INVTEXT(\"[DNT] Damage vs Radiation Boss\")",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"RadBossExtraDamage_+%-Title\", \"Damage vs Malformation \")",
             "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
             "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
             "bIsReplicated": true,
@@ -21936,15 +21936,15 @@
         },
         {
             "Name": "BaseRadBossExtraDamageResistance_+%",
-            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Resistance vs Radiation Boss\")",
-            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Resistance vs Radiation Boss\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseRadBossExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Malformation \")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseRadBossExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Malformation\")",
             "StatCategory": {
                 "RowName": "AI"
             }
         },
         {
             "Name": "RadBossExtraDamageResistance_+%",
-            "Title": "INVTEXT(\"[DNT] Resistance vs Radiation Boss\")",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"RadBossExtraDamageResistance_+%-Title\", \"Resistance vs Malformation \")",
             "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
             "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
             "bIsReplicated": true,
@@ -22067,6 +22067,108 @@
             "bShowStatOnModifiers": true
         },
         {
+            "Name": "BaseSettlementWoodProduction_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementWoodProduction_+-PositiveDescription\", \"+{0} Wood Produced per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementWoodProduction_+-NegativeDescription\", \"-{0} Wood Produced per Hour\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "SettlementWoodProduction_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"SettlementWoodProduction_+-Title\", \"Wood Produced per Hour\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Settlement"
+            }
+        },
+        {
+            "Name": "BaseSettlementStoneProduction_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementStoneProduction_+-PositiveDescription\", \"+{0} Stone Produced per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementStoneProduction_+-NegativeDescription\", \"-{0} Stone Produced per Hour\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "SettlementStoneProduction_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"SettlementStoneProduction_+-Title\", \"Stone Produced per Hour\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Settlement"
+            }
+        },
+        {
+            "Name": "BaseSettlementOxygenProduction_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementOxygenProduction_+-PositiveDescription\", \"+{0}ml Oxygen Produced per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementOxygenProduction_+-NegativeDescription\", \"-{0}ml Oxygen Produced per Hour\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "SettlementOxygenProduction_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"SettlementOxygenProduction_+-Title\", \"Oxygen Produced per Hour\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Settlement"
+            }
+        },
+        {
+            "Name": "BaseSettlementWaterProduction_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementWaterProduction_+-PositiveDescription\", \"+{0}ml Water Produced per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementWaterProduction_+-NegativeDescription\", \"-{0}ml Water Produced per Hour\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "SettlementWaterProduction_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"SettlementWaterProduction_+-Title\", \"Water Produced per Hour\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Settlement"
+            }
+        },
+        {
+            "Name": "BaseSettlementFoodProduction_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementFoodProduction_+-PositiveDescription\", \"+{0} Food Produced per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementFoodProduction_+-NegativeDescription\", \"-{0} Food Produced per Hour\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "SettlementFoodProduction_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"SettlementFoodProduction_+-Title\", \"Food Produced per Hour\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Settlement"
+            }
+        },
+        {
+            "Name": "SettlementWallType_Enum",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Settlement"
+            }
+        },
+        {
             "Name": "BaseFistMeleeDamage_+%",
             "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFistMeleeDamage_+%-PositiveDescription\", \"+{0}% Melee Damage\")",
             "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFistMeleeDamage_+%-NegativeDescription\", \"-{0}% Melee Damage\")",
@@ -22075,30 +22177,13 @@
             }
         },
         {
-            "Name": "BaseProjectileWeightOverride_+",
-            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseProjectileWeightOverride_+-PositiveDescription\", \"+{0} Weight\")",
-            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseProjectileWeightOverride_+-NegativeDescription\", \"-{0} Weight\")",
-            "DisplayOperations": [
-                {
-                    "Operation": "Division",
-                    "Value": 10000
-                }
-            ],
-            "StatCategory": {
-                "RowName": "Weight"
-            },
-            "bHideStatInUserInterface": true
-        },
-        {
-            "Name": "ProjectileWeightOverride_+",
-            "Title": "NSLOCTEXT(\"D_Stats\", \"ProjectileWeightOverride_+-Title\", \"Projectile Weight\")",
-            "PositiveTitleFormat": "INVTEXT(\"+{0}\")",
-            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "Name": "ProjectilePayloadDeployOnImpact_?",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"ProjectilePayloadDeployOnImpact_?-Title\", \"Payload Deploys On Impact\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"ProjectilePayloadDeployOnImpact_?-PositiveDescription\", \"Payload Deploys On Impact\")",
             "bIsReplicated": true,
             "StatCategory": {
-                "RowName": "Weight"
-            },
-            "bHideStatInUserInterface": true
+                "RowName": "Item"
+            }
         }
     ]
 }

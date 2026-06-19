@@ -4590,6 +4590,28 @@
                     "DataTableName": "D_ItemTemplate"
                 }
             ]
+        },
+        {
+            "Name": "AntiRadiation_Stew",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 50,
+                "(Value=\"BaseWaterRecovery_+\")": 50
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "AntiRadiation_Stew"
+                },
+                "ModifierLifetime": 600
+            }
+        },
+        {
+            "Name": "DNA_Serum",
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "DNA_Serum"
+                },
+                "ModifierLifetime": 6000
+            }
         }
     ]
 }

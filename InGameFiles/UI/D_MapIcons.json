@@ -1178,6 +1178,47 @@
                 "R": 187,
                 "A": 255
             }
+        },
+        {
+            "Name": "Mission_Bull",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Bull.T_Icon_Map_Bull'",
+            "Color": {
+                "B": 53,
+                "G": 78,
+                "R": 254,
+                "A": 255
+            },
+            "ZOrder": -2,
+            "ScaleFactor": 1.5,
+            "bShowNameOnHover": true,
+            "HoverName": "NSLOCTEXT(\"D_MapIcons\", \"Mission_Bull-HoverName\", \"Duke\")"
+        },
+        {
+            "Name": "Mission_Explosive",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Mission_Explosive.ITEM_Mission_Explosive'",
+            "Color": {
+                "B": 53,
+                "G": 78,
+                "R": 254,
+                "A": 255
+            },
+            "bShowNameOnHover": true,
+            "HoverName": "NSLOCTEXT(\"D_MapIcons\", \"Mission_Explosive-HoverName\", \"Explosive Placement\")"
+        },
+        {
+            "Name": "Mission_Laser",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Mission_Prototype_Laser.ITEM_Mission_Prototype_Laser'",
+            "Color": {
+                "B": 53,
+                "G": 78,
+                "R": 254,
+                "A": 255
+            },
+            "bShowNameOnHover": true,
+            "HoverName": "NSLOCTEXT(\"D_MapIcons\", \"Mission_Laser-HoverName\", \"Laser Placement\")"
         }
     ]
 }

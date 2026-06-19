@@ -1041,6 +1041,15 @@
             "AISetup": {
                 "RowName": "Irradiated_Prospector_Tranquilized"
             }
+        },
+        {
+            "Name": "RAD_C2_Malformation",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"RAD_C2_Malformation-CreatureNames-0\", \"Malformation\")"
+            ],
+            "AISetup": {
+                "RowName": "RadBoss_Mission"
+            }
         }
     ]
 }

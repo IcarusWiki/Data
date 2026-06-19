@@ -4,7 +4,10 @@
         "PackageID": -1,
         "DLCName": "",
         "WebsiteAddress": "",
-        "Icon": "None"
+        "Icon": "None",
+        "HoverText": "",
+        "DLCIconOwned": "None",
+        "DLCIconUnowned": "None"
     },
     "GenerateEnum": true,
     "Rows": [
@@ -25,20 +28,29 @@
             "PackageID": 1648532,
             "DLCName": "NSLOCTEXT(\"D_DLCPackageData\", \"New_Frontiers-DLCName\", \"New Frontiers Expansion\")",
             "WebsiteAddress": "https://store.steampowered.com/app/1648532/Icarus_New_Frontiers/",
-            "Icon": "/Game/Assets/2DArt/UI/Icons/T_FeatureLevelIcon_NewFrontiers3.T_FeatureLevelIcon_NewFrontiers3"
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_FeatureLevelIcon_NewFrontiers3.T_FeatureLevelIcon_NewFrontiers3",
+            "HoverText": "NSLOCTEXT(\"D_DLCPackageData\", \"New_Frontiers-HoverText\", \"Welcome to Prometheus, a region of Icarus where the terraforming process failed and left the raw alien landscape and life intact but not unaltered.\")",
+            "DLCIconOwned": "/Game/Assets/2DArt/UI/DLCBadges/T_ICON_DLC_NewFrontiers.T_ICON_DLC_NewFrontiers",
+            "DLCIconUnowned": "/Game/Assets/2DArt/UI/DLCBadges/T_ICON_DLC_NewFrontiers_Unavailable.T_ICON_DLC_NewFrontiers_Unavailable"
         },
         {
             "Name": "Dangerous_Horizons",
             "PackageID": 1648533,
             "DLCName": "NSLOCTEXT(\"D_DLCPackageData\", \"Dangerous_Horizons-DLCName\", \"Dangerous Horizons\")",
-            "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Money_Symbol_Double.T_ICON_Money_Symbol_Double"
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Money_Symbol_Double.T_ICON_Money_Symbol_Double",
+            "HoverText": "NSLOCTEXT(\"D_DLCPackageData\", \"Dangerous_Horizons-HoverText\", \"Introducing Elysium. Ground zero for the terraforming effort on Icarus where exotics collided with radioactivity, resulting in the most extreme environmental mutations yet witnessed on Icarus.\")",
+            "DLCIconOwned": "/Game/Assets/2DArt/UI/DLCBadges/T_ICONS_DangerousHorizons.T_ICONS_DangerousHorizons",
+            "DLCIconUnowned": "/Game/Assets/2DArt/UI/DLCBadges/T_ICONS_DangerousHorizons_Unavailable.T_ICONS_DangerousHorizons_Unavailable"
         },
         {
             "Name": "Styx_Map",
             "PackageID": 1995690,
             "DLCName": "NSLOCTEXT(\"D_DLCPackageData\", \"Styx_Map-DLCName\", \"Styx Expansion\")",
             "WebsiteAddress": "https://store.steampowered.com/app/1995690/Icarus_Styx_Map__Missions_Pack/",
-            "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Money_Symbol_Double.T_ICON_Money_Symbol_Double"
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Money_Symbol_Double.T_ICON_Money_Symbol_Double",
+            "HoverText": "NSLOCTEXT(\"D_DLCPackageData\", \"Styx_Map-HoverText\", \"Centered around a wandering braided river that runs through the length of the map, the Styx region has lain untouched by humans for years. Now the UDA have unlocked access so prospectors can explore this challenging new territory and tackle an array of new Operations and Missions.\")",
+            "DLCIconOwned": "/Game/Assets/2DArt/UI/DLCBadges/T_ICON_DLC_Styx.T_ICON_DLC_Styx",
+            "DLCIconUnowned": "/Game/Assets/2DArt/UI/DLCBadges/T_ICON_DLC_Styx_Unavailable.T_ICON_DLC_Styx_Unavailable"
         },
         {
             "Name": "Decorations_Pack_1",
@@ -165,6 +177,9 @@
             "DLCName": "NSLOCTEXT(\"D_DLCPackageData\", \"Pet_Companions-DLCName\", \"Pet Companions\")",
             "WebsiteAddress": "https://store.steampowered.com/app/2923820/Icarus_Pet_Companions_Pack/",
             "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Paws.T_ICON_Paws",
+            "HoverText": "NSLOCTEXT(\"D_DLCPackageData\", \"Pet_Companions-HoverText\", \"This DLC is a companion to the free \\\"Laika\\\" update that adds talent trees and food buffs to animal companions and a whole host of other content such as new tameable creatures and snare traps. The base game includes a dog for free, so this DLC is not required to experience Pet content.\")",
+            "DLCIconOwned": "/Game/Assets/2DArt/UI/DLCBadges/T_ICON_DLC_PetCompanions.T_ICON_DLC_PetCompanions",
+            "DLCIconUnowned": "/Game/Assets/2DArt/UI/DLCBadges/T_ICON_DLC_PetCompanions_Unavailable.T_ICON_DLC_PetCompanions_Unavailable",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Laika"
@@ -189,6 +204,9 @@
             "DLCName": "NSLOCTEXT(\"D_DLCPackageData\", \"Homestead-DLCName\", \"Homestead Decorations Pack\")",
             "WebsiteAddress": "https://store.steampowered.com/app/2791000/Icarus_Homestead_Content_Pack/",
             "Icon": "/Game/Assets/2DArt/UI/Icons/T_Icon_Homestead.T_Icon_Homestead",
+            "HoverText": "NSLOCTEXT(\"D_DLCPackageData\", \"Homestead-HoverText\", \"This DLC is a companion to the free \\\"Mendel\\\" update that introduces animal husbandry, genetic attributes, rare attributes and skins achieved through breeding, new tameable creatures and mounts, talent trees and decorative items.\")",
+            "DLCIconOwned": "/Game/Assets/2DArt/UI/DLCBadges/T_ICONS_Homestead.T_ICONS_Homestead",
+            "DLCIconUnowned": "/Game/Assets/2DArt/UI/DLCBadges/T_ICONS_Homestead_Unavailable.T_ICONS_Homestead_Unavailable",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Homestead"
@@ -208,6 +226,9 @@
             "DLCName": "NSLOCTEXT(\"D_DLCPackageData\", \"Great_Hunts-DLCName\", \"Great Hunts\")",
             "WebsiteAddress": "https://store.steampowered.com/app/3315290",
             "Icon": "/Game/Assets/2DArt/UI/Icons/FeatureLevel/T_FeatureLevel_GH.T_FeatureLevel_GH",
+            "HoverText": "NSLOCTEXT(\"D_DLCPackageData\", \"Great_Hunts-HoverText\", \"This DLC is a companion to the free \\\"Copernicus\\\" update that introduces legendary weapons and upgrades crafted from world boss drops, new items, armor, building set, achievements and more\")",
+            "DLCIconOwned": "/Game/Assets/2DArt/UI/DLCBadges/T_ICONS_GreatHunts.T_ICONS_GreatHunts",
+            "DLCIconUnowned": "/Game/Assets/2DArt/UI/DLCBadges/T_ICONS_GreatHunts_Unavailable.T_ICONS_GreatHunts_Unavailable",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"

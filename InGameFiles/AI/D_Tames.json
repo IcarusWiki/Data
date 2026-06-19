@@ -124,7 +124,8 @@
                 "RowName": "Juvenile_Horse"
             },
             "bAutomaticallySpawnJuvenileWithParent": true,
-            "PercentChanceToSpawnJuvenile": 50
+            "PercentChanceToSpawnJuvenile": 50,
+            "GestationPeriodSeconds": 3000
         },
         {
             "Name": "Tusker",
@@ -156,7 +157,8 @@
             },
             "bAutomaticallySpawnJuvenileWithParent": true,
             "PercentChanceToSpawnJuvenile": 30,
-            "MaxNearbyAutoSpawnedJuveniles": 5
+            "MaxNearbyAutoSpawnedJuveniles": 5,
+            "GestationPeriodSeconds": 3000
         },
         {
             "Name": "Forest_Wolf",
@@ -258,7 +260,8 @@
             "JuvenileCreatureType": {
                 "RowName": "Juvenile_Blueback"
             },
-            "bAutomaticallySpawnJuvenileWithParent": true
+            "bAutomaticallySpawnJuvenileWithParent": true,
+            "GestationPeriodSeconds": 3000
         },
         {
             "Name": "Blueback_Lava",
@@ -355,7 +358,8 @@
                 "RowName": "Juvenile_Arctic_Moa"
             },
             "bAutomaticallySpawnJuvenileWithParent": true,
-            "PercentChanceToSpawnJuvenile": 50
+            "PercentChanceToSpawnJuvenile": 50,
+            "GestationPeriodSeconds": 3000
         },
         {
             "Name": "Calf",
@@ -565,7 +569,8 @@
             "JuvenileCreatureType": {
                 "RowName": "Juvenile_Wooly_Zebra"
             },
-            "bAutomaticallySpawnJuvenileWithParent": true
+            "bAutomaticallySpawnJuvenileWithParent": true,
+            "GestationPeriodSeconds": 3000
         },
         {
             "Name": "SwampBird",
@@ -597,7 +602,8 @@
             },
             "bAutomaticallySpawnJuvenileWithParent": true,
             "PercentChanceToSpawnJuvenile": 50,
-            "MaxNearbyAutoSpawnedJuveniles": 3
+            "MaxNearbyAutoSpawnedJuveniles": 3,
+            "GestationPeriodSeconds": 3000
         },
         {
             "Name": "Raptor_Desert",
@@ -628,6 +634,7 @@
             "bAutomaticallySpawnJuvenileWithParent": true,
             "PercentChanceToSpawnJuvenile": 10,
             "MaxNearbyAutoSpawnedJuveniles": 1,
+            "GestationPeriodSeconds": 2000,
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -663,6 +670,7 @@
             "bAutomaticallySpawnJuvenileWithParent": true,
             "PercentChanceToSpawnJuvenile": 10,
             "MaxNearbyAutoSpawnedJuveniles": 1,
+            "GestationPeriodSeconds": 2000,
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -698,6 +706,7 @@
             "bAutomaticallySpawnJuvenileWithParent": true,
             "PercentChanceToSpawnJuvenile": 15,
             "MaxNearbyAutoSpawnedJuveniles": 1,
+            "GestationPeriodSeconds": 3000,
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -735,6 +744,7 @@
             "bAutomaticallySpawnJuvenileWithParent": true,
             "PercentChanceToSpawnJuvenile": 10,
             "MaxNearbyAutoSpawnedJuveniles": 1,
+            "GestationPeriodSeconds": 2000,
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -864,7 +874,8 @@
             },
             "bAutomaticallySpawnJuvenileWithParent": true,
             "PercentChanceToSpawnJuvenile": 25,
-            "MaxNearbyAutoSpawnedJuveniles": 5
+            "MaxNearbyAutoSpawnedJuveniles": 5,
+            "GestationPeriodSeconds": 3000
         },
         {
             "Name": "Piglet",

@@ -1018,6 +1018,27 @@
                 "(Value=\"BaseMountCargoSlots_+\")": 12,
                 "(Value=\"BaseMountHeavyCargoSlots_+\")": 3
             }
+        },
+        {
+            "Name": "Module_RadBoss",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseArcticHealthRegen_+%\")": 20,
+                "(Value=\"BaseArcticStaminaRegen_+%\")": 10,
+                "(Value=\"BaseArcticExposureResistance_+%\")": 10
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Saddle_Explosive_Cart",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier_Saddle.BP_EquippableModifier_Saddle_C",
+            "GrantedStats": {
+                "(Value=\"BaseWeightCapacity_+\")": 1000,
+                "(Value=\"BaseMovementSpeed_+\")": -50,
+                "(Value=\"BaseMountHeavyCargoSlots_+\")": 5,
+                "(Value=\"IsPullingCart_?\")": 1,
+                "(Value=\"BaseMountCargoSlots_+\")": 10
+            }
         }
     ]
 }

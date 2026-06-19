@@ -1999,7 +1999,7 @@
         },
         {
             "Name": "Kill_RadBoss",
-            "EventDescription": "INVTEXT(\"[DNT] Killed Radiation Boss\")",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_RadBoss-EventDescription\", \"Killed Malformation\")",
             "SharedExperience": true,
             "ExperienceGranted": 50000
         },

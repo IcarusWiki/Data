@@ -4261,7 +4261,7 @@
             "Name": "BoarJuviFlinch",
             "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Wild_Boar/SFX_CRE_VOCAL_BOAR_JUVI_FLINCH.SFX_CRE_VOCAL_BOAR_JUVI_FLINCH",
             "Setting": {
-                "RowName": "Default"
+                "RowName": "Lowest"
             }
         },
         {

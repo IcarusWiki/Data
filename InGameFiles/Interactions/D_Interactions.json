@@ -967,6 +967,11 @@
             "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Settlement_NPC_Visitor-InteractionText\", \"Greet\")"
         },
         {
+            "Name": "Interact_Settlement_Building",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_SettlementBuilding.BP_Interactable_SettlementBuilding_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Settlement_Building-InteractionText\", \"Inspect\")"
+        },
+        {
             "Name": "Interact_Deployable_Needs_Power",
             "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_DeployableWithPower.BP_Interactable_Interact_DeployableWithPower_C",
             "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Deployable_Needs_Power-InteractionText\", \"Interact\")"

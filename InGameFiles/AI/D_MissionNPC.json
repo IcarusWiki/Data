@@ -541,6 +541,15 @@
             "Speaker": {
                 "RowName": "Rian"
             }
+        },
+        {
+            "Name": "TEI_Agent",
+            "Highlightable": {
+                "RowName": "TEI_Agent_Healed"
+            },
+            "Speaker": {
+                "RowName": "Unknown"
+            }
         }
     ]
 }

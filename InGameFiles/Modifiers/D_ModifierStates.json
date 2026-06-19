@@ -13937,7 +13937,17 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AntiRadiation_Transfusion-ModifierDescription\", \"Removing Radiation Accumulation within the body.\")",
             "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_RadiationRecovery.BP_ModifierStateBehaviour_RadiationRecovery_C",
             "ShouldTick": true,
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Medicine.AntiRadiation"
+                    }
+                ]
+            },
+            "EffectsCustomActor": {
+                "RowName": "Faction_Mission_NPC"
+            }
         },
         {
             "Name": "AntiRadiation_Injection",
@@ -13946,7 +13956,17 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AntiRadiation_Injection-ModifierDescription\", \"Fast Acting Removal of Radiation within the body.\")",
             "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_RadiationInjection.BP_ModifierStateBehaviour_RadiationInjection_C",
             "ShouldTick": true,
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Medicine.AntiRadiation"
+                    }
+                ]
+            },
+            "EffectsCustomActor": {
+                "RowName": "Faction_Mission_NPC"
+            }
         },
         {
             "Name": "Cooked_Onion",
@@ -16318,6 +16338,80 @@
             "MaxStackNum": 5,
             "bEffectsPlayers": false,
             "SaveToDatabase": false
+        },
+        {
+            "Name": "AntiRadiation_Stew",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Fish_And_Mushroom.T_ITEM_Fish_And_Mushroom'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AntiRadiation_Stew-ModifierName\", \"Surf and Shroom\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AntiRadiation_Stew-ModifierDescription\", \"The distilled essence of a three eyed fish and mushrooms that seems radition resistant and slowly removes radiation.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseRadiationResistance_%\")": 10,
+                "(Value=\"BaseMaximumHealth_+\")": 100,
+                "(Value=\"BaseMaximumStamina_+\")": 100
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_RadiationRecovery_Slow.BP_ModifierStateBehaviour_RadiationRecovery_Slow_C",
+            "ShouldTick": true,
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "DNA_Serum",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_DNA_AugmentationSerum.T_ITEM_DNA_AugmentationSerum'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"DNA_Serum-ModifierName\", \"DNA Augmentation Serum\")",
+            "ModifierDescription": "",
+            "GrantedStats": {
+                "(Value=\"BaseMaximumHealth_+\")": 250,
+                "(Value=\"BasePhysicalDamageResistance_%\")": -25
+            },
+            "ShouldTick": true,
+            "RemovedOnDeath": false,
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "NPC_Radiation",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Radioactive.T_ICON_Radioactive'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"NPC_Radiation-ModifierName\", \"Radiation Poisioning\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"NPC_Radiation-ModifierDescription\", \"Major effects due to radiation. Seek Medical Attention. Persists after death.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "EscalationTime": 0,
+            "ModifierTickRate": 120,
+            "MergeType": "LongestDuration",
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Character.Player.Invincible"
+                    },
+                    {
+                        "TagName": "ModifierState.Mount.Immune"
+                    },
+                    {
+                        "TagName": "ModifierState.Medicine.AntiRadiation"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    3,
+                    0,
+                    1,
+                    2
+                ],
+                "AutoDescription": " NONE( Character.Player.Invincible, ModifierState.Mount.Immune, ModifierState.Medicine.AntiRadiation )"
+            },
+            "EffectsCustomActor": {
+                "RowName": "Faction_Mission_NPC"
+            }
         }
     ]
 }

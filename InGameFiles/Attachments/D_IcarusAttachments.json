@@ -948,6 +948,12 @@
             "GrantedAlteration": {
                 "RowName": "Sandwyrm_Lure"
             }
+        },
+        {
+            "Name": "RadBoss_Attachment",
+            "GrantedAlteration": {
+                "RowName": "RadBoss_Attachment"
+            }
         }
     ]
 }

@@ -1534,6 +1534,11 @@
             "Description": ""
         },
         {
+            "Name": "Settlement_Building",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Settlement_Building-DisplayName\", \"Settlement Hub\")",
+            "Description": ""
+        },
+        {
             "Name": "NPC_Settlement_NPC",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Settlement_NPC-DisplayName\", \"Settler\")",
             "Description": ""
@@ -1542,6 +1547,16 @@
             "Name": "NPC_Settlement_Visitor",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Settlement_Visitor-DisplayName\", \"Visitor\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Settlement_Visitor-Description\", \"Maybe they\\'d like to join?\")"
+        },
+        {
+            "Name": "TEI_Agent_Injured",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"TEI_Agent_Injured-DisplayName\", \"Eris Inquisition Agent\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"TEI_Agent_Injured-Description\", \"An agent who had suffered major injuries.\")"
+        },
+        {
+            "Name": "TEI_Agent_Healed",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"TEI_Agent_Healed-DisplayName\", \"Eris Inquisition Agent\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"TEI_Agent_Healed-Description\", \"An agent contracted to the Eris Inquisiton.\")"
         }
     ]
 }

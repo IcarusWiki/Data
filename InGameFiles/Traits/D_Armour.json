@@ -3975,7 +3975,11 @@
             "AnimBlueprintClass": "/Game/ASS/CHA/Human/3RD/SK_CHA_3RD_MAL_01_CopyPose_AnimBP.SK_CHA_3RD_MAL_01_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/Human/3RD/SK_CHA_3RD_MAL_01_CopyPose_AnimBP.SK_CHA_3RD_MAL_01_CopyPose_AnimBP_C",
             "ArmourStats": {
-                "(Value=\"BaseOxygenSlots_+\")": 1
+                "(Value=\"BaseUpgradeSlots_+\")": 2,
+                "(Value=\"BaseOxygenSlots_+\")": 1,
+                "(Value=\"BaseFoodSlots_+\")": 1,
+                "(Value=\"BaseWaterSlots_+\")": 1,
+                "(Value=\"BaseRadiationResistance_%\")": 15
             },
             "ArmourType": "Undersuit",
             "ImplicitDefaultArmour": [
@@ -4004,6 +4008,124 @@
             "AnimBlueprintClass": "/Game/ASS/CHA/Human/3RD/SK_CHA_3RD_MAL_01_CopyPose_AnimBP.SK_CHA_3RD_MAL_01_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/Human/3RD/SK_CHA_3RD_MAL_01_CopyPose_AnimBP.SK_CHA_3RD_MAL_01_CopyPose_AnimBP_C",
             "ArmourType": "Chest"
+        },
+        {
+            "Name": "Envirosuit_Colonist",
+            "ArmourMesh": "/Game/ASS/CHA/Suits/SK_CHA_MAL_Envirosuit_Shengong_Colonist.SK_CHA_MAL_Envirosuit_Shengong_Colonist",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Suits/SK_CHA_FEM_Envirosuit_Shengong_Colonist.SK_CHA_FEM_Envirosuit_Shengong_Colonist",
+            "FirstPersonMeshVariant": "/Game/ASS/CHA/Suits/SK_1ST_CHA_MAL_Envirosuit_Shengong.SK_1ST_CHA_MAL_Envirosuit_Shengong",
+            "AnimBlueprintClass": "/Game/ASS/CHA/Human/3RD/SK_CHA_3RD_MAL_01_CopyPose_AnimBP.SK_CHA_3RD_MAL_01_CopyPose_AnimBP_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/Human/3RD/SK_CHA_3RD_MAL_01_CopyPose_AnimBP.SK_CHA_3RD_MAL_01_CopyPose_AnimBP_C",
+            "ArmourStats": {
+                "(Value=\"BaseUpgradeSlots_+\")": 2,
+                "(Value=\"BaseOxygenSlots_+\")": 1,
+                "(Value=\"BaseFoodSlots_+\")": 1,
+                "(Value=\"BaseWaterSlots_+\")": 1,
+                "(Value=\"BaseHeatResistance_%\")": 5,
+                "(Value=\"BaseColdResistance_%\")": 5
+            },
+            "ArmourType": "Undersuit",
+            "ImplicitDefaultArmour": [
+                {
+                    "RowName": "Undersuit_Colonist_Helmet",
+                    "DataTableName": "D_Armour"
+                }
+            ]
+        },
+        {
+            "Name": "Undersuit_Colonist_Helmet",
+            "ArmourMesh": "/Game/ASS/CHA/Suits/SK_CHA_MAL_Envirosuit_Shengong_Helmet_Colonist.SK_CHA_MAL_Envirosuit_Shengong_Helmet_Colonist",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Suits/SK_CHA_FEM_Envirosuit_Shengong_Helmet_Colonist.SK_CHA_FEM_Envirosuit_Shengong_Helmet_Colonist",
+            "AnimBlueprintClass": "/Game/ASS/CHA/Human/3RD/SK_CHA_3RD_MAL_01_CopyPose_AnimBP.SK_CHA_3RD_MAL_01_CopyPose_AnimBP_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/Human/3RD/SK_CHA_3RD_MAL_01_CopyPose_AnimBP.SK_CHA_3RD_MAL_01_CopyPose_AnimBP_C",
+            "ArmourType": "Undersuit_Helmet"
+        },
+        {
+            "Name": "RadBoss_Head",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/Rad_Boss/SK_CHA_ARM_MAL_Radboss_Head.SK_CHA_ARM_MAL_Radboss_Head",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/Rad_Boss/SK_CHA_ARM_MAL_Radboss_Head.SK_CHA_ARM_MAL_Radboss_Head",
+            "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP_C",
+            "ArmourStats": {
+                "(Value=\"BasePhysicalDamageResistance_%\")": 2,
+                "(Value=\"BaseHeatResistance_%\")": 6,
+                "(Value=\"BaseExposureResistance_+%\")": 1,
+                "(Value=\"BaseColdResistance_%\")": 1
+            },
+            "ArmourType": "Head",
+            "ArmourSet": {
+                "RowName": "RadBoss"
+            }
+        },
+        {
+            "Name": "RadBoss_Chest",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/Rad_Boss/SK_CHA_ARM_MAL_Radboss_Chest.SK_CHA_ARM_MAL_Radboss_Chest",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/Rad_Boss/SK_CHA_ARM_MAL_Radboss_Chest.SK_CHA_ARM_MAL_Radboss_Chest",
+            "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP_C",
+            "ArmourStats": {
+                "(Value=\"BasePhysicalDamageResistance_%\")": 4,
+                "(Value=\"BaseHeatResistance_%\")": 20,
+                "(Value=\"BaseExposureResistance_+%\")": 2,
+                "(Value=\"BaseColdResistance_%\")": 2
+            },
+            "ArmourType": "Chest",
+            "ArmourSet": {
+                "RowName": "RadBoss"
+            }
+        },
+        {
+            "Name": "RadBoss_Arms",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/Rad_Boss/SK_CHA_ARM_MAL_Radboss_Arms.SK_CHA_ARM_MAL_Radboss_Arms",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/Rad_Boss/SK_CHA_ARM_MAL_Radboss_Arms.SK_CHA_ARM_MAL_Radboss_Arms",
+            "FirstPersonMeshVariant": "/Game/ASS/CHA/ARM/Rad_Boss/SK_1ST_CHA_ARM_MAL_Radboss_Arm.SK_1ST_CHA_ARM_MAL_Radboss_Arm",
+            "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Arm_base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Arm_base_CopyPose_AnimBP_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Arm_base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Arm_base_CopyPose_AnimBP_C",
+            "FirstPersonAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_1ST_CHA_MAL_ARM_Arm_AnimBP.SK_1ST_CHA_MAL_ARM_Arm_AnimBP_C",
+            "ArmourStats": {
+                "(Value=\"BasePhysicalDamageResistance_%\")": 1,
+                "(Value=\"BaseHeatResistance_%\")": 5,
+                "(Value=\"BaseExposureResistance_+%\")": 1,
+                "(Value=\"BaseColdResistance_%\")": 1
+            },
+            "ArmourType": "Hands",
+            "ArmourSet": {
+                "RowName": "RadBoss"
+            }
+        },
+        {
+            "Name": "RadBoss_Legs",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/Rad_Boss/SK_CHA_ARM_MAL_Radboss_Legs.SK_CHA_ARM_MAL_Radboss_Legs",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/Rad_Boss/SK_CHA_ARM_MAL_Radboss_Legs.SK_CHA_ARM_MAL_Radboss_Legs",
+            "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Legs_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Legs_Base_CopyPose_AnimBP_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Legs_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Legs_Base_CopyPose_AnimBP_C",
+            "ArmourStats": {
+                "(Value=\"BasePhysicalDamageResistance_%\")": 3,
+                "(Value=\"BaseHeatResistance_%\")": 10,
+                "(Value=\"BaseExposureResistance_+%\")": 2,
+                "(Value=\"BaseColdResistance_%\")": 1
+            },
+            "ArmourType": "Legs",
+            "ArmourSet": {
+                "RowName": "RadBoss"
+            }
+        },
+        {
+            "Name": "RadBoss_Feet",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/Rad_Boss/SK_CHA_ARM_MAL_Radboss_Feet.SK_CHA_ARM_MAL_Radboss_Feet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/Rad_Boss/SK_CHA_ARM_MAL_Radboss_Feet.SK_CHA_ARM_MAL_Radboss_Feet",
+            "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Feet_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Feet_Base_CopyPose_AnimBP_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Feet_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Feet_Base_CopyPose_AnimBP_C",
+            "ArmourStats": {
+                "(Value=\"BasePhysicalDamageResistance_%\")": 1,
+                "(Value=\"BaseHeatResistance_%\")": 4,
+                "(Value=\"BaseExposureResistance_+%\")": 1,
+                "(Value=\"BaseColdResistance_%\")": 1
+            },
+            "ArmourType": "Feet",
+            "ArmourSet": {
+                "RowName": "RadBoss"
+            }
         }
     ]
 }
