@@ -102,7 +102,11 @@
             "Name": "Watchtower",
             "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"Watchtower-BuildingName\", \"Watchtower\")",
             "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"Watchtower-BuildingDescription\", \"Can be garrisoned by a guard for protection\")",
+            "BuildingClass": "BlueprintGeneratedClass'/Game/BP/Settlement/Buildings/BP_SettlementBuilding_Watchtower.BP_SettlementBuilding_Watchtower_C'",
             "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Watchtower_Blocking.SM_COL_Watchtower_Blocking",
+            "BuildingStats": {
+                "(Value=\"BaseSettlementDefense_+\")": 15
+            },
             "BuildingTags": {
                 "GameplayTags": [
                     {
@@ -112,7 +116,13 @@
             },
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Watchtower"
-            }
+            },
+            "DefaultTasks": [
+                {
+                    "RowName": "Guard_Stationary",
+                    "DataTableName": "D_SettlementNPCTaskTypes"
+                }
+            ]
         },
         {
             "Name": "WaterTower",
@@ -121,7 +131,8 @@
             "BuildingClass": "BlueprintGeneratedClass'/Game/BP/Settlement/Buildings/BP_SettlementBuilding_Watertower.BP_SettlementBuilding_Watertower_C'",
             "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Water_Tower_Blocking.SM_COL_Water_Tower_Blocking",
             "BuildingStats": {
-                "(Value=\"BaseSettlementWaterProduction_+\")": 200
+                "(Value=\"BaseSettlementWaterProduction_+\")": 200,
+                "(Value=\"BaseSettlementPowerConsumption_+\")": 360000
             },
             "BuildingTags": {
                 "GameplayTags": [
@@ -129,6 +140,9 @@
                         "TagName": "Settlement.Building.Watertower"
                     }
                 ]
+            },
+            "RequiredTalent": {
+                "RowName": "Settlement_Hub_Watertower"
             },
             "DefaultTasks": [
                 {
@@ -138,25 +152,38 @@
             ],
             "Generation": [
                 {
-                    "Item": {
-                        "RowName": "None",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Resource": {
-                        "Value": "Water"
-                    },
+                    "Outputs": [
+                        {
+                            "Item": {
+                                "RowName": "None",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Resource": {
+                                "Value": "Water"
+                            },
+                            "Quantity": 1,
+                            "Chance": 1
+                        }
+                    ],
                     "RateStat": {
                         "Value": "SettlementWaterProduction_+"
                     },
-                    "RequiredActivity": "Work"
+                    "RequiredActivity": "Work",
+                    "OutputUnitsPerInput": 1,
+                    "InputItems": [],
+                    "InputResources": []
                 }
             ]
         },
         {
             "Name": "Medical",
             "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"Medical-BuildingName\", \"Medical Center\")",
-            "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"Medical-BuildingDescription\", \"Provides medical support to Settlers\")",
+            "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"Medical-BuildingDescription\", \"Treats sick and injured Settlers (if a Settler is assigned and medicine is stocked)\")",
             "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Medical_Blocking.SM_COL_Medical_Blocking",
+            "BuildingStats": {
+                "(Value=\"BaseSettlementMedicalCapacity_+\")": 2,
+                "(Value=\"BaseSettlementPowerConsumption_+\")": 360000
+            },
             "BuildingTags": {
                 "GameplayTags": [
                     {
@@ -166,12 +193,22 @@
             },
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Medical"
-            }
+            },
+            "DefaultTasks": [
+                {
+                    "RowName": "OperateBuilding",
+                    "DataTableName": "D_SettlementNPCTaskTypes"
+                }
+            ]
         },
         {
             "Name": "Forge",
             "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"Forge-BuildingName\", \"Forge\")",
+            "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"Forge-BuildingDescription\", \"Refines stored ore into metal while a Settler works it\")",
             "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Forge_Blocking.SM_COL_Forge_Blocking",
+            "BuildingStats": {
+                "(Value=\"BaseSettlementMetalProduction_+\")": 4
+            },
             "BuildingTags": {
                 "GameplayTags": [
                     {
@@ -181,12 +218,111 @@
             },
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Forge"
-            }
+            },
+            "DefaultTasks": [
+                {
+                    "RowName": "OperateBuilding",
+                    "DataTableName": "D_SettlementNPCTaskTypes"
+                }
+            ],
+            "Generation": [
+                {
+                    "Outputs": [
+                        {
+                            "Item": {
+                                "RowName": "Refined_Metal",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Resource": {
+                                "Value": "None"
+                            },
+                            "Quantity": 1,
+                            "Chance": 1
+                        }
+                    ],
+                    "RateStat": {
+                        "Value": "SettlementMetalProduction_+"
+                    },
+                    "RequiredActivity": "Work",
+                    "OutputUnitsPerInput": 1,
+                    "InputItems": [
+                        {
+                            "Element": {
+                                "RowName": "Metal_Ore",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2
+                        }
+                    ],
+                    "InputResources": []
+                }
+            ]
+        },
+        {
+            "Name": "Sawmill",
+            "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"Sawmill-BuildingName\", \"Sawmill\")",
+            "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"Sawmill-BuildingDescription\", \"Refines raw lumber into Refined Wood while a Settler works it\")",
+            "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Forge_Blocking.SM_COL_Forge_Blocking",
+            "BuildingStats": {
+                "(Value=\"BaseSettlementSawmillProduction_+\")": 10
+            },
+            "BuildingTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Settlement.Building.Sawmill"
+                    }
+                ]
+            },
+            "RequiredTalent": {
+                "RowName": "Settlement_Hub_Sawmill"
+            },
+            "DefaultTasks": [
+                {
+                    "RowName": "OperateBuilding",
+                    "DataTableName": "D_SettlementNPCTaskTypes"
+                }
+            ],
+            "Generation": [
+                {
+                    "Outputs": [
+                        {
+                            "Item": {
+                                "RowName": "Wood_Refined",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Resource": {
+                                "Value": "None"
+                            },
+                            "Quantity": 5,
+                            "Chance": 1
+                        }
+                    ],
+                    "RateStat": {
+                        "Value": "SettlementSawmillProduction_+"
+                    },
+                    "RequiredActivity": "Work",
+                    "OutputUnitsPerInput": 1,
+                    "InputItems": [
+                        {
+                            "Element": {
+                                "RowName": "Wood",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "InputResources": []
+                }
+            ]
         },
         {
             "Name": "Barracks",
             "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"Barracks-BuildingName\", \"Barracks\")",
+            "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"Barracks-BuildingDescription\", \"Houses the settlement\\'s defenders, hardening it against raids\")",
             "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Barracks_Blocking.SM_COL_Barracks_Blocking",
+            "BuildingStats": {
+                "(Value=\"BaseSettlementDefense_+\")": 25
+            },
             "BuildingTags": {
                 "GameplayTags": [
                     {
@@ -201,7 +337,11 @@
         {
             "Name": "Workshop",
             "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"Workshop-BuildingName\", \"Workshop\")",
+            "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"Workshop-BuildingDescription\", \"Works refined wood into nails and fittings while a Settler is assigned\")",
             "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Workshop_Blocking.SM_COL_Workshop_Blocking",
+            "BuildingStats": {
+                "(Value=\"BaseSettlementNailProduction_+\")": 6
+            },
             "BuildingTags": {
                 "GameplayTags": [
                     {
@@ -211,7 +351,45 @@
             },
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Workshop"
-            }
+            },
+            "DefaultTasks": [
+                {
+                    "RowName": "OperateBuilding",
+                    "DataTableName": "D_SettlementNPCTaskTypes"
+                }
+            ],
+            "Generation": [
+                {
+                    "Outputs": [
+                        {
+                            "Item": {
+                                "RowName": "Iron_Nail",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Resource": {
+                                "Value": "None"
+                            },
+                            "Quantity": 1,
+                            "Chance": 1
+                        }
+                    ],
+                    "RateStat": {
+                        "Value": "SettlementNailProduction_+"
+                    },
+                    "RequiredActivity": "Work",
+                    "OutputUnitsPerInput": 1,
+                    "InputItems": [
+                        {
+                            "Element": {
+                                "RowName": "Wood_Refined",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "InputResources": []
+                }
+            ]
         },
         {
             "Name": "LoggingCamp",
@@ -229,6 +407,9 @@
                     }
                 ]
             },
+            "RequiredTalent": {
+                "RowName": "Settlement_Hub_Woodcutter"
+            },
             "BoundaryBuildRule": "BuildOutsideSettlement",
             "DefaultTasks": [
                 {
@@ -238,17 +419,82 @@
             ],
             "Generation": [
                 {
-                    "Item": {
-                        "RowName": "Wood",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Resource": {
-                        "Value": "None"
-                    },
+                    "Outputs": [
+                        {
+                            "Item": {
+                                "RowName": "Wood",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Resource": {
+                                "Value": "None"
+                            },
+                            "Quantity": 1,
+                            "Chance": 1
+                        }
+                    ],
                     "RateStat": {
                         "Value": "SettlementWoodProduction_+"
                     },
-                    "RequiredActivity": "Work"
+                    "RequiredActivity": "Work",
+                    "OutputUnitsPerInput": 1,
+                    "InputItems": [],
+                    "InputResources": []
+                }
+            ]
+        },
+        {
+            "Name": "Generator",
+            "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"Generator-BuildingName\", \"Generator\")",
+            "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"Generator-BuildingDescription\", \"Burns stored biofuel into power for the settlement (if a Settler is assigned)\")",
+            "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Forge_Blocking.SM_COL_Forge_Blocking",
+            "BuildingStats": {
+                "(Value=\"BaseSettlementPowerProduction_+\")": 3600
+            },
+            "BuildingTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Settlement.Building.Generator"
+                    }
+                ]
+            },
+            "RequiredTalent": {
+                "RowName": "Settlement_Hub_Generator"
+            },
+            "DefaultTasks": [
+                {
+                    "RowName": "OperateBuilding",
+                    "DataTableName": "D_SettlementNPCTaskTypes"
+                }
+            ],
+            "Generation": [
+                {
+                    "Outputs": [
+                        {
+                            "Item": {
+                                "RowName": "None",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Resource": {
+                                "Value": "Energy"
+                            },
+                            "Quantity": 1000,
+                            "Chance": 1
+                        }
+                    ],
+                    "RateStat": {
+                        "Value": "SettlementPowerProduction_+"
+                    },
+                    "RequiredActivity": "Work",
+                    "OutputUnitsPerInput": 10,
+                    "InputItems": [],
+                    "InputResources": [
+                        {
+                            "Type": {
+                                "Value": "Biofuel"
+                            },
+                            "RequiredUnits": 1
+                        }
+                    ]
                 }
             ]
         },
@@ -270,6 +516,9 @@
                     }
                 ]
             },
+            "RequiredTalent": {
+                "RowName": "Settlement_Hub_Farm"
+            },
             "BoundaryBuildRule": "BuildAnywhere",
             "DefaultTasks": [
                 {
@@ -279,17 +528,98 @@
             ],
             "Generation": [
                 {
-                    "Item": {
-                        "RowName": "Carrot",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Resource": {
-                        "Value": "None"
-                    },
+                    "Outputs": [
+                        {
+                            "Item": {
+                                "RowName": "Carrot",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Resource": {
+                                "Value": "None"
+                            },
+                            "Quantity": 1,
+                            "Chance": 1
+                        }
+                    ],
                     "RateStat": {
                         "Value": "SettlementFoodProduction_+"
                     },
-                    "RequiredActivity": "Work"
+                    "RequiredActivity": "Work",
+                    "OutputUnitsPerInput": 1,
+                    "InputItems": [],
+                    "InputResources": []
+                }
+            ]
+        },
+        {
+            "Name": "Mine",
+            "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"Mine-BuildingName\", \"Mine\")",
+            "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"Mine-BuildingDescription\", \"Generates Stone, Iron Ore, and Coal\")",
+            "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Stockpile_Blocking.SM_COL_Stockpile_Blocking",
+            "BuildingStats": {
+                "(Value=\"BaseSettlementMineProduction_+\")": 5
+            },
+            "BuildingTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Settlement.Building.Mine"
+                    }
+                ]
+            },
+            "RequiredTalent": {
+                "RowName": "Settlement_Hub_Mine"
+            },
+            "BoundaryBuildRule": "BuildOutsideSettlement",
+            "DefaultTasks": [
+                {
+                    "RowName": "Mine",
+                    "DataTableName": "D_SettlementNPCTaskTypes"
+                }
+            ],
+            "Generation": [
+                {
+                    "Outputs": [
+                        {
+                            "Item": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Resource": {
+                                "Value": "None"
+                            },
+                            "Quantity": 5,
+                            "Chance": 1
+                        },
+                        {
+                            "Item": {
+                                "RowName": "Metal_Ore",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Resource": {
+                                "Value": "None"
+                            },
+                            "Quantity": 2,
+                            "Chance": 0.33000001311302185
+                        },
+                        {
+                            "Item": {
+                                "RowName": "Coal_Ore",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Resource": {
+                                "Value": "None"
+                            },
+                            "Quantity": 2,
+                            "Chance": 0.33000001311302185
+                        }
+                    ],
+                    "RateStat": {
+                        "Value": "SettlementMineProduction_+"
+                    },
+                    "RequiredActivity": "Work",
+                    "OutputUnitsPerInput": 1,
+                    "InputItems": [],
+                    "InputResources": []
                 }
             ]
         }

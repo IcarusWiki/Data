@@ -12,7 +12,7 @@
     "Rows": [
         {
             "Name": "Default",
-            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCRoles\", \"Default-DisplayName\", \"Default\")",
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCRoles\", \"Default-DisplayName\", \"Worker\")",
             "DefaultSchedule": [
                 {
                     "Activity": "Sleep",
@@ -34,6 +34,10 @@
                 "Sleep": {
                     "RowName": "Sleep",
                     "DataTableName": "D_SettlementNPCTaskTypes"
+                },
+                "UnderAttack": {
+                    "RowName": "Cower",
+                    "DataTableName": "D_SettlementNPCTaskTypes"
                 }
             }
         },
@@ -48,12 +52,16 @@
                 }
             ],
             "ActivityDefaultTasks": {
-                "Work": {
+                "UnderAttack": {
                     "RowName": "Guard",
                     "DataTableName": "D_SettlementNPCTaskTypes"
                 },
                 "Sleep": {
                     "RowName": "Sleep",
+                    "DataTableName": "D_SettlementNPCTaskTypes"
+                },
+                "Work": {
+                    "RowName": "Guard",
                     "DataTableName": "D_SettlementNPCTaskTypes"
                 }
             },

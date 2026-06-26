@@ -6547,6 +6547,31 @@
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
+        },
+        {
+            "Name": "NPC_Settler",
+            "Base": {
+                "(Value=\"BaseSwimSpeed_+\")": 300,
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 1000,
+                "(Value=\"BaseMinimumFallDamage_%\")": 1,
+                "(Value=\"BaseMaximumFallDamage_%\")": 100,
+                "(Value=\"BaseMinimumFallDamageVelocity_+\")": 1250,
+                "(Value=\"BaseMaximumFallDamageVelocity_+\")": 1950,
+                "(Value=\"BaseAIPerceptionMaxAge_+\")": 5,
+                "(Value=\"BaseAIDamagePerceptionMaxAge_+\")": 10,
+                "(Value=\"BaseAIPerceptionSightRadius_+\")": 6500,
+                "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 15000,
+                "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
+                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 3500,
+                "(Value=\"BaseCharacterMass_+\")": 80,
+                "(Value=\"BaseNPCAttackRadius_+\")": 300,
+                "(Value=\"CanNPCDamageDurableActors_?\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 999999,
+                "(Value=\"BaseMovementSpeed_+\")": 200,
+                "(Value=\"BaseMaximumHealth_+\")": 1000
+            },
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_IrradiatedProspectorMeleeDamage.C_IrradiatedProspectorMeleeDamage'",
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         }
     ]
 }

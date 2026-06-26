@@ -234495,6 +234495,72 @@
                 ],
                 "ParentTags": []
             }
+        },
+        {
+            "Name": "T3_Backpack",
+            "Meshable": {
+                "RowName": "Mesh_T3_Backpack"
+            },
+            "Itemable": {
+                "RowName": "Item_T3_Backpack"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Equippable": {
+                "RowName": "T3_Backpack"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Armour": {
+                "RowName": "T3_Backpack"
+            },
+            "Durable": {
+                "RowName": "T3_Backpack"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "Backpack"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Backpack"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Backpack"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Equippable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Armour"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
         }
     ]
 }

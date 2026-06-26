@@ -2288,7 +2288,7 @@
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 6
+            "StartingSlots": 12
         },
         {
             "Name": "Experiment_Cage",
@@ -2332,6 +2332,20 @@
                 "RowName": "Any_Launcher_Projectiles"
             },
             "StartingSlots": 6
+        },
+        {
+            "Name": "Chemostat",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "Mission_NPC_One_Slot",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "StartingSlots": 1
         }
     ]
 }

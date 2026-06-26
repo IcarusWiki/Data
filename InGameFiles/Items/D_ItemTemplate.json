@@ -26542,6 +26542,12 @@
             "ItemStaticData": {
                 "RowName": "Fertility_Serum_SwampBird"
             }
+        },
+        {
+            "Name": "T3_Backpack",
+            "ItemStaticData": {
+                "RowName": "T3_Backpack"
+            }
         }
     ]
 }

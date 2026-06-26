@@ -1219,6 +1219,17 @@
             },
             "bShowNameOnHover": true,
             "HoverName": "NSLOCTEXT(\"D_MapIcons\", \"Mission_Laser-HoverName\", \"Laser Placement\")"
+        },
+        {
+            "Name": "RadBoss",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/BossMonsters/T_ICON_IceMammoth.T_ICON_IceMammoth'",
+            "Color": {
+                "B": 52,
+                "G": 77,
+                "R": 255,
+                "A": 255
+            }
         }
     ]
 }

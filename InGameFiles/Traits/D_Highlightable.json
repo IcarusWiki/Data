@@ -1557,6 +1557,41 @@
             "Name": "TEI_Agent_Healed",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"TEI_Agent_Healed-DisplayName\", \"Eris Inquisition Agent\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"TEI_Agent_Healed-Description\", \"An agent contracted to the Eris Inquisiton.\")"
+        },
+        {
+            "Name": "RAD_Scientist",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"RAD_Scientist-DisplayName\", \"Norex Scientist Anderson\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"RAD_Scientist-Description\", \"A Norex Scientist whose morals are for sale.\")"
+        },
+        {
+            "Name": "NPC_Soldier_Friendly",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Soldier_Friendly-DisplayName\", \"Eris Inquisition Agent\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Soldier_Friendly-Description\", \"An agent contracted to the Eris Inquisiton.\")"
+        },
+        {
+            "Name": "NPC_Soldier_Friendly_RAD_D_1",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Soldier_Friendly_RAD_D_1-DisplayName\", \"Agent Woods\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Soldier_Friendly_RAD_D_1-Description\", \"An agent contracted to the Eris Inquisiton.\")"
+        },
+        {
+            "Name": "NPC_Soldier_Friendly_RAD_D_2",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Soldier_Friendly_RAD_D_2-DisplayName\", \"Agent Hill\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Soldier_Friendly_RAD_D_2-Description\", \"An agent contracted to the Eris Inquisiton.\")"
+        },
+        {
+            "Name": "NPC_Soldier_Friendly_RAD_D_3",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Soldier_Friendly_RAD_D_3-DisplayName\", \"Agent Lovesy\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Soldier_Friendly_RAD_D_3-Description\", \"An agent contracted to the Eris Inquisiton.\")"
+        },
+        {
+            "Name": "NPC_Soldier_Friendly_RAD_D_4",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Soldier_Friendly_RAD_D_4-DisplayName\", \"Agent West\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Soldier_Friendly_RAD_D_4-Description\", \"An agent contracted to the Eris Inquisiton.\")"
+        },
+        {
+            "Name": "RadBoss_Den",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"RadBoss_Den-DisplayName\", \"Malformation Nest\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"RadBoss_Den-Description\", \"An entrance to a creature\\'s Nest.\")"
         }
     ]
 }

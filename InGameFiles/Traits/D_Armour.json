@@ -1428,6 +1428,12 @@
             "ArmourType": "Backpack"
         },
         {
+            "Name": "T3_Backpack",
+            "ArmourMesh": "/Game/ASS/ITM/SK_ITM_Backpack_Planetary_T3.SK_ITM_Backpack_Planetary_T3",
+            "AnimBlueprintClass": "/Game/ASS/ITM/SK_ITM_Backpack_CopyPose_AnimBP.SK_ITM_Backpack_CopyPose_AnimBP_C",
+            "ArmourType": "Backpack"
+        },
+        {
             "Name": "Backpack_Mining",
             "ArmourMesh": "/Game/ASS/ITM/SK_ITM_Backpack_Gatherer_v02.SK_ITM_Backpack_Gatherer_v02",
             "AnimBlueprintClass": "/Game/ASS/ITM/SK_ITM_Backpack_CopyPose_AnimBP.SK_ITM_Backpack_CopyPose_AnimBP_C",
@@ -4060,7 +4066,7 @@
         {
             "Name": "RadBoss_Chest",
             "ArmourMesh": "/Game/ASS/CHA/ARM/Rad_Boss/SK_CHA_ARM_MAL_Radboss_Chest.SK_CHA_ARM_MAL_Radboss_Chest",
-            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/Rad_Boss/SK_CHA_ARM_MAL_Radboss_Chest.SK_CHA_ARM_MAL_Radboss_Chest",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/Rad_Boss/SK_CHA_ARM_FEM_Radboss_Chest.SK_CHA_ARM_FEM_Radboss_Chest",
             "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP_C",
             "ArmourStats": {

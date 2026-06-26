@@ -644,7 +644,7 @@
                     "Value": "Energy"
                 }
             ],
-            "MaximumStoredUnits": 50000
+            "MaximumStoredUnits": 5000000
         },
         {
             "Name": "Drone_Companion",

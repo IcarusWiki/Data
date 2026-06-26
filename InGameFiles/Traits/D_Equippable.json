@@ -1039,6 +1039,17 @@
                 "(Value=\"IsPullingCart_?\")": 1,
                 "(Value=\"BaseMountCargoSlots_+\")": 10
             }
+        },
+        {
+            "Name": "T3_Backpack",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseBackpackSlots_+\")": 6,
+                "(Value=\"BaseWeightCapacity_+\")": 10,
+                "(Value=\"BaseOreCarryWeight_+%\")": -10,
+                "(Value=\"BaseWoodCarryWeight_+%\")": -10
+            },
+            "bBindToAllInventoryUpdates": false
         }
     ]
 }

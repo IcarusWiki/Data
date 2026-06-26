@@ -1683,6 +1683,24 @@
                     "DataTableName": "D_InventoryInfo"
                 }
             ]
+        },
+        {
+            "Name": "Chemostat",
+            "Inventories": [
+                {
+                    "RowName": "Chemostat",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Mission_NPC_One_Slot",
+            "Inventories": [
+                {
+                    "RowName": "Mission_NPC_One_Slot",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
         }
     ]
 }

@@ -27724,6 +27724,7 @@
             "CollisionHitEventBones": [
                 "Base"
             ],
+            "LatentDeathDuration": 60,
             "ValidBaitTagQuery": {
                 "TagDictionary": [
                     {
@@ -28411,6 +28412,9 @@
                     0
                 ],
                 "AutoDescription": " ANY( GOAP.Food.Carnivore.Bait )"
+            },
+            "Trophy": {
+                "RowName": "Irradiated_Prospector_Head"
             },
             "Loot": {
                 "RowName": "Irradiated_Prospector_Loot"
@@ -33128,6 +33132,9 @@
                 ],
                 "AutoDescription": " ANY( GOAP.Food.Carnivore.Bait )"
             },
+            "Trophy": {
+                "RowName": "Irradiated_Abomination_Head"
+            },
             "Loot": {
                 "RowName": "Irradiated_Abomination_Loot"
             },
@@ -34356,6 +34363,9 @@
                     0
                 ],
                 "AutoDescription": " ANY( GOAP.Food.Carnivore.Bait )"
+            },
+            "Trophy": {
+                "RowName": "Irradiated_Mutation_Head"
             },
             "Loot": {
                 "RowName": "Irradiated_Mutation_Carcass_Loot"

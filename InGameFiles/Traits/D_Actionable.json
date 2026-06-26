@@ -3682,7 +3682,7 @@
                         "DataTableName": "D_ModifierStates"
                     }
                 },
-                "(RowName=\"Weapon_Aim_Prediction\",DataTableName=\"D_Actions\")": {
+                "(RowName=\"Weapon_Generic_Aim\",DataTableName=\"D_Actions\")": {
                     "InputTypes": {
                         "Secondary": {
                             "RowName": "None",
@@ -3708,6 +3708,48 @@
                 }
             },
             "bUseClientPrediction": true
+        },
+        {
+            "Name": "Animal_Virus",
+            "ActionMapping": {
+                "(RowName=\"Inject_FEV\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Primary": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        },
+                        "Secondary": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                }
+            }
+        },
+        {
+            "Name": "DNA_Serum",
+            "ActionMapping": {
+                "(RowName=\"Inject_Serum\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Primary": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        },
+                        "Secondary": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                }
+            }
         }
     ]
 }

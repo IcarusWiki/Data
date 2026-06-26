@@ -2,6 +2,8 @@
     "RowStruct": "/Script/Icarus.SettlementNPCTaskTypeData",
     "Defaults": {
         "DisplayName": "",
+        "TaskIcon": "None",
+        "bDisplayProgressWidgetForTask": false,
         "bRequiresTarget": false,
         "bRequiresSource": false,
         "Behaviour": "None",
@@ -13,20 +15,37 @@
         "SupportedActivities": [
             "Work"
         ],
-        "WhitelistedNPCRoles": []
+        "WhitelistedNPCRoles": [],
+        "SkillCategory": {
+            "RowName": "None",
+            "DataTableName": "D_SettlementNPCSkills"
+        }
     },
     "Rows": [
         {
             "Name": "Build",
             "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Build-DisplayName\", \"Build\")",
+            "TaskIcon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_UnderConstruction.T_Icon_Map_UnderConstruction",
+            "bDisplayProgressWidgetForTask": true,
             "bRequiresTarget": true,
-            "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Build.BT_SettlementNPC_Build"
+            "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Build.BT_SettlementNPC_Build",
+            "ExperienceReward": {
+                "RowName": "Settlement_Building_Complete"
+            },
+            "SkillCategory": {
+                "RowName": "Construction"
+            }
         },
         {
             "Name": "Deconstruct",
             "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Deconstruct-DisplayName\", \"Deconstruct\")",
+            "TaskIcon": "/Game/Assets/2DArt/UI/Icons/Icon_SledgehammerNodes.Icon_SledgehammerNodes",
+            "bDisplayProgressWidgetForTask": true,
             "bRequiresTarget": true,
-            "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Deconstruct.BT_SettlementNPC_Deconstruct"
+            "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Deconstruct.BT_SettlementNPC_Deconstruct",
+            "SkillCategory": {
+                "RowName": "Construction"
+            }
         },
         {
             "Name": "OperateBuilding",
@@ -39,29 +58,101 @@
             "Name": "Sleep",
             "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Sleep-DisplayName\", \"Sleep\")",
             "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Sleep.BT_SettlementNPC_Sleep",
-            "Priority": 254,
+            "Priority": 245,
             "SupportedActivities": [
                 "Sleep"
             ]
         },
         {
             "Name": "Guard",
-            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Guard-DisplayName\", \"Guard\")",
-            "Priority": 255,
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Guard-DisplayName\", \"Patrol\")",
+            "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Guard.BT_SettlementNPC_Guard",
+            "Priority": 250,
             "SupportedActivities": [],
             "WhitelistedNPCRoles": [
                 {
                     "RowName": "Guard",
                     "DataTableName": "D_SettlementNPCRoles"
                 }
-            ]
+            ],
+            "SkillCategory": {
+                "RowName": "Combat"
+            }
+        },
+        {
+            "Name": "Guard_Stationary",
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Guard_Stationary-DisplayName\", \"Guard\")",
+            "bRequiresTarget": true,
+            "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Guard.BT_SettlementNPC_Guard",
+            "Priority": 250,
+            "SupportedActivities": [],
+            "WhitelistedNPCRoles": [
+                {
+                    "RowName": "Guard",
+                    "DataTableName": "D_SettlementNPCRoles"
+                }
+            ],
+            "SkillCategory": {
+                "RowName": "Combat"
+            }
         },
         {
             "Name": "ChopWood",
             "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"ChopWood-DisplayName\", \"Chop Wood\")",
             "bRequiresTarget": true,
             "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Woodcutter.BT_SettlementNPC_Woodcutter",
-            "Priority": 64
+            "Priority": 64,
+            "SkillCategory": {
+                "RowName": "Forestry"
+            }
+        },
+        {
+            "Name": "Mine",
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Mine-DisplayName\", \"Mine\")",
+            "bRequiresTarget": true,
+            "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Mine.BT_SettlementNPC_Mine",
+            "Priority": 64,
+            "SkillCategory": {
+                "RowName": "Mining"
+            }
+        },
+        {
+            "Name": "RequestEventDecision",
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"RequestEventDecision-DisplayName\", \"Resolve Event\")",
+            "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_RequestEventDecision.BT_SettlementNPC_RequestEventDecision",
+            "Priority": 254,
+            "SupportedActivities": [],
+            "SkillCategory": {
+                "RowName": "Leadership"
+            }
+        },
+        {
+            "Name": "Repair",
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Repair-DisplayName\", \"Repair\")",
+            "TaskIcon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_UnderConstruction.T_Icon_Map_UnderConstruction",
+            "bDisplayProgressWidgetForTask": true,
+            "bRequiresTarget": true,
+            "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Build.BT_SettlementNPC_Build",
+            "Priority": 140,
+            "SkillCategory": {
+                "RowName": "Construction"
+            }
+        },
+        {
+            "Name": "Incapacitated",
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Incapacitated-DisplayName\", \"Incapacitated\")",
+            "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Incapacitated.BT_SettlementNPC_Incapacitated",
+            "Priority": 255,
+            "SupportedActivities": []
+        },
+        {
+            "Name": "Cower",
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Cower-DisplayName\", \"Cower\")",
+            "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Cower.BT_SettlementNPC_Cower",
+            "Priority": 253,
+            "SupportedActivities": [
+                "UnderAttack"
+            ]
         }
     ]
 }

@@ -4191,14 +4191,14 @@
             "Name": "RadBossRoar",
             "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/RadBoss/SFX_CRE_VOC_RADBOSS_ROAR.SFX_CRE_VOC_RADBOSS_ROAR",
             "Setting": {
-                "RowName": "Default"
+                "RowName": "Important"
             }
         },
         {
             "Name": "RadBossIdle",
             "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/RadBoss/SFX_CRE_VOC_RADBOSS_IDLE.SFX_CRE_VOC_RADBOSS_IDLE",
             "Setting": {
-                "RowName": "Default"
+                "RowName": "Lowest"
             }
         },
         {
@@ -4254,7 +4254,7 @@
             "Name": "RadBossLongRoar",
             "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/RadBoss/SFX_CRE_VOC_RADBOSS_ROAR_LONG.SFX_CRE_VOC_RADBOSS_ROAR_LONG",
             "Setting": {
-                "RowName": "Default"
+                "RowName": "Important"
             }
         },
         {
@@ -4283,6 +4283,48 @@
             "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/RadBoss/SFX_CRE_VOC_RADBOSS_FLINCH.SFX_CRE_VOC_RADBOSS_FLINCH",
             "Setting": {
                 "RowName": "Default"
+            }
+        },
+        {
+            "Name": "NPCSoldierFriendlySpot",
+            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/NPC_1/VO_NPC_FRIENDLY_SPOT.VO_NPC_FRIENDLY_SPOT",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "NPCSoldierFriendlyFlinch",
+            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/NPC_1/VO_NPC_FRIENDLY_FLINCH.VO_NPC_FRIENDLY_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "NPCSoldierFriendlyDeath",
+            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/NPC_1/VO_NPC_FRIENDLY_DEATH.VO_NPC_FRIENDLY_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "NPCSoldierFriendlyIdle",
+            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/NPC_1/VO_NPC_FRIENDLY_IDLE.VO_NPC_FRIENDLY_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "NPCSoldierFriendlyReloading",
+            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/NPC_1/VO_NPC_FRIENDLY_RELOADING.VO_NPC_FRIENDLY_RELOADING",
+            "Setting": {
+                "RowName": "Lowest"
+            }
+        },
+        {
+            "Name": "NPCSoldierFriendlyAggro",
+            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/NPC_1/VO_NPC_FRIENDLY_AGGRO.VO_NPC_FRIENDLY_AGGRO",
+            "Setting": {
+                "RowName": "Persistent"
             }
         }
     ]

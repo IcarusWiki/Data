@@ -570,7 +570,7 @@
                 "RowName": "Juvenile_Wooly_Zebra"
             },
             "bAutomaticallySpawnJuvenileWithParent": true,
-            "GestationPeriodSeconds": 3000
+            "GestationPeriodSeconds": 2000
         },
         {
             "Name": "SwampBird",

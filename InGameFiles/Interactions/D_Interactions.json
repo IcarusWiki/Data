@@ -975,6 +975,16 @@
             "Name": "Interact_Deployable_Needs_Power",
             "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_DeployableWithPower.BP_Interactable_Interact_DeployableWithPower_C",
             "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Deployable_Needs_Power-InteractionText\", \"Interact\")"
+        },
+        {
+            "Name": "Interact_Mission_Laser_Utility_Electric",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Mission_Laser_Utility_Electric_Toggle.BP_Interactable_Interact_Mission_Laser_Utility_Electric_Toggle_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Mission_Laser_Utility_Electric-InteractionText\", \"Activate Laser\")"
+        },
+        {
+            "Name": "Interact_NPC_Access_Items",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_NPC_Inventory.BP_Interactable_NPC_Inventory_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_NPC_Access_Items-InteractionText\", \"Access Items\")"
         }
     ]
 }

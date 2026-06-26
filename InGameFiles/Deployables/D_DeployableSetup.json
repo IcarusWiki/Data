@@ -3589,15 +3589,6 @@
             "UseSnapSocketRotation": true
         },
         {
-            "Name": "Basic_Fishing_Trap",
-            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Fishing/BP_Basic_Fishing_Trap.BP_Basic_Fishing_Trap_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Fishing_Trap_T2.SM_DEP_Fishing_Trap_T2",
-            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_WATER_ITEM_SMALL.SFX_DEPLOY_WATER_ITEM_SMALL",
-            "SnapToSurfaceNormal": false,
-            "WorldPlacementType": "WaterPlacement",
-            "bCanAffectNavigation": false
-        },
-        {
             "Name": "Advanced_Fishing_Trap",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Fishing/BP_Advanced_Fishing_Trap.BP_Advanced_Fishing_Trap_C",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Fishing_Trap_T3.SM_DEP_Fishing_Trap_T3",
@@ -15757,6 +15748,14 @@
             "MaxRestackingAmount": -1
         },
         {
+            "Name": "Prop_Enzyme_PropagationUnit",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Enzyme_PropagationUnit.BP_Prop_Enzyme_PropagationUnit_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_EnzymeCannon_V2.SM_DEP_EnzymeCannon_V2",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
             "Name": "Speeder_Kit",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Creatures/BP_Speeder_Kit.BP_Speeder_Kit_C",
             "PreviewStaticMesh": "/Game/ASS/VHC/Speeder_Bike/SM_VHC_Speeder_Bike.SM_VHC_Speeder_Bike",
@@ -15918,6 +15917,14 @@
                 "Y": -20,
                 "Z": -20
             }
+        },
+        {
+            "Name": "Mission_Chemostat",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_Mission_Chemostat.BP_Mission_Chemostat_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Electrolyzer.SM_DEP_Electrolyzer",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "MaxRestackingAmount": 1
         }
     ]
 }

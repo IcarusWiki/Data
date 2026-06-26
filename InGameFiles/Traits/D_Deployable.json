@@ -739,16 +739,6 @@
             "EffectedByWeather": false
         },
         {
-            "Name": "AnimalTrap_Small",
-            "Variants": [
-                {
-                    "RowName": "Animal_Trap_Small",
-                    "DataTableName": "D_DeployableSetup"
-                }
-            ],
-            "EffectedByWeather": false
-        },
-        {
             "Name": "Solar_Panel",
             "Variants": [
                 {
@@ -2681,16 +2671,6 @@
             "Variants": [
                 {
                     "RowName": "Exotic_Harvester",
-                    "DataTableName": "D_DeployableSetup"
-                }
-            ],
-            "EffectedByWeather": false
-        },
-        {
-            "Name": "Basic_Fishing_Trap",
-            "Variants": [
-                {
-                    "RowName": "Basic_Fishing_Trap",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],
@@ -11372,6 +11352,16 @@
             "EffectedByWeather": false
         },
         {
+            "Name": "Prop_Enzyme_PropagationUnit",
+            "Variants": [
+                {
+                    "RowName": "Prop_Enzyme_PropagationUnit",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
             "Name": "Speeder_Kit",
             "Variants": [
                 {
@@ -11519,7 +11509,15 @@
                     "DataTableName": "D_DeployableSetup"
                 },
                 {
+                    "RowName": "Settlement_Building_Generator",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
                     "RowName": "Settlement_Building_Farm",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Settlement_Building_Mine",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],
@@ -11580,6 +11578,16 @@
             "Variants": [
                 {
                     "RowName": "Mission_Laser_Utility",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Mission_Chemostat",
+            "Variants": [
+                {
+                    "RowName": "Mission_Chemostat",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],

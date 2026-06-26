@@ -37,6 +37,7 @@
             "Name": "Dangerous_Horizons",
             "PackageID": 1648533,
             "DLCName": "NSLOCTEXT(\"D_DLCPackageData\", \"Dangerous_Horizons-DLCName\", \"Dangerous Horizons\")",
+            "WebsiteAddress": "https://store.steampowered.com/app/1648533/Icarus_Dangerous_Horizons_Expansion/",
             "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Money_Symbol_Double.T_ICON_Money_Symbol_Double",
             "HoverText": "NSLOCTEXT(\"D_DLCPackageData\", \"Dangerous_Horizons-HoverText\", \"Introducing Elysium. Ground zero for the terraforming effort on Icarus where exotics collided with radioactivity, resulting in the most extreme environmental mutations yet witnessed on Icarus.\")",
             "DLCIconOwned": "/Game/Assets/2DArt/UI/DLCBadges/T_ICONS_DangerousHorizons.T_ICONS_DangerousHorizons",
@@ -46,7 +47,7 @@
             "Name": "Styx_Map",
             "PackageID": 1995690,
             "DLCName": "NSLOCTEXT(\"D_DLCPackageData\", \"Styx_Map-DLCName\", \"Styx Expansion\")",
-            "WebsiteAddress": "https://store.steampowered.com/app/1995690/Icarus_Styx_Map__Missions_Pack/",
+            "WebsiteAddress": "https://store.steampowered.com/app/1995690/Icarus_Styx_Expansion/",
             "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Money_Symbol_Double.T_ICON_Money_Symbol_Double",
             "HoverText": "NSLOCTEXT(\"D_DLCPackageData\", \"Styx_Map-HoverText\", \"Centered around a wandering braided river that runs through the length of the map, the Styx region has lain untouched by humans for years. Now the UDA have unlocked access so prospectors can explore this challenging new territory and tackle an array of new Operations and Missions.\")",
             "DLCIconOwned": "/Game/Assets/2DArt/UI/DLCBadges/T_ICON_DLC_Styx.T_ICON_DLC_Styx",
@@ -105,7 +106,7 @@
             "Name": "Outpost_009_Arctic_Volcanic",
             "PackageID": 3364360,
             "DLCName": "NSLOCTEXT(\"D_DLCPackageData\", \"Outpost_009_Arctic_Volcanic-DLCName\", \"Frostfall Outpost Pack\")",
-            "WebsiteAddress": "https://store.steampowered.com/app/3364360 ",
+            "WebsiteAddress": "https://store.steampowered.com/app/3364360/Icarus_Frostfall_Outpost/",
             "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Money_Symbol_Double.T_ICON_Money_Symbol_Double"
         },
         {
@@ -190,7 +191,7 @@
             "Name": "Zebra_Rescue_Mission",
             "PackageID": 2923830,
             "DLCName": "NSLOCTEXT(\"D_DLCPackageData\", \"Zebra_Rescue_Mission-DLCName\", \"Zebra Rescue Mission\")",
-            "WebsiteAddress": "https://store.steampowered.com/bundle/40692/",
+            "WebsiteAddress": "https://store.steampowered.com/bundle/40692/Icarus_Pets_Bundle/",
             "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Paws.T_ICON_Paws",
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -217,7 +218,7 @@
             "Name": "Matariki_Mission",
             "PackageID": 1995690,
             "DLCName": "NSLOCTEXT(\"D_DLCPackageData\", \"Matariki_Mission-DLCName\", \" Matariki Mission\")",
-            "WebsiteAddress": "https://store.steampowered.com/app/1995690/Icarus_Styx_Map__Missions_Pack/",
+            "WebsiteAddress": "https://store.steampowered.com/app/1995690/Icarus_Styx_Expansion/",
             "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Money_Symbol_Double.T_ICON_Money_Symbol_Double"
         },
         {

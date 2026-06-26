@@ -22076,6 +22076,15 @@
             "bShowStatOnModifiers": true
         },
         {
+            "Name": "BaseSettlementWoodProduction_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementWoodProduction_+%-PositiveDescription\", \"+{0}% Wood Produced per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementWoodProduction_+%-NegativeDescription\", \"-{0}% Wood Produced per Hour\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
             "Name": "SettlementWoodProduction_+",
             "Title": "NSLOCTEXT(\"D_Stats\", \"SettlementWoodProduction_+-Title\", \"Wood Produced per Hour\")",
             "PositiveTitleFormat": "INVTEXT(\"{0}\")",
@@ -22089,6 +22098,15 @@
             "Name": "BaseSettlementStoneProduction_+",
             "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementStoneProduction_+-PositiveDescription\", \"+{0} Stone Produced per Hour\")",
             "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementStoneProduction_+-NegativeDescription\", \"-{0} Stone Produced per Hour\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "BaseSettlementStoneProduction_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementStoneProduction_+%-PositiveDescription\", \"+{0}% Stone Produced per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementStoneProduction_+%-NegativeDescription\", \"-{0}% Stone Produced per Hour\")",
             "StatCategory": {
                 "RowName": "Settlement"
             },
@@ -22114,6 +22132,15 @@
             "bShowStatOnModifiers": true
         },
         {
+            "Name": "BaseSettlementOxygenProduction_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementOxygenProduction_+%-PositiveDescription\", \"+{0}% Oxygen Produced per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementOxygenProduction_+%-NegativeDescription\", \"-{0}% Oxygen Produced per Hour\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
             "Name": "SettlementOxygenProduction_+",
             "Title": "NSLOCTEXT(\"D_Stats\", \"SettlementOxygenProduction_+-Title\", \"Oxygen Produced per Hour\")",
             "PositiveTitleFormat": "INVTEXT(\"{0}\")",
@@ -22133,6 +22160,15 @@
             "bShowStatOnModifiers": true
         },
         {
+            "Name": "BaseSettlementWaterProduction_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementWaterProduction_+%-PositiveDescription\", \"+{0}% Water Produced per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementWaterProduction_+%-NegativeDescription\", \"-{0}% Water Produced per Hour\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
             "Name": "SettlementWaterProduction_+",
             "Title": "NSLOCTEXT(\"D_Stats\", \"SettlementWaterProduction_+-Title\", \"Water Produced per Hour\")",
             "PositiveTitleFormat": "INVTEXT(\"{0}\")",
@@ -22146,6 +22182,15 @@
             "Name": "BaseSettlementFoodProduction_+",
             "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementFoodProduction_+-PositiveDescription\", \"+{0} Food Produced per Hour\")",
             "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementFoodProduction_+-NegativeDescription\", \"-{0} Food Produced per Hour\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "BaseSettlementFoodProduction_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementFoodProduction_+%-PositiveDescription\", \"+{0}% Food Produced per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementFoodProduction_+%-NegativeDescription\", \"-{0}% Food Produced per Hour\")",
             "StatCategory": {
                 "RowName": "Settlement"
             },
@@ -22183,6 +22228,215 @@
             "bIsReplicated": true,
             "StatCategory": {
                 "RowName": "Item"
+            }
+        },
+        {
+            "Name": "BaseSettlementDefense_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementDefense_+-PositiveDescription\", \"+{0} Settlement Defense\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementDefense_+-NegativeDescription\", \"-{0} Settlement Defense\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "SettlementDefense_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"SettlementDefense_+-Title\", \"Settlement Defense\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Settlement"
+            }
+        },
+        {
+            "Name": "BaseSettlementMetalProduction_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementMetalProduction_+-PositiveDescription\", \"+{0} Metal Refined per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementMetalProduction_+-NegativeDescription\", \"-{0} Metal Refined per Hour\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "BaseSettlementMetalProduction_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementMetalProduction_+%-PositiveDescription\", \"+{0}% Metal Refined per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementMetalProduction_+%-NegativeDescription\", \"-{0}% Metal Refined per Hour\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "SettlementMetalProduction_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"SettlementMetalProduction_+-Title\", \"Metal Refined per Hour\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Settlement"
+            }
+        },
+        {
+            "Name": "BaseSettlementNailProduction_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementNailProduction_+-PositiveDescription\", \"+{0} Nails Produced per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementNailProduction_+-NegativeDescription\", \"-{0} Nails Produced per Hour\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "BaseSettlementNailProduction_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementNailProduction_+%-PositiveDescription\", \"+{0}% Nails Produced per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementNailProduction_+%-NegativeDescription\", \"-{0}% Nails Produced per Hour\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "SettlementNailProduction_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"SettlementNailProduction_+-Title\", \"Nails Produced per Hour\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Settlement"
+            }
+        },
+        {
+            "Name": "BaseSettlementPowerProduction_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementPowerProduction_+-PositiveDescription\", \"+{0}kW Power Produced per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementPowerProduction_+-NegativeDescription\", \"-{0}kW Power Produced per Hour\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "BaseSettlementPowerProduction_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementPowerProduction_+%-PositiveDescription\", \"+{0}% Power Produced per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementPowerProduction_+%-NegativeDescription\", \"-{0}% Power Produced per Hour\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "SettlementPowerProduction_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"SettlementPowerProduction_+-Title\", \"Power Produced per Hour\")",
+            "PositiveTitleFormat": "NSLOCTEXT(\"D_Stats\", \"SettlementPowerProduction_+-PositiveTitleFormat\", \"{0}kW\")",
+            "NegativeTitleFormat": "NSLOCTEXT(\"D_Stats\", \"SettlementPowerProduction_+-NegativeTitleFormat\", \"-{0}kW\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Settlement"
+            }
+        },
+        {
+            "Name": "BaseSettlementPowerConsumption_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementPowerConsumption_+-PositiveDescription\", \"+{0}kW Power Consumed per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementPowerConsumption_+-NegativeDescription\", \"-{0}kW Power Consumed per Hour\")",
+            "DisplayOperations": [
+                {
+                    "Operation": "Division",
+                    "Value": 1000
+                }
+            ],
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "SettlementPowerConsumption_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"SettlementPowerConsumption_+-Title\", \"Power Consumed per Hour\")",
+            "PositiveTitleFormat": "NSLOCTEXT(\"D_Stats\", \"SettlementPowerConsumption_+-PositiveTitleFormat\", \"{0}kW\")",
+            "NegativeTitleFormat": "NSLOCTEXT(\"D_Stats\", \"SettlementPowerConsumption_+-NegativeTitleFormat\", \"-{0}kW\")",
+            "bIsReplicated": true,
+            "DisplayOperations": [
+                {
+                    "Operation": "Division",
+                    "Value": 1000
+                }
+            ],
+            "StatCategory": {
+                "RowName": "Settlement"
+            }
+        },
+        {
+            "Name": "BaseSettlementMedicalCapacity_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementMedicalCapacity_+-PositiveDescription\", \"+{0} Settlers Treated per Day\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementMedicalCapacity_+-NegativeDescription\", \"-{0} Settlers Treated per Day\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "SettlementMedicalCapacity_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"SettlementMedicalCapacity_+-Title\", \"Settlers Treated per Day\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Settlement"
+            }
+        },
+        {
+            "Name": "BaseSettlementSawmillProduction_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementSawmillProduction_+-PositiveDescription\", \"+{0} Sawmill Production per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementSawmillProduction_+-NegativeDescription\", \"-{0} Sawmill Production per Hour\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "BaseSettlementSawmillProduction_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementSawmillProduction_+%-PositiveDescription\", \"+{0}% Sawmill Production per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementSawmillProduction_+%-NegativeDescription\", \"-{0}% Sawmill Production per Hour\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "SettlementSawmillProduction_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"SettlementSawmillProduction_+-Title\", \"Sawmill Production per Hour\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Settlement"
+            }
+        },
+        {
+            "Name": "BaseSettlementMineProduction_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementMineProduction_+-PositiveDescription\", \"+{0} Mine Production per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementMineProduction_+-NegativeDescription\", \"-{0} Mine Production per Hour\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "BaseSettlementMineProduction_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementMineProduction_+%-PositiveDescription\", \"+{0}% Mine Production per Hour\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementMineProduction_+%-NegativeDescription\", \"-{0}% Mine Production per Hour\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "SettlementMineProduction_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"SettlementMineProduction_+-Title\", \"Mine Production per Hour\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Settlement"
             }
         }
     ]

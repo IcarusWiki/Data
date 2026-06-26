@@ -1801,6 +1801,11 @@
             "EquipBackMesh": "/Game/ASS/ITM/SM_ITM_Backpack.SM_ITM_Backpack"
         },
         {
+            "Name": "Mesh_T3_Backpack",
+            "ItemMesh": "/Game/ASS/ITM/SK_ITM_Backpack_Planetary_T3.SK_ITM_Backpack_Planetary_T3",
+            "EquipBackMesh": "/Game/ASS/ITM/SK_ITM_Backpack_Planetary_T3.SK_ITM_Backpack_Planetary_T3"
+        },
+        {
             "Name": "Mesh_Mining_Backpack",
             "ItemMesh": "/Game/ASS/ITM/SM_ITM_Backpack_Gatherer.SM_ITM_Backpack_Gatherer",
             "EquipBackMesh": "/Game/ASS/ITM/SM_ITM_Backpack_Gatherer.SM_ITM_Backpack_Gatherer"
@@ -5136,7 +5141,7 @@
         {
             "Name": "Mesh_LegendaryWeapon_LavaHunter_Flamethrower",
             "ItemMesh": "/Game/ASS/ITM/WeaponCrate_Norex/SM_ITM_WeaponCrate_Norex.SM_ITM_WeaponCrate_Norex",
-            "EquipHandMesh": "/Game/ASS/WEP/GUN_Flamethrower_LavaHunter/SK_WEP_GUN_FlameThrower_LavaHunter_Core.SK_WEP_GUN_FlameThrower_LavaHunter_Core",
+            "EquipHandMesh": "/Game/ASS/WEP/Gun_FlameThrower_LavaHunter/SK_WEP_GUN_FlameThrower_LavaHunter_Core.SK_WEP_GUN_FlameThrower_LavaHunter_Core",
             "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_FlameThrower_LavaHunter.BP_SkeletalItem_FlameThrower_LavaHunter_C",
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -6312,7 +6317,7 @@
         },
         {
             "Name": "Mesh_Radboss_Armor_Pack",
-            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_MAL_ARM_MetalAlloyPack.SM_CHA_MAL_ARM_MetalAlloyPack",
+            "ItemMesh": "/Game/ASS/CHA/ARM/Rad_Boss/SM_CHA_ARM_RadBossPack.SM_CHA_ARM_RadBossPack",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         },
         {

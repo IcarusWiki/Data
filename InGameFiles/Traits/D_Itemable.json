@@ -5667,6 +5667,13 @@
             "Weight": 500
         },
         {
+            "Name": "Item_T3_Backpack",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_T3_Backpack-DisplayName\", \"Cured Leather Backpack\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_T3_Backpack.T_ITEM_T3_Backpack",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_T3_Backpack-Description\", \"A durable cured leather backpack that increases inventory space, carry weight capacity and reduces the weight of ore and wood.\")",
+            "Weight": 650
+        },
+        {
             "Name": "Item_Delivery_Object",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Delivery_Object-DisplayName\", \"Terraforming Flechette\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Bio_Needle.ITEM_Bio_Needle",
@@ -27883,7 +27890,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Speeder_Kit_Heavy-DisplayName\", \"Prototype Heavy Hoverframe\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Vehicles/T_ITEM_SpeederBike.T_ITEM_SpeederBike",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Speeder_Kit_Heavy-Description\", \"A mechanical vehicle which can be deployed to ride. Powered by Refined Oil. Slower speeds but much larger carrying capacity.\")",
-            "Weight": 100000
+            "Weight": 75000
         },
         {
             "Name": "Item_Audio_Log_1",
@@ -27996,7 +28003,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Lead_Lined_Crate_Small.T_ITEM_Lead_Lined_Crate_Small",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Lead_Lined_Crate_Small-Description\", \"Strong protective storage for items.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Lead_Lined_Crate_Small-FlavorText\", \"Has 15 storage slots.\")",
-            "Weight": 3000
+            "Weight": 5000
         },
         {
             "Name": "Item_Lead_Lined_Crate_Medium",
@@ -28004,7 +28011,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Lead_Lined_Crate_Medium.T_ITEM_Lead_Lined_Crate_Medium",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Lead_Lined_Crate_Medium-Description\", \"A strong, generous storage unit.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Lead_Lined_Crate_Medium-FlavorText\", \"Has 25 storage slots.\")",
-            "Weight": 6000
+            "Weight": 10000
         },
         {
             "Name": "Item_Mission_Colony_Tower",
@@ -28182,6 +28189,7 @@
         {
             "Name": "Item_Envirosuit_Radboss",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Envirosuit_Radboss-DisplayName\", \"Malformation Envirosuit\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_RadbossEnvirosuit.T_ITEM_RadbossEnvirosuit",
             "Weight": 100
         },
         {
@@ -28371,10 +28379,57 @@
         },
         {
             "Name": "Item_Mission_Laser_Utility",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Laser_Utility-DisplayName\", \"MK-200 Weaponized Laser (Repaired)\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Laser_Utility-DisplayName\", \"MK-200 Weaponized Laser \")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Mission_Prototype_Laser.ITEM_Mission_Prototype_Laser",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Laser_Utility-Description\", \"The result of a makeshift repair.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Laser_Utility-Description\", \"The result of a salvaged drones and old terraforming equipment\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Laser_Utility-FlavorText\", \"It doesn\\'t look that unstable....\")",
+            "Weight": 2000
+        },
+        {
+            "Name": "Item_Mission_Chemostat",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Chemostat-DisplayName\", \"Chemostat Bioreactor\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Chemostat-Description\", \"A continuous-flow bioreactor that maintains microorganisms under controlled, steady-state conditions through the continuous addition and removal of substrates.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Chemostat-FlavorText\", \"Is this mad science?\")",
+            "Weight": 10000
+        },
+        {
+            "Name": "Item_Mission_Culture",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Culture-DisplayName\", \"Stabalised Mutation Culture\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_FE2VirusSample.T_ITEM_FE2VirusSample",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Culture-Description\", \"A culture formed from the cells of mutated prospectors created in a chemostat bioreactor.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Culture-FlavorText\", \"Is this mad science?\")",
+            "Weight": 250
+        },
+        {
+            "Name": "Item_Irradiated_Prospector_Head",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Irradiated_Prospector_Head-DisplayName\", \"Spectre Vestige\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Irradiated_Prospector_Head-Description\", \"A preserved memory of a mutated prospector.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Irradiated_Prospector_Head-FlavorText\", \"Who knew taxidermy would be so popular on Icarus?\")",
+            "Weight": 500,
+            "MaxStack": 5
+        },
+        {
+            "Name": "Item_Irradiated_Abomination_Head",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Irradiated_Abomination_Head-DisplayName\", \"Revenant Vestige\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Irradiated_Abomination_Head-Description\", \"A preserved memory of a mutated prospector.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Irradiated_Abomination_Head-FlavorText\", \"Who knew taxidermy would be so popular on Icarus?\")",
+            "Weight": 500,
+            "MaxStack": 5
+        },
+        {
+            "Name": "Item_Irradiated_Mutation_Head",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Irradiated_Mutation_Head-DisplayName\", \"Wraith Vestige\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Irradiated_Mutation_Head-Description\", \"A preserved memory of a mutated prospector.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Irradiated_Mutation_Head-FlavorText\", \"Who knew taxidermy would be so popular on Icarus?\")",
+            "Weight": 500,
+            "MaxStack": 5
+        },
+        {
+            "Name": "Item_Prop_Enzyme_PropagationUnit",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_Enzyme_PropagationUnit-DisplayName\", \"Enzyme Propagation Unit\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Enzyme_Propagation_Unit.T_ITEM_Enzyme_Propagation_Unit",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_Enzyme_PropagationUnit-Description\", \"A device which disperses a modified terraforming enzyme into the surrounding environment for creature experimentation\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_Enzyme_PropagationUnit-FlavorText\", \"Enzymes are nothing but trouble...\")",
             "Weight": 2000
         }
     ]

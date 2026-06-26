@@ -3075,12 +3075,12 @@
         {
             "Name": "T4_Launcher",
             "HipAccuracy": {
-                "X": 5,
-                "Y": 5
+                "X": 0,
+                "Y": 0
             },
             "AimAccuracy": {
-                "X": 2.5,
-                "Y": 2.5
+                "X": 0,
+                "Y": 0
             },
             "LaunchForce": 3000,
             "ChargeData": {
@@ -3122,7 +3122,7 @@
             "RoundsPerMinute": 60,
             "ReloadTime": 1,
             "AudioData": {
-                "RowName": "HuntingRifle"
+                "RowName": "T4_GrenadeLauncher"
             },
             "WeaponLoudness": 3
         },

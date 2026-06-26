@@ -2780,6 +2780,23 @@
                     "DataTableName": "D_RecipeSets"
                 }
             ]
+        },
+        {
+            "Name": "T3_Backpack",
+            "Max_Durability": 750,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Advanced_Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 1
+                }
+            ]
+        },
+        {
+            "Name": "Settlement_Wall_Wood",
+            "Max_Durability": 1500
         }
     ]
 }

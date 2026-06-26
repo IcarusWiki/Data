@@ -15341,16 +15341,20 @@
                 "TagDictionary": [
                     {
                         "TagName": "NPC.Husbandry.Rest"
+                    },
+                    {
+                        "TagName": "NPC.Husbandry.Sterile"
                     }
                 ],
                 "QueryTokenStream": [
                     0,
                     1,
                     3,
-                    1,
-                    0
+                    2,
+                    0,
+                    1
                 ],
-                "AutoDescription": " NONE( NPC.Husbandry.Rest )"
+                "AutoDescription": " NONE( NPC.Husbandry.Rest, NPC.Husbandry.Sterile )"
             },
             "bEffectsPlayers": false
         },
@@ -15381,16 +15385,20 @@
                 "TagDictionary": [
                     {
                         "TagName": "NPC.Husbandry.Rest"
+                    },
+                    {
+                        "TagName": "NPC.Husbandry.Sterile"
                     }
                 ],
                 "QueryTokenStream": [
                     0,
                     1,
                     3,
-                    1,
-                    0
+                    2,
+                    0,
+                    1
                 ],
-                "AutoDescription": " NONE( NPC.Husbandry.Rest )"
+                "AutoDescription": " NONE( NPC.Husbandry.Rest, NPC.Husbandry.Sterile )"
             },
             "bEffectsPlayers": false
         },
@@ -16372,7 +16380,9 @@
             "ShouldTick": true,
             "RemovedOnDeath": false,
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "EffectsCustomActor": {
+                "RowName": "Faction_Mission_NPC"
+            }
         },
         {
             "Name": "NPC_Radiation",
@@ -16412,6 +16422,48 @@
             "EffectsCustomActor": {
                 "RowName": "Faction_Mission_NPC"
             }
+        },
+        {
+            "Name": "Animal_Virus",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_ForcedEvolutionVirus.T_ITEM_ForcedEvolutionVirus'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Virus-ModifierName\", \"Forced Evolution Virus\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Virus-ModifierDescription\", \"Infected with the Forced Evolution Virus, will take time to clear from the creatures sytem.\")",
+            "MergeType": "LongestDuration",
+            "MaxStackNum": 5,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Sterile",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Sterile-ModifierName\", \"Infertile\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Sterile-ModifierDescription\", \"Due to Experimentation of Injury this creature is now Infertile and can no longer produce children.\")",
+            "MergeType": "LongestDuration",
+            "MaxStackNum": 5,
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "NPC.Husbandry.Sterile"
+                    }
+                ]
+            },
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Settlement_BurstPipes",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Resource_Waterpiping.Icon_Resource_Waterpiping'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Settlement_BurstPipes-ModifierName\", \"Burst Pipes\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Settlement_BurstPipes-ModifierDescription\", \"Significantly Reduced Water Production\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "EscalationTime": 0,
+            "ModifierTickRate": 120,
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
         }
     ]
 }

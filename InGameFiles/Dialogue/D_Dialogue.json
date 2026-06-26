@@ -16616,7 +16616,6 @@
         {
             "Name": "GH_INTRO_BRIEFING",
             "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_INTRO_BRIEFING.GH_INTRO_BRIEFING",
-            "Priority": 1,
             "Speaker": {
                 "RowName": "Handler"
             },

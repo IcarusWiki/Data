@@ -2013,6 +2013,18 @@
             "Name": "Settlement_Building_Complete",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Settlement_Building_Complete-EventDescription\", \"Building Construction\")",
             "SharedExperience": true,
+            "ExperienceGranted": 500
+        },
+        {
+            "Name": "Settlement_Event_Resolved",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Settlement_Event_Resolved-EventDescription\", \"Settlement Event Resolved\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 2500
+        },
+        {
+            "Name": "Settlement_Visitor_Recruited",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Settlement_Visitor_Recruited-EventDescription\", \"Settler Recruited\")",
+            "SharedExperience": true,
             "ExperienceGranted": 1000
         }
     ]

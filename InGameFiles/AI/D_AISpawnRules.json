@@ -158,7 +158,7 @@
             "Name": "Drone_Scout_Population",
             "SpawnFilter": "/Game/BP/AI/SpawnFilters/BP_SpawnFilter_PopulationCheck_DroneScout.BP_SpawnFilter_PopulationCheck_DroneScout_C",
             "FilterParams": {
-                "Population": 2
+                "Population": 1
             }
         }
     ]
