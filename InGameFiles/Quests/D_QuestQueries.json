@@ -14476,6 +14476,24 @@
                 ],
                 "AutoDescription": " ALL( GreatHunts.RadBoss.D.NPC.4 )"
             }
+        },
+        {
+            "Name": "GH_RAD_A_Wraith",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.A.Wraith"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.A.Wraith )"
+            }
         }
     ]
 }

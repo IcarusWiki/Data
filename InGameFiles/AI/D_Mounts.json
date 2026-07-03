@@ -987,6 +987,120 @@
                 "RowName": "Mount_Tusker"
             },
             "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_Tusker.T_Talent_Base_Tusker",
+            "Variations": [
+                {
+                    "bCanBeSelected": true,
+                    "MeshMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/M_CRE_Tusker.M_CRE_Tusker"
+                    },
+                    "GFurMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/M_CRE_Tusk_FUR.M_CRE_Tusk_FUR"
+                    },
+                    "CarcassMeshMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/M_CRE_Tusker_Carc.M_CRE_Tusker_Carc"
+                    },
+                    "CarcassGFurMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/M_CRE_Tusk_Carc_FUR.M_CRE_Tusk_Carc_FUR"
+                    },
+                    "Weighting": 2000
+                },
+                {
+                    "bCanBeSelected": false,
+                    "MeshMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusker_VarA.M_CRE_Tusker_VarA"
+                    },
+                    "GFurMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusk_FUR_VarA.M_CRE_Tusk_FUR_VarA"
+                    },
+                    "CarcassMeshMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusker_CarcA.M_CRE_Tusker_CarcA"
+                    },
+                    "CarcassGFurMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusk_Carc_FUR_VarA.M_CRE_Tusk_Carc_FUR_VarA"
+                    },
+                    "Weighting": 50
+                },
+                {
+                    "bCanBeSelected": false,
+                    "MeshMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusker_VarB.M_CRE_Tusker_VarB"
+                    },
+                    "GFurMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusk_FUR_VarB.M_CRE_Tusk_FUR_VarB"
+                    },
+                    "CarcassMeshMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusker_CarcB.M_CRE_Tusker_CarcB"
+                    },
+                    "CarcassGFurMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusk_Carc_FUR_VarB.M_CRE_Tusk_Carc_FUR_VarB"
+                    },
+                    "Weighting": 50
+                },
+                {
+                    "bCanBeSelected": false,
+                    "MeshMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusker_VarC.M_CRE_Tusker_VarC"
+                    },
+                    "GFurMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusk_FUR_VarC.M_CRE_Tusk_FUR_VarC"
+                    },
+                    "CarcassMeshMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusker_CarcC.M_CRE_Tusker_CarcC"
+                    },
+                    "CarcassGFurMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusk_Carc_FUR_VarC.M_CRE_Tusk_Carc_FUR_VarC"
+                    },
+                    "Weighting": 50
+                },
+                {
+                    "bCanBeSelected": false,
+                    "MeshMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusker_VarD.M_CRE_Tusker_VarD"
+                    },
+                    "GFurMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusk_FUR_VarD.M_CRE_Tusk_FUR_VarD"
+                    },
+                    "CarcassMeshMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusker_CarcD.M_CRE_Tusker_CarcD"
+                    },
+                    "CarcassGFurMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusk_Carc_FUR_VarD.M_CRE_Tusk_Carc_FUR_VarD"
+                    },
+                    "Weighting": 50
+                },
+                {
+                    "bCanBeSelected": false,
+                    "MeshMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusker_VarE.M_CRE_Tusker_VarE"
+                    },
+                    "GFurMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusk_FUR_VarE.M_CRE_Tusk_FUR_VarE"
+                    },
+                    "CarcassMeshMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusker_CarcE.M_CRE_Tusker_CarcE"
+                    },
+                    "CarcassGFurMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusk_Carc_FUR_VarE.M_CRE_Tusk_Carc_FUR_VarE"
+                    },
+                    "Weighting": 50
+                },
+                {
+                    "bCanBeSelected": false,
+                    "MeshMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusker_Legendary.M_CRE_Tusker_Legendary"
+                    },
+                    "GFurMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusk_FUR_Legendary.M_CRE_Tusk_FUR_Legendary"
+                    },
+                    "CarcassMeshMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusker_CarcLegendary.M_CRE_Tusker_CarcLegendary"
+                    },
+                    "CarcassGFurMaterials": {
+                        "0": "/Game/ASS/CRE/Tusker/Skins/M_CRE_Tusk_Carc_FUR_Legendary.M_CRE_Tusk_Carc_FUR_Legendary"
+                    },
+                    "Weighting": 5
+                }
+            ],
             "RelevantSaddleQuery": {
                 "RowName": "Any_Saddle"
             },

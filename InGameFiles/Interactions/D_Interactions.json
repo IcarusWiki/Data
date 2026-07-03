@@ -985,6 +985,11 @@
             "Name": "Interact_NPC_Access_Items",
             "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_NPC_Inventory.BP_Interactable_NPC_Inventory_C",
             "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_NPC_Access_Items-InteractionText\", \"Access Items\")"
+        },
+        {
+            "Name": "Interact_Salvage",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Salvage.BP_Interactable_Salvage_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Salvage-InteractionText\", \"Salvage Parts\")"
         }
     ]
 }

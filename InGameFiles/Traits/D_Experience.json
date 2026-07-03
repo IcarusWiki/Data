@@ -2196,6 +2196,18 @@
                     "GainedExperience": 0
                 }
             }
+        },
+        {
+            "Name": "Creature_Skulk_Juvenile",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_Skulk_Juvenile",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
         }
     ]
 }

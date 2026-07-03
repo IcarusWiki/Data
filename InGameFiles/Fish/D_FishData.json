@@ -2562,6 +2562,9 @@
                 }
             ],
             "MinLength": 650,
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish17_+%"
+            },
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "NewFrontiers"
@@ -2584,6 +2587,9 @@
                 }
             ],
             "MinLength": 650,
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish17_+%"
+            },
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "NewFrontiers"
@@ -2606,6 +2612,9 @@
                 }
             ],
             "MinLength": 250,
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish18_+%"
+            },
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "NewFrontiers"
@@ -2628,6 +2637,9 @@
                 }
             ],
             "MinLength": 250,
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish18_+%"
+            },
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "NewFrontiers"
@@ -2650,6 +2662,9 @@
                 }
             ],
             "MinLength": 250,
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish18_+%"
+            },
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "NewFrontiers"
@@ -2672,6 +2687,9 @@
                 }
             ],
             "MinLength": 250,
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish18_+%"
+            },
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "NewFrontiers"
@@ -2695,6 +2713,9 @@
             "MaxWeight": 700,
             "MinLength": 250,
             "MaxLength": 750,
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish19_+%"
+            },
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "NewFrontiers"
@@ -2718,6 +2739,9 @@
             "MaxWeight": 700,
             "MinLength": 250,
             "MaxLength": 750,
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish19_+%"
+            },
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "NewFrontiers"
@@ -2741,6 +2765,9 @@
             "MaxWeight": 700,
             "MinLength": 250,
             "MaxLength": 750,
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish19_+%"
+            },
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "NewFrontiers"
@@ -2764,6 +2791,9 @@
             "MaxWeight": 700,
             "MinLength": 250,
             "MaxLength": 750,
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish19_+%"
+            },
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "NewFrontiers"
@@ -2787,6 +2817,9 @@
             ],
             "MinWeight": 1000,
             "MinLength": 500,
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish20_+%"
+            },
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"

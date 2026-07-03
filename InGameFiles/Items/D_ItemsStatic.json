@@ -61438,7 +61438,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "UtilitySlot_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -61532,7 +61532,7 @@
                 "RowName": "Generic"
             },
             "Actionable": {
-                "RowName": "UtilitySlot_Drop"
+                "RowName": "Utilityslot_Drop"
             },
             "Durable": {
                 "RowName": "Carcass_Medium"
@@ -76096,8 +76096,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseHardenedPointPenetration_%\")": 100,
-                "(Value=\"BaseConstructDamage_+%\")": 500,
-                "(Value=\"BaseShatteringDamage_+\")": 10000
+                "(Value=\"BaseConstructDamage_+%\")": 500
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -194496,6 +194495,9 @@
             "Audio": {
                 "RowName": "Uranium"
             },
+            "AdditionalStats": {
+                "(Value=\"BaseChanceToCatchFish20_+%\")": 250
+            },
             "Manual_Tags": {
                 "GameplayTags": [
                     {
@@ -217221,7 +217223,7 @@
                 "RowName": "Item"
             },
             "Focusable": {
-                "RowName": "Focusable_Canister"
+                "RowName": "Focusable_1H"
             },
             "Highlightable": {
                 "RowName": "Generic"
@@ -234557,6 +234559,196 @@
                     },
                     {
                         "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Meta_Oxite_Dissolver_Printed",
+            "Meshable": {
+                "RowName": "Mesh_Generic_Machining"
+            },
+            "Itemable": {
+                "RowName": "Item_Meta_Oxite_Dissolver_Printed"
+            },
+            "Interactable": {
+                "RowName": "Oxite_Dissolver"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Meta_Oxite_Dissolver_Printed"
+            },
+            "Durable": {
+                "RowName": "Deployable_1000"
+            },
+            "Inventory": {
+                "RowName": "Meta_Oxite_Dissolver_Planted"
+            },
+            "Processing": {
+                "RowName": "Metal_Oxite_Dissolver"
+            },
+            "Slotable": {
+                "RowName": "OxygenRefill"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Flammable": {
+                "RowName": "Flammable_Deployable"
+            },
+            "Generator": {
+                "RowName": "Oxite_Dissolver_Generator"
+            },
+            "Weight": {
+                "RowName": "HeavyDeployable"
+            },
+            "Resource": {
+                "RowName": "Simple_Internal_Flow_Only"
+            },
+            "Audio": {
+                "RowName": "GenericDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Bench"
+                    },
+                    {
+                        "TagName": "Item.Machine"
+                    },
+                    {
+                        "TagName": "Item.Meta"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Bench"
+                    },
+                    {
+                        "TagName": "Item.Machine"
+                    },
+                    {
+                        "TagName": "Item.Meta"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
+                    },
+                    {
+                        "TagName": "Traits.Processing"
+                    },
+                    {
+                        "TagName": "Traits.Flammable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Meta_Resource_Pack_Salt",
+            "Meshable": {
+                "RowName": "Mesh_Meta_Resource_Pack"
+            },
+            "Itemable": {
+                "RowName": "Item_Meta_Resource_Pack_Salt"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Consumable": {
+                "RowName": "Meta_Resource_Pack_Salt"
+            },
+            "Usable": {
+                "RowName": "Consume_Stack"
+            },
+            "Decayable": {
+                "RowName": "Decay_MetaItem"
+            },
+            "Audio": {
+                "RowName": "Default"
+            },
+            "CraftingExperience": 10,
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Meta.Consumable"
+                    },
+                    {
+                        "TagName": "Item.Meta.Package.Resource"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Meta.Consumable"
+                    },
+                    {
+                        "TagName": "Item.Meta.Package.Resource"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Consumable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
                     }
                 ],
                 "ParentTags": []

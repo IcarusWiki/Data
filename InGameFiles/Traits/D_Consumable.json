@@ -4612,6 +4612,18 @@
                 },
                 "ModifierLifetime": 6000
             }
+        },
+        {
+            "Name": "Meta_Resource_Pack_Salt",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Salt_Stack_500",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
         }
     ]
 }

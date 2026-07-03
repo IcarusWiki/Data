@@ -655,6 +655,16 @@
                 }
             ],
             "MaximumStoredUnits": 50000
+        },
+        {
+            "Name": "Meta_Powerbank",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Energy"
+                }
+            ],
+            "MaximumStoredUnits": 15000
         }
     ]
 }

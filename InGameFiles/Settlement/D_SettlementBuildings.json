@@ -80,6 +80,7 @@
             "Name": "Stockpile",
             "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"Stockpile-BuildingName\", \"Stockpile\")",
             "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"Stockpile-BuildingDescription\", \"Basic item storage\")",
+            "BuildingClass": "BlueprintGeneratedClass'/Game/BP/Settlement/Buildings/BP_SettlementBuilding_Stockpile.BP_SettlementBuilding_Stockpile_C'",
             "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Stockpile_Blocking.SM_COL_Stockpile_Blocking",
             "BuildingStats": {
                 "(Value=\"BaseGenericSlots_+\")": 16
@@ -396,7 +397,7 @@
             "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"LoggingCamp-BuildingName\", \"Logging Camp\")",
             "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"LoggingCamp-BuildingDescription\", \"Generates wood (if a Settler is assigned)\")",
             "BuildingClass": "BlueprintGeneratedClass'/Game/BP/Settlement/Buildings/BP_SettlementBuilding_LoggingCamp.BP_SettlementBuilding_LoggingCamp_C'",
-            "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Stockpile_Blocking.SM_COL_Stockpile_Blocking",
+            "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_LoggingCamp.SM_COL_LoggingCamp",
             "BuildingStats": {
                 "(Value=\"BaseSettlementWoodProduction_+\")": 5
             },
@@ -502,7 +503,8 @@
             "Name": "Farm",
             "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"Farm-BuildingName\", \"Farm\")",
             "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"Farm-BuildingDescription\", \"Generates food (if a Settler is assigned)\")",
-            "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Stockpile_Blocking.SM_COL_Stockpile_Blocking",
+            "BuildingClass": "BlueprintGeneratedClass'/Game/BP/Settlement/Buildings/BP_SettlementBuilding_Farm.BP_SettlementBuilding_Farm_C'",
+            "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Farm.SM_COL_Farm",
             "BuildingStats": {
                 "(Value=\"BaseSettlementFoodProduction_+\")": 5
             },
@@ -522,7 +524,7 @@
             "BoundaryBuildRule": "BuildAnywhere",
             "DefaultTasks": [
                 {
-                    "RowName": "OperateBuilding",
+                    "RowName": "Farm",
                     "DataTableName": "D_SettlementNPCTaskTypes"
                 }
             ],
@@ -615,6 +617,57 @@
                     ],
                     "RateStat": {
                         "Value": "SettlementMineProduction_+"
+                    },
+                    "RequiredActivity": "Work",
+                    "OutputUnitsPerInput": 1,
+                    "InputItems": [],
+                    "InputResources": []
+                }
+            ]
+        },
+        {
+            "Name": "FishingDock",
+            "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"FishingDock-BuildingName\", \"Fishing Dock\")",
+            "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"FishingDock-BuildingDescription\", \"Generates food (if a Settler is assigned)\")",
+            "BuildingClass": "BlueprintGeneratedClass'/Game/BP/Settlement/Buildings/BP_SettlementBuilding_FishingDock.BP_SettlementBuilding_FishingDock_C'",
+            "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_FishingDock.SM_COL_FishingDock",
+            "BuildingStats": {
+                "(Value=\"BaseSettlementFoodProduction_+\")": 5
+            },
+            "BuildingTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Settlement.BuildingType.Farm"
+                    },
+                    {
+                        "TagName": "Settlement.Building.FishingDock"
+                    }
+                ]
+            },
+            "BoundaryBuildRule": "BuildOutsideSettlement",
+            "DefaultTasks": [
+                {
+                    "RowName": "Fish",
+                    "DataTableName": "D_SettlementNPCTaskTypes"
+                }
+            ],
+            "Generation": [
+                {
+                    "Outputs": [
+                        {
+                            "Item": {
+                                "RowName": "Raw_Fish",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Resource": {
+                                "Value": "None"
+                            },
+                            "Quantity": 1,
+                            "Chance": 1
+                        }
+                    ],
+                    "RateStat": {
+                        "Value": "SettlementFoodProduction_+"
                     },
                     "RequiredActivity": "Work",
                     "OutputUnitsPerInput": 1,

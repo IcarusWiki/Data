@@ -2026,6 +2026,17 @@
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Settlement_Visitor_Recruited-EventDescription\", \"Settler Recruited\")",
             "SharedExperience": true,
             "ExperienceGranted": 1000
+        },
+        {
+            "Name": "Kill_Skulk_Juvenile",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Skulk_Juvenile-EventDescription\", \"Killed Juvenile Skulk\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 260
+        },
+        {
+            "Name": "Skin_Skulk_Juvenile",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Skulk_Juvenile-EventDescription\", \"Skinned Juvenile Skulk\")",
+            "ExperienceGranted": 130
         }
     ]
 }

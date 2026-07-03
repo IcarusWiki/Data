@@ -1521,7 +1521,7 @@
         {
             "Name": "Colonist_B_Healed",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Colonist_B_Healed-DisplayName\", \"Colonist Chris\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Colonist_B_Healed-Description\", \"A Colonist who is recovering for injury.\")"
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Colonist_B_Healed-Description\", \"A Colonist who is recovering from injury.\")"
         },
         {
             "Name": "Broken_Heavy_Hoverframe",

@@ -16427,7 +16427,7 @@
             "Name": "Animal_Virus",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_ForcedEvolutionVirus.T_ITEM_ForcedEvolutionVirus'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Virus-ModifierName\", \"Forced Evolution Virus\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Virus-ModifierDescription\", \"Infected with the Forced Evolution Virus, will take time to clear from the creatures sytem.\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Virus-ModifierDescription\", \"Infected with the Forced Evolution Virus. This will take time to clear from the creature\\'s system.\")",
             "MergeType": "LongestDuration",
             "MaxStackNum": 5,
             "bEffectsPlayers": false,
@@ -16435,6 +16435,7 @@
         },
         {
             "Name": "Sterile",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_MODIFIER_infertile.T_ICON_MODIFIER_infertile'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Sterile-ModifierName\", \"Infertile\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Sterile-ModifierDescription\", \"Due to Experimentation of Injury this creature is now Infertile and can no longer produce children.\")",
             "MergeType": "LongestDuration",
@@ -16464,6 +16465,34 @@
             "bEffectsObjects": true,
             "bEffectsNPCs": false,
             "bEffectsPlayers": false
+        },
+        {
+            "Name": "Stop_Regen",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/ICON_SelectionTimed.ICON_SelectionTimed'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Stop_Regen-ModifierName\", \"Stop Health Regen\")",
+            "ModifierDescription": "",
+            "VisibleToPlayer": false,
+            "GrantedStats": {
+                "(Value=\"BaseHealthRegen_+%\")": -1000
+            },
+            "MergeType": "LongestDuration",
+            "MaxStackNum": 5,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Blinky_Magnet",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_20.ITEM_Fish_20'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Blinky_Magnet-ModifierName\", \"Radioactive Fish Magnet\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Blinky_Magnet-ModifierDescription\", \"Higher Chance to catch Radioactive Fish\")",
+            "GrantedStats": {
+                "(Value=\"BaseChanceToCatchFish20_+%\")": 500
+            },
+            "RemovedOnDeath": false,
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
         }
     ]
 }

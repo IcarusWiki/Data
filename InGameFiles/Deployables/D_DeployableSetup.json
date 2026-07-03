@@ -10903,6 +10903,7 @@
         {
             "Name": "Prop_Poster_Fishing",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Poster_Fish.BP_Prop_Poster_Fish_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Poster_Fishing.T_ITEM_Prop_Poster_Fishing",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Dressing_Posters/SM_DEP_Dressing_Poster_Fish.SM_DEP_Dressing_Poster_Fish",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
             "SupportsCustomRotation": false,
@@ -15890,7 +15891,7 @@
         {
             "Name": "RadBoss_Head_Trophy",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_RadBoss.BP_Trophy_RadBoss_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Flying_Tank/SM_DEP_Trophy_Flying_Tank.SM_DEP_Trophy_Flying_Tank",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Radboss/SM_DEP_Trophy_Radboss.SM_DEP_Trophy_Radboss",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "SupportsCustomRotation": false,
             "WorldPlacementType": "WallPlacement",
@@ -15924,6 +15925,30 @@
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Electrolyzer.SM_DEP_Electrolyzer",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "SupportsCustomRotation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Damaged_Generator",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Damaged_Generator.BP_Prop_Damaged_Generator_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Generator_T4.SM_DEP_Generator_T4",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
+        },
+        {
+            "Name": "Meta_Oxite_Dissolver_Printed",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/OxiteDissolver/BP_Meta_Oxite_Dissolver_Printed.BP_Meta_Oxite_Dissolver_Printed_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Oxite_Dissolver_MXC.SM_DEP_Oxite_Dissolver_MXC",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "ItemAddedSounds": {
+                "(RowName=\"Oxite\",DataTableName=\"D_ItemsStatic\")": "/Game/FMOD/Events/SFX/Deployable/Basic_Oxite_Dissolver/SFX_DEP_OXITE_DISSOLVER_ADD_OXITE.SFX_DEP_OXITE_DISSOLVER_ADD_OXITE"
+            }
+        },
+        {
+            "Name": "Electric_Seed_Extractor",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Farming/BP_Electric_Seed_Extractor.BP_Electric_Seed_Extractor_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Seed_Extractor_T1/SM_DEP_Seed_Extractor_T1_Combined.SM_DEP_Seed_Extractor_T1_Combined",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
             "MaxRestackingAmount": 1
         }
     ]

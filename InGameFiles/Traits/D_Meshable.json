@@ -3986,8 +3986,7 @@
         {
             "Name": "Mesh_Meta_Resource_Pack",
             "ItemMesh": "/Game/ASS/DEP/SM_DEP_Crate_LEET.SM_DEP_Crate_LEET",
-            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
-            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Meta_Crate_Printed_Medium.BP_Meta_Crate_Printed_Medium_C"
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         },
         {
             "Name": "Mesh_Frozen_Ore",
@@ -6309,11 +6308,11 @@
         },
         {
             "Name": "Mesh_RadBoss_Claw",
-            "ItemMesh": "/Game/ASS/ITM/Golem_Rock_Fragment/SM_ITM_Golem_Rock_Fragment.SM_ITM_Golem_Rock_Fragment"
+            "ItemMesh": "/Game/ASS/ITM/Radboss_Resource/SM_ITM_Radboss_Resource_01.SM_ITM_Radboss_Resource_01"
         },
         {
-            "Name": "Mesh_RadBoss_Egg",
-            "ItemMesh": "/Game/ASS/ITM/Golem_Rock_Fragment/SM_ITM_Golem_Rock_Fragment.SM_ITM_Golem_Rock_Fragment"
+            "Name": "Mesh_RadBoss_Carapace",
+            "ItemMesh": "/Game/ASS/ITM/Radboss_Resource/SM_ITM_Radboss_Resource_02.SM_ITM_Radboss_Resource_02"
         },
         {
             "Name": "Mesh_Radboss_Armor_Pack",
@@ -6338,6 +6337,41 @@
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
             "EquipBackMesh": "/Game/ASS/VHC/Speeder_Bike/SM_VHC_Speeder_Bike_Kit.SM_VHC_Speeder_Bike_Kit",
             "EquipBackActor": "/Game/BP/Objects/World/Items/Back/BP_Back_Mission_Hoverframe.BP_Back_Mission_Hoverframe_C"
+        },
+        {
+            "Name": "Mesh_Ammo_Stone",
+            "ItemMesh": "/Game/ASS/ITM/Ore/SM_Rock_Ore_Stone.SM_Rock_Ore_Stone",
+            "ItemActor": "/Game/ASS/WEP/SK_GUN_Shotgun/BP_SMItem_Rudimentary_Stone.BP_SMItem_Rudimentary_Stone_C"
+        },
+        {
+            "Name": "Mesh_Rudimentary_Ammo_Nails",
+            "ItemMesh": "/Game/ASS/WEP/SK_GRE_Golem_Caltrop_Grenade/SM_GRE_Golem_Caltrop_Grenade_Spike.SM_GRE_Golem_Caltrop_Grenade_Spike",
+            "ItemActor": "/Game/BP/Objects/World/Items/Weapons/BP_SMItem_Caltrops_Nails.BP_SMItem_Caltrops_Nails_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Skulk_Juvenile",
+            "ItemMesh": "/Game/ASS/CRE/Skulk_Juvenile/SK_CRE_Skulk_Juvenile.SK_CRE_Skulk_Juvenile",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Skulk_Juvenile_Corpse.BP_Skulk_Juvenile_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Skulk_Juvenile/SK_CRE_Skulk_Juvenile.SK_CRE_Skulk_Juvenile",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Skulk_Juvenile_Corpse.BP_Skulk_Juvenile_Corpse_C",
+            "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Skulk_Juvenile_Corpse.BP_Skulk_Juvenile_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Rifle_Assault_CHAC",
+            "ItemMesh": "/Game/ASS/WEP/SK_GUN_Assault_Rifle_T4/SK_GUN_Assault_Rifle_T4.SK_GUN_Assault_Rifle_T4",
+            "EquipHandMesh": "/Game/ASS/WEP/SK_GUN_Assault_Rifle_T4/SK_GUN_Assault_Rifle_T4.SK_GUN_Assault_Rifle_T4",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Rifle_Assault.BP_SkeletalItem_Rifle_Assault_C"
+        },
+        {
+            "Name": "Mesh_Submachine_Gun_CHAC",
+            "ItemMesh": "/Game/ASS/WEP/SK_GUN_Sub_Machine/SK_GUN_Sub_Machine.SK_GUN_Sub_Machine",
+            "EquipHandMesh": "/Game/ASS/WEP/SK_GUN_Sub_Machine/SK_GUN_Sub_Machine.SK_GUN_Sub_Machine",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Sub_Machine.BP_SkeletalItem_Sub_Machine_C"
+        },
+        {
+            "Name": "Mesh_Animal_Virus",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_BIO_Needle_Blue.SM_ITM_BIO_Needle_Blue",
+            "EquipHandMesh": "/Game/ASS/ITM/SM_ITM_BIO_Needle_Blue.SM_ITM_BIO_Needle_Blue"
         }
     ]
 }

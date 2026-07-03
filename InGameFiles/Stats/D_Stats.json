@@ -10316,6 +10316,26 @@
             "bIsReplicated": true
         },
         {
+            "Name": "ChanceToCatchFish17_+%",
+            "PositiveTitleFormat": "NSLOCTEXT(\"D_Stats\", \"ChanceToCatchFish17_+%-PositiveTitleFormat\", \"Chance to Catch Gar\")",
+            "bIsReplicated": true
+        },
+        {
+            "Name": "ChanceToCatchFish18_+%",
+            "PositiveTitleFormat": "NSLOCTEXT(\"D_Stats\", \"ChanceToCatchFish18_+%-PositiveTitleFormat\", \"Chance to Catch Puffer\")",
+            "bIsReplicated": true
+        },
+        {
+            "Name": "ChanceToCatchFish19_+%",
+            "PositiveTitleFormat": "NSLOCTEXT(\"D_Stats\", \"ChanceToCatchFish19_+%-PositiveTitleFormat\", \"Chance to Catch Springfield\")",
+            "bIsReplicated": true
+        },
+        {
+            "Name": "ChanceToCatchFish20_+%",
+            "PositiveTitleFormat": "NSLOCTEXT(\"D_Stats\", \"ChanceToCatchFish20_+%-PositiveTitleFormat\", \"Chance to Catch Blinky\")",
+            "bIsReplicated": true
+        },
+        {
             "Name": "BaseChanceToCatchFish01_+%",
             "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChanceToCatchFish01_+%-PositiveDescription\", \"+{0}% chance to catch Snapper while Fishing\")",
             "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChanceToCatchFish01_+%-NegativeDescription\", \"-{0}% chance to catch Snapper while Fishing\")"
@@ -10394,6 +10414,26 @@
             "Name": "BaseChanceToCatchFish16_+%",
             "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChanceToCatchFish16_+%-PositiveDescription\", \"+{0}% chance to catch Wraith while Fishing\")",
             "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChanceToCatchFish16_+%-NegativeDescription\", \"-{0}% chance to catch Wraith while Fishing\")"
+        },
+        {
+            "Name": "BaseChanceToCatchFish17_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChanceToCatchFish17_+%-PositiveDescription\", \"+{0}% chance to catch Gar while Fishing\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChanceToCatchFish17_+%-NegativeDescription\", \"-{0}% chance to catch Gar while Fishing\")"
+        },
+        {
+            "Name": "BaseChanceToCatchFish18_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChanceToCatchFish18_+%-PositiveDescription\", \"+{0}% chance to catch Puffer while Fishing\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChanceToCatchFish18_+%-NegativeDescription\", \"-{0}% chance to catch Puffer while Fishing\")"
+        },
+        {
+            "Name": "BaseChanceToCatchFish19_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChanceToCatchFish19_+%-PositiveDescription\", \"+{0}% chance to catch Springfield while Fishing\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChanceToCatchFish19_+%-NegativeDescription\", \"-{0}% chance to catch Springfield while Fishing\")"
+        },
+        {
+            "Name": "BaseChanceToCatchFish20_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChanceToCatchFish20_+%-PositiveDescription\", \"+{0}% chance to catch Blinky while Fishing\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChanceToCatchFish20_+%-NegativeDescription\", \"-{0}% chance to catch Blinky while Fishing\")"
         },
         {
             "Name": "CaughtFreshwaterFishQuality_+%",
@@ -21647,7 +21687,7 @@
         },
         {
             "Name": "WorldRadBossDecreasedLaserResistance_?",
-            "Title": "INVTEXT(\"[DNT] Malformation will have a Weakness to Lasers.\")",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"WorldRadBossDecreasedLaserResistance_?-Title\", \"The Malformation will have a Weakness to Lasers.\")",
             "PositiveTitleFormat": "INVTEXT(\"{0}\")",
             "NegativeTitleFormat": "INVTEXT(\"{0}\")",
             "bIsWorldStat": true,
@@ -21657,7 +21697,7 @@
         },
         {
             "Name": "WorldRadBossDecreasedElectricResistance_?",
-            "Title": "INVTEXT(\"[DNT] Malformation will have a Weakness to Electricity.\")",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"WorldRadBossDecreasedElectricResistance_?-Title\", \"The Malformation will have a Weakness to Electricity.\")",
             "PositiveTitleFormat": "INVTEXT(\"{0}\")",
             "NegativeTitleFormat": "INVTEXT(\"{0}\")",
             "bIsWorldStat": true,
@@ -22438,6 +22478,137 @@
             "StatCategory": {
                 "RowName": "Settlement"
             }
+        },
+        {
+            "Name": "ActiveSettlementSkill_Enum",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Settlement"
+            }
+        },
+        {
+            "Name": "SettlementWorkSpeed_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"SettlementWorkSpeed_+%-Title\", \"Work Speed\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Settlement"
+            }
+        },
+        {
+            "Name": "BaseSettlementWorkSpeed_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementWorkSpeed_+%-PositiveDescription\", \"+{0}% Work Speed\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementWorkSpeed_+%-NegativeDescription\", \"-{0}% Work Speed\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "BaseSettlementConstructionSpeed_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementConstructionSpeed_+%-PositiveDescription\", \"+{0}% Construction Speed\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementConstructionSpeed_+%-NegativeDescription\", \"-{0}% Construction Speed\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "BaseSettlementMiningSpeed_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementMiningSpeed_+%-PositiveDescription\", \"+{0}% Mining Speed\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementMiningSpeed_+%-NegativeDescription\", \"-{0}% Mining Speed\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "BaseSettlementForestrySpeed_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementForestrySpeed_+%-PositiveDescription\", \"+{0}% Forestry Speed\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementForestrySpeed_+%-NegativeDescription\", \"-{0}% Forestry Speed\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "BaseSettlementFarmingSpeed_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementFarmingSpeed_+%-PositiveDescription\", \"+{0}% Farming Speed\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementFarmingSpeed_+%-NegativeDescription\", \"-{0}% Farming Speed\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "BaseSettlementCraftingSpeed_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementCraftingSpeed_+%-PositiveDescription\", \"+{0}% Settlement Crafting Speed\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementCraftingSpeed_+%-NegativeDescription\", \"-{0}% Settlement Crafting Speed\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "BaseSettlementEngineeringSpeed_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementEngineeringSpeed_+%-PositiveDescription\", \"+{0}% Engineering Speed\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementEngineeringSpeed_+%-NegativeDescription\", \"-{0}% Engineering Speed\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "BaseSettlementCookingSpeed_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementCookingSpeed_+%-PositiveDescription\", \"+{0}% Cooking Speed\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementCookingSpeed_+%-NegativeDescription\", \"-{0}% Cooking Speed\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "BaseSettlementCombatSpeed_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementCombatSpeed_+%-PositiveDescription\", \"+{0}% Combat Speed\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementCombatSpeed_+%-NegativeDescription\", \"-{0}% Combat Speed\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "BaseSettlementMedicineSpeed_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementMedicineSpeed_+%-PositiveDescription\", \"+{0}% Medicine Speed\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementMedicineSpeed_+%-NegativeDescription\", \"-{0}% Medicine Speed\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "BaseSettlementLogisticsSpeed_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementLogisticsSpeed_+%-PositiveDescription\", \"+{0}% Logistics Speed\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementLogisticsSpeed_+%-NegativeDescription\", \"-{0}% Logistics Speed\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "BaseSettlementLeadershipSpeed_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementLeadershipSpeed_+%-PositiveDescription\", \"+{0}% Leadership Speed\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSettlementLeadershipSpeed_+%-NegativeDescription\", \"-{0}% Leadership Speed\")",
+            "StatCategory": {
+                "RowName": "Settlement"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "DontSpawnDeployableOverflowBag_?",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Item"
+            },
+            "bHideStatInUserInterface": true
         }
     ]
 }

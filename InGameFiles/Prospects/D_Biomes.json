@@ -1625,18 +1625,19 @@
             "BiomeName": "RadBossArena",
             "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Arena_RadBoss-DisplayName\", \"Radiation Boss Arena\")",
             "Color": {
-                "B": 135,
+                "B": 186,
                 "G": 255,
-                "R": 144,
+                "R": 234,
                 "A": 255
             },
-            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/DesertTemperatureCurve.DesertTemperatureCurve'",
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/AshlandsTemperatureCurve.AshlandsTemperatureCurve'",
             "AtmosphereType": {
                 "RowName": "Arena_RadBoss"
             },
             "Audio": {
                 "RowName": "BossRadGeo"
             },
+            "bOrbitalCommunicationBlocked": true,
             "BiomeModifier": {
                 "RowName": "Geothermal_Atmosphere"
             }

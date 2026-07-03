@@ -163,6 +163,50 @@
             "WeaponConfig": {
                 "RowName": "BoltActionRifle"
             }
+        },
+        {
+            "Name": "Log",
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCItems\", \"Log-DisplayName\", \"Lumber\")",
+            "StaticMesh": "/Game/ASS/ENV/TRE/CF_LogFallen_01/SM_CF_LogFallen_01_R_T1.SM_CF_LogFallen_01_R_T1",
+            "AttachSocket": "Spine_03",
+            "AttachmentOffset": {
+                "Rotation": {
+                    "X": 0.41043785214424133,
+                    "Y": 0.5913392305374146,
+                    "Z": 0.4336879849433899,
+                    "W": 0.5420086979866028
+                },
+                "Translation": {
+                    "X": 28.785751342773438,
+                    "Y": 9.471744537353516,
+                    "Z": 20.34825897216797
+                },
+                "Scale3D": {
+                    "X": 0.5600879788398743,
+                    "Y": 0.5600879788398743,
+                    "Z": 0.5600879788398743
+                }
+            }
+        },
+        {
+            "Name": "FishingRod",
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCItems\", \"FishingRod-DisplayName\", \"Fishing Rod\")",
+            "SkeletalMesh": "/Game/ASS/ITM/SK_ITM_FishingRod_T3.SK_ITM_FishingRod_T3",
+            "AnimBlueprint": "/Game/ASS/ITM/SK_ITM_FishingRod_Settler_AnimBP.SK_ITM_FishingRod_Settler_AnimBP_C",
+            "AttachSocket": "hand_r",
+            "AttachmentOffset": {
+                "Rotation": {
+                    "X": -0.4799017310142517,
+                    "Y": -0.02370932698249817,
+                    "Z": 0.8572141528129578,
+                    "W": 0.18524587154388428
+                },
+                "Translation": {
+                    "X": 3.5756280422210693,
+                    "Y": 3.541692018508911,
+                    "Z": -7.271945953369141
+                }
+            }
         }
     ]
 }

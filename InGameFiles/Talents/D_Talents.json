@@ -17535,7 +17535,7 @@
             },
             "Position": {
                 "X": 500,
-                "Y": 800
+                "Y": 1150
             },
             "Size": {
                 "X": 250,
@@ -17816,8 +17816,8 @@
                 "RowName": "Workshop_Deployables"
             },
             "Position": {
-                "X": 950,
-                "Y": 800
+                "X": 1400,
+                "Y": 1150
             },
             "Size": {
                 "X": 250,
@@ -17878,7 +17878,7 @@
             },
             "Position": {
                 "X": 950,
-                "Y": 1150
+                "Y": 800
             },
             "Size": {
                 "X": 250,
@@ -30019,7 +30019,7 @@
             },
             "Position": {
                 "X": 900,
-                "Y": 200
+                "Y": 150
             },
             "Size": {
                 "X": 250,
@@ -30038,7 +30038,7 @@
             },
             "Position": {
                 "X": 500,
-                "Y": 200
+                "Y": 150
             },
             "Size": {
                 "X": 250,
@@ -30208,7 +30208,7 @@
                 "RowName": "Workshop_Resources"
             },
             "Position": {
-                "X": 2450,
+                "X": 2500,
                 "Y": 850
             },
             "Size": {
@@ -30352,7 +30352,7 @@
             },
             "Position": {
                 "X": 500,
-                "Y": 1150
+                "Y": 800
             },
             "Size": {
                 "X": 250,
@@ -55160,7 +55160,7 @@
             },
             "Position": {
                 "X": 1300,
-                "Y": 200
+                "Y": 150
             },
             "Size": {
                 "X": 250,
@@ -75485,7 +75485,7 @@
             "DrawMethodOverride": "XThenY"
         },
         {
-            "Name": "GH_R_D2",
+            "Name": "GH_R_D",
             "ExtraData": {
                 "RowName": "Radiation_D",
                 "DataTableName": "D_GreatHunts"
@@ -75532,7 +75532,7 @@
             },
             "RequiredTalents": [
                 {
-                    "RowName": "GH_R_D2",
+                    "RowName": "GH_R_D",
                     "DataTableName": "D_Talents"
                 }
             ],
@@ -75603,7 +75603,7 @@
             },
             "Position": {
                 "X": 5150,
-                "Y": 1350
+                "Y": 1300
             },
             "Size": {
                 "X": 600,
@@ -75640,6 +75640,7 @@
                     "DataTableName": "D_Talents"
                 }
             ],
+            "bDefaultUnlocked": true,
             "DrawMethodOverride": "XThenY"
         },
         {
@@ -76257,6 +76258,24 @@
                     "DataTableName": "D_Talents"
                 }
             ]
+        },
+        {
+            "Name": "Workshop_Oxite_Dissolver_Printed",
+            "ExtraData": {
+                "RowName": "Meta_Oxite_Dissolver_Printed",
+                "DataTableName": "D_WorkshopItems"
+            },
+            "TalentTree": {
+                "RowName": "Workshop_Deployables"
+            },
+            "Position": {
+                "X": 950,
+                "Y": 1150
+            },
+            "Size": {
+                "X": 250,
+                "Y": 250
+            }
         }
     ]
 }

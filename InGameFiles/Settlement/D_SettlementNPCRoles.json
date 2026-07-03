@@ -7,6 +7,10 @@
         "ClothingOverride": {
             "RowName": "Default",
             "DataTableName": "D_SettlementNPCClothing"
+        },
+        "AISetup": {
+            "RowName": "NPC_Settler",
+            "DataTableName": "D_AISetup"
         }
     },
     "Rows": [

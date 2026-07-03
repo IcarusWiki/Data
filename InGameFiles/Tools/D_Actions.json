@@ -1664,6 +1664,10 @@
             "TP_ActionMontage": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_RHPickUp_Montage.3RD_CHA_RHPickUp_Montage",
             "FP_ActionMontage": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_RHPickup_Montage.1ST_CHA_RHPickup_Montage",
             "ActionCooldown": 0.5
+        },
+        {
+            "Name": "Weapon_Launcher_T2",
+            "Behaviour": "BlueprintGeneratedClass'/Game/BP/Behaviours/Actionable/Firearm/BP_ActionableBehaviour_FireArm_FireController_SemiAuto_Launcher_T2.BP_ActionableBehaviour_FireArm_FireController_SemiAuto_Launcher_T2_C'"
         }
     ]
 }

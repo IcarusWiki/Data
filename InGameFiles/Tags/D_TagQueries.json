@@ -8619,17 +8619,21 @@
                     },
                     {
                         "TagName": "Item.Ammo.Flare"
+                    },
+                    {
+                        "TagName": "Item.Ammo.Launcher.Makeshift"
                     }
                 ],
                 "QueryTokenStream": [
                     0,
                     1,
                     1,
-                    2,
+                    3,
                     0,
-                    1
+                    1,
+                    2
                 ],
-                "AutoDescription": " ANY( Item.Weapon.Grenade, Item.Ammo.Flare )"
+                "AutoDescription": " ANY( Item.Weapon.Grenade, Item.Ammo.Flare, Item.Ammo.Launcher.Makeshift )"
             }
         },
         {
@@ -8648,6 +8652,46 @@
                     0
                 ],
                 "AutoDescription": " ANY( Item.Weapon.GrenadeLauncher )"
+            }
+        },
+        {
+            "Name": "Any_Launcher_T2_Projectiles",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Ammo.Flare"
+                    },
+                    {
+                        "TagName": "Item.Ammo.Launcher.Makeshift"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Ammo.Flare, Item.Ammo.Launcher.Makeshift )"
+            }
+        },
+        {
+            "Name": "Any_Consumeable",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Consumable"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Consumable )"
             }
         }
     ]

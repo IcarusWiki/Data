@@ -26548,6 +26548,30 @@
             "ItemStaticData": {
                 "RowName": "T3_Backpack"
             }
+        },
+        {
+            "Name": "Meta_Oxite_Dissolver_Printed",
+            "ItemStaticData": {
+                "RowName": "Meta_Oxite_Dissolver_Printed"
+            }
+        },
+        {
+            "Name": "Meta_Resource_Pack_Salt",
+            "ItemStaticData": {
+                "RowName": "Meta_Resource_Pack_Salt"
+            }
+        },
+        {
+            "Name": "Salt_Stack_500",
+            "ItemStaticData": {
+                "RowName": "Salt"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 500
+                }
+            ]
         }
     ]
 }

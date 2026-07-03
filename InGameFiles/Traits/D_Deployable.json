@@ -11519,6 +11519,10 @@
                 {
                     "RowName": "Settlement_Building_Mine",
                     "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Settlement_Building_FishingDock",
+                    "DataTableName": "D_DeployableSetup"
                 }
             ],
             "EffectedByWeather": false
@@ -11592,6 +11596,34 @@
                 }
             ],
             "EffectedByWeather": false
+        },
+        {
+            "Name": "Prop_Damaged_Generator",
+            "Variants": [
+                {
+                    "RowName": "Damaged_Generator",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Meta_Oxite_Dissolver_Printed",
+            "Variants": [
+                {
+                    "RowName": "Meta_Oxite_Dissolver_Printed",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ]
+        },
+        {
+            "Name": "Electric_Seed_Extractor",
+            "Variants": [
+                {
+                    "RowName": "Electric_Seed_Extractor",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ]
         }
     ]
 }

@@ -261,6 +261,12 @@
             "InventoryInfo": {
                 "RowName": "Weapon_Launcher_Legendary"
             }
+        },
+        {
+            "Name": "LauncherInventory_T2",
+            "InventoryInfo": {
+                "RowName": "Weapon_Launcher_T2"
+            }
         }
     ]
 }

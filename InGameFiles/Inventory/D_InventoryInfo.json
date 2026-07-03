@@ -2346,6 +2346,23 @@
                 "Value": "General"
             },
             "StartingSlots": 1
+        },
+        {
+            "Name": "Weapon_Launcher_T2",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Launcher_T2_Projectiles"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "Slotable_Generic_1",
+            "InventoryID": {
+                "Value": "Slotable"
+            },
+            "StartingSlots": 1
         }
     ]
 }

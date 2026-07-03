@@ -494,6 +494,23 @@
             ]
         },
         {
+            "Name": "Meta_Oxite_Dissolver_Planted",
+            "Inventories": [
+                {
+                    "RowName": "Processor_Slot_2",
+                    "DataTableName": "D_InventoryInfo"
+                },
+                {
+                    "RowName": "Slotable_Generic",
+                    "DataTableName": "D_InventoryInfo"
+                },
+                {
+                    "RowName": "SulfurFuel",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
             "Name": "Kitchen_Stove",
             "Inventories": [
                 {

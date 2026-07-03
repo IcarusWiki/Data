@@ -6,11 +6,19 @@
         "Icon": "None",
         "StatCurves": {}
     },
+    "GenerateEnum": true,
     "Rows": [
+        {
+            "Name": "Invalid",
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCSkills\", \"Invalid-DisplayName\", \"None\")"
+        },
         {
             "Name": "Construction",
             "DisplayName": "NSLOCTEXT(\"D_SettlementNPCSkills\", \"Construction-DisplayName\", \"Construction\")",
-            "Description": "NSLOCTEXT(\"D_SettlementNPCSkills\", \"Construction-Description\", \"Raising, repairing and tearing down the settlement\\'s buildings.\")"
+            "Description": "NSLOCTEXT(\"D_SettlementNPCSkills\", \"Construction-Description\", \"Raising, repairing and tearing down the settlement\\'s buildings.\")",
+            "StatCurves": {
+                "(Value=\"BaseSettlementConstructionSpeed_+%\")": "CurveFloat'/Game/BP/Settlement/Curves/C_SettlementSkill_Default.C_SettlementSkill_Default'"
+            }
         },
         {
             "Name": "Mining",
