@@ -7432,7 +7432,8 @@
             "bIsReplicated": true,
             "StatCategory": {
                 "RowName": "Character"
-            }
+            },
+            "bHideStatInUserInterface": true
         },
         {
             "Name": "BaseProjectileDamageAgainstBuildings_+%",

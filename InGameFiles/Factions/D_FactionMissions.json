@@ -246,6 +246,27 @@
                         "DataTableName": "D_Quests"
                     },
                     "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "OLY_Forest_Research_Equipment",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 1
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "OLY_Forest_Research_Flora",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 1
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "OLY_Forest_Research_Creature",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 1
                 }
             ],
             "Types": [

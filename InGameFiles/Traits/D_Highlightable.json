@@ -1592,6 +1592,16 @@
             "Name": "RadBoss_Den",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"RadBoss_Den-DisplayName\", \"Malformation Nest\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"RadBoss_Den-Description\", \"An entrance to a creature\\'s Nest.\")"
+        },
+        {
+            "Name": "Dead_Bull",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Dead_Bull-DisplayName\", \"Dead Colony Bull\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Dead_Bull-Description\", \"Was Carrying Ore Back to the Colony.\")"
+        },
+        {
+            "Name": "RAD_Colonist",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"RAD_Colonist-DisplayName\", \"Colonist Miles\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"RAD_Colonist-Description\", \"A Colonist Scientist who is trying to reverse the Radioactive Mutation of their collegues.\")"
         }
     ]
 }

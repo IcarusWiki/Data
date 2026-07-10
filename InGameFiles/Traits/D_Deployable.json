@@ -9424,6 +9424,10 @@
                 {
                     "RowName": "Prop_Lab_Poster_B",
                     "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Lab_Poster_C",
+                    "DataTableName": "D_DeployableSetup"
                 }
             ],
             "EffectedByWeather": false
@@ -11572,6 +11576,26 @@
             "Variants": [
                 {
                     "RowName": "RadBoss_Head_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "RadBoss_Stone_Statue",
+            "Variants": [
+                {
+                    "RowName": "RadBoss_Stone_Statue",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "RadBoss_Bronze_Statue",
+            "Variants": [
+                {
+                    "RowName": "RadBoss_Bronze_Statue",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],

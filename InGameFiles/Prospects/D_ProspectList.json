@@ -1993,7 +1993,7 @@
         },
         {
             "Name": "Tier1_Forest_Construction",
-            "DropName": "NSLOCTEXT(\"D_ProspectList\", \"Tier1_Forest_Construction-DropName\", \"HOMESTEAD\")",
+            "DropName": "NSLOCTEXT(\"D_ProspectList\", \"Tier1_Forest_Construction-DropName\", \"RUSTIC\")",
             "DesignNotes": "Forest Construction",
             "Description": "NSLOCTEXT(\"D_ProspectList\", \"Tier1_Forest_Construction-Description\", \"BUILD A BASE FOR ICARUS VIPS\")",
             "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Tier1_Forest_Construction-FlavourText\", \"//OPERATOR: African Assembly // BIOME: Forest // BACKGROUND: Operator is hosting a VIP investment on Icarus, and requires advanced infrastructure for their guests in the region. // MISSION: Construct a fully equipped base to Operator specifications. //TERMS: Flat fee. All resources and construction materials responsibility of the Contractor.\")",

@@ -13938,11 +13938,11 @@
             }
         },
         {
-            "Name": "GH_RAD_B2_Location",
+            "Name": "GH_RAD_B2_Cave",
             "Query": {
                 "TagDictionary": [
                     {
-                        "TagName": "GreatHunts.RadBoss.B2"
+                        "TagName": "GreatHunts.RadBoss.B2.Cave"
                     }
                 ],
                 "QueryTokenStream": [
@@ -13952,7 +13952,25 @@
                     1,
                     0
                 ],
-                "AutoDescription": " ALL( GreatHunts.RadBoss.B2 )"
+                "AutoDescription": " ALL( GreatHunts.RadBoss.B2.Cave )"
+            }
+        },
+        {
+            "Name": "GH_RAD_B2_NPC",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.B2.NPC"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.B2.NPC )"
             }
         },
         {
@@ -14493,6 +14511,150 @@
                     0
                 ],
                 "AutoDescription": " ALL( GreatHunts.RadBoss.A.Wraith )"
+            }
+        },
+        {
+            "Name": "GH_RAD_B_Eater",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.B.Boss"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.B.Boss )"
+            }
+        },
+        {
+            "Name": "GH_RAD_B_Bomb1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.B.Bomb1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.B.Bomb1 )"
+            }
+        },
+        {
+            "Name": "GH_RAD_B_Bomb2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.B.Bomb2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.B.Bomb2 )"
+            }
+        },
+        {
+            "Name": "GH_RAD_B2_Base",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.B2.Base"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.B2.Base )"
+            }
+        },
+        {
+            "Name": "GH_RAD_B2_Boss",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.B2.Boss"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.B2.Boss )"
+            }
+        },
+        {
+            "Name": "GH_RAD_B2_M1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.B2.M1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.B2.M1 )"
+            }
+        },
+        {
+            "Name": "GH_RAD_B2_M2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.B2.M2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.B2.M2 )"
+            }
+        },
+        {
+            "Name": "GH_RAD_B2_M3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.B2.M3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.B2.M3 )"
             }
         }
     ]

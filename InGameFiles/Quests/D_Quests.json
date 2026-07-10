@@ -975,7 +975,8 @@
         {
             "Name": "OLY_Forest_Research_Equipment",
             "Class": "/Game/BP/Quests/Olympus/Forest/Research/BPQ_OLY_Forest_Research_CollectPod.BPQ_OLY_Forest_Research_CollectPod_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Research_Equipment-Description\", \"Collect the UDA Supplies from the Supply Pod\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Research_Equipment-Description\", \"Collect the UDA Supplies from the Supply Pod\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Research_Equipment-InfoText\", \"Prepare for Exploration and Volatile Hazards\")"
         },
         {
             "Name": "OLY_Forest_Research_Flora",
@@ -994,6 +995,7 @@
             "Name": "OLY_Forest_Research_Gas",
             "Class": "/Game/BP/Quests/Olympus/Forest/Research/BPQ_OLY_Forest_Research_Locate.BPQ_OLY_Forest_Research_Locate_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Research_Gas-Description\", \"Find the Source of the Poison Gas Cloud \")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Research_Gas-InfoText\", \"Use Anti-Poison Measures Preventatively\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_Research_Item1"
             }
@@ -1001,7 +1003,8 @@
         {
             "Name": "OLY_Forest_Research_Collect_Flora_Sample",
             "Class": "/Game/BP/Quests/Olympus/Forest/Research/BPQ_OLY_Forest_Research_Collect_Flora.BPQ_OLY_Forest_Research_Collect_Flora_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Research_Collect_Flora_Sample-Description\", \"Collect a Sample from the Plant\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Research_Collect_Flora_Sample-Description\", \"Collect a Sample from the Plant\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Research_Collect_Flora_Sample-InfoText\", \"Grab the Sample and Flee the Poison Gas\")"
         },
         {
             "Name": "OLY_Forest_Research_Creature",
@@ -1045,6 +1048,7 @@
             "Name": "OLY_Forest_Research_Collect_Bioweapon",
             "Class": "/Game/BP/Quests/Olympus/Forest/Research/BPQ_OLY_Forest_Research_Collect_Bioweapon.BPQ_OLY_Forest_Research_Collect_Bioweapon_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Research_Collect_Bioweapon-Description\", \"Collect the Chemical Weapon Remains\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Research_Collect_Bioweapon-InfoText\", \"Build Ladders or Buildings to Scale the Rock\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_Research_Item3"
             }
@@ -5613,7 +5617,7 @@
         {
             "Name": "OLY_Forest_Construction",
             "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction.BPQ_OLY_Forest_Construction_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction-Description\", \"CONSTRUCTION: Forest\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction-Description\", \"Construct and Decorate a Cabin\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_Construction_Cabin"
             }
@@ -5621,7 +5625,7 @@
         {
             "Name": "OLY_Forest_Construction_Head_To_Location",
             "Class": "/Game/BP/Quests/Common/BPQ_Travel.BPQ_Travel_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Head_To_Location-Description\", \"Reach build location ([Map])\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Head_To_Location-Description\", \"Reach the Build Location ([Map])\")",
             "DialogueEvents": {
                 "QuestEnd": {
                     "RowName": "ConstructionArrive4b",
@@ -5630,60 +5634,65 @@
             }
         },
         {
-            "Name": "OLY_Forest_Construction_Cabin",
-            "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_Cabin.BPQ_OLY_Forest_Construction_Cabin_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Cabin-Description\", \"Construct and furnish a Rustic Cabin\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Cabin-InfoText\", \"Shelter is required\")"
+            "Name": "OLY_Forest_Construction_Decorate_Cabin",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_Decorate_Cabin.BPQ_OLY_Forest_Construction_Decorate_Cabin_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Decorate_Cabin-Description\", \"Decorate the Cabin\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Decorate_Cabin-InfoText\", \"A Cozy Shelter is Required for the VIPs\")"
         },
         {
             "Name": "OLY_Forest_Construction_RusticBench",
             "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_Bench.BPQ_OLY_Forest_Construction_Bench_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_RusticBench-Description\", \"Craft and deploy a Decoration Bench\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_RusticBench-Description\", \"Place a Decoration Bench\")"
+        },
+        {
+            "Name": "OLY_Forest_Construction_CraftingBench",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_Deploy_CraftingBench.BPQ_OLY_Forest_Construction_Deploy_CraftingBench_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_CraftingBench-Description\", \"Place a Crafting Bench\")"
         },
         {
             "Name": "OLY_Forest_Construction_Table",
             "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_Table.BPQ_OLY_Forest_Construction_Table_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Table-Description\", \"Rustic Large Table  <Number>({0} / {1})</>\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Table-Description\", \"Place a Rustic Large Table  <Number>({0} / {1})</>\")"
         },
         {
             "Name": "OLY_Forest_Construction_Bookshelf",
             "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_Bookshelf.BPQ_OLY_Forest_Construction_Bookshelf_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Bookshelf-Description\", \"Rustic Bookshelf  <Number>({0} / {1})</>\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Bookshelf-Description\", \"Place a Rustic Bookshelf  <Number>({0} / {1})</>\")"
         },
         {
             "Name": "OLY_Forest_Construction_Chairs",
             "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_Chairs.BPQ_OLY_Forest_Construction_Chairs_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Chairs-Description\", \"Rustic Dining Chairs <Number>({0} / {1})</>\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Chairs-Description\", \"Place Rustic Dining Chairs <Number>({0} / {1})</>\")"
         },
         {
             "Name": "OLY_Forest_Construction_CouchLGE",
             "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_CouchLarge.BPQ_OLY_Forest_Construction_CouchLarge_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_CouchLGE-Description\", \"Rustic 3-Seater Couch <Number>({0} / {1})</>\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_CouchLGE-Description\", \"Place a Rustic 3-Seater Couch <Number>({0} / {1})</>\")"
         },
         {
             "Name": "OLY_Forest_Construction_CouchMED",
             "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_CouchMed.BPQ_OLY_Forest_Construction_CouchMed_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_CouchMED-Description\", \"Rustic 2-Seater Couch <Number>({0} / {1})</>\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_CouchMED-Description\", \"Place a Rustic 2-Seater Couch <Number>({0} / {1})</>\")"
         },
         {
             "Name": "OLY_Forest_Construction_Beds",
             "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_Beds.BPQ_OLY_Forest_Construction_Beds_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Beds-Description\", \"Rustic Beds <Number>({0} / {1})</>\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Beds-Description\", \"Place Rustic Beds <Number>({0} / {1})</>\")"
         },
         {
             "Name": "OLY_Forest_Construction_Statue",
             "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_Statue.BPQ_OLY_Forest_Construction_Statue_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Statue-Description\", \"Rustic Icarus Statues <Number>({0} / {1})</>\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Statue-Description\", \"Place Rustic Icarus Statues <Number>({0} / {1})</>\")"
         },
         {
             "Name": "OLY_Forest_Construction_Fireplace",
             "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_Fireplace.BPQ_OLY_Forest_Construction_Fireplace_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Fireplace-Description\", \"Fireplace  <Number>({0} / {1})</>\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Fireplace-Description\", \"Place a Fireplace  <Number>({0} / {1})</>\")"
         },
         {
             "Name": "OLY_Forest_Construction_Nightstands",
             "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_Nightstands.BPQ_OLY_Forest_Construction_Nightstands_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Nightstands-Description\", \"Rustic Nightstands <Number>({0} / {1})</>\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Nightstands-Description\", \"Place Rustic Nightstands <Number>({0} / {1})</>\")"
         },
         {
             "Name": "OLY_Desert_Survey",
@@ -6343,7 +6352,8 @@
         {
             "Name": "OLY_Forest_Range_Course_Parent",
             "Class": "/Game/BP/Quests/Olympus/Forest/Range/BPQ_OLY_Forest_Range_Dummy_Parent.BPQ_OLY_Forest_Range_Dummy_Parent_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Range_Course_Parent-Description\", \"Complete the Course\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Range_Course_Parent-Description\", \"Complete the Course\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Range_Course_Parent-InfoText\", \"Aim for the Head for a Higher Score\")"
         },
         {
             "Name": "OLY_Forest_Range_Course_Time",
@@ -20272,7 +20282,7 @@
         {
             "Name": "OLY_SQ_Farmer_Setup_Collect_Aluminium",
             "Class": "/Game/BP/Quests/NPC/Farmer/BPQ_SQ_Farmer_Setup_Collect_Aluminium.BPQ_SQ_Farmer_Setup_Collect_Aluminium_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_SQ_Farmer_Setup_Collect_Aluminium-Description\", \"Aluminum <Number>({0} / {1})</>\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_SQ_Farmer_Setup_Collect_Aluminium-Description\", \"Aluminum Ingot <Number>({0} / {1})</>\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -22370,6 +22380,72 @@
                     "RowName": "DangerousHorizons"
                 }
             }
+        },
+        {
+            "Name": "OLY_Forest_Construction_Preparation",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_Preparation.BPQ_OLY_Forest_Construction_Preparation_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Preparation-Description\", \"Prepare Items to Build and Decorate a Cabin\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Preparation-InfoText\", \"Be Prepared to Build a Cabin, to Hunt, and to Collect Resources to Decorate It\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_Construction_Cabin"
+            }
+        },
+        {
+            "Name": "OLY_Forest_Construction_Preparation_CopperIngot",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_Preparation_CopperIngot.BPQ_OLY_Forest_Construction_Preparation_CopperIngot_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Preparation_CopperIngot-Description\", \"Copper Ingot <Number>({0} / {1})</>\")"
+        },
+        {
+            "Name": "OLY_Forest_Construction_Preparation_DecorationBench",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_Preparation_DecorationBench.BPQ_OLY_Forest_Construction_Preparation_DecorationBench_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Preparation_DecorationBench-Description\", \"Decoration Bench <Number>({0} / {1})</>\")"
+        },
+        {
+            "Name": "OLY_Forest_Construction_Preparation_CraftingBench",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_Preparation_CraftingBench.BPQ_OLY_Forest_Construction_Preparation_CraftingBench_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Preparation_CraftingBench-Description\", \"Crafting Bench  <Number>({0} / {1})</>\")"
+        },
+        {
+            "Name": "OLY_Forest_Construction_Preparation_IronIngot",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_Preparation_IronIngot.BPQ_OLY_Forest_Construction_Preparation_IronIngot_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Preparation_IronIngot-Description\", \"Iron Ingot <Number>({0} / {1})</>\")"
+        },
+        {
+            "Name": "OLY_Forest_Construction_Preparation_IronNails",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_Preparation_IronNails.BPQ_OLY_Forest_Construction_Preparation_IronNails_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Preparation_IronNails-Description\", \"Iron Nails <Number>({0} / {1})</>\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Preparation_IronNails-InfoText\", \"Iron Nails are Crafted at the Anvil Bench\")"
+        },
+        {
+            "Name": "OLY_Forest_Construction_Preparation_Axe",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_Preparation_Axe.BPQ_OLY_Forest_Construction_Preparation_Axe_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Preparation_Axe-Description\", \"Axe <Number>({0} / {1})</>\")"
+        },
+        {
+            "Name": "OLY_Forest_Construction_BuildAndDecorateCabin",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_BuildAndDecorateCabin.BPQ_OLY_Forest_Construction_BuildAndDecorateCabin_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_BuildAndDecorateCabin-Description\", \"Construct and Decorate a Cabin\")"
+        },
+        {
+            "Name": "OLY_Forest_Construction_BuildCabin",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_BuildCabin.BPQ_OLY_Forest_Construction_BuildCabin_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_BuildCabin-Description\", \"Construct a Cabin\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_BuildCabin-InfoText\", \"Use Your Axe to Collect Wood and Other Materials in the Area\")"
+        },
+        {
+            "Name": "OLY_Forest_Construction_BuildCabin_Pieces",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_BuildCabin_Pieces.BPQ_OLY_Forest_Construction_BuildCabin_Pieces_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_BuildCabin_Pieces-Description\", \"Wood Pieces Placed <Number>({0} / {1})</> \")"
+        },
+        {
+            "Name": "STYX_A_Research_Nest_Resupply",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Nest_Resupply.BPQ_Styx_A_Research_Nest_Resupply_C",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Nest_Resupply-InfoText\", \"(Optional) Open the Escape Menu and Request a Mission Resupply if your mission equipment is lost\")"
+        },
+        {
+            "Name": "OLY_Forest_Construction_ChimneyCap",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_ChimneyCap.BPQ_OLY_Forest_Construction_ChimneyCap_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_ChimneyCap-Description\", \"Place a Chimney Cap  <Number>({0} / {1})</>\")"
         }
     ]
 }

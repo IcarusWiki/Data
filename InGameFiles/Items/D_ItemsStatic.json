@@ -31316,9 +31316,6 @@
                     },
                     {
                         "TagName": "Item.Bench"
-                    },
-                    {
-                        "TagName": "None"
                     }
                 ]
             },
@@ -31329,9 +31326,6 @@
                     },
                     {
                         "TagName": "Item.Bench"
-                    },
-                    {
-                        "TagName": "None"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -109255,6 +109249,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Bench"
+                    },
+                    {
+                        "TagName": "Audio.Shelter.Check"
                     }
                 ]
             },
@@ -109262,6 +109259,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Bench"
+                    },
+                    {
+                        "TagName": "Audio.Shelter.Check"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -109343,6 +109343,108 @@
             },
             "Weight": {
                 "RowName": "ExtremeDeployable"
+            },
+            "Resource": {
+                "RowName": "Anvil_T4"
+            },
+            "Audio": {
+                "RowName": "GenericDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Bench"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Bench"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
+                    },
+                    {
+                        "TagName": "Traits.Processing"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Anvil_Bench_T4_v2",
+            "Meshable": {
+                "RowName": "Mesh_Generic_Fabricator"
+            },
+            "Itemable": {
+                "RowName": "Item_Anvil_Bench_T4_v2"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Anvil_Bench_T4_v2"
+            },
+            "Durable": {
+                "RowName": "Deployable_2500"
+            },
+            "Inventory": {
+                "RowName": "Processor_NoFuel_T4"
+            },
+            "Processing": {
+                "RowName": "Anvil_Bench_T4"
+            },
+            "Experience": {
+                "RowName": "CraftedItem"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "HeavyDeployable"
             },
             "Resource": {
                 "RowName": "Anvil_T4"
@@ -194494,9 +194596,6 @@
             },
             "Audio": {
                 "RowName": "Uranium"
-            },
-            "AdditionalStats": {
-                "(Value=\"BaseChanceToCatchFish20_+%\")": 250
             },
             "Manual_Tags": {
                 "GameplayTags": [

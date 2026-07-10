@@ -1002,7 +1002,7 @@
         {
             "Name": "Radiation_Boss",
             "CreatureNames": [
-                "INVTEXT(\"[DNT] Rad Boss\")"
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Radiation_Boss-CreatureNames-0\", \"Malformation\")"
             ],
             "AISetup": {
                 "RowName": "RadBoss"
@@ -1036,7 +1036,7 @@
         {
             "Name": "RAD_B2_Specter",
             "CreatureNames": [
-                "NSLOCTEXT(\"D_EpicCreatures\", \"RAD_B2_Specter-CreatureNames-0\", \"Mutated Colonist\")"
+                "NSLOCTEXT(\"D_EpicCreatures\", \"RAD_B2_Specter-CreatureNames-0\", \"Mutated Colonist Johnson\")"
             ],
             "AISetup": {
                 "RowName": "Irradiated_Prospector_Tranquilized"
@@ -1049,6 +1049,15 @@
             ],
             "AISetup": {
                 "RowName": "RadBoss_Mission"
+            }
+        },
+        {
+            "Name": "RAD_B_FlyingTank",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"RAD_B_FlyingTank-CreatureNames-0\", \"Lava Eater\")"
+            ],
+            "AISetup": {
+                "RowName": "Flying_Tank"
             }
         }
     ]

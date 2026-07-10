@@ -16493,6 +16493,26 @@
             "MergeType": "LongestDuration",
             "bEffectsNPCs": false,
             "SaveToDatabase": false
+        },
+        {
+            "Name": "Heavily_Damaged",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Tools.Icon_Tools'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Heavily_Damaged-ModifierName\", \"Heavily Damaged\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Heavily_Damaged-ModifierDescription\", \"Vehicle is Heavily Damaged.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFireDamageResistance_%\")": -1000
+            },
+            "MergeType": "LongestDuration",
+            "MaxStackNum": 5,
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "NPC.Husbandry.Sterile"
+                    }
+                ]
+            },
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
         }
     ]
 }

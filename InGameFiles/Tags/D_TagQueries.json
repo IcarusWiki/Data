@@ -8693,6 +8693,24 @@
                 ],
                 "AutoDescription": " ANY( Item.Consumable )"
             }
+        },
+        {
+            "Name": "Mission_Solution",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Item.Solution"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Item.Solution )"
+            }
         }
     ]
 }

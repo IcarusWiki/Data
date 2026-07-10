@@ -2803,7 +2803,7 @@
             "WorldPressInteracts": [
                 {
                     "InteractionRow": {
-                        "RowName": "Interact_Deployable",
+                        "RowName": "Interact_Salvage",
                         "DataTableName": "D_Interactions"
                     },
                     "Tag": ""
@@ -2811,24 +2811,6 @@
                 {
                     "InteractionRow": {
                         "RowName": "Pickup_Item",
-                        "DataTableName": "D_Interactions"
-                    },
-                    "Tag": ""
-                }
-            ],
-            "WorldHoldInteracts": [
-                {
-                    "InteractionRow": {
-                        "RowName": "Interact_Toggle_Device_On",
-                        "DataTableName": "D_Interactions"
-                    },
-                    "Tag": ""
-                }
-            ],
-            "WorldAltHoldInteracts": [
-                {
-                    "InteractionRow": {
-                        "RowName": "Interact_Salvage",
                         "DataTableName": "D_Interactions"
                     },
                     "Tag": ""

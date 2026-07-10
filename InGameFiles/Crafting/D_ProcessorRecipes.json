@@ -2656,6 +2656,7 @@
             "Requirement": {
                 "RowName": "Metal_Axe"
             },
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -2725,6 +2726,7 @@
             "Requirement": {
                 "RowName": "Metal_Pickaxe"
             },
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -2790,6 +2792,7 @@
             "Requirement": {
                 "RowName": "Metal_Spear"
             },
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -2852,7 +2855,7 @@
             "Requirement": {
                 "RowName": "Steel_Spear"
             },
-            "RequiredMillijoules": 3750,
+            "RequiredMillijoules": 30000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -2915,6 +2918,7 @@
             "Requirement": {
                 "RowName": "Metal_Knife"
             },
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -2984,6 +2988,7 @@
             "Requirement": {
                 "RowName": "Sickle"
             },
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -3041,6 +3046,7 @@
             "Requirement": {
                 "RowName": "Shovel"
             },
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -3140,6 +3146,7 @@
             "Requirement": {
                 "RowName": "Longbow"
             },
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -3202,7 +3209,7 @@
             "Requirement": {
                 "RowName": "Flint_Arrow"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -3265,7 +3272,7 @@
             "Requirement": {
                 "RowName": "Steel_Arrow"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -3446,6 +3453,7 @@
             "Requirement": {
                 "RowName": "Crossbow"
             },
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -3515,7 +3523,7 @@
             "Requirement": {
                 "RowName": "Metal_Bolt"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 3000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -3566,7 +3574,7 @@
             "Requirement": {
                 "RowName": "Copper_Bolt"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 3000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -3617,7 +3625,7 @@
             "Requirement": {
                 "RowName": "Steel_Bolt"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -6676,6 +6684,7 @@
             "Requirement": {
                 "RowName": "Combat_Knife"
             },
+            "RequiredMillijoules": 30000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -6737,6 +6746,7 @@
             "Requirement": {
                 "RowName": "Machete"
             },
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -6929,7 +6939,7 @@
             "Requirement": {
                 "RowName": "Aluminium_Arrow"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -6988,7 +6998,7 @@
             "Requirement": {
                 "RowName": "Carbon_Arrow"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -7244,6 +7254,7 @@
             "Requirement": {
                 "RowName": "Carbon_Spear"
             },
+            "RequiredMillijoules": 90000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -7302,7 +7313,7 @@
             "Requirement": {
                 "RowName": "Platinum_Spear"
             },
-            "RequiredMillijoules": 3750,
+            "RequiredMillijoules": 90000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -7361,7 +7372,7 @@
             "Requirement": {
                 "RowName": "Titanium_Spear"
             },
-            "RequiredMillijoules": 3750,
+            "RequiredMillijoules": 180000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -8055,6 +8066,7 @@
             "Requirement": {
                 "RowName": "Recurve_Bow"
             },
+            "RequiredMillijoules": 30000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -8957,7 +8969,7 @@
             "Requirement": {
                 "RowName": "Composite_Arrow"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -10993,6 +11005,7 @@
             "Requirement": {
                 "RowName": "Composite_Spear"
             },
+            "RequiredMillijoules": 120000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -11047,6 +11060,7 @@
             "Requirement": {
                 "RowName": "Compound_Bow"
             },
+            "RequiredMillijoules": 120000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -13861,6 +13875,7 @@
             "Requirement": {
                 "RowName": "Titanium_Pickaxe"
             },
+            "RequiredMillijoules": 180000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -13925,6 +13940,7 @@
             "Requirement": {
                 "RowName": "Titanium_Axe"
             },
+            "RequiredMillijoules": 180000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -15074,6 +15090,7 @@
             "Requirement": {
                 "RowName": "Taxidermy_Knife"
             },
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -15688,6 +15705,7 @@
             "Requirement": {
                 "RowName": "Titanium_Knife"
             },
+            "RequiredMillijoules": 180000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -15749,7 +15767,7 @@
             "Requirement": {
                 "RowName": "Titanium_Arrow"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 20000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -15804,6 +15822,7 @@
             "Requirement": {
                 "RowName": "Titanium_Sickle"
             },
+            "RequiredMillijoules": 180000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -16423,6 +16442,7 @@
             "Requirement": {
                 "RowName": "Steel_Axe"
             },
+            "RequiredMillijoules": 30000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -16492,6 +16512,7 @@
             "Requirement": {
                 "RowName": "Steel_Pickaxe"
             },
+            "RequiredMillijoules": 30000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -16557,6 +16578,7 @@
             "Requirement": {
                 "RowName": "Steel_Knife"
             },
+            "RequiredMillijoules": 30000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -18404,6 +18426,7 @@
         },
         {
             "Name": "Iron_Nail",
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -18444,6 +18467,7 @@
         },
         {
             "Name": "Copper_Nail",
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -18513,7 +18537,7 @@
                         "RowName": "Steel_Screw",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 100,
+                    "Count": 10,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -18527,6 +18551,7 @@
             "Requirement": {
                 "RowName": "Iron_Hammer"
             },
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -18584,6 +18609,7 @@
             "Requirement": {
                 "RowName": "Steel_Hammer"
             },
+            "RequiredMillijoules": 30000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -18839,7 +18865,7 @@
             "Requirement": {
                 "RowName": "Platinum_Bolt"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -18886,7 +18912,7 @@
             "Requirement": {
                 "RowName": "Titanium_Bolt"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 20000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -19779,6 +19805,7 @@
             "Requirement": {
                 "RowName": "Platinum_Knife"
             },
+            "RequiredMillijoules": 90000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -19837,6 +19864,7 @@
             "Requirement": {
                 "RowName": "Platinum_Axe"
             },
+            "RequiredMillijoules": 90000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -19895,6 +19923,7 @@
             "Requirement": {
                 "RowName": "Platinum_Sickle"
             },
+            "RequiredMillijoules": 90000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -19948,6 +19977,7 @@
             "Requirement": {
                 "RowName": "Platinum_Hammer"
             },
+            "RequiredMillijoules": 90000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -20008,6 +20038,7 @@
             "Requirement": {
                 "RowName": "Titanium_Hammer"
             },
+            "RequiredMillijoules": 180000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -20064,6 +20095,7 @@
             "Requirement": {
                 "RowName": "Platinum_Pickaxe"
             },
+            "RequiredMillijoules": 90000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -20198,7 +20230,7 @@
             "Requirement": {
                 "RowName": "Sandworm_Knife"
             },
-            "RequiredMillijoules": 3750,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -20257,7 +20289,7 @@
             "Requirement": {
                 "RowName": "Sandworm_Spear"
             },
-            "RequiredMillijoules": 3750,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -20319,7 +20351,7 @@
             "SessionRequirement": {
                 "DataTableName": "D_SessionFlags"
             },
-            "RequiredMillijoules": 375,
+            "RequiredMillijoules": 3000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -20381,7 +20413,7 @@
             "SessionRequirement": {
                 "DataTableName": "D_SessionFlags"
             },
-            "RequiredMillijoules": 3750,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -21934,7 +21966,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Campfire"
+                "RowName": "CookingStation"
             }
         },
         {
@@ -21982,7 +22014,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Campfire"
+                "RowName": "CookingStation"
             }
         },
         {
@@ -22044,7 +22076,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Campfire"
+                "RowName": "CookingStation"
             }
         },
         {
@@ -22098,7 +22130,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Campfire"
+                "RowName": "CookingStation"
             }
         },
         {
@@ -22152,7 +22184,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Campfire"
+                "RowName": "CookingStation"
             }
         },
         {
@@ -26084,7 +26116,7 @@
             "SessionRequirement": {
                 "DataTableName": "D_SessionFlags"
             },
-            "RequiredMillijoules": 3750,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -26157,7 +26189,7 @@
             "SessionRequirement": {
                 "DataTableName": "D_SessionFlags"
             },
-            "RequiredMillijoules": 3750,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -26230,7 +26262,7 @@
             "SessionRequirement": {
                 "DataTableName": "D_SessionFlags"
             },
-            "RequiredMillijoules": 375,
+            "RequiredMillijoules": 3000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -26303,7 +26335,7 @@
             "SessionRequirement": {
                 "DataTableName": "D_SessionFlags"
             },
-            "RequiredMillijoules": 3750,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -30318,7 +30350,7 @@
             "SessionRequirement": {
                 "DataTableName": "D_AccountFlags"
             },
-            "RequiredMillijoules": 5000,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -30387,7 +30419,7 @@
             "SessionRequirement": {
                 "DataTableName": "D_AccountFlags"
             },
-            "RequiredMillijoules": 1000,
+            "RequiredMillijoules": 3000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -34311,6 +34343,7 @@
             "Requirement": {
                 "RowName": "Shield_Wooden"
             },
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -35069,7 +35102,7 @@
             "Requirement": {
                 "RowName": "Metal_Sledgehammer"
             },
-            "RequiredMillijoules": 5000,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -35120,11 +35153,6 @@
             ],
             "Audio": {
                 "RowName": "MasonryBench"
-            },
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "NewFrontiers"
-                }
             }
         },
         {
@@ -35670,7 +35698,7 @@
             "Requirement": {
                 "RowName": "Metal_Knife"
             },
-            "RequiredMillijoules": 1250,
+            "RequiredMillijoules": 3000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -35740,7 +35768,7 @@
             "Requirement": {
                 "RowName": "Titanium_Knife"
             },
-            "RequiredMillijoules": 1250,
+            "RequiredMillijoules": 20000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -35802,7 +35830,7 @@
             "Requirement": {
                 "RowName": "Steel_Knife"
             },
-            "RequiredMillijoules": 1250,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -35872,7 +35900,7 @@
             "Requirement": {
                 "RowName": "Platinum_Knife"
             },
-            "RequiredMillijoules": 1250,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -35931,7 +35959,7 @@
             "Requirement": {
                 "RowName": "Sandworm_Knife"
             },
-            "RequiredMillijoules": 1750,
+            "RequiredMillijoules": 3000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -35993,7 +36021,7 @@
             "SessionRequirement": {
                 "DataTableName": "D_SessionFlags"
             },
-            "RequiredMillijoules": 1750,
+            "RequiredMillijoules": 3000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -36066,6 +36094,7 @@
             "SessionRequirement": {
                 "DataTableName": "D_AccountFlags"
             },
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -36233,6 +36262,7 @@
             "Requirement": {
                 "RowName": "Metal_Spear"
             },
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -36295,7 +36325,7 @@
             "Requirement": {
                 "RowName": "Steel_Spear"
             },
-            "RequiredMillijoules": 3750,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -36358,6 +36388,7 @@
             "Requirement": {
                 "RowName": "Carbon_Spear"
             },
+            "RequiredMillijoules": 12500,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -36416,7 +36447,7 @@
             "Requirement": {
                 "RowName": "Platinum_Spear"
             },
-            "RequiredMillijoules": 3750,
+            "RequiredMillijoules": 17500,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -36475,7 +36506,7 @@
             "Requirement": {
                 "RowName": "Titanium_Spear"
             },
-            "RequiredMillijoules": 3750,
+            "RequiredMillijoules": 25000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -36530,6 +36561,7 @@
             "Requirement": {
                 "RowName": "Composite_Spear"
             },
+            "RequiredMillijoules": 17500,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -36584,7 +36616,7 @@
             "Requirement": {
                 "RowName": "Sandworm_Spear"
             },
-            "RequiredMillijoules": 3750,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -36646,7 +36678,7 @@
             "SessionRequirement": {
                 "DataTableName": "D_SessionFlags"
             },
-            "RequiredMillijoules": 3750,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -36716,7 +36748,7 @@
             "Requirement": {
                 "RowName": "Platinum_Crossbow"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 90000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -36789,7 +36821,7 @@
             "Requirement": {
                 "RowName": "Titanium_Crossbow"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 180000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -37334,7 +37366,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Campfire"
+                "RowName": "CookingStation"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -37456,7 +37488,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Campfire"
+                "RowName": "CookingStation"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -41111,7 +41143,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Campfire"
+                "RowName": "CookingStation"
             }
         },
         {
@@ -41165,7 +41197,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Campfire"
+                "RowName": "CookingStation"
             }
         },
         {
@@ -44217,7 +44249,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Campfire"
+                "RowName": "CookingStation"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -44368,7 +44400,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Campfire"
+                "RowName": "CookingStation"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -44873,6 +44905,7 @@
             "Requirement": {
                 "RowName": "Shield_Steel"
             },
+            "RequiredMillijoules": 30000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -44923,6 +44956,7 @@
             "Requirement": {
                 "RowName": "Shield_Platinum"
             },
+            "RequiredMillijoules": 90000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -44983,6 +45017,7 @@
             "Requirement": {
                 "RowName": "Shield_Titanium"
             },
+            "RequiredMillijoules": 120000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -45046,6 +45081,7 @@
             "Requirement": {
                 "RowName": "Shield_Carbon"
             },
+            "RequiredMillijoules": 90000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -45106,6 +45142,7 @@
             "Requirement": {
                 "RowName": "Shield_Composite"
             },
+            "RequiredMillijoules": 120000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -46678,6 +46715,7 @@
             "Requirement": {
                 "RowName": "Obsidian_Axe"
             },
+            "RequiredMillijoules": 30000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -46752,6 +46790,7 @@
             "Requirement": {
                 "RowName": "Obsidian_Pickaxe"
             },
+            "RequiredMillijoules": 30000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -46822,6 +46861,7 @@
             "Requirement": {
                 "RowName": "Obsidian_Spear"
             },
+            "RequiredMillijoules": 30000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -46889,6 +46929,7 @@
             "Requirement": {
                 "RowName": "Obsidian_Knife"
             },
+            "RequiredMillijoules": 30000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -46963,6 +47004,7 @@
             "Requirement": {
                 "RowName": "Obsidian_Sickle"
             },
+            "RequiredMillijoules": 30000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -47025,7 +47067,7 @@
             "Requirement": {
                 "RowName": "Obsidian_Sledgehammer"
             },
-            "RequiredMillijoules": 5000,
+            "RequiredMillijoules": 30000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -47095,7 +47137,7 @@
             "Requirement": {
                 "RowName": "Obsidian_Bolt"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -47151,7 +47193,7 @@
             "Requirement": {
                 "RowName": "Obsidian_Arrow"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -47341,7 +47383,7 @@
             "Requirement": {
                 "RowName": "Obsidian_Knife"
             },
-            "RequiredMillijoules": 1250,
+            "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -47416,6 +47458,7 @@
             "Requirement": {
                 "RowName": "Obsidian_Spear"
             },
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -47483,6 +47526,7 @@
             "Requirement": {
                 "RowName": "Cold_Steel_Axe"
             },
+            "RequiredMillijoules": 90000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -47553,6 +47597,7 @@
             "Requirement": {
                 "RowName": "Cold_Steel_Pickaxe"
             },
+            "RequiredMillijoules": 90000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -47626,6 +47671,7 @@
             "Requirement": {
                 "RowName": "Cold_Steel_Knife"
             },
+            "RequiredMillijoules": 90000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -47696,7 +47742,7 @@
             "Requirement": {
                 "RowName": "Cold_Steel_Knife"
             },
-            "RequiredMillijoules": 1250,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -47767,7 +47813,7 @@
             "Requirement": {
                 "RowName": "Cold_Steel_Spear"
             },
-            "RequiredMillijoules": 3750,
+            "RequiredMillijoules": 90000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -47838,7 +47884,7 @@
             "Requirement": {
                 "RowName": "Cold_Steel_Spear"
             },
-            "RequiredMillijoules": 3750,
+            "RequiredMillijoules": 12500,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -47909,6 +47955,7 @@
             "Requirement": {
                 "RowName": "Cold_Steel_Sickle"
             },
+            "RequiredMillijoules": 90000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -47974,7 +48021,7 @@
             "Requirement": {
                 "RowName": "Cold_Steel_Sledgehammer"
             },
-            "RequiredMillijoules": 5000,
+            "RequiredMillijoules": 90000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -48040,7 +48087,7 @@
             "Requirement": {
                 "RowName": "Cold_Steel_Arrow"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -48111,7 +48158,7 @@
             "Requirement": {
                 "RowName": "Cold_Steel_Bolt"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -48299,6 +48346,7 @@
             "Requirement": {
                 "RowName": "Iron_Wood_Axe"
             },
+            "RequiredMillijoules": 120000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -48379,6 +48427,7 @@
             "Requirement": {
                 "RowName": "Iron_Wood_Pickaxe"
             },
+            "RequiredMillijoules": 120000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -48462,6 +48511,7 @@
             "Requirement": {
                 "RowName": "Iron_Wood_Knife"
             },
+            "RequiredMillijoules": 120000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -48542,7 +48592,7 @@
             "Requirement": {
                 "RowName": "Iron_Wood_Knife"
             },
-            "RequiredMillijoules": 1250,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -48623,7 +48673,7 @@
             "Requirement": {
                 "RowName": "Iron_Wood_Spear"
             },
-            "RequiredMillijoules": 3750,
+            "RequiredMillijoules": 120000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -48690,7 +48740,7 @@
             "Requirement": {
                 "RowName": "Iron_Wood_Spear"
             },
-            "RequiredMillijoules": 3750,
+            "RequiredMillijoules": 17500,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -48757,6 +48807,7 @@
             "Requirement": {
                 "RowName": "Iron_Wood_Sickle"
             },
+            "RequiredMillijoules": 120000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -48832,7 +48883,7 @@
             "Requirement": {
                 "RowName": "Iron_Wood_Bolt"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -48894,7 +48945,7 @@
             "Requirement": {
                 "RowName": "Iron_Wood_Arrow"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -48961,7 +49012,7 @@
             "Requirement": {
                 "RowName": "Iron_Wood_Sledgehammer"
             },
-            "RequiredMillijoules": 5000,
+            "RequiredMillijoules": 12000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -49286,7 +49337,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Ovens"
+                "RowName": "ChemistryBench"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -49324,7 +49375,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Ovens"
+                "RowName": "ChemistryBench"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -49369,7 +49420,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Ovens"
+                "RowName": "ChemistryBench"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -53626,6 +53677,7 @@
             "Requirement": {
                 "RowName": "Watering_Can"
             },
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -53799,7 +53851,7 @@
             "Outputs": [
                 {
                     "Element": {
-                        "RowName": "Anvil_Bench_T4",
+                        "RowName": "Anvil_Bench_T4_v2",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "Count": 1,
@@ -58478,6 +58530,7 @@
             "Requirement": {
                 "RowName": "Ice_Mammoth_Shield"
             },
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -58547,7 +58600,7 @@
             "Requirement": {
                 "RowName": "Ice_Mammoth_Spear"
             },
-            "RequiredMillijoules": 3750,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -58615,7 +58668,7 @@
             "Requirement": {
                 "RowName": "Ice_Mammoth_Spear"
             },
-            "RequiredMillijoules": 3750,
+            "RequiredMillijoules": 17500,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -58908,7 +58961,7 @@
             "Requirement": {
                 "RowName": "Black_Wolf_Shield"
             },
-            "RequiredMillijoules": 5000,
+            "RequiredMillijoules": 30000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -58974,7 +59027,7 @@
             "Requirement": {
                 "RowName": "Scorpion_Crossbow"
             },
-            "RequiredMillijoules": 3000,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -62670,7 +62723,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Glassbench"
+                "RowName": "ChemistryBench"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -66875,6 +66928,7 @@
             "Requirement": {
                 "RowName": "Platinum_Shovel"
             },
+            "RequiredMillijoules": 90000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -66921,6 +66975,7 @@
             "Requirement": {
                 "RowName": "Titanium_Shovel"
             },
+            "RequiredMillijoules": 180000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -68524,6 +68579,7 @@
             "Requirement": {
                 "RowName": "Iron_Shears"
             },
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -69697,7 +69753,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Campfire"
+                "RowName": "CookingStation"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -73672,7 +73728,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Glassbench"
+                "RowName": "ChemistryBench"
             }
         },
         {
@@ -75686,7 +75742,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "MedicineBench"
+                "RowName": "ChemistryBench"
             }
         },
         {
@@ -76866,6 +76922,7 @@
             "Requirement": {
                 "RowName": "Slug_Axe"
             },
+            "RequiredMillijoules": 120000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -77261,6 +77318,7 @@
             "Requirement": {
                 "RowName": "Lava_Hunter_Sickle"
             },
+            "RequiredMillijoules": 120000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -77778,6 +77836,7 @@
             "Requirement": {
                 "RowName": "Rock_Golem_Sledgehammer"
             },
+            "RequiredMillijoules": 120000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -81761,6 +81820,7 @@
             "Requirement": {
                 "RowName": "Iron_Bucket"
             },
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -82485,7 +82545,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "AnvilBench"
+                "RowName": "MachiningBench"
             }
         },
         {
@@ -82532,7 +82592,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "AnvilBench"
+                "RowName": "MachiningBench"
             }
         },
         {
@@ -82927,7 +82987,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "AnvilBench"
+                "RowName": "MachiningBench"
             }
         },
         {
@@ -84391,6 +84451,7 @@
             "Requirement": {
                 "RowName": "Milk_Bucket"
             },
+            "RequiredMillijoules": 30000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -86008,7 +86069,7 @@
             "SessionRequirement": {
                 "DataTableName": "None"
             },
-            "RequiredMillijoules": 1000,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -87030,7 +87091,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "MachiningBench"
+                "RowName": "ChemistryBench"
             }
         },
         {
@@ -87090,7 +87151,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "MachiningBench"
+                "RowName": "ChemistryBench"
             }
         },
         {
@@ -87157,7 +87218,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "MachiningBench"
+                "RowName": "ChemistryBench"
             }
         },
         {
@@ -87210,7 +87271,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "MachiningBench"
+                "RowName": "ChemistryBench"
             }
         },
         {
@@ -87263,7 +87324,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "MachiningBench"
+                "RowName": "ChemistryBench"
             }
         },
         {
@@ -87336,7 +87397,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "AnvilBench"
+                "RowName": "MachiningBench"
             }
         },
         {
@@ -89307,7 +89368,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Glassbench"
+                "RowName": "ChemistryBench"
             }
         },
         {
@@ -89357,7 +89418,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Glassbench"
+                "RowName": "ChemistryBench"
             }
         },
         {
@@ -89407,7 +89468,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Glassbench"
+                "RowName": "ChemistryBench"
             }
         },
         {
@@ -94894,7 +94955,7 @@
                 "DataTableName": "D_SessionFlags",
                 "RowName": "Mission_MiningCart"
             },
-            "RequiredMillijoules": 10000,
+            "RequiredMillijoules": 30000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -96008,7 +96069,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Glassbench"
+                "RowName": "ChemistryBench"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -101860,7 +101921,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Campfire"
+                "RowName": "CookingStation"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -108162,7 +108223,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Glassbench"
+                "RowName": "ChemistryBench"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -108212,7 +108273,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Glassbench"
+                "RowName": "ChemistryBench"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -108265,7 +108326,7 @@
             "Requirement": {
                 "RowName": "Lithium_Bolt"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -108320,7 +108381,7 @@
             "Requirement": {
                 "RowName": "Uranium_Bolt"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -108375,7 +108436,7 @@
             "Requirement": {
                 "RowName": "Lithium_Arrow"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -108435,7 +108496,7 @@
             "Requirement": {
                 "RowName": "Uranium_Arrow"
             },
-            "RequiredMillijoules": 250,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T4",
@@ -109252,7 +109313,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Glassbench"
+                "RowName": "ChemistryBench"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -109293,7 +109354,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Glassbench"
+                "RowName": "ChemistryBench"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -109334,7 +109395,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Glassbench"
+                "RowName": "ChemistryBench"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -109375,7 +109436,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Glassbench"
+                "RowName": "ChemistryBench"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -114168,7 +114229,7 @@
                 "DataTableName": "D_DLCPackageData",
                 "RowName": "Homestead"
             },
-            "RequiredMillijoules": 6000,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -116031,7 +116092,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "Campfire"
+                "RowName": "CookingStation"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -118053,6 +118114,7 @@
             "Requirement": {
                 "RowName": "Sandwyrm_Bow"
             },
+            "RequiredMillijoules": 120000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench_T3",
@@ -120261,7 +120323,7 @@
             "Requirement": {
                 "RowName": "Butcher_Knife"
             },
-            "RequiredMillijoules": 7000,
+            "RequiredMillijoules": 15000,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
@@ -120552,7 +120614,7 @@
             "Requirement": {
                 "RowName": "Sawblades"
             },
-            "RequiredMillijoules": 7000,
+            "RequiredMillijoules": 7500,
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",

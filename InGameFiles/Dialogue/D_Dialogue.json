@@ -26067,7 +26067,7 @@
                 "RowName": "Victor"
             },
             "Text": [
-                "NSLOCTEXT(\"D_Dialogue\", \"BMBriefing-Text-0\", \"A NOREX contractor has chosen a rather inconvenient patch of wilderness to conduct business.\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"BMBriefing-Text-0\", \"A Norex contractor has chosen a rather inconvenient patch of wilderness to conduct business.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"BMBriefing-Text-1\", \"They require a degree of protection while they establish themselves.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"BMBriefing-Text-2\", \"Strike a bargain, and try not to ask too many questions.\")"
             ],
@@ -26571,7 +26571,7 @@
             },
             "Text": [
                 "NSLOCTEXT(\"D_Dialogue\", \"FOEnding-Text-0\", \"Alright. Good work prospector. You\\'ve done well today.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"FOEnding-Text-1\", \"We\\'ve made some room at EDEN if you\\'d like to invite your new friend back.\")"
+                "NSLOCTEXT(\"D_Dialogue\", \"FOEnding-Text-1\", \"We\\'ve made some room at Eden if you\\'d like to invite your new friend back.\")"
             ],
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -26588,7 +26588,7 @@
             },
             "Text": [
                 "NSLOCTEXT(\"D_Dialogue\", \"PCEnding-Text-0\", \"That should keep the local predators at bay. Solid work.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"PCEnding-Text-1\", \"Make sure to invite your new friend back to EDEN, if you wish to.\")"
+                "NSLOCTEXT(\"D_Dialogue\", \"PCEnding-Text-1\", \"Make sure to invite your new friend back to Eden, if you wish to.\")"
             ],
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -26605,7 +26605,7 @@
             },
             "Text": [
                 "NSLOCTEXT(\"D_Dialogue\", \"BMEnding-Text-0\", \"Good work, AGENT is fully operational. \")",
-                "NSLOCTEXT(\"D_Dialogue\", \"BMEnding-Text-1\", \"We\\'ve made some room at EDEN if you\\'d like to discretly invite them back.\")"
+                "NSLOCTEXT(\"D_Dialogue\", \"BMEnding-Text-1\", \"We\\'ve made some room at Eden if you\\'d like to discretly invite them back.\")"
             ],
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -26622,7 +26622,7 @@
             },
             "Text": [
                 "NSLOCTEXT(\"D_Dialogue\", \"CSEnding-Text-0\", \"Great work, prospector. \")",
-                "NSLOCTEXT(\"D_Dialogue\", \"CSEnding-Text-1\", \"Make sure to invite your new friend back to EDEN, if you wish to.\")"
+                "NSLOCTEXT(\"D_Dialogue\", \"CSEnding-Text-1\", \"Make sure to invite your new friend back to Eden, if you wish to.\")"
             ],
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -26702,7 +26702,7 @@
                 "RowName": "Victor"
             },
             "Text": [
-                "NSLOCTEXT(\"D_Dialogue\", \"EdenInvite1-Text-0\", \"Make sure to invite them back to EDEN, if you wish to.\")"
+                "NSLOCTEXT(\"D_Dialogue\", \"EdenInvite1-Text-0\", \"Make sure to invite them back to Eden, if you wish to.\")"
             ],
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -26717,7 +26717,7 @@
                 "RowName": "Victor"
             },
             "Text": [
-                "NSLOCTEXT(\"D_Dialogue\", \"EdenInvite2-Text-0\", \"We\\'ve made some room at EDEN if you\\'d like to invite them back.\")"
+                "NSLOCTEXT(\"D_Dialogue\", \"EdenInvite2-Text-0\", \"We\\'ve made some room at Eden if you\\'d like to invite them back.\")"
             ],
             "Metadata": {
                 "RequiredFeatureLevel": {

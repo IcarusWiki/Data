@@ -9496,7 +9496,7 @@
         {
             "Name": "Item_XL_Advanced_Aquarium",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_XL_Advanced_Aquarium-DisplayName\", \"Extra Large Aquarium\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Large_Advanced_Aquarium.ITEM_Large_Advanced_Aquarium",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_XL_Advanced_Aquarium.T_ITEM_XL_Advanced_Aquarium",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_XL_Advanced_Aquarium-Description\", \"A very fancy large fish tank for keeping your favourite finned friends around, must be connected to both power and water.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_XL_Advanced_Aquarium-FlavorText\", \"The latest technology for storing your fish friends.\")",
             "Weight": 10000
@@ -12901,7 +12901,7 @@
         },
         {
             "Name": "Item_Anvil_Bench_T4_v2",
-            "DisplayName": "INVTEXT(\"[DNT] Foundry v2\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Anvil_Bench_T4_v2-DisplayName\", \"Foundry\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Anvil_Bench_T4_v2.T_ITEM_Anvil_Bench_T4_v2",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Anvil_Bench_T4_v2-Description\", \"An impressive foundry powered by electricity for crafting various higher quality weapons and tools.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Anvil_Bench_T4_v2-FlavorText\", \"The UDA states that it has been at least seven days since the last accident using this piece of equipment...\")",
@@ -22105,7 +22105,7 @@
             "Name": "Item_Prop_Laptop",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_Laptop-DisplayName\", \"Laptop\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Laptop_A.T_ITEM_Prop_Laptop_A",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_Laptop-Description\", \"Someones personal computer.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_Laptop-Description\", \"Someone\\'s personal computer.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_Laptop-FlavorText\", \"There is no Password...\")",
             "Weight": 500,
             "MaxStack": 20
@@ -23065,7 +23065,7 @@
             "Name": "Item_Uranium_Raw",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Uranium_Raw-DisplayName\", \"Raw Uranium\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Uranium_Raw.T_ITEM_Uranium_Raw",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Uranium_Raw-Description\", \"Raw Radioactive Uranium, will cause radiation poisioning if not stored correctly. Can be processed to convert into Inert and Rod Form.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Uranium_Raw-Description\", \"Raw Radioactive Uranium, will cause radiation poisoning if not stored correctly. Can be processed to convert into Inert and Rod Form.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Uranium_Raw-FlavorText\", \"This one doesn\\'t look safe.\")",
             "Weight": 1000,
             "MaxStack": 10
@@ -23083,7 +23083,7 @@
             "Name": "Item_Uranium_Rod",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Uranium_Rod-DisplayName\", \"Uranium Rod\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Uranium_Rod.T_ITEM_Uranium_Rod",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Uranium_Rod-Description\", \"Refined Radioactive Uranium, will cause radiation poisioning if not stored correctly. Use an Orbital Exchange Interface to send to orbit.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Uranium_Rod-Description\", \"Refined Radioactive Uranium, will cause radiation poisoning if not stored correctly. Use an Orbital Exchange Interface to send to orbit.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Uranium_Rod-FlavorText\", \"Deadly, but worth a pretty penny.\")",
             "Weight": 500,
             "MaxStack": 20
@@ -28267,7 +28267,7 @@
             "Name": "Item_AntiRadiation_Stew",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_AntiRadiation_Stew-DisplayName\", \"Surf and Shroom\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Fish_And_Mushroom.T_ITEM_Fish_And_Mushroom",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AntiRadiation_Stew-Description\", \"The distilled essence of a three eyed fish and mushrooms that seems radiation resistant and slowly removes radiation poisioning.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_AntiRadiation_Stew-Description\", \"The distilled essence of a three eyed fish and mushrooms that seems radiation resistant and slowly removes radiation poisoning.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_AntiRadiation_Stew-FlavorText\", \"What could go wrong?\")",
             "Weight": 250,
             "MaxStack": 10
@@ -28303,6 +28303,7 @@
         {
             "Name": "Item_Envirosuit_Colonist",
             "DisplayName": "INVTEXT(\"[DNT] Colonist Envirosuit\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Envirosuit_Colonist.T_ITEM_Envirosuit_Colonist",
             "Weight": 100
         },
         {
@@ -28348,6 +28349,7 @@
         {
             "Name": "Item_RadBoss_Rod",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Rod-DisplayName\", \"Malformation Fishing Rod\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ITEM_RadBoss_Rod.T_ITEM_RadBoss_Rod",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Rod-Description\", \"The malformed aura of this fishing rod lures in unique catch.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Rod-FlavorText\", \"Warped rod for warped fish.\")",
             "Weight": 1250
@@ -28376,6 +28378,7 @@
         {
             "Name": "Item_RadBoss_Habitat_Trophy",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Habitat_Trophy-DisplayName\", \"Malformation Habitat Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_RadBoss_Habitat_Trophy.T_ITEM_RadBoss_Habitat_Trophy",
             "Weight": 8500
         },
         {
@@ -28385,8 +28388,21 @@
             "Weight": 5000
         },
         {
+            "Name": "Item_RadBoss_Stone_Statue",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Stone_Statue-DisplayName\", \"Malformation Stone Statue\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_RadBoss_Stone_Statue.T_ITEM_RadBoss_Stone_Statue",
+            "Weight": 15000
+        },
+        {
+            "Name": "Item_RadBoss_Bronze_Statue",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Bronze_Statue-DisplayName\", \"Malformation Bronze Statue\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_RadBoss_Bronze_Statue.T_ITEM_RadBoss_Bronze_Statue",
+            "Weight": 5000
+        },
+        {
             "Name": "Item_RadBoss_Head",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Head-DisplayName\", \"Malformation Vestige\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_RadBoss_Head.T_ITEM_RadBoss_Head",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Head-Description\", \"A preserved memory of an apex mutation.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Head-FlavorText\", \"Who knew taxidermy would be so popular on Icarus?\")",
             "Weight": 2000,

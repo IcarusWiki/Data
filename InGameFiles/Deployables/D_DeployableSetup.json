@@ -12593,6 +12593,17 @@
             "MaxRestackingAmount": -1
         },
         {
+            "Name": "Prop_Lab_Poster_C",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Lab_Poster_C.BP_Prop_Lab_Poster_C_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Lab_Poster_B.T_ITEM_Prop_Lab_Poster_B",
+            "PreviewStaticMesh": "/Game/ASS/PRP/Posters/SM_PRP_Lab_Board_MED.SM_PRP_Lab_Board_MED",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
             "Name": "Prop_Medical_Trolly_A",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Medical_Trolly_A.BP_Prop_Medical_Trolly_A_C",
             "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Medical_Trolly_A.T_ITEM_Prop_Medical_Trolly_A",
@@ -15884,7 +15895,7 @@
         {
             "Name": "RadBoss_Habitat_Trophy",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_RadBoss_Habitat.BP_Trophy_RadBoss_Habitat_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Slug_Boss/SM_DEP_Trophy_Slug_Boss_Tank_LRG.SM_DEP_Trophy_Slug_Boss_Tank_LRG",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Radboss/SM_DEP_Trophy_Radboss_Specimen.SM_DEP_Trophy_Radboss_Specimen",
             "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Hammerhead_Trophys/SFX_DEPLOY_HAMMERHEAD_SOLID_TROPHY.SFX_DEPLOY_HAMMERHEAD_SOLID_TROPHY",
             "MaxRestackingAmount": 2
         },
@@ -15892,6 +15903,26 @@
             "Name": "RadBoss_Head_Trophy",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_RadBoss.BP_Trophy_RadBoss_C",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Radboss/SM_DEP_Trophy_Radboss.SM_DEP_Trophy_Radboss",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "RadBoss_Stone_Statue",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_RadBoss_Statue_Stone.BP_Trophy_RadBoss_Statue_Stone_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Radboss/SM_DEP_Trophy_Radboss_LRG.SM_DEP_Trophy_Radboss_LRG",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "RadBoss_Bronze_Statue",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_RadBoss_Statue_Bronze.BP_Trophy_RadBoss_Statue_Bronze_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Radboss/SM_DEP_Trophy_Radboss_SML.SM_DEP_Trophy_Radboss_SML",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "SupportsCustomRotation": false,
             "WorldPlacementType": "WallPlacement",
