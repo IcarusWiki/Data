@@ -1058,6 +1058,18 @@
             ],
             "AISetup": {
                 "RowName": "Flying_Tank"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseFireDamageResistanceWhileInLava_%\")": 100
+            }
+        },
+        {
+            "Name": "RAD_C2_MiniBoss",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"RAD_C2_MiniBoss-CreatureNames-0\", \"Revenant\")"
+            ],
+            "AISetup": {
+                "RowName": "Irradiated_Abomination"
             }
         }
     ]

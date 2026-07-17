@@ -18537,7 +18537,7 @@
                         "RowName": "Steel_Screw",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 10,
+                    "Count": 100,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -106097,80 +106097,6 @@
             }
         },
         {
-            "Name": "Flaregun",
-            "Requirement": {
-                "RowName": "Flaregun"
-            },
-            "RequiredMillijoules": 7500,
-            "RecipeSets": [
-                {
-                    "RowName": "Crafting_Bench",
-                    "DataTableName": "D_RecipeSets"
-                },
-                {
-                    "RowName": "Machining_Bench",
-                    "DataTableName": "D_RecipeSets"
-                },
-                {
-                    "RowName": "Fabricator",
-                    "DataTableName": "D_RecipeSets"
-                },
-                {
-                    "RowName": "Manufacturer",
-                    "DataTableName": "D_RecipeSets"
-                }
-            ],
-            "Inputs": [
-                {
-                    "Element": {
-                        "RowName": "Wood_Refined",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 6
-                },
-                {
-                    "Element": {
-                        "RowName": "Leather",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 15
-                },
-                {
-                    "Element": {
-                        "RowName": "Refined_Metal",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 10
-                },
-                {
-                    "Element": {
-                        "RowName": "Iron_Nail",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 10
-                }
-            ],
-            "Outputs": [
-                {
-                    "Element": {
-                        "RowName": "Flare_Gun",
-                        "DataTableName": "D_ItemTemplate"
-                    },
-                    "Count": 1,
-                    "DynamicProperties": [],
-                    "Alterations": []
-                }
-            ],
-            "Audio": {
-                "RowName": "CraftingBench"
-            },
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "DangerousHorizons"
-                }
-            }
-        },
-        {
             "Name": "Flare_Yellow",
             "Requirement": {
                 "RowName": "Flares"
@@ -121373,6 +121299,190 @@
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
                 }
+            }
+        },
+        {
+            "Name": "T2_Launcher",
+            "Requirement": {
+                "RowName": "Flaregun"
+            },
+            "RequiredMillijoules": 15000,
+            "RecipeSets": [
+                {
+                    "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Manufacturer",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Wood_Refined",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 30
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 25
+                },
+                {
+                    "Element": {
+                        "RowName": "Refined_Metal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 30
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10
+                },
+                {
+                    "Element": {
+                        "RowName": "Iron_Nail",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 30
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "T2_Launcher",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "CraftingBench"
+            }
+        },
+        {
+            "Name": "Rudimentary_Smoke_Grenade",
+            "Requirement": {
+                "RowName": "Rudimentary_Smoke"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Manufacturer",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 5
+                },
+                {
+                    "Element": {
+                        "RowName": "Gunpowder",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Launcher_Ammo_Rudimentary_Smoke",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "CraftingBench"
+            }
+        },
+        {
+            "Name": "Rudimentary_Impact_Grenade",
+            "Requirement": {
+                "RowName": "Rudimentary_Grenade"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Manufacturer",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2
+                },
+                {
+                    "Element": {
+                        "RowName": "Gunpowder",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Launcher_Ammo_Rudimentary_Grenade",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "CraftingBench"
             }
         }
     ]

@@ -10514,7 +10514,8 @@
                 "/Game/Maps/Terrain_022/Sublevels/Developer/T022_Developer_Yellow.T022_Developer_Yellow",
                 "/Game/Maps/Terrain_022/Sublevels/Developer/T022_Developer_Green.T022_Developer_Green",
                 "/Game/Maps/Terrain_022/Sublevels/Developer/T022_Developer_Red.T022_Developer_Red",
-                "/Game/Maps/Terrain_022/Sublevels/Developer/T022_Developer_Blue.T022_Developer_Blue"
+                "/Game/Maps/Terrain_022/Sublevels/Developer/T022_Developer_Blue.T022_Developer_Blue",
+                "/Game/Maps/Terrain_022/Sublevels/Developer/T022_Developer_Purple.T022_Developer_Purple"
             ],
             "GridBounds": [
                 {
@@ -11396,21 +11397,10 @@
                 {
                     "CollectionName": "Red",
                     "HeightmapLevels": [
-                        "/Game/Maps/Terrain_022/heightmap/heightmap_x0_y7.heightmap_x0_y7",
-                        "/Game/Maps/Terrain_022/heightmap/heightmap_x1_y7.heightmap_x1_y7",
-                        "/Game/Maps/Terrain_022/heightmap/heightmap_x2_y7.heightmap_x2_y7",
                         "/Game/Maps/Terrain_022/heightmap/heightmap_x3_y7.heightmap_x3_y7",
-                        "/Game/Maps/Terrain_022/heightmap/heightmap_x0_y6.heightmap_x0_y6",
-                        "/Game/Maps/Terrain_022/heightmap/heightmap_x1_y6.heightmap_x1_y6",
-                        "/Game/Maps/Terrain_022/heightmap/heightmap_x2_y6.heightmap_x2_y6",
                         "/Game/Maps/Terrain_022/heightmap/heightmap_x3_y6.heightmap_x3_y6",
-                        "/Game/Maps/Terrain_022/heightmap/heightmap_x0_y5.heightmap_x0_y5",
-                        "/Game/Maps/Terrain_022/heightmap/heightmap_x1_y5.heightmap_x1_y5",
-                        "/Game/Maps/Terrain_022/heightmap/heightmap_x2_y5.heightmap_x2_y5",
                         "/Game/Maps/Terrain_022/heightmap/heightmap_x3_y5.heightmap_x3_y5",
                         "/Game/Maps/Terrain_022/heightmap/heightmap_x4_y5.heightmap_x4_y5",
-                        "/Game/Maps/Terrain_022/heightmap/heightmap_x1_y4.heightmap_x1_y4",
-                        "/Game/Maps/Terrain_022/heightmap/heightmap_x2_y4.heightmap_x2_y4",
                         "/Game/Maps/Terrain_022/heightmap/heightmap_x3_y4.heightmap_x3_y4",
                         "/Game/Maps/Terrain_022/heightmap/heightmap_x4_y4.heightmap_x4_y4",
                         "/Game/Maps/Terrain_022/heightmap/heightmap_x5_y4.heightmap_x5_y4",
@@ -11438,6 +11428,23 @@
                         "/Game/Maps/Terrain_022/heightmap/heightmap_x7_y4.heightmap_x7_y4"
                     ],
                     "DeveloperLevel": "/Game/Maps/Terrain_022/Sublevels/Developer/T022_Developer_Blue.T022_Developer_Blue"
+                },
+                {
+                    "CollectionName": "Purple",
+                    "HeightmapLevels": [
+                        "/Game/Maps/Terrain_022/heightmap/heightmap_x2_y4.heightmap_x2_y4",
+                        "/Game/Maps/Terrain_022/heightmap/heightmap_x1_y4.heightmap_x1_y4",
+                        "/Game/Maps/Terrain_022/heightmap/heightmap_x2_y5.heightmap_x2_y5",
+                        "/Game/Maps/Terrain_022/heightmap/heightmap_x1_y5.heightmap_x1_y5",
+                        "/Game/Maps/Terrain_022/heightmap/heightmap_x0_y5.heightmap_x0_y5",
+                        "/Game/Maps/Terrain_022/heightmap/heightmap_x0_y6.heightmap_x0_y6",
+                        "/Game/Maps/Terrain_022/heightmap/heightmap_x1_y6.heightmap_x1_y6",
+                        "/Game/Maps/Terrain_022/heightmap/heightmap_x2_y6.heightmap_x2_y6",
+                        "/Game/Maps/Terrain_022/heightmap/heightmap_x2_y7.heightmap_x2_y7",
+                        "/Game/Maps/Terrain_022/heightmap/heightmap_x1_y7.heightmap_x1_y7",
+                        "/Game/Maps/Terrain_022/heightmap/heightmap_x0_y7.heightmap_x0_y7"
+                    ],
+                    "DeveloperLevel": "/Game/Maps/Terrain_022/Sublevels/Developer/T022_Developer_Purple.T022_Developer_Purple"
                 }
             ],
             "MinimapData": {

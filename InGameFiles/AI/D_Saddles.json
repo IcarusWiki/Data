@@ -3096,6 +3096,24 @@
                     "RowName": "DangerousHorizons"
                 }
             }
+        },
+        {
+            "Name": "Saddle_Bull_Cart_Explosives",
+            "SaddleTag": {
+                "TagName": "Item.Mount.Saddle.Mission.Explosives"
+            },
+            "SupportedMount": [
+                {
+                    "RowName": "Bull",
+                    "DataTableName": "D_Mounts"
+                }
+            ],
+            "SkeletalMesh": "/Game/ASS/ITM/Cart_Wood/SK_ITM_Cart_Wood_Bull_Explosive.SK_ITM_Cart_Wood_Bull_Explosive",
+            "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Cart_Wood_AnimBP.SK_ITM_Cart_Wood_AnimBP_C",
+            "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount_Cart_Explosive_Child.BP_Seat_Mount_Cart_Explosive_Child_C'",
+            "AttachSocket": "RigRoot",
+            "PersistentSound": "/Game/FMOD/Events/SFX/Deployable/Cart/SFX_CART_SADDLE.SFX_CART_SADDLE",
+            "AudioSocket": "Socket_Axle"
         }
     ]
 }

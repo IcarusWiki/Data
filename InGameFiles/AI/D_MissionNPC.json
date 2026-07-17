@@ -550,6 +550,12 @@
             "Speaker": {
                 "RowName": "APE_Researcher_1"
             }
+        },
+        {
+            "Name": "Rancher",
+            "Speaker": {
+                "RowName": "Rancher"
+            }
         }
     ]
 }

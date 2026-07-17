@@ -55,7 +55,11 @@
         },
         "bUseActorPooling": false,
         "bDisableRecorderComponent": false,
-        "OnHitAINoiseEventRange": 300
+        "OnHitAINoiseEventRange": 300,
+        "DelaySpawningVisibilityTime": 0,
+        "bUseProjectileWeightForLauncher": false,
+        "LauncherProjectileAdditionalForceMultiplier": 1,
+        "bIgnorePayloadDeployOverride": false
     },
     "Rows": [
         {
@@ -1537,7 +1541,8 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
-            }
+            },
+            "DelaySpawningVisibilityTime": 0.05000000074505806
         },
         {
             "Name": "Frag_Grenade_Impact",
@@ -1570,7 +1575,8 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
-            }
+            },
+            "DelaySpawningVisibilityTime": 0.05000000074505806
         },
         {
             "Name": "Radiation_Grenade",
@@ -1603,7 +1609,8 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_WEP_GRE_RADIATION_EXPLODE.SFX_WEP_GRE_RADIATION_EXPLODE"
-            }
+            },
+            "DelaySpawningVisibilityTime": 0.05000000074505806
         },
         {
             "Name": "EMP_Grenade",
@@ -1636,7 +1643,8 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
-            }
+            },
+            "DelaySpawningVisibilityTime": 0.05000000074505806
         },
         {
             "Name": "Molotov",
@@ -1689,7 +1697,9 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
-            }
+            },
+            "DelaySpawningVisibilityTime": 0.05000000074505806,
+            "bIgnorePayloadDeployOverride": true
         },
         {
             "Name": "Knife_Taxidermy",
@@ -3964,7 +3974,8 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
-            }
+            },
+            "DelaySpawningVisibilityTime": 0.05000000074505806
         },
         {
             "Name": "Rock_Golem_Grenade_Caltrops",
@@ -4144,7 +4155,8 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
-            }
+            },
+            "DelaySpawningVisibilityTime": 0.05000000074505806
         },
         {
             "Name": "Ape_Grenade",
@@ -4178,7 +4190,8 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_APE_GRENADE_FLY.SFX_BALLISTIC_APE_GRENADE_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
-            }
+            },
+            "DelaySpawningVisibilityTime": 0.05000000074505806
         },
         {
             "Name": "GreatApe_Log_Projectile",
@@ -4594,7 +4607,8 @@
             },
             "SpawnPositionOffset": {
                 "X": 94
-            }
+            },
+            "LauncherProjectileAdditionalForceMultiplier": 1.75
         },
         {
             "Name": "Laser_Pistol_Ammo",
@@ -5011,8 +5025,7 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_RADBOSS_WEB_TRAVEL.SFX_CRE_RADBOSS_WEB_TRAVEL",
                 "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_RADBOSS_WEB_IMPACT.SFX_CRE_RADBOSS_WEB_IMPACT"
-            },
-            "bUseActorPooling": true
+            }
         },
         {
             "Name": "RadBoss_Spit",
@@ -5066,10 +5079,14 @@
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
             "Damage": 36,
             "DamageVariationPercentage": 10,
+            "bCanStealthAttack": false,
             "bHomingProjectile": false,
             "bUnbreakableDuringKillCam": false,
-            "Weight": 1,
+            "Weight": 2,
             "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_RudimentaryStone.BP_Payload_RudimentaryStone_C",
+            "PayloadDeploymentType": "OnBounceImmediate",
+            "PayloadDeploymentTimerDelay": 0,
             "BreakChance": 1,
             "PostDeployLifetime": 5,
             "CullDistanceSquared": 400000000,
@@ -5082,6 +5099,11 @@
                 "MinFrictionFraction": 0
             },
             "RotationFollowsVelocity": false,
+            "AngularRotation": {
+                "Pitch": 5,
+                "Yaw": 5,
+                "Roll": -180
+            },
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_ARROW_FLY.SFX_BALLISTIC_ARROW_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Impacts/SFX_IMPACT_STONE_BULLET.SFX_IMPACT_STONE_BULLET"
@@ -5090,6 +5112,7 @@
         {
             "Name": "Frag_Grenade_Rudimentary",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 20,
             "DamageVariationPercentage": 10,
             "bCanStealthAttack": false,
             "bHomingProjectile": false,
@@ -5097,9 +5120,12 @@
             "Weight": 0.7699999809265137,
             "AllowPickupAfterSettle": false,
             "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_Frag_Grenade_Rudimentary.BP_Payload_Frag_Grenade_Rudimentary_C",
-            "PayloadDeploymentTimerDelay": 1,
+            "PayloadDeploymentType": "OnBounceImmediate",
+            "PayloadDeploymentTimerDelay": 0,
             "BreakChance": 0,
             "PostDeployLifetime": 0.10000000149011612,
+            "CullDistanceSquared": 400000000,
+            "AttachOnHit": false,
             "ProjectileBounceSettings": {
                 "bBounceAngleAffectsFriction": false,
                 "Bounciness": 0.20000000298023224,
@@ -5118,29 +5144,41 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
-            }
+            },
+            "DelaySpawningVisibilityTime": 0.05000000074505806
         },
         {
             "Name": "Smoke_Grenade_Rudimentary",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 10,
             "DamageVariationPercentage": 10,
             "bCanStealthAttack": false,
             "bHomingProjectile": false,
             "Weight": 0.800000011920929,
+            "AllowPickupAfterSettle": false,
             "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_Smoke_Grenade_Rudimentary.BP_Payload_Smoke_Grenade_Rudimentary_C",
             "PayloadDeploymentTimerDelay": 2,
             "BreakChance": 0,
             "PostDeployLifetime": 0.10000000149011612,
+            "CullDistanceSquared": 400000000,
             "AttachOnHit": false,
             "ProjectileBounceSettings": {
                 "Bounciness": 0.20000000298023224,
                 "BounceVelocityStopSimulatingThreshold": 20,
                 "MinTimeBetweenBounces": 0.30000001192092896
             },
+            "RotationFollowsVelocity": false,
+            "AngularRotation": {
+                "Pitch": 90,
+                "Roll": 45
+            },
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
-            }
+            },
+            "OnHitAINoiseEventRange": 150,
+            "DelaySpawningVisibilityTime": 0.05000000074505806,
+            "bIgnorePayloadDeployOverride": true
         },
         {
             "Name": "Nails_Grenade_Rudimentary",
@@ -5150,11 +5188,13 @@
             "bCanStealthAttack": false,
             "bHomingProjectile": false,
             "Weight": 0.75,
+            "AllowPickupAfterSettle": false,
             "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_Rudimentary_Nails.BP_Payload_Rudimentary_Nails_C",
             "PayloadDeploymentType": "OnBounceImmediate",
             "PayloadDeploymentTimerDelay": 0,
             "BreakChance": 0,
             "PostDeployLifetime": 0.10000000149011612,
+            "CullDistanceSquared": 400000000,
             "ProjectileBounceSettings": {
                 "bBounceAngleAffectsFriction": false,
                 "Bounciness": 0.20000000298023224,
@@ -5162,18 +5202,14 @@
                 "BounceVelocityStopSimulatingThreshold": 40,
                 "MinTimeBetweenBounces": 0.30000001192092896
             },
-            "RotationFollowsVelocity": false,
             "VelocityRotationOffset": {
                 "Roll": 5
-            },
-            "AngularRotation": {
-                "Pitch": 90,
-                "Roll": 45
             },
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
-            }
+            },
+            "DelaySpawningVisibilityTime": 0.05000000074505806
         }
     ]
 }

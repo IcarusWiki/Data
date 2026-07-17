@@ -1035,9 +1035,7 @@
             "GrantedStats": {
                 "(Value=\"BaseWeightCapacity_+\")": 1000,
                 "(Value=\"BaseMovementSpeed_+\")": -50,
-                "(Value=\"BaseMountHeavyCargoSlots_+\")": 5,
-                "(Value=\"IsPullingCart_?\")": 1,
-                "(Value=\"BaseMountCargoSlots_+\")": 10
+                "(Value=\"IsPullingCart_?\")": 1
             }
         },
         {

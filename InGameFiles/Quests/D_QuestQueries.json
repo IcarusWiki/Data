@@ -14028,6 +14028,42 @@
             }
         },
         {
+            "Name": "GH_RAD_C_Base",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.C.Base"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.C.Base )"
+            }
+        },
+        {
+            "Name": "GH_RAD_C_NPC",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.C.NPC"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.C.NPC )"
+            }
+        },
+        {
             "Name": "GH_RAD_C_Deliver",
             "Query": {
                 "TagDictionary": [
@@ -14655,6 +14691,204 @@
                     0
                 ],
                 "AutoDescription": " ALL( GreatHunts.RadBoss.B2.M3 )"
+            }
+        },
+        {
+            "Name": "GH_RAD_C_Explode",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.C.Explode"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.C.Explode )"
+            }
+        },
+        {
+            "Name": "T1_Forest_Scan_Equipment_NPC",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.Scan.NPC"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.Scan.NPC )"
+            }
+        },
+        {
+            "Name": "T1_Forest_Scan_Cave",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.Scan.Cave"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.Scan.Cave )"
+            }
+        },
+        {
+            "Name": "GH_RAD_C2_Victor",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.C2.Victor"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.C2.Victor )"
+            }
+        },
+        {
+            "Name": "GH_RAD_C2_Theo",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.C2.Theo"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.C2.Theo )"
+            }
+        },
+        {
+            "Name": "GH_RAD_C2_Firing_1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.C2.Firing.1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.C2.Firing.1 )"
+            }
+        },
+        {
+            "Name": "GH_RAD_C2_Firing_2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.C2.Firing.2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.C2.Firing.2 )"
+            }
+        },
+        {
+            "Name": "GH_RAD_C2_Miniboss",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.C2.Miniboss"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.C2.Miniboss )"
+            }
+        },
+        {
+            "Name": "GH_RAD_D_Deliver",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.D.Delivery"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.D.Delivery )"
+            }
+        },
+        {
+            "Name": "GH_RAD_D_Spawner",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.D.Spawner"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.D.Spawner )"
+            }
+        },
+        {
+            "Name": "GH_RAD_D_Rock",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.D.Rocks"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.D.Rocks )"
             }
         }
     ]

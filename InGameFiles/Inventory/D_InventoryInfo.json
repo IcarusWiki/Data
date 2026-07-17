@@ -2360,7 +2360,7 @@
                 "Value": "General"
             },
             "SlotTemplate": {
-                "RowName": "Any_Launcher_T2_Projectiles"
+                "RowName": "Any_Launcher_Projectiles"
             },
             "StartingSlots": 1
         },

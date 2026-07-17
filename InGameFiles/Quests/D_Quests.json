@@ -802,22 +802,23 @@
         },
         {
             "Name": "OLY_Forest_Craft_Axe",
-            "Class": "/Game/BP/Quests/Olympus/Forest/Recon/BPQ_OLY_Recon_Axe.BPQ_OLY_Recon_Axe_C",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Recon/BPQ_OLY_Forest_Recon_Axe.BPQ_OLY_Forest_Recon_Axe_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Craft_Axe-Description\", \"Gather Sticks, Stones off the ground and Fiber from bushes then open the Crafting Menu ([Crafting]) and Craft a Stone Axe for Protection\")"
         },
         {
             "Name": "OLY_Forest_Craft_Torch",
             "Class": "/Game/BP/Quests/Olympus/Forest/Recon/BPQ_OLY_Recon_Torch.BPQ_OLY_Recon_Torch_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Craft_Torch-Description\", \"Unlock a Wood Rag Torch ([Tech]) and Craft it with ([Crafting]) to provide yourself light during the night\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Craft_Torch-Description\", \"Unlock a Wood Rag Torch ([Tech]) and Craft it with ([Crafting]) to Provide Light During the Night\")"
         },
         {
             "Name": "OLY_Forest_Recon_Survive",
-            "Class": "/Game/BP/Quests/Olympus/Forest/Recon/BPQ_OLY_Survive.BPQ_OLY_Survive_C"
+            "Class": "/Game/BP/Quests/Olympus/Forest/Recon/BPQ_OLY_Survive.BPQ_OLY_Survive_C",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Recon_Survive-InfoText\", \"Press ([OpenBestiary]) to Open the Field Guide for More World and Items Information\")"
         },
         {
             "Name": "OLY_Forest_Bedroll",
             "Class": "/Game/BP/Quests/Olympus/Forest/Recon/BPQ_OLY_Bedroll.BPQ_OLY_Bedroll_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Bedroll-Description\", \"Build a shelter and craft a bedroll to survive the harsh Icarus environment.\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Bedroll-Description\", \"Build a Shelter and Craft and Place a Bedroll to Survive the Harsh Icarus Environment.\")",
             "DialogueEvents": {
                 "QuestEnd": {
                     "RowName": "Recon_Build",
@@ -1048,7 +1049,7 @@
             "Name": "OLY_Forest_Research_Collect_Bioweapon",
             "Class": "/Game/BP/Quests/Olympus/Forest/Research/BPQ_OLY_Forest_Research_Collect_Bioweapon.BPQ_OLY_Forest_Research_Collect_Bioweapon_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Research_Collect_Bioweapon-Description\", \"Collect the Chemical Weapon Remains\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Research_Collect_Bioweapon-InfoText\", \"Build Ladders or Buildings to Scale the Rock\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Research_Collect_Bioweapon-InfoText\", \"Build up to Reach the Crash Site\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_Research_Item3"
             }
@@ -3209,6 +3210,7 @@
             "Name": "OLY_Desert_Construction_Head_To_Location",
             "Class": "/Game/BP/Quests/Common/BPQ_Travel.BPQ_Travel_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Head_To_Location-Description\", \"Reach build location ([Map])\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Head_To_Location-InfoText\", \"Search for a nearby cave.\")",
             "DialogueEvents": {
                 "QuestEnd": {
                     "RowName": "ConstructionArrive4b",
@@ -3229,12 +3231,14 @@
         {
             "Name": "OLY_Desert_Construction_Worklamps",
             "Class": "/Game/BP/Quests/Olympus/Desert/Construction/BPQ_OLY_Desert_Construction_Worklamp.BPQ_OLY_Desert_Construction_Worklamp_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Worklamps-Description\", \"Construct and power 2x Directional Worklamps\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Worklamps-Description\", \"Construct and power 2x Worklamps\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Worklamps-InfoText\", \"Can be either Directional or Omni-Directional Worklamp variations.\")"
         },
         {
             "Name": "OLY_Desert_Construction_Dehumidifier",
             "Class": "/Game/BP/Quests/Olympus/Desert/Construction/BPQ_OLY_Desert_Construction_Dehumidifier.BPQ_OLY_Desert_Construction_Dehumidifier_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Dehumidifier-Description\", \"Construct and power Electric Dehumidifier\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Dehumidifier-Description\", \"Construct and power Electric Dehumidifier\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Dehumidifier-InfoText\", \"Toggle the Dehumidifer on when connected.\")"
         },
         {
             "Name": "OLY_Desert_Construction_Machining_Bench",
@@ -4202,6 +4206,7 @@
             "Name": "OLY_Desert_Research_2_Power",
             "Class": "/Game/BP/Quests/Olympus/Desert/Research_2/BPQ_Desert_OLY_Research_2_Power.BPQ_Desert_OLY_Research_2_Power_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Research_2_Power-Description\", \"Connect the Analyzer to an active Energy Network\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Research_2_Power-InfoText\", \"Toggle the device on once it has been hooked up.\")",
             "DialogueEvents": {
                 "QuestStart": {
                     "RowName": "Expedition4aDeviceNeedsPower",
@@ -4248,7 +4253,7 @@
         {
             "Name": "OLY_Desert_Research_2_Defend",
             "Class": "/Game/BP/Quests/Olympus/Desert/Research_2/BPQ_Desert_OLY_Research_2_Defend.BPQ_Desert_OLY_Research_2_Defend_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Research_2_Defend-Description\", \"Defend the Analyzer while it processes the Samples <Number>{0}%</>\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Research_2_Defend-Description\", \"Defend the Analyzer while it processes the Samples: <Number>{0}%</>\")",
             "DialogueEvents": {
                 "QuestStart": {
                     "RowName": "Scanning1AnimalAttack",
@@ -5944,8 +5949,7 @@
         {
             "Name": "Common_Explore_End",
             "Class": "/Game/BP/Quests/Common/BPQ_Common_Launch.BPQ_Common_Launch_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"Common_Explore_End-Description\", \"Interact and Launch your Dropship to Complete the Mission\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"Common_Explore_End-InfoText\", \"Press ([OpenBestiary]) to open the Field Guide for more world and items information.\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Common_Explore_End-Description\", \"Interact with and Launch your Dropship to Complete the Mission\")"
         },
         {
             "Name": "STYX_D_Research2",
@@ -8047,7 +8051,7 @@
             "Name": "PRO_Story0_Craft",
             "Class": "/Game/BP/Quests/Prometheus/Story/Story0/BPQ_PRO_Story0_Craft.BPQ_PRO_Story0_Craft_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Story0_Craft-Description\", \"Build & Place a C0NT4CT Device (Crafting Bench) to engage with SMPL3 Missions and Operations\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"PRO_Story0_Craft-InfoText\", \"Press ([OpenBestiary]) to open the Field Guide for more world and items information.\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"PRO_Story0_Craft-InfoText\", \"Press ([OpenBestiary]) to Open the Field Guide for More World and Items Information\")",
             "DialogueEvents": {
                 "QuestStart": {
                     "RowName": "OpenWorldIntroSRR",
@@ -17512,7 +17516,7 @@
             "Name": "ELY_Story_0_Craft",
             "Class": "/Game/BP/Quests/Elysium/Story/Story0/BPQ_ELY_Story0_Craft.BPQ_ELY_Story0_Craft_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_0_Craft-Description\", \"Build & Place a C0NT4CT Device (Crafting Bench) to reestablish communication with EDEN and engage with SMPL3 Missions and Operations\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_0_Craft-InfoText\", \"Press ([OpenBestiary]) to open the Field Guide for more world and items information.\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_0_Craft-InfoText\", \"Press ([OpenBestiary]) to open the Field Guide for more world and items information\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -17554,8 +17558,8 @@
         {
             "Name": "ELY_Story_1_Beacon_Craft",
             "Class": "/Game/BP/Quests/Elysium/Story/Story1/BPQ_ELY_Story_1_Beacon_Craft.BPQ_ELY_Story_1_Beacon_Craft_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_1_Beacon_Craft-Description\", \"Acquire a Flare Gun and Some Flares\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_1_Beacon_Craft-InfoText\", \"The Flare Gun is Unlocked on the T2 Tech Tree and Crafted at Crafting Bench.\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_1_Beacon_Craft-Description\", \"Acquire a Single Barrel Launcher and Some Flares\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_1_Beacon_Craft-InfoText\", \"The  Single Barrel Launcher is Unlocked on the T2 Tech Tree and Crafted at Crafting Bench.\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -17575,7 +17579,7 @@
         {
             "Name": "ELY_Story_1_Beacon_Place",
             "Class": "/Game/BP/Quests/Elysium/Story/Story1/BPQ_ELY_Story_1_Beacon_Place.BPQ_ELY_Story_1_Beacon_Place_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_1_Beacon_Place-Description\", \"Fire the Flare Gun within the Area so the Flare Reaches a Height of 200m ([Map])\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_1_Beacon_Place-Description\", \"Fire the  Single Barrel Launcher within the Area so the Flare Reaches a Height of 200m ([Map])\")",
             "InfoText": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_1_Beacon_Place-InfoText\", \"Be prepared to build to reach the desired height.\")",
             "LocationQuery": {
                 "RowName": "ELY_STORY_1_BUILD"
@@ -20386,7 +20390,7 @@
             "Name": "OLY_SQ_Norex_Equipment",
             "Class": "/Game/BP/Quests/NPC/Norex/BPQ_SQ_Norex_Equipment.BPQ_SQ_Norex_Equipment_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_SQ_Norex_Equipment-Description\", \"Prepare Equipment\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_SQ_Norex_Equipment-InfoText\", \"The Flare Gun is Unlocked on the T2 Tech Tree and Crafted at Crafting Bench.\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_SQ_Norex_Equipment-InfoText\", \"The Single Barrel Launcher is Unlocked on the T2 Tech Tree and Crafted at Crafting Bench.\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -20396,7 +20400,7 @@
         {
             "Name": "OLY_SQ_Norex_Equipment_Gun",
             "Class": "/Game/BP/Quests/NPC/Norex/BPQ_SQ_Norex_Equipment_Gun.BPQ_SQ_Norex_Equipment_Gun_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_SQ_Norex_Equipment_Gun-Description\", \"Acquire a Flare Gun\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_SQ_Norex_Equipment_Gun-Description\", \"Acquire a Single Barrel Launcher\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -20406,7 +20410,7 @@
         {
             "Name": "OLY_SQ_Norex_Equipment_Flare",
             "Class": "/Game/BP/Quests/NPC/Norex/BPQ_SQ_Norex_Equipment_Flare.BPQ_SQ_Norex_Equipment_Flare_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_SQ_Norex_Equipment_Flare-Description\", \"Acquire some Flare Gun Ammo\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_SQ_Norex_Equipment_Flare-Description\", \"Acquire some Single Barrel Launcher Flares\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -22446,6 +22450,41 @@
             "Name": "OLY_Forest_Construction_ChimneyCap",
             "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_ChimneyCap.BPQ_OLY_Forest_Construction_ChimneyCap_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_ChimneyCap-Description\", \"Place a Chimney Cap  <Number>({0} / {1})</>\")"
+        },
+        {
+            "Name": "OLY_Forest_Recon_GatherResources",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Recon/BPQ_Oly_Forest_Recon_GatherResources.BPQ_Oly_Forest_Recon_GatherResources_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Recon_GatherResources-Description\", \"Gather Sticks and Stones off of the Ground, and Fiber from Bushes to Craft Items \")"
+        },
+        {
+            "Name": "OLY_Forest_Recon_CraftItems",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Recon/BPQ_Oly_Forest_Recon_CraftItems.BPQ_Oly_Forest_Recon_CraftItems_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Recon_CraftItems-Description\", \"Craft Tools for Protection and Gathering\")"
+        },
+        {
+            "Name": "OLY_Forest_Recon_Fiber",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Recon/BPQ_OLY_Forest_Recon_Fiber.BPQ_OLY_Forest_Recon_Fiber_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Recon_Fiber-Description\", \"Gather Fiber  <Number>({0} / {1})</>\")"
+        },
+        {
+            "Name": "OLY_Forest_Recon_Sticks",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Recon/BPQ_OLY_Forest_Recon_Sticks.BPQ_OLY_Forest_Recon_Sticks_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Recon_Sticks-Description\", \"Gather Sticks  <Number>({0} / {1})</>\")"
+        },
+        {
+            "Name": "OLY_Forest_Recon_Stones",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Recon/BPQ_OLY_Forest_Recon_Stones.BPQ_OLY_Forest_Recon_Stones_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Recon_Stones-Description\", \"Gather Stones  <Number>({0} / {1})</>\")"
+        },
+        {
+            "Name": "OLY_Forest_Recon_Axe",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Recon/BPQ_OLY_Forest_Recon_Axe.BPQ_OLY_Forest_Recon_Axe_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Recon_Axe-Description\", \"Craft an Axe ([Crafting]) for Gathering Wood and Hunting\")"
+        },
+        {
+            "Name": "OLY_Forest_Recon_Knife",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Recon/BPQ_OLY_Forest_Recon_Knife.BPQ_OLY_Forest_Recon_Knife_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Recon_Knife-Description\", \"Unlock a Stone Knife ([Tech]) and Craft it with ([Crafting]) for Skinning Animals\")"
         }
     ]
 }

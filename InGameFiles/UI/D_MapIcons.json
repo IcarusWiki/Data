@@ -1197,7 +1197,7 @@
         {
             "Name": "Mission_Explosive",
             "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
-            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Mission_Explosive.ITEM_Mission_Explosive'",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Explosive_Placement.T_Icon_Explosive_Placement'",
             "Color": {
                 "B": 53,
                 "G": 78,
@@ -1210,11 +1210,11 @@
         {
             "Name": "Mission_Laser",
             "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
-            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Mission_Prototype_Laser.ITEM_Mission_Prototype_Laser'",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Laser_Placement.T_Icon_Laser_Placement'",
             "Color": {
-                "B": 53,
-                "G": 78,
-                "R": 254,
+                "B": 255,
+                "G": 217,
+                "R": 176,
                 "A": 255
             },
             "bShowNameOnHover": true,
@@ -1235,6 +1235,19 @@
             "Name": "Settlement",
             "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
             "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Home.Icon_Map_Home'",
+            "bDisplayOnCompass": false
+        },
+        {
+            "Name": "Farm",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Farmhouse.T_Icon_Farmhouse'",
+            "Color": {
+                "B": 255,
+                "R": 187,
+                "A": 255
+            },
+            "bShowNameOnHover": true,
+            "HoverName": "NSLOCTEXT(\"D_MapIcons\", \"Farm-HoverName\", \"EDEN Domestication Outpost\")",
             "bDisplayOnCompass": false
         }
     ]

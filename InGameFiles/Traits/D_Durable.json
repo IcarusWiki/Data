@@ -2797,6 +2797,11 @@
         {
             "Name": "Settlement_Wall_Wood",
             "Max_Durability": 1500
+        },
+        {
+            "Name": "Caltrop_Rudimentary",
+            "Max_Durability": 1,
+            "Destroyed_At_Zero": true
         }
     ]
 }

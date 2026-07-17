@@ -427,8 +427,8 @@
         },
         {
             "Name": "Mission_Analyser",
-            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Mission_Analyser-DisplayName\", \"Analyser\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Mission_Analyser-Description\", \"Scans biosamples for processing. To determine use.\")"
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Mission_Analyser-DisplayName\", \"Analyzer\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Mission_Analyser-Description\", \"Scans and processes biosamples to determine use.\")"
         },
         {
             "Name": "Broken_Crate",
@@ -1602,6 +1602,16 @@
             "Name": "RAD_Colonist",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"RAD_Colonist-DisplayName\", \"Colonist Miles\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"RAD_Colonist-Description\", \"A Colonist Scientist who is trying to reverse the Radioactive Mutation of their collegues.\")"
+        },
+        {
+            "Name": "NPC_Rancher",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Rancher-DisplayName\", \"Ranch Operations Officer Forsyth\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Rancher-Description\", \"UDA assigned Specialist who deals in all manner of farmable creatures on Icarus..\")"
+        },
+        {
+            "Name": "Duke",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Duke-DisplayName\", \"EDEN\\'s Bull\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Duke-Description\", \"It\\'s cart contains a variety of explosive equipment.\")"
         }
     ]
 }

@@ -6340,12 +6340,12 @@
         },
         {
             "Name": "Mesh_Ammo_Stone",
-            "ItemMesh": "/Game/ASS/ITM/Ore/SM_Rock_Ore_Stone.SM_Rock_Ore_Stone",
+            "ItemMesh": "/Game/ASS/ITM/Projectile/SM_ITM_Projectile_Stone.SM_ITM_Projectile_Stone",
             "ItemActor": "/Game/ASS/WEP/SK_GUN_Shotgun/BP_SMItem_Rudimentary_Stone.BP_SMItem_Rudimentary_Stone_C"
         },
         {
             "Name": "Mesh_Rudimentary_Ammo_Nails",
-            "ItemMesh": "/Game/ASS/WEP/SK_GRE_Golem_Caltrop_Grenade/SM_GRE_Golem_Caltrop_Grenade_Spike.SM_GRE_Golem_Caltrop_Grenade_Spike",
+            "ItemMesh": "/Game/ASS/ITM/Projectile/SM_ITM_Projectile_Nails.SM_ITM_Projectile_Nails",
             "ItemActor": "/Game/BP/Objects/World/Items/Weapons/BP_SMItem_Caltrops_Nails.BP_SMItem_Caltrops_Nails_C"
         },
         {
@@ -6372,6 +6372,22 @@
             "Name": "Mesh_Animal_Virus",
             "ItemMesh": "/Game/ASS/ITM/SM_ITM_BIO_Needle_Blue.SM_ITM_BIO_Needle_Blue",
             "EquipHandMesh": "/Game/ASS/ITM/SM_ITM_BIO_Needle_Blue.SM_ITM_BIO_Needle_Blue"
+        },
+        {
+            "Name": "Mesh_Launcher_T2",
+            "ItemMesh": "/Game/ASS/WEP/GUN_Launcher_T2/SK_WEP_GUN_Launcher_T2.SK_WEP_GUN_Launcher_T2",
+            "EquipHandMesh": "/Game/ASS/WEP/GUN_Launcher_T2/SK_WEP_GUN_Launcher_T2.SK_WEP_GUN_Launcher_T2",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SKItem_T2Launcher.BP_SKItem_T2Launcher_C"
+        },
+        {
+            "Name": "Mesh_Rudimentary_Grenade",
+            "ItemMesh": "/Game/ASS/WEP/GRE_Rudimentary/SK_WEP_GRE_Rudimentary_Frag.SK_WEP_GRE_Rudimentary_Frag",
+            "EquipHandMesh": "/Game/ASS/WEP/GRE_Rudimentary/SK_WEP_GRE_Rudimentary_Frag.SK_WEP_GRE_Rudimentary_Frag"
+        },
+        {
+            "Name": "Mesh_Rudimentary_Grenade_Smoke",
+            "ItemMesh": "/Game/ASS/WEP/GRE_Rudimentary/SK_WEP_GRE_Rudimentary_Smoke.SK_WEP_GRE_Rudimentary_Smoke",
+            "EquipHandMesh": "/Game/ASS/WEP/GRE_Rudimentary/SK_WEP_GRE_Rudimentary_Smoke.SK_WEP_GRE_Rudimentary_Smoke"
         }
     ]
 }

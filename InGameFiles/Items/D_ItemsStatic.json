@@ -210582,6 +210582,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Weapon.Firearm.Pistol"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     }
                 ]
             },
@@ -210589,6 +210592,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Weapon.Firearm.Pistol"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -234664,6 +234670,226 @@
             }
         },
         {
+            "Name": "T2_Launcher",
+            "Meshable": {
+                "RowName": "Mesh_Launcher_T2"
+            },
+            "Itemable": {
+                "RowName": "Item_Launcher_T2"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Focusable": {
+                "RowName": "Focusable_Flare_Gun"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "T2_Launcher"
+            },
+            "Usable": {
+                "RowName": "Repair"
+            },
+            "Durable": {
+                "RowName": "Flare_Gun"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "InventoryContainer": {
+                "RowName": "LauncherInventory_T2"
+            },
+            "Audio": {
+                "RowName": "Pistol"
+            },
+            "FirearmData": {
+                "RowName": "T2_Launcher"
+            },
+            "AdditionalStats": {
+                "(Value=\"ProjectilePayloadDeployOnImpact_?\")": 1
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Weapon.GrenadeLauncher"
+                    },
+                    {
+                        "TagName": "Item.Weapon.Launcher.T2"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Weapon.GrenadeLauncher"
+                    },
+                    {
+                        "TagName": "Item.Weapon.Launcher.T2"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Launcher_Ammo_Rudimentary_Grenade",
+            "Meshable": {
+                "RowName": "Mesh_Rudimentary_Grenade"
+            },
+            "Itemable": {
+                "RowName": "Item_Rudimentary_Grenade"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Focusable": {
+                "RowName": "Focusable_Grenade"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "WaterBomb"
+            },
+            "Ballistic": {
+                "RowName": "Frag_Grenade_Rudimentary"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "Grenade"
+            },
+            "RangedWeaponData": {
+                "RowName": "Grenade"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseExplosiveDamage_+\")": 375,
+                "(Value=\"BaseExplosiveDamageRadius_+\")": 750
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Ammo.Launcher.Makeshift"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Ammo.Launcher.Makeshift"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Ballistic"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Launcher_Ammo_Rudimentary_Smoke",
+            "Meshable": {
+                "RowName": "Mesh_Rudimentary_Grenade_Smoke"
+            },
+            "Itemable": {
+                "RowName": "Item_Rudimentary_Smoke"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Focusable": {
+                "RowName": "Focusable_Grenade"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "WaterBomb"
+            },
+            "Ballistic": {
+                "RowName": "Smoke_Grenade_Rudimentary"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "Grenade"
+            },
+            "RangedWeaponData": {
+                "RowName": "Grenade"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Ammo.Launcher.Makeshift"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Ammo.Launcher.Makeshift"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Ballistic"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
             "Name": "Meta_Oxite_Dissolver_Printed",
             "Meshable": {
                 "RowName": "Mesh_Generic_Machining"
@@ -234848,6 +235074,84 @@
                     },
                     {
                         "TagName": "Traits.Usable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Mission_Bull",
+            "Meshable": {
+                "RowName": "Mesh_Generic_Fabricator"
+            },
+            "Itemable": {
+                "RowName": "Item_Mission_Bull"
+            },
+            "Interactable": {
+                "RowName": "Deployable_NoPickup"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Deployable": {
+                "RowName": "Mission_Bull"
+            },
+            "Durable": {
+                "RowName": "Deployable_1500"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "LightDeployable"
+            },
+            "AdditionalStats": {
+                "(Value=\"IsInvulnerable_?\")": 1
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "FieldGuide.BlackList"
+                    },
+                    {
+                        "TagName": "IgnoreValidation"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "FieldGuide.BlackList"
+                    },
+                    {
+                        "TagName": "IgnoreValidation"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
                     }
                 ],
                 "ParentTags": []

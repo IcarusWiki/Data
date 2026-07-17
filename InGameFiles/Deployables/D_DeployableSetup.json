@@ -3668,6 +3668,14 @@
             "SnapToSurfaceNormal": false
         },
         {
+            "Name": "XL_Advanced_Aquarium_Mission",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Fishing/BP_Advanced_Aquarium_XL_Mission.BP_Advanced_Aquarium_XL_Mission_C",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"XL_Advanced_Aquarium_Mission-DeployableName\", \"Mission\")",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Aquarium_T4_XL/SM_DEP_Aquarium_T4_XL.SM_DEP_Aquarium_T4_XL",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "SnapToSurfaceNormal": false
+        },
+        {
             "Name": "Filletting_Bench",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Fishing/BP_FillettingStation.BP_FillettingStation_C",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Bench_Alteration_T3_V2.SM_DEP_Bench_Alteration_T3_V2",
@@ -15981,6 +15989,46 @@
             "SupportsCustomRotation": false,
             "bCanAffectNavigation": false,
             "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Mission_Bull",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/WorldObjects/Missions/BP_Mission_Bull.BP_Mission_Bull_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Icons/Icon_PassiveCreature.Icon_PassiveCreature",
+            "PreviewStaticMesh": "/Game/ASS/ITM/MetaConsumable/SM_ITM_Meta_LiquidConsumable_v3.SM_ITM_Meta_LiquidConsumable_v3",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "AudioOcclusionAmount": 0.5,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Weapon_Rack_T2",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_WeaponRack_T2.BP_WeaponRack_T2_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Weapon_Rack_2.T_ITEM_Homestead_Weapon_Rack_2",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Weapon_Rack_T2/SM_DEP_Weapon_Rack_T2.SM_DEP_Weapon_Rack_T2",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_PAINTING.SFX_DEPLOY_PAINTING",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Weapon_Rack_T3",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_WeaponRack_T3.BP_WeaponRack_T3_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Weapon_Rack_2.T_ITEM_Homestead_Weapon_Rack_2",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Weapon_Rack_T3/SM_DEP_Weapon_Rack_T3.SM_DEP_Weapon_Rack_T3",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_PAINTING.SFX_DEPLOY_PAINTING",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Weapon_Rack_T4",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_WeaponRack_T4.BP_WeaponRack_T4_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Weapon_Rack_2.T_ITEM_Homestead_Weapon_Rack_2",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Weapon_Rack_T4/SM_DEP_Weapon_Rack_T4.SM_DEP_Weapon_Rack_T4",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_PAINTING.SFX_DEPLOY_PAINTING",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false
         }
     ]
 }

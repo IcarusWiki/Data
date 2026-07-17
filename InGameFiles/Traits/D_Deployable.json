@@ -2755,6 +2755,15 @@
             ]
         },
         {
+            "Name": "XL_Advanced_Aquarium_Mission",
+            "Variants": [
+                {
+                    "RowName": "XL_Advanced_Aquarium_Mission",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ]
+        },
+        {
             "Name": "Filletting_Bench",
             "Variants": [
                 {
@@ -11648,6 +11657,46 @@
                     "DataTableName": "D_DeployableSetup"
                 }
             ]
+        },
+        {
+            "Name": "Mission_Bull",
+            "Variants": [
+                {
+                    "RowName": "Mission_Bull",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Weapon_Rack_T2",
+            "Variants": [
+                {
+                    "RowName": "Weapon_Rack_T2",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Weapon_Rack_T3",
+            "Variants": [
+                {
+                    "RowName": "Weapon_Rack_T3",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Weapon_Rack_T4",
+            "Variants": [
+                {
+                    "RowName": "Weapon_Rack_T4",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
         }
     ]
 }

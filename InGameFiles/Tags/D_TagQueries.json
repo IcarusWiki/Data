@@ -8711,6 +8711,24 @@
                 ],
                 "AutoDescription": " ALL( FactionMission.Item.Solution )"
             }
+        },
+        {
+            "Name": "Any_T2_Launcher",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Weapon.Launcher.T2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Weapon.Launcher.T2 )"
+            }
         }
     ]
 }

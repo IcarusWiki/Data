@@ -9502,6 +9502,14 @@
             "Weight": 10000
         },
         {
+            "Name": "Item_XL_Advanced_Aquarium_Mission",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_XL_Advanced_Aquarium_Mission-DisplayName\", \"Extra Large Aquarium\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_XL_Advanced_Aquarium.T_ITEM_XL_Advanced_Aquarium",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_XL_Advanced_Aquarium_Mission-Description\", \"A very fancy large fish tank for keeping your favourite finned friends around, must be connected to both power and water.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_XL_Advanced_Aquarium_Mission-FlavorText\", \"The latest technology for storing your fish friends.\")",
+            "Weight": 10000
+        },
+        {
             "Name": "Item_Saltwater_Fish_Fillet",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Saltwater_Fish_Fillet-DisplayName\", \"Saltwater Fish Fillet\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Saltwater_Fish_Fillet.ITEM_Saltwater_Fish_Fillet",
@@ -28339,7 +28347,8 @@
         {
             "Name": "Item_RadBoss_Crossbow",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Crossbow-DisplayName\", \"Malformation Crossbow\")",
-            "Weight": 1000
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/Bows/T_ITEM_RadBoss_Crossbow.T_ITEM_RadBoss_Crossbow",
+            "Weight": 2500
         },
         {
             "Name": "Item_Carbon_Rod",
@@ -28427,6 +28436,7 @@
         {
             "Name": "Item_Mission_Chemostat",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Chemostat-DisplayName\", \"Chemostat Bioreactor\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Mission_Chemostat.T_ITEM_Mission_Chemostat",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Chemostat-Description\", \"A continuous-flow bioreactor that maintains microorganisms under controlled, steady-state conditions through the continuous addition and removal of substrates.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Chemostat-FlavorText\", \"Is this mad science?\")",
             "Weight": 10000
@@ -28522,11 +28532,100 @@
             "Weight": 4500
         },
         {
-            "Name": "Electric_Seed_Extractor",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Electric_Seed_Extractor-DisplayName\", \"Electric Seed Extractor\")",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Electric_Seed_Extractor-Description\", \"An electric powered machine that extracts seeds quickly from vegetation.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Electric_Seed_Extractor-FlavorText\", \"Seeds at the speed of light.\")",
+            "Name": "Item_Electric_Seed_Extractor",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Seed_Extractor-DisplayName\", \"Electric Seed Extractor\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Seed_Extractor-Description\", \"An electric powered machine that extracts seeds quickly from vegetation.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Seed_Extractor-FlavorText\", \"Seeds at the speed of light.\")",
             "Weight": 8000
+        },
+        {
+            "Name": "Item_Rudimentary_Stone",
+            "DisplayName": "INVTEXT(\"[DNT] Bundle Of Stones\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/T_ITEM_Launcher_Ammo_Rudimentary_Stone.T_ITEM_Launcher_Ammo_Rudimentary_Stone",
+            "Weight": 300,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Item_Rudimentary_Nails",
+            "DisplayName": "INVTEXT(\"[DNT] Rudimentary Nail Ammo\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/T_ITEM_Launcher_Ammo_Rudimentary_Nail.T_ITEM_Launcher_Ammo_Rudimentary_Nail",
+            "Weight": 300,
+            "MaxStack": 5
+        },
+        {
+            "Name": "Item_Rudimentary_Smoke",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Rudimentary_Smoke-DisplayName\", \"Smoke Bomb\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Launcher_Ammo_Rudimentary_Smoke.T_ITEM_Launcher_Ammo_Rudimentary_Smoke",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Rudimentary_Smoke-Description\", \"A makeshift smoke grenade that can be thrown or used in a launcher.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Rudimentary_Smoke-FlavorText\", \"Conceal your position.\")",
+            "Weight": 300,
+            "MaxStack": 5
+        },
+        {
+            "Name": "Item_Rudimentary_Grenade",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Rudimentary_Grenade-DisplayName\", \"Crude Grenade\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Launcher_Ammo_Rudimentary_Grenade.T_ITEM_Launcher_Ammo_Rudimentary_Grenade",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Rudimentary_Grenade-Description\", \"A makeshift grenade that can be thrown or used in a launcher.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Rudimentary_Grenade-FlavorText\", \"Easy to make - easy to throw - easy to damage. \")",
+            "Weight": 300,
+            "MaxStack": 5
+        },
+        {
+            "Name": "Item_Rudimentary_Nail_Caltrops",
+            "DisplayName": "INVTEXT(\"[DNT] Rudimentary Caltrops\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/T_ITEM_Launcher_Ammo_Rudimentary_Nail_Caltrop.T_ITEM_Launcher_Ammo_Rudimentary_Nail_Caltrop",
+            "Weight": 50
+        },
+        {
+            "Name": "Item_Mission_Bull",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Bull-DisplayName\", \"Bull\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_PassiveCreature.Icon_PassiveCreature",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Bull-Description\", \"Trained by the Eris Inquisition for Eden.\")",
+            "Weight": 100,
+            "MaxStack": 10
+        },
+        {
+            "Name": "Item_Launcher_T2",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Launcher_T2-DisplayName\", \"Single Barrel Launcher\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/Guns/T_ITEM_T2_Launcher.T_ITEM_T2_Launcher",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Launcher_T2-Description\", \"A rudimentry launcher that can fire flares, grenades and other items typically thrown.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Launcher_T2-FlavorText\", \"Flares, Grenades, Smoke, what else could you want?\")",
+            "Weight": 2500
+        },
+        {
+            "Name": "Item_Mission_Laser_Utility_Battery",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Laser_Utility_Battery-DisplayName\", \"MK-200 Weaponized Laser (Battery Powered) \")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Mission_Prototype_Laser.ITEM_Mission_Prototype_Laser",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Laser_Utility_Battery-Description\", \"The result of salvaged drones and old terraforming equipment - has its own internal battery supply.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Laser_Utility_Battery-FlavorText\", \"It doesn\\'t look that unstable...\")",
+            "Weight": 2000
+        },
+        {
+            "Name": "Item_Weapon_Rack_T2",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T2-DisplayName\", \"T2 Weapon Rack\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Weapon_Rack_T2.T_ITEM_Weapon_Rack_T2",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T2-Description\", \"A countryside-inspired decor feature that brings character to your home.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T2-FlavorText\", \"Home Sweet Home\")",
+            "Weight": 2000,
+            "MaxStack": 5
+        },
+        {
+            "Name": "Item_Weapon_Rack_T3",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T3-DisplayName\", \"T3 Weapon Rack\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Weapon_Rack_T3.T_ITEM_Weapon_Rack_T3",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T3-Description\", \"A countryside-inspired decor feature that brings character to your home.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T3-FlavorText\", \"Home Sweet Home\")",
+            "Weight": 2000,
+            "MaxStack": 5
+        },
+        {
+            "Name": "Item_Weapon_Rack_T4",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T4-DisplayName\", \"T4 Weapon Rack\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Weapon_Rack_T4.T_ITEM_Weapon_Rack_T4",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T4-Description\", \"A countryside-inspired decor feature that brings character to your home.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T4-FlavorText\", \"Home Sweet Home\")",
+            "Weight": 2000,
+            "MaxStack": 5
         }
     ]
 }
