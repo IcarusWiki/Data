@@ -1071,6 +1071,19 @@
             "AISetup": {
                 "RowName": "Irradiated_Abomination"
             }
+        },
+        {
+            "Name": "RAD_E_Boss",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"RAD_E_Boss-CreatureNames-0\", \"Skulmutt Prime\")"
+            ],
+            "AISetup": {
+                "RowName": "Mange_Wolf_Alpha"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseMaximumHealth_+%\")": 100,
+                "(Value=\"BaseMeleeDamage_+%\")": 25
+            }
         }
     ]
 }

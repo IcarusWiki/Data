@@ -334,6 +334,7 @@
         {
             "Name": "XP_Boost",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_XPBonus.Icon_XPBonus'",
+            "Type": "Item",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"XP_Boost-ModifierName\", \"Double XP Event\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"XP_Boost-ModifierDescription\", \"Increases experience gained\")",
             "GrantedStats": {

@@ -8829,6 +8829,87 @@
             }
         },
         {
+            "Name": "Meta_Flashlight",
+            "Meshable": {
+                "RowName": "Mesh_Meta_Flashlight"
+            },
+            "Itemable": {
+                "RowName": "Item_Meta_Flashlight"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Focusable": {
+                "RowName": "Focusable_Meta_Flashlight"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Light_NoMelee"
+            },
+            "Fillable": {
+                "RowName": "Meta_Flashlight"
+            },
+            "Decayable": {
+                "RowName": "Decay_MetaItem"
+            },
+            "Audio": {
+                "RowName": "Default"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Upgrade.Vision"
+                    },
+                    {
+                        "TagName": "Item.Tool.Light"
+                    },
+                    {
+                        "TagName": "Item.Powered.Battery"
+                    },
+                    {
+                        "TagName": "Item.Meta"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Upgrade.Vision"
+                    },
+                    {
+                        "TagName": "Item.Tool.Light"
+                    },
+                    {
+                        "TagName": "Item.Powered.Battery"
+                    },
+                    {
+                        "TagName": "Item.Meta"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Fillable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
             "Name": "Fabricator",
             "Meshable": {
                 "RowName": "Mesh_Generic_Fabricator"
@@ -26887,6 +26968,9 @@
                     },
                     {
                         "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Building.Aluminium"
                     }
                 ]
             },
@@ -26897,6 +26981,9 @@
                     },
                     {
                         "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Building.Aluminium"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -26974,6 +27061,9 @@
                     },
                     {
                         "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Building.Aluminium"
                     }
                 ]
             },
@@ -26984,6 +27074,9 @@
                     },
                     {
                         "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Building.Aluminium"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -27061,6 +27154,9 @@
                     },
                     {
                         "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Building.Aluminium"
                     }
                 ]
             },
@@ -27071,6 +27167,9 @@
                     },
                     {
                         "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Building.Aluminium"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -27148,6 +27247,9 @@
                     },
                     {
                         "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Building.Aluminium"
                     }
                 ]
             },
@@ -27158,6 +27260,9 @@
                     },
                     {
                         "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Building.Aluminium"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -27235,6 +27340,9 @@
                     },
                     {
                         "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Building.Aluminium"
                     }
                 ]
             },
@@ -27245,6 +27353,9 @@
                     },
                     {
                         "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Building.Aluminium"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -32749,6 +32860,9 @@
                     },
                     {
                         "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Building.Aluminium"
                     }
                 ]
             },
@@ -32759,6 +32873,9 @@
                     },
                     {
                         "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Building.Aluminium"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -40002,6 +40119,9 @@
                     },
                     {
                         "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Building.Aluminium"
                     }
                 ]
             },
@@ -40012,6 +40132,9 @@
                     },
                     {
                         "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Building.Aluminium"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -40629,6 +40752,9 @@
                     },
                     {
                         "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Building.Aluminium"
                     }
                 ]
             },
@@ -40639,6 +40765,9 @@
                     },
                     {
                         "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Building.Aluminium"
                     },
                     {
                         "TagName": "Traits.Meshable"

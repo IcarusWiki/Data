@@ -1606,12 +1606,17 @@
         {
             "Name": "NPC_Rancher",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Rancher-DisplayName\", \"Ranch Operations Officer Forsyth\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Rancher-Description\", \"UDA assigned Specialist who deals in all manner of farmable creatures on Icarus..\")"
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Rancher-Description\", \"UDA assigned Specialist who deals in all manner of farmable creatures on Icarus.\")"
         },
         {
             "Name": "Duke",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Duke-DisplayName\", \"EDEN\\'s Bull\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Duke-Description\", \"It\\'s cart contains a variety of explosive equipment.\")"
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Duke-Description\", \"Its cart contains a variety of explosive equipment.\")"
+        },
+        {
+            "Name": "Malformation_Hole",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Malformation_Hole-DisplayName\", \"Malformation Escape Tunnel\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Malformation_Hole-Description\", \"A hastily made tunnel that travels deep underground.\")"
         }
     ]
 }

@@ -1434,6 +1434,18 @@
             "ArmourType": "Backpack"
         },
         {
+            "Name": "T4_Backpack",
+            "ArmourMesh": "/Game/ASS/ITM/SK_ITM_Backpack_Planetary_T4.SK_ITM_Backpack_Planetary_T4",
+            "AnimBlueprintClass": "/Game/ASS/ITM/SK_ITM_Backpack_CopyPose_AnimBP.SK_ITM_Backpack_CopyPose_AnimBP_C",
+            "ArmourType": "Backpack"
+        },
+        {
+            "Name": "T5_Backpack",
+            "ArmourMesh": "/Game/ASS/ITM/SK_ITM_Backpack_Planetary_T5.SK_ITM_Backpack_Planetary_T5",
+            "AnimBlueprintClass": "/Game/ASS/ITM/SK_ITM_Backpack_CopyPose_AnimBP.SK_ITM_Backpack_CopyPose_AnimBP_C",
+            "ArmourType": "Backpack"
+        },
+        {
             "Name": "Backpack_Mining",
             "ArmourMesh": "/Game/ASS/ITM/SK_ITM_Backpack_Gatherer_v02.SK_ITM_Backpack_Gatherer_v02",
             "AnimBlueprintClass": "/Game/ASS/ITM/SK_ITM_Backpack_CopyPose_AnimBP.SK_ITM_Backpack_CopyPose_AnimBP_C",

@@ -819,6 +819,7 @@
             "Name": "OLY_Forest_Bedroll",
             "Class": "/Game/BP/Quests/Olympus/Forest/Recon/BPQ_OLY_Bedroll.BPQ_OLY_Bedroll_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Bedroll-Description\", \"Build a Shelter and Craft and Place a Bedroll to Survive the Harsh Icarus Environment.\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Bedroll-InfoText\", \"Press ([Crouch]) to Sneak Up on Wildlife. Damaging from Stealth Will Apply a Multiplier\")",
             "DialogueEvents": {
                 "QuestEnd": {
                     "RowName": "Recon_Build",
@@ -3238,7 +3239,7 @@
             "Name": "OLY_Desert_Construction_Dehumidifier",
             "Class": "/Game/BP/Quests/Olympus/Desert/Construction/BPQ_OLY_Desert_Construction_Dehumidifier.BPQ_OLY_Desert_Construction_Dehumidifier_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Dehumidifier-Description\", \"Construct and power Electric Dehumidifier\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Dehumidifier-InfoText\", \"Toggle the Dehumidifer on when connected.\")"
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Dehumidifier-InfoText\", \"Toggle the Dehumidifier on when connected.\")"
         },
         {
             "Name": "OLY_Desert_Construction_Machining_Bench",
@@ -17579,7 +17580,7 @@
         {
             "Name": "ELY_Story_1_Beacon_Place",
             "Class": "/Game/BP/Quests/Elysium/Story/Story1/BPQ_ELY_Story_1_Beacon_Place.BPQ_ELY_Story_1_Beacon_Place_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_1_Beacon_Place-Description\", \"Fire the  Single Barrel Launcher within the Area so the Flare Reaches a Height of 200m ([Map])\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_1_Beacon_Place-Description\", \"Fire the Single Barrel Launcher within the Area so the Flare Reaches a Height of 200m ([Map])\")",
             "InfoText": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_1_Beacon_Place-InfoText\", \"Be prepared to build to reach the desired height.\")",
             "LocationQuery": {
                 "RowName": "ELY_STORY_1_BUILD"

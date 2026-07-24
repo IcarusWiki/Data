@@ -2795,6 +2795,32 @@
             ]
         },
         {
+            "Name": "T4_Backpack",
+            "Max_Durability": 1000,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Fabricator",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 1
+                }
+            ]
+        },
+        {
+            "Name": "T5_Backpack",
+            "Max_Durability": 1250,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Manufacturer",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 1
+                }
+            ]
+        },
+        {
             "Name": "Settlement_Wall_Wood",
             "Max_Durability": 1500
         },

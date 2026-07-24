@@ -940,16 +940,11 @@
             "Name": "Tier1_Forest_Recon_0",
             "DropName": "NSLOCTEXT(\"D_ProspectList\", \"Tier1_Forest_Recon_0-DropName\", \"BEACHHEAD\")",
             "Description": "NSLOCTEXT(\"D_ProspectList\", \"Tier1_Forest_Recon_0-Description\", \"UDA-MANDATED FIRST DROP FOR NEW PROSPECTORS\")",
-            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Tier1_Forest_Recon_0-FlavourText\", \"//OPERATOR: UDA // BIOME: Forest // BACKGROUND: UDA regulations require new Icarus arrivals to demonstrate basic survival skills in this region before accepting further contracts. // MISSION: Prospectors are not expected to pursue specific objectives. Survival is deemed fulfilment. //TERMS: Contractors will be provided with a functioning envirosuit, and basic crafting information. They will be otherwise unassisted. No further tasking will occur until basic competency is attained.\")",
+            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Tier1_Forest_Recon_0-FlavourText\", \"//OPERATOR: UDA // BIOME: Forest // BACKGROUND: UDA regulations require new Icarus arrivals to demonstrate basic survival skills in this region before accepting further contracts. // MISSION: Prospectors are not expected to pursue specific objectives, besides crafting the basic tools for survival. //TERMS: Contractors will be provided with a functioning envirosuit, and basic crafting information. They will be otherwise unassisted. No further tasking will occur until basic competency is attained.\")",
             "ProspectImage": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_ExpeditionSpear01_Large.T_Prospect_Forest_ExpeditionSpear01_Large'",
             "DifficultySetup": {
                 "Easy": {
-                    "DifficultyStats": [
-                        {
-                            "RowName": "Player_XP_75%",
-                            "DataTableName": "D_ProspectStats"
-                        }
-                    ],
+                    "DifficultyStats": [],
                     "Forecast": {
                         "RowName": "None",
                         "DataTableName": "D_ProspectForecast"

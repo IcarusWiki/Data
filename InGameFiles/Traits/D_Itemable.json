@@ -1089,7 +1089,7 @@
         },
         {
             "Name": "Item_Meta_Flashlight",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Flashlight-DisplayName\", \"Workshop Flashlight\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Flashlight-DisplayName\", \"Inaris Flashlight\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Meta_Flashlight.T_ITEM_Meta_Flashlight",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Flashlight-Description\", \"An LED flashlight for illuminating dark corners. Can be recharged in a Charging Station.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Flashlight-FlavorText\", \"Activate light with secondary fire.\")",
@@ -27392,6 +27392,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Lamb_Male-DisplayName\", \"Cryogenically Frozen Lamb (Male)\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Lamb_Male.T_ITEM_Lamb_Male",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Lamb_Male-Description\", \"A Lamb preserved in a cryogenic stasis that can be deployed and defrosted on planet.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Lamb_Male-FlavorText\", \"Baa\")",
             "Weight": 1000
         },
         {
@@ -27399,6 +27400,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Lamb_Female-DisplayName\", \"Cryogenically Frozen Lamb (Female)\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Lamb_Female.T_ITEM_Lamb_Female",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Lamb_Female-Description\", \"A Lamb preserved in a cryogenic stasis that can be deployed and defrosted on planet.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Lamb_Female-FlavorText\", \"No Comment.\")",
             "Weight": 1000
         },
         {
@@ -28525,10 +28527,10 @@
             "Weight": 3000
         },
         {
-            "Name": "Item_Carcass_Skulk_Juvenile",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Skulk_Juvenile-DisplayName\", \"Juvenile Skulk Carcass\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Buffalo.ITEM_AnimalCarcass_Buffalo",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Skulk_Juvenile-Description\", \"A juvenile Skulk which never quite made it to full adulthood.\")",
+            "Name": "Item_Carcass_Orka_Juvenile",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Orka_Juvenile-DisplayName\", \"Juvenile Skulk Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Orka_Arctic.T_ITEM_AnimalCarcass_Orka_Arctic",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Orka_Juvenile-Description\", \"A juvenile Skulk which never quite made it to full adulthood.\")",
             "Weight": 4500
         },
         {
@@ -28626,6 +28628,34 @@
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T4-FlavorText\", \"Home Sweet Home\")",
             "Weight": 2000,
             "MaxStack": 5
+        },
+        {
+            "Name": "Item_Mission_Colony_Tower_Portable",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Colony_Tower_Portable-DisplayName\", \"Makeshift Colony Radio Tower\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_LaserControls.T_ITEM_Prop_LaserControls",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Colony_Tower_Portable-Description\", \"A Radio Tower that tracks and locates colonists.\")",
+            "Weight": 10000
+        },
+        {
+            "Name": "Item_T4_Backpack",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_T4_Backpack-DisplayName\", \"Camo Backpack\")",
+            "Description": "INVTEXT(\"[DNT] A sturdy, camouflaged backpack good for all purposes and great for avoiding unwanted attention.\")",
+            "Weight": 800
+        },
+        {
+            "Name": "Item_T5_Backpack",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_T5_Backpack-DisplayName\", \"Synthetic Backpack\")",
+            "Description": "INVTEXT(\"[DNT] A spacious synthetic backpack with sleek aerodynamics that matches form and function into peak design.\")",
+            "Weight": 900
+        },
+        {
+            "Name": "Item_RadBoss_Residue",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Residue-DisplayName\", \"Malformation Residue\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Radboss_Residue.T_ITEM_Radboss_Residue",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Residue-Description\", \"A sticky radioactive residue that could be used to track the Malformation.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Residue-FlavorText\", \"Radioactive\")",
+            "Weight": 50,
+            "MaxStack": 10
         }
     ]
 }

@@ -1806,6 +1806,16 @@
             "EquipBackMesh": "/Game/ASS/ITM/SK_ITM_Backpack_Planetary_T3.SK_ITM_Backpack_Planetary_T3"
         },
         {
+            "Name": "Mesh_T4_Backpack",
+            "ItemMesh": "/Game/ASS/ITM/SK_ITM_Backpack_Planetary_T4.SK_ITM_Backpack_Planetary_T4",
+            "EquipBackMesh": "/Game/ASS/ITM/SK_ITM_Backpack_Planetary_T4.SK_ITM_Backpack_Planetary_T4"
+        },
+        {
+            "Name": "Mesh_T5_Backpack",
+            "ItemMesh": "/Game/ASS/ITM/SK_ITM_Backpack_Planetary_T5.SK_ITM_Backpack_Planetary_T5",
+            "EquipBackMesh": "/Game/ASS/ITM/SK_ITM_Backpack_Planetary_T5.SK_ITM_Backpack_Planetary_T5"
+        },
+        {
             "Name": "Mesh_Mining_Backpack",
             "ItemMesh": "/Game/ASS/ITM/SM_ITM_Backpack_Gatherer.SM_ITM_Backpack_Gatherer",
             "EquipBackMesh": "/Game/ASS/ITM/SM_ITM_Backpack_Gatherer.SM_ITM_Backpack_Gatherer"
@@ -6349,12 +6359,12 @@
             "ItemActor": "/Game/BP/Objects/World/Items/Weapons/BP_SMItem_Caltrops_Nails.BP_SMItem_Caltrops_Nails_C"
         },
         {
-            "Name": "Mesh_Carcass_Skulk_Juvenile",
+            "Name": "Mesh_Carcass_Orka_Juvenile",
             "ItemMesh": "/Game/ASS/CRE/Skulk_Juvenile/SK_CRE_Skulk_Juvenile.SK_CRE_Skulk_Juvenile",
-            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Skulk_Juvenile_Corpse.BP_Skulk_Juvenile_Corpse_C",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Orka_Juvenile_Corpse.BP_Orka_Juvenile_Corpse_C",
             "EquipHandMesh": "/Game/ASS/CRE/Skulk_Juvenile/SK_CRE_Skulk_Juvenile.SK_CRE_Skulk_Juvenile",
-            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Skulk_Juvenile_Corpse.BP_Skulk_Juvenile_Corpse_C",
-            "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Skulk_Juvenile_Corpse.BP_Skulk_Juvenile_Corpse_C"
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Orka_Juvenile_Corpse.BP_Orka_Juvenile_Corpse_C",
+            "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Orka_Juvenile_Corpse.BP_Orka_Juvenile_Corpse_C"
         },
         {
             "Name": "Mesh_Rifle_Assault_CHAC",

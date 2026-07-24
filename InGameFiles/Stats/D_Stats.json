@@ -14389,6 +14389,7 @@
         {
             "Name": "ShouldHighlightNearbyCreatures_?",
             "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"ShouldHighlightNearbyCreatures_?-PositiveDescription\", \"Highlight Nearby Creatures\")",
+            "bIsReplicated": true,
             "StatCategory": {
                 "RowName": "AI"
             }
@@ -14448,6 +14449,7 @@
         {
             "Name": "IsNPCHighlighted_?",
             "Title": "NSLOCTEXT(\"D_Stats\", \"IsNPCHighlighted_?-Title\", \"Whether or not NPC is Currently Highlighted\")",
+            "bIsReplicated": true,
             "StatCategory": {
                 "RowName": "AI"
             },
@@ -17792,6 +17794,7 @@
         {
             "Name": "IsNPCHighlightedBlue_?",
             "Title": "NSLOCTEXT(\"D_Stats\", \"IsNPCHighlightedBlue_?-Title\", \"Whether or not NPC is Currently Highlighted\")",
+            "bIsReplicated": true,
             "StatCategory": {
                 "RowName": "AI"
             },

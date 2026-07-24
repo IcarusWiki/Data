@@ -14890,6 +14890,186 @@
                 ],
                 "AutoDescription": " ALL( GreatHunts.RadBoss.D.Rocks )"
             }
+        },
+        {
+            "Name": "T1_Forest_Scan_BuildUp",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.Scan.BuildUpLoc"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.Scan.BuildUpLoc )"
+            }
+        },
+        {
+            "Name": "GH_RAD_E_Build",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.E.Build"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.E.Build )"
+            }
+        },
+        {
+            "Name": "GH_RAD_E_Alpha",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.E.Alpha"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.E.Alpha )"
+            }
+        },
+        {
+            "Name": "GH_RAD_E_Alpha_Den1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.E.Den.1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.E.Den.1 )"
+            }
+        },
+        {
+            "Name": "GH_RAD_E_Alpha_Den2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.E.Den.2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.E.Den.2 )"
+            }
+        },
+        {
+            "Name": "GH_RAD_E_Beta",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.E.Beta"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.E.Beta )"
+            }
+        },
+        {
+            "Name": "GH_RAD_E_Beta_NPC1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.E.NPC1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.E.NPC1 )"
+            }
+        },
+        {
+            "Name": "GH_RAD_E_Beta_NPC2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.E.NPC2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.E.NPC2 )"
+            }
+        },
+        {
+            "Name": "GH_RAD_E_Beta_NPC3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.E.NPC3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.E.NPC3 )"
+            }
+        },
+        {
+            "Name": "GH_RAD_E_Deliver",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.E.Deliver"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.E.Deliver )"
+            }
         }
     ]
 }

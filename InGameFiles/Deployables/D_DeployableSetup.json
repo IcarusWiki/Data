@@ -13854,7 +13854,7 @@
             "Name": "Prop_Sandworm_Poster",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Poster_Sandworm.BP_Prop_Poster_Sandworm_C",
             "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Prop_Sandworm_Poster.T_ITEM_Prop_Sandworm_Poster",
-            "PreviewStaticMesh": "/Game/ASS/PRP/Posters/SM_PRP_Corkboard_Eden_Mo.SM_PRP_Corkboard_Eden_Mo",
+            "PreviewStaticMesh": "/Game/ASS/PRP/Posters/SM_PRP_Poster_Sandworm.SM_PRP_Poster_Sandworm",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
             "SupportsCustomRotation": false,
             "WorldPlacementType": "WallPlacement",
@@ -15831,7 +15831,15 @@
         {
             "Name": "Mission_Colony_Tower",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_Rad_Radio_Tower.BP_Rad_Radio_Tower_C",
-            "PreviewStaticMesh": "/Game/ASS/PRP/Comms_Tower/SM_PRP_Comms_Tower.SM_PRP_Comms_Tower",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_T4_Elysium_Radio_Tower.SM_DEP_T4_Elysium_Radio_Tower",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Mission_Colony_Tower_Portable",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_Rad_Radio_Tower_Portable.BP_Rad_Radio_Tower_Portable_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_T4_Elysium_Radio_Tower.SM_DEP_T4_Elysium_Radio_Tower",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "SupportsCustomRotation": false,
             "MaxRestackingAmount": 1

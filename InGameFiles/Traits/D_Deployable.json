@@ -11697,6 +11697,16 @@
                 }
             ],
             "EffectedByWeather": false
+        },
+        {
+            "Name": "Mission_Colony_Tower_Portable",
+            "Variants": [
+                {
+                    "RowName": "Mission_Colony_Tower_Portable",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
         }
     ]
 }
