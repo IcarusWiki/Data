@@ -6203,6 +6203,13 @@
             "EquipBackActor": "/Game/BP/Objects/World/Items/Back/BP_Back_Mission_Hoverframe.BP_Back_Mission_Hoverframe_C"
         },
         {
+            "Name": "Mesh_Speeder_Kit_Dual",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_T5_Kit.SM_ITM_T5_Kit",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "EquipBackMesh": "/Game/ASS/VHC/Speeder_Bike/SM_VHC_Speeder_Bike_Kit.SM_VHC_Speeder_Bike_Kit",
+            "EquipBackActor": "/Game/BP/Objects/World/Items/Back/BP_Back_Mission_Hoverframe.BP_Back_Mission_Hoverframe_C"
+        },
+        {
             "Name": "Mesh_Carcass_Rad_Broodling",
             "ItemMesh": "/Game/ASS/CRE/Rad_Boss_Minions/SK_CRE_Rad_Broodling.SK_CRE_Rad_Broodling",
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Rad_Broodling_Corpse.BP_Rad_Broodling_Corpse_C"
@@ -6346,7 +6353,7 @@
             "ItemMesh": "/Game/ASS/ITM/SM_ITM_T5_Kit.SM_ITM_T5_Kit",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
             "EquipBackMesh": "/Game/ASS/VHC/Speeder_Bike/SM_VHC_Speeder_Bike_Kit.SM_VHC_Speeder_Bike_Kit",
-            "EquipBackActor": "/Game/BP/Objects/World/Items/Back/BP_Back_Mission_Hoverframe.BP_Back_Mission_Hoverframe_C"
+            "EquipBackActor": "/Game/BP/Objects/World/Items/Back/BP_Back_DroneCompanion.BP_Back_DroneCompanion_C"
         },
         {
             "Name": "Mesh_Ammo_Stone",
@@ -6398,6 +6405,40 @@
             "Name": "Mesh_Rudimentary_Grenade_Smoke",
             "ItemMesh": "/Game/ASS/WEP/GRE_Rudimentary/SK_WEP_GRE_Rudimentary_Smoke.SK_WEP_GRE_Rudimentary_Smoke",
             "EquipHandMesh": "/Game/ASS/WEP/GRE_Rudimentary/SK_WEP_GRE_Rudimentary_Smoke.SK_WEP_GRE_Rudimentary_Smoke"
+        },
+        {
+            "Name": "Mesh_Carcass_Crab_Coastal",
+            "ItemMesh": "/Game/ASS/CRE/Crab/SK_CRE_Crab_Coastal_Male.SK_CRE_Crab_Coastal_Male",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Crab_Coastal_Corpse.BP_Crab_Coastal_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Crab/SK_CRE_Crab_Coastal_Male.SK_CRE_Crab_Coastal_Male",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Crab_Coastal_Corpse.BP_Crab_Coastal_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Crab_Coastal_Parent",
+            "ItemMesh": "/Game/ASS/CRE/Crab/SK_CRE_Crab_Coastal_Female.SK_CRE_Crab_Coastal_Female",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Crab_Coastal_Parent_Corpse.BP_Crab_Coastal_Parent_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Crab/SK_CRE_Crab_Coastal_Female.SK_CRE_Crab_Coastal_Female",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Crab_Coastal_Parent_Corpse.BP_Crab_Coastal_Parent_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Turtle_Duck",
+            "ItemMesh": "/Game/ASS/CRE/Kiwi/SK_CRE_Kiwi.SK_CRE_Kiwi",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Turtle_Duck_Corpse.BP_Turtle_Duck_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Bird_Coastal",
+            "ItemMesh": "/Game/ASS/CRE/Kea/SK_CRE_Kea.SK_CRE_Kea",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Kea_Corpse.BP_Kea_Corpse_C",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "EquipBackMesh": "/Game/ASS/CRE/Kea/SK_CRE_Kea.SK_CRE_Kea",
+            "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Kea_Corpse.BP_Kea_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Dino_Large",
+            "ItemMesh": "/Game/ASS/CRE/Raptor/SK_CRE_Raptor.SK_CRE_Raptor",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Dino_Large_Corpse.BP_Dino_Large_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Raptor/SK_CRE_Raptor.SK_CRE_Raptor",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Dino_Large_Corpse.BP_Dino_Large_Corpse_C"
         }
     ]
 }

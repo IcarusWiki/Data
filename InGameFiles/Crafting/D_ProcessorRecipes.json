@@ -83965,7 +83965,7 @@
             "Inputs": [
                 {
                     "Element": {
-                        "RowName": "Scoria",
+                        "RowName": "Clay",
                         "DataTableName": "D_ItemsStatic"
                     },
                     "Count": 4
@@ -84072,7 +84072,7 @@
             "Inputs": [
                 {
                     "Element": {
-                        "RowName": "Obsidian",
+                        "RowName": "Scoria",
                         "DataTableName": "D_ItemsStatic"
                     },
                     "Count": 4
@@ -84179,7 +84179,7 @@
             "Inputs": [
                 {
                     "Element": {
-                        "RowName": "Clay",
+                        "RowName": "Obsidian",
                         "DataTableName": "D_ItemsStatic"
                     },
                     "Count": 4

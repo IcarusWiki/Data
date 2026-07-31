@@ -2037,6 +2037,56 @@
             "Name": "Skin_Orka_Juvenile",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Orka_Juvenile-EventDescription\", \"Skinned Juvenile Skulk\")",
             "ExperienceGranted": 260
+        },
+        {
+            "Name": "Kill_Crab_Coastal_Parent",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Crab_Coastal_Parent-EventDescription\", \"Killed Coastal Crab\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 1800
+        },
+        {
+            "Name": "Skin_Crab_Coastal",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Crab_Coastal-EventDescription\", \"Skinned Coastal Crab\")",
+            "ExperienceGranted": 900
+        },
+        {
+            "Name": "Kill_Crab_Coastal",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Crab_Coastal-EventDescription\", \"Killed Coastal Crab\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 1800
+        },
+        {
+            "Name": "Skin_Turtle_Duck",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Turtle_Duck-EventDescription\", \"Skinned Turtle Duck\")",
+            "ExperienceGranted": 130
+        },
+        {
+            "Name": "Kill_Turtle_Duck",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Turtle_Duck-EventDescription\", \"Killed Turtle Duck\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 260
+        },
+        {
+            "Name": "Kill_Bird_Coastal",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Bird_Coastal-EventDescription\", \"Killed Coastal BIrd\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 170
+        },
+        {
+            "Name": "Skin_Bird_Coastal",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Bird_Coastal-EventDescription\", \"Skinned Coastal Bird\")",
+            "ExperienceGranted": 80
+        },
+        {
+            "Name": "Kill_Dino_Large",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Dino_Large-EventDescription\", \"Killed Dino Large\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 2500
+        },
+        {
+            "Name": "Skin_Dino_Large",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Dino_Large-EventDescription\", \"Skinned Dino Large\")",
+            "ExperienceGranted": 1250
         }
     ]
 }

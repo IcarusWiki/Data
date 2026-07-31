@@ -465,6 +465,10 @@
         {
             "Name": "EDEN_AUDIO",
             "FileName": "EDEN_AUDIO"
+        },
+        {
+            "Name": "Oly_Forest_Scan_Crate",
+            "FileName": "OLY_FOREST_SCAN_1"
         }
     ]
 }

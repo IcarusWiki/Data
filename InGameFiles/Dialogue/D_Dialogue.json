@@ -574,12 +574,10 @@
             "Text": [
                 "NSLOCTEXT(\"D_Dialogue\", \"Scanning1Landing-Text-0\", \"Icarus ain\\'t always gonna be so empty.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"Scanning1Landing-Text-1\", \"The UDA wants exotics, and the Lagos Unit\\'s under pressure to scale operations up.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"Scanning1Landing-Text-2\", \"Which means they need terrain data, and a heap of it, fast.\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"Scanning1Landing-Text-2\", \"Which means they need terrain data, and a heap of it.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"Scanning1Landing-Text-3\", \"So grab the radar from the supply crate.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"Scanning1Landing-Text-4\", \"The Unit wants scans from three locations on your map.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"Scanning1Landing-Text-5\", \"You\\'ll be heading into uncharted territory, but that\\'s exactly why we need the data.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"Scanning1Landing-Text-6\", \"Think you can handle it? Well, either way it\\'s too late now.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"Scanning1Landing-Text-7\", \"Good luck.\")"
+                "NSLOCTEXT(\"D_Dialogue\", \"Scanning1Landing-Text-5\", \"You\\'ll be heading into uncharted territory, but that\\'s exactly why we need the data.\")"
             ]
         },
         {
@@ -588,8 +586,7 @@
             "Delay": 1.5,
             "Text": [
                 "NSLOCTEXT(\"D_Dialogue\", \"Scanning1ScanComplete1-Text-0\", \"That\\'s one scan done.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"Scanning1ScanComplete1-Text-1\", \"Data\\'s uploading, looking good.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"Scanning1ScanComplete1-Text-2\", \"Pack it up, and head out.\")"
+                "NSLOCTEXT(\"D_Dialogue\", \"Scanning1ScanComplete1-Text-1\", \"Pack it up, and head out.\")"
             ]
         },
         {
@@ -617,7 +614,7 @@
             "Text": [
                 "NSLOCTEXT(\"D_Dialogue\", \"Scanning1ScanComplete3-Text-0\", \"Scan three, done.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"Scanning1ScanComplete3-Text-1\", \"That\\'s a wrap.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"Scanning1ScanComplete3-Text-2\", \"Nice work, time to head home.\")"
+                "NSLOCTEXT(\"D_Dialogue\", \"Scanning1ScanComplete3-Text-2\", \"Nice work.\")"
             ]
         },
         {
@@ -4214,7 +4211,8 @@
             "Priority": -1,
             "Text": [
                 "NSLOCTEXT(\"D_Dialogue\", \"MissionComplete1-Text-0\", \"Well, you\\'re done here.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"MissionComplete1-Text-1\", \"You did a lot more than just survive.\")"
+                "NSLOCTEXT(\"D_Dialogue\", \"MissionComplete1-Text-1\", \"You did a lot more than just survive.\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"MissionComplete1-Text-2\", \"That\\'s a win!\")"
             ]
         },
         {
@@ -11883,16 +11881,6 @@
             },
             "Text": [
                 "NSLOCTEXT(\"D_Dialogue\", \"NULSEC_NPC_GRIFF_HURT_03-Text-0\", \"Please help me.\")"
-            ]
-        },
-        {
-            "Name": "NULSEC_NPC_GRIFF_THANK_01",
-            "Audio": "/Game/FMOD/Events/Dialogue/NULL_SECTOR/NULL_NPC_CHRISSY_CHEERS_BRO.NULL_NPC_CHRISSY_CHEERS_BRO",
-            "Speaker": {
-                "RowName": "Griff"
-            },
-            "Text": [
-                "NSLOCTEXT(\"D_Dialogue\", \"NULSEC_NPC_GRIFF_THANK_01-Text-0\", \"Ah. Cheers bro.\")"
             ]
         },
         {
@@ -26939,6 +26927,57 @@
                     "RowName": "DangerousHorizons"
                 }
             }
+        },
+        {
+            "Name": "NPC_FEMALE_GENERIC_THANKS",
+            "Audio": "/Game/FMOD/Events/Dialogue/DH/DH_NPCS/DH_NPC_CHRISSY_GENERIC_THANKS.DH_NPC_CHRISSY_GENERIC_THANKS",
+            "Speaker": {
+                "RowName": "Griff"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"NPC_FEMALE_GENERIC_THANKS-Text-0\", \"Ah, Thanks!\")"
+            ]
+        },
+        {
+            "Name": "NPC_FEMALE_GENERIC_HELP",
+            "Audio": "/Game/FMOD/Events/Dialogue/DH/DH_NPCS/DH_NPC_CHRISSY_GENERIC_HURT.DH_NPC_CHRISSY_GENERIC_HURT",
+            "Speaker": {
+                "RowName": "Griff"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"NPC_FEMALE_GENERIC_HELP-Text-0\", \"Please! I need help!\")"
+            ]
+        },
+        {
+            "Name": "NPC_FEMALE_GENERIC_DAMNWOLVES",
+            "Audio": "/Game/FMOD/Events/Dialogue/DH/DH_NPCS/DH_NPC_CHRISSY_GENERIC_DAMNWOLVES.DH_NPC_CHRISSY_GENERIC_DAMNWOLVES",
+            "Priority": 1,
+            "Speaker": {
+                "RowName": "Griff"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"NPC_FEMALE_GENERIC_DAMNWOLVES-Text-0\", \"These damn wolves are everywhere! Thanks for the help\")"
+            ]
+        },
+        {
+            "Name": "NPC_FEMALE_GENERIC_GRABTHERADAR",
+            "Audio": "/Game/FMOD/Events/Dialogue/DH/DH_NPCS/DH_NPC_CHRISSY_GENERIC_GRABTHERADAR.DH_NPC_CHRISSY_GENERIC_GRABTHERADAR",
+            "Speaker": {
+                "RowName": "Griff"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"NPC_FEMALE_GENERIC_GRABTHERADAR-Text-0\", \"I guess you\\'ll be taking over this one! Grab the radar - and good luck!\")"
+            ]
+        },
+        {
+            "Name": "NPC_FEMALE_GENERIC_HELPYOURSELF",
+            "Audio": "/Game/FMOD/Events/Dialogue/DH/DH_NPCS/DH_NPC_CHRISSY_GENERIC_GRABTHERADAR.DH_NPC_CHRISSY_GENERIC_GRABTHERADAR",
+            "Speaker": {
+                "RowName": "Griff"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"NPC_FEMALE_GENERIC_HELPYOURSELF-Text-0\", \"Help yourself to the equipment. I\\'m done for the day!\")"
+            ]
         }
     ]
 }

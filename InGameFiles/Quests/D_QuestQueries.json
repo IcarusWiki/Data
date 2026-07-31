@@ -1042,7 +1042,7 @@
             "Query": {
                 "TagDictionary": [
                     {
-                        "TagName": "FactionMission.Forest.Scan.Equipment"
+                        "TagName": "FactionMission.Forest.Scan.NPC"
                     }
                 ],
                 "QueryTokenStream": [
@@ -1052,7 +1052,7 @@
                     1,
                     0
                 ],
-                "AutoDescription": " ALL( FactionMission.Forest.Scan.Equipment )"
+                "AutoDescription": " ALL( FactionMission.Forest.Scan.NPC )"
             }
         },
         {
@@ -14896,7 +14896,7 @@
             "Query": {
                 "TagDictionary": [
                     {
-                        "TagName": "FactionMission.Forest.Scan.BuildUpLoc"
+                        "TagName": "FactionMission.Forest.Scan.BuildUp"
                     }
                 ],
                 "QueryTokenStream": [
@@ -14906,7 +14906,79 @@
                     1,
                     0
                 ],
-                "AutoDescription": " ALL( FactionMission.Forest.Scan.BuildUpLoc )"
+                "AutoDescription": " ALL( FactionMission.Forest.Scan.BuildUp )"
+            }
+        },
+        {
+            "Name": "T1_Forest_Scan_Ascend",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.Scan.Ascend"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.Scan.Ascend )"
+            }
+        },
+        {
+            "Name": "T1_Forest_Scan_WolfCaveSpawn",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.Scan.WolfCaveSpawn"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.Scan.WolfCaveSpawn )"
+            }
+        },
+        {
+            "Name": "T1_Forest_Scan_WolfPackSpawn",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.Scan.WolfPackSpawn"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.Scan.WolfPackSpawn )"
+            }
+        },
+        {
+            "Name": "T1_Forest_Scan_DeadWolf",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.Scan.DeadWolf"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.Scan.DeadWolf )"
             }
         },
         {
@@ -15069,6 +15141,96 @@
                     0
                 ],
                 "AutoDescription": " ALL( GreatHunts.RadBoss.E.Deliver )"
+            }
+        },
+        {
+            "Name": "GH_RAD_B_RianDeliver",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.B.RianDeliver"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.B.RianDeliver )"
+            }
+        },
+        {
+            "Name": "T1_Forest_Scan_Equipment_WolfCarcass",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.Scan.WolfCarcass"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.Scan.WolfCarcass )"
+            }
+        },
+        {
+            "Name": "T1_Forest_Scan_Equipment_WolfCarcass2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.Scan.WolfCarcass2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.Scan.WolfCarcass2 )"
+            }
+        },
+        {
+            "Name": "T1_Forest_Scan_Backpack",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.Scan.Backpack"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.Scan.Backpack )"
+            }
+        },
+        {
+            "Name": "T1_Forest_Scan_Radar",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.Scan.Radar"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.Scan.Radar )"
             }
         }
     ]

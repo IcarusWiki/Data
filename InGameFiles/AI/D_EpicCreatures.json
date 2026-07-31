@@ -1040,6 +1040,10 @@
             ],
             "AISetup": {
                 "RowName": "Irradiated_Prospector_Tranquilized"
+            },
+            "AdditionalStats": {
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25,
+                "(Value=\"BaseMaximumHealth_+%\")": 50
             }
         },
         {
@@ -1070,6 +1074,24 @@
             ],
             "AISetup": {
                 "RowName": "Irradiated_Abomination"
+            }
+        },
+        {
+            "Name": "Terrenus_Boss",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Terrenus_Boss-CreatureNames-0\", \"Alpha Mare\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Terrenus_Boss-CreatureNames-1\", \"Alpha Stallion\")"
+            ],
+            "AISetup": {
+                "RowName": "Terrenus_Boss"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseCreatureSize_+%\")": 25,
+                "(Value=\"BaseMaximumArmor_+%\")": 150,
+                "(Value=\"BaseMaximumHealth_+%\")": 300,
+                "(Value=\"BaseMeleeDamage_+%\")": 25,
+                "(Value=\"BaseAttacksCauseSprain_%\")": 20,
+                "(Value=\"BaseAttacksCauseDeepWound_%\")": 75
             }
         },
         {

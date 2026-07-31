@@ -5554,16 +5554,6 @@
             "EffectedByWeather": false
         },
         {
-            "Name": "Enzyme_Cannon_Arm",
-            "Variants": [
-                {
-                    "RowName": "Enzyme_Cannon_Arm",
-                    "DataTableName": "D_DeployableSetup"
-                }
-            ],
-            "EffectedByWeather": false
-        },
-        {
             "Name": "Water_Trough_Large",
             "Variants": [
                 {
@@ -9898,6 +9888,10 @@
                 {
                     "RowName": "Fortification_Concrete_Platform",
                     "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Fortification_Concrete_Half_Platform",
+                    "DataTableName": "D_DeployableSetup"
                 }
             ],
             "AudioOcclusionAmount": 0.5,
@@ -11405,6 +11399,16 @@
             "EffectedByWeather": false
         },
         {
+            "Name": "Speeder_Kit_Dual",
+            "Variants": [
+                {
+                    "RowName": "Speeder_Kit_Dual",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
             "Name": "Lead_Lined_Crate_Small",
             "Variants": [
                 {
@@ -11703,6 +11707,78 @@
             "Variants": [
                 {
                     "RowName": "Mission_Colony_Tower_Portable",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Prop_Colony_Sign",
+            "Variants": [
+                {
+                    "RowName": "Prop_Colony_Sign",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Prop_Colony_Poster",
+            "Variants": [
+                {
+                    "RowName": "Prop_Colony_Sign",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Prop_Colony_Book",
+            "Variants": [
+                {
+                    "RowName": "Prop_Book_Colony_Book_A",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Book_Colony_Book_B",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Prop_Colony_Pamphlet",
+            "Variants": [
+                {
+                    "RowName": "Prop_Colony_Pamphlet_A",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Colony_Pamphlet_B",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Colony_Pamphlet_C",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Prop_Colony_Corkboard",
+            "Variants": [
+                {
+                    "RowName": "Prop_Corkboard_Colony",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Colony_Arcade_Machine",
+            "Variants": [
+                {
+                    "RowName": "Colony_Arcade_Machine",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],

@@ -1533,6 +1533,19 @@
             ]
         },
         {
+            "Name": "Radboss_Crossbow",
+            "Max_Durability": 20000,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Uranium_Inert",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 1
+                }
+            ]
+        },
+        {
             "Name": "Lithium_Crossbow",
             "Max_Durability": 40000,
             "ItemsForRepair": [

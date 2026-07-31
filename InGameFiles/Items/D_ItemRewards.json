@@ -38478,6 +38478,30 @@
                     }
                 }
             ]
+        },
+        {
+            "Name": "Crab_Head"
+        },
+        {
+            "Name": "Crab_Coastal_Carcass_Loot"
+        },
+        {
+            "Name": "Turtle_Duck_Head"
+        },
+        {
+            "Name": "Turtle_Duck_Carcass_Loot"
+        },
+        {
+            "Name": "Bird_Coastal_Head"
+        },
+        {
+            "Name": "Bird_Coastal_Carcass_Loot"
+        },
+        {
+            "Name": "Dino_Large_Head"
+        },
+        {
+            "Name": "Dino_Large_Carcass_Loot"
         }
     ]
 }

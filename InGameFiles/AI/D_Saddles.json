@@ -15,6 +15,7 @@
             "RowName": "None",
             "DataTableName": "D_Saddles"
         },
+        "PassengerSaddleSockets": [],
         "RequiredStat": {
             "RowName": "None",
             "DataTableName": "D_Stats"
@@ -2748,6 +2749,28 @@
             ],
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "PlayerAttachSocket",
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
+        },
+        {
+            "Name": "Saddle_SpeederBike_Dual_Default",
+            "SaddleTag": {
+                "TagName": "Item.Mount.Saddle.SpeederBike.Dual"
+            },
+            "SupportedMount": [
+                {
+                    "RowName": "SpeederBike_Dual",
+                    "DataTableName": "D_Mounts"
+                }
+            ],
+            "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
+            "AttachSocket": "PlayerAttachSocket",
+            "PassengerSaddleSockets": [
+                "PassengerAttachSocket_1"
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"

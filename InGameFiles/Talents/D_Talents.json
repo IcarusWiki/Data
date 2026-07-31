@@ -28898,7 +28898,7 @@
         {
             "Name": "Anvil_Bench_T4",
             "ExtraData": {
-                "RowName": "Item_Anvil_Bench_T4",
+                "RowName": "Item_Anvil_Bench_T4_v2",
                 "DataTableName": "D_Itemable"
             },
             "TalentTree": {
@@ -75097,7 +75097,7 @@
                 "RowName": "Blueprint_T5_Manufacturer"
             },
             "Position": {
-                "X": 7900,
+                "X": 7950,
                 "Y": 900
             },
             "Size": {
@@ -75133,7 +75133,7 @@
                 "RowName": "Blueprint_T5_Manufacturer"
             },
             "Position": {
-                "X": 7600,
+                "X": 7400,
                 "Y": 900
             },
             "Size": {

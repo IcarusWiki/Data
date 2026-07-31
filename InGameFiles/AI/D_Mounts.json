@@ -3737,59 +3737,6 @@
                     "RowName": "DangerousHorizons"
                 }
             }
-        },
-        {
-            "Name": "SpeederBike_Heavy",
-            "AISetup": {
-                "RowName": "SpeederBike_Heavy"
-            },
-            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Location3.T_Icon_Map_Location3",
-            "RelevantSaddleQuery": {
-                "RowName": "Any_Saddle_SpeederBike"
-            },
-            "SupportedCombatStates": [
-                "DoNotEngage"
-            ],
-            "SupportedMovementStates": [
-                "IdleStanding"
-            ],
-            "SupportedConsumptionStates": [],
-            "InventoryPreviewCameraSettings": {
-                "RowName": "Mount_SpeederBike"
-            },
-            "DefaultNames": [
-                "NSLOCTEXT(\"D_Mounts\", \"SpeederBike_Heavy-DefaultNames-0\", \"Heavy Hoverframe\")"
-            ],
-            "MapIcon": {
-                "RowName": "Mount"
-            },
-            "RelativeFeetOffset": {
-                "X": -10,
-                "Y": 15,
-                "Z": 15
-            },
-            "RelativeHandsOffset": {
-                "X": -10,
-                "Y": -15
-            },
-            "RelativeLightOffset": {
-                "X": 5.577991962432861,
-                "Y": -33.10087585449219,
-                "Z": 66
-            },
-            "SpringArmTargetDistance": 400,
-            "MountTalentArchetype": {
-                "RowName": "Creature_Moa"
-            },
-            "ComfortableTemperatureRange": {
-                "X": 12,
-                "Y": 52
-            },
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "DangerousHorizons"
-                }
-            }
         }
     ]
 }

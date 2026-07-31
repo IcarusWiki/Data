@@ -7059,12 +7059,6 @@
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL"
         },
         {
-            "Name": "Enzyme_Cannon_Arm",
-            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/EnzymeCannon/BP_EnzymeCannon_Arm.BP_EnzymeCannon_Arm_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_EnzymeCannon_Arm_V2.SM_DEP_EnzymeCannon_Arm_V2",
-            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM"
-        },
-        {
             "Name": "Water_Trough_Large",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Water_Trough_Large.BP_Water_Trough_Large_C",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Trough_Wood_Large.SM_DEP_Trough_Wood_Large",
@@ -13387,6 +13381,7 @@
         {
             "Name": "Fortification_Concrete_Platform",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Fortification/BP_Fortification_Concrete_Wall_Platform.BP_Fortification_Concrete_Wall_Platform_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Fortification_Concrete_Platform.T_ITEM_Fortification_Concrete_Platform",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Fortification_Concrete/SM_DEP_Fortification_Concrete_Platform.SM_DEP_Fortification_Concrete_Platform",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_CONC.SFX_BLD_CONC",
             "AudioOcclusionAmount": 0.5,
@@ -15815,6 +15810,21 @@
             }
         },
         {
+            "Name": "Speeder_Kit_Dual",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Creatures/BP_Speeder_Kit_Dual.BP_Speeder_Kit_Dual_C",
+            "PreviewStaticMesh": "/Game/ASS/VHC/Speeder_Bike_heavy/SM_Speeder_Bike_Heavy.SM_Speeder_Bike_Heavy",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "AudioOcclusionAmount": 0.5,
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "DeployCollisionExtentOffset": {
+                "Y": -100
+            },
+            "DeployCollisionLocationOffset": {
+                "Z": 15
+            }
+        },
+        {
             "Name": "Lead_Lined_Crate_Small",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Lead_Lined_Crate_Small.BP_Lead_Lined_Crate_Small_C",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Crate_Lead_Lined_SML.SM_DEP_Crate_Lead_Lined_SML",
@@ -15840,7 +15850,7 @@
             "Name": "Mission_Colony_Tower_Portable",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_Rad_Radio_Tower_Portable.BP_Rad_Radio_Tower_Portable_C",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_T4_Elysium_Radio_Tower.SM_DEP_T4_Elysium_Radio_Tower",
-            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
             "SupportsCustomRotation": false,
             "MaxRestackingAmount": 1
         },
@@ -16037,6 +16047,101 @@
             "SupportsCustomRotation": false,
             "WorldPlacementType": "WallPlacement",
             "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Prop_Colony_Sign",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Colony_Sign.BP_Prop_Colony_Sign_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Prop_Colony_Sign.T_ITEM_Prop_Colony_Sign",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Dressing_Signs/SM_DEP_Sign_ELY_001.SM_DEP_Sign_ELY_001",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Prop_Colony_Poster",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Colony_Poster.BP_Prop_Colony_Poster_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Prop_Colony_Poster_RAD_A.T_ITEM_Prop_Colony_Poster_RAD_A",
+            "PreviewStaticMesh": "/Game/ASS/PRP/Posters/SM_PRP_Poster_Rad_A.SM_PRP_Poster_Rad_A",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Prop_Book_Colony_Book_A",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Rad_Book_A.BP_Prop_Rad_Book_A_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Prop_Colony_Book_RAD_A.T_ITEM_Prop_Colony_Book_RAD_A",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Prop_Book_Colony_Book_A-DeployableName\", \"A\")",
+            "PreviewStaticMesh": "/Game/ASS/PRP/PRP_Books/SM_PRP_Book_Rad_A.SM_PRP_Book_Rad_A",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Prop_Book_Colony_Book_B",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Rad_Book_B.BP_Prop_Rad_Book_B_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Prop_Colony_Book_RAD_B.T_ITEM_Prop_Colony_Book_RAD_B",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Prop_Book_Colony_Book_B-DeployableName\", \"B\")",
+            "PreviewStaticMesh": "/Game/ASS/PRP/PRP_Books/SM_PRP_Book_Rad_B.SM_PRP_Book_Rad_B",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Prop_Colony_Pamphlet_A",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Pamphlet_A.BP_Prop_Pamphlet_A_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Prop_Colony_Pamphlet_RAD_A.T_ITEM_Prop_Colony_Pamphlet_RAD_A",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Prop_Colony_Pamphlet_A-DeployableName\", \"A\")",
+            "PreviewStaticMesh": "/Game/ASS/PRP/PRP_Books/SM_PRP_Pamphlet_Rad_A.SM_PRP_Pamphlet_Rad_A",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Prop_Colony_Pamphlet_B",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Pamphlet_B.BP_Prop_Pamphlet_B_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Prop_Colony_Pamphlet_RAD_B.T_ITEM_Prop_Colony_Pamphlet_RAD_B",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Prop_Colony_Pamphlet_B-DeployableName\", \"A\")",
+            "PreviewStaticMesh": "/Game/ASS/PRP/PRP_Books/SM_PRP_Pamphlet_Rad_B.SM_PRP_Pamphlet_Rad_B",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Prop_Colony_Pamphlet_C",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Pamphlet_C.BP_Prop_Pamphlet_C_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Prop_Colony_Pamphlet_RAD_C.T_ITEM_Prop_Colony_Pamphlet_RAD_C",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Prop_Colony_Pamphlet_C-DeployableName\", \"A\")",
+            "PreviewStaticMesh": "/Game/ASS/PRP/PRP_Books/SM_PRP_Pamphlet_Rad_C.SM_PRP_Pamphlet_Rad_C",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Prop_Corkboard_Colony",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Corkboard_Large_H.BP_Prop_Corkboard_Large_H_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Prop_Colony_Corkboard_RAD_LRG.T_ITEM_Prop_Colony_Corkboard_RAD_LRG",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Prop_Corkboard_Colony-DeployableName\", \"Colony Corkboard\")",
+            "PreviewStaticMesh": "/Game/ASS/PRP/Posters/SM_PRP_Corkboard_Rad_LRG.SM_PRP_Corkboard_Rad_LRG",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Colony_Arcade_Machine",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_Colony_Arcade_Machine.BP_Colony_Arcade_Machine_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Arcade_Machine/SM_DEP_Arcade_Machine.SM_DEP_Arcade_Machine",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SupportsCustomRotation": false,
+            "MaxRestackingAmount": 1
         }
     ]
 }

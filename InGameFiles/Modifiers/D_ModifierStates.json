@@ -1265,7 +1265,7 @@
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Slowed.Icon_Slowed'",
             "Type": "Debuff",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Slow-ModifierName\", \"Slowed\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Slow-ModifierDescription\", \"You are slowed \")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Slow-ModifierDescription\", \"You are slowed.\")",
             "GrantedStats": {
                 "(Value=\"BaseMovementSpeed_+%\")": -50
             },
@@ -3370,7 +3370,7 @@
             "Name": "Meta_Soda",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_MetaRation_10.ITEM_MetaRation_10'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Soda-ModifierName\", \"All Go\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Soda-ModifierDescription\", \"Keeps hunger at bay longer.\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Soda-ModifierDescription\", \"Keeps thirst at bay longer.\")",
             "GrantedStats": {
                 "(Value=\"BaseHealthRegen_+%\")": 10,
                 "(Value=\"BaseWaterConsumption_+%\")": -10,
@@ -3601,7 +3601,7 @@
             "Name": "Cooked_Corn",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_CharredCorn.ITEM_CharredCorn'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Corn-ModifierName\", \"Charred Corn\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Corn-ModifierDescription\", \"Enhances stamina and improves endurance. \")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Corn-ModifierDescription\", \"Enhances stamina and improves endurance.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
                 "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -5274,7 +5274,7 @@
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_People.Icon_People'",
             "Type": "Aura_Positive",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_TamingSpeed-ModifierName\", \"Aura: Taming Speed Increase\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_TamingSpeed-ModifierDescription\", \"Nearby Juveniles Creatures are Tamed Faster \")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_TamingSpeed-ModifierDescription\", \"Nearby Juveniles Creatures are Tamed Faster.\")",
             "VisibleToPlayer": false,
             "bAura": true,
             "AuraRange": 3500,
@@ -5640,7 +5640,7 @@
             "Name": "GrantedAura_Watchtower",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Tools.Icon_Tools'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_Watchtower-ModifierName\", \"Watchtower Aura\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_Watchtower-ModifierDescription\", \"Description\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_Watchtower-ModifierDescription\", \"Under the protection of a Nearby Watchtower\")",
             "bAura": true,
             "AuraRange": 7500,
             "AuraFlags": {
@@ -9380,7 +9380,7 @@
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_HungryDebuff.Icon_HungryDebuff'",
             "Type": "Debuff",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"ExoticDebuff_T1_Food-ModifierName\", \"Exotic Nutritional Disturbance\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"ExoticDebuff_T1_Food-ModifierDescription\", \"The Exotic Affliction has caused you to consume more food. Can escalate to a concussion, parasites or a wound.  \")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"ExoticDebuff_T1_Food-ModifierDescription\", \"The Exotic Affliction has caused you to consume more food. Can escalate to a concussion, parasites or a wound.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodConsumption_+%\")": 50
             },
@@ -9398,7 +9398,7 @@
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_WaterBuff.Icon_WaterBuff'",
             "Type": "Debuff",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"ExoticDebuff_T1_Water-ModifierName\", \"Exotic Hydration Disturbance\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"ExoticDebuff_T1_Water-ModifierDescription\", \"The Exotic Affliction has caused you to consume more water. Can escalate to bacteria, parasites or a wound.  \")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"ExoticDebuff_T1_Water-ModifierDescription\", \"The Exotic Affliction has caused you to consume more water. Can escalate to bacteria, parasites or a wound.\")",
             "GrantedStats": {
                 "(Value=\"BaseWaterConsumption_+%\")": 50
             },
@@ -9999,7 +9999,7 @@
             "Name": "Mushroom_Omlette",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Mushroom_Omlette.T_ITEM_Mushroom_Omlette'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Mushroom_Omlette-ModifierName\", \"Mushroom Omlette\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Mushroom_Omlette-ModifierDescription\", \"Boosts your health, grants a chance of additional stone when mining and stamina regeneration. \")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Mushroom_Omlette-ModifierDescription\", \"Boosts your health, grants a chance of additional stone when mining and stamina regeneration.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
                 "(Value=\"BaseMaximumHealth_+\")": 150,
@@ -11149,7 +11149,7 @@
         {
             "Name": "Ape_Tonic",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Health_Garganutan_Tonic.T_ITEM_Health_Garganutan_Tonic'",
-            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Ape_Tonic-ModifierName\", \"Garganutan Frenzy Tonic \")",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Ape_Tonic-ModifierName\", \"Garganutan Frenzy Tonic\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Ape_Tonic-ModifierDescription\", \"Greatly increases your attack and movement speeds, and greatly increases stamina regeneration, but reduces felling and mining rewards.\")",
             "GrantedStats": {
                 "(Value=\"BaseAttackSpeed_+%\")": 25,
@@ -11482,7 +11482,7 @@
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/T_extremedebuff-weather-Volcanic-HeavyAsh-chaos-3.T_extremedebuff-weather-Volcanic-HeavyAsh-chaos-3'",
             "Type": "Debuff",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Volcanic_VolcWinter-ModifierName\", \"Volcanic Winter Exposure\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Volcanic_VolcWinter-ModifierDescription\", \"The volcanic winter is cooling you, increasing your food and oxygen consumption, and reducing your processing speed. Reduces your mobility, increases your stamina usage and damages you. \")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Volcanic_VolcWinter-ModifierDescription\", \"The volcanic winter is cooling you, increasing your food and oxygen consumption, and reducing your processing speed. Reduces your mobility, increases your stamina usage and damages you.\")",
             "AudioData": {
                 "RowName": "Exposure_Dynamic"
             },
@@ -11514,7 +11514,7 @@
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/T_extremedebuff-weather-Volcanic-HeavyAsh-chaos-3.T_extremedebuff-weather-Volcanic-HeavyAsh-chaos-3'",
             "Type": "Debuff",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Volcanic_ColdFront-ModifierName\", \"Cold Front Exposure\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Volcanic_ColdFront-ModifierDescription\", \"The cold front is cooling you, increasing your oxygen consumption. Reduces your mobility, increases your stamina usage and damages you. \")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Volcanic_ColdFront-ModifierDescription\", \"The cold front is cooling you, increasing your oxygen consumption. Reduces your mobility, increases your stamina usage and damages you.\")",
             "AudioData": {
                 "RowName": "Exposure_Dynamic"
             },
@@ -11825,7 +11825,7 @@
             "Name": "Meta_Biolab_Inhaler_Hammerhead",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Meta_Biolab_Inhaler_Hammerhead.T_ITEM_Meta_Biolab_Inhaler_Hammerhead'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Biolab_Inhaler_Hammerhead-ModifierName\", \"Noxious Mining Inhaler\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Biolab_Inhaler_Hammerhead-ModifierDescription\", \"Increases mining rewards and radius. Grants a small portion of mined materials as extra Noxious Crust. \")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Biolab_Inhaler_Hammerhead-ModifierDescription\", \"Increases mining rewards and radius. Grants a small portion of mined materials as extra Noxious Crust.\")",
             "GrantedStats": {
                 "(Value=\"BasePyriticCrustPerMinedResource_%\")": 15,
                 "(Value=\"BaseMiningRewards_+%\")": 10,
@@ -11964,7 +11964,7 @@
             "Name": "Coconut_Cake_Piece",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Coconut_Cake_Piece.T_ITEM_Coconut_Cake_Piece'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Cake_Piece-ModifierName\", \"Coconut Cake Piece\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Cake_Piece-ModifierDescription\", \"A light cake good for crafting and using tools. \")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Cake_Piece-ModifierDescription\", \"A light cake good for crafting and using tools.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
                 "(Value=\"BaseMaximumHealth_+\")": 250,
@@ -12210,7 +12210,7 @@
             "Name": "Cheese_Roll",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Cheese_Roll.T_ITEM_Cheese_Roll'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cheese_Roll-ModifierName\", \"Cheese Roll\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cheese_Roll-ModifierDescription\", \"Provides a boost to health, stamina, health regeneration, stamina regeneration and experience gained and granted to allies. \")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cheese_Roll-ModifierDescription\", \"Provides a boost to health, stamina, health regeneration, stamina regeneration and experience gained and granted to allies.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
                 "(Value=\"BaseMaximumHealth_+\")": 150,
@@ -12232,7 +12232,7 @@
             "Name": "Cheese_Pizza",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Cheese_Pizza.T_ITEM_Cheese_Pizza'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cheese_Pizza-ModifierName\", \"Cheese Pizza\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cheese_Pizza-ModifierDescription\", \"Provides a boost to health, stamina, stamina regeneration and experience gained and granted to allies. \")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cheese_Pizza-ModifierDescription\", \"Provides a boost to health, stamina, stamina regeneration and experience gained and granted to allies.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
                 "(Value=\"BaseMaximumHealth_+\")": 125,
@@ -12828,7 +12828,7 @@
             "Name": "Growth_Enzyme",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/ICON_SelectionSun.ICON_SelectionSun'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Growth_Enzyme-ModifierName\", \"Growth Enzyme\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Growth_Enzyme-ModifierDescription\", \"Temporarily enhances the target for increased durability and rewards. \")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Growth_Enzyme-ModifierDescription\", \"Temporarily enhances the target for increased durability and rewards.\")",
             "GrantedStats": {
                 "(Value=\"BaseMaximumHealth_+%\")": 30,
                 "(Value=\"BaseHealthRegen_+%\")": 50,
@@ -13884,7 +13884,7 @@
             "Name": "RadiationPoisoning_2",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_RAD2.T_ICON_RAD2'",
             "Type": "Radiation",
-            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"RadiationPoisoning_2-ModifierName\", \"Acute Radiation Poisoning \")",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"RadiationPoisoning_2-ModifierName\", \"Acute Radiation Poisoning\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"RadiationPoisoning_2-ModifierDescription\", \"Major effects due to radiation. Seek Medical Attention. Persists after death.\")",
             "AudioData": {
                 "RowName": "Exposure_Radiation_MED"
@@ -14819,6 +14819,21 @@
                         "TagName": "ModifierState.ExtingishFire"
                     }
                 ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Prebuilt.IgnoreUnobtainable"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "AutoDescription": " NONE( Prebuilt.IgnoreUnobtainable )"
             },
             "bEffectsObjects": true,
             "bEffectsNPCs": false,
@@ -16514,6 +16529,54 @@
             },
             "bEffectsPlayers": false,
             "SaveToDatabase": false
+        },
+        {
+            "Name": "Wound_NoEscalation",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_WoundedDebuff.Icon_WoundedDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Wound_NoEscalation-ModifierName\", \"Wound\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Wound_NoEscalation-ModifierDescription\", \"You\\'re bleeding and no longer regenerating health. Use a basic bandage to stem the bleeding.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseHealthRegen_+%\")": -80,
+                "(Value=\"IsWounded_?\")": 1
+            },
+            "bRemovedOnEscalation": false,
+            "ModifierTickRate": 120,
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "WoundModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Bandage"
+                    },
+                    {
+                        "TagName": "Character.Player.Invincible"
+                    },
+                    {
+                        "TagName": "ModifierState.Mount.Immune"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    3,
+                    0,
+                    1,
+                    2
+                ],
+                "AutoDescription": " NONE( ModifierState.Bandage, Character.Player.Invincible, ModifierState.Mount.Immune )"
+            },
+            "EffectsCustomActor": {
+                "RowName": "Faction_Mission_NPC"
+            }
         }
     ]
 }

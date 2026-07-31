@@ -1015,8 +1015,10 @@
             "Name": "Saddle_Radiation",
             "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier_Saddle.BP_EquippableModifier_Saddle_C",
             "GrantedStats": {
-                "(Value=\"BaseMountCargoSlots_+\")": 12,
-                "(Value=\"BaseMountHeavyCargoSlots_+\")": 3
+                "(Value=\"BaseMountCargoSlots_+\")": 6,
+                "(Value=\"BaseMountHeavyCargoSlots_+\")": 2,
+                "(Value=\"PreventRadiationSpread_?\")": 1,
+                "(Value=\"BaseExposureResistance_+%\")": 15
             }
         },
         {
@@ -1047,6 +1049,11 @@
                 "(Value=\"BaseOreCarryWeight_+%\")": -10,
                 "(Value=\"BaseWoodCarryWeight_+%\")": -10
             },
+            "bBindToAllInventoryUpdates": false
+        },
+        {
+            "Name": "Companion_Drone",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier_CompanionDrone.BP_EquippableModifier_CompanionDrone_C",
             "bBindToAllInventoryUpdates": false
         },
         {

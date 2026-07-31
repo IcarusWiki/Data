@@ -839,17 +839,17 @@
         },
         {
             "Name": "OLY_Forest_Scan",
-            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_OLY_Forest_Scan.BPQ_OLY_Forest_Scan_C",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan2.BPQ_Oly_Forest_Scan2_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Scan-Description\", \"TERRAIN SCAN: Forest\")"
         },
         {
             "Name": "OLY_Forest_Scan_Retrieve_Equipment",
-            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_OLY_Forest_CollectPod.BPQ_OLY_Forest_CollectPod_C",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/OldVersion/BPQ_OLY_Forest_CollectPod.BPQ_OLY_Forest_CollectPod_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Scan_Retrieve_Equipment-Description\", \"Collect a Radar from the Supply Pod\")"
         },
         {
             "Name": "OLY_Forest_Scan_Location_1",
-            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_OLY_Forest_ScanLocation.BPQ_OLY_Forest_ScanLocation_C",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/OldVersion/BPQ_OLY_Forest_ScanLocation.BPQ_OLY_Forest_ScanLocation_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Scan_Location_1-Description\", \"Scan Location 1 - Prepare for Wildlife Attacks\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_Scan1"
@@ -857,7 +857,7 @@
         },
         {
             "Name": "OLY_Forest_Scan_Location_2",
-            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_OLY_Forest_ScanLocation.BPQ_OLY_Forest_ScanLocation_C",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/OldVersion/BPQ_OLY_Forest_ScanLocation.BPQ_OLY_Forest_ScanLocation_C",
             "Variation": 1,
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Scan_Location_2-Description\", \"Scan Location 2 - Prepare for Wildlife Attacks\")",
             "LocationQuery": {
@@ -866,7 +866,7 @@
         },
         {
             "Name": "OLY_Forest_Scan_Location_3",
-            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_OLY_Forest_ScanLocation.BPQ_OLY_Forest_ScanLocation_C",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/OldVersion/BPQ_OLY_Forest_ScanLocation.BPQ_OLY_Forest_ScanLocation_C",
             "Variation": 2,
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Scan_Location_3-Description\", \"Scan Location 3 - Prepare for Wildlife Attacks\")",
             "LocationQuery": {
@@ -882,6 +882,29 @@
             "Name": "OLY_Forest_Stockpile_0",
             "Class": "/Game/BP/Quests/Olympus/Forest/Stockpile/BPQ_OLY_Forest_Stockpile.BPQ_OLY_Forest_Stockpile_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Stockpile_0-Description\", \"STOCKPILE: Forest\")"
+        },
+        {
+            "Name": "Oly_Forest_Stockpile_Craft",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Stockpile/BPQ_Oly_Forest_Stockpile_Craft.BPQ_Oly_Forest_Stockpile_Craft_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Stockpile_Craft-Description\", \"Prepare Equipment\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Stockpile_Craft-InfoText\", \"Higher Tier Equipment Will Gather More Resources\")"
+        },
+        {
+            "Name": "Oly_Forest_Stockpile_Craft_Knife",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Stockpile/BPQ_Oly_Forest_Stockpile_Craft_Knife.BPQ_Oly_Forest_Stockpile_Craft_Knife_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Stockpile_Craft_Knife-Description\", \"Craft a Knife\")"
+        },
+        {
+            "Name": "Oly_Forest_Stockpile_Craft_Sickle",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Stockpile/BPQ_Oly_Forest_Stockpile_Craft_Sickle.BPQ_Oly_Forest_Stockpile_Craft_Sickle_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Stockpile_Craft_Sickle-Description\", \"Craft a Sickle\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Stockpile_Craft_Sickle-InfoText\", \"Sickles Will Greatly Improve Harvesting Vegetation\")"
+        },
+        {
+            "Name": "Oly_Forest_Stockpile_Craft_WaterPurifier",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Stockpile/BPQ_Oly_Forest_Stockpile_Craft_WaterReservoir.BPQ_Oly_Forest_Stockpile_Craft_WaterReservoir_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Stockpile_Craft_WaterPurifier-Description\", \"Craft a Basic Water Purifier\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Stockpile_Craft_WaterPurifier-InfoText\", \"Place the Water Purifier in a Stream or Lake and Drink from it to Protect from Bacteria\")"
         },
         {
             "Name": "OLY_Forest_Stockpile_Ship1",
@@ -952,6 +975,7 @@
             "Name": "OLY_Forest_Stockpile_Meat",
             "Class": "/Game/BP/Quests/Olympus/Forest/Stockpile/BPQ_OLY_Forest_Stockpile_Deposit_Meat.BPQ_OLY_Forest_Stockpile_Deposit_Meat_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Stockpile_Meat-Description\", \"<Number>({0} / {1})</> Cooked Meat\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Stockpile_Meat-InfoText\", \"Leaving Carcasses on the Ground Will Attract More Predators\")",
             "DialogueEvents": {
                 "QuestStart": {
                     "RowName": "ItemFoundGeneric6",
@@ -3374,12 +3398,12 @@
         {
             "Name": "Common_Scan_Deploy_Radar",
             "Class": "/Game/BP/Quests/Common/BPQ_Scan_Deploy.BPQ_Scan_Deploy_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"Common_Scan_Deploy_Radar-Description\", \"Deploy the Station\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Common_Scan_Deploy_Radar-Description\", \"Deploy the Radar Station\")"
         },
         {
             "Name": "Common_Scan_Activate_Radar",
             "Class": "/Game/BP/Quests/Common/BPQ_Scan_Activate.BPQ_Scan_Activate_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"Common_Scan_Activate_Radar-Description\", \"Activate the Station\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Common_Scan_Activate_Radar-Description\", \"Activate the Radar Station\")"
         },
         {
             "Name": "Common_Scan_Progress_Radar",
@@ -3389,7 +3413,7 @@
         {
             "Name": "Common_Scan_Retrieve_Radar",
             "Class": "/Game/BP/Quests/Common/BPQ_Scan_Retrieve.BPQ_Scan_Retrieve_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"Common_Scan_Retrieve_Radar-Description\", \"Collect the Station\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Common_Scan_Retrieve_Radar-Description\", \"Collect the RadarStation\")"
         },
         {
             "Name": "Common_Retrieve_Item_Pickup",
@@ -5602,7 +5626,7 @@
         {
             "Name": "STYX_Common_Scan_Deploy",
             "Class": "/Game/BP/Quests/Common/BPQ_Common_Scan_Deploy.BPQ_Common_Scan_Deploy_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_Common_Scan_Deploy-Description\", \"Deploy the Station\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_Common_Scan_Deploy-Description\", \"Deploy the Radar Station\")"
         },
         {
             "Name": "STYX_Common_Scan_Progress",
@@ -8831,7 +8855,7 @@
         },
         {
             "Name": "OLY_Forest_Scan_Resupply",
-            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_OLY_Forest_Resupply.BPQ_OLY_Forest_Resupply_C",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/OldVersion/BPQ_OLY_Forest_Resupply.BPQ_OLY_Forest_Resupply_C",
             "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Scan_Resupply-InfoText\", \"(Optional) Open the Escape Menu and Request a Mission Resupply if your mission equipment is lost\")"
         },
         {
@@ -17560,7 +17584,7 @@
             "Name": "ELY_Story_1_Beacon_Craft",
             "Class": "/Game/BP/Quests/Elysium/Story/Story1/BPQ_ELY_Story_1_Beacon_Craft.BPQ_ELY_Story_1_Beacon_Craft_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_1_Beacon_Craft-Description\", \"Acquire a Single Barrel Launcher and Some Flares\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_1_Beacon_Craft-InfoText\", \"The  Single Barrel Launcher is Unlocked on the T2 Tech Tree and Crafted at Crafting Bench.\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_1_Beacon_Craft-InfoText\", \"The  Single Barrel Launcher is Unlocked on the T2 Tech Tree and Crafted at a Crafting Bench.\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -20391,7 +20415,7 @@
             "Name": "OLY_SQ_Norex_Equipment",
             "Class": "/Game/BP/Quests/NPC/Norex/BPQ_SQ_Norex_Equipment.BPQ_SQ_Norex_Equipment_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_SQ_Norex_Equipment-Description\", \"Prepare Equipment\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_SQ_Norex_Equipment-InfoText\", \"The Single Barrel Launcher is Unlocked on the T2 Tech Tree and Crafted at Crafting Bench.\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_SQ_Norex_Equipment-InfoText\", \"The Single Barrel Launcher is Unlocked on the T2 Tech Tree and Crafted at a Crafting Bench.\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -22387,6 +22411,126 @@
             }
         },
         {
+            "Name": "Oly_Forest_Scan2",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan2.BPQ_Oly_Forest_Scan2_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan2-Description\", \"TERRAIN SCAN: Forest\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_Scan_Equipment"
+            }
+        },
+        {
+            "Name": "Oly_Forest_Scan_Craft",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan_Craft.BPQ_Oly_Forest_Scan_Craft_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Craft-Description\", \"Prepare Equipment to Defend Yourself\")"
+        },
+        {
+            "Name": "Oly_Forest_Scan_Craft_Bandage",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan_Craft_Bandage.BPQ_Oly_Forest_Scan_Craft_Bandage_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Craft_Bandage-Description\", \"Craft Bandages  <Number>({0} / {1})</> \")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Craft_Bandage-InfoText\", \"Use Bandages to Cure Bleeding and Wounds\")"
+        },
+        {
+            "Name": "Oly_Forest_Scan_Craft_Weapon",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan_Craft_Weapon.BPQ_Oly_Forest_Scan_Craft_Weapon_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Craft_Weapon-Description\", \"Craft a Spear or Bow\")"
+        },
+        {
+            "Name": "Oly_Forest_Scan_Craft_Armor",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan_Craft_Armor.BPQ_Oly_Forest_Scan_Craft_Armor_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Craft_Armor-Description\", \"(Optional) Craft Armor\")"
+        },
+        {
+            "Name": "Oly_Forest_Scan_Loot_Travel",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan_Loot_Travel.BPQ_Oly_Forest_Scan_Loot_Travel_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Loot_Travel-Description\", \"Travel to the Marked Area ([Map])\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_Scan_Equipment"
+            },
+            "DialogueEvents": {
+                "QuestEnd": {
+                    "RowName": "NPC_FEMALE_GENERIC_HELP",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
+        },
+        {
+            "Name": "Oly_Forest_Scan_Loot",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan_Loot.BPQ_Oly_Forest_Scan_Loot_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Loot-Description\", \"Find the Lost Radar Needed for Scanning\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_Scan_Equipment"
+            }
+        },
+        {
+            "Name": "Oly_Forest_Scan_Loot_Get_Radar",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan_Get_Radar.BPQ_Oly_Forest_Scan_Get_Radar_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Loot_Get_Radar-Description\", \"Collect the Radar\")"
+        },
+        {
+            "Name": "Oly_Forest_Scan_Loot_BandageNPC",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan_Loot_BandageNPC.BPQ_Oly_Forest_Scan_Loot_BandageNPC_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Loot_BandageNPC-Description\", \"Use a Bandage to Heal Griff\\'s Wounds\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Loot_BandageNPC-InfoText\", \"Equip a Bandage and ([AltFire]) to Heal an Ally\")",
+            "DialogueEvents": {
+                "QuestEnd": {
+                    "RowName": "NPC_FEMALE_GENERIC_DAMNWOLVES",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
+        },
+        {
+            "Name": "Oly_Forest_Scan2_Radar_Scan_1",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan_Location_1.BPQ_Oly_Forest_Scan_Location_1_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan2_Radar_Scan_1-Description\", \"Setup Defenses and Scan the First Location\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_Scan1"
+            },
+            "DialogueEvents": {
+                "QuestEnd": {
+                    "RowName": "Scanning1ScanComplete1",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
+        },
+        {
+            "Name": "Oly_Forest_Scan2_Radar_Scan_2",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan_Location_2.BPQ_Oly_Forest_Scan_Location_2_C",
+            "Variation": 1,
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan2_Radar_Scan_2-Description\", \"Clear Out and Scan the Second Location\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_Scan2"
+            },
+            "DialogueEvents": {
+                "QuestEnd": {
+                    "RowName": "Scanning1ScanComplete2",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
+        },
+        {
+            "Name": "Oly_Forest_Scan2_Radar_Scan_3",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan_Location_3.BPQ_Oly_Forest_Scan_Location_3_C",
+            "Variation": 2,
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan2_Radar_Scan_3-Description\", \"Scan the Final Location and Prepare for Attacks\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_Scan3"
+            },
+            "DialogueEvents": {
+                "QuestEnd": {
+                    "RowName": "Scanning1ScanComplete3",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
+        },
+        {
+            "Name": "Oly_Forest_Scan_NPC_Spawn",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan_NPC_Spawn.BPQ_Oly_Forest_Scan_NPC_Spawn_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_NPC_Spawn-Description\", \"Find the Next Location to Scan with the Radar ([MAP])\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_Scan2"
+            }
+        },
+        {
             "Name": "OLY_Forest_Construction_Preparation",
             "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_Preparation.BPQ_OLY_Forest_Construction_Preparation_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_Preparation-Description\", \"Prepare Items to Build and Decorate a Cabin\")",
@@ -22451,6 +22595,55 @@
             "Name": "OLY_Forest_Construction_ChimneyCap",
             "Class": "/Game/BP/Quests/Olympus/Forest/Construction/BPQ_OLY_Forest_Construction_ChimneyCap.BPQ_OLY_Forest_Construction_ChimneyCap_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Construction_ChimneyCap-Description\", \"Place a Chimney Cap  <Number>({0} / {1})</>\")"
+        },
+        {
+            "Name": "Oly_Forest_Scan_Craft_Hedgehogs",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan_Craft_Hedgehogs.BPQ_Oly_Forest_Scan_Craft_Hedgehogs_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Craft_Hedgehogs-Description\", \"Collect Medium Wood Hedgehogs <Number>({0} / {1})</> \")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Craft_Hedgehogs-InfoText\", \"Hedgehogs Can Help Defend You and Your Equipment\")"
+        },
+        {
+            "Name": "Oly_Forest_Scan_Deploy_Hedgehogs",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan_Deploy_Hedgehogs.BPQ_Oly_Forest_Scan_Deploy_Hedgehogs_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Deploy_Hedgehogs-Description\", \"Place Medium Wood Hedgehogs <Number>({0} / {1})</> \")"
+        },
+        {
+            "Name": "Oly_Forest_Scan_Location_2_Deploy",
+            "Class": "/Game/BP/Quests/Common/BPQ_Common_Scan_Deploy.BPQ_Common_Scan_Deploy_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Location_2_Deploy-Description\", \"Deploy the Radar Station\")"
+        },
+        {
+            "Name": "Oly_Forest_Scan_Location_2_BuildUpLoc",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan_Buildup_Travel.BPQ_Oly_Forest_Scan_Buildup_Travel_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Location_2_BuildUpLoc-Description\", \"Travel to the Marked Area ([Map])\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_Scan_BuildUp"
+            }
+        },
+        {
+            "Name": "Oly_Forest_Scan_Location_2_Ascend",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan_Travel_Ascend.BPQ_Oly_Forest_Scan_Travel_Ascend_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Location_2_Ascend-Description\", \"Find a Way Up the Cliff\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Location_2_Ascend-InfoText\", \"Ramps or Ladders Will Make for an Easy Ascent\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_Scan_Ascend"
+            }
+        },
+        {
+            "Name": "Oly_Forest_Scan_Location_2_Wolf_Kills",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan_Wolf_Kills.BPQ_Oly_Forest_Scan_Wolf_Kills_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Location_2_Wolf_Kills-Description\", \"Defeat the Wolfpack\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_Scan_Ascend"
+            }
+        },
+        {
+            "Name": "Oly_Forest_Scan_Return_Radar",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan_Return_Radar.BPQ_Oly_Forest_Scan_Return_Radar_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Return_Radar-Description\", \"Return the Radar to the Supply Ship\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_Scan3"
+            }
         },
         {
             "Name": "OLY_Forest_Recon_GatherResources",

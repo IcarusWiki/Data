@@ -7985,6 +7985,9 @@
                     },
                     {
                         "TagName": "Item.Meta"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     }
                 ]
             },
@@ -7998,6 +8001,9 @@
                     },
                     {
                         "TagName": "Item.Meta"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -38939,6 +38945,9 @@
                     },
                     {
                         "TagName": "Item.Utility"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     }
                 ]
             },
@@ -38955,6 +38964,9 @@
                     },
                     {
                         "TagName": "Item.Utility"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -82528,6 +82540,9 @@
                     },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     }
                 ]
             },
@@ -82538,6 +82553,9 @@
                     },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -109486,6 +109504,9 @@
                     },
                     {
                         "TagName": "Item.Bench"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     }
                 ]
             },
@@ -109496,6 +109517,9 @@
                     },
                     {
                         "TagName": "Item.Bench"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -153668,20 +153692,26 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "FieldGuide.Defense"
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     }
                 ]
             },
             "Generated_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "FieldGuide.Defense"
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -179326,90 +179356,6 @@
             }
         },
         {
-            "Name": "Curtain_PlatinumWeave",
-            "Meshable": {
-                "RowName": "Mesh_Generic_Crafting"
-            },
-            "Itemable": {
-                "RowName": "Item_Leather_Curtain_Window"
-            },
-            "Interactable": {
-                "RowName": "Window"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Deployable"
-            },
-            "Usable": {
-                "RowName": "Place"
-            },
-            "Deployable": {
-                "RowName": "Leather_Curtain_Window"
-            },
-            "Durable": {
-                "RowName": "Deployable_100"
-            },
-            "Decayable": {
-                "RowName": "Decay_10_Minutes"
-            },
-            "Flammable": {
-                "RowName": "Flammable_Deployable"
-            },
-            "Weight": {
-                "RowName": "LightDeployable"
-            },
-            "Audio": {
-                "RowName": "GenericDeployable"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.BuildingTrim"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.BuildingTrim"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Deployable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    },
-                    {
-                        "TagName": "Traits.Flammable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
             "Name": "Cave_Bat_Head",
             "Meshable": {
                 "RowName": "Mesh_Generic_Crafting"
@@ -181134,6 +181080,9 @@
                     },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     }
                 ]
             },
@@ -181144,6 +181093,9 @@
                     },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -181219,20 +181171,26 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "FieldGuide.Defense"
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     }
                 ]
             },
             "Generated_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "FieldGuide.Defense"
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -181310,20 +181268,26 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "FieldGuide.Defense"
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     }
                 ]
             },
             "Generated_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "FieldGuide.Defense"
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -181401,20 +181365,26 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "FieldGuide.Defense"
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     }
                 ]
             },
             "Generated_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "FieldGuide.Defense"
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -181492,20 +181462,26 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "FieldGuide.Defense"
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     }
                 ]
             },
             "Generated_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "FieldGuide.Defense"
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -183074,6 +183050,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "FactionMission.Item"
+                    },
+                    {
+                        "TagName": "Prebuilt.IgnoreUnobtainable"
                     }
                 ]
             },
@@ -183081,6 +183060,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "FactionMission.Item"
+                    },
+                    {
+                        "TagName": "Prebuilt.IgnoreUnobtainable"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -183246,6 +183228,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "FactionMission.Item"
+                    },
+                    {
+                        "TagName": "Prebuilt.IgnoreUnobtainable"
                     }
                 ]
             },
@@ -183253,6 +183238,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "FactionMission.Item"
+                    },
+                    {
+                        "TagName": "Prebuilt.IgnoreUnobtainable"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -184714,6 +184702,9 @@
                     },
                     {
                         "TagName": "Item.Decoration.Lab"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     }
                 ]
             },
@@ -184724,6 +184715,9 @@
                     },
                     {
                         "TagName": "Item.Decoration.Lab"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -185897,6 +185891,9 @@
                     },
                     {
                         "TagName": "Item.Decoration.Lab"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     }
                 ]
             },
@@ -185907,6 +185904,9 @@
                     },
                     {
                         "TagName": "Item.Decoration.Lab"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -185986,6 +185986,9 @@
                     },
                     {
                         "TagName": "Item.Decoration.Lab"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     }
                 ]
             },
@@ -185996,6 +185999,9 @@
                     },
                     {
                         "TagName": "Item.Decoration.Lab"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -190873,6 +190879,9 @@
                     },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     }
                 ]
             },
@@ -190883,6 +190892,9 @@
                     },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -205196,6 +205208,12 @@
                 "GameplayTags": [
                     {
                         "TagName": "FactionMission.Item"
+                    },
+                    {
+                        "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     }
                 ]
             },
@@ -205203,6 +205221,12 @@
                 "GameplayTags": [
                     {
                         "TagName": "FactionMission.Item"
+                    },
+                    {
+                        "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -209529,6 +209553,9 @@
                     },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     }
                 ]
             },
@@ -209539,6 +209566,9 @@
                     },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -220996,7 +221026,7 @@
                 "RowName": "Mesh_Carcass_Mammoth_Mount"
             },
             "Itemable": {
-                "RowName": "Item_Carcass_Mammoth_Mount"
+                "RowName": "Item_Carcass_Mammoth"
             },
             "Interactable": {
                 "RowName": "AnimalCorpse_Mount"
@@ -221021,6 +221051,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Harvest.Knife.T2"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     }
                 ]
             },
@@ -221028,6 +221061,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Harvest.Knife.T2"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -222116,6 +222152,9 @@
                     },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     }
                 ]
             },
@@ -222129,6 +222168,9 @@
                     },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
+                    },
+                    {
+                        "TagName": "Prebuilt.Destroyable"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -230440,6 +230482,9 @@
                     },
                     {
                         "TagName": "Item.Ammo.Shotgun"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     }
                 ]
             },
@@ -230459,6 +230504,9 @@
                     },
                     {
                         "TagName": "Item.Ammo.Shotgun"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -232687,9 +232735,6 @@
             "Highlightable": {
                 "RowName": "Generic"
             },
-            "Durable": {
-                "RowName": "Carcass_Large"
-            },
             "Decayable": {
                 "RowName": "Decay_10_Minutes"
             },
@@ -232720,9 +232765,6 @@
                     },
                     {
                         "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
                     }
                 ],
                 "ParentTags": []

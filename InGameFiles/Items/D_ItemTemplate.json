@@ -1790,12 +1790,6 @@
             }
         },
         {
-            "Name": "Collision_Projectile",
-            "ItemStaticData": {
-                "RowName": "Collision_Projectile"
-            }
-        },
-        {
             "Name": "Platinum_Ore",
             "ItemStaticData": {
                 "RowName": "Platinum_Ore"
