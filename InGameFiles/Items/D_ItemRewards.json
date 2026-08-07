@@ -38502,6 +38502,24 @@
         },
         {
             "Name": "Dino_Large_Carcass_Loot"
+        },
+        {
+            "Name": "Beaver_Head"
+        },
+        {
+            "Name": "Beaver_Carcass_Loot"
+        },
+        {
+            "Name": "Giant_Turtle_Head"
+        },
+        {
+            "Name": "Giant_Turtle_Carcass_Loot"
+        },
+        {
+            "Name": "Turtle_Fish_Head"
+        },
+        {
+            "Name": "Turtle_Fish_Carcass_Loot"
         }
     ]
 }

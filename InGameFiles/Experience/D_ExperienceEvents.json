@@ -572,19 +572,8 @@
             "ExperienceGranted": 1250
         },
         {
-            "Name": "Kill_Alpha_Cat",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Alpha_Cat-EventDescription\", \"Killed Alpha Cat\")",
-            "SharedExperience": true,
-            "ExperienceGranted": 2000
-        },
-        {
-            "Name": "Skin_Alpha_Cat",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Alpha_Cat-EventDescription\", \"Skinned Alpha Cat\")",
-            "ExperienceGranted": 1250
-        },
-        {
-            "Name": "Kill_Cougar_Alpha",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Cougar_Alpha-EventDescription\", \"Killed Alpha Cougar\")",
+            "Name": "Kill_Alpha_Cougar",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Alpha_Cougar-EventDescription\", \"Killed Alpha Cougar\")",
             "SharedExperience": true,
             "ExperienceGranted": 2250
         },
@@ -946,18 +935,13 @@
             "Name": "Kill_Gas_Flyer",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Gas_Flyer-EventDescription\", \"Killed Drifter\")",
             "SharedExperience": true,
-            "ExperienceGranted": 520
-        },
-        {
-            "Name": "Skin_Gas_Flyer",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Gas_Flyer-EventDescription\", \"Skinned Drifter\")",
             "ExperienceGranted": 260
         },
         {
             "Name": "Kill_FleshSac_Floater",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_FleshSac_Floater-EventDescription\", \"Killed Gaseous Floater\")",
             "SharedExperience": true,
-            "ExperienceGranted": 520
+            "ExperienceGranted": 260
         },
         {
             "Name": "Kill_BlueBack",
@@ -1327,7 +1311,7 @@
         },
         {
             "Name": "Kill_Ape",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Ape-EventDescription\", \"Killed Garganutan\")",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Ape-EventDescription\", \"Killed Garganutan Prime\")",
             "SharedExperience": true,
             "ExperienceGranted": 50000
         },
@@ -2068,7 +2052,7 @@
         },
         {
             "Name": "Kill_Bird_Coastal",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Bird_Coastal-EventDescription\", \"Killed Coastal BIrd\")",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Bird_Coastal-EventDescription\", \"Killed Coastal Bird\")",
             "SharedExperience": true,
             "ExperienceGranted": 170
         },
@@ -2087,6 +2071,39 @@
             "Name": "Skin_Dino_Large",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Dino_Large-EventDescription\", \"Skinned Dino Large\")",
             "ExperienceGranted": 1250
+        },
+        {
+            "Name": "Kill_Beaver",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Beaver-EventDescription\", \"Killed Beaver\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 800
+        },
+        {
+            "Name": "Skin_Beaver",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Beaver-EventDescription\", \"Skinned Beaver\")",
+            "ExperienceGranted": 400
+        },
+        {
+            "Name": "Kill_Giant_Turtle",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Giant_Turtle-EventDescription\", \"Killed Giant Turtle\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 1500
+        },
+        {
+            "Name": "Skin_Giant_Turtle",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Giant_Turtle-EventDescription\", \"Skinned Giant Turtle\")",
+            "ExperienceGranted": 870
+        },
+        {
+            "Name": "Kill_Turtle_Fish",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Turtle_Fish-EventDescription\", \"Killed Turtle Fish\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 2000
+        },
+        {
+            "Name": "Skin_Turtle_Fish",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Turtle_Fish-EventDescription\", \"Skinned Turtle Fish\")",
+            "ExperienceGranted": 1000
         }
     ]
 }

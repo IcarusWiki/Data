@@ -26538,6 +26538,12 @@
             }
         },
         {
+            "Name": "Carbon_Fishing_Rod",
+            "ItemStaticData": {
+                "RowName": "Carbon_Fishing_Rod"
+            }
+        },
+        {
             "Name": "T3_Backpack",
             "ItemStaticData": {
                 "RowName": "T3_Backpack"

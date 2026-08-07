@@ -3319,6 +3319,18 @@
                         "0": "/Game/ASS/CRE/Orka/M_CRE_Orka_Arctic_Carcass.M_CRE_Orka_Arctic_Carcass"
                     },
                     "CarcassGFurMaterials": {},
+                    "Weighting": 50
+                },
+                {
+                    "bCanBeSelected": false,
+                    "MeshMaterials": {
+                        "0": "/Game/ASS/CRE/Orka/M_CRE_Orka_Primal.M_CRE_Orka_Primal"
+                    },
+                    "GFurMaterials": {},
+                    "CarcassMeshMaterials": {},
+                    "CarcassGFurMaterials": {
+                        "0": "/Game/ASS/CRE/Orka/M_CRE_Orka_Arctic_Carcass.M_CRE_Orka_Arctic_Carcass"
+                    },
                     "Weighting": 5
                 }
             ],

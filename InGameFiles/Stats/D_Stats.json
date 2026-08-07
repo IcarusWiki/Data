@@ -18343,7 +18343,7 @@
         {
             "Name": "RadiationResistance_%",
             "Title": "NSLOCTEXT(\"D_Stats\", \"RadiationResistance_%-Title\", \"Radiation Resistance\")",
-            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_Radiation.Icon_Radiation",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_Icon_Radiation_Small.T_Icon_Radiation_Small",
             "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
             "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
             "bIsReplicated": true,
@@ -22771,6 +22771,153 @@
             "Name": "BaseDinoLargeExtraDamageResistance_+%",
             "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseDinoLargeExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Dino\")",
             "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseDinoLargeExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Dino\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseBeaverSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BeaverSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BeaverExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"BeaverExtraDamage_+%-Title\", \"Damage vs Beaver\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseBeaverExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseBeaverExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Beaver\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseBeaverExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Beaver\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BeaverExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"BeaverExtraDamageResistance_+%-Title\", \"Resistance vs Beaver\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseBeaverExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseBeaverExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Beaver\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseBeaverExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Beaver\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "GiantTurtleSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BaseGiantTurtleSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "GiantTurtleExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"GiantTurtleExtraDamage_+%-Title\", \"Damage vs Giant Turtle\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseGiantTurtleExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseGiantTurtleExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Giant Turtle\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseGiantTurtleExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Giant Turtle\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "GiantTurtleExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"GiantTurtleExtraDamageResistance_+%-Title\", \"Resistance vs Giant Turtle\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseGiantTurtleExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseGiantTurtleExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Giant Turtle\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseGiantTurtleExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Giant Turtle\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "TurtleFishSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BaseTurtleFishSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "TurtleFishExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TurtleFishExtraDamage_+%-Title\", \"Damage vs Turtle Fish\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseTurtleFishExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurtleFishExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Turtle Fish\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurtleFishExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Turtle Fish\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "TurtleFishExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TurtleFishExtraDamageResistance_+%-Title\", \"Resistance vs Turtle Fish\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseTurtleFishExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurtleFishExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Turtle Fish\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurtleFishExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Turtle Fish\")",
             "StatCategory": {
                 "RowName": "AI"
             }

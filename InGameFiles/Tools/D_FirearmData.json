@@ -2738,12 +2738,12 @@
         {
             "Name": "Nailgun",
             "HipAccuracy": {
-                "X": 1.600000023841858,
-                "Y": 1.600000023841858
+                "X": 0.10000000149011612,
+                "Y": 0.10000000149011612
             },
             "AimAccuracy": {
-                "X": 0.5,
-                "Y": 0.550000011920929
+                "X": 0.10000000149011612,
+                "Y": 0.10000000149011612
             },
             "LaunchForce": 600,
             "ChargeData": {
@@ -3231,7 +3231,7 @@
             },
             "AmmoCapacity": 6,
             "RoundsPerMinute": 45,
-            "ReloadTime": 0.5,
+            "ReloadTime": 0.75,
             "AudioData": {
                 "RowName": "SlugGun"
             },

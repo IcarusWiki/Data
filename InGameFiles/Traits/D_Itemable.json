@@ -9461,7 +9461,7 @@
         },
         {
             "Name": "Item_Fishing_Bench",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fishing_Bench-DisplayName\", \"Basic Fishing Bench\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fishing_Bench-DisplayName\", \"Fishing Bench\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Fishing_Bench.ITEM_Fishing_Bench",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fishing_Bench-Description\", \"A place to craft Rods and Lures and to fillet Fish that you\\'ve caught.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fishing_Bench-FlavorText\", \"The stench of this bench...\")",
@@ -23039,7 +23039,7 @@
             "Name": "Item_Plastics",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Plastics-DisplayName\", \"Plastics\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Plastics.T_ITEM_Plastics",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Plastics-Description\", \"Mouldable panels for use for containers, shells, casings and housings.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Plastics-Description\", \"Mouldable panels for use in containers, shells, casings, housings, etc.\")",
             "Weight": 500,
             "MaxStack": 50
         },
@@ -28363,19 +28363,20 @@
             "Weight": 2500
         },
         {
-            "Name": "Item_Carbon_Rod",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carbon_Rod-DisplayName\", \"Carbon Fishing Rod\")",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carbon_Rod-Description\", \"High-tensile angling rod reinforced with a lightweight carbon-composite weave. Engineered to handle extreme bending strain when hooking heavy aquatic organisms native to Icarus waters.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carbon_Rod-FlavorText\", \"Perfect for when you need a quiet afternoon away from corporate quotas and man-eating mutagens.\")",
+            "Name": "Item_Carbon_Fishing_Rod",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carbon_Fishing_Rod-DisplayName\", \"Carbon Fishing Rod\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ITEM_Carbon_Fishing_Rod.T_ITEM_Carbon_Fishing_Rod",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carbon_Fishing_Rod-Description\", \"High-tensile angling rod reinforced with a lightweight carbon-composite weave. Engineered to handle extreme bending strain when hooking heavy aquatic organisms native to Icarus waters.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carbon_Fishing_Rod-FlavorText\", \"Perfect for when you need a quiet afternoon away from corporate quotas and man-eating mutagens.\")",
             "Weight": 1250
         },
         {
-            "Name": "Item_RadBoss_Rod",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Rod-DisplayName\", \"Malformation Fishing Rod\")",
+            "Name": "Item_RadBoss_Fishing_Rod",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Fishing_Rod-DisplayName\", \"Malformation Fishing Rod\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ITEM_RadBoss_Rod.T_ITEM_RadBoss_Rod",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Rod-Description\", \"The malformed aura of this fishing rod lures in unique catch.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Rod-FlavorText\", \"Warped rod for warped fish.\")",
-            "Weight": 1250
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Fishing_Rod-Description\", \"The malformed aura of this fishing rod lures in unique catch.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Fishing_Rod-FlavorText\", \"A warped rod for warped fish.\")",
+            "Weight": 2250
         },
         {
             "Name": "Item_Animal_Virus",
@@ -28438,6 +28439,14 @@
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_RadBoss_Head-FlavorText\", \"Who knew taxidermy would be so popular on Icarus?\")",
             "Weight": 2000,
             "MaxStack": 5
+        },
+        {
+            "Name": "Item_LegendaryWeapon_Grenade_Launcher",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_LegendaryWeapon_Grenade_Launcher-DisplayName\", \"MX-7 Rotary Grenade Launcher\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/LegendaryWeapons/T_ITEM_LegendaryWeapon_SlugLauncher.T_ITEM_LegendaryWeapon_SlugLauncher",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_LegendaryWeapon_Grenade_Launcher-Description\", \"High-capacity rotary launcher engineered to propel heavy explosive canisters over long distances. Eliminates the operational hazard of manually throwing ordnance in unpredictable atmospheric conditions.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_LegendaryWeapon_Grenade_Launcher-FlavorText\", \"Because throwing high-yield explosives by hand is a short path to an early retirement.\")",
+            "Weight": 2500
         },
         {
             "Name": "Item_Mission_Explosives_Cart",
@@ -28624,29 +28633,29 @@
         },
         {
             "Name": "Item_Weapon_Rack_T2",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T2-DisplayName\", \"T2 Weapon Rack\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T2-DisplayName\", \"Crude Weapon Rack\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Weapon_Rack_T2.T_ITEM_Weapon_Rack_T2",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T2-Description\", \"A countryside-inspired decor feature that brings character to your home.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T2-FlavorText\", \"Home Sweet Home\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T2-Description\", \"A crude rack to display your weapons.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T2-FlavorText\", \"Show off your belongings with flair.\")",
             "Weight": 2000,
             "MaxStack": 5
         },
         {
             "Name": "Item_Weapon_Rack_T3",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T3-DisplayName\", \"T3 Weapon Rack\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T3-DisplayName\", \"Metal Weapon Rack\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Weapon_Rack_T3.T_ITEM_Weapon_Rack_T3",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T3-Description\", \"A countryside-inspired decor feature that brings character to your home.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T3-FlavorText\", \"Home Sweet Home\")",
-            "Weight": 2000,
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T3-Description\", \"A metal rack to display your weapons.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T3-FlavorText\", \"Show off your belongings with flair.\")",
+            "Weight": 3000,
             "MaxStack": 5
         },
         {
             "Name": "Item_Weapon_Rack_T4",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T4-DisplayName\", \"T4 Weapon Rack\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T4-DisplayName\", \"Heavy-Duty Weapon Rack\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Weapon_Rack_T4.T_ITEM_Weapon_Rack_T4",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T4-Description\", \"A countryside-inspired decor feature that brings character to your home.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T4-FlavorText\", \"Home Sweet Home\")",
-            "Weight": 2000,
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T4-Description\", \"A detailed rack to display your weapons.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Weapon_Rack_T4-FlavorText\", \"Show off your belongings with flair.\")",
+            "Weight": 2500,
             "MaxStack": 5
         },
         {
@@ -28666,14 +28675,14 @@
             "Name": "Item_T4_Backpack",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_T4_Backpack-DisplayName\", \"Camo Backpack\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_T4_Backpack.T_ITEM_T4_Backpack",
-            "Description": "INVTEXT(\"[DNT] A sturdy, camouflaged backpack good for all purposes and great for avoiding unwanted attention.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_T4_Backpack-Description\", \"A sturdy, camouflaged backpack for all purpose use, great for avoiding unwanted attention.\")",
             "Weight": 800
         },
         {
             "Name": "Item_T5_Backpack",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_T5_Backpack-DisplayName\", \"Synthetic Backpack\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_T5_Backpack.T_ITEM_T5_Backpack",
-            "Description": "INVTEXT(\"[DNT] A spacious synthetic backpack with sleek aerodynamics that matches form and function into peak design.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_T5_Backpack-Description\", \"A spacious synthetic backpack with sleek aerodynamics that matches form and function into peak design.\")",
             "Weight": 900
         },
         {
@@ -28738,23 +28747,22 @@
         },
         {
             "Name": "Item_Carcass_Crab_Coastal",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Crab_Coastal-DisplayName\", \"Crab Coastal Carcass\")",
-            "Description": "INVTEXT(\". \")",
+            "DisplayName": "INVTEXT(\"[DNT] Crab Coastal Carcass\")",
             "Weight": 8000
         },
         {
             "Name": "Item_Carcass_Crab_Coastal_Parent",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Crab_Coastal_Parent-DisplayName\", \"Crab Coastal Parent Carcass\")",
+            "DisplayName": "INVTEXT(\"[DNT] Crab Coastal Parent Carcass\")",
             "Weight": 8000
         },
         {
             "Name": "Item_Carcass_Turtle_Duck",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Turtle_Duck-DisplayName\", \"Turtle Duck Carcass\")",
+            "DisplayName": "INVTEXT(\"[DNT] Turtle Duck Carcass\")",
             "Weight": 200
         },
         {
             "Name": "Item_Carcass_Bird_Coastal",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Bird_Coastal-DisplayName\", \"Coastal Bird Carcass\")",
+            "DisplayName": "INVTEXT(\"[DNT] Coastal Bird Carcass\")",
             "Weight": 1250
         }
     ]

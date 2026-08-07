@@ -15232,6 +15232,24 @@
                 ],
                 "AutoDescription": " ALL( FactionMission.Forest.Scan.Radar )"
             }
+        },
+        {
+            "Name": "GH_RAD_C2_Dead",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.C2.Dead"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.C2.Dead )"
+            }
         }
     ]
 }

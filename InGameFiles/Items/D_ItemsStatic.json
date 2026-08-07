@@ -169193,139 +169193,6 @@
             }
         },
         {
-            "Name": "LegendaryWeapon_SlugLauncher",
-            "Meshable": {
-                "RowName": "Mesh_LegendaryWeapon_SlugLauncher"
-            },
-            "Itemable": {
-                "RowName": "Item_LegendaryWeapon_SlugLauncher"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Focusable": {
-                "RowName": "Focusable_LegendaryWeapon_SlugLauncher"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "SlugLauncher"
-            },
-            "Usable": {
-                "RowName": "Repair"
-            },
-            "Fillable": {
-                "RowName": "Fillable_Water_30L"
-            },
-            "Durable": {
-                "RowName": "LegendaryWeapon_SlugLauncher"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "LivingItem": {
-                "RowName": "Hammerhead_Slug"
-            },
-            "Audio": {
-                "RowName": "LegendaryItem"
-            },
-            "FirearmData": {
-                "RowName": "SlugLauncher"
-            },
-            "AdditionalStats": {
-                "(Value=\"BaseFirearmFillablePerShot_+\")": 400,
-                "(Value=\"BaseProjectileAOE_+\")": 500,
-                "(Value=\"BaseProjectileSplashLifespan_+\")": 20
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Meta"
-                    },
-                    {
-                        "TagName": "Item.LivingWeapon"
-                    },
-                    {
-                        "TagName": "Item.Utility.AlwaysShow"
-                    },
-                    {
-                        "TagName": "Item.Weapon.Launcher"
-                    },
-                    {
-                        "TagName": "Item.Fillable.Water.NoDrink"
-                    },
-                    {
-                        "TagName": "Item.Fillable.Water.NoAlteration"
-                    },
-                    {
-                        "TagName": "Item.Fillable.Water.NoShow"
-                    },
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Meta"
-                    },
-                    {
-                        "TagName": "Item.LivingWeapon"
-                    },
-                    {
-                        "TagName": "Item.Utility.AlwaysShow"
-                    },
-                    {
-                        "TagName": "Item.Weapon.Launcher"
-                    },
-                    {
-                        "TagName": "Item.Fillable.Water.NoDrink"
-                    },
-                    {
-                        "TagName": "Item.Fillable.Water.NoAlteration"
-                    },
-                    {
-                        "TagName": "Item.Fillable.Water.NoShow"
-                    },
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Fillable"
-                    },
-                    {
-                        "TagName": "Traits.Durable"
-                    }
-                ],
-                "ParentTags": []
-            },
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "GreatHunts"
-                }
-            }
-        },
-        {
             "Name": "Cow_Head",
             "Meshable": {
                 "RowName": "Mesh_Generic_Crafting"
@@ -234769,6 +234636,96 @@
                     },
                     {
                         "TagName": "Traits.Consumable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Carbon_Fishing_Rod",
+            "Meshable": {
+                "RowName": "Mesh_Carbon_Fishing_Rod"
+            },
+            "Itemable": {
+                "RowName": "Item_Carbon_Fishing_Rod"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Focusable": {
+                "RowName": "Focusable_Fishing_Rod"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Wood_Fishing_Rod"
+            },
+            "Usable": {
+                "RowName": "Repair"
+            },
+            "Durable": {
+                "RowName": "Carbon_Fishing_Rod"
+            },
+            "Experience": {
+                "RowName": "CatchFish"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "InventoryContainer": {
+                "RowName": "Fishing_Rod_Attachment"
+            },
+            "Audio": {
+                "RowName": "CarbonRod"
+            },
+            "RangedWeaponData": {
+                "RowName": "Throwing_Spear"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseFishingTime_+%\")": 5,
+                "(Value=\"BaseChanceToCatchUniqueFish_+%\")": 20,
+                "(Value=\"BaseAnimalThreatModifier_+%\")": -15,
+                "(Value=\"BaseFishingCaptureZoneSize_+%\")": 25
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Tool.FishingRod"
+                    },
+                    {
+                        "TagName": "FieldGuide.Equipment"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Tool.FishingRod"
+                    },
+                    {
+                        "TagName": "FieldGuide.Equipment"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
                     }
                 ],
                 "ParentTags": []

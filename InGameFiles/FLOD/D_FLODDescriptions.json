@@ -1812,7 +1812,7 @@
         },
         {
             "Name": "FT_ROCK_DC_SML_03",
-            "FoliageType": "/Game/ASS/ENV/RCK/SM_DC_Rocks/FT/FT_ROCK_DC_SML_01.FT_ROCK_DC_SML_01",
+            "FoliageType": "/Game/ASS/ENV/RCK/SM_DC_Rocks/FT/FT_ROCK_DC_SML_03.FT_ROCK_DC_SML_03",
             "FoliageTags": {
                 "GameplayTags": [
                     {

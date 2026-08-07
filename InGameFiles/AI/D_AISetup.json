@@ -1609,7 +1609,7 @@
                 "RowName": "AnimalBones_Medium"
             },
             "Experience": {
-                "RowName": "Creature_Cougar_Alpha"
+                "RowName": "Creature_Alpha_Cougar"
             },
             "BestiaryGroup": {
                 "RowName": "Cougar"
@@ -28292,7 +28292,7 @@
             "GOAPSetup": {
                 "RowName": "Irradiated_Prospector"
             },
-            "DefaultNavigationFilter": "BlueprintGeneratedClass'/Game/BP/AI/GOAP/Misc/NavFilter_DefaultAI.NavFilter_DefaultAI_C'",
+            "DefaultNavigationFilter": "BlueprintGeneratedClass'/Game/BP/AI/GOAP/Misc/NavFilter_AllowAllAreas.NavFilter_AllowAllAreas_C'",
             "Relationships": {
                 "RowName": "DefaultLargeCarnivore"
             },
@@ -33009,7 +33009,7 @@
             "GOAPSetup": {
                 "RowName": "Irradiated_Abomination"
             },
-            "DefaultNavigationFilter": "BlueprintGeneratedClass'/Game/BP/AI/GOAP/Misc/NavFilter_DefaultAI.NavFilter_DefaultAI_C'",
+            "DefaultNavigationFilter": "BlueprintGeneratedClass'/Game/BP/AI/GOAP/Misc/NavFilter_AllowAllAreas.NavFilter_AllowAllAreas_C'",
             "Relationships": {
                 "RowName": "DefaultLargeCarnivore"
             },
@@ -34241,7 +34241,7 @@
             "GOAPSetup": {
                 "RowName": "Irradiated_Mutation"
             },
-            "DefaultNavigationFilter": "BlueprintGeneratedClass'/Game/BP/AI/GOAP/Misc/NavFilter_DefaultAI.NavFilter_DefaultAI_C'",
+            "DefaultNavigationFilter": "BlueprintGeneratedClass'/Game/BP/AI/GOAP/Misc/NavFilter_AllowAllAreas.NavFilter_AllowAllAreas_C'",
             "Relationships": {
                 "RowName": "DefaultLargeCarnivore"
             },
@@ -34532,7 +34532,7 @@
             "ActorClass": "/Game/BP/AI/GOAP/AI/BP_NPC_WoollyMammoth_Juvenile_Character.BP_NPC_WoollyMammoth_Juvenile_Character_C",
             "ControllerClass": "/Game/BP/AI/GOAP/AI/BP_NPC_Juvenile_Controller.BP_NPC_Juvenile_Controller_C",
             "CreatureType": {
-                "RowName": "Woolly_Mammoth"
+                "RowName": "Juvenile_WoollyMammoth"
             },
             "Descriptors": [
                 {

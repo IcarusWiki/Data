@@ -1694,6 +1694,19 @@
             ]
         },
         {
+            "Name": "Carbon_Fishing_Rod",
+            "Max_Durability": 8000,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Carbon_Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 1
+                }
+            ]
+        },
+        {
             "Name": "Obsidian",
             "Max_Durability": 60000,
             "ItemsForRepair": [

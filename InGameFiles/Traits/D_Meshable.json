@@ -519,12 +519,6 @@
             "EquipBackActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Wood_Rag_Torch.BP_SkeletalItem_Wood_Rag_Torch_C"
         },
         {
-            "Name": "Mesh_Fishing_Rod",
-            "ItemMesh": "/Game/ASS/ITM/SK_ITM_FishingRod.SK_ITM_FishingRod",
-            "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_FishingRod.SK_ITM_FishingRod",
-            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Fishing_Rod.BP_SkeletalItem_Fishing_Rod_C"
-        },
-        {
             "Name": "Mesh_Shovel",
             "ItemMesh": "/Game/ASS/ITM/SK_ITM_Shovel.SK_ITM_Shovel",
             "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_Shovel.SK_ITM_Shovel"
@@ -6343,10 +6337,16 @@
             "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Crossbow_RadBoss.BP_SkeletalItem_Crossbow_RadBoss_C"
         },
         {
-            "Name": "Mesh_Carbon_Rod",
-            "ItemMesh": "/Game/ASS/ITM/SK_ITM_FishingRod_Scorpion.SK_ITM_FishingRod_Scorpion",
-            "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_FishingRod_Scorpion.SK_ITM_FishingRod_Scorpion",
+            "Name": "Mesh_Carbon_Fishing_Rod",
+            "ItemMesh": "/Game/ASS/ITM/FishingRod_Carbon/SM_ITM_FishingRod_Carbon.SM_ITM_FishingRod_Carbon",
+            "EquipHandMesh": "/Game/ASS/ITM/FishingRod_Carbon/SK_ITM_FishingRod_Carbon.SK_ITM_FishingRod_Carbon",
             "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_FishingRod_Carbon.BP_FishingRod_Carbon_C"
+        },
+        {
+            "Name": "Mesh_Radboss_Fishing_Rod",
+            "ItemMesh": "/Game/ASS/ITM/FishingRod_RadBoss/SM_ITM_FishingRod_Radboss.SM_ITM_FishingRod_Radboss",
+            "EquipHandMesh": "/Game/ASS/ITM/FishingRod_RadBoss/SK_ITM_FishingRod_RadBoss.SK_ITM_FishingRod_RadBoss",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_FishingRod_Radboss.BP_FishingRod_Radboss_C"
         },
         {
             "Name": "Mesh_Drone_Companion",
@@ -6354,6 +6354,12 @@
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
             "EquipBackMesh": "/Game/ASS/VHC/Speeder_Bike/SM_VHC_Speeder_Bike_Kit.SM_VHC_Speeder_Bike_Kit",
             "EquipBackActor": "/Game/BP/Objects/World/Items/Back/BP_Back_DroneCompanion.BP_Back_DroneCompanion_C"
+        },
+        {
+            "Name": "Mesh_LegendaryWeapon_Grenade_Launcher",
+            "ItemMesh": "/Game/ASS/ITM/WeaponCrate_Norex/SM_ITM_WeaponCrate_Norex.SM_ITM_WeaponCrate_Norex",
+            "EquipHandMesh": "/Game/ASS/WEP/GUN_Hammerhead_Slug_Glob/SK_GUN_Hammerhead_Slug_Glob_Core.SK_GUN_Hammerhead_Slug_Glob_Core",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Grenade_Launcher.BP_SkeletalItem_Grenade_Launcher_C"
         },
         {
             "Name": "Mesh_Ammo_Stone",
@@ -6439,6 +6445,25 @@
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Dino_Large_Corpse.BP_Dino_Large_Corpse_C",
             "EquipHandMesh": "/Game/ASS/CRE/Raptor/SK_CRE_Raptor.SK_CRE_Raptor",
             "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Dino_Large_Corpse.BP_Dino_Large_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Beaver",
+            "ItemMesh": "/Game/ASS/CRE/Beaver/SK_CRE_Beaver.SK_CRE_Beaver",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Beaver_Corpse.BP_Beaver_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Beaver/SK_CRE_Beaver.SK_CRE_Beaver",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Beaver_Corpse.BP_Beaver_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Giant_Turtle",
+            "ItemMesh": "/Game/ASS/CRE/Flightless_Tank/SK_CRE_Flightless_Tank.SK_CRE_Flightless_Tank",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Giant_Turtle_Corpse.BP_Giant_Turtle_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Flightless_Tank/SK_CRE_Flightless_Tank.SK_CRE_Flightless_Tank",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Giant_Turtle_Corpse.BP_Giant_Turtle_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Turtle_Fish",
+            "ItemMesh": "/Game/ASS/CRE/GrizzlyBear/SK_CRE_AGG_GrizzlyBear.SK_CRE_AGG_GrizzlyBear",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Turtle_Fish_Corpse.BP_Turtle_Fish_Corpse_C"
         }
     ]
 }

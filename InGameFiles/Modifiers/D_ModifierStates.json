@@ -16318,7 +16318,7 @@
             "Name": "GrantedAura_RadBossSlow",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Slowed.Icon_Slowed'",
             "Type": "Aura_Negative",
-            "ModifierName": "INVTEXT(\"[DNT] Aura: Radboss Slow\")",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_RadBossSlow-ModifierName\", \"Aura: Malformation Slow\")",
             "ModifierDescription": "",
             "bAura": true,
             "AuraRange": 500,
@@ -16340,8 +16340,8 @@
             "Name": "AuraEffect_RadBossSlow",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Slowed.Icon_Slowed'",
             "Type": "Debuff",
-            "ModifierName": "INVTEXT(\"[DNT] Stuck\")",
-            "ModifierDescription": "",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_RadBossSlow-ModifierName\", \"Trapped\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_RadBossSlow-ModifierDescription\", \"Caught in a web. Reduces movement speed and tethers player until broken.\")",
             "AudioData": {
                 "RowName": "RadBoss_Web"
             },
@@ -16351,6 +16351,46 @@
             "AuraRange": 500,
             "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
             "MergeType": "LongestDuration",
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "GrantedAura_RadBossSpawnerSlow",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Slowed.Icon_Slowed'",
+            "Type": "Aura_Negative",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_RadBossSpawnerSlow-ModifierName\", \"Aura: Malformation Spawner Slow\")",
+            "ModifierDescription": "",
+            "bAura": true,
+            "AuraRange": 1400,
+            "AuraFlags": {
+                "EffectsNPCs": true
+            },
+            "ModifierGrantedByAura": {
+                "RowName": "AuraEffect_RadBossSpawnerSlow"
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Aura_Base.BP_Modifier_Aura_Base_C",
+            "ShouldTick": true,
+            "ModifierTickRate": 0.5,
+            "RemovedOnDeath": false,
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "AuraEffect_RadBossSpawnerSlow",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Slowed.Icon_Slowed'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_RadBossSpawnerSlow-ModifierName\", \"Slowed\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_RadBossSpawnerSlow-ModifierDescription\", \"Slowed movement speed while traversing over webs.\")",
+            "AudioData": {
+                "RowName": "RadBoss_Web"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -15
+            },
+            "AuraRange": 500,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false,
             "SaveToDatabase": false
         },
         {
@@ -16371,8 +16411,8 @@
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
                 "(Value=\"BaseRadiationResistance_%\")": 10,
-                "(Value=\"BaseMaximumHealth_+\")": 100,
-                "(Value=\"BaseMaximumStamina_+\")": 100
+                "(Value=\"BaseMaximumHealth_+\")": 225,
+                "(Value=\"BaseMaximumStamina_+\")": 200
             },
             "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_RadiationRecovery_Slow.BP_ModifierStateBehaviour_RadiationRecovery_Slow_C",
             "ShouldTick": true,

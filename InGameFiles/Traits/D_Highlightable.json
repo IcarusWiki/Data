@@ -857,11 +857,6 @@
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"NPC_3-Description\", \"Hurt, will not survive without medical attention.\")"
         },
         {
-            "Name": "NPC_6",
-            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"NPC_6-DisplayName\", \"Medic Griff\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"NPC_6-Description\", \"Hurt, will not survive without medical attention.\")"
-        },
-        {
             "Name": "NPC_3_Healed",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"NPC_3_Healed-DisplayName\", \"Medic Griff\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"NPC_3_Healed-Description\", \"They try their best to keep everyone alive.\")"
@@ -1653,6 +1648,11 @@
             "Name": "Mission_Radar",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Mission_Radar-DisplayName\", \"Radar\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"Mission_Radar-Description\", \"A device which can be used to survery areas.\")"
+        },
+        {
+            "Name": "Mission_Abomination",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Mission_Abomination-DisplayName\", \"Dead Revenant\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Mission_Abomination-Description\", \"Looks like it took multiple shotgun blasts to the face.\")"
         }
     ]
 }

@@ -331,18 +331,6 @@
             }
         },
         {
-            "Name": "Creature_Alpha_Cat",
-            "ExperienceEvents": {
-                "XP_OnDeath": {
-                    "ExperienceEvent": {
-                        "RowName": "Kill_Alpha_Cat",
-                        "DataTableName": "D_ExperienceEvents"
-                    },
-                    "GainedExperience": 0
-                }
-            }
-        },
-        {
             "Name": "Creature_Alpha_Jaguar",
             "ExperienceEvents": {
                 "XP_OnDeath": {
@@ -2078,11 +2066,11 @@
             }
         },
         {
-            "Name": "Creature_Cougar_Alpha",
+            "Name": "Creature_Alpha_Cougar",
             "ExperienceEvents": {
                 "XP_OnDeath": {
                     "ExperienceEvent": {
-                        "RowName": "Kill_Cougar_Alpha",
+                        "RowName": "Kill_Alpha_Cougar",
                         "DataTableName": "D_ExperienceEvents"
                     },
                     "GainedExperience": 0
@@ -2263,6 +2251,42 @@
                 "XP_OnDeath": {
                     "ExperienceEvent": {
                         "RowName": "Kill_Dino_Large",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
+        },
+        {
+            "Name": "Creature_Beaver",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_Beaver",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
+        },
+        {
+            "Name": "Creature_Giant_Turtle",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_Giant_Turtle",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
+        },
+        {
+            "Name": "Creature_Turtle_Fish",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_Turtle_Fish",
                         "DataTableName": "D_ExperienceEvents"
                     },
                     "GainedExperience": 0

@@ -1025,9 +1025,11 @@
             "Name": "Module_RadBoss",
             "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
             "GrantedStats": {
-                "(Value=\"BaseArcticHealthRegen_+%\")": 20,
-                "(Value=\"BaseArcticStaminaRegen_+%\")": 10,
-                "(Value=\"BaseArcticExposureResistance_+%\")": 10
+                "(Value=\"BaseRadiationResistance_%\")": 15,
+                "(Value=\"BaseGeothermalHeatResistance_+%\")": 10,
+                "(Value=\"BaseGeothermalColdResistance_+%\")": 10,
+                "(Value=\"BaseVolcanicHeatResistance_+%\")": 10,
+                "(Value=\"BaseVolcanicColdResistance_+%\")": 10
             },
             "bStackedModifiersGiveDiminishingReturns": true
         },

@@ -337,7 +337,7 @@
         },
         {
             "Name": "Arena_RadBoss",
-            "AtmosphereName": "INVTEXT(\"[DNT] RadBoss Arena\")",
+            "AtmosphereName": "NSLOCTEXT(\"D_Atmospheres\", \"Arena_RadBoss-AtmosphereName\", \"Malformation Spire\")",
             "Image_Small": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Golem/T_Golem_BG_SML.T_Golem_BG_SML",
             "Image_Medium": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Golem/T_Golem_BG_MED.T_Golem_BG_MED",
             "Image_Large": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Golem/T_Golem_BG_LRG.T_Golem_BG_LRG",

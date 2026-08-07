@@ -17584,7 +17584,7 @@
             "Name": "ELY_Story_1_Beacon_Craft",
             "Class": "/Game/BP/Quests/Elysium/Story/Story1/BPQ_ELY_Story_1_Beacon_Craft.BPQ_ELY_Story_1_Beacon_Craft_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_1_Beacon_Craft-Description\", \"Acquire a Single Barrel Launcher and Some Flares\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_1_Beacon_Craft-InfoText\", \"The  Single Barrel Launcher is Unlocked on the T2 Tech Tree and Crafted at a Crafting Bench.\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_1_Beacon_Craft-InfoText\", \"The Single Barrel Launcher is Unlocked on the T2 Tech Tree and Crafted at a Crafting Bench.\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -22640,7 +22640,7 @@
         {
             "Name": "Oly_Forest_Scan_Return_Radar",
             "Class": "/Game/BP/Quests/Olympus/Forest/Scan/BPQ_Oly_Forest_Scan_Return_Radar.BPQ_Oly_Forest_Scan_Return_Radar_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Return_Radar-Description\", \"Return the Radar to the Supply Ship\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Scan_Return_Radar-Description\", \"Return the Radar to the Supply Pod\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_Scan3"
             }
