@@ -38520,6 +38520,115 @@
         },
         {
             "Name": "Turtle_Fish_Carcass_Loot"
+        },
+        {
+            "Name": "DenSpawner_Loot_RadiationDen",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Spoiled_Plants",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 10,
+                    "MaxRandomStackCount": 30,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Spider_Silk",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 10,
+                    "MaxRandomStackCount": 20,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Uranium_Raw",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 50,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 3,
+                    "bRewardsScale": false,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Uranium_Inert",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 3,
+                    "bRewardsScale": false,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
         }
     ]
 }

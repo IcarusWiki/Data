@@ -338,9 +338,9 @@
         {
             "Name": "Arena_RadBoss",
             "AtmosphereName": "NSLOCTEXT(\"D_Atmospheres\", \"Arena_RadBoss-AtmosphereName\", \"Malformation Spire\")",
-            "Image_Small": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Golem/T_Golem_BG_SML.T_Golem_BG_SML",
-            "Image_Medium": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Golem/T_Golem_BG_MED.T_Golem_BG_MED",
-            "Image_Large": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Golem/T_Golem_BG_LRG.T_Golem_BG_LRG",
+            "Image_Small": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Radiation/T_Bestiary_Rad_Boss_BG.T_Bestiary_Rad_Boss_BG",
+            "Image_Medium": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Radiation/T_Bestiary_Rad_Boss_BG.T_Bestiary_Rad_Boss_BG",
+            "Image_Large": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Radiation/T_Bestiary_Rad_Boss_BG.T_Bestiary_Rad_Boss_BG",
             "FogColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/Arena_RadBoss/C_RB_FogTint.C_RB_FogTint'",
             "SunColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/Arena_RadBoss/C_RB_AtmosSun.C_RB_AtmosSun'",
             "SunIntensity": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/Arena_RadBoss/C_RB_SunIntensity.C_RB_SunIntensity'",

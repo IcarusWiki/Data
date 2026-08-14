@@ -11783,6 +11783,116 @@
                 }
             ],
             "EffectedByWeather": false
+        },
+        {
+            "Name": "Roast_Reptile",
+            "Variants": [
+                {
+                    "RowName": "Roast_Reptile",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Roast_Venison",
+            "Variants": [
+                {
+                    "RowName": "Roast_Venison",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Roast_Panther",
+            "Variants": [
+                {
+                    "RowName": "Roast_Panther",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Roast_Pork",
+            "Variants": [
+                {
+                    "RowName": "Roast_Pork",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Roast_Exotic_Meat",
+            "Variants": [
+                {
+                    "RowName": "Roast_Exotic_Meat",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Roast_Mutton",
+            "Variants": [
+                {
+                    "RowName": "Roast_Mutton",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Roast_Wolf",
+            "Variants": [
+                {
+                    "RowName": "Roast_Wolf",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Radiation_Bomber_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Radiation_Bomber_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Irradiated_Prospector_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Irradiated_Prospector_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Irradiated_Abomination_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Irradiated_Abomination_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Irradiated_Mutation_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Irradiated_Mutation_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
         }
     ]
 }

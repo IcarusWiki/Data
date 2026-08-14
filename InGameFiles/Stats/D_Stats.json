@@ -10039,6 +10039,7 @@
         {
             "Name": "ExplosiveDamageResistance_%",
             "Title": "NSLOCTEXT(\"D_Stats\", \"ExplosiveDamageResistance_%-Title\", \"Explosive Resistance\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_MODIFIER__BOOMINGRUMBLE.T_ICON_MODIFIER__BOOMINGRUMBLE",
             "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
             "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
             "bIsReplicated": true,
@@ -10048,8 +10049,8 @@
         },
         {
             "Name": "BaseExplosiveDamageResistance_%",
-            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseExplosiveDamageResistance_%-PositiveDescription\", \"+{0} Explosive Resistance\")",
-            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseExplosiveDamageResistance_%-NegativeDescription\", \"-{0} Explosive Resistance\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseExplosiveDamageResistance_%-PositiveDescription\", \"+{0}% Explosive Resistance\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseExplosiveDamageResistance_%-NegativeDescription\", \"-{0}% Explosive Resistance\")",
             "StatCategory": {
                 "RowName": "Resistance"
             }
@@ -10871,17 +10872,29 @@
         {
             "Name": "ExplosiveDamageRadius_+",
             "Title": "NSLOCTEXT(\"D_Stats\", \"ExplosiveDamageRadius_+-Title\", \"Explosive Damage Radius\")",
-            "PositiveTitleFormat": "INVTEXT(\"{0}\")",
-            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "PositiveTitleFormat": "NSLOCTEXT(\"D_Stats\", \"ExplosiveDamageRadius_+-PositiveTitleFormat\", \"{0}m\")",
+            "NegativeTitleFormat": "NSLOCTEXT(\"D_Stats\", \"ExplosiveDamageRadius_+-NegativeTitleFormat\", \"-{0}m\")",
             "bIsReplicated": true,
+            "DisplayOperations": [
+                {
+                    "Operation": "Division",
+                    "Value": 100
+                }
+            ],
             "StatCategory": {
                 "RowName": "Generic_Damage"
             }
         },
         {
             "Name": "BaseExplosiveDamageRadius_+",
-            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseExplosiveDamageRadius_+-PositiveDescription\", \"+{0} Explosive Damage Radius\")",
-            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseExplosiveDamageRadius_+-NegativeDescription\", \"-{0} Explosive Damage Radius\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseExplosiveDamageRadius_+-PositiveDescription\", \"{0}m Explosive Damage Radius\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseExplosiveDamageRadius_+-NegativeDescription\", \"-{0}m Explosive Damage Radius\")",
+            "DisplayOperations": [
+                {
+                    "Operation": "Division",
+                    "Value": 100
+                }
+            ],
             "StatCategory": {
                 "RowName": "Generic_Damage"
             }
@@ -22920,6 +22933,34 @@
             "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurtleFishExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Turtle Fish\")",
             "StatCategory": {
                 "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseProjectileLaunchForce_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseProjectileLaunchForce_+-PositiveDescription\", \"+{0} Launch Force\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseProjectileLaunchForce_+-NegativeDescription\", \"-{0} Launch Force\")",
+            "StatCategory": {
+                "RowName": "Ranged_Weapon"
+            },
+            "bHideStatInUserInterface": true
+        },
+        {
+            "Name": "BaseProjectileLaunchForce_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseProjectileLaunchForce_+%-PositiveDescription\", \"+{0}% Launch Force\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseProjectileLaunchForce_+%-NegativeDescription\", \"-{0}% Launch Force\")",
+            "StatCategory": {
+                "RowName": "Ranged_Weapon"
+            },
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "ProjectileLaunchForce_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"ProjectileLaunchForce_+-Title\", \"Launch Force\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Ranged_Weapon"
             }
         }
     ]

@@ -2445,7 +2445,7 @@
         },
         {
             "Name": "Beer",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_BeerBottle.ITEM_BeerBottle'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Beer.ITEM_Beer'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Beer-ModifierName\", \"Beer\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Beer-ModifierDescription\", \"Boosts max stamina and regeneration.\")",
             "GrantedStats": {
@@ -6455,7 +6455,7 @@
         },
         {
             "Name": "SwampWater",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Slowed.Icon_Slowed'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_Icon_SwampWater.T_Icon_SwampWater'",
             "Type": "Debuff",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"SwampWater-ModifierName\", \"Swamp Water\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"SwampWater-ModifierDescription\", \"Being slowed by the swamp water.\")",
@@ -7456,7 +7456,7 @@
         },
         {
             "Name": "LavaSlug_Burn",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Slowed.Icon_Slowed'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_Icon_LavaSlugBurn.T_Icon_LavaSlugBurn'",
             "Type": "Debuff",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"LavaSlug_Burn-ModifierName\", \"Lava Slime\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"LavaSlug_Burn-ModifierDescription\", \"Drastically slows movement and burns. Alerts the owner of this sticky trail to your presence\")",
@@ -13168,7 +13168,7 @@
         },
         {
             "Name": "SlugLauncher_Slow",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Slowed.Icon_Slowed'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_Icon_SlugLauncher_Slow.T_Icon_SlugLauncher_Slow'",
             "Type": "Debuff",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"SlugLauncher_Slow-ModifierName\", \"Slowing Slime\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"SlugLauncher_Slow-ModifierDescription\", \"Significantly slows targets.\")",
@@ -13516,7 +13516,7 @@
         },
         {
             "Name": "Heavy_Weapon_Reload_Slow",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Slowed.Icon_Slowed'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_Icon_HeavyWeapon_Reload_Slow.T_Icon_HeavyWeapon_Reload_Slow'",
             "Type": "Debuff",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Heavy_Weapon_Reload_Slow-ModifierName\", \"Reload Slow\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Heavy_Weapon_Reload_Slow-ModifierDescription\", \"Slows Target While Reloading\")",
@@ -16316,7 +16316,7 @@
         },
         {
             "Name": "GrantedAura_RadBossSlow",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Slowed.Icon_Slowed'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_Icon_RadBoss_Slow.T_Icon_RadBoss_Slow'",
             "Type": "Aura_Negative",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_RadBossSlow-ModifierName\", \"Aura: Malformation Slow\")",
             "ModifierDescription": "",
@@ -16338,7 +16338,7 @@
         },
         {
             "Name": "AuraEffect_RadBossSlow",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Slowed.Icon_Slowed'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_Icon_RadBoss_Trapped.T_Icon_RadBoss_Trapped'",
             "Type": "Debuff",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_RadBossSlow-ModifierName\", \"Trapped\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_RadBossSlow-ModifierDescription\", \"Caught in a web. Reduces movement speed and tethers player until broken.\")",
@@ -16355,7 +16355,7 @@
         },
         {
             "Name": "GrantedAura_RadBossSpawnerSlow",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Slowed.Icon_Slowed'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_Icon_RadBoss_Slow.T_Icon_RadBoss_Slow'",
             "Type": "Aura_Negative",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_RadBossSpawnerSlow-ModifierName\", \"Aura: Malformation Spawner Slow\")",
             "ModifierDescription": "",
@@ -16377,7 +16377,7 @@
         },
         {
             "Name": "AuraEffect_RadBossSpawnerSlow",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Slowed.Icon_Slowed'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_Icon_RadBoss_Trapped.T_Icon_RadBoss_Trapped'",
             "Type": "Debuff",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_RadBossSpawnerSlow-ModifierName\", \"Slowed\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_RadBossSpawnerSlow-ModifierDescription\", \"Slowed movement speed while traversing over webs.\")",
@@ -16616,6 +16616,321 @@
             },
             "EffectsCustomActor": {
                 "RowName": "Faction_Mission_NPC"
+            }
+        },
+        {
+            "Name": "Roast_Fish",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_FishDish.ITEM_FishDish'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Fish-ModifierName\", \"Roast Fish\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Fish-ModifierDescription\", \"Light, clean protein. Good stamina, faster recovery, and far slower oxygen use.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseMaximumStamina_+\")": 150,
+                "(Value=\"BaseStaminaRegen_+%\")": 35,
+                "(Value=\"BaseOxygenConsumption_+%\")": -30,
+                "(Value=\"BaseExperience_+%\")": 10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Roast_Fowl",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_WhiteCooked.ITEM_Meat_WhiteCooked'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Fowl-ModifierName\", \"Roast Fowl\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Fowl-ModifierDescription\", \"Light white meat. Favours stamina, shrugs off exposure, and makes hard work cheaper.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 125,
+                "(Value=\"BaseMaximumStamina_+\")": 175,
+                "(Value=\"BaseStaminaRegen_+%\")": 40,
+                "(Value=\"BaseExposureResistance_+%\")": 20,
+                "(Value=\"BaseStaminaActionCost_+%\")": -15
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Roast_Rabbit",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_SoftCooked.ITEM_Meat_SoftCooked'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Rabbit-ModifierName\", \"Roast Rabbit\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Rabbit-ModifierDescription\", \"Light fare. Quick energy for covering ground.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 125,
+                "(Value=\"BaseMaximumStamina_+\")": 150,
+                "(Value=\"BaseStaminaRegen_+%\")": 35,
+                "(Value=\"BaseFoodConsumption_+%\")": -15,
+                "(Value=\"BaseStaminaActionCost_+%\")": -10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Roast_Critter",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_SoftDried.ITEM_Meat_SoftDried'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Critter-ModifierName\", \"Roast Critter\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Critter-ModifierDescription\", \"Meagre fare. Enough to keep you moving, and no more.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 100,
+                "(Value=\"BaseMaximumStamina_+\")": 100,
+                "(Value=\"BaseStaminaRegen_+%\")": 25,
+                "(Value=\"BaseFoodConsumption_+%\")": -10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Roast_Venison_Piece",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_GameyCooked.ITEM_Meat_GameyCooked'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Venison_Piece-ModifierName\", \"Roast Venison Piece\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Venison_Piece-ModifierDescription\", \"Lean roast venison. Tireless fare - every action costs less and comes back faster.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 220,
+                "(Value=\"BaseMaximumStamina_+\")": 220,
+                "(Value=\"BaseHealthRegen_+%\")": 100,
+                "(Value=\"BaseStaminaRegen_+%\")": 100,
+                "(Value=\"BaseStaminaActionCost_+%\")": -20,
+                "(Value=\"BaseExperience_+%\")": 15
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Roast_Panther_Piece",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Cooked_Prime_Meat.ITEM_Cooked_Prime_Meat'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Panther_Piece-ModifierName\", \"Roast Panther Piece\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Panther_Piece-ModifierDescription\", \"Prime cat meat. Everything an apex predator was using, now working for you.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 260,
+                "(Value=\"BaseMaximumStamina_+\")": 190,
+                "(Value=\"BaseHealthRegen_+%\")": 90,
+                "(Value=\"BaseStaminaRegen_+%\")": 75,
+                "(Value=\"BaseMeleeDamage_+%\")": 25,
+                "(Value=\"BaseCriticalDamage_+%\")": 25,
+                "(Value=\"BaseAttackSpeed_+%\")": 20
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Roast_Pork_Piece",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Cooked_Bacon.ITEM_Cooked_Bacon'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Pork_Piece-ModifierName\", \"Roast Pork Piece\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Pork_Piece-ModifierDescription\", \"The communal feast. Rich enough to carry a whole crew through a long shift.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 250,
+                "(Value=\"BaseMaximumStamina_+\")": 200,
+                "(Value=\"BaseHealthRegen_+%\")": 150,
+                "(Value=\"BaseFoodConsumption_+%\")": -35,
+                "(Value=\"BaseWeightCapacity_+%\")": 30,
+                "(Value=\"BaseSharedExperience_+%\")": 15
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Roast_Mutton_Piece",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Cooked_Meat.ITEM_Cooked_Meat'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Mutton_Piece-ModifierName\", \"Roast Mutton Piece\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Mutton_Piece-ModifierDescription\", \"Fatty roast mutton. Built for weather that would otherwise put you down.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 230,
+                "(Value=\"BaseMaximumStamina_+\")": 210,
+                "(Value=\"BaseHealthRegen_+%\")": 120,
+                "(Value=\"BaseExposureResistance_+%\")": 25,
+                "(Value=\"BasePneumoniaResistance_%\")": 35,
+                "(Value=\"BaseWaterConsumption_+%\")": -25
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Roast_Wolf_Piece",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_StringyCooked.ITEM_Meat_StringyCooked'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Wolf_Piece-ModifierName\", \"Roast Wolf Piece\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Wolf_Piece-ModifierDescription\", \"Stringy pack meat. Nothing teaches butchery like eating a butcher.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 250,
+                "(Value=\"BaseMaximumStamina_+\")": 180,
+                "(Value=\"BaseHealthRegen_+%\")": 100,
+                "(Value=\"BaseMeatHarvestedFromAnimals_+%\")": 50,
+                "(Value=\"BaseBoneHarvestedFromAnimals_+%\")": 25,
+                "(Value=\"BaseExperience_+%\")": 15
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Roast_Reptile_Piece",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Generic_Meat_Smoked.T_ITEM_Generic_Meat_Smoked'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Reptile_Piece-ModifierName\", \"Roast Reptile Piece\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Reptile_Piece-ModifierDescription\", \"Cold-blooded meat. Steadies you against heat, cold, thin air and thirst alike.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 210,
+                "(Value=\"BaseMaximumStamina_+\")": 220,
+                "(Value=\"BaseHealthRegen_+%\")": 90,
+                "(Value=\"BaseStaminaRegen_+%\")": 100,
+                "(Value=\"BaseExposureResistance_+%\")": 25,
+                "(Value=\"BaseOxygenConsumption_+%\")": -30
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Roast_Exotic_Meat_Piece",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_TboneCooked.ITEM_Meat_TboneCooked'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Exotic_Meat_Piece-ModifierName\", \"Roast Exotic Meat Piece\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Roast_Exotic_Meat_Piece-ModifierDescription\", \"Something the UDA has no menu entry for. Every bite is billable research.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 230,
+                "(Value=\"BaseMaximumStamina_+\")": 210,
+                "(Value=\"BaseHealthRegen_+%\")": 100,
+                "(Value=\"BaseExperience_+%\")": 30,
+                "(Value=\"BaseSharedExperience_+%\")": 20,
+                "(Value=\"BaseVoxelChanceToHarvestSecondaryResource_%\")": 25
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "DeepWound_NoEscalation",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_DeepWoundDebuff.Icon_DeepWoundDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"DeepWound_NoEscalation-ModifierName\", \"Deep Wound\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"DeepWound_NoEscalation-ModifierDescription\", \"A severe wound from a recent attack. Remains, even after death. Heal with a Suture Kit.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMaximumHealth_+%\")": -25,
+                "(Value=\"BaseMaximumStamina_+%\")": -25,
+                "(Value=\"BaseHealthRegen_+%\")": -95
+            },
+            "EscalationTime": 120,
+            "ModifierTickRate": 120,
+            "RemovedOnDeath": false,
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Wounded"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.SutureKit"
+                    },
+                    {
+                        "TagName": "ModifierState.Mount.Immune"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( ModifierState.SutureKit, ModifierState.Mount.Immune )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Quest_TamingSpeed",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Right_Double.Icon_Right_Double'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Quest_TamingSpeed-ModifierName\", \"Taming Speed Increase\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Quest_TamingSpeed-ModifierDescription\", \"Being Tamed Faster\")",
+            "GrantedStats": {
+                "(Value=\"BaseTamingSpeed_%\")": 1000
+            },
+            "ShouldTick": true,
+            "MergeType": "LongestDuration",
+            "EffectsCustomActor": {
+                "RowName": "Any_Juvenile"
+            },
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Quest_StopMovement",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Revive.Icon_Revive'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Quest_StopMovement-ModifierName\", \"Hurt\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Quest_StopMovement-ModifierDescription\", \"Can\\'t Walk\")",
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+\")": -1000
+            },
+            "ShouldTick": true,
+            "MergeType": "LongestDuration",
+            "EffectsCustomActor": {
+                "RowName": "Any_Juvenile"
             }
         }
     ]

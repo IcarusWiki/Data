@@ -58248,7 +58248,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 11650,
+                "X": 11600,
                 "Y": 300
             },
             "Size": {
@@ -76361,78 +76361,6 @@
                 }
             ],
             "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "T2_Weapon_Rack",
-            "ExtraData": {
-                "RowName": "Item_Weapon_Rack_T2",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T2_Crafting"
-            },
-            "Position": {
-                "X": 9100,
-                "Y": 1200
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Re_route_3",
-                    "DataTableName": "D_Talents"
-                }
-            ]
-        },
-        {
-            "Name": "T3_Weapon_Rack",
-            "ExtraData": {
-                "RowName": "Item_Weapon_Rack_T3",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T3_Machine"
-            },
-            "Position": {
-                "X": 16450,
-                "Y": 850
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Metal_Crate_Small",
-                    "DataTableName": "D_Talents"
-                }
-            ]
-        },
-        {
-            "Name": "T4_Weapon_Rack",
-            "ExtraData": {
-                "RowName": "Item_Weapon_Rack_T4",
-                "DataTableName": "D_Itemable"
-            },
-            "TalentTree": {
-                "RowName": "Blueprint_T4_Fabricator"
-            },
-            "Position": {
-                "X": 12050,
-                "Y": 300
-            },
-            "Size": {
-                "X": 184,
-                "Y": 184
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "T4_Decoration_Reroute",
-                    "DataTableName": "D_Talents"
-                }
-            ]
         },
         {
             "Name": "T4_Decoration_Reroute",

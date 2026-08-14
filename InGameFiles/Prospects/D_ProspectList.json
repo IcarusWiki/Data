@@ -1314,9 +1314,6 @@
             "LandingDialogue": {
                 "RowName": "StockpileLanding2"
             },
-            "MissionCompleteDialogue": {
-                "RowName": "MissionComplete2"
-            },
             "RequiredTech": "Tier1",
             "Terrain": {
                 "RowName": "Terrain_016"
@@ -5640,6 +5637,9 @@
             },
             "LandingDialogue": {
                 "RowName": "Expedition4aLanding"
+            },
+            "MissionCompleteDialogue": {
+                "RowName": "MissionComplete4"
             },
             "RequiredTech": "Tier4",
             "Forecast": {

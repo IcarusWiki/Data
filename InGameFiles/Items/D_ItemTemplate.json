@@ -26596,6 +26596,12 @@
             "ItemStaticData": {
                 "RowName": "Mission_Bull"
             }
+        },
+        {
+            "Name": "Fertility_Serum_Tusker",
+            "ItemStaticData": {
+                "RowName": "Fertility_Serum_Tusker"
+            }
         }
     ]
 }

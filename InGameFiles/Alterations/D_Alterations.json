@@ -1631,11 +1631,8 @@
             "Icon": "/Game/Assets/2DArt/UI/Icons/Currency/T_ICON_CURRENCY_PlantBoss.T_ICON_CURRENCY_PlantBoss",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseInfectedBarkPerWoodChopped_%\")": 60,
-                "(Value=\"BaseFellingRewards_%\")": -40,
-                "(Value=\"BaseAttacksCauseImmobilise_%\")": 20,
-                "(Value=\"BaseAttacksCausePoison_%\")": 33,
-                "(Value=\"BasePoisonDamage_+\")": 33
+                "(Value=\"BaseInfectedBarkPerWoodChopped_%\")": 20,
+                "(Value=\"BaseFellingRewards_%\")": 10
             }
         },
         {
@@ -4152,11 +4149,6 @@
                     "RowName": "DangerousHorizons"
                 }
             }
-        },
-        {
-            "Name": "RadBoss_Attachment",
-            "DisplayName": "INVTEXT(\"[DNT] Rad Boss\")",
-            "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1"
         }
     ]
 }

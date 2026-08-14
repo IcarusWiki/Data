@@ -15250,6 +15250,42 @@
                 ],
                 "AutoDescription": " ALL( GreatHunts.RadBoss.C2.Dead )"
             }
+        },
+        {
+            "Name": "T1_Forest_Stockpile_Shack",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.Stockpile.Shack"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.Stockpile.Shack )"
+            }
+        },
+        {
+            "Name": "GH_RAD_O2_Tundra",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.O2.Tundra"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.O2.Tundra )"
+            }
         }
     ]
 }

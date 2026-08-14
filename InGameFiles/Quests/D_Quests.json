@@ -902,9 +902,38 @@
         },
         {
             "Name": "Oly_Forest_Stockpile_Craft_WaterPurifier",
-            "Class": "/Game/BP/Quests/Olympus/Forest/Stockpile/BPQ_Oly_Forest_Stockpile_Craft_WaterReservoir.BPQ_Oly_Forest_Stockpile_Craft_WaterReservoir_C",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Stockpile/BPQ_Oly_Forest_Stockpile_Craft_WaterPurifier.BPQ_Oly_Forest_Stockpile_Craft_WaterPurifier_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Stockpile_Craft_WaterPurifier-Description\", \"Craft a Basic Water Purifier\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Stockpile_Craft_WaterPurifier-InfoText\", \"Place the Water Purifier in a Stream or Lake and Drink from it to Protect from Bacteria\")"
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Stockpile_Craft_WaterPurifier-InfoText\", \"Place the Water Purifier in a Stream or Lake and Drink from it to Protect from Dysentery\")"
+        },
+        {
+            "Name": "Oly_Forest_Stockpile_Deploy_WaterPurifier",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Stockpile/BPQ_Oly_Forest_Stockpile_Deploy_WaterPurifier.BPQ_Oly_Forest_Stockpile_Deploy_WaterPurifier_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Stockpile_Deploy_WaterPurifier-Description\", \"Deploy a Basic Water Purifier\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Stockpile_Deploy_WaterPurifier-InfoText\", \"Place the Water Purifier in the Nearby Lake to Safely Quench Your Thirst\")"
+        },
+        {
+            "Name": "Oly_Forest_Stockpile_Collect_Charcoal",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Stockpile/BPQ_Oly_Forest_Stockpile_Collect_Charcoal.BPQ_Oly_Forest_Stockpile_Collect_Charcoal_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Stockpile_Collect_Charcoal-Description\", \"(Optional) Collect Charcoal for the Purifier\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Stockpile_Collect_Charcoal-InfoText\", \"A Prospector Left Behind Some Charcoal in the Nearby Shack\")"
+        },
+        {
+            "Name": "Oly_Forest_Stockpile_Travel_A",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Stockpile/BPQ_Oly_ForesT_Stockpile_Travel_A.BPQ_Oly_ForesT_Stockpile_Travel_A_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Stockpile_Travel_A-Description\", \"Travel to map Location Alpha ([Map])\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_Stockpile_Ship1"
+            }
+        },
+        {
+            "Name": "Oly_Forest_Stockpile_Travel_B",
+            "Class": "/Game/BP/Quests/Olympus/Forest/Stockpile/BPQ_Oly_ForesT_Stockpile_Travel_B.BPQ_Oly_ForesT_Stockpile_Travel_B_C",
+            "Variation": 1,
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Stockpile_Travel_B-Description\", \"Travel to map Location Beta ([Map])\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_Stockpile_Ship2"
+            }
         },
         {
             "Name": "OLY_Forest_Stockpile_Ship1",
@@ -952,11 +981,6 @@
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Stockpile_Pumpkin-Description\", \"<Number>({0} / {1})</> Pumpkin\")"
         },
         {
-            "Name": "OLY_Forest_Stockpile_Squash",
-            "Class": "/Game/BP/Quests/Olympus/Forest/Stockpile/BPQ_OLY_Forest_Stockpile_Deposit_Squash.BPQ_OLY_Forest_Stockpile_Deposit_Squash_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Stockpile_Squash-Description\", \"<Number>({0} / {1})</> Squash\")"
-        },
-        {
             "Name": "OLY_Forest_Stockpile_Watermelon",
             "Class": "/Game/BP/Quests/Olympus/Forest/Stockpile/BPQ_OLY_Forest_Stockpile_Deposit_Watermelon.BPQ_OLY_Forest_Stockpile_Deposit_Watermelon_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Stockpile_Watermelon-Description\", \"<Number>({0} / {1})</> Watermelon\")"
@@ -975,13 +999,7 @@
             "Name": "OLY_Forest_Stockpile_Meat",
             "Class": "/Game/BP/Quests/Olympus/Forest/Stockpile/BPQ_OLY_Forest_Stockpile_Deposit_Meat.BPQ_OLY_Forest_Stockpile_Deposit_Meat_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Stockpile_Meat-Description\", \"<Number>({0} / {1})</> Cooked Meat\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Stockpile_Meat-InfoText\", \"Leaving Carcasses on the Ground Will Attract More Predators\")",
-            "DialogueEvents": {
-                "QuestStart": {
-                    "RowName": "ItemFoundGeneric6",
-                    "DataTableName": "D_Dialogue"
-                }
-            }
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Stockpile_Meat-InfoText\", \"Leaving Carcasses on the Ground Will Attract More Predators\")"
         },
         {
             "Name": "OLY_Forest_Stockpile_Leather",
@@ -991,7 +1009,7 @@
         {
             "Name": "OLY_Forest_Stockpile_List",
             "Class": "/Game/BP/Quests/Olympus/Forest/Stockpile/BPQ_OLY_Forest_Stockpile_List.BPQ_OLY_Forest_Stockpile_List_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Stockpile_List-Description\", \"Deposit listed resources in Cargo Pod\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Stockpile_List-Description\", \"Deposit the Listed Resources in the Cargo Pod\")"
         },
         {
             "Name": "OLY_Forest_Research_0",
@@ -6328,7 +6346,7 @@
         {
             "Name": "STYX_A_Construction_Middle_Lights",
             "Class": "/Game/BP/Quests/Styx/A/Construction/BPQ_STYX_A_Construction_Middle_Lights.BPQ_STYX_A_Construction_Middle_Lights_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Construction_Middle_Lights-Description\", \"Powered Bunker Wall Lights <Number>({0} / {1})</>\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Construction_Middle_Lights-Description\", \"Powered Bunker Lights <Number>({0} / {1})</>\")"
         },
         {
             "Name": "STYX_A_Construction_Middle_KitchenBench",

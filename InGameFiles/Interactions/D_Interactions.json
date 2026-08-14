@@ -935,6 +935,11 @@
             "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Colony_Radio_Tower-InteractionText\", \"Align Radio\")"
         },
         {
+            "Name": "Interact_Colony_Arcade_Machine",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Colony_Arcade_Machine.BP_Interactable_Interact_Colony_Arcade_Machine_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Colony_Arcade_Machine-InteractionText\", \"Play Game\")"
+        },
+        {
             "Name": "Interact_Syringe",
             "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Syringe.BP_Interactable_Syringe_C",
             "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Syringe-InteractionText\", \"Collect Virus Sample\")"
@@ -1006,6 +1011,11 @@
             "Name": "Pickup_WorldObject",
             "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_WorldObject.BP_Interactable_WorldObject_C",
             "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Pickup_WorldObject-InteractionText\", \"Pickup\")"
+        },
+        {
+            "Name": "Interact_Roast",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Roast.BP_Interactable_Interact_Roast_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Roast-InteractionText\", \"Take Piece\")"
         }
     ]
 }

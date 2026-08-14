@@ -8729,6 +8729,204 @@
                 ],
                 "AutoDescription": " ALL( Item.Weapon.Launcher.T2 )"
             }
+        },
+        {
+            "Name": "Roast_Input_Venison",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.query.carcass_venison"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.query.carcass_venison )"
+            }
+        },
+        {
+            "Name": "Roast_Input_Panther",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.query.carcass_panther"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.query.carcass_panther )"
+            }
+        },
+        {
+            "Name": "Roast_Input_Wolf",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.query.carcass_wolf"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.query.carcass_wolf )"
+            }
+        },
+        {
+            "Name": "Roast_Input_Reptile",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.query.carcass_reptile"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.query.carcass_reptile )"
+            }
+        },
+        {
+            "Name": "Roast_Input_Exotic",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.query.carcass_exotic"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.query.carcass_exotic )"
+            }
+        },
+        {
+            "Name": "Roast_Input_Mutton",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.query.carcass_mutton"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.query.carcass_mutton )"
+            }
+        },
+        {
+            "Name": "Roast_Input_Pork",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.query.carcass_pork"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.query.carcass_pork )"
+            }
+        },
+        {
+            "Name": "Roast_Input_Rabbit",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.query.carcass_rabbit"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.query.carcass_rabbit )"
+            }
+        },
+        {
+            "Name": "Roast_Input_Critter",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.query.carcass_critter"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.query.carcass_critter )"
+            }
+        },
+        {
+            "Name": "Roast_Input_Fowl",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.query.carcass_fowl"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.query.carcass_fowl )"
+            }
+        },
+        {
+            "Name": "Roast_Input_Chicken",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.query.carcass_chicken"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.query.carcass_chicken )"
+            }
         }
     ]
 }

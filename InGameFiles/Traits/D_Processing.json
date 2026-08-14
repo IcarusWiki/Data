@@ -519,8 +519,7 @@
             "DefaultRecipeSet": {
                 "RowName": "T4_Smoker"
             },
-            "ManualActivation": true,
-            "QueueSize": 5
+            "ManualActivation": true
         },
         {
             "Name": "WaterPurifier_T2",

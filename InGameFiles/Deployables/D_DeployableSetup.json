@@ -9085,7 +9085,7 @@
         },
         {
             "Name": "Chocolate_Cake",
-            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Cake_Chocolate.BP_Cake_Chocolate_C",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_Base.BP_Roast_Base_C",
             "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
             "SupportsCustomRotation": false,
@@ -15692,10 +15692,10 @@
         {
             "Name": "Radiation_Broodling_Trophy",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_RadBroodling.BP_Trophy_RadBroodling_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Rad_Broodling/SM_DEP_Trophy_Rad_Broodling.SM_DEP_Trophy_Rad_Broodling",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Rad_Broodling/SM_DEP_Trophy_Rad_Broodling_Standing.SM_DEP_Trophy_Rad_Broodling_Standing",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "SupportsCustomRotation": false,
-            "WorldPlacementType": "WallPlacement",
+            "WorldPlacementType": "GroundOrWallPlacement",
             "bCanAffectNavigation": false,
             "MaxRestackingAmount": 2
         },
@@ -15941,8 +15941,6 @@
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Radboss/SM_DEP_Trophy_Radboss_LRG.SM_DEP_Trophy_Radboss_LRG",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
             "SupportsCustomRotation": false,
-            "WorldPlacementType": "WallPlacement",
-            "bCanAffectNavigation": false,
             "MaxRestackingAmount": 2
         },
         {
@@ -15951,7 +15949,6 @@
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Radboss/SM_DEP_Trophy_Radboss_SML.SM_DEP_Trophy_Radboss_SML",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "SupportsCustomRotation": false,
-            "WorldPlacementType": "WallPlacement",
             "bCanAffectNavigation": false,
             "MaxRestackingAmount": 2
         },
@@ -16142,6 +16139,109 @@
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
             "SupportsCustomRotation": false,
             "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Roast_Reptile",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_Base.BP_Roast_Base_C",
+            "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Roast_Venison",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_Base.BP_Roast_Base_C",
+            "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Roast_Panther",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_Base.BP_Roast_Base_C",
+            "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Roast_Pork",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_Base.BP_Roast_Base_C",
+            "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Roast_Exotic_Meat",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_Base.BP_Roast_Base_C",
+            "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Roast_Mutton",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_Base.BP_Roast_Base_C",
+            "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Roast_Wolf",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_Base.BP_Roast_Base_C",
+            "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Radiation_Bomber_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_RadBomber.BP_Trophy_RadBomber_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Rad_Bomber/SM_DEP_Trophy_Rad_Bomber.SM_DEP_Trophy_Rad_Bomber",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "GroundOrWallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Irradiated_Prospector_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_RadProspector.BP_Trophy_RadProspector_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Rad_Specter/SM_DEP_Trophy_Rad_Specter.SM_DEP_Trophy_Rad_Specter",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "GroundOrWallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Irradiated_Abomination_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_RadAbomination.BP_Trophy_RadAbomination_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Rad_Revenant/SM_DEP_Trophy_Rad_Revenant.SM_DEP_Trophy_Rad_Revenant",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "GroundOrWallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Irradiated_Mutation_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_RadMutation.BP_Trophy_RadMutation_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Rad_Wraith/SM_DEP_Trophy_Rad_Wraith.SM_DEP_Trophy_Rad_Wraith",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "GroundOrWallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
         }
     ]
 }

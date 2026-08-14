@@ -4624,6 +4624,160 @@
                     "DataTableName": "D_ItemTemplate"
                 }
             ]
+        },
+        {
+            "Name": "Roast_Rabbit",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 125,
+                "(Value=\"BaseHealthRecovery_+\")": 20
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Roast_Rabbit"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Roast_Critter",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 100,
+                "(Value=\"BaseHealthRecovery_+\")": 20
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Roast_Critter"
+                },
+                "ModifierLifetime": 900
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Roast_Fowl",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 150,
+                "(Value=\"BaseHealthRecovery_+\")": 20
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Roast_Fowl"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Roast_Fish",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 150,
+                "(Value=\"BaseHealthRecovery_+\")": 20
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Roast_Fish"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Roast_Venison_Piece",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 180,
+                "(Value=\"BaseHealthRecovery_+\")": 30
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Roast_Venison_Piece"
+                },
+                "ModifierLifetime": 1500
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Roast_Panther_Piece",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 170,
+                "(Value=\"BaseHealthRecovery_+\")": 30
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Roast_Panther_Piece"
+                },
+                "ModifierLifetime": 1500
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Roast_Pork_Piece",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 200,
+                "(Value=\"BaseHealthRecovery_+\")": 30
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Roast_Pork_Piece"
+                },
+                "ModifierLifetime": 1500
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Roast_Mutton_Piece",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 180,
+                "(Value=\"BaseHealthRecovery_+\")": 30
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Roast_Mutton_Piece"
+                },
+                "ModifierLifetime": 1500
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Roast_Wolf_Piece",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 170,
+                "(Value=\"BaseHealthRecovery_+\")": 30
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Roast_Wolf_Piece"
+                },
+                "ModifierLifetime": 1500
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Roast_Reptile_Piece",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 170,
+                "(Value=\"BaseHealthRecovery_+\")": 30
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Roast_Reptile_Piece"
+                },
+                "ModifierLifetime": 1500
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Roast_Exotic_Meat_Piece",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 180,
+                "(Value=\"BaseHealthRecovery_+\")": 30
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Roast_Exotic_Meat_Piece"
+                },
+                "ModifierLifetime": 1500
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         }
     ]
 }

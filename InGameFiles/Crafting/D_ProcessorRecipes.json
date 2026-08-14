@@ -76075,6 +76075,7 @@
             "Requirement": {
                 "RowName": "Sandworm_Armor_Attachment"
             },
+            "RequiredMillijoules": 20000,
             "RecipeSets": [
                 {
                     "RowName": "Advanced_Alteration_Bench",
@@ -76190,6 +76191,7 @@
             "Requirement": {
                 "RowName": "Black_Wolf_Attachment"
             },
+            "RequiredMillijoules": 20000,
             "RecipeSets": [
                 {
                     "RowName": "Advanced_Alteration_Bench",
@@ -76522,6 +76524,7 @@
             "Requirement": {
                 "RowName": "Scorpion_Attachment"
             },
+            "RequiredMillijoules": 20000,
             "RecipeSets": [
                 {
                     "RowName": "Advanced_Alteration_Bench",
@@ -76799,6 +76802,7 @@
             "Requirement": {
                 "RowName": "Slug_Attachment"
             },
+            "RequiredMillijoules": 20000,
             "RecipeSets": [
                 {
                     "RowName": "Advanced_Alteration_Bench",
@@ -77710,6 +77714,7 @@
             "Requirement": {
                 "RowName": "Lava_Hunter_Attachment"
             },
+            "RequiredMillijoules": 20000,
             "RecipeSets": [
                 {
                     "RowName": "Advanced_Alteration_Bench",
@@ -78046,6 +78051,7 @@
             "Requirement": {
                 "RowName": "Rock_Golem_Attachment"
             },
+            "RequiredMillijoules": 20000,
             "RecipeSets": [
                 {
                     "RowName": "Advanced_Alteration_Bench",
@@ -79718,6 +79724,7 @@
             "Requirement": {
                 "RowName": "Ape_Attachment"
             },
+            "RequiredMillijoules": 20000,
             "RecipeSets": [
                 {
                     "RowName": "Advanced_Alteration_Bench",
@@ -79772,6 +79779,7 @@
             "Requirement": {
                 "RowName": "Ice_Mammoth_Attachment"
             },
+            "RequiredMillijoules": 20000,
             "RecipeSets": [
                 {
                     "RowName": "Advanced_Alteration_Bench",
@@ -105055,7 +105063,7 @@
         {
             "Name": "Attachment_Guns_Damage_1",
             "Requirement": {
-                "RowName": "Updated_Armor_Attachment_Pack"
+                "RowName": "Updated_Ranged_Attachment_Pack"
             },
             "RequiredMillijoules": 10000,
             "RecipeSets": [
@@ -105162,7 +105170,7 @@
         {
             "Name": "Attachment_Guns_ExtendedAmmo_1",
             "Requirement": {
-                "RowName": "Updated_Armor_Attachment_Pack"
+                "RowName": "Updated_Ranged_Attachment_Pack"
             },
             "RequiredMillijoules": 10000,
             "RecipeSets": [
@@ -109140,7 +109148,7 @@
             "Outputs": [
                 {
                     "Element": {
-                        "RowName": "Fatty_TBone",
+                        "RowName": "Fatty_Tbone",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "Count": 25,
@@ -120942,7 +120950,7 @@
             "Outputs": [
                 {
                     "Element": {
-                        "RowName": "AlphaWolf_Head",
+                        "RowName": "Alphawolf_Head",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "Count": 1,
@@ -121538,6 +121546,90 @@
             ],
             "Audio": {
                 "RowName": "CraftingBench"
+            }
+        },
+        {
+            "Name": "Fertility_Serum_Tusker",
+            "Requirement": {
+                "RowName": "Fertility_Serum"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Animal_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Condensed_Enzymes",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 3
+                },
+                {
+                    "Element": {
+                        "RowName": "Wheat",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 15
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Fertility_Serum_Tusker",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "CookingStation"
+            }
+        },
+        {
+            "Name": "Fertility_Serum_Tusker_Exotic",
+            "Requirement": {
+                "RowName": "Fertility_Serum"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Animal_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "MetaResource",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 5
+                },
+                {
+                    "Element": {
+                        "RowName": "Wheat",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 15
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Fertility_Serum_Tusker",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "CookingStation"
             }
         }
     ]

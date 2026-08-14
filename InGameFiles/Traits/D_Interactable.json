@@ -4040,6 +4040,43 @@
             ]
         },
         {
+            "Name": "Colony_Arcade_Machine",
+            "WorldPressInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Pickup_Item",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                },
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_Colony_Arcade_Machine",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ],
+            "WorldHoldInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_Toggle_Device_On",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ],
+            "WorldAltHoldInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Pickup_Deployable",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ]
+        },
+        {
             "Name": "AnimalCorpse_Irradiated_Mutation",
             "WorldPressInteracts": [
                 {
@@ -4209,6 +4246,25 @@
                 {
                     "InteractionRow": {
                         "RowName": "Interact_Mission_Laser_Utility_Electric",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ]
+        },
+        {
+            "Name": "Roast",
+            "WorldPressInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_Roast",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                },
+                {
+                    "InteractionRow": {
+                        "RowName": "Pickup_Item",
                         "DataTableName": "D_Interactions"
                     },
                     "Tag": ""

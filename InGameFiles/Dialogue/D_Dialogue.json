@@ -5263,9 +5263,7 @@
             "Text": [
                 "NSLOCTEXT(\"D_Dialogue\", \"StockpileLanding2-Text-0\", \"They\\'re buildin\\' new facilities in orbit, and need help on the ground.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"StockpileLanding2-Text-1\", \"Someone who can source raw materials, process \\'em, and get em up to space in one piece.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"StockpileLanding2-Text-2\", \"Without getting dead.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"StockpileLanding2-Text-3\", \"Sure sounds like you - so check your HUD and roll out.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"StockpileLanding2-Text-4\", \"Good luck.\")"
+                "NSLOCTEXT(\"D_Dialogue\", \"StockpileLanding2-Text-2\", \"Sure sounds like you - so check your HUD and roll out.\")"
             ]
         },
         {

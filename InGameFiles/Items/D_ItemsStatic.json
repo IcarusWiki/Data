@@ -13111,6 +13111,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_wolf"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -13126,6 +13129,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_wolf"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -13735,6 +13741,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_venison"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -13750,6 +13759,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_venison"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -20507,6 +20519,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_panther"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -20522,6 +20537,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_panther"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -28977,6 +28995,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_venison"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -28992,6 +29013,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_venison"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -29132,6 +29156,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_venison"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -29147,6 +29174,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_venison"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -29953,6 +29983,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_wolf"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -29968,6 +30001,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_wolf"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -32106,6 +32142,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_panther"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -32121,6 +32160,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_panther"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -33238,6 +33280,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_venison"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -33253,6 +33298,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_venison"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -33406,6 +33454,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_wolf"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -33421,6 +33472,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_wolf"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -34341,6 +34395,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_panther"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -34356,6 +34413,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_panther"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -35503,6 +35563,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_rabbit"
+                    },
+                    {
                         "TagName": "Item.Slot.SkinningBench"
                     },
                     {
@@ -35515,6 +35578,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_rabbit"
+                    },
                     {
                         "TagName": "Item.Slot.SkinningBench"
                     },
@@ -35591,6 +35657,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_rabbit"
+                    },
+                    {
                         "TagName": "Item.Slot.SkinningBench"
                     },
                     {
@@ -35603,6 +35672,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_rabbit"
+                    },
                     {
                         "TagName": "Item.Slot.SkinningBench"
                     },
@@ -38265,6 +38337,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_wolf"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -38280,6 +38355,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_wolf"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -38841,6 +38919,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_pork"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -38856,6 +38937,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_pork"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -39035,6 +39119,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_venison"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -39050,6 +39137,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_venison"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -58805,6 +58895,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_fowl"
+                    },
+                    {
                         "TagName": "Item.Slot.SkinningBench"
                     },
                     {
@@ -58817,6 +58910,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_fowl"
+                    },
                     {
                         "TagName": "Item.Slot.SkinningBench"
                     },
@@ -58893,6 +58989,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_exotic"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -58908,6 +59007,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_exotic"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -61588,6 +61690,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_reptile"
+                    },
+                    {
                         "TagName": "Harvest.Knife.T1"
                     },
                     {
@@ -61603,6 +61708,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_reptile"
+                    },
                     {
                         "TagName": "Harvest.Knife.T1"
                     },
@@ -61682,6 +61790,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_reptile"
+                    },
+                    {
                         "TagName": "Harvest.Knife.T1"
                     },
                     {
@@ -61697,6 +61808,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_reptile"
+                    },
                     {
                         "TagName": "Harvest.Knife.T1"
                     },
@@ -77750,6 +77864,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_exotic"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -77765,6 +77882,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_exotic"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -78054,6 +78174,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_venison"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -78069,6 +78192,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_venison"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -79852,6 +79978,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_venison"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -79867,6 +79996,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_venison"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -80141,6 +80273,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_critter"
+                    },
+                    {
                         "TagName": "Item.Slot.SkinningBench"
                     },
                     {
@@ -80153,6 +80288,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_critter"
+                    },
                     {
                         "TagName": "Item.Slot.SkinningBench"
                     },
@@ -80406,6 +80544,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_fowl"
+                    },
+                    {
                         "TagName": "Item.Slot.SkinningBench"
                     },
                     {
@@ -80418,6 +80559,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_fowl"
+                    },
                     {
                         "TagName": "Item.Slot.SkinningBench"
                     },
@@ -107981,6 +108125,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_rabbit"
+                    },
+                    {
                         "TagName": "Item.Slot.SkinningBench"
                     },
                     {
@@ -107993,6 +108140,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_rabbit"
+                    },
                     {
                         "TagName": "Item.Slot.SkinningBench"
                     },
@@ -133520,6 +133670,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_mutton"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -133535,6 +133688,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_mutton"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -133619,6 +133775,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_chicken"
+                    },
+                    {
                         "TagName": "Item.Slot.SkinningBench"
                     },
                     {
@@ -133631,6 +133790,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_chicken"
+                    },
                     {
                         "TagName": "Item.Slot.SkinningBench"
                     },
@@ -136377,7 +136539,7 @@
                 "RowName": "Deployable"
             },
             "Usable": {
-                "RowName": "Place"
+                "RowName": "Empty_Deploy"
             },
             "Deployable": {
                 "RowName": "Water_Barrel"
@@ -138368,6 +138530,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_wolf"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -138383,6 +138548,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_wolf"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -162690,7 +162858,7 @@
                 "RowName": "Deployable"
             },
             "Usable": {
-                "RowName": "Consume_Empty_Deploy"
+                "RowName": "Empty_Deploy"
             },
             "Deployable": {
                 "RowName": "Portable_Tank_Water"
@@ -167003,6 +167171,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_critter"
+                    },
+                    {
                         "TagName": "Item.Slot.SkinningBench"
                     },
                     {
@@ -167015,6 +167186,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_critter"
+                    },
                     {
                         "TagName": "Item.Slot.SkinningBench"
                     },
@@ -168595,6 +168769,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_chicken"
+                    },
+                    {
                         "TagName": "Item.Slot.SkinningBench"
                     },
                     {
@@ -168607,6 +168784,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_chicken"
+                    },
                     {
                         "TagName": "Item.Slot.SkinningBench"
                     },
@@ -168944,6 +169124,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_mutton"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -168959,6 +169142,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_mutton"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -174738,6 +174924,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_exotic"
+                    },
+                    {
                         "TagName": "Harvest.Knife.T1"
                     },
                     {
@@ -174753,6 +174942,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_exotic"
+                    },
                     {
                         "TagName": "Harvest.Knife.T1"
                     },
@@ -204320,6 +204512,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_venison"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -204335,6 +204530,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_venison"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -204633,6 +204831,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_venison"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -204648,6 +204849,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_venison"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -205680,6 +205884,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_rabbit"
+                    },
+                    {
                         "TagName": "Item.Slot.SkinningBench"
                     },
                     {
@@ -205692,6 +205899,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_rabbit"
+                    },
                     {
                         "TagName": "Item.Slot.SkinningBench"
                     },
@@ -206806,6 +207016,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_exotic"
+                    },
+                    {
                         "TagName": "Harvest.Knife.T1"
                     },
                     {
@@ -206821,6 +207034,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_exotic"
+                    },
                     {
                         "TagName": "Harvest.Knife.T1"
                     },
@@ -216456,6 +216672,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_exotic"
+                    },
+                    {
                         "TagName": "Harvest.Knife.T1"
                     },
                     {
@@ -216471,6 +216690,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_exotic"
+                    },
                     {
                         "TagName": "Harvest.Knife.T1"
                     },
@@ -229013,6 +229235,9 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
+                        "TagName": "Item.query.carcass_pork"
+                    },
+                    {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
                     {
@@ -229028,6 +229253,9 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_pork"
+                    },
                     {
                         "TagName": "Traits.Equippable.FocusLock"
                     },
@@ -235280,6 +235508,75 @@
                     },
                     {
                         "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Fertility_Serum_Tusker",
+            "Meshable": {
+                "RowName": "Mesh_Generic_Food"
+            },
+            "Itemable": {
+                "RowName": "Item_Fertility_Serum_Tusker"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Fertility_Serum"
+            },
+            "Consumable": {
+                "RowName": "Food_Fertility_Serum"
+            },
+            "Decayable": {
+                "RowName": "Decay_Food_ThreeDay"
+            },
+            "Audio": {
+                "RowName": "Default_Food"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Husbandry.Serum"
+                    },
+                    {
+                        "TagName": "NPC.Tusker"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Husbandry.Serum"
+                    },
+                    {
+                        "TagName": "NPC.Tusker"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Consumable"
                     }
                 ],
                 "ParentTags": []

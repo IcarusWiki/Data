@@ -1497,7 +1497,7 @@
             "RoundsPerMinute": 40,
             "ReloadTime": 1,
             "AudioData": {
-                "RowName": "CrossbowT4"
+                "RowName": "Crossbow_Radboss"
             },
             "WeaponLoudness": 0.5
         },

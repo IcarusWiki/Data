@@ -5003,7 +5003,7 @@
         {
             "Name": "RadBoss_Spit",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 300,
+            "Damage": 25,
             "DamageVariationPercentage": 10,
             "bCanStealthAttack": false,
             "bHomingProjectile": false,
@@ -5031,7 +5031,7 @@
         {
             "Name": "RadBoss_Spit_Big",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 500,
+            "Damage": 25,
             "DamageVariationPercentage": 10,
             "bCanStealthAttack": false,
             "bHomingProjectile": false,

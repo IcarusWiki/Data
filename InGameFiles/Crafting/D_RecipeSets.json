@@ -335,7 +335,7 @@
         {
             "Name": "Anvil_Bench_T4",
             "RecipeSetName": "NSLOCTEXT(\"D_RecipeSets\", \"Anvil_Bench_T4-RecipeSetName\", \"Foundry\")",
-            "RecipeSetIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Anvil_Bench_T4.T_ITEM_Anvil_Bench_T4",
+            "RecipeSetIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Anvil_Bench_T4_v2.T_ITEM_Anvil_Bench_T4_v2",
             "ExperienceMultiplier": 0.20000000298023224
         },
         {
@@ -361,7 +361,7 @@
         },
         {
             "Name": "T4_Smoker",
-            "RecipeSetName": "INVTEXT(\"[DNT] Electic Smoker\")",
+            "RecipeSetName": "NSLOCTEXT(\"D_RecipeSets\", \"T4_Smoker-RecipeSetName\", \"Roaster\")",
             "RecipeSetIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Smoker_T4.T_ITEM_Smoker_T4",
             "ExperienceMultiplier": 0.20000000298023224,
             "bAllowRefundOfRecipesOnDestroy": false
