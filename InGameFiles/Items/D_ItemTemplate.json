@@ -26598,6 +26598,12 @@
             }
         },
         {
+            "Name": "Weapon_Rack_T3",
+            "ItemStaticData": {
+                "RowName": "Weapon_Rack_T3"
+            }
+        },
+        {
             "Name": "Fertility_Serum_Tusker",
             "ItemStaticData": {
                 "RowName": "Fertility_Serum_Tusker"

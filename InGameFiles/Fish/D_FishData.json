@@ -3042,6 +3042,44 @@
                     "RowName": "DangerousHorizons"
                 }
             }
+        },
+        {
+            "Name": "Shark",
+            "Fish": {
+                "RowName": "Fish_01"
+            },
+            "FishSetup": {
+                "RowName": "Shark_01"
+            },
+            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Fish/T_Fish01_Var1.T_Fish01_Var1",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Shark-Lore\", \"These fish have spots as a form of camouflage, which helps them blend in with their surroundings and avoid predators.\")",
+            "Maps": [
+                {
+                    "RowName": "Terrain_016",
+                    "DataTableName": "D_Terrains"
+                },
+                {
+                    "RowName": "Terrain_017",
+                    "DataTableName": "D_Terrains"
+                },
+                {
+                    "RowName": "Outpost_002",
+                    "DataTableName": "D_Terrains"
+                }
+            ],
+            "Lures": [
+                {
+                    "RowName": "Fiber_Lure",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Rotten_Meat_Lure",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish01_+%"
+            }
         }
     ]
 }

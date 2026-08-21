@@ -2292,6 +2292,78 @@
                     "GainedExperience": 0
                 }
             }
+        },
+        {
+            "Name": "Creature_Slinker_Jungle",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_Slinker_Jungle",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
+        },
+        {
+            "Name": "Creature_Centipede",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_Centipede",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
+        },
+        {
+            "Name": "Creature_Storca_Jungle",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_Storca_Jungle",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
+        },
+        {
+            "Name": "Creature_Jungle_Hunter",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_Jungle_Hunter",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
+        },
+        {
+            "Name": "Creature_Elegant_Horse",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_Elegant_Horse",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
+        },
+        {
+            "Name": "Creature_Jungle_Monkey",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_Jungle_Monkey",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
         }
     ]
 }

@@ -13866,7 +13866,7 @@
             },
             "BlacklistBones": [
                 {
-                    "BoneName": "Root",
+                    "BoneName": "root",
                     "AffectsChildren": false
                 }
             ],
@@ -18482,17 +18482,21 @@
                     },
                     {
                         "TagName": "GOAP.Food.Carnivore.Bait"
+                    },
+                    {
+                        "TagName": "Item.Creature.Bait.Kiwi"
                     }
                 ],
                 "QueryTokenStream": [
                     0,
                     1,
                     1,
-                    2,
+                    3,
                     0,
-                    1
+                    1,
+                    2
                 ],
-                "AutoDescription": " ANY( GOAP.Food.Herbivore.Bait, GOAP.Food.Carnivore.Bait )"
+                "AutoDescription": " ANY( GOAP.Food.Herbivore.Bait, GOAP.Food.Carnivore.Bait, Item.Creature.Bait.Kiwi )"
             },
             "Trophy": {
                 "RowName": "Kiwi_Head"
@@ -33497,7 +33501,7 @@
                 "RowName": "Orka"
             },
             "DeadItem": {
-                "RowName": "AnimalCarcass_Orka_Arctic"
+                "RowName": "AnimalCarcass_Orka_Mount"
             },
             "Relationships": {
                 "RowName": "Player"

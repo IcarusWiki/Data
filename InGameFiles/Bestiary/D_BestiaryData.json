@@ -5095,6 +5095,10 @@
                 {
                     "RowName": "Frost_Weakness",
                     "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Laser_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
                 }
             ],
             "StatsUnlock1": {
@@ -5814,6 +5818,14 @@
                 },
                 {
                     "RowName": "Charges_Behavior",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Laser_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Poison_Resist_Strength",
                     "DataTableName": "D_BestiaryTraits"
                 }
             ],
@@ -6635,6 +6647,14 @@
                 {
                     "RowName": "Radioactive",
                     "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Laser_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Poison_Resist_Strength",
+                    "DataTableName": "D_BestiaryTraits"
                 }
             ],
             "StatsUnlock1": {
@@ -6867,6 +6887,14 @@
                 },
                 {
                     "RowName": "Charges_Behavior",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Laser_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Poison_Resist_Strength",
                     "DataTableName": "D_BestiaryTraits"
                 }
             ],

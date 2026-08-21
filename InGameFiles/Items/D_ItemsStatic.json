@@ -174991,6 +174991,112 @@
             }
         },
         {
+            "Name": "AnimalCarcass_Orka_Mount",
+            "Meshable": {
+                "RowName": "Mesh_Carcass_Orka_Mount"
+            },
+            "Itemable": {
+                "RowName": "Item_Carcass_Orka_Arctic"
+            },
+            "Interactable": {
+                "RowName": "AnimalCorpse_Mount"
+            },
+            "Hitable": {
+                "RowName": "AnimalCarcass"
+            },
+            "Equippable": {
+                "RowName": "Equippable_Carcass_Large"
+            },
+            "Focusable": {
+                "RowName": "Focusable_Carcass_Shoulders"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Utilityslot_Drop"
+            },
+            "Durable": {
+                "RowName": "Carcass_Medium"
+            },
+            "Decayable": {
+                "RowName": "Decay_10_Minutes"
+            },
+            "Audio": {
+                "RowName": "Carcass"
+            },
+            "CraftingExperience": 400,
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_exotic"
+                    },
+                    {
+                        "TagName": "Harvest.Knife.T1"
+                    },
+                    {
+                        "TagName": "Traits.Equippable.FocusLock"
+                    },
+                    {
+                        "TagName": "Item.Utility"
+                    },
+                    {
+                        "TagName": "Item.Slot.SkinningBench"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.query.carcass_exotic"
+                    },
+                    {
+                        "TagName": "Harvest.Knife.T1"
+                    },
+                    {
+                        "TagName": "Traits.Equippable.FocusLock"
+                    },
+                    {
+                        "TagName": "Item.Utility"
+                    },
+                    {
+                        "TagName": "Item.Slot.SkinningBench"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Hitable"
+                    },
+                    {
+                        "TagName": "Traits.Equippable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
             "Name": "Homestead_Swing_Chair",
             "Meshable": {
                 "RowName": "Mesh_Generic_Crafting"
@@ -214940,7 +215046,7 @@
                 "RowName": "Decay_General"
             },
             "Audio": {
-                "RowName": "Wood_Fortification"
+                "RowName": "Concrete_Fortification"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -215026,7 +215132,7 @@
                 "RowName": "Decay_General"
             },
             "Audio": {
-                "RowName": "Wood_Fortification"
+                "RowName": "Concrete_Fortification"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -215112,7 +215218,7 @@
                 "RowName": "Decay_General"
             },
             "Audio": {
-                "RowName": "Wood_Fortification"
+                "RowName": "Concrete_Fortification"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -215198,7 +215304,7 @@
                 "RowName": "Decay_General"
             },
             "Audio": {
-                "RowName": "Wood_Fortification"
+                "RowName": "Concrete_Fortification"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -215284,7 +215390,7 @@
                 "RowName": "Decay_General"
             },
             "Audio": {
-                "RowName": "Wood_Fortification"
+                "RowName": "Concrete_Fortification"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -215370,7 +215476,7 @@
                 "RowName": "Decay_General"
             },
             "Audio": {
-                "RowName": "Wood_Fortification"
+                "RowName": "Concrete_Fortification"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -215456,7 +215562,7 @@
                 "RowName": "Decay_General"
             },
             "Audio": {
-                "RowName": "Wood_Fortification"
+                "RowName": "Concrete_Fortification"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -215542,7 +215648,7 @@
                 "RowName": "Decay_General"
             },
             "Audio": {
-                "RowName": "Wood_Fortification"
+                "RowName": "Concrete_Fortification"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -215628,7 +215734,7 @@
                 "RowName": "Decay_General"
             },
             "Audio": {
-                "RowName": "Wood_Fortification"
+                "RowName": "Concrete_Fortification"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -215714,7 +215820,7 @@
                 "RowName": "Decay_General"
             },
             "Audio": {
-                "RowName": "Wood_Fortification"
+                "RowName": "Concrete_Fortification"
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -235508,6 +235614,86 @@
                     },
                     {
                         "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Weapon_Rack_T3",
+            "Meshable": {
+                "RowName": "Mesh_Generic_Machining"
+            },
+            "Itemable": {
+                "RowName": "Item_Weapon_Rack_T3"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Weapon_Rack_T3"
+            },
+            "Durable": {
+                "RowName": "Deployable_750"
+            },
+            "Inventory": {
+                "RowName": "Weapon_Rack_Single"
+            },
+            "Decayable": {
+                "RowName": "Decay_10_Minutes"
+            },
+            "Weight": {
+                "RowName": "LightDeployable"
+            },
+            "InventoryContainer": {
+                "RowName": "Weapon_Rack"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseComfortLevel_+\")": 4
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
                     }
                 ],
                 "ParentTags": []

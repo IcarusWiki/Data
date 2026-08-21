@@ -11893,6 +11893,96 @@
                 }
             ],
             "EffectedByWeather": false
+        },
+        {
+            "Name": "Prop_Rad_Polaroid",
+            "Variants": [
+                {
+                    "RowName": "Prop_Rad_Polaroid_A",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Rad_Polaroid_B",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Rad_Polaroid_C",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Rad_Polaroid_D",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Rad_Polaroid_E",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Rad_Polaroid_F",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Rad_Polaroid_G",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Rad_Polaroid_H",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Prop_Rad_Metal_Sign",
+            "Variants": [
+                {
+                    "RowName": "Prop_Rad_Metal_Sign_A",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Rad_Metal_Sign_B",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Rad_Metal_Sign_C",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Rad_Metal_Sign_D",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Rad_Metal_Sign_E",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Prop_Rad_Paper_Poster",
+            "Variants": [
+                {
+                    "RowName": "Prop_Rad_Paper_Poster_A",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Rad_Paper_Poster_B",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Rad_Paper_Poster_C",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Rad_Paper_Poster_D",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Rad_Paper_Poster_E",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
         }
     ]
 }

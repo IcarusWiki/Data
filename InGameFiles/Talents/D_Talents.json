@@ -76363,6 +76363,30 @@
             "DrawMethodOverride": "XThenY"
         },
         {
+            "Name": "T3_Weapon_Rack",
+            "ExtraData": {
+                "RowName": "Item_Weapon_Rack_T3",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 16450,
+                "Y": 850
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Metal_Crate_Small",
+                    "DataTableName": "D_Talents"
+                }
+            ]
+        },
+        {
             "Name": "T4_Decoration_Reroute",
             "TalentType": "Reroute",
             "TalentTree": {
@@ -76384,6 +76408,684 @@
                 }
             ],
             "bDefaultUnlocked": true,
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "CombatPet_Base_Kiwi",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"CombatPet_Base_Kiwi-DisplayName\", \"Kiwi\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"CombatPet_Base_Kiwi-Description\", \"Can be specialized into a scrappy skirmisher or a productive forager.\")",
+            "TalentTree": {
+                "RowName": "Creature_Kiwi"
+            },
+            "Position": {
+                "X": 500,
+                "Y": 500
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {},
+                    "GrantedFlags": [
+                        {
+                            "RowName": "None",
+                            "DataTableName": "D_CharacterFlags"
+                        }
+                    ]
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "CombatPet_Health_Kiwi",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"CombatPet_Health_Kiwi-DisplayName\", \"Wild Fortitude\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"CombatPet_Health_Kiwi-Description\", \"Increased Maximum Health\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_Health.T_Talent_Base_Health",
+            "TalentTree": {
+                "RowName": "Creature_Kiwi"
+            },
+            "Position": {
+                "X": 500,
+                "Y": 300
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMaximumHealth_+%\")": 2
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMaximumHealth_+%\")": 5
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMaximumHealth_+%\")": 10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMaximumHealth_+%\")": 20
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "CombatPet_Base_Kiwi",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "CombatPet_HealthRegeneration_Kiwi",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"CombatPet_HealthRegeneration_Kiwi-DisplayName\", \"Nurtured Recovery\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"CombatPet_HealthRegeneration_Kiwi-Description\", \"Increased Health Regeneration\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_HealthRegeneration.T_Talent_Base_HealthRegeneration",
+            "TalentTree": {
+                "RowName": "Creature_Kiwi"
+            },
+            "Position": {
+                "X": 300,
+                "Y": 500
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseHealthRegen_+%\")": 5
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseHealthRegen_+%\")": 15
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseHealthRegen_+%\")": 30
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseHealthRegen_+%\")": 60
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "CombatPet_Base_Kiwi",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "CombatPet_Damage_Kiwi",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"CombatPet_Damage_Kiwi-DisplayName\", \"Natural Ferocity\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"CombatPet_Damage_Kiwi-Description\", \"Increased Melee Damage\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_CombatPetDamage.T_Talent_Base_CombatPetDamage",
+            "TalentTree": {
+                "RowName": "Creature_Kiwi"
+            },
+            "Position": {
+                "X": 700,
+                "Y": 500
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMeleeDamage_+%\")": 5
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMeleeDamage_+%\")": 15
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMeleeDamage_+%\")": 30
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMeleeDamage_+%\")": 60
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "CombatPet_Base_Kiwi",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "CombatPet_ReducedFoodConsumption_Kiwi",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"CombatPet_ReducedFoodConsumption_Kiwi-DisplayName\", \"Metabolic Preservation\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"CombatPet_ReducedFoodConsumption_Kiwi-Description\", \"Reduced Food Usage\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_ReducedFoodConsumption.T_Talent_Base_ReducedFoodConsumption",
+            "TalentTree": {
+                "RowName": "Creature_Kiwi"
+            },
+            "Position": {
+                "X": 500,
+                "Y": 700
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFoodConsumption_+%\")": -2
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFoodConsumption_+%\")": -5
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFoodConsumption_+%\")": -10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFoodConsumption_+%\")": -20
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "CombatPet_Base_Kiwi",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "CombatPet_ReducedWaterUsage_Kiwi",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"CombatPet_ReducedWaterUsage_Kiwi-DisplayName\", \"Hydration Elasticity \")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"CombatPet_ReducedWaterUsage_Kiwi-Description\", \"Reduced Water Consumption and Increased Heat Resistance\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_ReducedWaterUsage.T_Talent_Base_ReducedWaterUsage",
+            "TalentTree": {
+                "RowName": "Creature_Kiwi"
+            },
+            "Position": {
+                "X": 900,
+                "Y": 100
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseWaterConsumption_+%\")": -2,
+                        "(Value=\"BaseHeatResistance_%\")": 1
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseWaterConsumption_+%\")": -5,
+                        "(Value=\"BaseHeatResistance_%\")": 2
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseWaterConsumption_+%\")": -10,
+                        "(Value=\"BaseHeatResistance_%\")": 5
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseWaterConsumption_+%\")": -20,
+                        "(Value=\"BaseHeatResistance_%\")": 10
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "CombatPet_Health_Kiwi",
+                    "DataTableName": "D_Talents"
+                },
+                {
+                    "RowName": "CombatPet_Damage_Kiwi",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "CombatPet_FoodBuffDuration_Kiwi",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"CombatPet_FoodBuffDuration_Kiwi-DisplayName\", \"Perfect Pasturage\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"CombatPet_FoodBuffDuration_Kiwi-Description\", \"Increased Food Effects Duration and Cold Resistance\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_FoodBuffDuration.T_Talent_Base_FoodBuffDuration",
+            "TalentTree": {
+                "RowName": "Creature_Kiwi"
+            },
+            "Position": {
+                "X": 100,
+                "Y": 100
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFoodModifierDuration_+%\")": 2,
+                        "(Value=\"BaseColdResistance_%\")": 1
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFoodModifierDuration_+%\")": 5,
+                        "(Value=\"BaseColdResistance_%\")": 2
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFoodModifierDuration_+%\")": 10,
+                        "(Value=\"BaseColdResistance_%\")": 5
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFoodModifierDuration_+%\")": 20,
+                        "(Value=\"BaseColdResistance_%\")": 10,
+                        "(Value=\"IsMountGrazingEnabled_?\")": 1
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "CombatPet_HealthRegeneration_Kiwi",
+                    "DataTableName": "D_Talents"
+                },
+                {
+                    "RowName": "CombatPet_Health_Kiwi",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "CombatPet_FoodSlot_Kiwi",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"CombatPet_FoodSlot_Kiwi-DisplayName\", \"Large Stomach\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"CombatPet_FoodSlot_Kiwi-Description\", \"Increases Food Buff Effectiveness and allows an additional Food Buff\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_FoodSlot.T_Talent_Base_FoodSlot",
+            "TalentTree": {
+                "RowName": "Creature_Kiwi"
+            },
+            "Position": {
+                "X": 900,
+                "Y": 900
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFruitAndVegeModifierEffectiveness_+%\")": 3
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFruitAndVegeModifierEffectiveness_+%\")": 7
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFruitAndVegeModifierEffectiveness_+%\")": 12
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFruitAndVegeModifierEffectiveness_+%\")": 15,
+                        "(Value=\"BaseMaximumStomachFullness_+\")": 1
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "CombatPet_Damage_Kiwi",
+                    "DataTableName": "D_Talents"
+                },
+                {
+                    "RowName": "CombatPet_ReducedFoodConsumption_Kiwi",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "CombatPet_DamageReduction_Kiwi",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"CombatPet_DamageReduction_Kiwi-DisplayName\", \"Tough as Leather\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"CombatPet_DamageReduction_Kiwi-Description\", \"Increased Physical Damage Reduction\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_DamageReduction.T_Talent_Base_DamageReduction",
+            "TalentTree": {
+                "RowName": "Creature_Kiwi"
+            },
+            "Position": {
+                "X": 100,
+                "Y": 900
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BasePhysicalDamageResistance_%\")": 2
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BasePhysicalDamageResistance_%\")": 4
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BasePhysicalDamageResistance_%\")": 8
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BasePhysicalDamageResistance_%\")": 15
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "CombatPet_ReducedFoodConsumption_Kiwi",
+                    "DataTableName": "D_Talents"
+                },
+                {
+                    "RowName": "CombatPet_HealthRegeneration_Kiwi",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Creature_Kiwi_MinorHemorrhage",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Kiwi_MinorHemorrhage-DisplayName\", \"Ripping Talons\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Kiwi_MinorHemorrhage-Description\", \"Chance to apply Minor Hemorrhage on hit\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Tusker_Bleed.T_Talent_Tusker_Bleed",
+            "TalentTree": {
+                "RowName": "Creature_Kiwi"
+            },
+            "Position": {
+                "X": 500,
+                "Y": 100
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseAttacksCauseMinorHemorrhage_%\")": 25
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseAttacksCauseMinorHemorrhage_%\")": 60
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseAttacksCauseMinorHemorrhage_%\")": 100
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "CombatPet_Health_Kiwi",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Creature_Kiwi_Vulnerable",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Kiwi_Vulnerable-DisplayName\", \"Probing Beak\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Kiwi_Vulnerable-Description\", \"Chance to apply Vulnerable on hit\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Raptor_SurprisingBlow.T_Talent_Raptor_SurprisingBlow",
+            "TalentTree": {
+                "RowName": "Creature_Kiwi"
+            },
+            "Position": {
+                "X": 100,
+                "Y": 400
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseAttacksCauseVulnerable_%\")": 25
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseAttacksCauseVulnerable_%\")": 60
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseAttacksCauseVulnerable_%\")": 100
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "CombatPet_HealthRegeneration_Kiwi",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Creature_Kiwi_PackForager",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Kiwi_PackForager-DisplayName\", \"Pack Forager\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Kiwi_PackForager-Description\", \"Increases Movement Speed, at max rank grants Weight Reduction Aura\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Buffalo_ExtraCarry.T_Talent_Buffalo_ExtraCarry",
+            "TalentTree": {
+                "RowName": "Creature_Kiwi"
+            },
+            "Position": {
+                "X": 100,
+                "Y": 600
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMovementSpeed_+%\")": 4
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMovementSpeed_+%\")": 8
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMovementSpeed_+%\")": 15,
+                        "(Value=\"GrantedAuraWeightReduction_?\")": 1
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "CombatPet_HealthRegeneration_Kiwi",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Creature_Kiwi_LayingSpeed",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Kiwi_LayingSpeed-DisplayName\", \"Prolific Layer\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Kiwi_LayingSpeed-Description\", \"Increased Egg Laying Speed, at max rank reduces Egg laying resources required\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_SwampBird_IncreasedMetabolism.T_Talent_SwampBird_IncreasedMetabolism",
+            "TalentTree": {
+                "RowName": "Creature_Kiwi"
+            },
+            "Position": {
+                "X": 500,
+                "Y": 900
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseChickenTimeBetweenEggs_+%\")": -5
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseChickenTimeBetweenEggs_+%\")": -15
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseChickenTimeBetweenEggs_+%\")": -30,
+                        "(Value=\"BaseChickenResourcesConsumedPerEgg_+%\")": -15
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "CombatPet_ReducedFoodConsumption_Kiwi",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "YThenX"
+        },
+        {
+            "Name": "Creature_Kiwi_Rebirth",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Kiwi_Rebirth-DisplayName\", \"Precious Egg\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Kiwi_Rebirth-Description\", \"Increased Maximum Health, at max rank hatches a new Kiwi on Death\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Moa_Rebirth.T_Talent_Moa_Rebirth",
+            "TalentTree": {
+                "RowName": "Creature_Kiwi"
+            },
+            "Position": {
+                "X": 900,
+                "Y": 600
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMaximumHealth_+%\")": 2
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMaximumHealth_+%\")": 5
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"MountReplaceWithJuvenileOnDeath_?\")": 1,
+                        "(Value=\"BaseMaximumHealth_+%\")": 7
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "CombatPet_Damage_Kiwi",
+                    "DataTableName": "D_Talents"
+                }
+            ],
             "DrawMethodOverride": "XThenY"
         }
     ]

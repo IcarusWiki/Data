@@ -406,6 +406,20 @@
                 }
             },
             "CameraFOV": 40
+        },
+        {
+            "Name": "Mount_Kiwi",
+            "RelativeOffset": {
+                "Rotation": {
+                    "Z": -0.7071065306663513,
+                    "W": 0.7071070671081543
+                },
+                "Translation": {
+                    "Y": 700,
+                    "Z": 80
+                }
+            },
+            "CameraFOV": 18
         }
     ]
 }

@@ -22962,6 +22962,309 @@
             "StatCategory": {
                 "RowName": "Ranged_Weapon"
             }
+        },
+        {
+            "Name": "SlinkerJungleSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BaseSlinkerJungleSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "SlinkerJungleExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"SlinkerJungleExtraDamage_+%-Title\", \"Damage vs Jungle Slinker\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseSlinkerJungleExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSlinkerJungleExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Slinker\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSlinkerJungleExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Slinker\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "SlinkerJungleExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"SlinkerJungleExtraDamageResistance_+%-Title\", \"Resistance vs Jungle Slinker\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseSlinkerJungleExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSlinkerJungleExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Slinker\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSlinkerJungleExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Slinker\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "CentipedeSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BaseCentipedeSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "CentipedeExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"CentipedeExtraDamage_+%-Title\", \"Damage vs Centipede\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseCentipedeExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCentipedeExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Centipede\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCentipedeExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Centipede\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "CentipedeExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"CentipedeExtraDamageResistance_+%-Title\", \"Resistance vs Centipede\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseCentipedeExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCentipedeExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Centipede\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCentipedeExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Centipede\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseStorcaJungleSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "StorcaJungleSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BaseStorcaJungleExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseStorcaJungleExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Storca\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseStorcaJungleExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Storca\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "StorcaJungleExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"StorcaJungleExtraDamage_+%-Title\", \"Damage vs Jungle Storca\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseStorcaJungleExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseStorcaJungleExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Storca\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseStorcaJungleExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Storca\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "StorcaJungleExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"StorcaJungleExtraDamageResistance_+%-Title\", \"Resistance vs Jungle Storca\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseExplosiveDamageAgainstBuildings_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseExplosiveDamageAgainstBuildings_+%-PositiveDescription\", \"+{0}% Explosive Damage versus Buildings\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseExplosiveDamageAgainstBuildings_+%-NegativeDescription\", \"-{0}% Explosive Damage versus Buildings\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseJungleHunterSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "JungleHunterSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "JungleHunterExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"JungleHunterExtraDamage_+%-Title\", \"Damage vs Jungle Hunter\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseJungleHunterExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleHunterExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Jungle Hunter\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleHunterExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Jungle Hunter\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "JungleHunterExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"JungleHunterExtraDamageResistance_+%-Title\", \"Resistance vs Jungle Hunter\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseJungleHunterExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleHunterExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Jungle Hunter\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleHunterExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Jungle Hunter\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseElegantHorseSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "ElegantHorseSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "ElegantHorseExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"ElegantHorseExtraDamage_+%-Title\", \"Damage vs Elegant Horse\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseElegantHorseExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseElegantHorseExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Elegant Horse\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseElegantHorseExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Elegant Horse\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "ElegantHorseExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"ElegantHorseExtraDamageResistance_+%-Title\", \"Resistance vs Elegant Horse\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseElegantHorseExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseElegantHorseExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Elegant Horse\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseElegantHorseExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Elegant Horse\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseJungleMonkeySpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "JungleMonkeySpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BaseJungleMonkeyExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleMonkeyExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Jungle Monkey\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleMonkeyExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Jungle Monkey\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "JungleMonkeyExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"JungleMonkeyExtraDamage_+%-Title\", \"Damage vs Jungle Monkey\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseJungleMonkeyExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleMonkeyExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Jungle Monkey\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleMonkeyExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Jungle Monkey\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "JungleMonkeyExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"JungleMonkeyExtraDamageResistance_+%-Title\", \"Resistance vs Jungle Monkey\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
         }
     ]
 }

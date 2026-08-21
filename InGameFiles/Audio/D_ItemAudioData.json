@@ -2267,6 +2267,15 @@
                     ]
                 }
             }
+        },
+        {
+            "Name": "Concrete_Fortification",
+            "PickUpSound": "/Game/FMOD/Events/SFX/D_Items/SFX_ITEM_GENERIC_PICKUP.SFX_ITEM_GENERIC_PICKUP",
+            "DropSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM",
+            "DamagedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_DMG_STONE.SFX_DEP_DMG_STONE",
+            "BrokenSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_DST_CONC.SFX_BLD_DST_CONC",
+            "RepairedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_REPAIR.SFX_BLD_STONE_REPAIR",
+            "DestroyedSound": "/Game/FMOD/Events/SFX/D_Items/SFX_ITEM_DESTROY.SFX_ITEM_DESTROY"
         }
     ]
 }

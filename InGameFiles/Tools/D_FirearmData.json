@@ -38,6 +38,7 @@
             "ChargeShakeApplyDelay": 1,
             "ChargeShakeAccuracyMultiplier": 0,
             "FireParticle": "None",
+            "TrailParticle": "None",
             "VisualRecoil": 10,
             "IdleFOVMultiplier": 1,
             "AimFOVMultiplier": 1,
@@ -3193,13 +3194,12 @@
                 "X": 2.5,
                 "Y": 2.5
             },
-            "LaunchForce": 4500,
+            "LaunchForce": 3500,
             "ChargeData": {
                 "ChargeSpeed": 0
             },
             "VisualData": {
                 "PreviewItemAttachSocket3P": "R_prop_00",
-                "FireShake": "BlueprintGeneratedClass'/Game/BP/CameraShake/Weapons/CS_Rifle_Hunting_Fire.CS_Rifle_Hunting_Fire_C'",
                 "FireParticle": "/Game/ASS/VFX/WEP/SlimeLauncher/NS_Legendary_MuzzleFlash_SlugLauncher.NS_Legendary_MuzzleFlash_SlugLauncher",
                 "VisualRecoil": 20,
                 "AimFOVMultiplier": 0.8999999761581421,
@@ -3214,8 +3214,7 @@
                     "Idle": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_Flamethrower_Idle.1ST_CHA_Flamethrower_Idle",
                     "Aim": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_RifleAimIdle.1ST_CHA_RifleAimIdle",
                     "Fire": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_Rifle_Shoot_Montage.1ST_CHA_Rifle_Shoot_Montage",
-                    "AimFire": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_Rifle_AimShoot_Montage.1ST_CHA_Rifle_AimShoot_Montage",
-                    "Reload": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_Rifle_Reload_Chambered.1ST_CHA_Rifle_Reload_Chambered"
+                    "Reload": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_Launcher_Reload_Chambered.1ST_CHA_Launcher_Reload_Chambered"
                 },
                 "ThirdPersonAnimData": {
                     "Idle": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_SlugLauncher_Idle_Test.3RD_CHA_SlugLauncher_Idle_Test",

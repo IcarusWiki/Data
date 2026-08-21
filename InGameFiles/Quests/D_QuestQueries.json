@@ -14856,21 +14856,59 @@
             }
         },
         {
-            "Name": "GH_RAD_D_Spawner",
+            "Name": "GH_RAD_D_CreatureSpawner",
             "Query": {
                 "TagDictionary": [
                     {
-                        "TagName": "GreatHunts.RadBoss.D.Spawner"
+                        "TagName": "GreatHunts.RadBoss.D.Spawner.1"
+                    },
+                    {
+                        "TagName": "GreatHunts.RadBoss.D.Spawner.2"
+                    },
+                    {
+                        "TagName": "GreatHunts.RadBoss.D.Spawner.3"
                     }
                 ],
                 "QueryTokenStream": [
                     0,
                     1,
-                    2,
                     1,
-                    0
+                    3,
+                    0,
+                    1,
+                    2
                 ],
-                "AutoDescription": " ALL( GreatHunts.RadBoss.D.Spawner )"
+                "AutoDescription": " ANY( GreatHunts.RadBoss.D.Spawner.1, GreatHunts.RadBoss.D.Spawner.2, GreatHunts.RadBoss.D.Spawner.3 )"
+            }
+        },
+        {
+            "Name": "GH_RAD_D_DenSpawner",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.D.Spawner.1"
+                    },
+                    {
+                        "TagName": "GreatHunts.RadBoss.D.Spawner.2"
+                    },
+                    {
+                        "TagName": "GreatHunts.RadBoss.D.Spawner.4"
+                    },
+                    {
+                        "TagName": "GreatHunts.RadBoss.D.Spawner.5"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    4,
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "AutoDescription": " ANY( GreatHunts.RadBoss.D.Spawner.1, GreatHunts.RadBoss.D.Spawner.2, GreatHunts.RadBoss.D.Spawner.4, GreatHunts.RadBoss.D.Spawner.5 )"
             }
         },
         {
@@ -15285,6 +15323,96 @@
                     0
                 ],
                 "AutoDescription": " ALL( GreatHunts.RadBoss.O2.Tundra )"
+            }
+        },
+        {
+            "Name": "GH_RAD_D_Travel_Base",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.D.Travel.Base"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.D.Travel.Base )"
+            }
+        },
+        {
+            "Name": "GH_RAD_D_Travel_Swamp",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.D.Travel.Swamp"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.D.Travel.Swamp )"
+            }
+        },
+        {
+            "Name": "GH_RAD_D_Travel_Cave",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.D.Travel.Cave"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.D.Travel.Cave )"
+            }
+        },
+        {
+            "Name": "GH_RAD_D_Travel_Ridge",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.D.Travel.Ridge"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.D.Travel.Ridge )"
+            }
+        },
+        {
+            "Name": "GH_RAD_D_Travel_Lava",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.RadBoss.D.Travel.Lava"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.RadBoss.D.Travel.Lava )"
             }
         }
     ]

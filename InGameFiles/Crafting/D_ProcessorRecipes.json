@@ -109941,6 +109941,65 @@
             }
         },
         {
+            "Name": "Carcass_Orka_Mount",
+            "RecipeSets": [
+                {
+                    "RowName": "Skinning_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "AnimalCarcass_Orka_Mount",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Raw_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 12,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 30,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Bone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                },
+                {
+                    "Element": {
+                        "RowName": "White_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 20,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "SkinningBench"
+            }
+        },
+        {
             "Name": "Carcass_TundraMonkey",
             "RecipeSets": [
                 {
@@ -121546,6 +121605,57 @@
             ],
             "Audio": {
                 "RowName": "CraftingBench"
+            }
+        },
+        {
+            "Name": "T3_Weapon_Rack_Single",
+            "Requirement": {
+                "RowName": "T3_Weapon_Rack"
+            },
+            "RequiredMillijoules": 25000,
+            "RecipeSets": [
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Manufacturer",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Aluminium",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 25
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Screw",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 20
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Weapon_Rack_T3",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "MachiningBench"
             }
         },
         {

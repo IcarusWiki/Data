@@ -22697,6 +22697,17 @@
             "Name": "OLY_Forest_Recon_Knife",
             "Class": "/Game/BP/Quests/Olympus/Forest/Recon/BPQ_OLY_Forest_Recon_Knife.BPQ_OLY_Forest_Recon_Knife_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Recon_Knife-Description\", \"Unlock a Stone Knife ([Tech]) and Craft it with ([Crafting]) for Skinning Animals\")"
+        },
+        {
+            "Name": "ARK_Story_0",
+            "Class": "/Game/BP/Quests/Prometheus/Story/Story0/BPQ_PRO_Story0.BPQ_PRO_Story0_C",
+            "Description": "INVTEXT(\"[DNT] Welcome to Arkadia\")",
+            "DialogueEvents": {
+                "QuestStart": {
+                    "RowName": "None",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
         }
     ]
 }

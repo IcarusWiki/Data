@@ -3333,11 +3333,11 @@
                     "bCanBeSelected": false,
                     "bCanBeSelectedByForcedEvolution": false,
                     "MeshMaterials": {
-                        "0": "/Game/ASS/CRE/Orka/M_CRE_Orka_Sand.M_CRE_Orka_Sand"
+                        "0": "/Game/ASS/CRE/Orka/Variations/M_CRE_Orka_Sand.M_CRE_Orka_Sand"
                     },
                     "GFurMaterials": {},
                     "CarcassMeshMaterials": {
-                        "0": "/Game/ASS/CRE/Orka/M_CRE_Orka_Arctic_Carcass.M_CRE_Orka_Arctic_Carcass"
+                        "0": "/Game/ASS/CRE/Orka/Variations/M_CRE_Orka_Sand_Carc.M_CRE_Orka_Sand_Carc"
                     },
                     "CarcassGFurMaterials": {},
                     "Weighting": 50
@@ -3346,11 +3346,11 @@
                     "bCanBeSelected": false,
                     "bCanBeSelectedByForcedEvolution": false,
                     "MeshMaterials": {
-                        "0": "/Game/ASS/CRE/Orka/M_CRE_Orka_Ruby.M_CRE_Orka_Ruby"
+                        "0": "/Game/ASS/CRE/Orka/Variations/M_CRE_Orka_Ruby.M_CRE_Orka_Ruby"
                     },
                     "GFurMaterials": {},
                     "CarcassMeshMaterials": {
-                        "0": "/Game/ASS/CRE/Orka/M_CRE_Orka_Arctic_Carcass.M_CRE_Orka_Arctic_Carcass"
+                        "0": "/Game/ASS/CRE/Orka/Variations/M_CRE_Orka_Ruby_Carc.M_CRE_Orka_Ruby_Carc"
                     },
                     "CarcassGFurMaterials": {},
                     "Weighting": 50
@@ -3359,11 +3359,11 @@
                     "bCanBeSelected": false,
                     "bCanBeSelectedByForcedEvolution": false,
                     "MeshMaterials": {
-                        "0": "/Game/ASS/CRE/Orka/M_CRE_Orka_Rubble.M_CRE_Orka_Rubble"
+                        "0": "/Game/ASS/CRE/Orka/Variations/M_CRE_Orka_Rubble.M_CRE_Orka_Rubble"
                     },
                     "GFurMaterials": {},
                     "CarcassMeshMaterials": {
-                        "0": "/Game/ASS/CRE/Orka/M_CRE_Orka_Arctic_Carcass.M_CRE_Orka_Arctic_Carcass"
+                        "0": "/Game/ASS/CRE/Orka/Variations/M_CRE_Orka_Rubble_Carc.M_CRE_Orka_Rubble_Carc"
                     },
                     "CarcassGFurMaterials": {},
                     "Weighting": 50
@@ -3372,11 +3372,11 @@
                     "bCanBeSelected": false,
                     "bCanBeSelectedByForcedEvolution": false,
                     "MeshMaterials": {
-                        "0": "/Game/ASS/CRE/Orka/M_CRE_Orka_Moss.M_CRE_Orka_Moss"
+                        "0": "/Game/ASS/CRE/Orka/Variations/M_CRE_Orka_Moss.M_CRE_Orka_Moss"
                     },
                     "GFurMaterials": {},
                     "CarcassMeshMaterials": {
-                        "0": "/Game/ASS/CRE/Orka/M_CRE_Orka_Arctic_Carcass.M_CRE_Orka_Arctic_Carcass"
+                        "0": "/Game/ASS/CRE/Orka/Variations/M_CRE_Orka_Moss_Carc.M_CRE_Orka_Moss_Carc"
                     },
                     "CarcassGFurMaterials": {},
                     "Weighting": 50
@@ -3385,11 +3385,11 @@
                     "bCanBeSelected": false,
                     "bCanBeSelectedByForcedEvolution": false,
                     "MeshMaterials": {
-                        "0": "/Game/ASS/CRE/Orka/M_CRE_Orka_Aqua_Marine.M_CRE_Orka_Aqua_Marine"
+                        "0": "/Game/ASS/CRE/Orka/Variations/M_CRE_Orka_Aqua_Marine.M_CRE_Orka_Aqua_Marine"
                     },
                     "GFurMaterials": {},
                     "CarcassMeshMaterials": {
-                        "0": "/Game/ASS/CRE/Orka/M_CRE_Orka_Arctic_Carcass.M_CRE_Orka_Arctic_Carcass"
+                        "0": "/Game/ASS/CRE/Orka/Variations/M_CRE_Orka_Aqua_Marine_Carc.M_CRE_Orka_Aqua_Marine_Carc"
                     },
                     "CarcassGFurMaterials": {},
                     "Weighting": 50
@@ -3398,11 +3398,11 @@
                     "bCanBeSelected": false,
                     "bCanBeSelectedByForcedEvolution": false,
                     "MeshMaterials": {
-                        "0": "/Game/ASS/CRE/Orka/M_CRE_Orka_Pearlescent.M_CRE_Orka_Pearlescent"
+                        "0": "/Game/ASS/CRE/Orka/Variations/M_CRE_Orka_Pearlescent.M_CRE_Orka_Pearlescent"
                     },
                     "GFurMaterials": {},
                     "CarcassMeshMaterials": {
-                        "0": "/Game/ASS/CRE/Orka/M_CRE_Orka_Arctic_Carcass.M_CRE_Orka_Arctic_Carcass"
+                        "0": "/Game/ASS/CRE/Orka/Variations/M_CRE_Orka_Pearlescent_Carc.M_CRE_Orka_Pearlescent_Carc"
                     },
                     "CarcassGFurMaterials": {},
                     "Weighting": 50
@@ -3411,12 +3411,12 @@
                     "bCanBeSelected": false,
                     "bCanBeSelectedByForcedEvolution": false,
                     "MeshMaterials": {
-                        "0": "/Game/ASS/CRE/Orka/M_CRE_Orka_Primal.M_CRE_Orka_Primal"
+                        "0": "/Game/ASS/CRE/Orka/Variations/M_CRE_Orka_Primal.M_CRE_Orka_Primal"
                     },
                     "GFurMaterials": {},
                     "CarcassMeshMaterials": {},
                     "CarcassGFurMaterials": {
-                        "0": "/Game/ASS/CRE/Orka/M_CRE_Orka_Arctic_Carcass.M_CRE_Orka_Arctic_Carcass"
+                        "0": "/Game/ASS/CRE/Orka/Variations/M_CRE_Orka_Primal_Carc.M_CRE_Orka_Primal_Carc"
                     },
                     "Weighting": 5
                 }
@@ -3843,6 +3843,61 @@
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
                 }
+            }
+        },
+        {
+            "Name": "Kiwi",
+            "AISetup": {
+                "RowName": "Tamed_Kiwi"
+            },
+            "SupportedCombatStates": [
+                "DoNotEngage",
+                "NeutralEngagement",
+                "AggressiveEngagement"
+            ],
+            "SupportedMovementStates": [
+                "Follow",
+                "IdleWander"
+            ],
+            "Animations": {
+                "(TagName=\"BT.Mount.Animation.IdleStanding\")": "/Game/ASS/CRE/Kiwi/Anim/Kiwi_Stand_Idle_Montage.Kiwi_Stand_Idle_Montage",
+                "(TagName=\"BT.Mount.Animation.Rest\")": "/Game/ASS/CRE/Kiwi/Anim/Kiwi_Rest_Montage.Kiwi_Rest_Montage",
+                "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ASS/CRE/Kiwi/Anim/Kiwi_Eat_Montage.Kiwi_Eat_Montage",
+                "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ASS/CRE/Kiwi/Anim/Kiwi_Jump_Montage.Kiwi_Jump_Montage",
+                "(TagName=\"BT.Mount.Animation.Attack\")": "/Game/ASS/CRE/Kiwi/Anim/Kiwi_Attack_Montage.Kiwi_Attack_Montage",
+                "(TagName=\"BT.Mount.Animation.Drink\")": "/Game/ASS/CRE/Kiwi/Anim/Kiwi_Eat_Montage.Kiwi_Eat_Montage"
+            },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Kiwi"
+            },
+            "DefaultNames": [
+                "NSLOCTEXT(\"D_Mounts\", \"Kiwi-DefaultNames-0\", \"Togs\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Kiwi-DefaultNames-1\", \"Pavlova\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Kiwi-DefaultNames-2\", \"Jandals\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Kiwi-DefaultNames-3\", \"Chippy\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Kiwi-DefaultNames-4\", \"Scarfie\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Kiwi-DefaultNames-5\", \"Westie\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Kiwi-DefaultNames-6\", \"Kai\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Kiwi-DefaultNames-7\", \"Chur\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Kiwi-DefaultNames-8\", \"Smoko\")"
+            ],
+            "MapIcon": {
+                "RowName": "Mount"
+            },
+            "RelativeFeetOffset": {
+                "X": -10,
+                "Y": -17.5,
+                "Z": 10
+            },
+            "MountTalentArchetype": {
+                "RowName": "Creature_Kiwi"
+            },
+            "GrowthCurve": {
+                "RowName": "AI_Pets"
+            },
+            "bUseTemperature": true,
+            "ComfortableTemperatureRange": {
+                "Y": 35
             }
         }
     ]

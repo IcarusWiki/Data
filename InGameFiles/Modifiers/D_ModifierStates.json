@@ -14615,6 +14615,32 @@
             "SaveToDatabase": false
         },
         {
+            "Name": "Radiation_Grenade",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Radioactive.T_ICON_Radioactive'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Radiation_Grenade-ModifierName\", \"Radiation Grenade Sickness\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Radiation_Grenade-ModifierDescription\", \"Reduces Health, Stamina, Speed, and Deals Pure Unresisted Damage over time.\")",
+            "CosmeticAttachComponent": "/Game/BP/Behaviours/Modifiers/CosmeticEffects/ModifierCosmetic_RadiationGrenade.ModifierCosmetic_RadiationGrenade_C",
+            "AudioData": {
+                "RowName": "Radiation_Warning_1SHOT"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMaximumHealth_+%\")": -20,
+                "(Value=\"BaseMaximumStamina_+%\")": -20,
+                "(Value=\"BaseMovementSpeed_+%\")": -50
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_RadiationSickness.BP_ModifierStateBehaviour_RadiationSickness_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 20,
+                    "Deviation": 5
+                }
+            },
+            "ShouldTick": true,
+            "MergeType": "Replace",
+            "SaveToDatabase": false
+        },
+        {
             "Name": "RoachTentacleDebuff",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Poisoned.Icon_Poisoned'",
             "Type": "Debuff",

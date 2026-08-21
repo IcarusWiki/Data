@@ -2790,7 +2790,7 @@
         },
         {
             "Name": "LegendaryWeapon_Grenade_Launcher",
-            "Max_Durability": 20000,
+            "Max_Durability": 10000,
             "ItemsForRepair": [
                 {
                     "Item": {

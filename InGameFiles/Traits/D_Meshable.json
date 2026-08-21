@@ -5291,6 +5291,13 @@
             }
         },
         {
+            "Name": "Mesh_Carcass_Orka_Mount",
+            "ItemMesh": "/Game/ASS/CRE/Orka/SK_CRE_Orka_Arctic.SK_CRE_Orka_Arctic",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Orka_Mount_Corpse.BP_Orka_Mount_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Orka/SK_CRE_Orka_Arctic.SK_CRE_Orka_Arctic",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Orka_Mount_Corpse.BP_Orka_Mount_Corpse_C"
+        },
+        {
             "Name": "Mesh_Jackhammer",
             "ItemMesh": "/Game/ASS/ITM/SM_ITM_JackHammer.SM_ITM_JackHammer",
             "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_JackHammer.SK_ITM_JackHammer",
@@ -6464,6 +6471,46 @@
             "Name": "Mesh_Carcass_Turtle_Fish",
             "ItemMesh": "/Game/ASS/CRE/GrizzlyBear/SK_CRE_AGG_GrizzlyBear.SK_CRE_AGG_GrizzlyBear",
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Turtle_Fish_Corpse.BP_Turtle_Fish_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Slinker_Jungle",
+            "ItemMesh": "/Game/ASS/CRE/Slinker/SK_CRE_Slinker.SK_CRE_Slinker",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Slinker_Jungle_Corpse.BP_Slinker_Jungle_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Slinker/SK_CRE_Slinker.SK_CRE_Slinker",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Slinker_Jungle_Corpse.BP_Slinker_Jungle_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Centipede",
+            "ItemMesh": "/Game/ASS/CRE/Rad_Boss/SK_CRE_Rad_Boss.SK_CRE_Rad_Boss"
+        },
+        {
+            "Name": "Mesh_Carcass_Storca_Jungle",
+            "ItemMesh": "/Game/ASS/CRE/Storca/SK_CRE_Storca.SK_CRE_Storca",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Storca_Jungle_Corpse.BP_Storca_Jungle_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Storca/SK_CRE_Storca.SK_CRE_Storca",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Storca_Jungle_Corpse.BP_Storca_Jungle_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Jungle_Hunter",
+            "ItemMesh": "/Game/ASS/CRE/Slinker/SK_CRE_Slinker.SK_CRE_Slinker",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Jungle_Hunter_Corpse.BP_Jungle_Hunter_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Slinker/SK_CRE_Slinker.SK_CRE_Slinker",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Jungle_Hunter_Corpse.BP_Jungle_Hunter_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Elegant_Horse",
+            "ItemMesh": "/Game/ASS/CRE/NormieHorsie/SK_CRE_NormieHorsie.SK_CRE_NormieHorsie",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Elegant_Horse_Corpse.BP_Elegant_Horse_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/NormieHorsie/SK_CRE_NormieHorsie.SK_CRE_NormieHorsie",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Elegant_Horse_Corpse.BP_Elegant_Horse_Corpse_C",
+            "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Elegant_Horse_Corpse.BP_Elegant_Horse_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Jungle_Monkey",
+            "ItemMesh": "/Game/ASS/CRE/Tundra_Monkey/SK_CRE_Tundra_Monkey.SK_CRE_Tundra_Monkey",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tundra_Monkey_Corpse.BP_Tundra_Monkey_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Tundra_Monkey/SK_CRE_Tundra_Monkey.SK_CRE_Tundra_Monkey",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tundra_Monkey_Corpse.BP_Tundra_Monkey_Corpse_C"
         }
     ]
 }
