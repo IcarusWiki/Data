@@ -8637,11 +8637,11 @@
             }
         },
         {
-            "Name": "Any_Grenade_Launcher",
+            "Name": "Any_Legendary_Launcher",
             "Query": {
                 "TagDictionary": [
                     {
-                        "TagName": "Item.Weapon.GrenadeLauncher"
+                        "TagName": "Item.Weapon.Launcher.Legendary"
                     }
                 ],
                 "QueryTokenStream": [
@@ -8651,7 +8651,7 @@
                     1,
                     0
                 ],
-                "AutoDescription": " ANY( Item.Weapon.GrenadeLauncher )"
+                "AutoDescription": " ANY( Item.Weapon.Launcher.Legendary )"
             }
         },
         {
@@ -8926,6 +8926,42 @@
                     0
                 ],
                 "AutoDescription": " ALL( Item.query.carcass_chicken )"
+            }
+        },
+        {
+            "Name": "Any_Shears",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool.Shears"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Tool.Shears )"
+            }
+        },
+        {
+            "Name": "Any_T4_Launcher",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Weapon.Launcher.T4"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Weapon.Launcher.T4 )"
             }
         }
     ]

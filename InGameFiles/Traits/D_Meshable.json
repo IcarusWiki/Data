@@ -6320,7 +6320,7 @@
         },
         {
             "Name": "Mesh_T4_Launcher",
-            "ItemMesh": "/Game/ASS/ITM/WeaponCrate_Norex/SM_ITM_WeaponCrate_Norex.SM_ITM_WeaponCrate_Norex",
+            "ItemMesh": "/Game/ASS/WEP/GUN_Launcher_T4/SK_GUN_Launcher_T4.SK_GUN_Launcher_T4",
             "EquipHandMesh": "/Game/ASS/WEP/GUN_Launcher_T4/SK_GUN_Launcher_T4.SK_GUN_Launcher_T4",
             "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_T4_Launcher.BP_SkeletalItem_T4_Launcher_C"
         },
@@ -6511,6 +6511,14 @@
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tundra_Monkey_Corpse.BP_Tundra_Monkey_Corpse_C",
             "EquipHandMesh": "/Game/ASS/CRE/Tundra_Monkey/SK_CRE_Tundra_Monkey.SK_CRE_Tundra_Monkey",
             "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tundra_Monkey_Corpse.BP_Tundra_Monkey_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Tropical_Bird",
+            "ItemMesh": "/Game/ASS/CRE/Kea/SK_CRE_Kea.SK_CRE_Kea",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tropical_Bird_Corpse.BP_Tropical_Bird_Corpse_C",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "EquipBackMesh": "/Game/ASS/CRE/Kea/SK_CRE_Kea.SK_CRE_Kea",
+            "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tropical_Bird_Corpse.BP_Tropical_Bird_Corpse_C"
         }
     ]
 }

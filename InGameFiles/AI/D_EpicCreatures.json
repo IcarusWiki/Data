@@ -338,7 +338,19 @@
         {
             "Name": "LavaHunter",
             "CreatureNames": [
-                "NSLOCTEXT(\"D_EpicCreatures\", \"LavaHunter-CreatureNames-0\", \"Little Friend??\")"
+                "NSLOCTEXT(\"D_EpicCreatures\", \"LavaHunter-CreatureNames-0\", \"Voltanus\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"LavaHunter-CreatureNames-1\", \"Magmarok\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"LavaHunter-CreatureNames-2\", \"Pyroclast\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"LavaHunter-CreatureNames-3\", \"Ignivar\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"LavaHunter-CreatureNames-4\", \"Scorvaxis\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"LavaHunter-CreatureNames-5\", \"Calderax\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"LavaHunter-CreatureNames-6\", \"Molthar\")"
+            ]
+        },
+        {
+            "Name": "LavaHunter_Mission",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"LavaHunter_Mission-CreatureNames-0\", \"Little Friend??\")"
             ]
         },
         {

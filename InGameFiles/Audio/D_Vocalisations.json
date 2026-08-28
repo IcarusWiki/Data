@@ -4326,6 +4326,27 @@
             "Setting": {
                 "RowName": "Persistent"
             }
+        },
+        {
+            "Name": "Crab_Attack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Crab/SFX_CRE_CRAB_ATTACK_LARGE.SFX_CRE_CRAB_ATTACK_LARGE",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "Crab_Death",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Crab/SFX_CRE_CRAB_ATTACK_LARGE.SFX_CRE_CRAB_ATTACK_LARGE",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "Crab_AttackSmall",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Crab/SFX_CRE_CRAB_ATTACK_SMALL.SFX_CRE_CRAB_ATTACK_SMALL",
+            "Setting": {
+                "RowName": "Default"
+            }
         }
     ]
 }

@@ -21704,7 +21704,7 @@
         },
         {
             "Name": "WorldRadBossDecreasedLaserResistance_?",
-            "Title": "NSLOCTEXT(\"D_Stats\", \"WorldRadBossDecreasedLaserResistance_?-Title\", \"The Malformation will have a Weakness to Lasers.\")",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"WorldRadBossDecreasedLaserResistance_?-Title\", \"The Malformation will have a Greater Weakness to Lasers.\")",
             "PositiveTitleFormat": "INVTEXT(\"{0}\")",
             "NegativeTitleFormat": "INVTEXT(\"{0}\")",
             "bIsWorldStat": true,
@@ -23259,6 +23259,42 @@
         {
             "Name": "JungleMonkeyExtraDamageResistance_+%",
             "Title": "NSLOCTEXT(\"D_Stats\", \"JungleMonkeyExtraDamageResistance_+%-Title\", \"Resistance vs Jungle Monkey\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseTropicalBirdExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTropicalBirdExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Tropical Bird\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTropicalBirdExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Tropical Bird\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "TropicalBirdExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TropicalBirdExtraDamage_+%-Title\", \"Damage vs Tropical Bird\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseTropicalBirdExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTropicalBirdExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Tropical Bird\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTropicalBirdExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Tropical Bird\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "TropicalBirdExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TropicalBirdExtraDamageResistance_+%-Title\", \"Resistance vs Tropical Bird\")",
             "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
             "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
             "bIsReplicated": true,

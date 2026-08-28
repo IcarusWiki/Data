@@ -2757,7 +2757,7 @@
         },
         {
             "Name": "T4_Launcher",
-            "Max_Durability": 10000,
+            "Max_Durability": 5000,
             "ItemsForRepair": [
                 {
                     "Item": {

@@ -421,7 +421,7 @@
         },
         {
             "Name": "Voxel_Platinum",
-            "PhysicalMaterial": "/Game/Physical_Materials/PM_Voxel_Coal.PM_Voxel_Coal",
+            "PhysicalMaterial": "/Game/Physical_Materials/PM_Voxel_Platinum.PM_Voxel_Platinum",
             "SurfaceType": "SurfaceType34",
             "ParticleSystem": "/Game/TRD/Realistic_Starter_VFX_Pack/Particles/Hit/P_Metal.P_Metal",
             "NiagaraSystem": "NiagaraSystem'/Game/ASS/VFX/VOX/NS_Voxel_Platinum_Hit.NS_Voxel_Platinum_Hit'",

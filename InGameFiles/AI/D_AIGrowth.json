@@ -6562,7 +6562,7 @@
                 "(Value=\"BaseMaximumHealth_+\")": 60000,
                 "(Value=\"BaseAttacksCauseRadiationBurn_%\")": 100,
                 "(Value=\"BaseAttacksCauseRadiationSickness_%\")": 0,
-                "(Value=\"BaseLaserDamageResistance_%\")": -33,
+                "(Value=\"BaseLaserDamageResistance_%\")": -20,
                 "(Value=\"BaseProjectileDamageResistance_%\")": 50
             },
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -6753,7 +6753,7 @@
         {
             "Name": "Dino_Large",
             "Base": {
-                "(Value=\"BaseMovementSpeed_+\")": 200,
+                "(Value=\"BaseMovementSpeed_+\")": 325,
                 "(Value=\"BaseSwimSpeed_+\")": 125,
                 "(Value=\"BaseHealthRegenPerMinute_+\")": 3,
                 "(Value=\"BaseMinimumFallDamage_%\")": 1,
@@ -7135,6 +7135,23 @@
             "Health": "CurveFloat'/Game/Data/AI/Curves/C_TundraMonkeyHealth.C_TundraMonkeyHealth'",
             "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_TundraMonkeyMeleeDamage.C_TundraMonkeyMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
+        },
+        {
+            "Name": "Tropical_Bird",
+            "Base": {
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 20,
+                "(Value=\"BaseAIPerceptionMaxAge_+\")": 3,
+                "(Value=\"BaseAIDamagePerceptionMaxAge_+\")": 10,
+                "(Value=\"BaseAIPerceptionSightRadius_+\")": 4000,
+                "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 4500,
+                "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
+                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
+                "(Value=\"BaseMaximumHealth_+\")": 25,
+                "(Value=\"BaseCharacterMass_+\")": 10,
+                "(Value=\"BaseHealthRegenDelay_+\")": 2,
+                "(Value=\"BaseMovementSpeed_+\")": 50
+            },
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         }
     ]
 }

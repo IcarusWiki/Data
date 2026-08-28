@@ -140148,14 +140148,14 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "Item.Tool"
+                        "TagName": "Item.Tool.Shears"
                     }
                 ]
             },
             "Generated_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "Item.Tool"
+                        "TagName": "Item.Tool.Shears"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -235175,18 +235175,12 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "Item.Weapon.GrenadeLauncher"
-                    },
-                    {
                         "TagName": "Item.Weapon.Launcher.T2"
                     }
                 ]
             },
             "Generated_Tags": {
                 "GameplayTags": [
-                    {
-                        "TagName": "Item.Weapon.GrenadeLauncher"
-                    },
                     {
                         "TagName": "Item.Weapon.Launcher.T2"
                     },

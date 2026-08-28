@@ -1542,7 +1542,7 @@
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
             },
-            "DelaySpawningVisibilityTime": 0.05000000074505806
+            "DelaySpawningVisibilityTime": 0.10000000149011612
         },
         {
             "Name": "Frag_Grenade_Impact",
@@ -1576,7 +1576,7 @@
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
             },
-            "DelaySpawningVisibilityTime": 0.05000000074505806
+            "DelaySpawningVisibilityTime": 0.10000000149011612
         },
         {
             "Name": "Radiation_Grenade",
@@ -1610,7 +1610,7 @@
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_WEP_GRE_RADIATION_EXPLODE.SFX_WEP_GRE_RADIATION_EXPLODE"
             },
-            "DelaySpawningVisibilityTime": 0.05000000074505806
+            "DelaySpawningVisibilityTime": 0.10000000149011612
         },
         {
             "Name": "EMP_Grenade",
@@ -1644,7 +1644,7 @@
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
             },
-            "DelaySpawningVisibilityTime": 0.05000000074505806
+            "DelaySpawningVisibilityTime": 0.10000000149011612
         },
         {
             "Name": "Molotov",
@@ -1698,7 +1698,7 @@
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
             },
-            "DelaySpawningVisibilityTime": 0.05000000074505806,
+            "DelaySpawningVisibilityTime": 0.10000000149011612,
             "bIgnorePayloadDeployOverride": true
         },
         {
@@ -3947,7 +3947,7 @@
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
             },
-            "DelaySpawningVisibilityTime": 0.05000000074505806
+            "DelaySpawningVisibilityTime": 0.10000000149011612
         },
         {
             "Name": "Rock_Golem_Grenade_Caltrops",
@@ -4128,7 +4128,7 @@
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_GRN_FLY.SFX_BALLISTIC_GRN_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
             },
-            "DelaySpawningVisibilityTime": 0.05000000074505806
+            "DelaySpawningVisibilityTime": 0.10000000149011612
         },
         {
             "Name": "Ape_Grenade",
@@ -4163,7 +4163,7 @@
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_APE_GRENADE_FLY.SFX_BALLISTIC_APE_GRENADE_FLY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_BALLISTIC_GRENADE_IMPACT.SFX_BALLISTIC_GRENADE_IMPACT"
             },
-            "DelaySpawningVisibilityTime": 0.05000000074505806
+            "DelaySpawningVisibilityTime": 0.10000000149011612
         },
         {
             "Name": "GreatApe_Log_Projectile",

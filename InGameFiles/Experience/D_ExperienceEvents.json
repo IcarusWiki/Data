@@ -2170,6 +2170,17 @@
             "Name": "Skin_Jungle_Monkey",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Jungle_Monkey-EventDescription\", \"Skinned Jungle Monkey\")",
             "ExperienceGranted": 350
+        },
+        {
+            "Name": "Kill_Tropical_Bird",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Tropical_Bird-EventDescription\", \"Killed Tropical Bird\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 170
+        },
+        {
+            "Name": "Skin_Tropical_Bird",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Tropical_Bird-EventDescription\", \"Skinned Tropical Bird\")",
+            "ExperienceGranted": 80
         }
     ]
 }

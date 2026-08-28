@@ -3134,12 +3134,12 @@
         {
             "Name": "T4_Launcher",
             "HipAccuracy": {
-                "X": 0,
-                "Y": 0
+                "X": 3,
+                "Y": 3
             },
             "AimAccuracy": {
-                "X": 0,
-                "Y": 0
+                "X": 1.5,
+                "Y": 1.5
             },
             "LaunchForce": 3000,
             "ChargeData": {
@@ -3147,8 +3147,9 @@
             },
             "VisualData": {
                 "PreviewItemAttachSocket3P": "R_prop_00",
-                "FireShake": "BlueprintGeneratedClass'/Game/BP/CameraShake/Weapons/CS_Rifle_Hunting_Fire.CS_Rifle_Hunting_Fire_C'",
-                "FireParticle": "/Game/ASS/VFX/WEP/NS_LeverActionMuzzle_2.NS_LeverActionMuzzle_2",
+                "FireShake": "BlueprintGeneratedClass'/Game/BP/CameraShake/Weapons/CS_LauncherT4_Fire.CS_LauncherT4_Fire_C'",
+                "FireParticle": "/Game/ASS/VFX/WEP/NS_Launcher_T4_Fire.NS_Launcher_T4_Fire",
+                "TrailParticle": "/Game/ASS/VFX/FRE/NS_Launcher_SmokeTrail.NS_Launcher_SmokeTrail",
                 "VisualRecoil": 20,
                 "AimFOVMultiplier": 0.8999999761581421,
                 "SkeletalItemAnimData": {
@@ -3172,12 +3173,16 @@
                     "ReloadMontage": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_RifleReload_Chambered.3RD_CHA_RifleReload_Chambered"
                 }
             },
+            "RecoilAmount": {
+                "X": 4,
+                "Y": 4
+            },
             "ReloadType": "Chambered",
             "ValidAmmoTypes": {
                 "RowName": "AllLauncher"
             },
             "AmmoCapacity": 3,
-            "RoundsPerMinute": 60,
+            "RoundsPerMinute": 50,
             "ReloadTime": 1,
             "AudioData": {
                 "RowName": "T4_GrenadeLauncher"
@@ -3187,12 +3192,12 @@
         {
             "Name": "Legendary_Launcher",
             "HipAccuracy": {
-                "X": 5,
-                "Y": 5
+                "X": 3,
+                "Y": 3
             },
             "AimAccuracy": {
-                "X": 2.5,
-                "Y": 2.5
+                "X": 1.5,
+                "Y": 1.5
             },
             "LaunchForce": 3500,
             "ChargeData": {
@@ -3200,7 +3205,9 @@
             },
             "VisualData": {
                 "PreviewItemAttachSocket3P": "R_prop_00",
-                "FireParticle": "/Game/ASS/VFX/WEP/SlimeLauncher/NS_Legendary_MuzzleFlash_SlugLauncher.NS_Legendary_MuzzleFlash_SlugLauncher",
+                "FireShake": "BlueprintGeneratedClass'/Game/BP/CameraShake/Weapons/CS_LauncherLegendary_Fire.CS_LauncherLegendary_Fire_C'",
+                "FireParticle": "/Game/ASS/VFX/WEP/NS_Launcher_T4_Fire.NS_Launcher_T4_Fire",
+                "TrailParticle": "/Game/ASS/VFX/FRE/NS_Launcher_SmokeTrail.NS_Launcher_SmokeTrail",
                 "VisualRecoil": 20,
                 "AimFOVMultiplier": 0.8999999761581421,
                 "SkeletalItemAnimData": {
@@ -3214,7 +3221,7 @@
                     "Idle": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_Flamethrower_Idle.1ST_CHA_Flamethrower_Idle",
                     "Aim": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_RifleAimIdle.1ST_CHA_RifleAimIdle",
                     "Fire": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_Rifle_Shoot_Montage.1ST_CHA_Rifle_Shoot_Montage",
-                    "Reload": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_Launcher_Reload_Chambered.1ST_CHA_Launcher_Reload_Chambered"
+                    "Reload": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_Launcher_Reload_Lower_Chambered.1ST_CHA_Launcher_Reload_Lower_Chambered"
                 },
                 "ThirdPersonAnimData": {
                     "Idle": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_SlugLauncher_Idle_Test.3RD_CHA_SlugLauncher_Idle_Test",
@@ -3223,6 +3230,10 @@
                     "AimFire": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_RifleAimShoot_BS.3RD_CHA_RifleAimShoot_BS",
                     "ReloadMontage": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_RifleReload_Chambered.3RD_CHA_RifleReload_Chambered"
                 }
+            },
+            "RecoilAmount": {
+                "X": 2.5,
+                "Y": 2.5
             },
             "ReloadType": "Chambered",
             "ValidAmmoTypes": {
@@ -3239,12 +3250,12 @@
         {
             "Name": "T2_Launcher",
             "HipAccuracy": {
-                "X": 0.5,
-                "Y": 0.5
+                "X": 4,
+                "Y": 4
             },
             "AimAccuracy": {
-                "X": 0.10000000149011612,
-                "Y": 0.10000000149011612
+                "X": 2,
+                "Y": 2
             },
             "LaunchForce": 2000,
             "ChargeData": {
@@ -3253,9 +3264,11 @@
             },
             "VisualData": {
                 "PreviewItemAttachSocket3P": "R_prop_00",
-                "FireShake": "BlueprintGeneratedClass'/Game/BP/CameraShake/Weapons/CS_Shotgun_Fire.CS_Shotgun_Fire_C'",
-                "FireParticle": "/Game/ASS/VFX/WEP/NS_PistolHandgunMuzzle_V2.NS_PistolHandgunMuzzle_V2",
-                "VisualRecoil": 20,
+                "FireShake": "BlueprintGeneratedClass'/Game/BP/CameraShake/Weapons/CS_LauncherT2_Fire.CS_LauncherT2_Fire_C'",
+                "FireShakeAimScale": 0.75,
+                "FireParticle": "/Game/ASS/VFX/WEP/NS_Launcher_T2_Fire.NS_Launcher_T2_Fire",
+                "TrailParticle": "/Game/ASS/VFX/FRE/NS_Launcher_SmokeTrail.NS_Launcher_SmokeTrail",
+                "VisualRecoil": 30,
                 "AimFOVMultiplier": 0.8500000238418579,
                 "SkeletalItemAnimData": {
                     "Fire": "/Game/ASS/WEP/SK_GUN_SGL_SHOT_PISTOL/SK_GUN_SGL_SHOT_PISTOL_Shoot_Montage.SK_GUN_SGL_SHOT_PISTOL_Shoot_Montage",
@@ -3277,10 +3290,14 @@
                     "ReloadMontage": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_PistolReload.3RD_CHA_PistolReload"
                 }
             },
+            "RecoilAmount": {
+                "X": 6,
+                "Y": 6
+            },
             "ValidAmmoTypes": {
                 "RowName": "AllLauncher"
             },
-            "RoundsPerMinute": 80,
+            "RoundsPerMinute": 40,
             "ReloadTime": 3,
             "AudioData": {
                 "RowName": "T2_GrenadeLauncher"

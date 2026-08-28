@@ -76414,6 +76414,7 @@
             "Name": "CombatPet_Base_Kiwi",
             "DisplayName": "NSLOCTEXT(\"D_Talents\", \"CombatPet_Base_Kiwi-DisplayName\", \"Kiwi\")",
             "Description": "NSLOCTEXT(\"D_Talents\", \"CombatPet_Base_Kiwi-Description\", \"Can be specialized into a scrappy skirmisher or a productive forager.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Basr_Kiwi.T_Talent_Basr_Kiwi",
             "TalentTree": {
                 "RowName": "Creature_Kiwi"
             },

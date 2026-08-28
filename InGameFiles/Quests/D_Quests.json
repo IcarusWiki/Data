@@ -7492,7 +7492,7 @@
         {
             "Name": "PRO_Story6_Traitor_ClearCamp",
             "Class": "/Game/BP/Quests/Prometheus/Story/Story6/BPQ_PRO_Story6_Traitor_ClearCamp.BPQ_PRO_Story6_Traitor_ClearCamp_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Story6_Traitor_ClearCamp-Description\", \"Clear the Creatures from the Camp <Number>{0}%</>\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Story6_Traitor_ClearCamp-Description\", \"Clear the Creatures from the Camp <Number>({0}%)</>\")",
             "LocationQuery": {
                 "RowName": "PRO_Story_6_Group15_Camp"
             },

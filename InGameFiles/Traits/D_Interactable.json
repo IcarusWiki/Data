@@ -1783,6 +1783,13 @@
             "WorldPressInteracts": [
                 {
                     "InteractionRow": {
+                        "RowName": "Pickup_Item",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                },
+                {
+                    "InteractionRow": {
                         "RowName": "Claim_LandingPad",
                         "DataTableName": "D_Interactions"
                     },

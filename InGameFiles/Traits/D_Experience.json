@@ -2364,6 +2364,18 @@
                     "GainedExperience": 0
                 }
             }
+        },
+        {
+            "Name": "Creature_Tropical_Bird",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_Tropical_Bird",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
         }
     ]
 }

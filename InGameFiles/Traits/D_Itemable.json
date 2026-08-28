@@ -29049,6 +29049,7 @@
         {
             "Name": "Item_CreatureBait_Kiwi",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_CreatureBait_Kiwi-DisplayName\", \"Kiwi Bait\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_CreatureBait_Kiwi.T_ITEM_CreatureBait_Kiwi",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_CreatureBait_Kiwi-Description\", \"Can be used in a Snare Trap to attract and capture wild Kiwis. Only effective in Forest, Grassland, or Arctic biomes.\")",
             "Weight": 200,
             "MaxStack": 10
@@ -29073,6 +29074,19 @@
             "Name": "Item_Carcass_Jungle_Monkey",
             "DisplayName": "INVTEXT(\"[DNT] Jungle Monkey Carcass\")",
             "Weight": 15000
+        },
+        {
+            "Name": "Item_Carcass_Tropical_Bird",
+            "DisplayName": "INVTEXT(\"[DNT] Tropical Bird Carcass\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Tropical_Bird-Description\", \"A now flightless bird.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Tropical_Bird-FlavorText\", \"Once endangered on Earth, Icarus brings new life to this native bird.\")",
+            "Weight": 1250
+        },
+        {
+            "Name": "Item_Tropical_Bird_Head",
+            "DisplayName": "INVTEXT(\"[DNT] Tropical Bird Vestige\")",
+            "Weight": 500,
+            "MaxStack": 5
         }
     ]
 }
