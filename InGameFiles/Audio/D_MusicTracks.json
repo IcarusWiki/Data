@@ -945,6 +945,14 @@
                 {
                     "RowName": "DHGeothermal",
                     "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Coastal",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Jungle",
+                    "DataTableName": "D_MusicLocationConditions"
                 }
             ],
             "CombatFlags": 2,
@@ -964,6 +972,14 @@
                 },
                 {
                     "RowName": "DHGeothermal",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Coastal",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Jungle",
                     "DataTableName": "D_MusicLocationConditions"
                 }
             ],
@@ -1114,6 +1130,25 @@
             "Locations": [
                 {
                     "RowName": "Coastal",
+                    "DataTableName": "D_MusicLocationConditions"
+                }
+            ],
+            "CombatFlags": 1,
+            "TimeOfDayFlags": 7,
+            "WeatherFlags": 1,
+            "DropStateFlags": 2,
+            "DisasterFlags": 1
+        },
+        {
+            "Name": "JUNGLE3",
+            "Event": "/Game/FMOD/Events/Music/Icarus_MU_Jungle_3.Icarus_MU_Jungle_3",
+            "FadeInCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeIn_DH.MusicCurve_DefaultFadeIn_DH'",
+            "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut.MusicCurve_DefaultFadeOut'",
+            "bTrackCanBePaused": true,
+            "PlayerStateFlags": 1,
+            "Locations": [
+                {
+                    "RowName": "Jungle",
                     "DataTableName": "D_MusicLocationConditions"
                 }
             ],

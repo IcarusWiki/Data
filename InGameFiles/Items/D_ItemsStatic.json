@@ -6200,6 +6200,9 @@
                     },
                     {
                         "TagName": "Item.Utility"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     }
                 ]
             },
@@ -6213,6 +6216,9 @@
                     },
                     {
                         "TagName": "Item.Utility"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -6240,6 +6246,9 @@
                     }
                 ],
                 "ParentTags": []
+            },
+            "Metadata": {
+                "bIsDeprecated": true
             }
         },
         {
@@ -38632,8 +38641,18 @@
                 "(Value=\"IsInvolvedInQuest_?\")": 1,
                 "(Value=\"IsInvulnerable_?\")": 1
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Quest"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Quest"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -50140,8 +50159,18 @@
             "AdditionalStats": {
                 "(Value=\"IsInvolvedInQuest_?\")": 1
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Quest"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Quest"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -60315,6 +60344,9 @@
                     },
                     {
                         "TagName": "Item.Tool.Pickaxe.T2"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     }
                 ]
             },
@@ -60325,6 +60357,9 @@
                     },
                     {
                         "TagName": "Item.Tool.Pickaxe.T2"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -65414,8 +65449,18 @@
             "AdditionalStats": {
                 "(Value=\"IsInvolvedInQuest_?\")": 1
             },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Quest"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Quest"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -67164,6 +67209,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "FactionMission.Item"
+                    },
+                    {
+                        "TagName": "FieldGuide.ForceShowQuestItem"
                     }
                 ]
             },
@@ -67171,6 +67219,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "FactionMission.Item"
+                    },
+                    {
+                        "TagName": "FieldGuide.ForceShowQuestItem"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -107793,6 +107844,9 @@
                     },
                     {
                         "TagName": "Item.Consumable.Food.Raw"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     }
                 ]
             },
@@ -107803,6 +107857,9 @@
                     },
                     {
                         "TagName": "Item.Consumable.Food.Raw"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -162995,7 +163052,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration.Bunker"
                     }
                 ]
             },
@@ -163005,7 +163062,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration.Bunker"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -163085,7 +163142,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration.Bunker"
                     }
                 ]
             },
@@ -163095,7 +163152,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration.Bunker"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -163170,6 +163227,9 @@
                     },
                     {
                         "TagName": "FieldGuide.BlackList"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Bunker"
                     }
                 ]
             },
@@ -163183,6 +163243,9 @@
                     },
                     {
                         "TagName": "FieldGuide.BlackList"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Bunker"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -163262,7 +163325,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration.Bunker"
                     }
                 ]
             },
@@ -163272,7 +163335,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration.Bunker"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -163352,7 +163415,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration.Bunker"
                     }
                 ]
             },
@@ -163362,7 +163425,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration.Bunker"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -163442,7 +163505,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration.Bunker"
                     }
                 ]
             },
@@ -163452,7 +163515,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration.Bunker"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -163532,7 +163595,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration.Bunker"
                     }
                 ]
             },
@@ -163542,7 +163605,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration.Bunker"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -163624,7 +163687,7 @@
                         "TagName": "Item.Deployable.Bed"
                     },
                     {
-                        "TagName": "Item.Decoration.Wood"
+                        "TagName": "Item.Decoration.Bunker"
                     }
                 ]
             },
@@ -163634,7 +163697,7 @@
                         "TagName": "Item.Deployable.Bed"
                     },
                     {
-                        "TagName": "Item.Decoration.Wood"
+                        "TagName": "Item.Decoration.Bunker"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -164098,7 +164161,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration.Bunker"
                     }
                 ]
             },
@@ -164108,7 +164171,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration.Bunker"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -164188,7 +164251,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration.Bunker"
                     }
                 ]
             },
@@ -164198,7 +164261,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration.Bunker"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -164279,6 +164342,9 @@
                     },
                     {
                         "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Bunker"
                     }
                 ]
             },
@@ -164289,6 +164355,9 @@
                     },
                     {
                         "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Bunker"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -164375,6 +164444,9 @@
                     },
                     {
                         "TagName": "FieldGuide.BlackList"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Bunker"
                     }
                 ]
             },
@@ -164388,6 +164460,9 @@
                     },
                     {
                         "TagName": "FieldGuide.BlackList"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Bunker"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -166888,6 +166963,9 @@
                     },
                     {
                         "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     }
                 ]
             },
@@ -166898,6 +166976,9 @@
                     },
                     {
                         "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -166978,6 +167059,9 @@
                     },
                     {
                         "TagName": "Item.Decoration"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     }
                 ]
             },
@@ -166988,6 +167072,9 @@
                     },
                     {
                         "TagName": "Item.Decoration"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -167273,6 +167360,9 @@
                     },
                     {
                         "TagName": "FieldGuide.BlackList"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Bunker"
                     }
                 ]
             },
@@ -167283,6 +167373,9 @@
                     },
                     {
                         "TagName": "FieldGuide.BlackList"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Bunker"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -167551,7 +167644,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration.Bunker"
                     }
                 ]
             },
@@ -167561,7 +167654,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration.Bunker"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -173564,24 +173657,8 @@
             "Audio": {
                 "RowName": "Default"
             },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    },
-                    {
-                        "TagName": "FieldGuide.ForceShowQuestItem"
-                    }
-                ]
-            },
             "Generated_Tags": {
                 "GameplayTags": [
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    },
-                    {
-                        "TagName": "FieldGuide.ForceShowQuestItem"
-                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -173653,24 +173730,8 @@
             "Audio": {
                 "RowName": "Default"
             },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    },
-                    {
-                        "TagName": "FieldGuide.ForceShowQuestItem"
-                    }
-                ]
-            },
             "Generated_Tags": {
                 "GameplayTags": [
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    },
-                    {
-                        "TagName": "FieldGuide.ForceShowQuestItem"
-                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -173742,24 +173803,8 @@
             "Audio": {
                 "RowName": "Default"
             },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    },
-                    {
-                        "TagName": "FieldGuide.ForceShowQuestItem"
-                    }
-                ]
-            },
             "Generated_Tags": {
                 "GameplayTags": [
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    },
-                    {
-                        "TagName": "FieldGuide.ForceShowQuestItem"
-                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -173831,18 +173876,8 @@
             "Audio": {
                 "RowName": "Default"
             },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    }
-                ]
-            },
             "Generated_Tags": {
                 "GameplayTags": [
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -173914,18 +173949,8 @@
             "Audio": {
                 "RowName": "Default"
             },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    }
-                ]
-            },
             "Generated_Tags": {
                 "GameplayTags": [
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -174387,7 +174412,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration"
+                        "TagName": "Item.Decoration.Lab"
                     }
                 ]
             },
@@ -174397,7 +174422,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration"
+                        "TagName": "Item.Decoration.Lab"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -181241,26 +181266,26 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "FieldGuide.Defense"
-                    },
-                    {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
                     },
                     {
                         "TagName": "Prebuilt.Destroyable"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     }
                 ]
             },
             "Generated_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "FieldGuide.Defense"
-                    },
-                    {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
                     },
                     {
                         "TagName": "Prebuilt.Destroyable"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -185763,8 +185788,18 @@
                 "(Value=\"IsInvolvedInQuest_?\")": 1
             },
             "CraftingExperience": 10,
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Quest"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Quest"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -185810,8 +185845,18 @@
                 "(Value=\"IsInvolvedInQuest_?\")": 1
             },
             "CraftingExperience": 10,
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Quest"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Quest"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -186590,8 +186635,18 @@
                 "(Value=\"IsInvolvedInQuest_?\")": 1
             },
             "CraftingExperience": 10,
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Quest"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Quest"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -187080,6 +187135,9 @@
                     },
                     {
                         "TagName": "Item.Decoration.Lab"
+                    },
+                    {
+                        "TagName": "FieldGuide.ForceShowQuestItem"
                     }
                 ]
             },
@@ -187090,6 +187148,9 @@
                     },
                     {
                         "TagName": "Item.Decoration.Lab"
+                    },
+                    {
+                        "TagName": "FieldGuide.ForceShowQuestItem"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -189264,6 +189325,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     }
                 ]
             },
@@ -189271,6 +189335,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -189327,6 +189394,9 @@
                     },
                     {
                         "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     }
                 ]
             },
@@ -189337,6 +189407,9 @@
                     },
                     {
                         "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -189459,6 +189532,9 @@
                     },
                     {
                         "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     }
                 ]
             },
@@ -189469,6 +189545,9 @@
                     },
                     {
                         "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -189525,6 +189604,9 @@
                     },
                     {
                         "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     }
                 ]
             },
@@ -189535,6 +189617,9 @@
                     },
                     {
                         "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -189591,6 +189676,9 @@
                     },
                     {
                         "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     }
                 ]
             },
@@ -189601,6 +189689,9 @@
                     },
                     {
                         "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -189657,6 +189748,9 @@
                     },
                     {
                         "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     }
                 ]
             },
@@ -189667,6 +189761,9 @@
                     },
                     {
                         "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -189723,6 +189820,9 @@
                     },
                     {
                         "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     }
                 ]
             },
@@ -189733,6 +189833,9 @@
                     },
                     {
                         "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -189789,6 +189892,9 @@
                     },
                     {
                         "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     }
                 ]
             },
@@ -189799,6 +189905,9 @@
                     },
                     {
                         "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -189852,6 +189961,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     }
                 ]
             },
@@ -189859,6 +189971,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -189912,6 +190027,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     }
                 ]
             },
@@ -189919,6 +190037,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -190195,6 +190316,9 @@
                     },
                     {
                         "TagName": "Item.Quest"
+                    },
+                    {
+                        "TagName": "FieldGuide.ForceShowQuestItem"
                     }
                 ]
             },
@@ -190217,6 +190341,9 @@
                     },
                     {
                         "TagName": "Item.Quest"
+                    },
+                    {
+                        "TagName": "FieldGuide.ForceShowQuestItem"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -190554,8 +190681,18 @@
                 "(Value=\"IsInvolvedInQuest_?\")": 1
             },
             "CraftingExperience": 10,
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Quest"
+                    }
+                ]
+            },
             "Generated_Tags": {
                 "GameplayTags": [
+                    {
+                        "TagName": "Item.Quest"
+                    },
                     {
                         "TagName": "Traits.Meshable"
                     },
@@ -209666,6 +209803,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Resource"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     }
                 ]
             },
@@ -209673,6 +209813,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Item.Resource"
+                    },
+                    {
+                        "TagName": "Item.Quest"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -220547,7 +220690,10 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     }
                 ]
             },
@@ -220557,7 +220703,10 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -221327,9 +221476,6 @@
                     },
                     {
                         "TagName": "Item.Decoration.Lab"
-                    },
-                    {
-                        "TagName": "FieldGuide.BlackList"
                     }
                 ]
             },
@@ -221340,9 +221486,6 @@
                     },
                     {
                         "TagName": "Item.Decoration.Lab"
-                    },
-                    {
-                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -221590,7 +221733,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration.Lab"
                     }
                 ]
             },
@@ -221600,7 +221743,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration.ArtDeco"
+                        "TagName": "Item.Decoration.Lab"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -221685,7 +221828,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration"
+                        "TagName": "Item.Decoration.Lab"
                     }
                 ]
             },
@@ -221695,7 +221838,7 @@
                         "TagName": "Audio.Shelter.Check"
                     },
                     {
-                        "TagName": "Item.Decoration"
+                        "TagName": "Item.Decoration.Lab"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -222340,9 +222483,6 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "FieldGuide.Defense"
-                    },
-                    {
                         "TagName": "HostileTurret.Flamethrower"
                     },
                     {
@@ -222350,15 +222490,15 @@
                     },
                     {
                         "TagName": "Prebuilt.Destroyable"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     }
                 ]
             },
             "Generated_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "FieldGuide.Defense"
-                    },
-                    {
                         "TagName": "HostileTurret.Flamethrower"
                     },
                     {
@@ -222366,6 +222506,9 @@
                     },
                     {
                         "TagName": "Prebuilt.Destroyable"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -222446,6 +222589,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     }
                 ]
             },
@@ -222453,6 +222599,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -235544,7 +235693,7 @@
                 "RowName": "Item_Mission_Bull"
             },
             "Interactable": {
-                "RowName": "Deployable_NoPickup"
+                "RowName": "Item"
             },
             "Focusable": {
                 "RowName": "Focusable_1H"
@@ -235567,6 +235716,9 @@
             "Weight": {
                 "RowName": "LightDeployable"
             },
+            "Audio": {
+                "RowName": "Default"
+            },
             "AdditionalStats": {
                 "(Value=\"IsInvulnerable_?\")": 1
             },
@@ -235574,9 +235726,6 @@
                 "GameplayTags": [
                     {
                         "TagName": "FieldGuide.BlackList"
-                    },
-                    {
-                        "TagName": "IgnoreValidation"
                     }
                 ]
             },
@@ -235584,9 +235733,6 @@
                 "GameplayTags": [
                     {
                         "TagName": "FieldGuide.BlackList"
-                    },
-                    {
-                        "TagName": "IgnoreValidation"
                     },
                     {
                         "TagName": "Traits.Meshable"

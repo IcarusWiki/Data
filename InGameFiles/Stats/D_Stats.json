@@ -12675,7 +12675,7 @@
         },
         {
             "Name": "FrostedFellChance_%",
-            "Title": "NSLOCTEXT(\"D_Stats\", \"FrostedFellChance_%-Title\", \"Chance to drop Frosted Wood\")",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"FrostedFellChance_%-Title\", \"Chance to drop Frozen Wood\")",
             "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
             "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
             "StatCategory": {
@@ -23298,6 +23298,470 @@
             "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
             "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
             "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "GiantBeetleSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BaseGiantBeetleSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "GiantBeetleExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"GiantBeetleExtraDamage_+%-Title\", \"Damage vs Giant Beetle\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseGiantBeetleExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseGiantBeetleExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Ravager\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseGiantBeetleExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Ravager\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "GiantBeetleExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"GiantBeetleExtraDamageResistance_+%-Title\", \"Resistance vs Giant Beetle\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseGiantBeetleExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseGiantBeetleExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Ravager\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseGiantBeetleExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Ravager\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseJungleExposureResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleExposureResistance_+%-PositiveDescription\", \"+{0}% Jungle Exposure Resistance\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleExposureResistance_+%-NegativeDescription\", \"-{0}% Jungle Exposure Resistance\")",
+            "StatCategory": {
+                "RowName": "Weather"
+            }
+        },
+        {
+            "Name": "BaseJungleHeatResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleHeatResistance_+%-PositiveDescription\", \"+{0}% Heat Resistance in the Jungle\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleHeatResistance_+%-NegativeDescription\", \"-{0}% Heat Resistance in the Jungle\")",
+            "StatCategory": {
+                "RowName": "Temperature"
+            }
+        },
+        {
+            "Name": "BaseJungleColdResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleColdResistance_+%-PositiveDescription\", \"+{0}% Cold Resistance in the Jungle\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleColdResistance_+%-NegativeDescription\", \"-{0}% Cold Resistance in the Jungle\")",
+            "StatCategory": {
+                "RowName": "Health"
+            }
+        },
+        {
+            "Name": "BaseJungleHealthRegen_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleHealthRegen_+%-PositiveDescription\", \"+{0}% Health Regeneration in the Jungle\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleHealthRegen_+%-NegativeDescription\", \"-{0}% Health Regeneration in the Jungle\")",
+            "StatCategory": {
+                "RowName": "Health"
+            }
+        },
+        {
+            "Name": "BaseJungleStaminaRegen_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleStaminaRegen_+%-PositiveDescription\", \"+{0}% Jungle Stamina Regeneration\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleStaminaRegen_+%-NegativeDescription\", \"-{0}% Jungle Stamina Regeneration\")",
+            "StatCategory": {
+                "RowName": "Stamina"
+            }
+        },
+        {
+            "Name": "BaseJungleAnimalThreatModifier_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleAnimalThreatModifier_+%-PositiveDescription\", \"+{0}% Perceived Threat in the Jungle biome\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleAnimalThreatModifier_+%-NegativeDescription\", \"-{0}% Perceived Threat in the Jungle biome\")",
+            "StatCategory": {
+                "RowName": "Stealth"
+            }
+        },
+        {
+            "Name": "BaseJungleFoodConsumption_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleFoodConsumption_+%-PositiveDescription\", \"+{0}% Food Consumption in the Jungle biome\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleFoodConsumption_+%-NegativeDescription\", \"-{0}% Food Consumption in the Jungle biome\")",
+            "StatCategory": {
+                "RowName": "Consumption"
+            }
+        },
+        {
+            "Name": "BaseJungleWaterConsumption_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleWaterConsumption_+%-PositiveDescription\", \"+{0}% Water Consumed in the Jungle biome\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleWaterConsumption_+%-NegativeDescription\", \"-{0}% Water Consumed in the Jungle biome\")",
+            "StatCategory": {
+                "RowName": "Consumption"
+            }
+        },
+        {
+            "Name": "BaseJungleOxygenConsumption_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleOxygenConsumption_+%-PositiveDescription\", \"+{0}% Oxygen Consumption in the Jungle biome\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleOxygenConsumption_+%-NegativeDescription\", \"-{0}% Oxygen Consumption in the Jungle biome\")",
+            "StatCategory": {
+                "RowName": "Character"
+            }
+        },
+        {
+            "Name": "BaseJungleMovementSpeed_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleMovementSpeed_+%-PositiveDescription\", \"+{0}% Movement Speed in the Jungle biome\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJungleMovementSpeed_+%-NegativeDescription\", \"-{0}% Movement Speed in the Jungle biome\")",
+            "StatCategory": {
+                "RowName": "Movement"
+            }
+        },
+        {
+            "Name": "PlantMinionRangedExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"PlantMinionRangedExtraDamage_+%-Title\", \"Damage vs Plant Minion Ranged\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BasePlantMinionRangedExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BasePlantMinionRangedExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Plant Minion Ranged\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BasePlantMinionRangedExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Plant Minion Ranged\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "PlantMinionRangedExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"PlantMinionRangedExtraDamageResistance_+%-Title\", \"Resistance vs Plant Minion Ranged\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BasePlantMinionRangedExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BasePlantMinionRangedExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Plant Minion Ranged\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BasePlantMinionRangedExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Plant Minion Ranged\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseCoastalExposureResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCoastalExposureResistance_+%-PositiveDescription\", \"+{0}% Coastal Exposure Resistance\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCoastalExposureResistance_+%-NegativeDescription\", \"-{0}% Coastal Exposure Resistance\")",
+            "StatCategory": {
+                "RowName": "Weather"
+            }
+        },
+        {
+            "Name": "BaseCoastalHeatResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCoastalHeatResistance_+%-PositiveDescription\", \"+{0}% Heat Resistance on the Coast\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCoastalHeatResistance_+%-NegativeDescription\", \"-{0}% Heat Resistance on the Coast\")",
+            "StatCategory": {
+                "RowName": "Temperature"
+            }
+        },
+        {
+            "Name": "BaseCoastalColdResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCoastalColdResistance_+%-PositiveDescription\", \"+{0}% Cold Resistance on the Coast\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCoastalColdResistance_+%-NegativeDescription\", \"-{0}% Cold Resistance on the Coast\")",
+            "StatCategory": {
+                "RowName": "Health"
+            }
+        },
+        {
+            "Name": "BaseCoastalHealthRegen_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCoastalHealthRegen_+%-PositiveDescription\", \"+{0}% Health Regeneration on the Coast\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCoastalHealthRegen_+%-NegativeDescription\", \"-{0}% Health Regeneration on the Coast\")",
+            "StatCategory": {
+                "RowName": "Health"
+            }
+        },
+        {
+            "Name": "BaseCoastalStaminaRegen_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCoastalStaminaRegen_+%-PositiveDescription\", \"+{0}% Coastal Stamina Regeneration\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCoastalStaminaRegen_+%-NegativeDescription\", \"-{0}% Coastal Stamina Regeneration\")",
+            "StatCategory": {
+                "RowName": "Stamina"
+            }
+        },
+        {
+            "Name": "BaseCoastalAnimalThreatModifier_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCoastalAnimalThreatModifier_+%-PositiveDescription\", \"+{0}% Perceived Threat in the Coastal biome\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCoastalAnimalThreatModifier_+%-NegativeDescription\", \"-{0}% Perceived Threat in the Coastal biome\")",
+            "StatCategory": {
+                "RowName": "Stealth"
+            }
+        },
+        {
+            "Name": "BaseCoastalFoodConsumption_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCoastalFoodConsumption_+%-PositiveDescription\", \"+{0}% Food Consumption in the Coastal biome\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCoastalFoodConsumption_+%-NegativeDescription\", \"-{0}% Food Consumption in the Coastal biome\")",
+            "StatCategory": {
+                "RowName": "Consumption"
+            }
+        },
+        {
+            "Name": "BaseCoastalWaterConsumption_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCoastalWaterConsumption_+%-PositiveDescription\", \"+{0}% Water Consumed on the Coast\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCoastalWaterConsumption_+%-NegativeDescription\", \"-{0}% Water Consumed on the Coast\")",
+            "StatCategory": {
+                "RowName": "Consumption"
+            }
+        },
+        {
+            "Name": "BaseCoastalOxygenConsumption_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCoastalOxygenConsumption_+%-PositiveDescription\", \"+{0}% Oxygen Consumption in the Coastal biome\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCoastalOxygenConsumption_+%-NegativeDescription\", \"-{0}% Oxygen Consumption in the Coastal biome\")",
+            "StatCategory": {
+                "RowName": "Character"
+            }
+        },
+        {
+            "Name": "BaseCoastalMovementSpeed_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCoastalMovementSpeed_+%-PositiveDescription\", \"+{0}% Movement Speed on the Coast\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCoastalMovementSpeed_+%-NegativeDescription\", \"-{0}% Movement Speed on the Coast\")",
+            "StatCategory": {
+                "RowName": "Movement"
+            }
+        },
+        {
+            "Name": "PlantMinionSporeExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"PlantMinionSporeExtraDamage_+%-Title\", \"Damage vs Plant Minion Spore\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BasePlantMinionSporeExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BasePlantMinionSporeExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Plant Minion Spore\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BasePlantMinionSporeExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Plant Minion Spore\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "PlantMinionSporeExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"PlantMinionSporeExtraDamageResistance_+%-Title\", \"Resistance vs Plant Minion Spore\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BasePlantMinionSporeExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BasePlantMinionSporeExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Plant Minion Spore\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BasePlantMinionSporeExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Plant Minion Spore\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "PlantMinionMeleeExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"PlantMinionMeleeExtraDamage_+%-Title\", \"Damage vs Plant Minion Melee\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BasePlantMinionMeleeExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BasePlantMinionMeleeExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Plant Minion Melee\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BasePlantMinionMeleeExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Plant Minion Melee\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "PlantMinionMeleeExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"PlantMinionMeleeExtraDamageResistance_+%-Title\", \"Resistance vs Plant Minion Melee\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BasePlantMinionMeleeExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BasePlantMinionMeleeExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Plant Minion Melee\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BasePlantMinionMeleeExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Plant Minion Melee\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BasePlantMinionEliteSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "PlantMinionEliteSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "PlantMinionEliteExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"PlantMinionEliteExtraDamage_+%-Title\", \"Damage vs Plant Minion Elite\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BasePlantMinionEliteExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BasePlantMinionEliteExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Plant Minion Elite\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BasePlantMinionEliteExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Plant Minion Elite\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "PlantMinionEliteExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"PlantMinionEliteExtraDamageResistance_+%-Title\", \"Resistance vs Plant Minion Elite\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BasePlantMinionEliteExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BasePlantMinionEliteExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Plant Minion Elite\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BasePlantMinionEliteExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Plant Minion Elite\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "AxolotlSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BaseAxolotlSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "AxolotlExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"AxolotlExtraDamage_+%-Title\", \"Damage vs Axolotl\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseAxolotlExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseAxolotlExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Axolotl\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseAxolotlExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Axolotl\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "AxolotlExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"AxolotlExtraDamageResistance_+%-Title\", \"Resistance vs Axolotl\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseAxolotlExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseAxolotlExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Axolotl\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseAxolotlExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Axolotl\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "CrawlerSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BaseCrawlerSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "CrawlerExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"CrawlerExtraDamage_+%-Title\", \"Damage vs Crawler\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseCrawlerExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCrawlerExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Crawler\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCrawlerExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Crawler\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "CrawlerExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"CrawlerExtraDamageResistance_+%-Title\", \"Resistance vs Crawler\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseCrawlerExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCrawlerExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Crawler\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCrawlerExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Crawler\")",
             "StatCategory": {
                 "RowName": "AI"
             }

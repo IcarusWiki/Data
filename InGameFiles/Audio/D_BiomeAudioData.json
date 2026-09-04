@@ -186,7 +186,7 @@
             "Name": "JungleLight",
             "BiomeFMODParam": "Wetlands",
             "MusicLocationCondition": {
-                "RowName": "Jungle"
+                "RowName": "Grasslands"
             },
             "AudioAmbienceBase": "/Game/FMOD/Events/Ambient/Prospect/AMB_JUNGLE_LIGHT.AMB_JUNGLE_LIGHT",
             "AudioAmbienceTransitional": "/Game/FMOD/Events/Environment/Caves/ENV_SWAMP_CAVE_ENTRANCE.ENV_SWAMP_CAVE_ENTRANCE"

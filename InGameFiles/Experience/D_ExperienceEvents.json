@@ -2024,163 +2024,225 @@
         },
         {
             "Name": "Kill_Crab_Coastal_Parent",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Crab_Coastal_Parent-EventDescription\", \"Killed Coastal Crab\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Coastal Crab\")",
             "SharedExperience": true,
             "ExperienceGranted": 1800
         },
         {
             "Name": "Skin_Crab_Coastal",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Crab_Coastal-EventDescription\", \"Skinned Coastal Crab\")",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Coastal Crab\")",
             "ExperienceGranted": 900
         },
         {
             "Name": "Kill_Crab_Coastal",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Crab_Coastal-EventDescription\", \"Killed Coastal Crab\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Coastal Crab\")",
             "SharedExperience": true,
             "ExperienceGranted": 1800
         },
         {
             "Name": "Skin_Turtle_Duck",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Turtle_Duck-EventDescription\", \"Skinned Turtle Duck\")",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Turtle Duck\")",
             "ExperienceGranted": 130
         },
         {
             "Name": "Kill_Turtle_Duck",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Turtle_Duck-EventDescription\", \"Killed Turtle Duck\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Turtle Duck\")",
             "SharedExperience": true,
             "ExperienceGranted": 260
         },
         {
             "Name": "Kill_Bird_Coastal",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Bird_Coastal-EventDescription\", \"Killed Coastal Bird\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Coastal Bird\")",
             "SharedExperience": true,
             "ExperienceGranted": 170
         },
         {
             "Name": "Skin_Bird_Coastal",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Bird_Coastal-EventDescription\", \"Skinned Coastal Bird\")",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Coastal Bird\")",
             "ExperienceGranted": 80
         },
         {
             "Name": "Kill_Dino_Large",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Dino_Large-EventDescription\", \"Killed Dino Large\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Dino Large\")",
             "SharedExperience": true,
             "ExperienceGranted": 2500
         },
         {
             "Name": "Skin_Dino_Large",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Dino_Large-EventDescription\", \"Skinned Dino Large\")",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Dino Large\")",
             "ExperienceGranted": 1250
         },
         {
             "Name": "Kill_Beaver",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Beaver-EventDescription\", \"Killed Beaver\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Beaver\")",
             "SharedExperience": true,
             "ExperienceGranted": 800
         },
         {
             "Name": "Skin_Beaver",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Beaver-EventDescription\", \"Skinned Beaver\")",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Beaver\")",
             "ExperienceGranted": 400
         },
         {
             "Name": "Kill_Giant_Turtle",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Giant_Turtle-EventDescription\", \"Killed Giant Turtle\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Giant Turtle\")",
             "SharedExperience": true,
             "ExperienceGranted": 1500
         },
         {
             "Name": "Skin_Giant_Turtle",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Giant_Turtle-EventDescription\", \"Skinned Giant Turtle\")",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Giant Turtle\")",
             "ExperienceGranted": 870
         },
         {
             "Name": "Kill_Turtle_Fish",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Turtle_Fish-EventDescription\", \"Killed Turtle Fish\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Turtle Fish\")",
             "SharedExperience": true,
             "ExperienceGranted": 2000
         },
         {
             "Name": "Skin_Turtle_Fish",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Turtle_Fish-EventDescription\", \"Skinned Turtle Fish\")",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Turtle Fish\")",
             "ExperienceGranted": 1000
         },
         {
             "Name": "Kill_Slinker_Jungle",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Slinker_Jungle-EventDescription\", \"Killed Jungle Slinker\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Jungle Slinker\")",
             "SharedExperience": true,
             "ExperienceGranted": 2500
         },
         {
             "Name": "Skin_Slinker_Jungle",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Slinker_Jungle-EventDescription\", \"Skinned Jungle Slinker\")",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Jungle Slinker\")",
             "ExperienceGranted": 1250
         },
         {
             "Name": "Kill_Centipede",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Centipede-EventDescription\", \"Killed Centipede\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Centipede\")",
             "SharedExperience": true,
             "ExperienceGranted": 2000
         },
         {
             "Name": "Skin_Centipede",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Centipede-EventDescription\", \"Skinned Centipede\")",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Centipede\")",
             "ExperienceGranted": 1000
         },
         {
             "Name": "Kill_Storca_Jungle",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Storca_Jungle-EventDescription\", \"Killed Jungle Storca\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Jungle Storca\")",
             "SharedExperience": true,
             "ExperienceGranted": 1750
         },
         {
             "Name": "Skin_Storca_Jungle",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Storca_Jungle-EventDescription\", \"Skinned Jungle Storca\")",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Jungle Storca\")",
             "ExperienceGranted": 870
         },
         {
             "Name": "Kill_Jungle_Hunter",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Jungle_Hunter-EventDescription\", \"Killed Jungle Hunter\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Jungle Hunter\")",
             "SharedExperience": true,
             "ExperienceGranted": 2500
         },
         {
             "Name": "Skin_Jungle_Hunter",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Jungle_Hunter-EventDescription\", \"Skinned Jungle Hunter\")",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Jungle Hunter\")",
             "ExperienceGranted": 1250
         },
         {
             "Name": "Kill_Elegant_Horse",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Elegant_Horse-EventDescription\", \"Killed Elegant Horse\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Elegant Horse\")",
             "SharedExperience": true,
             "ExperienceGranted": 1000
         },
         {
             "Name": "Skin_Elegant_Horse",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Elegant_Horse-EventDescription\", \"Skinned Elegant Horse\")",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Elegant Horse\")",
             "ExperienceGranted": 300
         },
         {
             "Name": "Kill_Jungle_Monkey",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Jungle_Monkey-EventDescription\", \"Killed Jungle Monkey\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Jungle Monkey\")",
             "SharedExperience": true,
             "ExperienceGranted": 500
         },
         {
             "Name": "Skin_Jungle_Monkey",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Jungle_Monkey-EventDescription\", \"Skinned Jungle Monkey\")",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Jungle Monkey\")",
             "ExperienceGranted": 350
         },
         {
             "Name": "Kill_Tropical_Bird",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Tropical_Bird-EventDescription\", \"Killed Tropical Bird\")",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Tropical Bird\")",
             "SharedExperience": true,
             "ExperienceGranted": 170
         },
         {
             "Name": "Skin_Tropical_Bird",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Tropical_Bird-EventDescription\", \"Skinned Tropical Bird\")",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Tropical Bird\")",
             "ExperienceGranted": 80
+        },
+        {
+            "Name": "Kill_Giant_Beetle",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Giant Beetle\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 1500
+        },
+        {
+            "Name": "Skin_Giant_Beetle",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Giant Beetle\")",
+            "ExperienceGranted": 870
+        },
+        {
+            "Name": "Kill_Plant_Minion_Ranged",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Plant Minion Ranged\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 400
+        },
+        {
+            "Name": "Kill_Plant_Minion_Spore",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Plant Minion Spore\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 400
+        },
+        {
+            "Name": "Kill_Plant_Minion_Melee",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Plant Minion Melee\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 400
+        },
+        {
+            "Name": "Kill_Plant_Minion_Elite",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Plant Minion Elite\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 2500
+        },
+        {
+            "Name": "Skin_Plant_Minion_Elite",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Plant Minion Elite\")",
+            "ExperienceGranted": 1250
+        },
+        {
+            "Name": "Kill_Axolotl",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Axolotl\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 800
+        },
+        {
+            "Name": "Skin_Axolotl",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Axolotl\")",
+            "ExperienceGranted": 400
+        },
+        {
+            "Name": "Kill_Crawler",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Crawler\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 2000
+        },
+        {
+            "Name": "Skin_Crawler",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Crawler\")",
+            "ExperienceGranted": 1000
         }
     ]
 }

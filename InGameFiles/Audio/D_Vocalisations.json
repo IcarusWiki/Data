@@ -4336,7 +4336,7 @@
         },
         {
             "Name": "Crab_Death",
-            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Crab/SFX_CRE_CRAB_ATTACK_LARGE.SFX_CRE_CRAB_ATTACK_LARGE",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Crab/SFX_CRE_CRAB_DEATH.SFX_CRE_CRAB_DEATH",
             "Setting": {
                 "RowName": "Important"
             }
@@ -4346,6 +4346,69 @@
             "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Crab/SFX_CRE_CRAB_ATTACK_SMALL.SFX_CRE_CRAB_ATTACK_SMALL",
             "Setting": {
                 "RowName": "Default"
+            }
+        },
+        {
+            "Name": "Crab_Death_Small",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Crab/SFX_CRE_CRAB_DEATH_SMALL.SFX_CRE_CRAB_DEATH_SMALL",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "Crab_Idle_Parent",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Crab/SFX_CRE_CRAB_IDLE.SFX_CRE_CRAB_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "Crab_Idle_Small",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Crab/SFX_CRE_CRAB_IDLE_SMALL.SFX_CRE_CRAB_IDLE_SMALL",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "Crab_Aggro_Parent",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Crab/SFX_CRE_CRAB_AGGRO.SFX_CRE_CRAB_AGGRO",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "Crab_Aggro_Small",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Crab/SFX_CRE_CRAB_AGGRO_SMALL.SFX_CRE_CRAB_AGGRO_SMALL",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "Beaver_Attack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Beaver/SFX_CRE_BEAVER_ATTACK.SFX_CRE_BEAVER_ATTACK",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "Beaver_Flinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Beaver/SFX_CRE_BEAVER_FLINCH.SFX_CRE_BEAVER_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "Beaver_Death",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Beaver/SFX_CRE_BEAVER_DEATH.SFX_CRE_BEAVER_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "Beaver_Idle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Beaver/SFX_CRE_BEAVER_IDLE.SFX_CRE_BEAVER_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
             }
         }
     ]

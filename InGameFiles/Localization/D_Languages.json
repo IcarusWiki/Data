@@ -18,12 +18,12 @@
         {
             "Name": "es-419",
             "bEnabled": true,
-            "Coverage": 90
+            "Coverage": 89
         },
         {
             "Name": "pt-BR",
             "bEnabled": true,
-            "Coverage": 99
+            "Coverage": 100
         },
         {
             "Name": "de-DE",

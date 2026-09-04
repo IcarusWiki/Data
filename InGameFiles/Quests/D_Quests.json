@@ -10199,6 +10199,7 @@
             "Name": "GH_RG_C_People",
             "Class": "/Game/BP/Quests/GreatHunts/Rock_Golem/GH_RG_C/BPQ_GH_RG_C_People.BPQ_GH_RG_C_People_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"GH_RG_C_People-Description\", \"Save The Remaining Miners at the Outpost\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"GH_RG_C_People-InfoText\", \"The Miners will Need Food, Water, Oxygen and Various Medical Supplies. Medicine Stronger than Pastes will be Required\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -12974,6 +12975,9 @@
             "Class": "/Game/BP/Quests/GreatHunts/Ape/C/BPQ_GH_Ape_C_Experiment.BPQ_GH_Ape_C_Experiment_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"GH_Ape_C_Experiment-Description\", \"Perform the DNA Extraction\")",
             "InfoText": "NSLOCTEXT(\"D_Quests\", \"GH_Ape_C_Experiment-InfoText\", \"Use the Poster or the Research Notes to Perform the Extraction\")",
+            "LocationQuery": {
+                "RowName": "GH_Ape_C_Lab"
+            },
             "DialogueEvents": {
                 "QuestStart": {
                     "RowName": "GH_AGENT_NEW_APE_C_04",
@@ -12990,7 +12994,7 @@
             "Name": "GH_Ape_C_Experiment_Timer",
             "Class": "/Game/BP/Quests/GreatHunts/Ape/C/BPQ_GH_Ape_C_Experiment_Timer.BPQ_GH_Ape_C_Experiment_Timer_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"GH_Ape_C_Experiment_Timer-Description\", \"Extraction: <Warning>{0} Seconds Remaining</>\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"GH_Ape_C_Experiment_Timer-InfoText\", \"Once the First Step is Complete you will only have 120 Seconds to complete the Extraction\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"GH_Ape_C_Experiment_Timer-InfoText\", \"Once the First Step is Complete You Will Only Have 120 Seconds to Complete the Extraction\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -13001,7 +13005,7 @@
             "Name": "GH_Ape_C_Experiment_Sample",
             "Class": "/Game/BP/Quests/GreatHunts/Ape/C/BPQ_GH_Ape_C_Experiment_Sample.BPQ_GH_Ape_C_Experiment_Sample_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"GH_Ape_C_Experiment_Sample-Description\", \"Acquire a Garganutan DNA Sample\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"GH_Ape_C_Experiment_Sample-InfoText\", \"Scalpels can be found in the Surgical Equipment Inventory, they are required to start the extraction.\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"GH_Ape_C_Experiment_Sample-InfoText\", \"Scalpels Can be Found in the Surgical Equipment Inventory. Be Sure to Keep the Equipment Deployed Nearby, as a Scalpel is Required for Extraction\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"

@@ -5188,6 +5188,12 @@
                         "TagName": "Item.Resource.Miasmic.Crust"
                     },
                     {
+                        "TagName": "Item.Decoration.Lab"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Bunker"
+                    },
+                    {
                         "TagName": "FieldGuide.ForceShowQuestItem"
                     }
                 ],
@@ -5197,16 +5203,18 @@
                     5,
                     2,
                     1,
-                    4,
+                    6,
                     0,
                     1,
                     2,
                     3,
+                    4,
+                    5,
                     3,
                     1,
-                    4
+                    6
                 ],
-                "AutoDescription": " ALL(  ANY( Item.Quest, FieldGuide.BlackList, FactionMission.Item, Item.Resource.Miasmic.Crust ),  NONE( FieldGuide.ForceShowQuestItem ) )"
+                "AutoDescription": " ALL(  ANY( Item.Quest, FieldGuide.BlackList, FactionMission.Item, Item.Resource.Miasmic.Crust, Item.Decoration.Lab, Item.Decoration.Bunker ),  NONE( FieldGuide.ForceShowQuestItem ) )"
             }
         },
         {

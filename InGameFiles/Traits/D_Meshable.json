@@ -6519,6 +6519,29 @@
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
             "EquipBackMesh": "/Game/ASS/CRE/Kea/SK_CRE_Kea.SK_CRE_Kea",
             "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tropical_Bird_Corpse.BP_Tropical_Bird_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Giant_Beetle",
+            "ItemMesh": "/Game/ASS/CRE/Flying_Tank/SK_CRE_Flying_Tank.SK_CRE_Flying_Tank",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Giant_Beetle_Corpse.BP_Giant_Beetle_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Flying_Tank/SK_CRE_Flying_Tank.SK_CRE_Flying_Tank",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Giant_Beetle_Corpse.BP_Giant_Beetle_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Plant_Minion_Elite",
+            "ItemMesh": "/Game/ASS/CRE/PlantBoss/Elite/SK_CRE_PlantBoss_Elite.SK_CRE_PlantBoss_Elite",
+            "EquipHandMesh": "/Game/ASS/CRE/PlantBoss/Elite/SK_CRE_PlantBoss_Elite.SK_CRE_PlantBoss_Elite"
+        },
+        {
+            "Name": "Mesh_Carcass_Axolotl",
+            "ItemMesh": "/Game/ASS/CRE/Axolotl/SK_CRE_Axolotl.SK_CRE_Axolotl",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Axolotl_Corpse.BP_Axolotl_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Axolotl/SK_CRE_Axolotl.SK_CRE_Axolotl",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Axolotl_Corpse.BP_Axolotl_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Crawler",
+            "ItemMesh": "/Game/ASS/CRE/Rad_Boss/SK_CRE_Rad_Boss.SK_CRE_Rad_Boss"
         }
     ]
 }

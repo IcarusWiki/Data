@@ -579,9 +579,9 @@
             "Name": "Module_Plant_Boss",
             "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
             "GrantedStats": {
-                "(Value=\"BaseSwampHealthRegen_+%\")": 20,
-                "(Value=\"BaseSwampStaminaRegen_+%\")": 10,
-                "(Value=\"BaseSwampExposureResistance_+%\")": 10
+                "(Value=\"BaseJungleHealthRegen_+%\")": 20,
+                "(Value=\"BaseJungleStaminaRegen_+%\")": 10,
+                "(Value=\"BaseJungleExposureResistance_+%\")": 10
             },
             "bStackedModifiersGiveDiminishingReturns": true
         },
