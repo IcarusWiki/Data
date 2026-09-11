@@ -8971,6 +8971,24 @@
                 ],
                 "AutoDescription": " ALL( Item.Weapon.Launcher.T4 )"
             }
+        },
+        {
+            "Name": "Any_Laser_Pistol",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Weapon.Firearm.Pistol.Laser"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Weapon.Firearm.Pistol.Laser )"
+            }
         }
     ]
 }

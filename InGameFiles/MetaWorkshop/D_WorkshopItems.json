@@ -10113,6 +10113,30 @@
             ]
         },
         {
+            "Name": "Meta_Powerbank",
+            "Item": {
+                "RowName": "Meta_Powerbank"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 250
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ]
+        },
+        {
             "Name": "Meta_Resource_Pack_Salt",
             "Item": {
                 "RowName": "Meta_Resource_Pack_Salt"

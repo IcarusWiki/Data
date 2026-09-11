@@ -20973,17 +20973,6 @@
             }
         },
         {
-            "Name": "Cobalt_Ingot",
-            "ItemStaticData": {
-                "RowName": "Cobalt_Ingot"
-            },
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "DangerousHorizons"
-                }
-            }
-        },
-        {
             "Name": "Pyritic_Crust_Lithium",
             "ItemStaticData": {
                 "RowName": "Pyritic_Crust_Lithium"
@@ -26572,6 +26561,22 @@
             "ItemStaticData": {
                 "RowName": "Meta_Oxite_Dissolver_Printed"
             }
+        },
+        {
+            "Name": "Meta_Powerbank",
+            "ItemStaticData": {
+                "RowName": "Meta_Powerbank"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 15000
+                },
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 1
+                }
+            ]
         },
         {
             "Name": "Meta_Resource_Pack_Salt",

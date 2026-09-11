@@ -1094,6 +1094,13 @@
             "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Conifer_Wolf_Corpse.BP_Conifer_Wolf_Corpse_C"
         },
         {
+            "Name": "Mesh_Carcass_Conifer_Wolf_Tame",
+            "ItemMesh": "/Game/ASS/CRE/Wolf/SK_CRE_AGG_Wolf.SK_CRE_AGG_Wolf",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Conifer_Wolf_Tame_Corpse.BP_Conifer_Wolf_Tame_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Wolf/SK_CRE_AGG_Wolf.SK_CRE_AGG_Wolf",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Conifer_Wolf_Tame_Corpse.BP_Conifer_Wolf_Tame_Corpse_C"
+        },
+        {
             "Name": "Mesh_Carcass_SnowLeopard",
             "ItemMesh": "/Game/ASS/CRE/Cougar/SnowLeopard/SK_CRE_Snow_Leopard.SK_CRE_Snow_Leopard",
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_SnowLeopard_Corpse.BP_SnowLeopard_Corpse_C",
@@ -5526,10 +5533,6 @@
             "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Lithium_Sickle.BP_SkeletalItem_Lithium_Sickle_C"
         },
         {
-            "Name": "Mesh_Cobalt_Ingot",
-            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Platinum.SM_ITM_Platinum"
-        },
-        {
             "Name": "Mesh_Mining_Laser",
             "ItemMesh": "/Game/ASS/WEP/Gun_MiningLaser/SM_GUN_MiningLaser.SM_GUN_MiningLaser",
             "EquipHandMesh": "/Game/ASS/WEP/Gun_MiningLaser/SK_GUN_MiningLaser.SK_GUN_MiningLaser",
@@ -5956,6 +5959,11 @@
         {
             "Name": "Mesh_PowerBank",
             "ItemMesh": "/Game/ASS/DEP/DEP_Battery_Large/SK_DEP_Battery_Large.SK_DEP_Battery_Large",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
+        },
+        {
+            "Name": "Mesh_Workshop_PowerBank",
+            "ItemMesh": "/Game/ASS/DEP/DEP_Battery_Large/SK_DEP_Battery_Large_2.SK_DEP_Battery_Large_2",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         },
         {
@@ -6448,9 +6456,9 @@
         },
         {
             "Name": "Mesh_Carcass_Dino_Large",
-            "ItemMesh": "/Game/ASS/CRE/Raptor/SK_CRE_Raptor.SK_CRE_Raptor",
+            "ItemMesh": "/Game/ASS/CRE/Large_Dino/SK_CRE_Large_Dino.SK_CRE_Large_Dino",
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Dino_Large_Corpse.BP_Dino_Large_Corpse_C",
-            "EquipHandMesh": "/Game/ASS/CRE/Raptor/SK_CRE_Raptor.SK_CRE_Raptor",
+            "EquipHandMesh": "/Game/ASS/CRE/Large_Dino/SK_CRE_Large_Dino.SK_CRE_Large_Dino",
             "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Dino_Large_Corpse.BP_Dino_Large_Corpse_C"
         },
         {
@@ -6481,7 +6489,8 @@
         },
         {
             "Name": "Mesh_Carcass_Centipede",
-            "ItemMesh": "/Game/ASS/CRE/Rad_Boss/SK_CRE_Rad_Boss.SK_CRE_Rad_Boss"
+            "ItemMesh": "/Game/ASS/CRE/Crawler/SK_CRE_Crawler.SK_CRE_Crawler",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Centipede_Corpse.BP_Centipede_Corpse_C"
         },
         {
             "Name": "Mesh_Carcass_Storca_Jungle",
@@ -6499,9 +6508,9 @@
         },
         {
             "Name": "Mesh_Carcass_Elegant_Horse",
-            "ItemMesh": "/Game/ASS/CRE/NormieHorsie/SK_CRE_NormieHorsie.SK_CRE_NormieHorsie",
+            "ItemMesh": "/Game/ASS/CRE/Elegant_Horse/SK_CRE_ElegantHorse.SK_CRE_ElegantHorse",
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Elegant_Horse_Corpse.BP_Elegant_Horse_Corpse_C",
-            "EquipHandMesh": "/Game/ASS/CRE/NormieHorsie/SK_CRE_NormieHorsie.SK_CRE_NormieHorsie",
+            "EquipHandMesh": "/Game/ASS/CRE/Elegant_Horse/SK_CRE_ElegantHorse.SK_CRE_ElegantHorse",
             "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Elegant_Horse_Corpse.BP_Elegant_Horse_Corpse_C",
             "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Elegant_Horse_Corpse.BP_Elegant_Horse_Corpse_C"
         },
@@ -6530,7 +6539,7 @@
         {
             "Name": "Mesh_Carcass_Plant_Minion_Elite",
             "ItemMesh": "/Game/ASS/CRE/PlantBoss/Elite/SK_CRE_PlantBoss_Elite.SK_CRE_PlantBoss_Elite",
-            "EquipHandMesh": "/Game/ASS/CRE/PlantBoss/Elite/SK_CRE_PlantBoss_Elite.SK_CRE_PlantBoss_Elite"
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_PlantBoss_Elite_Corpse.BP_PlantBoss_Elite_Corpse_C"
         },
         {
             "Name": "Mesh_Carcass_Axolotl",
@@ -6541,7 +6550,55 @@
         },
         {
             "Name": "Mesh_Carcass_Crawler",
-            "ItemMesh": "/Game/ASS/CRE/Rad_Boss/SK_CRE_Rad_Boss.SK_CRE_Rad_Boss"
+            "ItemMesh": "/Game/ASS/CRE/Crawler/SK_CRE_Crawler.SK_CRE_Crawler",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Centipede_Corpse.BP_Centipede_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Ground_Dragon",
+            "ItemMesh": "/Game/ASS/CRE/Ground_Dragon/SK_CRE_Ground_Dragon.SK_CRE_Ground_Dragon",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Ground_Dragon_Corpse.BP_Ground_Dragon_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Ground_Dragon/SK_CRE_Ground_Dragon.SK_CRE_Ground_Dragon",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Ground_Dragon_Corpse.BP_Ground_Dragon_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Chitin",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Bone.SM_ITM_Bone"
+        },
+        {
+            "Name": "Mesh_Heavy_Leather",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Leather.SM_ITM_Leather"
+        },
+        {
+            "Name": "Mesh_Lead_Ore",
+            "ItemMesh": "/Game/ASS/ITM/Ore/SM_Rock_Ore_Iron.SM_Rock_Ore_Iron"
+        },
+        {
+            "Name": "Mesh_Lead_Ingot",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Platinum.SM_ITM_Platinum"
+        },
+        {
+            "Name": "Mesh_Carbide",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Platinum.SM_ITM_Platinum"
+        },
+        {
+            "Name": "Mesh_Ferrotitanium_Alloy",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Titanium_V2.SM_ITM_Titanium_V2"
+        },
+        {
+            "Name": "Mesh_Aluminium_Bronze_Alloy",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Aluminum_V2.SM_ITM_Aluminum_V2"
+        },
+        {
+            "Name": "Mesh_Nanowire",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Gold_V2.SM_ITM_Gold_V2"
+        },
+        {
+            "Name": "Mesh_Composite_Wood",
+            "ItemMesh": "/Game/Assets/3DArt/Interactables/Items/StaticMeshes/SM_plank_bundle.SM_plank_bundle"
+        },
+        {
+            "Name": "Mesh_Carbide_Paste",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_CompositePaste_V2.SM_ITM_CompositePaste_V2"
         }
     ]
 }

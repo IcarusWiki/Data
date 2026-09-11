@@ -16001,7 +16001,6 @@
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Farming/BP_Electric_Seed_Extractor.BP_Electric_Seed_Extractor_C",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Seed_Extractor_T4/SM_DEP_Seed_Extractor_T4.SM_DEP_Seed_Extractor_T4",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
-            "SupportsCustomRotation": false,
             "MaxRestackingAmount": 1
         },
         {

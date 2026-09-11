@@ -17643,6 +17643,74 @@
             }
         },
         {
+            "Name": "Carcass_Conifer_Wolf_Tame",
+            "RecipeSets": [
+                {
+                    "RowName": "Skinning_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "AnimalCarcass_Conifer_Wolf_Tame",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Raw_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 3,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 30,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Fur",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Bone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 20,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Stringy_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "SkinningBench"
+            }
+        },
+        {
             "Name": "Carcass_Pack_Wolf",
             "RecipeSets": [
                 {
@@ -50086,7 +50154,7 @@
                         "RowName": "Meta_Resource",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 5,
+                    "Count": 3,
                     "DynamicProperties": [],
                     "Alterations": []
                 }

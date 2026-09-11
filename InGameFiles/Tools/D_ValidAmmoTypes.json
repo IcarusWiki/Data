@@ -850,7 +850,7 @@
         },
         {
             "Name": "All_Chainsaw_Projectiles",
-            "DisplayName": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"All_Chainsaw_Projectiles-DisplayName\", \"Sawblades\")",
+            "DisplayName": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"All_Chainsaw_Projectiles-DisplayName\", \"Timber Extraction Unit\")",
             "AmmoTypes": [
                 {
                     "RowName": "Chainsaw_Sawblade",

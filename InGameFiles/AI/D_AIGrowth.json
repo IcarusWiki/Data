@@ -7333,6 +7333,38 @@
             "Health": "CurveFloat'/Game/Data/AI/Curves/C_CrawlerHealth.C_CrawlerHealth'",
             "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_CrawlerMeleeDamage.C_CrawlerMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
+        },
+        {
+            "Name": "Ground_Dragon",
+            "Base": {
+                "(Value=\"BaseSwimSpeed_+\")": 300,
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 50,
+                "(Value=\"BaseMinimumFallDamage_%\")": 1,
+                "(Value=\"BaseMaximumFallDamage_%\")": 0,
+                "(Value=\"BaseMinimumFallDamageVelocity_+\")": 1250,
+                "(Value=\"BaseMaximumFallDamageVelocity_+\")": 1950,
+                "(Value=\"BaseAIPerceptionMaxAge_+\")": 3,
+                "(Value=\"BaseAIDamagePerceptionMaxAge_+\")": 10,
+                "(Value=\"BaseAIPerceptionSightRadius_+\")": 30000,
+                "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 40000,
+                "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
+                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
+                "(Value=\"BaseCharacterMass_+\")": 1000,
+                "(Value=\"BaseNPCAttackRadius_+\")": 2250,
+                "(Value=\"CanNPCDamageDurableActors_?\")": 1,
+                "(Value=\"CanNPCDamageVoxels_?\")": 1,
+                "(Value=\"BaseMiningRadius_+\")": 100,
+                "(Value=\"BaseHealthRegenDelay_+\")": 2,
+                "(Value=\"BaseSlowResistance_%\")": 100,
+                "(Value=\"BaseImmobiliseResistance_%\")": 33,
+                "(Value=\"BaseMovementSpeed_+\")": 250,
+                "(Value=\"BaseLaserDamageResistance_+%\")": -50,
+                "(Value=\"BaseMeleeDamageAgainstBuildings_+%\")": 500,
+                "(Value=\"BaseProjectileDamageAgainstBuildings_+%\")": 500
+            },
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_GroundDragonHealth.C_GroundDragonHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_GroundDragonMeleeDamage.C_GroundDragonMeleeDamage'",
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         }
     ]
 }

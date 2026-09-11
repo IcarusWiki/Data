@@ -387,7 +387,7 @@
         },
         {
             "Name": "Health_Regen_Bed_Bedroll",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_HealthRegenBuff.Icon_HealthRegenBuff'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_MODIFIER_BEDREGEN.T_ICON_MODIFIER_BEDREGEN'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Health_Regen_Bed_Bedroll-ModifierName\", \"Health Regen Bed\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Health_Regen_Bed_Bedroll-ModifierDescription\", \"Increases health restoration speed\")",
             "GrantedStats": {
@@ -398,7 +398,7 @@
         },
         {
             "Name": "Health_Regen_Bed_SleepingBag",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_HealthRegenBuff.Icon_HealthRegenBuff'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_MODIFIER_BEDREGEN.T_ICON_MODIFIER_BEDREGEN'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Health_Regen_Bed_SleepingBag-ModifierName\", \"Health Regen Bed\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Health_Regen_Bed_SleepingBag-ModifierDescription\", \"Increases health restoration speed\")",
             "GrantedStats": {
@@ -409,7 +409,7 @@
         },
         {
             "Name": "Health_Regen_Bed_CaliforniaKing",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_HealthRegenBuff.Icon_HealthRegenBuff'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_MODIFIER_BEDREGEN.T_ICON_MODIFIER_BEDREGEN'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Health_Regen_Bed_CaliforniaKing-ModifierName\", \"Health Regen Bed\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Health_Regen_Bed_CaliforniaKing-ModifierDescription\", \"Increases health restoration speed\")",
             "GrantedStats": {

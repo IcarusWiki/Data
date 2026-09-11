@@ -1623,7 +1623,7 @@
         {
             "Name": "Arena_RadBoss",
             "BiomeName": "RadBossArena",
-            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Arena_RadBoss-DisplayName\", \"Radiation Boss Arena\")",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Arena_RadBoss-DisplayName\", \"Malformation Spire\")",
             "Color": {
                 "B": 186,
                 "G": 255,

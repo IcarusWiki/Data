@@ -2243,6 +2243,17 @@
             "Name": "Skin_Crawler",
             "EventDescription": "INVTEXT(\"[DNT] Skinned Crawler\")",
             "ExperienceGranted": 1000
+        },
+        {
+            "Name": "Skin_Ground_Dragon",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Ground Dragon\")",
+            "ExperienceGranted": 1000
+        },
+        {
+            "Name": "Kill_Ground_Dragon",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Ground Dragon\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 5000
         }
     ]
 }

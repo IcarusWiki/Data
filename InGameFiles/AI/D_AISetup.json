@@ -16022,7 +16022,7 @@
                 "RowName": "Wolf"
             },
             "DeadItem": {
-                "RowName": "AnimalCarcass_Conifer_Wolf"
+                "RowName": "AnimalCarcass_Conifer_Wolf_Tame"
             },
             "Relationships": {
                 "RowName": "Player"

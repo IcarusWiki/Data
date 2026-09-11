@@ -76265,6 +76265,25 @@
             }
         },
         {
+            "Name": "Workshop_Powerbank",
+            "ExtraData": {
+                "RowName": "Meta_Powerbank",
+                "DataTableName": "D_WorkshopItems"
+            },
+            "TalentTree": {
+                "RowName": "Workshop_Gadgets"
+            },
+            "Position": {
+                "X": 2750,
+                "Y": 1350
+            },
+            "Size": {
+                "X": 250,
+                "Y": 250
+            },
+            "DrawMethodOverride": "XThenY"
+        },
+        {
             "Name": "Reroute_T2_Lights",
             "TalentType": "Reroute",
             "TalentTree": {

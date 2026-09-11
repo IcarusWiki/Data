@@ -6038,7 +6038,7 @@
         {
             "Name": "Stomper",
             "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"Stomper-CreatureName\", \"Stomper\")",
-            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Volcanic/T_Bestiary_Stompers.T_Bestiary_Stompers",
+            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Volcanic/T_Stomper_LRG.T_Stomper_LRG",
             "PopupImageScale": 1.350000023841858,
             "BiomeImageType": "Large",
             "CreatureSound": "/Game/FMOD/Events/UI/Bestiary/CREATURES/UI_BESTIARY_CRE_STOMPER.UI_BESTIARY_CRE_STOMPER",

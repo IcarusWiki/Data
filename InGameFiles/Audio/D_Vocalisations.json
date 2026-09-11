@@ -4410,6 +4410,62 @@
             "Setting": {
                 "RowName": "Persistent"
             }
+        },
+        {
+            "Name": "Crawler_Attack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Crawler/SFX_CRE_VOCAL_CRAWLER_ATTACK.SFX_CRE_VOCAL_CRAWLER_ATTACK",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "Crawler_Spot",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Crawler/SFX_CRE_VOCAL_CRAWLER_SPOT.SFX_CRE_VOCAL_CRAWLER_SPOT",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "Crawler_Flinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Crawler/SFX_CRE_VOCAL_CRAWLER_FLINCH.SFX_CRE_VOCAL_CRAWLER_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "Crawler_Death",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Crawler/SFX_CRE_VOCAL_CRAWLER_DEATH.SFX_CRE_VOCAL_CRAWLER_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "Centipede_Attack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Centipede/SFX_CRE_CENTIPEDE_ATTACK.SFX_CRE_CENTIPEDE_ATTACK",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "Centipede_Death",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Centipede/SFX_CRE_CENTIPEDE_DEATH.SFX_CRE_CENTIPEDE_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "Centipede_Spot",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Centipede/SFX_CRE_CENTIPEDE_SPOT.SFX_CRE_CENTIPEDE_SPOT",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "Centipede_Flinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Centipede/SFX_CRE_CENTIPEDE_FLINCH.SFX_CRE_CENTIPEDE_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
         }
     ]
 }

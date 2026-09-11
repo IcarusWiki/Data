@@ -1591,8 +1591,8 @@
         },
         {
             "Name": "RadBoss_Den",
-            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"RadBoss_Den-DisplayName\", \"Malformation Nest\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"RadBoss_Den-Description\", \"An entrance to a creature\\'s Nest.\")"
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"RadBoss_Den-DisplayName\", \"Malformation Spire\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"RadBoss_Den-Description\", \"The Nest of the Malformation. Enter at your own Risk.\")"
         },
         {
             "Name": "Dead_Bull",
@@ -1653,6 +1653,11 @@
             "Name": "Mission_Abomination",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Mission_Abomination-DisplayName\", \"Dead Revenant\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"Mission_Abomination-Description\", \"Looks like it took multiple shotgun blasts to the face.\")"
+        },
+        {
+            "Name": "Elderberry_Bush",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Elderberry_Bush-DisplayName\", \"Elderberry Bush\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Elderberry_Bush-Description\", \"Harvest for resources.\")"
         }
     ]
 }

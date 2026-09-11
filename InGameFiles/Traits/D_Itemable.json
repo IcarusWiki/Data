@@ -23842,14 +23842,6 @@
             "MaxStack": 100
         },
         {
-            "Name": "Item_Cobalt_Ingot",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cobalt_Ingot-DisplayName\", \"Cobalt Ingot\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Cobalt_Ingot.T_ITEM_Cobalt_Ingot",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cobalt_Ingot-Description\", \"A Versatile Ingot that can be used to supplement other materials and create new metal alloys.\")",
-            "Weight": 500,
-            "MaxStack": 20
-        },
-        {
             "Name": "Pyritic_Crust_Lithium",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Pyritic_Crust_Lithium-DisplayName\", \"Noxious Crust (Lithium)\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Pyritic_Crust.T_ITEM_Pyritic_Crust",
@@ -28028,6 +28020,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Colony_Tower-DisplayName\", \"Colony Radio Tower\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_LaserControls.T_ITEM_Prop_LaserControls",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Colony_Tower-Description\", \"A Radio Tower that tracks and locates colonists.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Colony_Tower-FlavorText\", \"So that\\'s what those microchips were for...\")",
             "Weight": 10000
         },
         {
@@ -28314,6 +28307,8 @@
             "Name": "Item_Envirosuit_Colonist",
             "DisplayName": "INVTEXT(\"[DNT] Colonist Envirosuit\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Envirosuit_Colonist.T_ITEM_Envirosuit_Colonist",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Envirosuit_Colonist-Description\", \"A suit trialled by the unlucky colonists fo Group 15.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Envirosuit_Colonist-FlavorText\", \"G15 may be evil, but they\\'ve certainly got style.\")",
             "Weight": 100
         },
         {
@@ -28535,10 +28530,10 @@
         },
         {
             "Name": "Item_Meta_Powerbank",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Powerbank-DisplayName\", \"Workshop Powerbank\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Battery_T4.T_ITEM_Battery_T4",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Powerbank-Description\", \"For Portable Electrical Storage and charging of handheld devices. Can be used to charge items in your inventory with a right click.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Powerbank-FlavorText\", \"First for cellphones - now for tools.\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Powerbank-DisplayName\", \"Inaris Powerbank\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Meta_Powerbank.T_ITEM_Meta_Powerbank",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Powerbank-Description\", \"Next-gen power solution for recharging devices. Use it to charge items on the go with secondary fire.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Powerbank-FlavorText\", \"Nothing outcharges the Inaris Powerbank.\")",
             "Weight": 3000
         },
         {
@@ -28666,6 +28661,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Colony_Tower_Portable-DisplayName\", \"Makeshift Colony Radio Tower\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_LaserControls.T_ITEM_Prop_LaserControls",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Colony_Tower_Portable-Description\", \"A Radio Tower that tracks and locates colonists.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Colony_Tower_Portable-FlavorText\", \"So that\\'s what those microchips were for...\")",
             "Weight": 10000
         },
         {
@@ -28755,6 +28751,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Speeder_Kit_Dual-DisplayName\", \"Prototype Dual Hoverframe\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Vehicles/T_ITEM_Speeder_Kit_Dual.T_ITEM_Speeder_Kit_Dual",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Speeder_Kit_Dual-Description\", \"A mechanical vehicle which can be deployed to ride. Powered by Refined Oil. Slower speeds but carries multiple prospectors.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Speeder_Kit_Dual-FlavorText\", \"I can show you the world.\")",
             "Weight": 75000
         },
         {
@@ -29116,6 +29113,13 @@
             "Name": "Item_Carcass_Crawler",
             "DisplayName": "INVTEXT(\"[DNT] Crawler Carcass\")",
             "Weight": 10000
+        },
+        {
+            "Name": "Item_Crab_Head",
+            "DisplayName": "INVTEXT(\"[DNT] Crab Vestige\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Crab_Head-FlavorText\", \"Who knew taxidermy would be so popular on Icarus?\")",
+            "Weight": 500,
+            "MaxStack": 5
         }
     ]
 }

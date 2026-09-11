@@ -101,6 +101,76 @@
             }
         },
         {
+            "Name": "Alpha_Conifer_Wolf",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Alpha_Conifer_Wolf-CreatureNames-0\", \"Bakan the Guardian\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Alpha_Conifer_Wolf-CreatureNames-1\", \"Shakur the Sleeper\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Alpha_Conifer_Wolf-CreatureNames-2\", \"Kanis the Victor\")"
+            ],
+            "AISetup": {
+                "RowName": "Alpha_Wolf"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseHemorrhage_%\")": 15
+            }
+        },
+        {
+            "Name": "Alpha_Snow_Wolf",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Alpha_Snow_Wolf-CreatureNames-0\", \"Bakan the Guardian\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Alpha_Snow_Wolf-CreatureNames-1\", \"Shakur the Sleeper\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Alpha_Snow_Wolf-CreatureNames-2\", \"Kanis the Victor\")"
+            ],
+            "AISetup": {
+                "RowName": "Alpha_Snow_Wolf"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseHemorrhage_%\")": 15
+            }
+        },
+        {
+            "Name": "Alpha_Desert_Wolf",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Alpha_Desert_Wolf-CreatureNames-0\", \"Bakan the Guardian\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Alpha_Desert_Wolf-CreatureNames-1\", \"Shakur the Sleeper\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Alpha_Desert_Wolf-CreatureNames-2\", \"Kanis the Victor\")"
+            ],
+            "AISetup": {
+                "RowName": "Alpha_Snow_Wolf"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseHemorrhage_%\")": 15
+            }
+        },
+        {
+            "Name": "SnowLeopard_Alpha",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"SnowLeopard_Alpha-CreatureNames-0\", \"Bakan the Guardian\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"SnowLeopard_Alpha-CreatureNames-1\", \"Shakur the Sleeper\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"SnowLeopard_Alpha-CreatureNames-2\", \"Kanis the Victor\")"
+            ],
+            "AISetup": {
+                "RowName": "SnowLeopard_Alpha"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseHemorrhage_%\")": 15
+            }
+        },
+        {
+            "Name": "Cougar_Alpha",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Cougar_Alpha-CreatureNames-0\", \"Bakan the Guardian\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Cougar_Alpha-CreatureNames-1\", \"Shakur the Sleeper\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Cougar_Alpha-CreatureNames-2\", \"Kanis the Victor\")"
+            ],
+            "AISetup": {
+                "RowName": "Cougar_Alpha"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseHemorrhage_%\")": 15
+            }
+        },
+        {
             "Name": "Scorpion_Boss",
             "CreatureNames": [
                 "NSLOCTEXT(\"D_EpicCreatures\", \"Scorpion_Boss-CreatureNames-0\", \"Zorum\")",

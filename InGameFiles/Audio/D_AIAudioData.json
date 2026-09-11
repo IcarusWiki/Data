@@ -7617,11 +7617,36 @@
             "FootstepSound": "/Game/FMOD/Events/SFX/Creatures/Footsteps/Spider/SFX_FOOTSTEP_SPIDER_FAST.SFX_FOOTSTEP_SPIDER_FAST",
             "FrontFootSocket": "FrontFoot",
             "RearFootSocket": "BackFoot",
-            "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_FOLIAGE_SMALL.SFX_CRE_FOLIAGE_SMALL",
+            "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/Crocodile/SFX_CRE_FOLIAGE_CRAWLER.SFX_CRE_FOLIAGE_CRAWLER",
             "DeathCollisionSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_BODY_FALL_SMALL.SFX_CRE_BODY_FALL_SMALL",
             "DeathCollisionSocket": "RigPelvis",
             "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_SMALL.SFX_CRE_DEATHFALL_WATER_SMALL",
             "VocalisationSocket": "RigMouthUp",
+            "AttackVocalisation": {
+                "RowName": "Centipede_Attack"
+            },
+            "FlinchVocalisation": {
+                "RowName": "Centipede_Flinch"
+            },
+            "DeathVocalisation": {
+                "RowName": "Centipede_Death"
+            },
+            "StateVocalisations": {
+                "Attacking": {
+                    "StateEnteredVocalisation": {
+                        "RowName": "Centipede_Spot",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StatePersistentVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StateExitedVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    }
+                }
+            },
             "ThreatComponentClass": "/Script/Icarus.CreatureAudioThreatGOAPComponent",
             "ThreatLevel": 100,
             "ThreatConfig": {
@@ -8104,31 +8129,31 @@
         },
         {
             "Name": "Crawler",
-            "FootstepSound": "/Game/FMOD/Events/SFX/Creatures/Footsteps/LavaHunter/SFX_FOOTSTEP_LAVA_HUNTER.SFX_FOOTSTEP_LAVA_HUNTER",
+            "FootstepSound": "/Game/FMOD/Events/SFX/Creatures/Footsteps/SwampQuad/SFX_FOOTSTEP_ROACH.SFX_FOOTSTEP_ROACH",
             "FrontFootSocket": "FrontFoot",
             "RearFootSocket": "BackFoot",
-            "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_FOLIAGE_LARGE.SFX_CRE_FOLIAGE_LARGE",
+            "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/Crocodile/SFX_CRE_FOLIAGE_CRAWLER_LARGE.SFX_CRE_FOLIAGE_CRAWLER_LARGE",
             "DeathCollisionSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_BODY_FALL_LARGE.SFX_CRE_BODY_FALL_LARGE",
             "DeathCollisionSocket": "RigPelvis",
-            "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_LARGE.SFX_CRE_DEATHFALL_WATER_LARGE",
+            "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_MED.SFX_CRE_DEATHFALL_WATER_MED",
             "VocalisationSocket": "RigMouthUp",
             "AttackVocalisation": {
-                "RowName": "RadBossAttack"
+                "RowName": "Crawler_Attack"
             },
             "FlinchVocalisation": {
-                "RowName": "RadBossFlinch"
+                "RowName": "Crawler_Flinch"
             },
             "DeathVocalisation": {
-                "RowName": "RadBossDeath"
+                "RowName": "Crawler_Death"
             },
             "StateVocalisations": {
                 "Attacking": {
                     "StateEnteredVocalisation": {
-                        "RowName": "None",
+                        "RowName": "Crawler_Spot",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StatePersistentVocalisation": {
-                        "RowName": "LavaHunterAggro",
+                        "RowName": "None",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StateExitedVocalisation": {
@@ -8144,6 +8169,32 @@
             },
             "FootstepMaxDistance": 6000,
             "FoliageCheckMaxDistance": 6000
+        },
+        {
+            "Name": "Ground_Dragon",
+            "FootstepSound": "/Game/FMOD/Events/SFX/Creatures/Footsteps/SFX_FOOTSTEP_GROUND_DRAGON.SFX_FOOTSTEP_GROUND_DRAGON",
+            "FrontFootSocket": "SpitSocket",
+            "RearFootSocket": "RigTail4_M",
+            "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_FOLIAGE_LARGE.SFX_CRE_FOLIAGE_LARGE",
+            "DeathCollisionSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_BODY_FALL_LARGE.SFX_CRE_BODY_FALL_LARGE",
+            "DeathCollisionSocket": "RigPelvis",
+            "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_LARGE.SFX_CRE_DEATHFALL_WATER_LARGE",
+            "VocalisationSocket": "SpitSocket",
+            "AttackVocalisation": {
+                "RowName": "TankAttack"
+            },
+            "FlinchVocalisation": {
+                "RowName": "TankFlinch"
+            },
+            "DeathVocalisation": {
+                "RowName": "TankDeath"
+            },
+            "ThreatComponentClass": "/Script/Icarus.CreatureAudioThreatSimpleBossComponent",
+            "ThreatLevel": 100,
+            "ThreatConfig": {
+                "RowName": "ScorpionBoss"
+            },
+            "CombatMusicConditionOverride": "InCombat_EpicBoss"
         }
     ]
 }
