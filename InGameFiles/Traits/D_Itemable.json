@@ -1089,7 +1089,7 @@
             "Name": "Item_Flashlight",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Flashlight-DisplayName\", \"Flashlight\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Flashlight.ITEM_Flashlight",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Flashlight-Description\", \"An LED flashlight for illuminating dark corners. Can be recharged in a Charging Station.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Flashlight-Description\", \"An LED flashlight for illuminating dark corners. Can be recharged in a Charging Station or with a Powerbank.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Flashlight-FlavorText\", \"Activate light with secondary fire.\")",
             "Weight": 250
         },
@@ -1097,7 +1097,7 @@
             "Name": "Item_Meta_Flashlight",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Flashlight-DisplayName\", \"Inaris Flashlight\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Meta_Flashlight.T_ITEM_Meta_Flashlight",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Flashlight-Description\", \"An LED flashlight for illuminating dark corners. Can be recharged in a Charging Station.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Flashlight-Description\", \"A long-lasting LED flashlight for navigating in the dark. Can be recharged in a Charging Station or with a Powerbank.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Flashlight-FlavorText\", \"Activate light with secondary fire.\")",
             "Weight": 350
         },
@@ -13278,7 +13278,7 @@
             "Name": "Item_Icebox_Backpack",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Icebox_Backpack-DisplayName\", \"Portable Icebox Backpack\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Icebox_Backpack.T_ITEM_Icebox_Backpack",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Icebox_Backpack-Description\", \"A handy backpack to prevent your food from spoiling on long journeys. Will run for 1 hour on a full charge. Can be recharged at a Charging Station.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Icebox_Backpack-Description\", \"A handy backpack to prevent your food from spoiling on long journeys. Will run for 1 hour on a full charge. Can be recharged at a Charging Station or with a Powerbank.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Icebox_Backpack-FlavorText\", \"Just think of the possibilities...\")",
             "Weight": 500
         },
@@ -17929,7 +17929,7 @@
             "Name": "Item_Lava_Hunter_Backpack",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Lava_Hunter_Backpack-DisplayName\", \"Lava Hunter Heated Backpack\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Lava_Hunter_Backpack.T_ITEM_Lava_Hunter_Backpack",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Lava_Hunter_Backpack-Description\", \"A powered backpack that emits an aura of warmth. Can be recharged at the Charging Station.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Lava_Hunter_Backpack-Description\", \"A powered backpack that emits an aura of warmth. Can be recharged at the Charging Station or with a Powerbank.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Lava_Hunter_Backpack-FlavorText\", \"Who would have thought carrying around a lava core was good idea.\")",
             "Weight": 500
         },
@@ -18930,7 +18930,7 @@
         },
         {
             "Name": "Item_Module_ExposureResist",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Module_ExposureResist-DisplayName\", \" Exposure Resist Module\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Module_ExposureResist-DisplayName\", \"Exposure Resist Module\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Modules/T_ITEM_MODULE_ADV_ExposureRes.T_ITEM_MODULE_ADV_ExposureRes",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Module_ExposureResist-Description\", \"A Module for greatly increasing exposure resistance.\")",
             "Weight": 100
@@ -19142,7 +19142,7 @@
             "Name": "Item_Battery_Lantern",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Battery_Lantern-DisplayName\", \"Battery Powered Lantern\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Battery_Lantern.T_ITEM_Battery_Lantern",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Battery_Lantern-Description\", \"A robust, portable battery-powered lamp. Can be recharged in a Charging Station.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Battery_Lantern-Description\", \"A robust, portable battery-powered lamp. Can be recharged in a Charging Station or with a Powerbank.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Battery_Lantern-FlavorText\", \"Activate with secondary fire.\")",
             "Weight": 250
         },
@@ -19182,7 +19182,7 @@
             "Name": "Item_CaveLight",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_CaveLight-DisplayName\", \"Battery Cavelight\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_CaveLight_Floor.T_ITEM_CaveLight_Floor",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_CaveLight-Description\", \"Provides a temporary light for cave exploration for marking a path. Can be recharged in a Charging Station. \")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_CaveLight-Description\", \"Provides a temporary light for cave exploration for marking a path. Can be recharged in a Charging Station or with a Powerbank. \")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_CaveLight-FlavorText\", \"Hold R for wall placement.\")",
             "Weight": 2000
         },
@@ -19190,7 +19190,7 @@
             "Name": "CaveSpotLight",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"CaveSpotLight-DisplayName\", \"Battery Spotlight\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_CaveSpotLight_Floor.T_ITEM_CaveSpotLight_Floor",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"CaveSpotLight-Description\", \"Provides a strong temporary light for keeping things lit at night. Can be recharged in a Charging Station.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"CaveSpotLight-Description\", \"Provides a strong temporary light for keeping things lit at night. Can be recharged in a Charging Station or with a Powerbank.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"CaveSpotLight-FlavorText\", \"Hold R for wall placement.\")",
             "Weight": 5000
         },
@@ -24543,7 +24543,7 @@
             "Name": "Item_Carcass_Storca",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Storca-DisplayName\", \"Storca Carcass\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Storca.T_ITEM_AnimalCarcass_Storca",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Storca-Description\", \"The storca\\'s thick hide and heavy frame suggest a creature built to endure.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Storca-Description\", \"The sleek storca lies here, never to rejoin its pack.  \")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Storca-FlavorText\", \"Another reminder that nothing survives Icarus forever.\")",
             "Weight": 8000,
             "Metadata": {
@@ -28388,6 +28388,8 @@
             "Name": "Item_DNA_Serum",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DNA_Serum-DisplayName\", \"DNA Augmentation Serum\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_DNA_AugmentationSerum.T_ITEM_DNA_AugmentationSerum",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DNA_Serum-Description\", \"An experimental serum which increases health and physical resistance for a short time.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_DNA_Serum-FlavorText\", \"Gotta love science.\")",
             "Weight": 50,
             "MaxStack": 10
         },
@@ -28532,7 +28534,7 @@
             "Name": "Item_Meta_Powerbank",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Powerbank-DisplayName\", \"Inaris Powerbank\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Meta_Powerbank.T_ITEM_Meta_Powerbank",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Powerbank-Description\", \"Next-gen power solution for recharging devices. Use it to charge items on the go with secondary fire.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Powerbank-Description\", \"Next-gen power solution for recharging devices. Use it on the go by activating it with a device in need of power in your inventory. \")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Powerbank-FlavorText\", \"Nothing outcharges the Inaris Powerbank.\")",
             "Weight": 3000
         },
@@ -28892,14 +28894,14 @@
         {
             "Name": "Item_Roast_Panther",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Panther-DisplayName\", \"Roast Panthera\")",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Panther-Description\", \"A whole roasted great cat, carved into 6 portions. Deploy it to serve.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Panther-Description\", \"A whole roasted great cat, carved into 8 portions. Deploy it to serve.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Panther-FlavorText\", \"It had the same idea about you.\")",
             "Weight": 2500
         },
         {
             "Name": "Item_Roast_Pork",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Pork-DisplayName\", \"Roast Pork\")",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Pork-Description\", \"A whole hog roast, carved into 4 portions. Deploy it to serve.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Pork-Description\", \"A whole hog roast, carved into 6 portions. Deploy it to serve.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Pork-FlavorText\", \"Crackling optional. Highly recommended.\")",
             "Weight": 2500
         },
@@ -29120,6 +29122,13 @@
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Crab_Head-FlavorText\", \"Who knew taxidermy would be so popular on Icarus?\")",
             "Weight": 500,
             "MaxStack": 5
+        },
+        {
+            "Name": "Item_Workshop_Lantern",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Lantern-DisplayName\", \"Inaris Lantern\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Lantern-Description\", \"An LED Lantern for illuminating dark corners. Can be recharged in a Charging Station.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Lantern-FlavorText\", \"Activate with secondary fire.\")",
+            "Weight": 250
         }
     ]
 }

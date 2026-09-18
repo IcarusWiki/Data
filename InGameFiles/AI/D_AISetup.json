@@ -25246,6 +25246,12 @@
             "BestiaryGroup": {
                 "RowName": "Lava_Hunter_Spawns"
             },
+            "BlacklistBones": [
+                {
+                    "BoneName": "root",
+                    "AffectsChildren": false
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "NewFrontiers"
@@ -34093,7 +34099,7 @@
                 "AutoDescription": " ANY( GOAP.Food.Carnivore.Bait )"
             },
             "Trophy": {
-                "RowName": "Spider_Head"
+                "RowName": "GeothermalSpider_Head"
             },
             "Loot": {
                 "RowName": "GeothermalSpider_Carcass_Loot"

@@ -8989,6 +8989,24 @@
                 ],
                 "AutoDescription": " ANY( Item.Weapon.Firearm.Pistol.Laser )"
             }
+        },
+        {
+            "Name": "Any_Roast",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Consumable.Food.Roast"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Consumable.Food.Roast )"
+            }
         }
     ]
 }

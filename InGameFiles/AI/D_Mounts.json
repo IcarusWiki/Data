@@ -930,6 +930,7 @@
                 "Y": -33.10087585449219,
                 "Z": 66
             },
+            "SpringArmTargetDistance": 450,
             "MountTalentArchetype": {
                 "RowName": "Creature_Blueback"
             },

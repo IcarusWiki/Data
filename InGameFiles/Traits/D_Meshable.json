@@ -6599,6 +6599,77 @@
         {
             "Name": "Mesh_Carbide_Paste",
             "ItemMesh": "/Game/ASS/ITM/SM_ITM_CompositePaste_V2.SM_ITM_CompositePaste_V2"
+        },
+        {
+            "Name": "Mesh_Workshop_Latern",
+            "ItemMesh": "/Game/ASS/ITM/Workshop_Battery_Lantern/SK_Workshop_Battery_Lantern.SK_Workshop_Battery_Lantern",
+            "ItemActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Workshop_Lantern.BP_SkeletalItem_Workshop_Lantern_C",
+            "EquipHandMesh": "/Game/ASS/ITM/Workshop_Battery_Lantern/SK_Workshop_Battery_Lantern.SK_Workshop_Battery_Lantern",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Workshop_Lantern.BP_SkeletalItem_Workshop_Lantern_C"
+        },
+        {
+            "Name": "Mesh_Settlement_Timber",
+            "ItemMesh": "/Game/Assets/3DArt/Interactables/Items/StaticMeshes/SM_plank_bundle.SM_plank_bundle"
+        },
+        {
+            "Name": "Mesh_Settlement_Slate",
+            "ItemMesh": "/Game/ASS/ITM/Ore/SM_Rock_Ore_Stone.SM_Rock_Ore_Stone"
+        },
+        {
+            "Name": "Mesh_Settlement_Produce",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Carrots.SM_ITM_Carrots",
+            "EquipHandMesh": "/Game/ASS/ITM/SM_ITM_Carrots.SM_ITM_Carrots"
+        },
+        {
+            "Name": "Mesh_Settlement_Herbs",
+            "ItemMesh": "/Game/ASS/ENV/HRB/AlpineLily/SM_CF_AlpineLilly_01.SM_CF_AlpineLilly_01",
+            "EquipHandMesh": "/Game/ASS/ENV/HRB/AlpineLily/SM_CF_AlpineLilly_01.SM_CF_AlpineLilly_01"
+        },
+        {
+            "Name": "Mesh_Settlement_Metalwork",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Metal.SM_ITM_Metal"
+        },
+        {
+            "Name": "Mesh_Settlement_Mortar",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_ConcreteMix.SM_ITM_ConcreteMix"
+        },
+        {
+            "Name": "Mesh_Settlement_Woodwork",
+            "ItemMesh": "/Game/Assets/3DArt/Interactables/Items/StaticMeshes/SM_plank_bundle.SM_plank_bundle"
+        },
+        {
+            "Name": "Mesh_Settlement_Hardware",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Iron_Nails.SM_ITM_Iron_Nails"
+        },
+        {
+            "Name": "Mesh_Settlement_Medicine",
+            "ItemMesh": "/Game/ASS/ITM/Bandage/SM_ITM_Bandage.SM_ITM_Bandage"
+        },
+        {
+            "Name": "Mesh_Settlement_Rations",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Bread.SM_ITM_Bread",
+            "EquipHandMesh": "/Game/ASS/ITM/SM_ITM_Bread.SM_ITM_Bread"
+        },
+        {
+            "Name": "Mesh_Settlement_Assemblies",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Electronics.SM_ITM_Electronics"
+        },
+        {
+            "Name": "Mesh_Settlement_Lubricant",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_OilCan.SM_ITM_OilCan"
+        },
+        {
+            "Name": "Mesh_Settlement_Pharmaceuticals",
+            "ItemMesh": "/Game/ASS/ITM/Bandage/SM_ITM_Bandage.SM_ITM_Bandage"
+        },
+        {
+            "Name": "Mesh_Settlement_Cuisine",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Meat_Cooked.SM_ITM_Meat_Cooked",
+            "EquipHandMesh": "/Game/ASS/ITM/SM_ITM_Meat_Cooked.SM_ITM_Meat_Cooked"
+        },
+        {
+            "Name": "Mesh_Settlement_Microchips",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Electronics.SM_ITM_Electronics"
         }
     ]
 }

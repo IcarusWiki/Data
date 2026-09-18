@@ -4284,7 +4284,7 @@
                 "RowName": "Generic_WaterSkin"
             },
             "Consumable": {
-                "RowName": "Canteen"
+                "RowName": "BasicWater"
             },
             "Usable": {
                 "RowName": "Consume_Empty"
@@ -15255,7 +15255,7 @@
                 "RowName": "Generic_WaterSkin"
             },
             "Consumable": {
-                "RowName": "Drink_Sponge"
+                "RowName": "BasicWater"
             },
             "Usable": {
                 "RowName": "Consume_Empty"
@@ -18134,7 +18134,7 @@
                 "RowName": "Generic_WaterSkin"
             },
             "Consumable": {
-                "RowName": "Thermos"
+                "RowName": "BasicWater"
             },
             "Usable": {
                 "RowName": "Consume_Empty"
@@ -46345,7 +46345,7 @@
                 "RowName": "Generic_WaterSkin"
             },
             "Consumable": {
-                "RowName": "Canteen_Shengong"
+                "RowName": "BasicWater"
             },
             "Usable": {
                 "RowName": "Consume_Empty"
@@ -107522,7 +107522,7 @@
                 "RowName": "Generic_WaterSkin"
             },
             "Consumable": {
-                "RowName": "Warming_Drink"
+                "RowName": "BasicWater"
             },
             "Usable": {
                 "RowName": "Consume_Empty"
@@ -154021,9 +154021,6 @@
             "Manual_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "FieldGuide.BlackList"
-                    },
-                    {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
                     },
                     {
@@ -154033,9 +154030,6 @@
             },
             "Generated_Tags": {
                 "GameplayTags": [
-                    {
-                        "TagName": "FieldGuide.BlackList"
-                    },
                     {
                         "TagName": "Prebuilt.IgnoreUnobtainable"
                     },
@@ -235767,49 +235761,75 @@
             }
         },
         {
-            "Name": "Meta_Resource_Pack_Salt",
+            "Name": "Electric_Seed_Extractor",
             "Meshable": {
-                "RowName": "Mesh_Meta_Resource_Pack"
+                "RowName": "Mesh_Generic_Machining"
             },
             "Itemable": {
-                "RowName": "Item_Meta_Resource_Pack_Salt"
+                "RowName": "Item_Electric_Seed_Extractor"
             },
             "Interactable": {
-                "RowName": "Item"
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
             },
             "Highlightable": {
                 "RowName": "Generic"
             },
-            "Consumable": {
-                "RowName": "Meta_Resource_Pack_Salt"
+            "Actionable": {
+                "RowName": "Deployable"
             },
             "Usable": {
-                "RowName": "Consume_Stack"
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Electric_Seed_Extractor"
+            },
+            "Durable": {
+                "RowName": "Deployable_1000"
+            },
+            "Inventory": {
+                "RowName": "Processor_NoFuel_T5"
+            },
+            "Processing": {
+                "RowName": "Electric_Seed_Extractor"
+            },
+            "Experience": {
+                "RowName": "CraftedItem"
             },
             "Decayable": {
-                "RowName": "Decay_MetaItem"
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "MediumDeployable"
+            },
+            "Resource": {
+                "RowName": "Material_Processor"
             },
             "Audio": {
-                "RowName": "Default"
+                "RowName": "GenericDeployable"
             },
-            "CraftingExperience": 10,
+            "AdditionalStats": {
+                "(Value=\"BaseCraftingSpeed_+%\")": 50
+            },
             "Manual_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "Item.Meta.Consumable"
+                        "TagName": "Item.Bench"
                     },
                     {
-                        "TagName": "Item.Meta.Package.Resource"
+                        "TagName": "Item.Machine"
                     }
                 ]
             },
             "Generated_Tags": {
                 "GameplayTags": [
                     {
-                        "TagName": "Item.Meta.Consumable"
+                        "TagName": "Item.Bench"
                     },
                     {
-                        "TagName": "Item.Meta.Package.Resource"
+                        "TagName": "Item.Machine"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -235824,10 +235844,22 @@
                         "TagName": "Traits.Highlightable"
                     },
                     {
-                        "TagName": "Traits.Consumable"
+                        "TagName": "Traits.Actionable"
                     },
                     {
                         "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
+                    },
+                    {
+                        "TagName": "Traits.Processing"
                     }
                 ],
                 "ParentTags": []

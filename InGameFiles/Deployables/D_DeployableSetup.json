@@ -5597,7 +5597,14 @@
             "MaxSurfaceSnapAngle": 180,
             "SupportsCustomRotation": false,
             "WorldPlacementType": "CeilingPlacement",
-            "bCanAffectNavigation": false
+            "bCanAffectNavigation": false,
+            "DeployCollisionExtentOffset": {
+                "X": -10,
+                "Z": -10
+            },
+            "DeployCollisionLocationOffset": {
+                "Z": -30
+            }
         },
         {
             "Name": "Wall_Shroud_Light",
@@ -5915,7 +5922,7 @@
         {
             "Name": "Smoker_T4",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Smoker_T4.BP_Smoker_T4_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Smoker_T4.SM_DEP_Smoker_T4",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Roaster_T4/SM_DEP_Roaster_T4.SM_DEP_Roaster_T4",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
             "SnapToSurfaceNormal": false,
             "DeployCollisionExtentOffset": {
@@ -7629,7 +7636,10 @@
             "MaxSurfaceSnapAngle": 180,
             "SupportsCustomRotation": false,
             "WorldPlacementType": "CeilingPlacement",
-            "bCanAffectNavigation": false
+            "bCanAffectNavigation": false,
+            "DeployCollisionLocationOffset": {
+                "Z": -20
+            }
         },
         {
             "Name": "Medicine_Bench",
@@ -16140,7 +16150,7 @@
         },
         {
             "Name": "Roast_Reptile",
-            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_Base.BP_Roast_Base_C",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_4.BP_Roast_4_C",
             "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
             "SupportsCustomRotation": false,
@@ -16149,7 +16159,7 @@
         },
         {
             "Name": "Roast_Venison",
-            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_Base.BP_Roast_Base_C",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_6.BP_Roast_6_C",
             "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
             "SupportsCustomRotation": false,
@@ -16158,7 +16168,7 @@
         },
         {
             "Name": "Roast_Panther",
-            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_Base.BP_Roast_Base_C",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_6.BP_Roast_6_C",
             "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
             "SupportsCustomRotation": false,
@@ -16167,7 +16177,7 @@
         },
         {
             "Name": "Roast_Pork",
-            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_Base.BP_Roast_Base_C",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_6.BP_Roast_6_C",
             "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
             "SupportsCustomRotation": false,
@@ -16176,7 +16186,7 @@
         },
         {
             "Name": "Roast_Exotic_Meat",
-            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_Base.BP_Roast_Base_C",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_4.BP_Roast_4_C",
             "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
             "SupportsCustomRotation": false,
@@ -16185,7 +16195,7 @@
         },
         {
             "Name": "Roast_Mutton",
-            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_Base.BP_Roast_Base_C",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_4.BP_Roast_4_C",
             "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
             "SupportsCustomRotation": false,
@@ -16194,7 +16204,7 @@
         },
         {
             "Name": "Roast_Wolf",
-            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_Base.BP_Roast_Base_C",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_4.BP_Roast_4_C",
             "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
             "SupportsCustomRotation": false,
@@ -16456,6 +16466,75 @@
             "WorldPlacementType": "WallPlacement",
             "bCanAffectNavigation": false,
             "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Farming_Mound_Spinach",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Farming/BP_Crop_Plot_Mound.BP_Crop_Plot_Mound_C",
+            "PreviewStaticMesh": "/Game/ASS/ENV/HRB/Spinach/SM_HRB_Spinach_Var1.SM_HRB_Spinach_Var1",
+            "DeployedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
+            "ItemAddedSounds": {
+                "(RowName=\"Basic_Fertilizer\",DataTableName=\"D_ItemsStatic\")": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_ADD_FERTILIZER.SFX_FARMING_ADD_FERTILIZER",
+                "(RowName=\"Speed_Fertilizer\",DataTableName=\"D_ItemsStatic\")": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_ADD_FERTILIZER.SFX_FARMING_ADD_FERTILIZER",
+                "(RowName=\"Yield_Fertilizer\",DataTableName=\"D_ItemsStatic\")": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_ADD_FERTILIZER.SFX_FARMING_ADD_FERTILIZER"
+            },
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "CropPlot"
+            ],
+            "SnapSocketsOrTags": [
+                "CropSnappingPoint"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "NavAreaClass": "Class'/Script/NavigationSystem.NavArea_Obstacle'",
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Farming_Mound_Ginger",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Farming/BP_Crop_Plot_Mound.BP_Crop_Plot_Mound_C",
+            "PreviewStaticMesh": "/Game/ASS/ENV/HRB/Ginger/SM_HRB_Ginger_Var1.SM_HRB_Ginger_Var1",
+            "DeployedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
+            "ItemAddedSounds": {
+                "(RowName=\"Basic_Fertilizer\",DataTableName=\"D_ItemsStatic\")": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_ADD_FERTILIZER.SFX_FARMING_ADD_FERTILIZER",
+                "(RowName=\"Speed_Fertilizer\",DataTableName=\"D_ItemsStatic\")": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_ADD_FERTILIZER.SFX_FARMING_ADD_FERTILIZER",
+                "(RowName=\"Yield_Fertilizer\",DataTableName=\"D_ItemsStatic\")": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_ADD_FERTILIZER.SFX_FARMING_ADD_FERTILIZER"
+            },
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "CropPlot"
+            ],
+            "SnapSocketsOrTags": [
+                "CropSnappingPoint"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "NavAreaClass": "Class'/Script/NavigationSystem.NavArea_Obstacle'",
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Farming_Mound_Pineapple",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Farming/BP_Crop_Plot_Mound.BP_Crop_Plot_Mound_C",
+            "PreviewStaticMesh": "/Game/ASS/ENV/HRB/Pineapple/SM_HRB_Pineapple_Var1.SM_HRB_Pineapple_Var1",
+            "DeployedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
+            "ItemAddedSounds": {
+                "(RowName=\"Basic_Fertilizer\",DataTableName=\"D_ItemsStatic\")": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_ADD_FERTILIZER.SFX_FARMING_ADD_FERTILIZER",
+                "(RowName=\"Speed_Fertilizer\",DataTableName=\"D_ItemsStatic\")": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_ADD_FERTILIZER.SFX_FARMING_ADD_FERTILIZER",
+                "(RowName=\"Yield_Fertilizer\",DataTableName=\"D_ItemsStatic\")": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_ADD_FERTILIZER.SFX_FARMING_ADD_FERTILIZER"
+            },
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "CropPlot"
+            ],
+            "SnapSocketsOrTags": [
+                "CropSnappingPoint"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "NavAreaClass": "Class'/Script/NavigationSystem.NavArea_Obstacle'",
+            "MaxRestackingAmount": 1
         }
     ]
 }

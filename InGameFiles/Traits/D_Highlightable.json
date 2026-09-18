@@ -1658,6 +1658,26 @@
             "Name": "Elderberry_Bush",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Elderberry_Bush-DisplayName\", \"Elderberry Bush\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"Elderberry_Bush-Description\", \"Harvest for resources.\")"
+        },
+        {
+            "Name": "Radboss_Carcass",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Radboss_Carcass-DisplayName\", \"Malformation Remains\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Radboss_Carcass-Description\", \"Its twisted life came to a similarly gruesome end.\")"
+        },
+        {
+            "Name": "Spinach",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Spinach-DisplayName\", \"Spinach\")",
+            "Description": "INVTEXT(\"[DNT] Greens for gains.\")"
+        },
+        {
+            "Name": "Ginger",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Ginger-DisplayName\", \"Ginger\")",
+            "Description": "INVTEXT(\"[DNT] A little nice spice.\")"
+        },
+        {
+            "Name": "Pineapple",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Pineapple-DisplayName\", \"Pineapple\")",
+            "Description": "INVTEXT(\"[DNT] A tart treat that tingles the tongue.\")"
         }
     ]
 }

@@ -834,7 +834,7 @@
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 10
+            "StartingSlots": 15
         },
         {
             "Name": "Central_Scanner",

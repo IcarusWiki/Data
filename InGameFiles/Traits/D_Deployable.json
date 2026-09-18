@@ -11983,6 +11983,36 @@
                 }
             ],
             "EffectedByWeather": false
+        },
+        {
+            "Name": "Farming_Mound_Spinach",
+            "Variants": [
+                {
+                    "RowName": "Farming_Mound_Spinach",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Farming_Mound_Ginger",
+            "Variants": [
+                {
+                    "RowName": "Farming_Mound_Ginger",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Farming_Mound_Pineapple",
+            "Variants": [
+                {
+                    "RowName": "Farming_Mound_Pineapple",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
         }
     ]
 }

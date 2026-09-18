@@ -10612,7 +10612,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 17250,
+                "X": 17100,
                 "Y": 450
             },
             "Size": {
@@ -11934,7 +11934,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 6250,
+                "X": 6100,
                 "Y": 100
             },
             "Size": {
@@ -11958,8 +11958,8 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 5650,
-                "Y": 100
+                "X": 5700,
+                "Y": 450
             },
             "Size": {
                 "X": 184,
@@ -14388,7 +14388,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 15950,
+                "X": 15800,
                 "Y": 850
             },
             "Size": {
@@ -14412,7 +14412,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 15950,
+                "X": 15800,
                 "Y": 450
             },
             "Size": {
@@ -14461,7 +14461,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 14950,
+                "X": 14800,
                 "Y": 300
             },
             "Size": {
@@ -14509,7 +14509,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 12450,
+                "X": 12300,
                 "Y": 100
             },
             "Size": {
@@ -14533,7 +14533,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 12450,
+                "X": 12300,
                 "Y": 450
             },
             "Size": {
@@ -14557,8 +14557,8 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 13650,
-                "Y": 300
+                "X": 13500,
+                "Y": 450
             },
             "Size": {
                 "X": 184,
@@ -14581,7 +14581,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 16350,
+                "X": 16200,
                 "Y": 300
             },
             "Size": {
@@ -14605,7 +14605,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 16650,
+                "X": 16500,
                 "Y": 100
             },
             "Size": {
@@ -14630,7 +14630,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 16650,
+                "X": 16500,
                 "Y": 450
             },
             "Size": {
@@ -14655,7 +14655,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 17250,
+                "X": 17100,
                 "Y": 100
             },
             "Size": {
@@ -14855,7 +14855,7 @@
             },
             "Position": {
                 "X": 1250,
-                "Y": 600
+                "Y": 200
             },
             "Size": {
                 "X": 250,
@@ -14879,7 +14879,7 @@
             },
             "Position": {
                 "X": 1250,
-                "Y": 1000
+                "Y": 600
             },
             "Size": {
                 "X": 250,
@@ -14966,7 +14966,7 @@
             },
             "Position": {
                 "X": 500,
-                "Y": 800
+                "Y": 400
             },
             "Size": {
                 "X": 250,
@@ -16211,7 +16211,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 10800,
+                "X": 10650,
                 "Y": 100
             },
             "Size": {
@@ -16981,7 +16981,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 5950,
+                "X": 5900,
                 "Y": 300
             },
             "Size": {
@@ -17007,7 +17007,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 12850,
+                "X": 12700,
                 "Y": 100
             },
             "Size": {
@@ -17033,7 +17033,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 10950,
+                "X": 10800,
                 "Y": 450
             },
             "Size": {
@@ -18152,7 +18152,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 5950,
+                "X": 5700,
                 "Y": 100
             },
             "Size": {
@@ -19471,8 +19471,8 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 13250,
-                "Y": 300
+                "X": 13100,
+                "Y": 450
             },
             "Size": {
                 "X": 184,
@@ -19496,7 +19496,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 14650,
+                "X": 14500,
                 "Y": 100
             },
             "Size": {
@@ -19520,7 +19520,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 14050,
+                "X": 13900,
                 "Y": 100
             },
             "Size": {
@@ -19931,7 +19931,7 @@
             },
             "Position": {
                 "X": 500,
-                "Y": 250
+                "Y": 950
             },
             "Size": {
                 "X": 250,
@@ -20469,8 +20469,8 @@
                 "RowName": "Workshop_Gadgets"
             },
             "Position": {
-                "X": 500,
-                "Y": 1350
+                "X": 2000,
+                "Y": 1300
             },
             "Size": {
                 "X": 250,
@@ -21462,7 +21462,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 2100,
+                "X": 2200,
                 "Y": 1000
             },
             "Size": {
@@ -21654,7 +21654,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 8150,
+                "X": 8000,
                 "Y": 300
             },
             "Size": {
@@ -21677,7 +21677,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 8450,
+                "X": 8300,
                 "Y": 100
             },
             "Size": {
@@ -21791,7 +21791,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 8450,
+                "X": 8300,
                 "Y": 450
             },
             "Size": {
@@ -21862,7 +21862,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 8750,
+                "X": 8600,
                 "Y": 100
             },
             "Size": {
@@ -23658,8 +23658,8 @@
                 "RowName": "Workshop_Gadgets"
             },
             "Position": {
-                "X": 1250,
-                "Y": 1350
+                "X": 2750,
+                "Y": 1300
             },
             "Size": {
                 "X": 250,
@@ -23708,7 +23708,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 1700,
+                "X": 1800,
                 "Y": 1000
             },
             "Size": {
@@ -23787,7 +23787,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 6250,
+                "X": 6100,
                 "Y": 450
             },
             "Size": {
@@ -24105,7 +24105,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 16950,
+                "X": 16800,
                 "Y": 450
             },
             "Size": {
@@ -24865,7 +24865,7 @@
             },
             "Position": {
                 "X": 1250,
-                "Y": 250
+                "Y": 950
             },
             "Size": {
                 "X": 250,
@@ -26978,7 +26978,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 12650,
+                "X": 12500,
                 "Y": 300
             },
             "Size": {
@@ -27002,7 +27002,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 10800,
+                "X": 10650,
                 "Y": 300
             },
             "Size": {
@@ -27073,7 +27073,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 1900,
+                "X": 2000,
                 "Y": 850
             },
             "Size": {
@@ -27119,8 +27119,8 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 13450,
-                "Y": 550
+                "X": 13300,
+                "Y": 300
             },
             "Size": {
                 "X": 0,
@@ -28498,7 +28498,7 @@
             },
             "Position": {
                 "X": 2000,
-                "Y": 600
+                "Y": 200
             },
             "Size": {
                 "X": 250,
@@ -28527,7 +28527,7 @@
             },
             "Position": {
                 "X": 2000,
-                "Y": 1000
+                "Y": 600
             },
             "Size": {
                 "X": 250,
@@ -28556,7 +28556,7 @@
             },
             "Position": {
                 "X": 2000,
-                "Y": 250
+                "Y": 950
             },
             "Size": {
                 "X": 250,
@@ -30500,7 +30500,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 11100,
+                "X": 10950,
                 "Y": 100
             },
             "Size": {
@@ -30525,7 +30525,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 10500,
+                "X": 10350,
                 "Y": 100
             },
             "Size": {
@@ -32208,7 +32208,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 14350,
+                "X": 14200,
                 "Y": 100
             },
             "Size": {
@@ -49086,7 +49086,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 16950,
+                "X": 16800,
                 "Y": 100
             },
             "Size": {
@@ -49201,7 +49201,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 11250,
+                "X": 11100,
                 "Y": 450
             },
             "Size": {
@@ -49226,7 +49226,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 10350,
+                "X": 10200,
                 "Y": 450
             },
             "Size": {
@@ -50637,7 +50637,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 10650,
+                "X": 10500,
                 "Y": 450
             },
             "Size": {
@@ -50710,7 +50710,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 14650,
+                "X": 14500,
                 "Y": 450
             },
             "Size": {
@@ -51383,7 +51383,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 9050,
+                "X": 8900,
                 "Y": 100
             },
             "Size": {
@@ -51418,7 +51418,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 7850,
+                "X": 7700,
                 "Y": 100
             },
             "Size": {
@@ -51587,7 +51587,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 9350,
+                "X": 9200,
                 "Y": 100
             },
             "Size": {
@@ -51622,7 +51622,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 7550,
+                "X": 7400,
                 "Y": 100
             },
             "Size": {
@@ -51761,7 +51761,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 9650,
+                "X": 9500,
                 "Y": 100
             },
             "Size": {
@@ -51796,7 +51796,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 7250,
+                "X": 7100,
                 "Y": 100
             },
             "Size": {
@@ -51974,7 +51974,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 9950,
+                "X": 9800,
                 "Y": 100
             },
             "Size": {
@@ -52009,7 +52009,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 6950,
+                "X": 6800,
                 "Y": 100
             },
             "Size": {
@@ -52114,7 +52114,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 8750,
+                "X": 8600,
                 "Y": 450
             },
             "Size": {
@@ -52149,7 +52149,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 7850,
+                "X": 7700,
                 "Y": 450
             },
             "Size": {
@@ -52388,7 +52388,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 9050,
+                "X": 8900,
                 "Y": 450
             },
             "Size": {
@@ -52423,7 +52423,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 7550,
+                "X": 7400,
                 "Y": 450
             },
             "Size": {
@@ -52564,7 +52564,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 9650,
+                "X": 9500,
                 "Y": 450
             },
             "Size": {
@@ -52599,7 +52599,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 6950,
+                "X": 6800,
                 "Y": 450
             },
             "Size": {
@@ -52776,7 +52776,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 9350,
+                "X": 9200,
                 "Y": 450
             },
             "Size": {
@@ -52811,7 +52811,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 7250,
+                "X": 7100,
                 "Y": 450
             },
             "Size": {
@@ -57759,7 +57759,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 15250,
+                "X": 15100,
                 "Y": 100
             },
             "Size": {
@@ -58248,7 +58248,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 11600,
+                "X": 11450,
                 "Y": 300
             },
             "Size": {
@@ -58361,7 +58361,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 15550,
+                "X": 15400,
                 "Y": 100
             },
             "Size": {
@@ -59407,7 +59407,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 14350,
+                "X": 14200,
                 "Y": 450
             },
             "Size": {
@@ -68344,7 +68344,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 14050,
+                "X": 13900,
                 "Y": 450
             },
             "Size": {
@@ -71066,7 +71066,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 17550,
+                "X": 17400,
                 "Y": 450
             },
             "Size": {
@@ -71407,7 +71407,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 16350,
+                "X": 16200,
                 "Y": 1000
             },
             "Size": {
@@ -71436,7 +71436,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 16650,
+                "X": 16500,
                 "Y": 1000
             },
             "Size": {
@@ -75595,8 +75595,8 @@
                 "RowName": "Workshop_Gadgets"
             },
             "Position": {
-                "X": 2000,
-                "Y": 1350
+                "X": 500,
+                "Y": 1300
             },
             "Size": {
                 "X": 250,
@@ -75726,200 +75726,6 @@
             "DrawMethodOverride": "XThenY"
         },
         {
-            "Name": "Settlement_Hub_Watchtower",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Watchtower-DisplayName\", \"Building: Watchtower\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Watchtower-Description\", \"Protect over your Settlement with a lookout\")",
-            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Watchtower.T_Talent_Settlement_Watchtower",
-            "ExtraData": {
-                "RowName": "Watchtower",
-                "DataTableName": "D_SettlementBuildings"
-            },
-            "TalentTree": {
-                "RowName": "Settlement_Hub"
-            },
-            "Position": {
-                "X": 450,
-                "Y": 250
-            },
-            "Size": {
-                "X": 128,
-                "Y": 128
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Settlement_Hub_Residence",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Settlement_Hub_Barracks",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Barracks-DisplayName\", \"Building: Barracks\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Barracks-Description\", \"Train up skilled warriors\")",
-            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Barracks.T_Talent_Settlement_Barracks",
-            "ExtraData": {
-                "RowName": "Barracks",
-                "DataTableName": "D_SettlementBuildings"
-            },
-            "TalentTree": {
-                "RowName": "Settlement_Hub"
-            },
-            "Position": {
-                "X": 450,
-                "Y": 450
-            },
-            "Size": {
-                "X": 128,
-                "Y": 128
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Settlement_Hub_Watchtower",
-                    "DataTableName": "D_Talents"
-                }
-            ]
-        },
-        {
-            "Name": "Settlement_Hub_Stockpile",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Stockpile-DisplayName\", \"Building: Stockpile\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Stockpile-Description\", \"A small amount of extra item storage\")",
-            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Stockpile.T_Talent_Settlement_Stockpile",
-            "ExtraData": {
-                "RowName": "Stockpile",
-                "DataTableName": "D_SettlementBuildings"
-            },
-            "TalentTree": {
-                "RowName": "Settlement_Hub"
-            },
-            "Position": {
-                "X": 650,
-                "Y": 250
-            },
-            "Size": {
-                "X": 128,
-                "Y": 128
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Settlement_Hub_Residence",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Settlement_Hub_Warehouse",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Warehouse-DisplayName\", \"Building: Warehouse\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Warehouse-Description\", \"A large amount of extra item storage\")",
-            "Icon": "/Game/Assets/2DArt/UI/Talents/Building/Talent_Building_WoodStorage2.Talent_Building_WoodStorage2",
-            "ExtraData": {
-                "RowName": "Stockpile",
-                "DataTableName": "D_SettlementBuildings"
-            },
-            "TalentTree": {
-                "RowName": "Settlement_Hub"
-            },
-            "Position": {
-                "X": 650,
-                "Y": 450
-            },
-            "Size": {
-                "X": 128,
-                "Y": 128
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Settlement_Hub_Stockpile",
-                    "DataTableName": "D_Talents"
-                }
-            ]
-        },
-        {
-            "Name": "Settlement_Hub_Forge",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Forge-DisplayName\", \"Building: Forge\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Forge-Description\", \"For forging\")",
-            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Forge.T_Talent_Settlement_Forge",
-            "ExtraData": {
-                "RowName": "Forge",
-                "DataTableName": "D_SettlementBuildings"
-            },
-            "TalentTree": {
-                "RowName": "Settlement_Hub"
-            },
-            "Position": {
-                "X": 850,
-                "Y": 450
-            },
-            "Size": {
-                "X": 128,
-                "Y": 128
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Settlement_Hub_Mine",
-                    "DataTableName": "D_Talents"
-                }
-            ]
-        },
-        {
-            "Name": "Settlement_Hub_Workshop",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Workshop-DisplayName\", \"Building: Workshop\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Workshop-Description\", \"For workshopping\")",
-            "Icon": "/Game/Assets/2DArt/UI/Talents/Repairing/Talent_Repairing_OutInTheOpen.Talent_Repairing_OutInTheOpen",
-            "ExtraData": {
-                "RowName": "Workshop",
-                "DataTableName": "D_SettlementBuildings"
-            },
-            "TalentTree": {
-                "RowName": "Settlement_Hub"
-            },
-            "Position": {
-                "X": 850,
-                "Y": 650
-            },
-            "Size": {
-                "X": 128,
-                "Y": 128
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Settlement_Hub_Forge",
-                    "DataTableName": "D_Talents"
-                }
-            ]
-        },
-        {
-            "Name": "Settlement_Hub_Medical",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Medical-DisplayName\", \"Building: Medical Center\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Medical-Description\", \"Tends to your injured Settlers\")",
-            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Clinic.T_Talent_Settlement_Clinic",
-            "ExtraData": {
-                "RowName": "Medical",
-                "DataTableName": "D_SettlementBuildings"
-            },
-            "TalentTree": {
-                "RowName": "Settlement_Hub"
-            },
-            "Position": {
-                "X": 50,
-                "Y": 850
-            },
-            "Size": {
-                "X": 128,
-                "Y": 128
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Settlement_Hub_Generator",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredRank": {
-                "RowName": "Journeyman"
-            }
-        },
-        {
             "Name": "Carbon_Fishing_Rod",
             "ExtraData": {
                 "RowName": "Item_Carbon_Fishing_Rod",
@@ -75944,283 +75750,6 @@
             ],
             "RequiredLevel": 30,
             "DrawMethodOverride": "YThenX"
-        },
-        {
-            "Name": "Settlement_Hub_Radius_1",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Radius_1-DisplayName\", \"Settlement Radius I\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Radius_1-Description\", \"Increases size of settlement boundaries\")",
-            "Icon": "/Game/Assets/2DArt/UI/Talents/Building/Talent_Building_FortifiedWood.Talent_Building_FortifiedWood",
-            "TalentTree": {
-                "RowName": "Settlement_Hub"
-            },
-            "Position": {
-                "X": 1050,
-                "Y": 250
-            },
-            "Size": {
-                "X": 128,
-                "Y": 128
-            },
-            "Rewards": [
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseSettlementRange_+\")": 1000
-                    },
-                    "GrantedFlags": []
-                }
-            ],
-            "RequiredTalents": [
-                {
-                    "RowName": "Settlement_Hub_Residence",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Settlement_Hub_Radius_2",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Radius_2-DisplayName\", \"Settlement Radius II\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Radius_2-Description\", \"Further increase size of settlement boundaries\")",
-            "Icon": "/Game/Assets/2DArt/UI/Talents/Building/Talent_Building_FortifiedWood.Talent_Building_FortifiedWood",
-            "TalentTree": {
-                "RowName": "Settlement_Hub"
-            },
-            "Position": {
-                "X": 1050,
-                "Y": 450
-            },
-            "Size": {
-                "X": 128,
-                "Y": 128
-            },
-            "Rewards": [
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseSettlementRange_+\")": 1000
-                    },
-                    "GrantedFlags": []
-                }
-            ],
-            "RequiredTalents": [
-                {
-                    "RowName": "Settlement_Hub_Radius_1",
-                    "DataTableName": "D_Talents"
-                }
-            ]
-        },
-        {
-            "Name": "Settlement_Hub_FortifiedWalls",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_FortifiedWalls-DisplayName\", \"Fortified Walls\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_FortifiedWalls-Description\", \"Stronger walls made out of stone\")",
-            "Icon": "/Game/Assets/2DArt/UI/Talents/Building/Talent_Building_StoneCarrying.Talent_Building_StoneCarrying",
-            "TalentTree": {
-                "RowName": "Settlement_Hub"
-            },
-            "Position": {
-                "X": 1050,
-                "Y": 850
-            },
-            "Size": {
-                "X": 128,
-                "Y": 128
-            },
-            "Rewards": [
-                {
-                    "GrantedStats": {
-                        "(Value=\"SettlementWallType_Enum\")": 1
-                    },
-                    "GrantedFlags": []
-                }
-            ],
-            "RequiredRank": {
-                "RowName": "Master"
-            }
-        },
-        {
-            "Name": "Settlement_Hub_Watertower",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Watertower-DisplayName\", \"Building: Water Tower\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Watertower-Description\", \"Generate a supply of water\")",
-            "Icon": "/Game/Assets/2DArt/UI/Talents/Fishing/Talent_OneWithTheWater.Talent_OneWithTheWater",
-            "ExtraData": {
-                "RowName": "WaterTower",
-                "DataTableName": "D_SettlementBuildings"
-            },
-            "TalentTree": {
-                "RowName": "Settlement_Hub"
-            },
-            "Position": {
-                "X": 450,
-                "Y": 850
-            },
-            "Size": {
-                "X": 128,
-                "Y": 128
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Settlement_Hub_Generator",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "RequiredRank": {
-                "RowName": "Journeyman"
-            }
-        },
-        {
-            "Name": "Settlement_Hub_Farm",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Farm-DisplayName\", \"Building: Farm\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Farm-Description\", \"Cultivate a supply of raw food\")",
-            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Farm.T_Talent_Settlement_Farm",
-            "ExtraData": {
-                "RowName": "Farm",
-                "DataTableName": "D_SettlementBuildings"
-            },
-            "TalentTree": {
-                "RowName": "Settlement_Hub"
-            },
-            "Position": {
-                "X": 250,
-                "Y": 250
-            },
-            "Size": {
-                "X": 128,
-                "Y": 128
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Settlement_Hub_Residence",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Settlement_Hub_Generator",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Generator-DisplayName\", \"Building: Generator\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Generator-Description\", \"Turns biofuel into a source of electricity for the Settlement\")",
-            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Generator.T_Talent_Settlement_Generator",
-            "ExtraData": {
-                "RowName": "Generator",
-                "DataTableName": "D_SettlementBuildings"
-            },
-            "TalentTree": {
-                "RowName": "Settlement_Hub"
-            },
-            "Position": {
-                "X": 250,
-                "Y": 650
-            },
-            "Size": {
-                "X": 128,
-                "Y": 128
-            },
-            "RequiredRank": {
-                "RowName": "Journeyman"
-            }
-        },
-        {
-            "Name": "Settlement_Hub_Mine",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Mine-DisplayName\", \"Building: Mine\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Mine-Description\", \"Generates Stone, Iron Ore, and Coal\")",
-            "Icon": "/Game/Assets/2DArt/UI/Talents/Tools/Talent_Tools_MinerEndurance.Talent_Tools_MinerEndurance",
-            "ExtraData": {
-                "RowName": "Mine",
-                "DataTableName": "D_SettlementBuildings"
-            },
-            "TalentTree": {
-                "RowName": "Settlement_Hub"
-            },
-            "Position": {
-                "X": 850,
-                "Y": 250
-            },
-            "Size": {
-                "X": 128,
-                "Y": 128
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Settlement_Hub_Residence",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Settlement_Hub_Woodcutter",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Woodcutter-DisplayName\", \"Building: Logging Camp\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Woodcutter-Description\", \"Generates Wood\")",
-            "Icon": "/Game/Assets/2DArt/UI/Talents/Tools/Talent_Tools_ExtraSharp.Talent_Tools_ExtraSharp",
-            "ExtraData": {
-                "RowName": "LoggingCamp",
-                "DataTableName": "D_SettlementBuildings"
-            },
-            "TalentTree": {
-                "RowName": "Settlement_Hub"
-            },
-            "Position": {
-                "X": 50,
-                "Y": 250
-            },
-            "Size": {
-                "X": 128,
-                "Y": 128
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Settlement_Hub_Residence",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "XThenY"
-        },
-        {
-            "Name": "Settlement_Hub_Sawmill",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Sawmill-DisplayName\", \"Building: Sawmill\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Sawmill-Description\", \"Turns Wood into Refined Wood\")",
-            "Icon": "/Game/Assets/2DArt/UI/Talents/Resources/Talent_Resources_OutstandingLumberjack.Talent_Resources_OutstandingLumberjack",
-            "ExtraData": {
-                "RowName": "Sawmill",
-                "DataTableName": "D_SettlementBuildings"
-            },
-            "TalentTree": {
-                "RowName": "Settlement_Hub"
-            },
-            "Position": {
-                "X": 50,
-                "Y": 450
-            },
-            "Size": {
-                "X": 128,
-                "Y": 128
-            },
-            "RequiredTalents": [
-                {
-                    "RowName": "Settlement_Hub_Woodcutter",
-                    "DataTableName": "D_Talents"
-                }
-            ]
-        },
-        {
-            "Name": "Settlement_Hub_Residence",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Residence-DisplayName\", \"Building: Residence\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Residence-Description\", \"Provides lodging for extra Settlers\")",
-            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Residence.T_Talent_Settlement_Residence",
-            "ExtraData": {
-                "RowName": "House",
-                "DataTableName": "D_SettlementBuildings"
-            },
-            "TalentTree": {
-                "RowName": "Settlement_Hub"
-            },
-            "Position": {
-                "X": 550,
-                "Y": 50
-            },
-            "Size": {
-                "X": 128,
-                "Y": 128
-            }
         },
         {
             "Name": "T3_Backpack",
@@ -76275,13 +75804,39 @@
             },
             "Position": {
                 "X": 2750,
-                "Y": 1350
+                "Y": 950
             },
             "Size": {
                 "X": 250,
                 "Y": 250
             },
             "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Electric_Seed_Extractor",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Electric_Seed_Extractor-DisplayName\", \"Electric Seed Extractor\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Electric_Seed_Extractor-Description\", \"Quickly extracts seeds from vegetation.\")",
+            "ExtraData": {
+                "RowName": "Item_Electric_Seed_Extractor",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T4_Fabricator"
+            },
+            "Position": {
+                "X": 13100,
+                "Y": 100
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Composter_Electric_Reroute",
+                    "DataTableName": "D_Talents"
+                }
+            ]
         },
         {
             "Name": "Reroute_T2_Lights",
@@ -76412,7 +75967,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 11850,
+                "X": 11700,
                 "Y": 550
             },
             "Size": {
@@ -77107,6 +76662,2825 @@
                 }
             ],
             "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Settlement_Hub_RadioTower",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_RadioTower-DisplayName\", \"Radio Tower\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_RadioTower-Description\", \"Founds the settlement. Manage settlers and resources from here. Population cap 5.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/ICON_SelectionTree.ICON_SelectionTree",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1200,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_RadioTower_2",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_RadioTower_2-DisplayName\", \"Radio Tower II\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_RadioTower_2-Description\", \"Extends the mast. Opens Tier 2 structures and raises the population cap by 5.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/ICON_SelectionTree.ICON_SelectionTree",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1200,
+                "Y": 570
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseSettlementMaxNPCs_+\")": 5
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_RadioTower",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Apprentice"
+            },
+            "RequiredLevel": 5,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_RadioTower_3",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_RadioTower_3-DisplayName\", \"Radio Tower III\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_RadioTower_3-Description\", \"Full uplink array. Opens Tier 3 structures and raises the population cap by 5.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/ICON_SelectionTree.ICON_SelectionTree",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1200,
+                "Y": 240
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseSettlementMaxNPCs_+\")": 5
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_RadioTower_2",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Journeyman"
+            },
+            "RequiredLevel": 12,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Watertower",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Watertower-DisplayName\", \"Building: Rain Collector\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Watertower-Description\", \"Collects rainwater for the settlement.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Fishing/Talent_OneWithTheWater.Talent_OneWithTheWater",
+            "ExtraData": {
+                "RowName": "WaterTower",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1301,
+                "Y": 792
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_RadioTower",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Farm",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Farm-DisplayName\", \"Building: Farm\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Farm-Description\", \"Cultivate crops or medicinal plants.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Farm.T_Talent_Settlement_Farm",
+            "ExtraData": {
+                "RowName": "Farm",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1479,
+                "Y": 886
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_RadioTower",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Kitchen",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Kitchen-DisplayName\", \"Building: Kitchen\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Kitchen-Description\", \"Prepares Produce from crops and meat.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Carrot.T_Talent_Settlement_Carrot",
+            "ExtraData": {
+                "RowName": "Kitchen",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1593,
+                "Y": 1051
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_RadioTower",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_HuntingHut",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_HuntingHut-DisplayName\", \"Building: Hunting Hut\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_HuntingHut-Description\", \"External site. Hunters bring back meat, bone, leather and fur.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_Talent_WIP.T_Talent_WIP",
+            "ExtraData": {
+                "RowName": "Hunting_Hut",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1617,
+                "Y": 1251
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_RadioTower",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Medical",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Medical-DisplayName\", \"Building: First Aid Station\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Medical-Description\", \"Treats hurt settlers and prepares Herbs.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Clinic.T_Talent_Settlement_Clinic",
+            "ExtraData": {
+                "RowName": "Medical",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1546,
+                "Y": 1439
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_RadioTower",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Residence",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Residence-DisplayName\", \"Building: Quarters\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Residence-Description\", \"Houses two settlers.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Residence.T_Talent_Settlement_Residence",
+            "ExtraData": {
+                "RowName": "House",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1395,
+                "Y": 1572
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_RadioTower",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Stockpile",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Stockpile-DisplayName\", \"Building: Stockpile\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Stockpile-Description\", \"Central storage for every settlement resource.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Stockpile.T_Talent_Settlement_Stockpile",
+            "ExtraData": {
+                "RowName": "Stockpile",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1200,
+                "Y": 1620
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_RadioTower",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_BuildersHut",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_BuildersHut-DisplayName\", \"Building: Builders Hut\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_BuildersHut-Description\", \"Assigned settlers build and repair structures faster.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Residence.T_Talent_Settlement_Residence",
+            "ExtraData": {
+                "RowName": "Builders_Hut",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1005,
+                "Y": 1572
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_RadioTower",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Watchtower",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Watchtower-DisplayName\", \"Building: Watch Tower\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Watchtower-Description\", \"Early warning against attacks; one guard on watch.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Watchtower.T_Talent_Settlement_Watchtower",
+            "ExtraData": {
+                "RowName": "Watchtower",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 854,
+                "Y": 1439
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_RadioTower",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Mine",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Mine-DisplayName\", \"Building: Mine\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Mine-Description\", \"External site. Digs stone, iron, copper and oxite.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Tools/Talent_Tools_MinerEndurance.Talent_Tools_MinerEndurance",
+            "ExtraData": {
+                "RowName": "Mine",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 783,
+                "Y": 1251
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_RadioTower",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Sawmill",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Sawmill-DisplayName\", \"Building: Worksite\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Sawmill-Description\", \"Cuts Timber from wood and Slate from stone.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Resources/Talent_Resources_OutstandingLumberjack.Talent_Resources_OutstandingLumberjack",
+            "ExtraData": {
+                "RowName": "Sawmill",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 807,
+                "Y": 1051
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_RadioTower",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Woodcutter",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Woodcutter-DisplayName\", \"Building: Lumber Yard\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Woodcutter-Description\", \"External site. Fells and hauls wood.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Tools/Talent_Tools_ExtraSharp.Talent_Tools_ExtraSharp",
+            "ExtraData": {
+                "RowName": "LoggingCamp",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 921,
+                "Y": 886
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_RadioTower",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_FishingDock",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_FishingDock-DisplayName\", \"Building: Fishing Dock\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_FishingDock-Description\", \"External site. Fishers bring in a steady catch.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Fishing/Talent_OneWithTheWater.Talent_OneWithTheWater",
+            "ExtraData": {
+                "RowName": "FishingDock",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1099,
+                "Y": 792
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_RadioTower",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_WaterPurifier",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_WaterPurifier-DisplayName\", \"Building: Water Purifier\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_WaterPurifier-Description\", \"Filters and stores more water. Clean water lifts morale.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Fishing/Talent_OneWithTheWater.Talent_OneWithTheWater",
+            "ExtraData": {
+                "RowName": "Water_Purifier",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1401,
+                "Y": 384
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Watertower",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Apprentice"
+            },
+            "RequiredLevel": 5,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Greenhouse",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Greenhouse-DisplayName\", \"Building: Greenhouse\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Greenhouse-Description\", \"More crops and more kinds. Requires water.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Farm.T_Talent_Settlement_Farm",
+            "ExtraData": {
+                "RowName": "Greenhouse",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1757,
+                "Y": 571
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Farm",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Apprentice"
+            },
+            "RequiredLevel": 5,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_MessHall",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_MessHall-DisplayName\", \"Building: Mess Hall\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_MessHall-Description\", \"Packs Produce into Rations.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Carrot.T_Talent_Settlement_Carrot",
+            "ExtraData": {
+                "RowName": "Mess_Hall",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1985,
+                "Y": 902
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Kitchen",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Apprentice"
+            },
+            "RequiredLevel": 5,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_HuntingLodge",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_HuntingLodge-DisplayName\", \"Building: Hunting Lodge\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_HuntingLodge-Description\", \"Seasoned hunters track rarer game.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_Talent_WIP.T_Talent_WIP",
+            "ExtraData": {
+                "RowName": "Hunting_Lodge",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 2034,
+                "Y": 1301
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_HuntingHut",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Apprentice"
+            },
+            "RequiredLevel": 5,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Clinic",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Clinic-DisplayName\", \"Building: Clinic\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Clinic-Description\", \"Treats more settlers and prepares Medicine from Herbs.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Clinic.T_Talent_Settlement_Clinic",
+            "ExtraData": {
+                "RowName": "Clinic",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1891,
+                "Y": 1677
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Medical",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Apprentice"
+            },
+            "RequiredLevel": 5,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Quarters_2",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Quarters_2-DisplayName\", \"Building: Quarters II\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Quarters_2-Description\", \"Houses four settlers.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Residence.T_Talent_Settlement_Residence",
+            "ExtraData": {
+                "RowName": "Quarters_II",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1590,
+                "Y": 1944
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Residence",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Apprentice"
+            },
+            "RequiredLevel": 5,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Warehouse",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Warehouse-DisplayName\", \"Building: Stockpile II\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Warehouse-Description\", \"Expanded storage with tanks for biofuel and oxygen.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Building/Talent_Building_WoodStorage2.Talent_Building_WoodStorage2",
+            "ExtraData": {
+                "RowName": "Stockpile_II",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1200,
+                "Y": 2040
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Stockpile",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Apprentice"
+            },
+            "RequiredLevel": 5,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Barracks",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Barracks-DisplayName\", \"Building: Guard Post\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Barracks-Description\", \"Posts three guards and opens the armoury.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Barracks.T_Talent_Settlement_Barracks",
+            "ExtraData": {
+                "RowName": "Barracks",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 509,
+                "Y": 1677
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Watchtower",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Apprentice"
+            },
+            "RequiredLevel": 5,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_DeepMine",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_DeepMine-DisplayName\", \"Building: Deep Mine\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_DeepMine-Description\", \"External site. Reaches platinum, titanium and coal.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Tools/Talent_Tools_MinerEndurance.Talent_Tools_MinerEndurance",
+            "ExtraData": {
+                "RowName": "Deep_Mine",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 366,
+                "Y": 1301
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Mine",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Apprentice"
+            },
+            "RequiredLevel": 5,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Workshop",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Workshop-DisplayName\", \"Building: Workshop\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Workshop-Description\", \"Mixes Mortar and assembles Hardware. Requires electricity.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Repairing/Talent_Repairing_OutInTheOpen.Talent_Repairing_OutInTheOpen",
+            "ExtraData": {
+                "RowName": "Workshop",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 415,
+                "Y": 902
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Sawmill",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Apprentice"
+            },
+            "RequiredLevel": 5,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_ElectricPump",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_ElectricPump-DisplayName\", \"Building: Electric Pump\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_ElectricPump-Description\", \"Pumps groundwater at high volume. Requires electricity.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Fishing/Talent_OneWithTheWater.Talent_OneWithTheWater",
+            "ExtraData": {
+                "RowName": "Electric_Pump",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1463,
+                "Y": 132
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_WaterPurifier",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Journeyman"
+            },
+            "RequiredLevel": 12,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Hydroponics",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Hydroponics-DisplayName\", \"Building: Hydroponics\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Hydroponics-Description\", \"Every crop, year-round. Requires water and electricity.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Farm.T_Talent_Settlement_Farm",
+            "ExtraData": {
+                "RowName": "Hydroponics",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1929,
+                "Y": 377
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Greenhouse",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Journeyman"
+            },
+            "RequiredLevel": 12,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Cafeteria",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Cafeteria-DisplayName\", \"Building: Cafeteria\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Cafeteria-Description\", \"Turns Rations into Cuisine.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Carrot.T_Talent_Settlement_Carrot",
+            "ExtraData": {
+                "RowName": "Cafeteria",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 2229,
+                "Y": 810
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_MessHall",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Journeyman"
+            },
+            "RequiredLevel": 12,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Infirmary",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Infirmary-DisplayName\", \"Building: Infirmary\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Infirmary-Description\", \"Full medical ward. Synthesises Pharmaceuticals.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Clinic.T_Talent_Settlement_Clinic",
+            "ExtraData": {
+                "RowName": "Infirmary",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 2105,
+                "Y": 1825
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Clinic",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Journeyman"
+            },
+            "RequiredLevel": 12,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Quarters_3",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Quarters_3-DisplayName\", \"Building: Quarters III\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Quarters_3-Description\", \"Houses five settlers in comfort.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Residence.T_Talent_Settlement_Residence",
+            "ExtraData": {
+                "RowName": "Quarters_III",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1711,
+                "Y": 2174
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Quarters_2",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Journeyman"
+            },
+            "RequiredLevel": 12,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Stockpile_3",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Stockpile_3-DisplayName\", \"Building: Stockpile III\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Stockpile_3-Description\", \"Full depot with a battery bank and oil tanks.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Building/Talent_Building_WoodStorage2.Talent_Building_WoodStorage2",
+            "ExtraData": {
+                "RowName": "Stockpile_III",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1200,
+                "Y": 2300
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Warehouse",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Journeyman"
+            },
+            "RequiredLevel": 12,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_FabricationBay",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_FabricationBay-DisplayName\", \"Building: Fabrication Bay\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_FabricationBay-Description\", \"Builds Assemblies and refines Lubricant. Requires electricity.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Repairing/Talent_Repairing_OutInTheOpen.Talent_Repairing_OutInTheOpen",
+            "ExtraData": {
+                "RowName": "Fabrication_Bay",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 171,
+                "Y": 810
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Workshop",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Journeyman"
+            },
+            "RequiredLevel": 12,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Radius_1",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Radius_1-DisplayName\", \"Settlement Radius I\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Radius_1-Description\", \"Increases size of settlement boundaries\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Building/Talent_Building_FortifiedWood.Talent_Building_FortifiedWood",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 415,
+                "Y": 1498
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseSettlementRange_+\")": 1000
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_18",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_FortifiedWalls",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_FortifiedWalls-DisplayName\", \"Fortified Walls\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_FortifiedWalls-Description\", \"Stronger walls made out of stone\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Building/Talent_Building_StoneCarrying.Talent_Building_StoneCarrying",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 366,
+                "Y": 1099
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"SettlementWallType_Enum\")": 1
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_20",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Generator",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Generator-DisplayName\", \"Building: Power Generator\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Generator-Description\", \"Burns biofuel into electricity.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Generator.T_Talent_Settlement_Generator",
+            "ExtraData": {
+                "RowName": "Generator",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1590,
+                "Y": 456
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_02",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_OxygenGenerator",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_OxygenGenerator-DisplayName\", \"Building: Oxygen Generator\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_OxygenGenerator-Description\", \"Splits oxygen from water using electricity.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Generator2.T_Talent_Settlement_Generator2",
+            "ExtraData": {
+                "RowName": "Oxygen_Generator",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1891,
+                "Y": 723
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_04",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Decomposer",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Decomposer-DisplayName\", \"Building: Decomposer\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Decomposer-Description\", \"Breaks down produce and water into biofuel.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Generator2.T_Talent_Settlement_Generator2",
+            "ExtraData": {
+                "RowName": "Decomposer",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 2034,
+                "Y": 1099
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_06",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Forge",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Forge-DisplayName\", \"Building: Forge\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Forge-Description\", \"Smelts ore into ingots and works ingots into Metalwork.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Forge.T_Talent_Settlement_Forge",
+            "ExtraData": {
+                "RowName": "Forge",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1985,
+                "Y": 1498
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_08",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_TimberMill",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_TimberMill-DisplayName\", \"Building: Timber Mill\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_TimberMill-Description\", \"Joins Timber and metal into Woodwork.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Forge.T_Talent_Settlement_Forge",
+            "ExtraData": {
+                "RowName": "Timber_Mill",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1401,
+                "Y": 2016
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_12",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_TradingPost",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_TradingPost-DisplayName\", \"Building: Trading Post\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_TradingPost-Description\", \"Opens trade routes to other settlements and factions.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_Talent_WIP.T_Talent_WIP",
+            "ExtraData": {
+                "RowName": "Trading_Post",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1757,
+                "Y": 1829
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_10",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_OilMine",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_OilMine-DisplayName\", \"Building: Oil Mine\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_OilMine-Description\", \"External site. Pumps crude oil.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Tools/Talent_Tools_MinerEndurance.Talent_Tools_MinerEndurance",
+            "ExtraData": {
+                "RowName": "Oil_Mine",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 999,
+                "Y": 2016
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_14",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Ranch",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Ranch-DisplayName\", \"Building: Ranch\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Ranch-Description\", \"External site. Livestock for wool, eggs and milk.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Farm.T_Talent_Settlement_Farm",
+            "ExtraData": {
+                "RowName": "Ranch",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 643,
+                "Y": 1829
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_16",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Radius_2",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Radius_2-DisplayName\", \"Settlement Radius II\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Radius_2-Description\", \"Further increase size of settlement boundaries\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Building/Talent_Building_FortifiedWood.Talent_Building_FortifiedWood",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 171,
+                "Y": 1590
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseSettlementRange_+\")": 1000
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Radius_1",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Reactor",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Reactor-DisplayName\", \"Building: Reactor\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Reactor-Description\", \"High-output power plant burning biofuel.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Generator.T_Talent_Settlement_Generator",
+            "ExtraData": {
+                "RowName": "Reactor",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1711,
+                "Y": 226
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Generator",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Journeyman"
+            },
+            "RequiredLevel": 12,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_AtmospherePlant",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_AtmospherePlant-DisplayName\", \"Building: Atmosphere Plant\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_AtmospherePlant-Description\", \"Industrial oxygen production.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Generator2.T_Talent_Settlement_Generator2",
+            "ExtraData": {
+                "RowName": "Atmosphere_Plant",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 2105,
+                "Y": 575
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_OxygenGenerator",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Journeyman"
+            },
+            "RequiredLevel": 12,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Bioprocessor",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Bioprocessor-DisplayName\", \"Building: Bioprocessor\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Bioprocessor-Description\", \"Digests any organic matter into biofuel, fast.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Generator2.T_Talent_Settlement_Generator2",
+            "ExtraData": {
+                "RowName": "Bioprocessor",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 2292,
+                "Y": 1067
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Decomposer",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Journeyman"
+            },
+            "RequiredLevel": 12,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_AlloyFurnace",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_AlloyFurnace-DisplayName\", \"Building: Alloy Furnace\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_AlloyFurnace-Description\", \"Advanced alloys and nanowire for export.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Forge.T_Talent_Settlement_Forge",
+            "ExtraData": {
+                "RowName": "Alloy_Furnace",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 2229,
+                "Y": 1590
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Forge",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Journeyman"
+            },
+            "RequiredLevel": 12,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Marketplace",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Marketplace-DisplayName\", \"Building: Marketplace\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Marketplace-Description\", \"Buy and sell resources with the settlement for Ren.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_Talent_WIP.T_Talent_WIP",
+            "ExtraData": {
+                "RowName": "Marketplace",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1929,
+                "Y": 2023
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_TradingPost",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredRank": {
+                "RowName": "Journeyman"
+            },
+            "RequiredLevel": 12,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_SolarArray",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_SolarArray-DisplayName\", \"Building: Solar Array\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_SolarArray-Description\", \"Electricity from sunlight. No fuel needed.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Generator.T_Talent_Settlement_Generator",
+            "ExtraData": {
+                "RowName": "Solar_Array",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1463,
+                "Y": 2268
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_12",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Turret",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Turret-DisplayName\", \"Building: Turret\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_Turret-Description\", \"Automated defence. Requires power and ammunition.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Watchtower.T_Talent_Settlement_Watchtower",
+            "ExtraData": {
+                "RowName": "Turret",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 937,
+                "Y": 2268
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_14",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_LandingPad",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_LandingPad-DisplayName\", \"Building: Landing Pad\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_LandingPad-Description\", \"Fast travel between pads for Ren. Requires electricity.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_Talent_WIP.T_Talent_WIP",
+            "ExtraData": {
+                "RowName": "Landing_Pad",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 471,
+                "Y": 2023
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_16",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_MicrochipFabrication",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_MicrochipFabrication-DisplayName\", \"Building: Microchip Fabrication\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_MicrochipFabrication-Description\", \"Fabricates Microchips, the settlement exotic. Needs power, water and high morale.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_Talent_WIP.T_Talent_WIP",
+            "ExtraData": {
+                "RowName": "Microchip_Fabrication",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1200,
+                "Y": 100
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_RadioTower_3",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_ScoutOutpost",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_ScoutOutpost-DisplayName\", \"Building: Scout Outpost\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Settlement_Hub_ScoutOutpost-Description\", \"External site. Send settlers on missions for resources, gear and Ren.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Settlement/T_Talent_Settlement_Watchtower.T_Talent_Settlement_Watchtower",
+            "ExtraData": {
+                "RowName": "Scout_Outpost",
+                "DataTableName": "D_SettlementBuildings"
+            },
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 108,
+                "Y": 1067
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_20",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_01",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1351,
+                "Y": 588
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_RadioTower_2",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_02",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1493,
+                "Y": 642
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_01",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_03",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1618,
+                "Y": 728
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_02",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_04",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1718,
+                "Y": 842
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_03",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_05",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1789,
+                "Y": 977
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_04",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_06",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1825,
+                "Y": 1124
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_05",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_07",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1825,
+                "Y": 1276
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_06",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_08",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1789,
+                "Y": 1423
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_07",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_09",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1718,
+                "Y": 1558
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_08",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_10",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1618,
+                "Y": 1672
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_09",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_11",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1493,
+                "Y": 1758
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_10",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_12",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1351,
+                "Y": 1812
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_11",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_13",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1200,
+                "Y": 1830
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_12",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_14",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1049,
+                "Y": 1812
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_13",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_15",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 907,
+                "Y": 1758
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_14",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_16",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 782,
+                "Y": 1672
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_15",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_17",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 682,
+                "Y": 1558
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_16",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_18",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 611,
+                "Y": 1423
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_17",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_19",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 575,
+                "Y": 1276
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_18",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_20",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 575,
+                "Y": 1124
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_19",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_21",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 611,
+                "Y": 977
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_20",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_22",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 682,
+                "Y": 842
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_21",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_23",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 782,
+                "Y": 728
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_22",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_24",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 907,
+                "Y": 642
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_23",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T2_25",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1049,
+                "Y": 588
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T2_24",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_01",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1430,
+                "Y": 268
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_RadioTower_3",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_02",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1646,
+                "Y": 350
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_01",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_03",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1837,
+                "Y": 481
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_02",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_04",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1990,
+                "Y": 655
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_03",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_05",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 2098,
+                "Y": 860
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_04",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_06",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 2153,
+                "Y": 1084
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_05",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_07",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 2153,
+                "Y": 1316
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_06",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_08",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 2098,
+                "Y": 1540
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_07",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_09",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1990,
+                "Y": 1745
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_08",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_10",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1837,
+                "Y": 1919
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_09",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_11",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1646,
+                "Y": 2050
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_10",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_12",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1430,
+                "Y": 2132
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_11",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_13",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 1200,
+                "Y": 2160
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_12",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_14",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 970,
+                "Y": 2132
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_13",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_15",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 754,
+                "Y": 2050
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_14",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_16",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 563,
+                "Y": 1919
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_15",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_17",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 410,
+                "Y": 1745
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_16",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_18",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 302,
+                "Y": 1540
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_17",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_19",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 247,
+                "Y": 1316
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_18",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_20",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 247,
+                "Y": 1084
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_19",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_21",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 302,
+                "Y": 860
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_20",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_22",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 410,
+                "Y": 655
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_21",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_23",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 563,
+                "Y": 481
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_22",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_24",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 754,
+                "Y": 350
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_23",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Settlement_Hub_Re_T3_25",
+            "TalentType": "Reroute",
+            "TalentTree": {
+                "RowName": "Settlement_Hub"
+            },
+            "Position": {
+                "X": 970,
+                "Y": 268
+            },
+            "Size": {
+                "X": 0,
+                "Y": 0
+            },
+            "Rewards": [],
+            "RequiredTalents": [
+                {
+                    "RowName": "Settlement_Hub_Re_T3_24",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "bDefaultUnlocked": true,
+            "DrawMethodOverride": "ShortestDistance"
         }
     ]
 }

@@ -188,6 +188,50 @@
             "SkillCategory": {
                 "RowName": "Farming"
             }
+        },
+        {
+            "Name": "Cook",
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Cook-DisplayName\", \"Cook\")",
+            "DisplayNameVerb": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Cook-DisplayNameVerb\", \"Cooking\")",
+            "bRequiresTarget": true,
+            "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Operate.BT_SettlementNPC_Operate",
+            "Priority": 64,
+            "SkillCategory": {
+                "RowName": "Cooking"
+            }
+        },
+        {
+            "Name": "Heal",
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Heal-DisplayName\", \"Treat\")",
+            "DisplayNameVerb": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Heal-DisplayNameVerb\", \"Treating\")",
+            "bRequiresTarget": true,
+            "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Operate.BT_SettlementNPC_Operate",
+            "Priority": 64,
+            "SkillCategory": {
+                "RowName": "Medicine"
+            }
+        },
+        {
+            "Name": "Craft",
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Craft-DisplayName\", \"Craft\")",
+            "DisplayNameVerb": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Craft-DisplayNameVerb\", \"Crafting\")",
+            "bRequiresTarget": true,
+            "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Operate.BT_SettlementNPC_Operate",
+            "Priority": 64,
+            "SkillCategory": {
+                "RowName": "Crafting"
+            }
+        },
+        {
+            "Name": "Hunt",
+            "DisplayName": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Hunt-DisplayName\", \"Hunt\")",
+            "DisplayNameVerb": "NSLOCTEXT(\"D_SettlementNPCTaskTypes\", \"Hunt-DisplayNameVerb\", \"Hunting\")",
+            "bRequiresTarget": true,
+            "Behaviour": "/Game/BP/Settlement/AI/BT_SettlementNPC_Operate.BT_SettlementNPC_Operate",
+            "Priority": 64,
+            "SkillCategory": {
+                "RowName": "Forestry"
+            }
         }
     ]
 }

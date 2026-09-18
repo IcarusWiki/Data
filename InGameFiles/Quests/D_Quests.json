@@ -3431,7 +3431,7 @@
         {
             "Name": "Common_Scan_Retrieve_Radar",
             "Class": "/Game/BP/Quests/Common/BPQ_Scan_Retrieve.BPQ_Scan_Retrieve_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"Common_Scan_Retrieve_Radar-Description\", \"Collect the RadarStation\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Common_Scan_Retrieve_Radar-Description\", \"Collect the Radar Station\")"
         },
         {
             "Name": "Common_Retrieve_Item_Pickup",
@@ -6548,7 +6548,7 @@
         {
             "Name": "OLY_Forest_WS_Stockpile_Ship",
             "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_Ship.BPQ_OLY_Forest_WS_Stockpile_Ship_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Ship-Description\", \"Stock ship as requested by Workshop Team\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Ship-Description\", \"Stock pod as requested by Workshop Team\")"
         },
         {
             "Name": "OLY_Forest_WS_Stockpile_Support",

@@ -683,7 +683,7 @@
             "DesiredTemperatureRange": {
                 "Y": 50
             },
-            "DesiredShelterPercentage": 25,
+            "DesiredShelterPercentage": 0,
             "ProhibitedTamingModifiers": [
                 {
                     "RowName": "Wet",
@@ -760,6 +760,16 @@
             },
             "DesiredShelterPercentage": 0,
             "DesiredNutritionPercentage": 25,
+            "ProhibitedTamingModifiers": [
+                {
+                    "RowName": "Wet",
+                    "DataTableName": "D_ModifierStates"
+                },
+                {
+                    "RowName": "Sleepy",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
             "TamedAI": {
                 "RowName": "Tamed_Orka"
             },

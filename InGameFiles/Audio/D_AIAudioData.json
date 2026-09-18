@@ -7445,12 +7445,18 @@
         },
         {
             "Name": "Dino_Large",
-            "FootstepSound": "/Game/FMOD/Events/SFX/Creatures/Footsteps/Striker/SFX_CRE_FOOTSTEPS_STRIKER.SFX_CRE_FOOTSTEPS_STRIKER",
+            "FootstepSound": "/Game/FMOD/Events/SFX/Creatures/Footsteps/SFX_CRE_FOOTSTEPS_LARGE_DINO.SFX_CRE_FOOTSTEPS_LARGE_DINO",
             "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_FOLIAGE_LARGE.SFX_CRE_FOLIAGE_LARGE",
             "DeathCollisionSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_BODY_FALL_MEDIUM.SFX_CRE_BODY_FALL_MEDIUM",
             "DeathCollisionSocket": "RigSpine",
             "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_MED.SFX_CRE_DEATHFALL_WATER_MED",
             "VocalisationSocket": "RigRJaw",
+            "AttackVocalisation": {
+                "RowName": "Large_Dino_Attack"
+            },
+            "DeathVocalisation": {
+                "RowName": "Large_Dino_Attack"
+            },
             "ThreatComponentClass": "/Script/Icarus.CreatureAudioThreatGOAPComponent",
             "ThreatLevel": 100,
             "ThreatConfig": {
@@ -8071,9 +8077,6 @@
             "AttackVocalisation": {
                 "RowName": "KomodoAttack"
             },
-            "FlinchVocalisation": {
-                "RowName": "KomodoFlinch"
-            },
             "DeathVocalisation": {
                 "RowName": "KomodoDeath"
             },
@@ -8181,20 +8184,50 @@
             "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_LARGE.SFX_CRE_DEATHFALL_WATER_LARGE",
             "VocalisationSocket": "SpitSocket",
             "AttackVocalisation": {
-                "RowName": "TankAttack"
+                "RowName": "GroundDragon_Attack"
             },
             "FlinchVocalisation": {
-                "RowName": "TankFlinch"
+                "RowName": "GroundDragon_Flinch"
             },
             "DeathVocalisation": {
-                "RowName": "TankDeath"
+                "RowName": "GroundDragon_Death"
             },
-            "ThreatComponentClass": "/Script/Icarus.CreatureAudioThreatSimpleBossComponent",
+            "StateVocalisations": {
+                "Attacking": {
+                    "StateEnteredVocalisation": {
+                        "RowName": "GroundDragon_Spot",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StatePersistentVocalisation": {
+                        "RowName": "GroundDragon_Aggro",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StateExitedVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    }
+                },
+                "Idle": {
+                    "StateEnteredVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StatePersistentVocalisation": {
+                        "RowName": "GroundDragon_Idle",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StateExitedVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    }
+                }
+            },
+            "ThreatComponentClass": "/Script/Icarus.CreatureAudioThreatGOAPComponent",
             "ThreatLevel": 100,
             "ThreatConfig": {
-                "RowName": "ScorpionBoss"
+                "RowName": "Default"
             },
-            "CombatMusicConditionOverride": "InCombat_EpicBoss"
+            "CombatMusicConditionOverride": "InCombat"
         }
     ]
 }

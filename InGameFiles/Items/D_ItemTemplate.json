@@ -25460,7 +25460,7 @@
         {
             "Name": "Pig_Trophy",
             "ItemStaticData": {
-                "RowName": "Piglet_Trophy"
+                "RowName": "Pig_Trophy"
             },
             "Metadata": {
                 "RequiredFeatureLevel": {
@@ -26577,6 +26577,12 @@
                     "Value": 1
                 }
             ]
+        },
+        {
+            "Name": "Electric_Seed_Extractor",
+            "ItemStaticData": {
+                "RowName": "Electric_Seed_Extractor"
+            }
         },
         {
             "Name": "Meta_Resource_Pack_Salt",

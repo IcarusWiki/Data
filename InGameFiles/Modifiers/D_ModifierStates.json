@@ -16454,7 +16454,7 @@
             "Name": "DNA_Serum",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_DNA_AugmentationSerum.T_ITEM_DNA_AugmentationSerum'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"DNA_Serum-ModifierName\", \"DNA Augmentation Serum\")",
-            "ModifierDescription": "",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"DNA_Serum-ModifierDescription\", \"Increases Health and Physical Resistance for a Short Amount of Time.\")",
             "GrantedStats": {
                 "(Value=\"BaseMaximumHealth_+\")": 250,
                 "(Value=\"BasePhysicalDamageResistance_%\")": -25

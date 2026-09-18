@@ -4466,6 +4466,62 @@
             "Setting": {
                 "RowName": "Default"
             }
+        },
+        {
+            "Name": "Large_Dino_Attack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Large_Dino/SFX_CRE_VOCAL_LARGE_DINO_ATTACK.SFX_CRE_VOCAL_LARGE_DINO_ATTACK",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "GroundDragon_Attack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ground_Dragon/SFX_CRE_VOC_GROUNDDRAGON_ATTACK.SFX_CRE_VOC_GROUNDDRAGON_ATTACK",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "GroundDragon_Spot",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ground_Dragon/SFX_CRE_VOC_GROUNDDRAGON_SPOT.SFX_CRE_VOC_GROUNDDRAGON_SPOT",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "GroundDragon_Flinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ground_Dragon/SFX_CRE_VOCAL_GROUNDDRAGON_FLINCH.SFX_CRE_VOCAL_GROUNDDRAGON_FLINCH",
+            "Setting": {
+                "RowName": "Lowest"
+            }
+        },
+        {
+            "Name": "GroundDragon_Death",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ground_Dragon/SFX_CRE_VOCAL_GROUNDDRAGON_DEATH.SFX_CRE_VOCAL_GROUNDDRAGON_DEATH",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "GroundDragon_Idle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ground_Dragon/SFX_CRE_VOCAL_GROUNDDRAGON_IDLE.SFX_CRE_VOCAL_GROUNDDRAGON_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "GroundDragon_Taunt",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ground_Dragon/SFX_CRE_VOC_GROUNDDRAGON_TAUNT_ROAR.SFX_CRE_VOC_GROUNDDRAGON_TAUNT_ROAR",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "GroundDragon_Aggro",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Ground_Dragon/SFX_CRE_VOCAL_GROUNDDRAGON_AGGRO.SFX_CRE_VOCAL_GROUNDDRAGON_AGGRO",
+            "Setting": {
+                "RowName": "Persistent"
+            }
         }
     ]
 }
