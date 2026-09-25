@@ -15414,6 +15414,60 @@
                 ],
                 "AutoDescription": " ALL( GreatHunts.RadBoss.D.Travel.Lava )"
             }
+        },
+        {
+            "Name": "ARK_Settlement_Origin_Coast",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Settlement.Origin.Coast"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Settlement.Origin.Coast )"
+            }
+        },
+        {
+            "Name": "ARK_Settlement_Origin_JungleLite",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Settlement.Origin.JungleLite"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Settlement.Origin.JungleLite )"
+            }
+        },
+        {
+            "Name": "ARK_Settlement_Origin_Geothermal",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Settlement.Origin.Geothermal"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Settlement.Origin.Geothermal )"
+            }
         }
     ]
 }

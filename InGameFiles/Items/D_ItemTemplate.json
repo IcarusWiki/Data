@@ -26619,6 +26619,18 @@
             "ItemStaticData": {
                 "RowName": "Fertility_Serum_Tusker"
             }
+        },
+        {
+            "Name": "CreatureBait_Kiwi",
+            "ItemStaticData": {
+                "RowName": "CreatureBait_Kiwi"
+            }
+        },
+        {
+            "Name": "Prop_Glass_Display_Cabinet",
+            "ItemStaticData": {
+                "RowName": "Prop_Glass_Display_Cabinet"
+            }
         }
     ]
 }

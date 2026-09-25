@@ -121876,6 +121876,56 @@
             "Audio": {
                 "RowName": "CookingStation"
             }
+        },
+        {
+            "Name": "Creature_Bait_Kiwi",
+            "Requirement": {
+                "RowName": "Snare_Trap"
+            },
+            "RequiredMillijoules": 25000,
+            "RecipeSets": [
+                {
+                    "RowName": "Animal_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Seed",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 3
+                },
+                {
+                    "Element": {
+                        "RowName": "Kiwi_Fruit",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2
+                },
+                {
+                    "Element": {
+                        "RowName": "Spoiled_Plants",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 5
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "CreatureBait_Kiwi",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "CookingStation"
+            }
         }
     ]
 }

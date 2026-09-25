@@ -3851,6 +3851,7 @@
             "AISetup": {
                 "RowName": "Tamed_Kiwi"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_Kiwi.T_Talent_Base_Kiwi",
             "SupportedCombatStates": [
                 "DoNotEngage",
                 "NeutralEngagement",
@@ -3880,7 +3881,8 @@
                 "NSLOCTEXT(\"D_Mounts\", \"Kiwi-DefaultNames-5\", \"Westie\")",
                 "NSLOCTEXT(\"D_Mounts\", \"Kiwi-DefaultNames-6\", \"Kai\")",
                 "NSLOCTEXT(\"D_Mounts\", \"Kiwi-DefaultNames-7\", \"Chur\")",
-                "NSLOCTEXT(\"D_Mounts\", \"Kiwi-DefaultNames-8\", \"Smoko\")"
+                "NSLOCTEXT(\"D_Mounts\", \"Kiwi-DefaultNames-8\", \"Smoko\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Kiwi-DefaultNames-9\", \"Tama\")"
             ],
             "MapIcon": {
                 "RowName": "Mount"

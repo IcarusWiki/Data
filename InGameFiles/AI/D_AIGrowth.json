@@ -6871,8 +6871,8 @@
                 "(Value=\"BaseFireDamageResistance_%\")": -100,
                 "(Value=\"BaseGOAPActionAnchoredWanderDistance_+\")": 2500
             },
-            "Health": "CurveFloat'/Game/Data/AI/Curves/C_CrabHealth.C_CrabHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_CrabMeleeDamage.C_CrabMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_CrabHealth_Parent.C_CrabHealth_Parent'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_CrabMeleeDamage_Parent.C_CrabMeleeDamage_Parent'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -7008,7 +7008,7 @@
         {
             "Name": "Tame_Kiwi",
             "Base": {
-                "(Value=\"BaseMovementSpeed_+\")": 50,
+                "(Value=\"BaseMovementSpeed_+\")": 85,
                 "(Value=\"BaseSwimSpeed_+\")": 50,
                 "(Value=\"BaseHealthRegenPerMinute_+\")": 5,
                 "(Value=\"BaseMinimumFallDamage_%\")": 1,
@@ -7019,9 +7019,9 @@
                 "(Value=\"BaseAIDamagePerceptionMaxAge_+\")": 10,
                 "(Value=\"BaseAIPerceptionSightRadius_+\")": 2500,
                 "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 3750,
-                "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
-                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 3500,
-                "(Value=\"BaseCharacterMass_+\")": 5,
+                "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 120,
+                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
+                "(Value=\"BaseCharacterMass_+\")": 100,
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseMaximumFood_+\")": 100,
                 "(Value=\"BaseMaximumWater_+\")": 100,
@@ -7032,18 +7032,18 @@
                 "(Value=\"BaseWaterConsumptionPerHour_+\")": 120,
                 "(Value=\"BaseChickenResourcesConsumedPerEgg_+%\")": 50,
                 "(Value=\"BaseFallDamageResistance_%\")": 40,
-                "(Value=\"BaseMaximumStomachFullness_+\")": 2
+                "(Value=\"BaseMaximumStomachFullness_+\")": 2,
+                "(Value=\"BaseFireDamageResistance_%\")": 40,
+                "(Value=\"BaseFrostDamageResistance_%\")": 40,
+                "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
+                "(Value=\"BasePoisonDamageResistance_%\")": 40,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+                "(Value=\"BaseGOAPMotivationProtectiveDistanceMaximumThreat_+\")": 1500,
+                "(Value=\"BaseGOAPMotivationProtectiveDistanceMinimumThreat_+\")": 200,
+                "(Value=\"BaseNPCAttackRadius_+\")": 500
             },
             "Health": "CurveFloat'/Game/Data/AI/Curves/C_Tame_Kiwi_Health.C_Tame_Kiwi_Health'",
             "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Tame_Kiwi_MeleeDamage.C_Tame_Kiwi_MeleeDamage'",
-            "CustomStats": [
-                {
-                    "Stat": {
-                        "Value": "BaseAttacksCauseHemorrhage_%"
-                    },
-                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
-                }
-            ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {

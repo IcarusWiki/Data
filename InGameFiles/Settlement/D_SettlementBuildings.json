@@ -28,11 +28,14 @@
     "Rows": [
         {
             "Name": "Hub",
+            "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"Hub-BuildingName\", \"Radio Tower\")",
+            "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"Hub-BuildingDescription\", \"Founds a settlement. Manage Settlers, resources and the settlement tech tree from here.\")",
             "BuildingClass": "None",
             "BuildingStats": {
                 "(Value=\"BaseSettlementMaxNPCs_+\")": 5,
                 "(Value=\"BaseSettlementRange_+\")": 3000
-            }
+            },
+            "BoundaryBuildRule": "BuildAnywhere"
         },
         {
             "Name": "House",

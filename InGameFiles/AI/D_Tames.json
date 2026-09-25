@@ -920,6 +920,33 @@
                     "RowName": "Homestead"
                 }
             }
+        },
+        {
+            "Name": "Kiwi",
+            "TameDurationInSeconds": 600,
+            "DesiredShelterPercentage": 0,
+            "DesiredNutritionPercentage": 25,
+            "TamedAI": {
+                "RowName": "Tamed_Kiwi"
+            },
+            "MatureCreatureType": {
+                "RowName": "Kiwi"
+            },
+            "PercentChanceToSpawnJuvenile": 0,
+            "MaxNearbyAutoSpawnedJuveniles": 0,
+            "TimeToSpawnDynamicCharacter": 10,
+            "TimeToSpawnDynamicCharacterRandomDeviation": 5,
+            "TrappingSupportedAtmospheres": [
+                {
+                    "Value": "Conifer"
+                },
+                {
+                    "Value": "Grasslands"
+                },
+                {
+                    "Value": "Tundra"
+                }
+            ]
         }
     ]
 }

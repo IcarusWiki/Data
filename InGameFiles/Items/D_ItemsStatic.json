@@ -22852,6 +22852,9 @@
             "Focusable": {
                 "RowName": "Focusable_1H"
             },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
             "Actionable": {
                 "RowName": "Deployable"
             },
@@ -22902,6 +22905,9 @@
                     },
                     {
                         "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
                     },
                     {
                         "TagName": "Traits.Actionable"
@@ -149362,6 +149368,9 @@
             "Focusable": {
                 "RowName": "Focusable_1H"
             },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
             "Actionable": {
                 "RowName": "Deployable"
             },
@@ -149415,6 +149424,9 @@
                     },
                     {
                         "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
                     },
                     {
                         "TagName": "Traits.Actionable"
@@ -236084,6 +236096,139 @@
                     },
                     {
                         "TagName": "Traits.Consumable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "CreatureBait_Kiwi",
+            "Meshable": {
+                "RowName": "Mesh_Generic_Food"
+            },
+            "Itemable": {
+                "RowName": "Item_CreatureBait_Kiwi"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "Default"
+            },
+            "CraftingExperience": 0,
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Creature.Bait.Kiwi"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Creature.Bait.Kiwi"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Prop_Glass_Display_Cabinet",
+            "Meshable": {
+                "RowName": "Mesh_Generic_Machining"
+            },
+            "Itemable": {
+                "RowName": "Item_Prop_Glass_Display_Cabinet"
+            },
+            "Interactable": {
+                "RowName": "Deployable_NoInteract"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Prop_Glass_Display_Cabinet"
+            },
+            "Durable": {
+                "RowName": "Deployable_2500"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Lab"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Lab"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
                     }
                 ],
                 "ParentTags": []

@@ -4522,6 +4522,13 @@
             "Setting": {
                 "RowName": "Persistent"
             }
+        },
+        {
+            "Name": "Large_Dino_Aggro",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Large_Dino/SFX_CRE_VOCAL_LARGE_DINO_AGGRO.SFX_CRE_VOCAL_LARGE_DINO_AGGRO",
+            "Setting": {
+                "RowName": "Persistent"
+            }
         }
     ]
 }

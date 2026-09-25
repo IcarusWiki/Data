@@ -4797,12 +4797,13 @@
         {
             "Name": "Weight_Reduction",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Weight_Reduction.Icon_Weight_Reduction'",
-            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Weight_Reduction-ModifierName\", \"Strength Boost\")",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Weight_Reduction-ModifierName\", \"Aura Effect: Strength Boost\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Weight_Reduction-ModifierDescription\", \"Granted by a helpful prospector nearby.\")",
             "GrantedStats": {
                 "(Value=\"BaseWeightCapacity_+%\")": 25
             },
-            "MergeType": "Stack"
+            "MergeType": "Stack",
+            "SaveToDatabase": false
         },
         {
             "Name": "Healing_Modifier_Duration",
@@ -16958,6 +16959,370 @@
             "EffectsCustomActor": {
                 "RowName": "Any_Juvenile"
             }
+        },
+        {
+            "Name": "Cooked_Spinach",
+            "ModifierName": "INVTEXT(\"[DNT]Braised Spinach\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]A little stamina and extra weight capacity.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseWeightCapacity_+%\")": 5
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FruitAndVegeModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Spinach_Omelette",
+            "ModifierName": "INVTEXT(\"[DNT]Spinach Omelette\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]Boosts health, stamina, and weight capacity.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseWeightCapacity_+%\")": 15,
+                "(Value=\"BaseStaminaRegen_+%\")": 10
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FruitAndVegeModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Creamed_Spinach",
+            "ModifierName": "INVTEXT(\"[DNT]Creamed Spinach\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]Boosts health and stamina. Increases weight capacity.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseWeightCapacity_+%\")": 10
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FruitAndVegeModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Spinach_Salad",
+            "ModifierName": "INVTEXT(\"[DNT]Spinach Salad\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]A boost to stamina and carry weight capacity.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 100,
+                "(Value=\"BaseWeightCapacity_+%\")": 10,
+                "(Value=\"BaseMaximumHealth_+\")": 75
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FruitAndVegeModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Spinach_Pie",
+            "ModifierName": "INVTEXT(\"[DNT] Spinach Pie\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]Boosts health, stamina, health regeneration, and increased weight capacity.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseMaximumStamina_+\")": 150,
+                "(Value=\"BaseWeightCapacity_+%\")": 20,
+                "(Value=\"BaseHealthRegen_+%\")": 30,
+                "(Value=\"BaseExperience_+%\")": 10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Cooked_Pineapple",
+            "ModifierName": "INVTEXT(\"[DNT]Charred Pineapple\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]A little stamina and swiimming speed boost.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseSwimSpeed_+%\")": 5
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FruitAndVegeModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Dried_Pineapple",
+            "ModifierName": "INVTEXT(\"[DNT]Dried Pineapple Chips\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]A little stamina and swiimming speed boost.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 50,
+                "(Value=\"BaseSwimSpeed_+%\")": 5
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FruitAndVegeModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Pineapple_Sorbet",
+            "ModifierName": "INVTEXT(\"[DNT]Pineapple Sorbet\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]Provides a large Stamina boost, extra experience, and a swimming speed boost.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 150,
+                "(Value=\"BaseExperience_+%\")": 30,
+                "(Value=\"BaseSwimSpeed_+%\")": 30
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FruitAndVegeModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Pineapple_Pork",
+            "ModifierName": "INVTEXT(\"[DNT]Sweet and Sour Pork\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]Increases Health, Stamina, Harvesting Rewards, Threat Against Animals, and Swimming Speed.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseForagingHarvestingRewards_+%\")": 10,
+                "(Value=\"BaseAnimalThreatModifier_+%\")": 10,
+                "(Value=\"BaseSwimSpeed_+%\")": 20
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Pineapple_Cake_Piece",
+            "ModifierName": "INVTEXT(\"[DNT]Pineapple Cake Piece\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]A tasty cake perfect for going for long swims.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 250,
+                "(Value=\"BaseMaximumStamina_+\")": 250,
+                "(Value=\"BaseExperience_+%\")": 25,
+                "(Value=\"BaseSwimSpeed_+%\")": 40,
+                "(Value=\"BaseHealthRegen_+%\")": 50
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Pickled_Ginger",
+            "ModifierName": "INVTEXT(\"[DNT]Pickled Ginger\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]Boosts max stamina and basic wound resistance, and increases shared experience gained.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 150,
+                "(Value=\"BaseWoundResistance_%\")": 20,
+                "(Value=\"BaseSharedExperience_+%\")": 20
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FruitAndVegeModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Ginger_Curry",
+            "ModifierName": "INVTEXT(\"[DNT]Ginger Meat Curry\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]Increases Health, Stamina, Harvesting Rewards, Threat Against Animals, and Basic Wound Resistance.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseForagingHarvestingRewards_+%\")": 10,
+                "(Value=\"BaseAnimalThreatModifier_+%\")": 10,
+                "(Value=\"BaseWoundResistance_%\")": 20
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Ginger_Carrot_Soup",
+            "ModifierName": "INVTEXT(\"[DNT]Ginger and Carrot Soup\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Ginger_Carrot_Soup-ModifierDescription\", \"[DNT}Boosts stamina and improve health regeneration noticeably.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 100,
+                "(Value=\"BaseWoundResistance_%\")": 20,
+                "(Value=\"BaseProjectileDamage_+%\")": 10
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FruitAndVegeModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Ginger_Tea",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Thermos.ITEM_Thermos'",
+            "ModifierName": "INVTEXT(\"[DNT]Ginger Tea\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]Keeps you warm and increases basic wound resistance.\")",
+            "GrantedStats": {
+                "(Value=\"BaseInternalTemperatureModification_+\")": 1000,
+                "(Value=\"BaseWoundResistance_%\")": 25
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FruitAndVegeModifierEffectiveness_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
+        },
+        {
+            "Name": "Gingerbread_Loaf",
+            "ModifierName": "INVTEXT(\"[DNT]Gingerbread Loaf\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]Boosts Health, Stamina, Experience, and Basic Wound Resistance.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseHealthRegen_+%\")": 50,
+                "(Value=\"BaseMaximumStamina_+\")": 150,
+                "(Value=\"BaseWoundResistance_%\")": 25,
+                "(Value=\"BaseExperience_+%\")": 10
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FruitAndVegeModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "GrantedAura_Night_Yields",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Up_Double.Icon_Up_Double'",
+            "Type": "Aura_Positive",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_Night_Yields-ModifierName\", \"Aura: Night Yields\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_Night_Yields-ModifierDescription\", \"Increases Mining and Felling Yields at Night\")",
+            "bAura": true,
+            "AuraRange": 1500,
+            "AuraFlags": {
+                "EffectsNPCs": true
+            },
+            "ModifierGrantedByAura": {
+                "RowName": "AuraEffect_Night_Yields"
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Aura_Base.BP_Modifier_Aura_Base_C",
+            "ShouldTick": true,
+            "ModifierTickRate": 0.5,
+            "RemovedOnDeath": false,
+            "MergeType": "Count",
+            "bEffectsObjects": true,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "AuraEffect_Night_Yields",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Up_Double.Icon_Up_Double'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_Night_Yields-ModifierName\", \"Aura Effect: Night Yields\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_Night_Yields-ModifierDescription\", \"Increases Mining and Felling Yields at Night\")",
+            "GrantedStats": {
+                "(Value=\"BaseNightMiningRewards_+%\")": 5,
+                "(Value=\"BaseNightFellingRewards_+%\")": 5
+            },
+            "AuraRange": 500,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
         }
     ]
 }

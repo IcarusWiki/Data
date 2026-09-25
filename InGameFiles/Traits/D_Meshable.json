@@ -6551,7 +6551,7 @@
         {
             "Name": "Mesh_Carcass_Crawler",
             "ItemMesh": "/Game/ASS/CRE/Crawler/SK_CRE_Crawler.SK_CRE_Crawler",
-            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Centipede_Corpse.BP_Centipede_Corpse_C"
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Crawler_Corpse.BP_Crawler_Corpse_C"
         },
         {
             "Name": "Mesh_Carcass_Ground_Dragon",
@@ -6670,6 +6670,11 @@
         {
             "Name": "Mesh_Settlement_Microchips",
             "ItemMesh": "/Game/ASS/ITM/SM_ITM_Electronics.SM_ITM_Electronics"
+        },
+        {
+            "Name": "Mesh_Settlement_Building_Tool",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_T5_Kit.SM_ITM_T5_Kit",
+            "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_Hammer_Steel.SK_ITM_Hammer_Steel"
         }
     ]
 }

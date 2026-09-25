@@ -4283,9 +4283,29 @@
             }
         },
         {
+            "Name": "FellingRewards_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"FellingRewards_+%-Title\", \"Felling Yield\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Felling"
+            }
+        },
+        {
             "Name": "BaseFellingRewards_+%",
             "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFellingRewards_+%-PositiveDescription\", \"+{0}% Yield from Felling Trees\")",
             "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFellingRewards_+%-NegativeDescription\", \"-{0}% Yield from Felling Trees\")",
+            "StatCategory": {
+                "RowName": "Felling"
+            }
+        },
+        {
+            "Name": "MiningRewards_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"MiningRewards_+%-Title\", \"Felling Yield\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
             "StatCategory": {
                 "RowName": "Felling"
             }
@@ -24392,6 +24412,106 @@
             "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseGroundDragonExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Ground Dragon\")",
             "StatCategory": {
                 "RowName": "AI"
+            }
+        },
+        {
+            "Name": "NightFellingRewards_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"NightFellingRewards_+%-Title\", \"Felling Yield at Night\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Felling"
+            }
+        },
+        {
+            "Name": "BaseNightFellingRewards_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseNightFellingRewards_+%-PositiveDescription\", \"{0}% Yield from Felling Trees at Night\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseNightFellingRewards_+%-NegativeDescription\", \"-{0}% Yield from Felling Trees at Night\")",
+            "StatCategory": {
+                "RowName": "Felling"
+            }
+        },
+        {
+            "Name": "NightMiningRewards_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"NightMiningRewards_+%-Title\", \"Mining Yield at Night\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mining"
+            }
+        },
+        {
+            "Name": "BaseNightMiningRewards_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseNightMiningRewards_+%-PositiveDescription\", \"{0}% Yield from Mining at Night\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseNightMiningRewards_+%-NegativeDescription\", \"-{0}% Yield from Mining at Night\")",
+            "StatCategory": {
+                "RowName": "Felling"
+            }
+        },
+        {
+            "Name": "NightMeleeDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"NightMeleeDamage_+%-Title\", \"Melee Damage at Night\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Melee_Weapon"
+            }
+        },
+        {
+            "Name": "BaseNightMeleeDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseNightMeleeDamage_+%-PositiveDescription\", \"+{0}% Melee Damage at Night\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseNightMeleeDamage_+%-NegativeDescription\", \"-{0} Melee Damage at Night\")",
+            "StatCategory": {
+                "RowName": "Melee_Weapon"
+            },
+            "bHideStatInUserInterface": true,
+            "bShowStatOnModifiers": true
+        },
+        {
+            "Name": "GrantedAuraKiwi_?",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"GrantedAuraKiwi_?-PositiveDescription\", \"Provides Nearby Players with increased Felling and Mining Yield at Night\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "BaseAuraEffectiveness_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseAuraEffectiveness_%-PositiveDescription\", \"+{0}% Aura Effectiveness\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseAuraEffectiveness_%-NegativeDescription\", \"-{0}% Aura Effectiveness\")",
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "AuraEffectiveness_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"AuraEffectiveness_%-Title\", \"Aura Effectiveness\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "BaseKiwiAuraEffectiveness_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseKiwiAuraEffectiveness_%-PositiveDescription\", \"+{0}% Night Yields Aura Effectiveness\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseKiwiAuraEffectiveness_%-NegativeDescription\", \"-{0}% Night Yields Aura Effectiveness\")",
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "KiwiAuraEffectiveness_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"KiwiAuraEffectiveness_%-Title\", \"Night Yields Aura Effectiveness\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Deployable"
             }
         }
     ]

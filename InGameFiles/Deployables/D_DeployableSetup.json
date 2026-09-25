@@ -13132,7 +13132,7 @@
         {
             "Name": "Mission_Makeshift_Beacon",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Communication/BP_Makeshift_Beacon.BP_Makeshift_Beacon_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_LightningRod.SM_DEP_LightningRod",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_LightningRod_v2.SM_DEP_LightningRod_v2",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
             "SnapToSurfaceNormal": false,
             "MaxSurfaceSnapAngle": 50,
@@ -16151,7 +16151,7 @@
         {
             "Name": "Roast_Reptile",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_4.BP_Roast_4_C",
-            "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Roast_Carcass/SM_DEP_Roast_Carcass_Placement_SML.SM_DEP_Roast_Carcass_Placement_SML",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
             "SupportsCustomRotation": false,
             "bCanAffectNavigation": false,
@@ -16160,7 +16160,7 @@
         {
             "Name": "Roast_Venison",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_6.BP_Roast_6_C",
-            "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Roast_Carcass/SM_DEP_Roast_Carcass_Placement_MED.SM_DEP_Roast_Carcass_Placement_MED",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
             "SupportsCustomRotation": false,
             "bCanAffectNavigation": false,
@@ -16169,7 +16169,7 @@
         {
             "Name": "Roast_Panther",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_6.BP_Roast_6_C",
-            "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Roast_Carcass/SM_DEP_Roast_Carcass_Placement_MED.SM_DEP_Roast_Carcass_Placement_MED",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
             "SupportsCustomRotation": false,
             "bCanAffectNavigation": false,
@@ -16178,7 +16178,7 @@
         {
             "Name": "Roast_Pork",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_6.BP_Roast_6_C",
-            "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Roast_Carcass/SM_DEP_Roast_Carcass_Placement_MED.SM_DEP_Roast_Carcass_Placement_MED",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
             "SupportsCustomRotation": false,
             "bCanAffectNavigation": false,
@@ -16187,7 +16187,7 @@
         {
             "Name": "Roast_Exotic_Meat",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_4.BP_Roast_4_C",
-            "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Roast_Carcass/SM_DEP_Roast_Carcass_Placement_SML.SM_DEP_Roast_Carcass_Placement_SML",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
             "SupportsCustomRotation": false,
             "bCanAffectNavigation": false,
@@ -16196,7 +16196,7 @@
         {
             "Name": "Roast_Mutton",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_4.BP_Roast_4_C",
-            "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Roast_Carcass/SM_DEP_Roast_Carcass_Placement_SML.SM_DEP_Roast_Carcass_Placement_SML",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
             "SupportsCustomRotation": false,
             "bCanAffectNavigation": false,
@@ -16205,7 +16205,7 @@
         {
             "Name": "Roast_Wolf",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Roast_4.BP_Roast_4_C",
-            "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Roast_Carcass/SM_DEP_Roast_Carcass_Placement_SML.SM_DEP_Roast_Carcass_Placement_SML",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
             "SupportsCustomRotation": false,
             "bCanAffectNavigation": false,
@@ -16534,6 +16534,31 @@
             "IgnoreCollisionWhenSnapped": true,
             "UseSnapSocketRotation": true,
             "NavAreaClass": "Class'/Script/NavigationSystem.NavArea_Obstacle'",
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Pineapple_Cake",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Food/BP_Cake_Pineapple.BP_Cake_Pineapple_C",
+            "PreviewStaticMesh": "/Game/ASS/ITM/Cake/SM_ITM_Cake_Combined.SM_ITM_Cake_Combined",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Prop_Glass_Display_Cabinet",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Glass_Display_Cabinet.BP_Prop_Glass_Display_Cabinet_C",
+            "PreviewStaticMesh": "/Game/ASS/DCO/DisplayCase_Large_MetalGlass/SM_DCO_DisplayCase_Large_MetalGlass.SM_DCO_DisplayCase_Large_MetalGlass",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Prop_Glass_Display_Cabinet_Wall",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Glass_Display_CabinetWall.BP_Prop_Glass_Display_CabinetWall_C",
+            "PreviewStaticMesh": "/Game/ASS/DCO/DisplayCase_Wall_MetalGlass/SM_DCO_DisplayCase_Wall_MetalGlass.SM_DCO_DisplayCase_Wall_MetalGlass",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
             "MaxRestackingAmount": 1
         }
     ]

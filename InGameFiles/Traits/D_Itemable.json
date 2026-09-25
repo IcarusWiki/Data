@@ -16105,7 +16105,7 @@
             "Name": "Item_Egg",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Egg-DisplayName\", \"Egg\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Egg.T_ITEM_Egg",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Egg-Description\", \"A fresh chicken egg, can be cooked in all manner of ways.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Egg-Description\", \"A fresh egg, can be cooked in all manner of ways.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Egg-FlavorText\", \"An extremely versatile food.\")",
             "Weight": 250,
             "MaxStack": 100
@@ -28170,15 +28170,17 @@
             "Weight": 15000
         },
         {
-            "Name": "Item_Settlement_Starter",
-            "DisplayName": "INVTEXT(\"[DNT] Settlement Starter\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Flagpole.T_ITEM_Flagpole",
+            "Name": "Item_Settlement_Origin",
+            "DisplayName": "INVTEXT(\"[DNT] Settlement Origin\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_Steel_Hammer.ITEM_Steel_Hammer",
+            "Description": "INVTEXT(\"[DNT] A Settlement can be started here. Interact to Claim.\")",
             "Weight": 10000
         },
         {
-            "Name": "Item_Settlement_Building",
-            "DisplayName": "INVTEXT(\"[DNT] Settlement Building\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Flagpole.T_ITEM_Flagpole",
+            "Name": "Item_Settlement_Building_Tool",
+            "DisplayName": "INVTEXT(\"[DNT] Settlement Building Tool\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_Steel_Hammer.ITEM_Steel_Hammer",
+            "Description": "INVTEXT(\"[DNT] Can be used to place any unlocked settlement structure in that settlement\\'s tech tree.\")",
             "Weight": 10000
         },
         {
@@ -28799,6 +28801,7 @@
         {
             "Name": "Item_Roast_Rabbit",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Rabbit-DisplayName\", \"Roast Rabbit\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Roasted_Skewer_Rabbit.T_ITEM_Roasted_Skewer_Rabbit",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Rabbit-Description\", \"A rabbit roasted whole. Light, quick, and good for covering ground.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Rabbit-FlavorText\", \"Lean enough that you will be hungry again by dusk.\")",
             "Weight": 400,
@@ -28807,6 +28810,7 @@
         {
             "Name": "Item_Roast_Critter",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Critter-DisplayName\", \"Roast Critter\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Roasted_Skewer_Critter.T_ITEM_Roasted_Skewer_Critter",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Critter-Description\", \"Whatever small thing you caught, roasted on a spit. Survival fare.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Critter-FlavorText\", \"Nobody has to know.\")",
             "Weight": 300,
@@ -28815,6 +28819,7 @@
         {
             "Name": "Item_Roast_Fowl",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Fowl-DisplayName\", \"Roast Fowl\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Roasted_Skewer_Fowl.T_ITEM_Roasted_Skewer_Fowl",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Fowl-Description\", \"Roasted wild bird. Light on the stomach and easy on the lungs in thin air.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Fowl-FlavorText\", \"Tastes like every other unfamiliar thing on this rock.\")",
             "Weight": 500,
@@ -28823,6 +28828,7 @@
         {
             "Name": "Item_Roast_Fish",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Fish-DisplayName\", \"Roast Fish\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Roasted_Skewer_Fish.T_ITEM_Roasted_Skewer_Fish",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Fish-Description\", \"A whole catch roasted together. Light, clean eating that helps you hold your breath.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Fish-FlavorText\", \"It took all morning at the water for one tray.\")",
             "Weight": 500,
@@ -28831,6 +28837,7 @@
         {
             "Name": "Item_Roast_Reptile_Piece",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Reptile_Piece-DisplayName\", \"Roast Reptile Piece\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Roasted_Piece_Reptile.T_ITEM_Roasted_Piece_Reptile",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Reptile_Piece-Description\", \"A portion of cold-blooded meat, oddly steadying.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Reptile_Piece-FlavorText\", \"Tastes like whatever it ate last.\")",
             "Weight": 250,
@@ -28839,6 +28846,7 @@
         {
             "Name": "Item_Roast_Venison_Piece",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Venison_Piece-DisplayName\", \"Roast Venison Piece\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Roasted_Piece_Venison.T_ITEM_Roasted_Piece_Venison",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Venison_Piece-Description\", \"A carved portion of lean roast venison.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Venison_Piece-FlavorText\", \"Cut thin, eaten fast.\")",
             "Weight": 250,
@@ -28847,6 +28855,7 @@
         {
             "Name": "Item_Roast_Panther_Piece",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Panther_Piece-DisplayName\", \"Roast Panthera Piece\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Roasted_Piece_Panther.T_ITEM_Roasted_Piece_Panther",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Panther_Piece-Description\", \"A dense, dark portion of prime cat meat.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Panther_Piece-FlavorText\", \"Chewy, and worth it.\")",
             "Weight": 250,
@@ -28855,6 +28864,7 @@
         {
             "Name": "Item_Roast_Pork_Piece",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Pork_Piece-DisplayName\", \"Roast Pork Piece\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Roasted_Piece_Pork.T_ITEM_Roasted_Piece_Pork",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Pork_Piece-Description\", \"A rich, fatty portion carved from the hog.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Pork_Piece-FlavorText\", \"Crackling included, if you are quick.\")",
             "Weight": 250,
@@ -28863,6 +28873,7 @@
         {
             "Name": "Item_Roast_Exotic_Meat_Piece",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Exotic_Meat_Piece-DisplayName\", \"Roast Exotic Meat Piece\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Roasted_Piece_Exotic.T_ITEM_Roasted_Piece_Exotic",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Exotic_Meat_Piece-Description\", \"A portion of something the UDA has no menu entry for.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Exotic_Meat_Piece-FlavorText\", \"Still taking notes.\")",
             "Weight": 250,
@@ -28871,6 +28882,7 @@
         {
             "Name": "Item_Roast_Mutton_Piece",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Mutton_Piece-DisplayName\", \"Roast Mutton Piece\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Roasted_Piece_Mutton.T_ITEM_Roasted_Piece_Mutton",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Mutton_Piece-Description\", \"A warming portion of fatty roast mutton.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Mutton_Piece-FlavorText\", \"Worth more than the wool. Barely.\")",
             "Weight": 250,
@@ -28879,6 +28891,7 @@
         {
             "Name": "Item_Roast_Wolf_Piece",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Wolf_Piece-DisplayName\", \"Roast Wolf Piece\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Roasted_Piece_Wolf.T_ITEM_Roasted_Piece_Wolf",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Wolf_Piece-Description\", \"A stringy portion carved off the roast.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Wolf_Piece-FlavorText\", \"The pack will remember this.\")",
             "Weight": 250,
@@ -28887,6 +28900,7 @@
         {
             "Name": "Item_Roast_Venison",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Venison-DisplayName\", \"Roast Venison\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Roast_Whole_Venison.T_ITEM_Roast_Whole_Venison",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Venison-Description\", \"A whole roast deer, carved into 6 portions. Deploy it to serve.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Venison-FlavorText\", \"The reward for a patient stalk and a steady hand.\")",
             "Weight": 2500
@@ -28894,6 +28908,7 @@
         {
             "Name": "Item_Roast_Panther",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Panther-DisplayName\", \"Roast Panthera\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Roast_Whole_Panther.T_ITEM_Roast_Whole_Panther",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Panther-Description\", \"A whole roasted great cat, carved into 8 portions. Deploy it to serve.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Panther-FlavorText\", \"It had the same idea about you.\")",
             "Weight": 2500
@@ -28901,6 +28916,7 @@
         {
             "Name": "Item_Roast_Pork",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Pork-DisplayName\", \"Roast Pork\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Roast_Whole_Pork.T_ITEM_Roast_Whole_Pork",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Pork-Description\", \"A whole hog roast, carved into 6 portions. Deploy it to serve.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Pork-FlavorText\", \"Crackling optional. Highly recommended.\")",
             "Weight": 2500
@@ -28908,6 +28924,7 @@
         {
             "Name": "Item_Roast_Exotic_Meat",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Exotic_Meat-DisplayName\", \"Roast Exotic Meat\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Roasted_Whole_Exotic.T_ITEM_Roasted_Whole_Exotic",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Exotic_Meat-Description\", \"A whole roasted oddity, carved into 4 portions. Deploy it to serve.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Exotic_Meat-FlavorText\", \"Field research. Delicious field research.\")",
             "Weight": 2500
@@ -28915,6 +28932,7 @@
         {
             "Name": "Item_Roast_Mutton",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Mutton-DisplayName\", \"Roast Mutton\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Roast_Whole_Mutton.T_ITEM_Roast_Whole_Mutton",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Mutton-Description\", \"A whole roast sheep, carved into 4 portions. Deploy it to serve.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Mutton-FlavorText\", \"Worth more than the wool. Barely.\")",
             "Weight": 2500
@@ -28922,6 +28940,7 @@
         {
             "Name": "Item_Roast_Wolf",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Wolf-DisplayName\", \"Roast Wolf\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Roasted_Whole_Wolf.T_ITEM_Roasted_Whole_Wolf",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Wolf-Description\", \"A whole roasted wolf, carved into 4 portions. Deploy it to serve.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Wolf-FlavorText\", \"The pack will remember this.\")",
             "Weight": 2500
@@ -28929,6 +28948,7 @@
         {
             "Name": "Item_Roast_Reptile",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Reptile-DisplayName\", \"Roast Reptile\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Roast_Whole_Reptile.T_ITEM_Roast_Whole_Reptile",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Reptile-Description\", \"A whole roasted reptile, carved into 4 portions. Deploy it to serve.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roast_Reptile-FlavorText\", \"Tastes like whatever it ate last.\")",
             "Weight": 2500
@@ -29129,6 +29149,13 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Lantern-Description\", \"An LED Lantern for illuminating dark corners. Can be recharged in a Charging Station.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Lantern-FlavorText\", \"Activate with secondary fire.\")",
             "Weight": 250
+        },
+        {
+            "Name": "Item_Prop_Glass_Display_Cabinet",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_Glass_Display_Cabinet-DisplayName\", \"Glass Display Cabinet\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_Glass_Display_Cabinet-Description\", \"A Glass Cabinet for Displaying items.\")",
+            "Weight": 10000,
+            "MaxStack": 5
         }
     ]
 }
