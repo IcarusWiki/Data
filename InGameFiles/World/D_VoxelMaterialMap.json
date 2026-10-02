@@ -24,7 +24,8 @@
                 "Salt": "/Game/ASS/ENV/VOX/M_SM_ROCK_GEN_Voxel_02_Salt.M_SM_ROCK_GEN_Voxel_02_Salt",
                 "Limestone": "/Game/ASS/ENV/VOX/M_SM_ROCK_GEN_Voxel_02_Limestone.M_SM_ROCK_GEN_Voxel_02_Limestone",
                 "Lithium": "/Game/ASS/ENV/VOX/M_SM_ROCK_GEN_Voxel_02_Lithium.M_SM_ROCK_GEN_Voxel_02_Lithium",
-                "Ruby": "/Game/ASS/ENV/VOX/M_SM_ROCK_GEN_Voxel_02_Ruby.M_SM_ROCK_GEN_Voxel_02_Ruby"
+                "Ruby": "/Game/ASS/ENV/VOX/M_SM_ROCK_GEN_Voxel_02_Ruby.M_SM_ROCK_GEN_Voxel_02_Ruby",
+                "Lead": "/Game/ASS/ENV/VOX/M_SM_ROCK_GEN_Voxel_02_Lead.M_SM_ROCK_GEN_Voxel_02_Lead"
             }
         },
         {
@@ -46,7 +47,8 @@
                 "Limestone": "/Game/ASS/ENV/VOX/M_SM_ROCK_GEN_Voxel_01_Limestone.M_SM_ROCK_GEN_Voxel_01_Limestone",
                 "Exotic_A": "/Game/ASS/ENV/VOX/Voxel_Exotic/M_SM_ROCK_GEN_Voxel_01_Exotic.M_SM_ROCK_GEN_Voxel_01_Exotic",
                 "Lithium": "/Game/ASS/ENV/VOX/M_SM_ROCK_GEN_Voxel_01_Lithium.M_SM_ROCK_GEN_Voxel_01_Lithium",
-                "Ruby": "/Game/ASS/ENV/VOX/M_SM_ROCK_GEN_Voxel_01_Ruby.M_SM_ROCK_GEN_Voxel_01_Ruby"
+                "Ruby": "/Game/ASS/ENV/VOX/M_SM_ROCK_GEN_Voxel_01_Ruby.M_SM_ROCK_GEN_Voxel_01_Ruby",
+                "Lead": "/Game/ASS/ENV/VOX/M_SM_ROCK_GEN_Voxel_01_Lead_2.M_SM_ROCK_GEN_Voxel_01_Lead_2"
             }
         },
         {
@@ -68,7 +70,8 @@
                 "Limestone": "/Game/ASS/ENV/VOX/M_SM_ROCK_GEN_Voxel_03_Limestone.M_SM_ROCK_GEN_Voxel_03_Limestone",
                 "Exotic_A": "/Game/ASS/ENV/VOX/Voxel_Exotic/M_SM_ROCK_GEN_Voxel_03_Exotic.M_SM_ROCK_GEN_Voxel_03_Exotic",
                 "Lithium": "None",
-                "Ruby": "None"
+                "Ruby": "None",
+                "Lead": "None"
             }
         },
         {
@@ -112,7 +115,8 @@
                 "Limestone": "/Game/ASS/ENV/VOX/M_SM_ROCK_GEN_Voxel_05_Limestone.M_SM_ROCK_GEN_Voxel_05_Limestone",
                 "Exotic_A": "/Game/ASS/ENV/VOX/Voxel_Exotic/M_SM_ROCK_GEN_Voxel_05_Exotic.M_SM_ROCK_GEN_Voxel_05_Exotic",
                 "Lithium": "/Game/ASS/ENV/VOX/M_SM_ROCK_GEN_Voxel_05_Lithium.M_SM_ROCK_GEN_Voxel_05_Lithium",
-                "Ruby": "/Game/ASS/ENV/VOX/M_SM_ROCK_GEN_Voxel_05_Ruby.M_SM_ROCK_GEN_Voxel_05_Ruby"
+                "Ruby": "/Game/ASS/ENV/VOX/M_SM_ROCK_GEN_Voxel_05_Ruby.M_SM_ROCK_GEN_Voxel_05_Ruby",
+                "Lead": "/Game/ASS/ENV/VOX/M_SM_ROCK_GEN_Voxel_05_Lead.M_SM_ROCK_GEN_Voxel_05_Lead"
             }
         },
         {

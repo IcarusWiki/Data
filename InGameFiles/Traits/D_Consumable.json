@@ -4966,6 +4966,16 @@
                 },
                 "ModifierLifetime": 1200
             }
+        },
+        {
+            "Name": "Bandage_Poultice",
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Bandage_Poultice"
+                },
+                "ModifierLifetime": 300
+            },
+            "DescriptionText": "[DNT]Can be used to cure yourself and others."
         }
     ]
 }

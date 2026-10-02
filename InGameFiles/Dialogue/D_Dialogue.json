@@ -11667,7 +11667,7 @@
             "Name": "RelocatedEvent7Line4",
             "Audio": "/Game/FMOD/Events/Dialogue/NULL_SECTOR/NULL_SECTOR_RELOCATED_EV_7_4.NULL_SECTOR_RELOCATED_EV_7_4",
             "Text": [
-                "NSLOCTEXT(\"D_Dialogue\", \"RelocatedEvent7Line4-Text-0\", \"Oh no, that one was my favourite... :(\")"
+                "NSLOCTEXT(\"D_Dialogue\", \"RelocatedEvent7Line4-Text-0\", \"Oh no, that one was my favorite... :(\")"
             ]
         },
         {
@@ -11795,12 +11795,12 @@
             "Text": [
                 "NSLOCTEXT(\"D_Dialogue\", \"ASHLANDS_STRANDED_CHURCH_INTRO-Text-0\", \"Hey mate, I could use some more help.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"ASHLANDS_STRANDED_CHURCH_INTRO-Text-1\", \"So, I know we aren\\'t supposed to use these rustbuckets.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"ASHLANDS_STRANDED_CHURCH_INTRO-Text-2\", \"But we were desperate.\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"ASHLANDS_STRANDED_CHURCH_INTRO-Text-2\", \"I see why they banned these things, but we were desperate.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"ASHLANDS_STRANDED_CHURCH_INTRO-Text-3\", \"I\\'d love to ditch it here, but the higher-ups heard what we borrowed and well they want it back.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"ASHLANDS_STRANDED_CHURCH_INTRO-Text-4\", \"I\\'m told it\\'s gonna be dismantled and shipped back to earth.\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"ASHLANDS_STRANDED_CHURCH_INTRO-Text-4\", \"I\\'m told it\\'s gonna be dismantled and shipped back to Earth.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"ASHLANDS_STRANDED_CHURCH_INTRO-Text-5\", \"Of all things... mate... the bloody manufacturer wants to display it in their HQ! \")",
                 "NSLOCTEXT(\"D_Dialogue\", \"ASHLANDS_STRANDED_CHURCH_INTRO-Text-6\", \"Here\\'s what we need to repair it, for now at least.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"ASHLANDS_STRANDED_CHURCH_INTRO-Text-7\", \"I already sent two of my guys out to gather. Should make it a bit quicker\")"
+                "NSLOCTEXT(\"D_Dialogue\", \"ASHLANDS_STRANDED_CHURCH_INTRO-Text-7\", \"I already sent two of my guys out to help. Should make it a bit quicker hey.\")"
             ]
         },
         {
@@ -15013,7 +15013,7 @@
             },
             "Text": [
                 "NSLOCTEXT(\"D_Dialogue\", \"GH_ICEMAM_OPT2_1-Text-0\", \"So, you figure if this experiment worked on Mammoths, it might work on other Arctic creatures too?\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"GH_ICEMAM_OPT2_1-Text-1\", \"Interesting. What\\'s your least favourite creature that you\\'d be happy to doom to an awful fate?\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_ICEMAM_OPT2_1-Text-1\", \"Interesting. What\\'s your least favorite creature that you\\'d be happy to doom to an awful fate?\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"GH_ICEMAM_OPT2_1-Text-2\", \"Oh I know. Vespers. Everybody hates Vespers.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"GH_ICEMAM_OPT2_1-Text-3\", \"I hate humans, but no one lets me act on it...\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"GH_ICEMAM_OPT2_1-Text-4\", \"Maybe one day.\")",
@@ -15252,7 +15252,7 @@
             },
             "Text": [
                 "NSLOCTEXT(\"D_Dialogue\", \"GH_ICEMAM_END_4-Text-0\", \"Congratulations, please set any broken bones and stem your bleeding while I validate your progress.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"GH_ICEMAM_END_4-Text-1\", \"Establishing a secure link to speed dial contact: My Favourite Boss.\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_ICEMAM_END_4-Text-1\", \"Establishing a secure link to speed dial contact: My Favorite Boss.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"GH_ICEMAM_END_4-Text-2\", \"Yes! Yes, oh thank god yes.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"GH_ICEMAM_END_4-Text-3\", \"I, uh, knew you\\'d do it. No sweat. No problem.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"GH_ICEMAM_END_4-Text-4\", \"Ah what a relief. I never have to think about this ever again.\")",
@@ -16852,7 +16852,7 @@
                 "RowName": "Agent"
             },
             "Text": [
-                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_G7-Text-0\", \"Oh look, it got out. Perhaps its favourite food is actually human flesh. Wouldn\\'t that be fun?\")"
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_G7-Text-0\", \"Oh look, it got out. Perhaps its favorite food is actually human flesh. Wouldn\\'t that be fun?\")"
             ]
         },
         {
@@ -26964,7 +26964,7 @@
                 "RowName": "Griff"
             },
             "Text": [
-                "NSLOCTEXT(\"D_Dialogue\", \"NPC_FEMALE_GENERIC_GRABTHERADAR-Text-0\", \"I guess you\\'ll be taking over this one! Grab the radar - and good luck!\")"
+                "NSLOCTEXT(\"D_Dialogue\", \"NPC_FEMALE_GENERIC_GRABTHERADAR-Text-0\", \"I guess you\\'ll be taking over this one! Grab that radar - and good luck!\")"
             ]
         },
         {

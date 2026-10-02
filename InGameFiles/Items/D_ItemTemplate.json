@@ -16683,12 +16683,6 @@
             }
         },
         {
-            "Name": "Electric_Motor",
-            "ItemStaticData": {
-                "RowName": "Electric_Motor"
-            }
-        },
-        {
             "Name": "Mission_Medical_Device",
             "ItemStaticData": {
                 "RowName": "Mission_Medical_Device"
@@ -26630,6 +26624,12 @@
             "Name": "Prop_Glass_Display_Cabinet",
             "ItemStaticData": {
                 "RowName": "Prop_Glass_Display_Cabinet"
+            }
+        },
+        {
+            "Name": "Flightless_Tank_Horn",
+            "ItemStaticData": {
+                "RowName": "Flightless_Tank_Horn"
             }
         }
     ]

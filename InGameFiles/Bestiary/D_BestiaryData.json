@@ -1299,7 +1299,7 @@
             "TotalPointsRequired": 1500,
             "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Wild_Boar-Lore1\", \"Wild boar are medium-sized mammals with a stocky build, short legs, and bristly hair. They are typically brown or black in color and have curved tusks that protrude from their mouths.\")",
             "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"Wild_Boar-Lore2\", \"Wild boar are strong and aggressive animals that can defend themselves against predators such as wolves and bears. They are also excellent runners and swimmers. However, they can be a nuisance to prospectors.\")",
-            "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"Wild_Boar-Lore3\", \"\\\"Space bacon. My favourite part of this cursed rock.\\\"\")",
+            "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"Wild_Boar-Lore3\", \"\\\"Space bacon. My favorite part of this cursed rock.\\\"\")",
             "Traits": [
                 {
                     "RowName": "Head_CritSpot",

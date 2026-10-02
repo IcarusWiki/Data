@@ -9,6 +9,10 @@
             "RowName": "None",
             "DataTableName": "D_ItemTemplate"
         },
+        "ItemHelmetVariant": {
+            "RowName": "None",
+            "DataTableName": "D_ItemTemplate"
+        },
         "Color": [],
         "ScalarParamValue": 0,
         "TextureParamValue": "None",
@@ -1131,6 +1135,553 @@
             "Category": "Decal",
             "BodyType": "Neutral",
             "TextureParamValue": "/Game/ASS/CHA/Head/Cap/Logo/ShenGong_icon00.ShenGong_icon00"
+        },
+        {
+            "Name": "Complexion_1",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Complexion_1-DisplayName\", \"Type 1\")",
+            "Category": "Complexion",
+            "BodyType": "Neutral",
+            "TextureParamValue": "/Game/ASS/CHA/Head/New_Heads/T_CHA_MAL_Head_02_A.T_CHA_MAL_Head_02_A"
+        },
+        {
+            "Name": "Complexion_2",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Complexion_2-DisplayName\", \"Type 2\")",
+            "Category": "Complexion",
+            "BodyType": "Neutral",
+            "TextureParamValue": "/Game/ASS/CHA/Head/New_Heads/T_CHA_MAL_Head_03_A.T_CHA_MAL_Head_03_A"
+        },
+        {
+            "Name": "Complexion_3",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Complexion_3-DisplayName\", \"Type 3\")",
+            "Category": "Complexion",
+            "BodyType": "Neutral",
+            "TextureParamValue": "/Game/ASS/CHA/Head/New_Heads/T_CHA_MAL_Head_04_A.T_CHA_MAL_Head_04_A"
+        },
+        {
+            "Name": "Complexion_4",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Complexion_4-DisplayName\", \"Type 4\")",
+            "Category": "Complexion",
+            "BodyType": "Neutral",
+            "TextureParamValue": "/Game/ASS/CHA/Head/New_Heads/T_CHA_MAL_Head_05_A.T_CHA_MAL_Head_05_A"
+        },
+        {
+            "Name": "Complexion_5",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Complexion_5-DisplayName\", \"Type 5\")",
+            "Category": "Complexion",
+            "BodyType": "Neutral",
+            "TextureParamValue": "/Game/ASS/CHA/Head/New_Heads/T_CHA_MAL_Head_06_A.T_CHA_MAL_Head_06_A"
+        },
+        {
+            "Name": "Eyebrows_Female_1",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Eyebrows_Female_1-DisplayName\", \"Type 1\")",
+            "Category": "Eyebrows",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Eyebrow_Female_1"
+            }
+        },
+        {
+            "Name": "Eyebrows_Female_2",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Eyebrows_Female_2-DisplayName\", \"Type 2\")",
+            "Category": "Eyebrows",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Eyebrow_Female_2"
+            }
+        },
+        {
+            "Name": "Eyebrows_Male_1",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Eyebrows_Male_1-DisplayName\", \"Type 1\")",
+            "Category": "Eyebrows",
+            "Item": {
+                "RowName": "Eyebrow_Male_1"
+            }
+        },
+        {
+            "Name": "Eyebrows_Male_2",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Eyebrows_Male_2-DisplayName\", \"Type 2\")",
+            "Category": "Eyebrows",
+            "Item": {
+                "RowName": "Eyebrow_Male_2"
+            }
+        },
+        {
+            "Name": "Hair_Male_1",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Male_1-DisplayName\", \"Style 1\")",
+            "Category": "HairV2",
+            "Item": {
+                "RowName": "Hair_Male_1"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Male_Helmet_1"
+            }
+        },
+        {
+            "Name": "Hair_Male_2",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Male_2-DisplayName\", \"Style 2\")",
+            "Category": "HairV2",
+            "Item": {
+                "RowName": "Hair_Male_2"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Male_Helmet_2"
+            }
+        },
+        {
+            "Name": "Hair_Male_3",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Male_3-DisplayName\", \"Style 3\")",
+            "Category": "HairV2",
+            "Item": {
+                "RowName": "Hair_Male_3"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Male_Helmet_3"
+            }
+        },
+        {
+            "Name": "Hair_Female_1",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Female_1-DisplayName\", \"Feminine Style 1\")",
+            "Category": "HairV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Hair_Female_1"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Female_Helmet_1"
+            }
+        },
+        {
+            "Name": "Hair_Female_2",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Female_2-DisplayName\", \"Style 2\")",
+            "Category": "HairV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Hair_Female_2"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Female_Helmet_2"
+            }
+        },
+        {
+            "Name": "Hair_Female_3",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Female_3-DisplayName\", \"Style 3\")",
+            "Category": "HairV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Hair_Female_3"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Female_Helmet_3"
+            }
+        },
+        {
+            "Name": "Beard_Male_1",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Beard_Male_1-DisplayName\", \"Style 1\")",
+            "Category": "BeardV2",
+            "Item": {
+                "RowName": "Beard_Male_1"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Beard_Male_Helmet_1"
+            }
+        },
+        {
+            "Name": "Beard_Male_2",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Beard_Male_2-DisplayName\", \"Style 2\")",
+            "Category": "BeardV2",
+            "Item": {
+                "RowName": "Beard_Male_2"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Beard_Male_Helmet_2"
+            }
+        },
+        {
+            "Name": "Beard_Female_1",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Beard_Female_1-DisplayName\", \"Style 1\")",
+            "Category": "BeardV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Beard_Female_1"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Beard_Female_Helmet_1"
+            }
+        },
+        {
+            "Name": "Beard_Female_2",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Beard_Female_2-DisplayName\", \"Style 2\")",
+            "Category": "BeardV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Beard_Female_2"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Beard_Female_Helmet_2"
+            }
+        },
+        {
+            "Name": "Eye_Color_New_1",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Eye_Color_New_1-DisplayName\", \"Brown\")",
+            "Category": "EyeColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 21,
+                    "G": 42,
+                    "R": 58,
+                    "A": 255
+                }
+            ],
+            "MaterialOverrides": {
+                "/Game/ASS/CHA/Head/New_Heads/MI_CHA_Custom_Eyes_Brown.MI_CHA_Custom_Eyes_Brown": "/Game/ASS/CHA/Head/New_Heads/MI_CHA_Custom_Eyes_Brown.MI_CHA_Custom_Eyes_Brown"
+            }
+        },
+        {
+            "Name": "Eye_Color_New_2",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Eye_Color_New_2-DisplayName\", \"Blue\")",
+            "Category": "EyeColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 173,
+                    "G": 88,
+                    "R": 52,
+                    "A": 255
+                }
+            ],
+            "MaterialOverrides": {
+                "/Game/ASS/CHA/Head/New_Heads/MI_CHA_Custom_Eyes_Brown.MI_CHA_Custom_Eyes_Brown": "/Game/ASS/CHA/Head/New_Heads/MI_CHA_Custom_Eyes_Blue.MI_CHA_Custom_Eyes_Blue"
+            }
+        },
+        {
+            "Name": "Eye_Color_New_3",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Eye_Color_New_3-DisplayName\", \"Black\")",
+            "Category": "EyeColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 12,
+                    "G": 12,
+                    "R": 12,
+                    "A": 255
+                }
+            ],
+            "MaterialOverrides": {
+                "/Game/ASS/CHA/Head/New_Heads/MI_CHA_Custom_Eyes_Brown.MI_CHA_Custom_Eyes_Brown": "/Game/ASS/CHA/Head/New_Heads/MI_CHA_Custom_Eyes_Black.MI_CHA_Custom_Eyes_Black"
+            }
+        },
+        {
+            "Name": "Eye_Color_New_4",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Eye_Color_New_4-DisplayName\", \"Green\")",
+            "Category": "EyeColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 46,
+                    "G": 182,
+                    "R": 130,
+                    "A": 255
+                }
+            ],
+            "MaterialOverrides": {
+                "/Game/ASS/CHA/Head/New_Heads/MI_CHA_Custom_Eyes_Brown.MI_CHA_Custom_Eyes_Brown": "/Game/ASS/CHA/Head/New_Heads/MI_CHA_Custom_Eyes_Green.MI_CHA_Custom_Eyes_Green"
+            }
+        },
+        {
+            "Name": "Eye_Color_New_5",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Eye_Color_New_5-DisplayName\", \"Gray\")",
+            "Category": "EyeColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 164,
+                    "G": 160,
+                    "R": 150,
+                    "A": 255
+                }
+            ],
+            "MaterialOverrides": {
+                "/Game/ASS/CHA/Head/New_Heads/MI_CHA_Custom_Eyes_Brown.MI_CHA_Custom_Eyes_Brown": "/Game/ASS/CHA/Head/New_Heads/MI_CHA_Custom_Eyes_Gray.MI_CHA_Custom_Eyes_Gray"
+            }
+        },
+        {
+            "Name": "Eye_Color_New_6",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Eye_Color_New_6-DisplayName\", \"Amber\")",
+            "Category": "EyeColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 12,
+                    "G": 77,
+                    "R": 125,
+                    "A": 255
+                }
+            ],
+            "MaterialOverrides": {
+                "/Game/ASS/CHA/Head/New_Heads/MI_CHA_Custom_Eyes_Brown.MI_CHA_Custom_Eyes_Brown": "/Game/ASS/CHA/Head/New_Heads/MI_CHA_Custom_Eyes_Amber.MI_CHA_Custom_Eyes_Amber"
+            }
+        },
+        {
+            "Name": "Hair_Color_New_1",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_1-DisplayName\", \"Brown\")",
+            "Category": "HairColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 12,
+                    "G": 21,
+                    "R": 28,
+                    "A": 255
+                },
+                {
+                    "B": 12,
+                    "G": 21,
+                    "R": 28,
+                    "A": 255
+                }
+            ],
+            "ScalarParamValue": 3
+        },
+        {
+            "Name": "Hair_Color_New_2",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_2-DisplayName\", \"Red\")",
+            "Category": "HairColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 12,
+                    "G": 12,
+                    "R": 21,
+                    "A": 255
+                },
+                {
+                    "B": 12,
+                    "G": 12,
+                    "R": 21,
+                    "A": 255
+                }
+            ],
+            "ScalarParamValue": 3
+        },
+        {
+            "Name": "Hair_Color_New_3",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_3-DisplayName\", \"Blonde\")",
+            "Category": "HairColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 12,
+                    "G": 28,
+                    "R": 38,
+                    "A": 255
+                },
+                {
+                    "B": 12,
+                    "G": 21,
+                    "R": 38,
+                    "A": 255
+                }
+            ],
+            "ScalarParamValue": 2
+        },
+        {
+            "Name": "Hair_Color_New_4",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_4-DisplayName\", \"Orange\")",
+            "Category": "HairColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 12,
+                    "G": 12,
+                    "R": 12,
+                    "A": 255
+                },
+                {
+                    "B": 12,
+                    "G": 12,
+                    "R": 12,
+                    "A": 255
+                }
+            ],
+            "ScalarParamValue": 1.5
+        },
+        {
+            "Name": "Hair_Color_New_5",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_5-DisplayName\", \"Gray\")",
+            "Category": "HairColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 21,
+                    "G": 21,
+                    "R": 21,
+                    "A": 255
+                },
+                {
+                    "B": 58,
+                    "G": 58,
+                    "R": 58,
+                    "A": 255
+                }
+            ],
+            "ScalarParamValue": 1
+        },
+        {
+            "Name": "Piercing_Male_1",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Piercing_Male_1-DisplayName\", \"Type 1\")",
+            "Category": "Piercing",
+            "Item": {
+                "RowName": "Piercing_Male_1"
+            }
+        },
+        {
+            "Name": "Piercing_Male_2",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Piercing_Male_2-DisplayName\", \"Type 2\")",
+            "Category": "Piercing",
+            "Item": {
+                "RowName": "Piercing_Male_2"
+            }
+        },
+        {
+            "Name": "Piercing_Female_1",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Piercing_Female_1-DisplayName\", \"Type 1\")",
+            "Category": "Piercing",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Piercing_Female_1"
+            }
+        },
+        {
+            "Name": "Piercing_Female_2",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Piercing_Female_2-DisplayName\", \"Type 2\")",
+            "Category": "Piercing",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Piercing_Female_2"
+            }
+        },
+        {
+            "Name": "Scar_V2_1",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Scar_V2_1-DisplayName\", \"Scar 1\")",
+            "Category": "ScarV2",
+            "BodyType": "Neutral",
+            "ScalarParamValue": 1
+        },
+        {
+            "Name": "Scar_V2_2",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Scar_V2_2-DisplayName\", \"Scar 2\")",
+            "Category": "ScarV2",
+            "BodyType": "Neutral",
+            "ScalarParamValue": 2
+        },
+        {
+            "Name": "Scar_V2_3",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Scar_V2_3-DisplayName\", \"Scar 3\")",
+            "Category": "ScarV2",
+            "BodyType": "Neutral",
+            "ScalarParamValue": 3
+        },
+        {
+            "Name": "Scar_V2_4",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Scar_V2_4-DisplayName\", \"Scar 4\")",
+            "Category": "ScarV2",
+            "BodyType": "Neutral",
+            "ScalarParamValue": 4
+        },
+        {
+            "Name": "Scar_V2_5",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Scar_V2_5-DisplayName\", \"Scar 5\")",
+            "Category": "ScarV2",
+            "BodyType": "Neutral",
+            "ScalarParamValue": 5
+        },
+        {
+            "Name": "Scar_V2_6",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Scar_V2_6-DisplayName\", \"Scar 6\")",
+            "Category": "ScarV2",
+            "BodyType": "Neutral",
+            "ScalarParamValue": 6
+        },
+        {
+            "Name": "Head_V2_Male",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Head_V2_Male-DisplayName\", \"Default Masculine\")",
+            "Category": "HeadV2",
+            "Item": {
+                "RowName": "Head_Male_V2"
+            }
+        },
+        {
+            "Name": "Head_V2_Female",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Head_V2_Female-DisplayName\", \"Default Feminine\")",
+            "Category": "HeadV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Head_Female_V2"
+            }
+        },
+        {
+            "Name": "Head_Age_1",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Head_Age_1-DisplayName\", \"Young\")",
+            "Category": "AgeV2",
+            "BodyType": "Neutral",
+            "TextureParamValue": "/Game/ASS/CHA/Head/New_Heads/T_CHA_Age_Young_N.T_CHA_Age_Young_N"
+        },
+        {
+            "Name": "Head_Age_2",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Head_Age_2-DisplayName\", \"Adult\")",
+            "Category": "AgeV2",
+            "BodyType": "Neutral",
+            "TextureParamValue": "/Game/ASS/CHA/Head/New_Heads/T_CHA_Age_Adult_N.T_CHA_Age_Adult_N"
+        },
+        {
+            "Name": "Head_Age_3",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Head_Age_3-DisplayName\", \"Middle-aged\")",
+            "Category": "AgeV2",
+            "BodyType": "Neutral",
+            "TextureParamValue": "/Game/ASS/CHA/Head/New_Heads/T_CHA_Age_MiddleAged_N.T_CHA_Age_MiddleAged_N"
+        },
+        {
+            "Name": "Head_Age_4",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Head_Age_4-DisplayName\", \"Elder\")",
+            "Category": "AgeV2",
+            "BodyType": "Neutral",
+            "TextureParamValue": "/Game/ASS/CHA/Head/New_Heads/T_CHA_Age_Elder_N.T_CHA_Age_Elder_N"
+        },
+        {
+            "Name": "Rebreather_Male_1",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Rebreather_Male_1-DisplayName\", \"Rebreather\")",
+            "Category": "Rebreather",
+            "Item": {
+                "RowName": "Rebreather_Male_1"
+            }
+        },
+        {
+            "Name": "Rebreather_Female_1",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Rebreather_Female_1-DisplayName\", \"Rebreather\")",
+            "Category": "Rebreather",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Rebreather_Female_1"
+            }
+        },
+        {
+            "Name": "Helmet_Hood_1",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Helmet_Hood_1-DisplayName\", \"Hood\")",
+            "Category": "Hood",
+            "BodyType": "Neutral",
+            "Item": {
+                "RowName": "Helmet_Hood_1"
+            }
+        },
+        {
+            "Name": "Helmet_V2_1",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Helmet_V2_1-DisplayName\", \"Helmet\")",
+            "Category": "Helmet",
+            "BodyType": "Neutral",
+            "Item": {
+                "RowName": "Helmet_V2_1"
+            }
         }
     ]
 }

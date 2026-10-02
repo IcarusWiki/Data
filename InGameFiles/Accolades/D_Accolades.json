@@ -2670,8 +2670,8 @@
         },
         {
             "Name": "AluminumMined200",
-            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"AluminumMined200-DisplayName\", \"Aluminum Master I\")",
-            "Description": "NSLOCTEXT(\"D_Accolades\", \"AluminumMined200-Description\", \"Mine 200 Aluminum \")",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"AluminumMined200-DisplayName\", \"Aluminium Master I\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"AluminumMined200-Description\", \"Mine 200 Aluminium \")",
             "Icon": "/Game/Assets/2DArt/UI/Accolades/Ribbons/ribbon-minealuminum1.ribbon-minealuminum1",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
@@ -2684,8 +2684,8 @@
         },
         {
             "Name": "AluminumMined500",
-            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"AluminumMined500-DisplayName\", \"Aluminum Master II\")",
-            "Description": "NSLOCTEXT(\"D_Accolades\", \"AluminumMined500-Description\", \"Mine 500 Aluminum \")",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"AluminumMined500-DisplayName\", \"Aluminium Master II\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"AluminumMined500-Description\", \"Mine 500 Aluminium \")",
             "Icon": "/Game/Assets/2DArt/UI/Accolades/Ribbons/ribbon-minealuminum2.ribbon-minealuminum2",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
@@ -2698,8 +2698,8 @@
         },
         {
             "Name": "AluminumMined1000",
-            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"AluminumMined1000-DisplayName\", \"Aluminum Master III\")",
-            "Description": "NSLOCTEXT(\"D_Accolades\", \"AluminumMined1000-Description\", \"Mine 1000 Aluminum \")",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"AluminumMined1000-DisplayName\", \"Aluminium Master III\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"AluminumMined1000-Description\", \"Mine 1000 Aluminium \")",
             "Icon": "/Game/Assets/2DArt/UI/Accolades/Ribbons/ribbon-minealuminum3.ribbon-minealuminum3",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
@@ -2712,8 +2712,8 @@
         },
         {
             "Name": "AluminumMined5000",
-            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"AluminumMined5000-DisplayName\", \"Aluminum Master IV\")",
-            "Description": "NSLOCTEXT(\"D_Accolades\", \"AluminumMined5000-Description\", \"Mine 5000 Aluminum \")",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"AluminumMined5000-DisplayName\", \"Aluminium Master IV\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"AluminumMined5000-Description\", \"Mine 5000 Aluminium \")",
             "Icon": "/Game/Assets/2DArt/UI/Accolades/Ribbons/ribbon-minealuminum4.ribbon-minealuminum4",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
@@ -2726,8 +2726,8 @@
         },
         {
             "Name": "AluminumMined10000",
-            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"AluminumMined10000-DisplayName\", \"Aluminum Master V\")",
-            "Description": "NSLOCTEXT(\"D_Accolades\", \"AluminumMined10000-Description\", \"Mine 10000 Aluminum \")",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"AluminumMined10000-DisplayName\", \"Aluminium Master V\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"AluminumMined10000-Description\", \"Mine 10000 Aluminium \")",
             "Icon": "/Game/Assets/2DArt/UI/Accolades/Ribbons/ribbon-minealuminum5.ribbon-minealuminum5",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
@@ -3720,8 +3720,8 @@
         },
         {
             "Name": "IronBuildingsCrafted20",
-            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"IronBuildingsCrafted20-DisplayName\", \"Novice Aluminum Builder\")",
-            "Description": "NSLOCTEXT(\"D_Accolades\", \"IronBuildingsCrafted20-Description\", \"Construct 20 Aluminum building pieces\")",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"IronBuildingsCrafted20-DisplayName\", \"Novice Aluminium Builder\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"IronBuildingsCrafted20-Description\", \"Construct 20 Aluminium building pieces\")",
             "Icon": "/Game/Assets/2DArt/UI/Accolades/Ribbons/ribbon-builderiron1.ribbon-builderiron1",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
@@ -3734,8 +3734,8 @@
         },
         {
             "Name": "IronBuildingsCrafted50",
-            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"IronBuildingsCrafted50-DisplayName\", \"Proficient Aluminum Builder\")",
-            "Description": "NSLOCTEXT(\"D_Accolades\", \"IronBuildingsCrafted50-Description\", \"Construct 50 Aluminum building pieces\")",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"IronBuildingsCrafted50-DisplayName\", \"Proficient Aluminium Builder\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"IronBuildingsCrafted50-Description\", \"Construct 50 Aluminium building pieces\")",
             "Icon": "/Game/Assets/2DArt/UI/Accolades/Ribbons/ribbon-builderiron2.ribbon-builderiron2",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
@@ -3748,8 +3748,8 @@
         },
         {
             "Name": "IronBuildingsCrafted100",
-            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"IronBuildingsCrafted100-DisplayName\", \"Experienced Aluminum Builder\")",
-            "Description": "NSLOCTEXT(\"D_Accolades\", \"IronBuildingsCrafted100-Description\", \"Construct 100 Aluminum building pieces\")",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"IronBuildingsCrafted100-DisplayName\", \"Experienced Aluminium Builder\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"IronBuildingsCrafted100-Description\", \"Construct 100 Aluminium building pieces\")",
             "Icon": "/Game/Assets/2DArt/UI/Accolades/Ribbons/ribbon-builderiron3.ribbon-builderiron3",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
@@ -3762,8 +3762,8 @@
         },
         {
             "Name": "IronBuildingsCrafted500",
-            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"IronBuildingsCrafted500-DisplayName\", \"Expert Aluminum Builder\")",
-            "Description": "NSLOCTEXT(\"D_Accolades\", \"IronBuildingsCrafted500-Description\", \"Construct 500 Aluminum building pieces\")",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"IronBuildingsCrafted500-DisplayName\", \"Expert Aluminium Builder\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"IronBuildingsCrafted500-Description\", \"Construct 500 Aluminium building pieces\")",
             "Icon": "/Game/Assets/2DArt/UI/Accolades/Ribbons/ribbon-builderiron4.ribbon-builderiron4",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {
@@ -3776,8 +3776,8 @@
         },
         {
             "Name": "IronBuildingsCrafted1000",
-            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"IronBuildingsCrafted1000-DisplayName\", \"Professional Aluminum Builder\")",
-            "Description": "NSLOCTEXT(\"D_Accolades\", \"IronBuildingsCrafted1000-Description\", \"Construct 1000 Aluminum building pieces\")",
+            "DisplayName": "NSLOCTEXT(\"D_Accolades\", \"IronBuildingsCrafted1000-DisplayName\", \"Professional Aluminium Builder\")",
+            "Description": "NSLOCTEXT(\"D_Accolades\", \"IronBuildingsCrafted1000-Description\", \"Construct 1000 Aluminium building pieces\")",
             "Icon": "/Game/Assets/2DArt/UI/Accolades/Ribbons/ribbon-builderiron5.ribbon-builderiron5",
             "AccoladeImpl": "/Script/Icarus.TrackerAccolade",
             "Category": {

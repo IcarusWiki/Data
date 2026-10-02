@@ -13594,7 +13594,7 @@
         {
             "Name": "VoxelCharged_Bauxite",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_MetaResource.Icon_MetaResource'",
-            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"VoxelCharged_Bauxite-ModifierName\", \"Imbued: Aluminum\")",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"VoxelCharged_Bauxite-ModifierName\", \"Imbued: Aluminium\")",
             "ModifierDescription": "",
             "MergeType": "LongestDuration",
             "bEffectsObjects": true,
@@ -16519,6 +16519,7 @@
         {
             "Name": "Sterile",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_MODIFIER_infertile.T_ICON_MODIFIER_infertile'",
+            "Type": "Debuff",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Sterile-ModifierName\", \"Infertile\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Sterile-ModifierDescription\", \"Due to Experimentation of Injury this creature is now Infertile and can no longer produce children.\")",
             "MergeType": "LongestDuration",
@@ -16530,8 +16531,7 @@
                     }
                 ]
             },
-            "bEffectsPlayers": false,
-            "SaveToDatabase": false
+            "bEffectsPlayers": false
         },
         {
             "Name": "Settlement_BurstPipes",
@@ -16580,6 +16580,7 @@
         {
             "Name": "Heavily_Damaged",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Tools.Icon_Tools'",
+            "Type": "Debuff",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Heavily_Damaged-ModifierName\", \"Heavily Damaged\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Heavily_Damaged-ModifierDescription\", \"Vehicle is Heavily Damaged.\")",
             "GrantedStats": {
@@ -17180,6 +17181,7 @@
         },
         {
             "Name": "Pickled_Ginger",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_PickledGinger.T_ITEM_PickledGinger'",
             "ModifierName": "INVTEXT(\"[DNT]Pickled Ginger\")",
             "ModifierDescription": "INVTEXT(\"[DNT]Boosts max stamina and basic wound resistance, and increases shared experience gained.\")",
             "GrantedStats": {
@@ -17203,6 +17205,7 @@
         },
         {
             "Name": "Ginger_Curry",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_GingerCarrotSoup.T_ITEM_GingerCarrotSoup'",
             "ModifierName": "INVTEXT(\"[DNT]Ginger Meat Curry\")",
             "ModifierDescription": "INVTEXT(\"[DNT]Increases Health, Stamina, Harvesting Rewards, Threat Against Animals, and Basic Wound Resistance.\")",
             "GrantedStats": {
@@ -17223,6 +17226,7 @@
         },
         {
             "Name": "Ginger_Carrot_Soup",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_GingerSoup.T_ITEM_GingerSoup'",
             "ModifierName": "INVTEXT(\"[DNT]Ginger and Carrot Soup\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Ginger_Carrot_Soup-ModifierDescription\", \"[DNT}Boosts stamina and improve health regeneration noticeably.\")",
             "GrantedStats": {
@@ -17264,6 +17268,7 @@
         },
         {
             "Name": "Gingerbread_Loaf",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_GingerLoaf.T_ITEM_GingerLoaf'",
             "ModifierName": "INVTEXT(\"[DNT]Gingerbread Loaf\")",
             "ModifierDescription": "INVTEXT(\"[DNT]Boosts Health, Stamina, Experience, and Basic Wound Resistance.\")",
             "GrantedStats": {
@@ -17323,6 +17328,30 @@
             "MergeType": "LongestDuration",
             "bEffectsNPCs": false,
             "SaveToDatabase": false
+        },
+        {
+            "Name": "Bandage_Poultice",
+            "ModifierName": "INVTEXT(\"[DNT]Poultice Bandage\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]Heals bleedings and wounds and will prevent future wounds.\")",
+            "GrantedStats": {
+                "(Value=\"BaseWoundResistance_%\")": 15
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "None"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Bandage"
+                    }
+                ]
+            },
+            "EffectsCustomActor": {
+                "RowName": "Faction_Mission_NPC"
+            }
         }
     ]
 }

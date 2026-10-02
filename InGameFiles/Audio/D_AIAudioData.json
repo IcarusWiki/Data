@@ -7455,16 +7455,30 @@
                 "RowName": "Large_Dino_Attack"
             },
             "DeathVocalisation": {
-                "RowName": "Large_Dino_Attack"
+                "RowName": "Large_Dino_Roar"
             },
             "StateVocalisations": {
                 "Attacking": {
+                    "StateEnteredVocalisation": {
+                        "RowName": "Large_Dino_Roar",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StatePersistentVocalisation": {
+                        "RowName": "Large_Dino_Aggro",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StateExitedVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    }
+                },
+                "Idle": {
                     "StateEnteredVocalisation": {
                         "RowName": "None",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StatePersistentVocalisation": {
-                        "RowName": "Large_Dino_Aggro",
+                        "RowName": "Large_Dino_Idle",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StateExitedVocalisation": {

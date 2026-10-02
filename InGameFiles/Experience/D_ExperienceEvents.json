@@ -1102,12 +1102,12 @@
         {
             "Name": "Watered_Crop",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Watered_Crop-EventDescription\", \"Watered Crop\")",
-            "ExperienceGranted": 100
+            "ExperienceGranted": 150
         },
         {
             "Name": "Fertalised_Crop",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Fertalised_Crop-EventDescription\", \"Fertilized Crop\")",
-            "ExperienceGranted": 100
+            "ExperienceGranted": 150
         },
         {
             "Name": "Kill_Horse",
@@ -2254,6 +2254,12 @@
             "EventDescription": "INVTEXT(\"[DNT] Killed Ground Dragon\")",
             "SharedExperience": true,
             "ExperienceGranted": 5000
+        },
+        {
+            "Name": "MineLead",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"MineLead-EventDescription\", \"Mine Lead\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 40
         }
     ]
 }

@@ -544,7 +544,7 @@
         },
         {
             "Name": "AllJavelins",
-            "DisplayName": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllJavelins-DisplayName\", \"The Sand Slinger\")",
+            "DisplayName": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllJavelins-DisplayName\", \"Javelin Launcher\")",
             "AmmoTypes": [
                 {
                     "RowName": "Bone_Throwing_Spear",
@@ -908,15 +908,7 @@
                     "DataTableName": "D_ItemsStatic"
                 },
                 {
-                    "RowName": "Launcher_Ammo_Rudimentary_Stone",
-                    "DataTableName": "D_ItemsStatic"
-                },
-                {
                     "RowName": "Launcher_Ammo_Rudimentary_Grenade",
-                    "DataTableName": "D_ItemsStatic"
-                },
-                {
-                    "RowName": "Launcher_Ammo_Rudimentary_Nail_Projectile",
                     "DataTableName": "D_ItemsStatic"
                 },
                 {
@@ -925,45 +917,6 @@
                 }
             ],
             "Description": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllLauncher-Description\", \"Grenades/Flares\")"
-        },
-        {
-            "Name": "AllT2Launcher",
-            "DisplayName": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllT2Launcher-DisplayName\", \"Rudimentary Projectiles\")",
-            "AmmoTypes": [
-                {
-                    "RowName": "Flare_Green",
-                    "DataTableName": "D_ItemsStatic"
-                },
-                {
-                    "RowName": "Flare_Red",
-                    "DataTableName": "D_ItemsStatic"
-                },
-                {
-                    "RowName": "Flare_Blue",
-                    "DataTableName": "D_ItemsStatic"
-                },
-                {
-                    "RowName": "Flare_Yellow",
-                    "DataTableName": "D_ItemsStatic"
-                },
-                {
-                    "RowName": "Launcher_Ammo_Rudimentary_Stone",
-                    "DataTableName": "D_ItemsStatic"
-                },
-                {
-                    "RowName": "Launcher_Ammo_Rudimentary_Grenade",
-                    "DataTableName": "D_ItemsStatic"
-                },
-                {
-                    "RowName": "Launcher_Ammo_Rudimentary_Nail_Projectile",
-                    "DataTableName": "D_ItemsStatic"
-                },
-                {
-                    "RowName": "Launcher_Ammo_Rudimentary_Smoke",
-                    "DataTableName": "D_ItemsStatic"
-                }
-            ],
-            "Description": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllT2Launcher-Description\", \"Rudimentary Projectiles\")"
         }
     ]
 }

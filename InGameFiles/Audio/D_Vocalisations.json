@@ -4529,6 +4529,20 @@
             "Setting": {
                 "RowName": "Persistent"
             }
+        },
+        {
+            "Name": "Large_Dino_Roar",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Large_Dino/SFX_CRE_VOCAL_LARGE_DINO_ROAR.SFX_CRE_VOCAL_LARGE_DINO_ROAR",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "Large_Dino_Idle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Large_Dino/SFX_CRE_VOCAL_LARGE_DINO_IDLE.SFX_CRE_VOCAL_LARGE_DINO_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
         }
     ]
 }

@@ -1064,16 +1064,20 @@
                 "TagDictionary": [
                     {
                         "TagName": "Item.Consumable.Food.Cooked"
+                    },
+                    {
+                        "TagName": "Item.Consumable.Food.Cake"
                     }
                 ],
                 "QueryTokenStream": [
                     0,
                     1,
                     1,
-                    1,
-                    0
+                    2,
+                    0,
+                    1
                 ],
-                "AutoDescription": " ANY( Item.Consumable.Food.Cooked )"
+                "AutoDescription": " ANY( Item.Consumable.Food.Cooked, Item.Consumable.Food.Cake )"
             }
         },
         {
@@ -5128,7 +5132,13 @@
                         "TagName": "Item.Tool.Thrown"
                     },
                     {
+                        "TagName": "Item.Tool.CaptureDevice"
+                    },
+                    {
                         "TagName": "Item.Resource.Stick"
+                    },
+                    {
+                        "TagName": "Item.Weapon.Gauntlet"
                     }
                 ],
                 "QueryTokenStream": [
@@ -5137,16 +5147,18 @@
                     5,
                     2,
                     1,
-                    4,
+                    5,
                     0,
                     1,
                     2,
                     3,
+                    4,
                     3,
-                    1,
-                    4
+                    2,
+                    5,
+                    6
                 ],
-                "AutoDescription": " ALL(  ANY( Item.Ammo, Item.Weapon, Item.Tool.Knife.Thrown, Item.Tool.Thrown ),  NONE( Item.Resource.Stick ) )"
+                "AutoDescription": " ALL(  ANY( Item.Ammo, Item.Weapon, Item.Tool.Knife.Thrown, Item.Tool.Thrown, Item.Tool.CaptureDevice ),  NONE( Item.Resource.Stick, Item.Weapon.Gauntlet ) )"
             }
         },
         {
@@ -5254,12 +5266,9 @@
             }
         },
         {
-            "Name": "Any_ResourceNetworkRelated",
+            "Name": "FieldGuide_ResourceNetwork",
             "Query": {
                 "TagDictionary": [
-                    {
-                        "TagName": "Item.ResourceGenerator"
-                    },
                     {
                         "TagName": "FieldGuide.ResourceNetwork"
                     }
@@ -5268,11 +5277,10 @@
                     0,
                     1,
                     1,
-                    2,
-                    0,
-                    1
+                    1,
+                    0
                 ],
-                "AutoDescription": " ANY( item.ResourceGenerator, FieldGuide.ResourceNetwork )"
+                "AutoDescription": " ANY( FieldGuide.ResourceNetwork )"
             }
         },
         {
@@ -5367,6 +5375,42 @@
                     0
                 ],
                 "AutoDescription": " ANY( Item.Ammo.Rifle )"
+            }
+        },
+        {
+            "Name": "Any_Sniper_Ammo",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Ammo.Sniper"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Ammo.Sniper )"
+            }
+        },
+        {
+            "Name": "Any_AssaultRifle_Ammo",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Ammo.AssaultRifle"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Ammo.AssaultRifle )"
             }
         },
         {
@@ -5468,9 +5512,6 @@
             "Query": {
                 "TagDictionary": [
                     {
-                        "TagName": "Item.Equip.Quickbar"
-                    },
-                    {
                         "TagName": "Item.Backpack"
                     },
                     {
@@ -5480,7 +5521,56 @@
                         "TagName": "FieldGuide.Equipment"
                     },
                     {
+                        "TagName": "Item.Consumable.Water"
+                    },
+                    {
+                        "TagName": "Item.Shield"
+                    },
+                    {
                         "TagName": "Item.Tool.Shovel"
+                    },
+                    {
+                        "TagName": "Item.Mount.Saddle"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    2,
+                    1,
+                    5,
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    3,
+                    2,
+                    5,
+                    6
+                ],
+                "AutoDescription": " ALL(  ANY( Item.Backpack, Item.Upgrade.Vision, FieldGuide.Equipment, Item.Consumable.Water, Item.Shield ),  NONE( Item.Tool.Shovel, Item.Mount.Saddle ) )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Food",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Consumable.Food"
+                    },
+                    {
+                        "TagName": "NPC.Fish"
+                    },
+                    {
+                        "TagName": "FieldGuide.Food"
+                    },
+                    {
+                        "TagName": "Item.Consumable.Drink"
+                    },
+                    {
+                        "TagName": "Item.Consumable.Food.Spoiled"
                     }
                 ],
                 "QueryTokenStream": [
@@ -5498,33 +5588,7 @@
                     1,
                     4
                 ],
-                "AutoDescription": " ALL(  ANY( Item.Equip.Quickbar, Item.Backpack, Item.Upgrade.Vision, FieldGuide.Equipment ),  NONE( Item.Tool.Shovel ) )"
-            }
-        },
-        {
-            "Name": "FieldGuide_Food",
-            "Query": {
-                "TagDictionary": [
-                    {
-                        "TagName": "Item.Consumable.Food"
-                    },
-                    {
-                        "TagName": "NPC.Fish"
-                    },
-                    {
-                        "TagName": "FieldGuide.Food"
-                    }
-                ],
-                "QueryTokenStream": [
-                    0,
-                    1,
-                    1,
-                    3,
-                    0,
-                    1,
-                    2
-                ],
-                "AutoDescription": " ANY( Item.Consumable.Food, NPC.Fish, FieldGuide.Food )"
+                "AutoDescription": " ALL(  ANY( Item.Consumable.Food, NPC.Fish, FieldGuide.Food, Item.Consumable.Drink ),  NONE( Item.Consumable.Food.Spoiled ) )"
             }
         },
         {
@@ -5538,6 +5602,9 @@
                         "TagName": "Item.Weapon.Spear.Melee"
                     },
                     {
+                        "TagName": "Item.Weapon.Gauntlet"
+                    },
+                    {
                         "TagName": "Item.Tool.Knife.Thrown"
                     },
                     {
@@ -5545,6 +5612,9 @@
                     },
                     {
                         "TagName": "Item.Weapon.Spear.Thrown"
+                    },
+                    {
+                        "TagName": "Item.Tool.CaptureDevice"
                     }
                 ],
                 "QueryTokenStream": [
@@ -5553,16 +5623,18 @@
                     5,
                     2,
                     1,
-                    2,
+                    3,
                     0,
                     1,
-                    3,
-                    3,
                     2,
                     3,
-                    4
+                    4,
+                    3,
+                    4,
+                    5,
+                    6
                 ],
-                "AutoDescription": " ALL(  ANY( Item.Tool, Item.Weapon.Spear.Melee ),  NONE( Item.Tool.Knife.Thrown, Item.Tool.Thrown, Item.Weapon.Spear.Thrown ) )"
+                "AutoDescription": " ALL(  ANY( Item.Tool, Item.Weapon.Spear.Melee, Item.Weapon.Gauntlet ),  NONE( Item.Tool.Knife.Thrown, Item.Tool.Thrown, Item.Weapon.Spear.Thrown, Item.Tool.CaptureDevice ) )"
             }
         },
         {
@@ -6559,22 +6631,26 @@
                     },
                     {
                         "TagName": "Item.Husbandry.Serum"
+                    },
+                    {
+                        "TagName": "Item.Mount.Saddle"
                     }
                 ],
                 "QueryTokenStream": [
                     0,
                     1,
                     1,
-                    7,
+                    8,
                     0,
                     1,
                     2,
                     3,
                     4,
                     5,
-                    6
+                    6,
+                    7
                 ],
-                "AutoDescription": " ANY( Item.Deployable.TameBed, Item.AnimalFeed, FieldGuide.Husbandry, Item.Meta.Animal, Item.Creature.Bait, Item.Deployable.Tame, Item.Husbandry.Serum )"
+                "AutoDescription": " ANY( Item.Deployable.TameBed, Item.AnimalFeed, FieldGuide.Husbandry, Item.Meta.Animal, Item.Creature.Bait, Item.Deployable.Tame, Item.Husbandry.Serum, Item.Mount.Saddle )"
             }
         },
         {
@@ -6627,17 +6703,29 @@
                     },
                     {
                         "TagName": "FieldGuide.Resource"
+                    },
+                    {
+                        "TagName": "FieldGuide.Ore"
+                    },
+                    {
+                        "TagName": "FieldGuide.Deployable.Stack"
                     }
                 ],
                 "QueryTokenStream": [
                     0,
                     1,
+                    5,
+                    2,
+                    1,
+                    3,
+                    0,
                     1,
                     2,
-                    0,
-                    1
+                    3,
+                    1,
+                    3
                 ],
-                "AutoDescription": " ANY( Item.Resource, FieldGuide.Resource )"
+                "AutoDescription": " ALL(  ANY( Item.Resource, FieldGuide.Resource, FieldGuide.Ore ),  NONE( FieldGuide.Deployable.Stack ) )"
             }
         },
         {
@@ -6715,25 +6803,29 @@
             }
         },
         {
-            "Name": "FieldGuide_DeplopyableStorage",
+            "Name": "FieldGuide_Deployable_Storage",
             "Query": {
                 "TagDictionary": [
                     {
-                        "TagName": "Item.Deployable.ResourceStorage"
+                        "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "FieldGuide.Deployable.Storage"
                     }
                 ],
                 "QueryTokenStream": [
                     0,
                     1,
                     1,
-                    1,
-                    0
+                    2,
+                    0,
+                    1
                 ],
-                "AutoDescription": " ANY( Item.Deployable.ResourceStorage )"
+                "AutoDescription": " ANY( Item.Deployable.Storage, FieldGuide.Deployable.Storage )"
             }
         },
         {
-            "Name": "FieldGuide_DeplopyableWaterStorage",
+            "Name": "FieldGuide_Deployable_WaterStorage",
             "Query": {
                 "TagDictionary": [
                     {
@@ -6751,7 +6843,7 @@
             }
         },
         {
-            "Name": "FieldGuide_DeplopyableEnergyStorage",
+            "Name": "FieldGuide_Deployable_EnergyStorage",
             "Query": {
                 "TagDictionary": [
                     {
@@ -7266,6 +7358,29 @@
                 "AutoDescription": " ALL( Item.Attachment.HarvestCart )"
             },
             "DisplayName": "NSLOCTEXT(\"D_TagQueries\", \"Any_Harvester_Attachment-DisplayName\", \"Harvester Attachment\")"
+        },
+        {
+            "Name": "Any_Cart_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.HarvestCart"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Plough"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Attachment.HarvestCart, Item.Attachment.Plough )"
+            },
+            "DisplayName": "NSLOCTEXT(\"D_TagQueries\", \"Any_Cart_Attachment-DisplayName\", \"Harvester Attachment\")"
         },
         {
             "Name": "WorldObject_MiningDamageOnly",
@@ -8345,17 +8460,21 @@
                     },
                     {
                         "TagName": "Item.Communicator"
+                    },
+                    {
+                        "TagName": "FieldGuide.Deployable.Stack"
                     }
                 ],
                 "QueryTokenStream": [
                     0,
                     1,
                     1,
-                    2,
+                    3,
                     0,
-                    1
+                    1,
+                    2
                 ],
-                "AutoDescription": " ANY( Traits.Deployable, Item.Communicator )"
+                "AutoDescription": " ANY( Traits.Deployable, Item.Communicator, FieldGuide.Deployable.Stack )"
             }
         },
         {
@@ -9006,6 +9125,2224 @@
                     0
                 ],
                 "AutoDescription": " ANY( Item.Consumable.Food.Roast )"
+            }
+        },
+        {
+            "Name": "Any_Grenade_Fieldguide",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Weapon.Grenade"
+                    },
+                    {
+                        "TagName": "Item.Tool.CaptureDevice"
+                    },
+                    {
+                        "TagName": "Item.Ammo.Launcher.Makeshift"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    3,
+                    0,
+                    1,
+                    2
+                ],
+                "AutoDescription": " ANY( Item.Weapon.Grenade, Item.Tool.CaptureDevice, Item.Ammo.Launcher.Makeshift )"
+            }
+        },
+        {
+            "Name": "Any_Bow_Fieldguide",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Weapon.Bow"
+                    },
+                    {
+                        "TagName": "Item.Weapon.Crossbow"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    2,
+                    1,
+                    1,
+                    0,
+                    3,
+                    1,
+                    1
+                ],
+                "AutoDescription": " ALL(  ANY( Item.Weapon.Bow ),  NONE( Item.Weapon.Crossbow ) )"
+            }
+        },
+        {
+            "Name": "Any_Armor_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Armor"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Attachment.Armor )"
+            }
+        },
+        {
+            "Name": "Any_Ranged_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Bow"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Crossbow"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Pistol"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Rifle"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Shotgun"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Laser"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    6,
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "AutoDescription": " ANY( Item.Attachment.Bow, Item.Attachment.Crossbow, Item.Attachment.Pistol, Item.Attachment.Rifle, Item.Attachment.Shotgun, Item.Attachment.Laser )"
+            }
+        },
+        {
+            "Name": "Any_Melee_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Axe"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Hammer"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Knife"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Melee"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Pickaxe"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Shield"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Shovel"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Sickle"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Sledgehammer"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Spear"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    10,
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ],
+                "AutoDescription": " ANY( Item.Attachment.Axe, Item.Attachment.Hammer, Item.Attachment.Knife, Item.Attachment.Melee, Item.Attachment.Pickaxe, Item.Attachment.Shield, Item.Attachment.Shovel, Item.Attachment.Sickle, Item.Attachment.Sledgehammer, Item.Attachment.Spear )"
+            }
+        },
+        {
+            "Name": "Any_Lure_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.FishingRod"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Attachment.FishingRod )"
+            }
+        },
+        {
+            "Name": "Any_Windmill_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Windmill"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Attachment.Windmill )"
+            }
+        },
+        {
+            "Name": "Any_Meta_ResourcePack",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Meta.Package.Resource"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Meta.Package.Resource )"
+            }
+        },
+        {
+            "Name": "Any_Meta_FarmingSeeds",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Meta.Package.Seeds"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Meta.Package.Seeds )"
+            }
+        },
+        {
+            "Name": "Any_Meta_MedicalRepair",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Meta.Package.Medical"
+                    },
+                    {
+                        "TagName": "Item.Meta.Package.Repair"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Meta.Package.Medical, Item.Meta.Package.Repair )"
+            }
+        },
+        {
+            "Name": "Any_Meta_Ammo",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Meta.Package.Ammo"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Meta.Package.Ammo )"
+            }
+        },
+        {
+            "Name": "Any_Meta_Ammo_Arrows",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Meta.Package.Ammo.Arrows"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Meta.Package.Ammo.Arrows )"
+            }
+        },
+        {
+            "Name": "Any_Meta_Ammo_Bolts",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Meta.Package.Ammo.Bolts"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Meta.Package.Ammo.Bolts )"
+            }
+        },
+        {
+            "Name": "Any_Meta_Ammo_Pistol",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Meta.Package.Ammo.Pistol"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Meta.Package.Ammo.Pistol )"
+            }
+        },
+        {
+            "Name": "Any_Meta_Ammo_Shotgun",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Meta.Package.Ammo.Shotgun"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Meta.Package.Ammo.Shotgun )"
+            }
+        },
+        {
+            "Name": "Any_Meta_Ammo_AssaultRifle",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Meta.Package.Ammo.AssaultRifle"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Meta.Package.Ammo.AssaultRifle )"
+            }
+        },
+        {
+            "Name": "Any_Drink",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Consumable.Drink"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Consumable.Drink )"
+            }
+        },
+        {
+            "Name": "Food_Dried",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Consumable.Food.Dried"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Consumable.Food.Dried )"
+            }
+        },
+        {
+            "Name": "Food_Workshop",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Consumable.Food.Workshop"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Consumable.Food.Workshop )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Equipment_Biofuel",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Equipment.Biofuel"
+                    },
+                    {
+                        "TagName": "Item.Fillable.Biofuel"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( FieldGuide.Equipment.Biofuel, Item.Fillable.Biofuel )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Equipment_Water",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Equipment.Water"
+                    },
+                    {
+                        "TagName": "Item.Fillable.Water"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( FieldGuide.Equipment.Water, Item.Fillable.Water )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Equipment_Electricity",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Equipment.Electricity"
+                    },
+                    {
+                        "TagName": "Item.Fillable.Energy"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( FieldGuide.Equipment.Electricity, Item.Fillable.Energy )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Equipment_Oil",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Equipment.Oil"
+                    },
+                    {
+                        "TagName": "Item.Fillable.RefinedOil"
+                    },
+                    {
+                        "TagName": "Item.Fillable.CrudeOil"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    3,
+                    0,
+                    1,
+                    2
+                ],
+                "AutoDescription": " ANY( FieldGuide.Equipment.Oil, Item.Fillable.RefinedOil, Item.Fillable.CrudeOil )"
+            }
+        },
+        {
+            "Name": "Any_Deployable_Light",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Deployable.Light"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Deployable.Light )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Deployable_Farming",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Plot"
+                    },
+                    {
+                        "TagName": "Item.Mound"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Plot, Item.Mound )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Deployable_ExtractorsDrills",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Extractor"
+                    },
+                    {
+                        "TagName": "Item.Deployable.DeepMining"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Extractor, Item.Deployable.DeepMining )"
+            }
+        },
+        {
+            "Name": "Any_Beehive",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Beehive"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Beehive )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Deployable_Climate",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Deployable.Climate"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Deployable.Climate )"
+            }
+        },
+        {
+            "Name": "Any_Sign",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Deployable.Sign"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Deployable.Sign )"
+            }
+        },
+        {
+            "Name": "Mission_Communicator",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Communicator"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Communicator )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Deployable_Energy",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Deployable.Energy"
+                    },
+                    {
+                        "TagName": "Item.ResourceGenerator.Energy"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( FieldGuide.Deployable.Energy, Item.ResourceGenerator.Energy )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Deployable_Fish",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Deployable.Fish.Aquarium"
+                    },
+                    {
+                        "TagName": "Item.Deployable.Fish.Trap"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Deployable.Fish.Aquarium, Item.Deployable.Fish.Trap )"
+            }
+        },
+        {
+            "Name": "Any_Fillable_Energy",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Fillable.Energy"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Fillable.Energy )"
+            }
+        },
+        {
+            "Name": "Any_Fillable_Milk",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Fillable.Milk"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Fillable.Milk )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Deployable_Water",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Deployable.Purifier"
+                    },
+                    {
+                        "TagName": "Item.Deployable.ResourceStorage.Water"
+                    },
+                    {
+                        "TagName": "Item.ResourceGenerator.Water"
+                    },
+                    {
+                        "TagName": "FieldGuide.Deployable.Water"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    4,
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "AutoDescription": " ANY( Item.Deployable.Purifier, Item.Deployable.ResourceStorage.Water, Item.ResourceGenerator.Water, FieldGuide.Deployable.Water )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Deployable_OilFuel",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Deployable.PumpJack"
+                    },
+                    {
+                        "TagName": "Item.Deployable.ResourceStorage.Oil"
+                    },
+                    {
+                        "TagName": "Item.Deployable.ResourceStorage.Biofuel"
+                    },
+                    {
+                        "TagName": "FieldGuide.Deployable.Oil"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    4,
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "AutoDescription": " ANY( Item.Deployable.PumpJack, Item.Deployable.ResourceStorage.Oil, Item.Deployable.ResourceStorage.Biofuel, FieldGuide.Deployable.Oil )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Deployable_Traps",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Creature.Trap"
+                    },
+                    {
+                        "TagName": "FieldGuide.Deployable.Trap"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Creature.Trap, FieldGuide.Deployable.Trap )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Deployable_Beacons",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Deployable.Beacon"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Deployable.Beacon )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Deployable_Exotics",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Deployable.Exotics"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Deployable.Exotics )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Food_Ingredients",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Food.Ingredient"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Food.Ingredient )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Decor_Homestead",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Decoration.Homestead"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Decoration.Homestead )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Decor_ArtDeco",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Decoration.ArtDeco )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Decor_Carved",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Decoration.Carved"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Decoration.Carved )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Decor_Rustic",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Decoration.Rustic"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Decoration.Rustic )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Decor_Brutalist",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Decoration.Brutalist"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Decoration.Brutalist )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Decor_Industrial",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Decoration.Industrialist"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Decoration.Industrialist )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Decor_Statues",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Decoration.Statue"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Decoration.Statue )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Decor_Rugs",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Decoration.Rug"
+                    },
+                    {
+                        "TagName": "Item.Rug"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Decoration.Rug, Item.Rug )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Decor_GeodeLamps",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Decoration.Geode"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Decoration.Geode )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Decor_Vases",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Decoration.Vase"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Decoration.Vase )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Decor_Paintings",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Decoration.Painting"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Decoration.Painting )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Decor_Chimneys",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Decoration.Chimney"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Decoration.Chimney )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Build_Walls",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Building.Walls"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Building.Walls )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Build_Floors",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Building.Floors"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Building.Floors )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Build_Roofs",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Building.Roofs"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Building.Roofs )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Build_Beams",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Building.Beams"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Building.Beams )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Build_HalfPieces",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Building.HalfPieces"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Building.HalfPieces )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Build_Sets",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Building.Sets"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Building.Sets )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Res_Metals",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Resource.Ingot"
+                    },
+                    {
+                        "TagName": "Item.query.t3_metal"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Resource.Ingot, Item.query.t3_metal )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Res_Settlement",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Resource.Settlement"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Resource.Settlement )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Res_Fertilizers",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Fertilizer"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Fertilizer )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Res_Fuels",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Resource.Fuel"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Resource.Fuel )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Res_Workshop",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Meta.Resource"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Meta.Resource )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Res_Raw",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Resource.Wood"
+                    },
+                    {
+                        "TagName": "Item.Resource.Stick"
+                    },
+                    {
+                        "TagName": "Item.Resource.Fiber"
+                    },
+                    {
+                        "TagName": "Item.Resource.Limestone"
+                    },
+                    {
+                        "TagName": "Item.Resource.Ice"
+                    },
+                    {
+                        "TagName": "Item.Resource.Dirt"
+                    },
+                    {
+                        "TagName": "Item.Resource.Sand"
+                    },
+                    {
+                        "TagName": "Item.Resource.Wool"
+                    },
+                    {
+                        "TagName": "Item.Resource.Fur"
+                    },
+                    {
+                        "TagName": "Item.Resource.Miasmic"
+                    },
+                    {
+                        "TagName": "Item.Radioactive"
+                    },
+                    {
+                        "TagName": "Item.Seed"
+                    },
+                    {
+                        "TagName": "FieldGuide.Resource.Raw"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    13,
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "AutoDescription": " ANY( Item.Resource.Wood, Item.Resource.Stick, Item.Resource.Fiber, Item.Resource.Limestone, Item.Resource.Ice, Item.Resource.Dirt, Item.Resource.Sand, Item.Resource.Wool, Item.Resource.Fur, Item.Resource.Miasmic, Item.Radioactive, Item.Seed, FieldGuide.Resource.Raw )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Res_Components",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Resource"
+                    },
+                    {
+                        "TagName": "FieldGuide.Resource"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Resource, FieldGuide.Resource )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Husb_Animals",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Meta.Animal"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Meta.Animal )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Husb_Feed",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.AnimalFeed"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.AnimalFeed )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Husb_Serums",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Husbandry.Serum"
+                    },
+                    {
+                        "TagName": "FieldGuide.Husbandry.Genetics"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Husbandry.Serum, FieldGuide.Husbandry.Genetics )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Husb_Beds",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Deployable.TameBed"
+                    },
+                    {
+                        "TagName": "Item.Deployable.ChickenCoop"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Deployable.TameBed, Item.Deployable.ChickenCoop )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Husb_Troughs",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Deployable.Tame"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Deployable.Tame )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Husb_Baits",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Creature.Bait"
+                    },
+                    {
+                        "TagName": "FieldGuide.Husbandry.Bait"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Creature.Bait, FieldGuide.Husbandry.Bait )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Bench_Cooking",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Crafting.Campfire"
+                    },
+                    {
+                        "TagName": "FieldGuide.Stove"
+                    },
+                    {
+                        "TagName": "FieldGuide.Bench.Fireplace"
+                    },
+                    {
+                        "TagName": "FieldGuide.Bench.Kitchen"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    4,
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "AutoDescription": " ANY( Item.Crafting.Campfire, FieldGuide.Stove, FieldGuide.Bench.Fireplace, FieldGuide.Bench.Kitchen )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Bench_Kitchen",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Crafting.Campfire"
+                    },
+                    {
+                        "TagName": "FieldGuide.Stove"
+                    },
+                    {
+                        "TagName": "FieldGuide.Bench.Fireplace"
+                    },
+                    {
+                        "TagName": "FieldGuide.Bench.Kitchen"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    4,
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "AutoDescription": " ANY( Item.Crafting.Campfire, FieldGuide.Stove, FieldGuide.Bench.Fireplace, FieldGuide.Bench.Kitchen )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Bench_Furnaces",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Crafting.Furnace"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Crafting.Furnace )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Bench_Power",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.ResourceGenerator.Energy"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.ResourceGenerator.Energy )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Bench_Crafting",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Bench"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Bench )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Med_Bandages",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Medicine.Bandage"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Medicine.Bandage )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Med_Tonics",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Medicine.Tonic"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Medicine.Tonic )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Med_Pills",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Medicine.Pill"
+                    },
+                    {
+                        "TagName": "FieldGuide.Medicine.Pill"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Medicine.Pill, FieldGuide.Medicine.Pill )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Med_Pastes",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Medicine.Paste"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Medicine.Paste )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Med_Workshop",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Medicine.Meta"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Medicine.Meta )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Plants_Vegetables",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Plant.Vegetable"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Plant.Vegetable )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Plants_Fruit",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Plant.Fruit"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Plant.Fruit )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Plants_Herbs",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Plant.Herb"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Plant.Herb )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Plants_Grains",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Plant.Grain"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Plant.Grain )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Plants_Speciality",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Plant.Speciality"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Plant.Speciality )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Creatures",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Harvest.Knife"
+                    },
+                    {
+                        "TagName": "Item.Vestige"
+                    },
+                    {
+                        "TagName": "Item.Creature.Loot"
+                    },
+                    {
+                        "TagName": "NPC.Fish"
+                    },
+                    {
+                        "TagName": "Item.Decoration.Trophy"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    5,
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "AutoDescription": " ANY( Harvest.Knife, Item.Vestige, Item.Creature.Loot, NPC.Fish, Item.Decoration.Trophy )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Buildings",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "Item.BuildingTrim"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Traits.Buildable, Item.BuildingTrim )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Equipment_Gadgets",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Equipment.Gadget"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Equipment.Gadget )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Plants",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Plant"
+                    },
+                    {
+                        "TagName": "Item.Resource.Fiber"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    2,
+                    1,
+                    1,
+                    0,
+                    3,
+                    1,
+                    1
+                ],
+                "AutoDescription": " ALL(  ANY( Item.Plant ),  NONE( Item.Resource.Fiber ) )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Defense_Turrets",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Defense.Turret"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Defense.Turret )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Defense_Fortifications",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Building.Fortification"
+                    },
+                    {
+                        "TagName": "FieldGuide.Defense.Fortification"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Building.Fortification, FieldGuide.Defense.Fortification )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Defense_Traps",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Defense.Trap"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Defense.Trap )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Defense_Deterrents",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Defense.Deterrent"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Defense.Deterrent )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Husb_Control",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Husbandry.Control"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Husbandry.Control )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Plants_Exotics",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Plant.Exotic"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Plant.Exotic )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Decorations",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Decoration"
+                    },
+                    {
+                        "TagName": "FieldGuide.Deployable.Mission"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    2,
+                    1,
+                    1,
+                    0,
+                    3,
+                    1,
+                    1
+                ],
+                "AutoDescription": " ALL(  ANY( Item.Decoration ),  NONE( FieldGuide.Deployable.Mission ) )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Deployables_Missions",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Communicator"
+                    },
+                    {
+                        "TagName": "FieldGuide.Deployable.Mission"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Communicator, FieldGuide.Deployable.Mission )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Vehicles",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Vehicle"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Vehicle )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Deployable_Targets",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Deployable.Target"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Deployable.Target )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Deployable_Settlement",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Deployable.Settlement"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Deployable.Settlement )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Deployable_Stacks",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Deployable.Stack"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Deployable.Stack )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Decor_Lab",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Decoration.Lab"
+                    },
+                    {
+                        "TagName": "FieldGuide.Decoration.Lab"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Decoration.Lab, FieldGuide.Decoration.Lab )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Decor_Wood",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Decoration.Wood"
+                    },
+                    {
+                        "TagName": "FieldGuide.Decoration.Wood"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Decoration.Wood, FieldGuide.Decoration.Wood )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Decor_Curios",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Decoration.Curio"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Decoration.Curio )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Decor_Flags",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Decoration.Flag"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Decoration.Flag )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Defense_Environmental",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Deployable.LightningRod"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Deployable.LightningRod )"
             }
         }
     ]

@@ -918,7 +918,8 @@
                 "(RowName=\"Coal_Normal\",DataTableName=\"D_VoxelSetupData\")": 20,
                 "(RowName=\"Sulfur_Normal\",DataTableName=\"D_VoxelSetupData\")": 10,
                 "(RowName=\"Salt_Normal\",DataTableName=\"D_VoxelSetupData\")": 10,
-                "(RowName=\"Silica_Normal\",DataTableName=\"D_VoxelSetupData\")": 5
+                "(RowName=\"Silica_Normal\",DataTableName=\"D_VoxelSetupData\")": 5,
+                "(RowName=\"Lead_Normal\",DataTableName=\"D_VoxelSetupData\")": 10
             },
             "VoxelColor": {
                 "R": 0.8958330154418945,
@@ -935,7 +936,8 @@
                 "(RowName=\"Bauxite_Normal\",DataTableName=\"D_VoxelSetupData\")": 10,
                 "(RowName=\"Platinum_Normal\",DataTableName=\"D_VoxelSetupData\")": 5,
                 "(RowName=\"Titanium_Normal\",DataTableName=\"D_VoxelSetupData\")": 10,
-                "(RowName=\"Coal_Normal\",DataTableName=\"D_VoxelSetupData\")": 5
+                "(RowName=\"Coal_Normal\",DataTableName=\"D_VoxelSetupData\")": 5,
+                "(RowName=\"Lead_Normal\",DataTableName=\"D_VoxelSetupData\")": 20
             },
             "VoxelColor": {
                 "R": 0.28125,

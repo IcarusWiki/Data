@@ -1254,6 +1254,11 @@
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"Deep_Mining_Ore_Deposit_Cobalt-Description\", \"An ore deposit that can be drilled with deep mining equipment.\")"
         },
         {
+            "Name": "Deep_Mining_Ore_Deposit_Lead",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Deep_Mining_Ore_Deposit_Lead-DisplayName\", \"Deep Mining Ore Deposit: Lead\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Deep_Mining_Ore_Deposit_Lead-Description\", \"An ore deposit that can be drilled with deep mining equipment.\")"
+        },
+        {
             "Name": "Mo",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Mo-DisplayName\", \"Mo\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"Mo-Description\", \"Head of the Eris Inquisition, formerly part of the UDA Terraforming team and First Cohort\")"

@@ -11,40 +11,39 @@
     "Rows": [
         {
             "Name": "Default",
+            "Head": [
+                {
+                    "Mesh": "/Game/ASS/CHA/NPC/ARM/Cloth/SK_CHA_NPC_ARM_Head_Cloth.SK_CHA_NPC_ARM_Head_Cloth",
+                    "AnimBP": "None",
+                    "MaterialOverrides": []
+                }
+            ],
             "Torso": [
                 {
-                    "Mesh": "/Game/ASS/CHA/NPC/ARM/Synthetic_Sleek/SK_CHA_NPC_ARM_Chest_Synthetic_Sleek.SK_CHA_NPC_ARM_Chest_Synthetic_Sleek",
+                    "Mesh": "/Game/ASS/CHA/NPC/ARM/Cloth/SK_CHA_NPC_ARM_Chest_Cloth.SK_CHA_NPC_ARM_Chest_Cloth",
                     "AnimBP": "None",
-                    "MaterialOverrides": [
-                        "/Game/ASS/CHA/NPC/ARM/Synthetic_Sleek/M_CHA_NPC_ARM_Sleek_A_Blue.M_CHA_NPC_ARM_Sleek_A_Blue"
-                    ]
+                    "MaterialOverrides": []
                 }
             ],
             "Arms": [
                 {
-                    "Mesh": "/Game/ASS/CHA/NPC/ARM/Synthetic_Sleek/SK_CHA_NPC_ARM_Arms_Synthetic_Sleek.SK_CHA_NPC_ARM_Arms_Synthetic_Sleek",
+                    "Mesh": "/Game/ASS/CHA/NPC/ARM/Cloth/SK_CHA_NPC_ARM_Arms_Cloth.SK_CHA_NPC_ARM_Arms_Cloth",
                     "AnimBP": "None",
-                    "MaterialOverrides": [
-                        "/Game/ASS/CHA/NPC/ARM/Synthetic_Sleek/M_CHA_NPC_ARM_Sleek_A_Blue.M_CHA_NPC_ARM_Sleek_A_Blue"
-                    ]
+                    "MaterialOverrides": []
                 }
             ],
             "Legs": [
                 {
-                    "Mesh": "/Game/ASS/CHA/NPC/ARM/Synthetic_Sleek/SK_CHA_NPC_ARM_Legs_Synthetic_Sleek.SK_CHA_NPC_ARM_Legs_Synthetic_Sleek",
+                    "Mesh": "/Game/ASS/CHA/NPC/ARM/Cloth/SK_CHA_NPC_ARM_Legs_Cloth.SK_CHA_NPC_ARM_Legs_Cloth",
                     "AnimBP": "None",
-                    "MaterialOverrides": [
-                        "/Game/ASS/CHA/NPC/ARM/Synthetic_Sleek/M_CHA_NPC_ARM_Sleek_C_Blue.M_CHA_NPC_ARM_Sleek_C_Blue"
-                    ]
+                    "MaterialOverrides": []
                 }
             ],
             "Feet": [
                 {
-                    "Mesh": "/Game/ASS/CHA/NPC/ARM/Synthetic_Sleek/SK_CHA_NPC_ARM_Feet_Synthetic_Sleek.SK_CHA_NPC_ARM_Feet_Synthetic_Sleek",
+                    "Mesh": "/Game/ASS/CHA/NPC/ARM/Cloth/SK_CHA_NPC_ARM_Feet_Cloth.SK_CHA_NPC_ARM_Feet_Cloth",
                     "AnimBP": "None",
-                    "MaterialOverrides": [
-                        "/Game/ASS/CHA/NPC/ARM/Synthetic_Sleek/M_CHA_NPC_ARM_Sleek_C_Blue.M_CHA_NPC_ARM_Sleek_C_Blue"
-                    ]
+                    "MaterialOverrides": []
                 }
             ]
         },

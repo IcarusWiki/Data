@@ -1322,6 +1322,11 @@
             "ItemActor": "/Game/BP/AI/Bosses/Misc/BP_RadBoss_Spit.BP_RadBoss_Spit_C"
         },
         {
+            "Name": "Mesh_RadBoss_Spit_Large",
+            "ItemMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "ItemActor": "/Game/BP/AI/Bosses/Misc/BP_RadBoss_Spit_Large.BP_RadBoss_Spit_Large_C"
+        },
+        {
             "Name": "Mesh_SandWorm_Spit_Large",
             "ItemMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
             "ItemActor": "/Game/BP/AI/Bosses/Misc/BP_SandWorm_Spit_Large.BP_SandWorm_Spit_Large_C"
@@ -4974,13 +4979,6 @@
             "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Needler_Fire_Corpse.BP_Needler_Fire_Corpse_C"
         },
         {
-            "Name": "Mesh_Electric_Motor",
-            "ItemMesh": "/Game/ASS/ITM/SM_ITM_ElectricMotor.SM_ITM_ElectricMotor",
-            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
-            "EquipBackMesh": "/Game/ASS/ITM/SM_ITM_ElectricMotor_BACK.SM_ITM_ElectricMotor_BACK",
-            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Extractors/BP_Extractor.BP_Extractor_C"
-        },
-        {
             "Name": "Mesh_Scanner_Medical_Device",
             "ItemMesh": "/Game/ASS/ITM/SK_ITM_Medic_Scanner.SK_ITM_Medic_Scanner",
             "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_Medic_Scanner.SK_ITM_Medic_Scanner",
@@ -6377,16 +6375,6 @@
             "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Grenade_Launcher.BP_SkeletalItem_Grenade_Launcher_C"
         },
         {
-            "Name": "Mesh_Ammo_Stone",
-            "ItemMesh": "/Game/ASS/ITM/Projectile/SM_ITM_Projectile_Stone.SM_ITM_Projectile_Stone",
-            "ItemActor": "/Game/ASS/WEP/SK_GUN_Shotgun/BP_SMItem_Rudimentary_Stone.BP_SMItem_Rudimentary_Stone_C"
-        },
-        {
-            "Name": "Mesh_Rudimentary_Ammo_Nails",
-            "ItemMesh": "/Game/ASS/ITM/Projectile/SM_ITM_Projectile_Nails.SM_ITM_Projectile_Nails",
-            "ItemActor": "/Game/BP/Objects/World/Items/Weapons/BP_SMItem_Caltrops_Nails.BP_SMItem_Caltrops_Nails_C"
-        },
-        {
             "Name": "Mesh_Carcass_Orka_Juvenile",
             "ItemMesh": "/Game/ASS/CRE/Skulk_Juvenile/SK_CRE_Skulk_Juvenile.SK_CRE_Skulk_Juvenile",
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Orka_Juvenile_Corpse.BP_Orka_Juvenile_Corpse_C",
@@ -6562,7 +6550,7 @@
         },
         {
             "Name": "Mesh_Chitin",
-            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Bone.SM_ITM_Bone"
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Chitin.SM_ITM_Chitin"
         },
         {
             "Name": "Mesh_Heavy_Leather",
@@ -6675,6 +6663,12 @@
             "Name": "Mesh_Settlement_Building_Tool",
             "ItemMesh": "/Game/ASS/ITM/SM_ITM_T5_Kit.SM_ITM_T5_Kit",
             "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_Hammer_Steel.SK_ITM_Hammer_Steel"
+        },
+        {
+            "Name": "Mesh_Flightless_Tank_Horn",
+            "ItemMesh": "/Game/ASS/ITM/Horn_Sandhorn/SM_ITM_Horn_Sandhorn.SM_ITM_Horn_Sandhorn",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "EquipBackMesh": "/Game/ASS/ITM/Horn_Sandhorn/SM_ITM_Horn_Sandhorn.SM_ITM_Horn_Sandhorn"
         }
     ]
 }

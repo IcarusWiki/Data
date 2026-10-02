@@ -11,5 +11,1561 @@
             "DataTableName": "D_TagQueries"
         }
     },
-    "Rows": []
+    "Rows": [
+        {
+            "Name": "Tools_Axes",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemToolsPage.UMG_FieldGuideItemToolsPage_C'",
+            "DisplayOrder": 1,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Tools_Axes-DisplayName\", \"Axes\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Icons/T_ICON_ALT_AXE.T_ICON_ALT_AXE",
+            "TagQuery": {
+                "RowName": "Any_Axe"
+            }
+        },
+        {
+            "Name": "Tools_Pickaxes",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemToolsPage.UMG_FieldGuideItemToolsPage_C'",
+            "DisplayOrder": 2,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Tools_Pickaxes-DisplayName\", \"Pickaxes\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Icons/T_ICON_ALT_PICKAXE.T_ICON_ALT_PICKAXE",
+            "TagQuery": {
+                "RowName": "Any_Pickaxe"
+            }
+        },
+        {
+            "Name": "Tools_Knives",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemToolsPage.UMG_FieldGuideItemToolsPage_C'",
+            "DisplayOrder": 3,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Tools_Knives-DisplayName\", \"Knives\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Icons/T_ICON_ALT_KNIFE.T_ICON_ALT_KNIFE",
+            "TagQuery": {
+                "RowName": "Any_Knife"
+            }
+        },
+        {
+            "Name": "Tools_Spears",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemToolsPage.UMG_FieldGuideItemToolsPage_C'",
+            "DisplayOrder": 4,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Tools_Spears-DisplayName\", \"Spears\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Icons/T_ICON_ALT_SPEAR.T_ICON_ALT_SPEAR",
+            "TagQuery": {
+                "RowName": "Any_Spear"
+            }
+        },
+        {
+            "Name": "Tools_Sickles",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemToolsPage.UMG_FieldGuideItemToolsPage_C'",
+            "DisplayOrder": 5,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Tools_Sickles-DisplayName\", \"Sickles\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Icons/T_ICON_ALT_SICKLE.T_ICON_ALT_SICKLE",
+            "TagQuery": {
+                "RowName": "Any_Sickle"
+            }
+        },
+        {
+            "Name": "Tools_Sledgehammers",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemToolsPage.UMG_FieldGuideItemToolsPage_C'",
+            "DisplayOrder": 6,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Tools_Sledgehammers-DisplayName\", \"Sledgehammers\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Icons/T_ICON_ALT_SLEDGEHAMMER.T_ICON_ALT_SLEDGEHAMMER",
+            "TagQuery": {
+                "RowName": "Sledgehammer"
+            }
+        },
+        {
+            "Name": "Tools_Hammers",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemToolsPage.UMG_FieldGuideItemToolsPage_C'",
+            "DisplayOrder": 7,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Tools_Hammers-DisplayName\", \"Hammers\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Icons/T_ICON_ALT_HAMMER.T_ICON_ALT_HAMMER",
+            "TagQuery": {
+                "RowName": "Any_Hammer"
+            }
+        },
+        {
+            "Name": "Tools_Shovels",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemToolsPage.UMG_FieldGuideItemToolsPage_C'",
+            "DisplayOrder": 8,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Tools_Shovels-DisplayName\", \"Shovels\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Icons/Icon_Shovel.Icon_Shovel",
+            "TagQuery": {
+                "RowName": "Any_Shovel"
+            }
+        },
+        {
+            "Name": "Tools_Firewhackers",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemToolsPage.UMG_FieldGuideItemToolsPage_C'",
+            "DisplayOrder": 9,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Tools_Firewhackers-DisplayName\", \"Fire Whackers\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ICON_FireWhacker.T_ICON_FireWhacker",
+            "TagQuery": {
+                "RowName": "Any_Firewhacker"
+            }
+        },
+        {
+            "Name": "Tools_Shears",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemToolsPage.UMG_FieldGuideItemToolsPage_C'",
+            "DisplayOrder": 10,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Tools_Shears-DisplayName\", \"Shears\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ICON_Shears.T_ICON_Shears",
+            "TagQuery": {
+                "RowName": "Any_Shears"
+            }
+        },
+        {
+            "Name": "Ranged_Bows",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemRangedPage.UMG_FieldGuideItemRangedPage_C'",
+            "DisplayOrder": 1,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Ranged_Bows-DisplayName\", \"Bows\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Icons/T_ICON_ALT_BOW.T_ICON_ALT_BOW",
+            "TagQuery": {
+                "RowName": "Any_Bow_Fieldguide"
+            }
+        },
+        {
+            "Name": "Ranged_Crossbows",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemRangedPage.UMG_FieldGuideItemRangedPage_C'",
+            "DisplayOrder": 2,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Ranged_Crossbows-DisplayName\", \"Crossbows\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Icons/T_ICON_ALT_CROSSBOW.T_ICON_ALT_CROSSBOW",
+            "TagQuery": {
+                "RowName": "Any_Crossbow"
+            }
+        },
+        {
+            "Name": "Ranged_Javelins",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemRangedPage.UMG_FieldGuideItemRangedPage_C'",
+            "DisplayOrder": 3,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Ranged_Javelins-DisplayName\", \"Javelins\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Icons/T_ICON_ALT_SPEAR.T_ICON_ALT_SPEAR",
+            "TagQuery": {
+                "RowName": "Any_Throwing_Spear"
+            }
+        },
+        {
+            "Name": "Ranged_Pistols",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemRangedPage.UMG_FieldGuideItemRangedPage_C'",
+            "DisplayOrder": 4,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Ranged_Pistols-DisplayName\", \"Pistols\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Icons/T_ICON_ALT_PISTOL.T_ICON_ALT_PISTOL",
+            "TagQuery": {
+                "RowName": "Any_Pistol"
+            }
+        },
+        {
+            "Name": "Ranged_Rifles",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemRangedPage.UMG_FieldGuideItemRangedPage_C'",
+            "DisplayOrder": 5,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Ranged_Rifles-DisplayName\", \"Rifles\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Icons/T_ICON_ALT_RIFLE.T_ICON_ALT_RIFLE",
+            "TagQuery": {
+                "RowName": "Any_Rifle"
+            }
+        },
+        {
+            "Name": "Ranged_Shotguns",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemRangedPage.UMG_FieldGuideItemRangedPage_C'",
+            "DisplayOrder": 6,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Ranged_Shotguns-DisplayName\", \"Shotguns\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Icons/T_ICON_ALT_SHOTGUN.T_ICON_ALT_SHOTGUN",
+            "TagQuery": {
+                "RowName": "Any_Shotgun"
+            }
+        },
+        {
+            "Name": "Ranged_Knives",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemRangedPage.UMG_FieldGuideItemRangedPage_C'",
+            "DisplayOrder": 7,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Ranged_Knives-DisplayName\", \"Throwing Knives\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Icons/T_ICON_ALT_KNIFE.T_ICON_ALT_KNIFE",
+            "TagQuery": {
+                "RowName": "Any_Throwing_Knife"
+            }
+        },
+        {
+            "Name": "Ranged_Grenades",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemRangedPage.UMG_FieldGuideItemRangedPage_C'",
+            "DisplayOrder": 8,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Ranged_Grenades-DisplayName\", \"Grenades\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ICON_Grenade.T_ICON_Grenade",
+            "TagQuery": {
+                "RowName": "Any_Grenade_Fieldguide"
+            }
+        },
+        {
+            "Name": "Ranged_Launchers",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemRangedPage.UMG_FieldGuideItemRangedPage_C'",
+            "DisplayOrder": 9,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Ranged_Launchers-DisplayName\", \"Launchers\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/Guns/T_ICON_Launcher.T_ICON_Launcher",
+            "TagQuery": {
+                "RowName": "Any_Launcher"
+            }
+        },
+        {
+            "Name": "Ranged_Flamethrowers",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemRangedPage.UMG_FieldGuideItemRangedPage_C'",
+            "DisplayOrder": 10,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Ranged_Flamethrowers-DisplayName\", \"Flamethrowers\")",
+            "TagQuery": {
+                "RowName": "Any_Flamethrower"
+            }
+        },
+        {
+            "Name": "Ammo_Arrows",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemAmmoPage.UMG_FieldGuideItemAmmoPage_C'",
+            "DisplayOrder": 1,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Ammo_Arrows-DisplayName\", \"Arrows\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/FieldGuide/CategoryIcons/T_ICON_FieldGuide_Ammo.T_ICON_FieldGuide_Ammo",
+            "TagQuery": {
+                "RowName": "Projectile_Arrow"
+            }
+        },
+        {
+            "Name": "Ammo_Bolts",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemAmmoPage.UMG_FieldGuideItemAmmoPage_C'",
+            "DisplayOrder": 2,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Ammo_Bolts-DisplayName\", \"Bolts\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/T_ICON_Bolts.T_ICON_Bolts",
+            "TagQuery": {
+                "RowName": "Projectile_Bolt"
+            }
+        },
+        {
+            "Name": "Ammo_Pistols",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemAmmoPage.UMG_FieldGuideItemAmmoPage_C'",
+            "DisplayOrder": 3,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Ammo_Pistols-DisplayName\", \"9mm\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/T_ICON_Ammo_Pistol.T_ICON_Ammo_Pistol",
+            "TagQuery": {
+                "RowName": "Any_Pistol_Ammo"
+            }
+        },
+        {
+            "Name": "Ammo_AssaultRifles",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemAmmoPage.UMG_FieldGuideItemAmmoPage_C'",
+            "DisplayOrder": 4,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Ammo_AssaultRifles-DisplayName\", \"5.56mm\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/T_ICON_Ammo_Assault.T_ICON_Ammo_Assault",
+            "TagQuery": {
+                "RowName": "Any_AssaultRifle_Ammo"
+            }
+        },
+        {
+            "Name": "Ammo_Rifles",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemAmmoPage.UMG_FieldGuideItemAmmoPage_C'",
+            "DisplayOrder": 5,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Ammo_Rifles-DisplayName\", \"7.62mm\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/T_ICON_Ammo_Rifle.T_ICON_Ammo_Rifle",
+            "TagQuery": {
+                "RowName": "Any_Rifle_Ammo"
+            }
+        },
+        {
+            "Name": "Ammo_Snipers",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemAmmoPage.UMG_FieldGuideItemAmmoPage_C'",
+            "DisplayOrder": 7,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Ammo_Snipers-DisplayName\", \"12.7mm\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/T_ICON_Ammo_Sniper.T_ICON_Ammo_Sniper",
+            "TagQuery": {
+                "RowName": "Any_Sniper_Ammo"
+            }
+        },
+        {
+            "Name": "Ammo_Shells",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemAmmoPage.UMG_FieldGuideItemAmmoPage_C'",
+            "DisplayOrder": 8,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Ammo_Shells-DisplayName\", \"Shells\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/T_ICON_Ammo_Shells.T_ICON_Ammo_Shells",
+            "TagQuery": {
+                "RowName": "Any_Shotgun_Ammo"
+            }
+        },
+        {
+            "Name": "Ammo_Flares",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemAmmoPage.UMG_FieldGuideItemAmmoPage_C'",
+            "DisplayOrder": 9,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Ammo_Flares-DisplayName\", \"Flares\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/T_ICON_Ammo_Flare.T_ICON_Ammo_Flare",
+            "TagQuery": {
+                "RowName": "Any_Flare"
+            }
+        },
+        {
+            "Name": "Ammo_Sawblades",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemAmmoPage.UMG_FieldGuideItemAmmoPage_C'",
+            "DisplayOrder": 10,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Ammo_Sawblades-DisplayName\", \"Sawblades\")",
+            "TagQuery": {
+                "RowName": "Any_Sawblade"
+            }
+        },
+        {
+            "Name": "EnvirosuitsModules_Suits",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayOrder": 1,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"EnvirosuitsModules_Suits-DisplayName\", \"Envirosuits\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ICON_Envirosuits.T_ICON_Envirosuits",
+            "TagQuery": {
+                "RowName": "Envirosuit"
+            }
+        },
+        {
+            "Name": "EnvirosuitsModules_Modules",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayOrder": 2,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"EnvirosuitsModules_Modules-DisplayName\", \"Modules\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/FieldGuide/CategoryIcons/T_ICON_FieldGuide_SuitsModules.T_ICON_FieldGuide_SuitsModules",
+            "TagQuery": {
+                "RowName": "Any_Module_Passive"
+            }
+        },
+        {
+            "Name": "Attachments_Armor",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemAttachmentsPage.UMG_FieldGuideItemAttachmentsPage_C'",
+            "DisplayOrder": 1,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Attachments_Armor-DisplayName\", \"Armor\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/FieldGuide/CategoryIcons/T_ICON_FieldGuide_Armor.T_ICON_FieldGuide_Armor",
+            "TagQuery": {
+                "RowName": "Any_Armor_Attachment"
+            }
+        },
+        {
+            "Name": "Attachments_Ranged",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemAttachmentsPage.UMG_FieldGuideItemAttachmentsPage_C'",
+            "DisplayOrder": 2,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Attachments_Ranged-DisplayName\", \"Ranged\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/FieldGuide/CategoryIcons/T_ICON_FieldGuide_Ranged.T_ICON_FieldGuide_Ranged",
+            "TagQuery": {
+                "RowName": "Any_Ranged_Attachment"
+            }
+        },
+        {
+            "Name": "Attachments_Melee",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemAttachmentsPage.UMG_FieldGuideItemAttachmentsPage_C'",
+            "DisplayOrder": 3,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Attachments_Melee-DisplayName\", \"Melee\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/FieldGuide/CategoryIcons/T_ICON_FieldGuide_ToolsMelee.T_ICON_FieldGuide_ToolsMelee",
+            "TagQuery": {
+                "RowName": "Any_Melee_Attachment"
+            }
+        },
+        {
+            "Name": "Attachments_FishingRod",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemAttachmentsPage.UMG_FieldGuideItemAttachmentsPage_C'",
+            "DisplayOrder": 4,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Attachments_FishingRod-DisplayName\", \"Lures\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fishing/ITEM_Yeast_Lure.ITEM_Yeast_Lure",
+            "TagQuery": {
+                "RowName": "Any_FishingRod_Attachment"
+            }
+        },
+        {
+            "Name": "Attachments_Harvesting",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemAttachmentsPage.UMG_FieldGuideItemAttachmentsPage_C'",
+            "DisplayOrder": 5,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Attachments_Harvesting-DisplayName\", \"Harvesting\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Icons/T_ICON_Attachment_SeedHarvester.T_ICON_Attachment_SeedHarvester",
+            "TagQuery": {
+                "RowName": "Any_Cart_Attachment"
+            }
+        },
+        {
+            "Name": "Attachments_Windmill",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemAttachmentsPage.UMG_FieldGuideItemAttachmentsPage_C'",
+            "DisplayOrder": 7,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Attachments_Windmill-DisplayName\", \"Windmill\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Windmill.T_ITEM_Windmill",
+            "TagQuery": {
+                "RowName": "Any_Windmill_Attachment"
+            }
+        },
+        {
+            "Name": "Workshop_ResourcePacks",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemWorkshopPackPage.UMG_FieldGuideItemWorkshopPackPage_C'",
+            "DisplayOrder": 1,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Workshop_ResourcePacks-DisplayName\", \"Resource Packs\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/FieldGuide/CategoryIcons/T_ICON_FieldGuide_Resources.T_ICON_FieldGuide_Resources",
+            "TagQuery": {
+                "RowName": "Any_Meta_ResourcePack"
+            }
+        },
+        {
+            "Name": "Workshop_FarmingSeeds",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemWorkshopPackPage.UMG_FieldGuideItemWorkshopPackPage_C'",
+            "DisplayOrder": 2,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Workshop_FarmingSeeds-DisplayName\", \"Farming Seeds\")",
+            "DisplayIcon": "/Game/Assets/2DArt/UI/Icons/T_ICON_SeedFertilized.T_ICON_SeedFertilized",
+            "TagQuery": {
+                "RowName": "Any_Meta_FarmingSeeds"
+            }
+        },
+        {
+            "Name": "Workshop_MedicalRepair",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemWorkshopPackPage.UMG_FieldGuideItemWorkshopPackPage_C'",
+            "DisplayOrder": 3,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Workshop_MedicalRepair-DisplayName\", \"Medical & Repair\")",
+            "TagQuery": {
+                "RowName": "Any_Meta_MedicalRepair"
+            }
+        },
+        {
+            "Name": "Workshop_Ammo",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemWorkshopPackPage.UMG_FieldGuideItemWorkshopPackPage_C'",
+            "DisplayOrder": 4,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Workshop_Ammo-DisplayName\", \"Ammo Bundles\")",
+            "TagQuery": {
+                "RowName": "Any_Meta_Ammo"
+            }
+        },
+        {
+            "Name": "Equipment_Lights",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemEquipmentPage.UMG_FieldGuideItemEquipmentPage_C'",
+            "DisplayOrder": 1,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Equipment_Lights-DisplayName\", \"Lights\")",
+            "TagQuery": {
+                "RowName": "Any_Module_Vision"
+            }
+        },
+        {
+            "Name": "Equipment_Backpacks",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemEquipmentPage.UMG_FieldGuideItemEquipmentPage_C'",
+            "DisplayOrder": 2,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Equipment_Backpacks-DisplayName\", \"Backpacks\")",
+            "TagQuery": {
+                "RowName": "Any_Backpack"
+            }
+        },
+        {
+            "Name": "Equipment_Scanners",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemEquipmentPage.UMG_FieldGuideItemEquipmentPage_C'",
+            "DisplayOrder": 3,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Equipment_Scanners-DisplayName\", \"Scanners\")",
+            "TagQuery": {
+                "RowName": "Any_Scanner"
+            }
+        },
+        {
+            "Name": "Equipment_FishingRods",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemEquipmentPage.UMG_FieldGuideItemEquipmentPage_C'",
+            "DisplayOrder": 4,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Equipment_FishingRods-DisplayName\", \"Fishing Rods\")",
+            "TagQuery": {
+                "RowName": "Any_Fishing_Rod"
+            }
+        },
+        {
+            "Name": "Equipment_Water",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemEquipmentPage.UMG_FieldGuideItemEquipmentPage_C'",
+            "DisplayOrder": 5,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Equipment_Water-DisplayName\", \"Water\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Equipment_Water"
+            }
+        },
+        {
+            "Name": "Equipment_Oxygen",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemEquipmentPage.UMG_FieldGuideItemEquipmentPage_C'",
+            "DisplayOrder": 6,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Equipment_Oxygen-DisplayName\", \"Oxygen\")",
+            "TagQuery": {
+                "RowName": "Any_Oxygen"
+            }
+        },
+        {
+            "Name": "Equipment_Electricity",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemEquipmentPage.UMG_FieldGuideItemEquipmentPage_C'",
+            "DisplayOrder": 7,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Equipment_Electricity-DisplayName\", \"Electricity\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Equipment_Electricity"
+            }
+        },
+        {
+            "Name": "Equipment_Biofuel",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemEquipmentPage.UMG_FieldGuideItemEquipmentPage_C'",
+            "DisplayOrder": 8,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Equipment_Biofuel-DisplayName\", \"Biofuel\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Equipment_Biofuel"
+            }
+        },
+        {
+            "Name": "Equipment_Oil",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemEquipmentPage.UMG_FieldGuideItemEquipmentPage_C'",
+            "DisplayOrder": 9,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Equipment_Oil-DisplayName\", \"Oil\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Equipment_Oil"
+            }
+        },
+        {
+            "Name": "Equipment_Hydrazine",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemEquipmentPage.UMG_FieldGuideItemEquipmentPage_C'",
+            "DisplayOrder": 10,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Equipment_Hydrazine-DisplayName\", \"Hydrazine\")",
+            "TagQuery": {
+                "RowName": "Fuel_Hydrazine"
+            }
+        },
+        {
+            "Name": "Equipment_Milk",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemEquipmentPage.UMG_FieldGuideItemEquipmentPage_C'",
+            "DisplayOrder": 11,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Equipment_Milk-DisplayName\", \"Milk\")",
+            "TagQuery": {
+                "RowName": "Any_Fillable_Milk"
+            }
+        },
+        {
+            "Name": "Equipment_Pouches",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemEquipmentPage.UMG_FieldGuideItemEquipmentPage_C'",
+            "DisplayOrder": 13,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Equipment_Pouches-DisplayName\", \"Pouches\")",
+            "TagQuery": {
+                "RowName": "Any_Bag"
+            }
+        },
+        {
+            "Name": "Equipment_Saddles",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemEquipmentPage.UMG_FieldGuideItemEquipmentPage_C'",
+            "DisplayOrder": 7,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Equipment_Saddles-DisplayName\", \"Saddles\")",
+            "TagQuery": {
+                "RowName": "Any_Saddle"
+            }
+        },
+        {
+            "Name": "Equipment_Quests",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemEquipmentPage.UMG_FieldGuideItemEquipmentPage_C'",
+            "DisplayOrder": 15,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Equipment_Quests-DisplayName\", \"Quest Items\")",
+            "TagQuery": {
+                "RowName": "Any_Quest_Item"
+            }
+        },
+        {
+            "Name": "Food_Cooked",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayOrder": 1,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Food_Cooked-DisplayName\", \"Cooked Food\")",
+            "TagQuery": {
+                "RowName": "Food_Cooked"
+            }
+        },
+        {
+            "Name": "Food_Dried",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayOrder": 2,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Food_Dried-DisplayName\", \"Dried Food\")",
+            "TagQuery": {
+                "RowName": "Food_Dried"
+            }
+        },
+        {
+            "Name": "Food_Raw",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayOrder": 3,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Food_Raw-DisplayName\", \"Raw Food\")",
+            "TagQuery": {
+                "RowName": "Food_Raw"
+            }
+        },
+        {
+            "Name": "Food_Workshop",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayOrder": 4,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Food_Workshop-DisplayName\", \"Workshop Food\")",
+            "TagQuery": {
+                "RowName": "Food_Workshop"
+            }
+        },
+        {
+            "Name": "Food_Drink",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayOrder": 8,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Food_Drink-DisplayName\", \"Drinks\")",
+            "TagQuery": {
+                "RowName": "Any_Drink"
+            }
+        },
+        {
+            "Name": "Deployables_Lights",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDeployablePage.UMG_FieldGuideItemDeployablePage_C'",
+            "DisplayOrder": 1,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Deployables_Lights-DisplayName\", \"Lights\")",
+            "TagQuery": {
+                "RowName": "Any_Deployable_Light"
+            }
+        },
+        {
+            "Name": "Deployables_Storage",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDeployablePage.UMG_FieldGuideItemDeployablePage_C'",
+            "DisplayOrder": 2,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Deployables_Storage-DisplayName\", \"Storage\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Deployable_Storage"
+            }
+        },
+        {
+            "Name": "Deployables_Beds",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDeployablePage.UMG_FieldGuideItemDeployablePage_C'",
+            "DisplayOrder": 3,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Deployables_Beds-DisplayName\", \"Beds\")",
+            "TagQuery": {
+                "RowName": "Is_Bed"
+            }
+        },
+        {
+            "Name": "Deployables_Farming",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDeployablePage.UMG_FieldGuideItemDeployablePage_C'",
+            "DisplayOrder": 4,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Deployables_Farming-DisplayName\", \"Farming\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Deployable_Farming"
+            }
+        },
+        {
+            "Name": "Deployables_ExtractorsDrills",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDeployablePage.UMG_FieldGuideItemDeployablePage_C'",
+            "DisplayOrder": 5,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Deployables_ExtractorsDrills-DisplayName\", \"Extractors / Drills\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Deployable_ExtractorsDrills"
+            }
+        },
+        {
+            "Name": "Deployables_Beehive",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDeployablePage.UMG_FieldGuideItemDeployablePage_C'",
+            "DisplayOrder": 6,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Deployables_Beehive-DisplayName\", \"Beehive\")",
+            "TagQuery": {
+                "RowName": "Any_Beehive"
+            }
+        },
+        {
+            "Name": "Deployables_Climate",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDeployablePage.UMG_FieldGuideItemDeployablePage_C'",
+            "DisplayOrder": 7,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Deployables_Climate-DisplayName\", \"Climate\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Deployable_Climate"
+            }
+        },
+        {
+            "Name": "Deployables_Signs",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDeployablePage.UMG_FieldGuideItemDeployablePage_C'",
+            "DisplayOrder": 8,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Deployables_Signs-DisplayName\", \"Signs\")",
+            "TagQuery": {
+                "RowName": "Any_Sign"
+            }
+        },
+        {
+            "Name": "Deployables_Missions",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDeployablePage.UMG_FieldGuideItemDeployablePage_C'",
+            "DisplayOrder": 9,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Deployables_Missions-DisplayName\", \"Missions\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Deployables_Missions"
+            }
+        },
+        {
+            "Name": "Deployables_Radars",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDeployablePage.UMG_FieldGuideItemDeployablePage_C'",
+            "DisplayOrder": 10,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Deployables_Radars-DisplayName\", \"Radars\")",
+            "TagQuery": {
+                "RowName": "Any_Radar"
+            }
+        },
+        {
+            "Name": "Deployables_Energy",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDeployablePage.UMG_FieldGuideItemDeployablePage_C'",
+            "DisplayOrder": 11,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Deployables_Energy-DisplayName\", \"Energy\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Deployable_Energy"
+            }
+        },
+        {
+            "Name": "Deployables_Fish",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDeployablePage.UMG_FieldGuideItemDeployablePage_C'",
+            "DisplayOrder": 12,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Deployables_Fish-DisplayName\", \"Fish\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Deployable_Fish"
+            }
+        },
+        {
+            "Name": "Creatures_Carcasses",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemCarcassPage.UMG_FieldGuideItemCarcassPage_C'",
+            "DisplayOrder": 1,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Creatures_Carcasses-DisplayName\", \"Carcasses\")",
+            "TagQuery": {
+                "RowName": "Any_AnimalCorpse"
+            }
+        },
+        {
+            "Name": "Creatures_Vestiges",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemVestigePage.UMG_FieldGuideItemVestigePage_C'",
+            "DisplayOrder": 2,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Creatures_Vestiges-DisplayName\", \"Vestiges\")",
+            "TagQuery": {
+                "RowName": "Any_Head_Vestige"
+            }
+        },
+        {
+            "Name": "Creatures_AnimalParts",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemAnimalPartPage.UMG_FieldGuideItemAnimalPartPage_C'",
+            "DisplayOrder": 3,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Creatures_AnimalParts-DisplayName\", \"Animal Parts\")",
+            "TagQuery": {
+                "RowName": "Any_Creature_Loot"
+            }
+        },
+        {
+            "Name": "Creatures_Fish",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemFishPage.UMG_FieldGuideItemFishPage_C'",
+            "DisplayOrder": 4,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Creatures_Fish-DisplayName\", \"Fish\")",
+            "TagQuery": {
+                "RowName": "Any_Fish"
+            }
+        },
+        {
+            "Name": "Deployables_Water",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDeployablePage.UMG_FieldGuideItemDeployablePage_C'",
+            "DisplayOrder": 13,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Deployables_Water-DisplayName\", \"Water\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Deployable_Water"
+            }
+        },
+        {
+            "Name": "Deployables_OilFuel",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDeployablePage.UMG_FieldGuideItemDeployablePage_C'",
+            "DisplayOrder": 14,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Deployables_OilFuel-DisplayName\", \"Oil & Fuel\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Deployable_OilFuel"
+            }
+        },
+        {
+            "Name": "Deployables_Traps",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDeployablePage.UMG_FieldGuideItemDeployablePage_C'",
+            "DisplayOrder": 15,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Deployables_Traps-DisplayName\", \"Animal Traps\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Deployable_Traps"
+            }
+        },
+        {
+            "Name": "Deployables_Beacons",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDeployablePage.UMG_FieldGuideItemDeployablePage_C'",
+            "DisplayOrder": 16,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Deployables_Beacons-DisplayName\", \"Beacons\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Deployable_Beacons"
+            }
+        },
+        {
+            "Name": "Deployables_Exotics",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDeployablePage.UMG_FieldGuideItemDeployablePage_C'",
+            "DisplayOrder": 17,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Deployables_Exotics-DisplayName\", \"Thumpers & Orbital\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Deployable_Exotics"
+            }
+        },
+        {
+            "Name": "Food_Ingredients",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Food_Ingredients-DisplayName\", \"Ingredients\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Food_Ingredients"
+            }
+        },
+        {
+            "Name": "Decor_Homestead",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDecorationPage.UMG_FieldGuideItemDecorationPage_C'",
+            "DisplayOrder": 1,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Decor_Homestead-DisplayName\", \"Homestead\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Decor_Homestead"
+            }
+        },
+        {
+            "Name": "Decor_ArtDeco",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDecorationPage.UMG_FieldGuideItemDecorationPage_C'",
+            "DisplayOrder": 2,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Decor_ArtDeco-DisplayName\", \"Art Deco\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Decor_ArtDeco"
+            }
+        },
+        {
+            "Name": "Decor_Carved",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDecorationPage.UMG_FieldGuideItemDecorationPage_C'",
+            "DisplayOrder": 3,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Decor_Carved-DisplayName\", \"Carved Wood\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Decor_Carved"
+            }
+        },
+        {
+            "Name": "Decor_Rustic",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDecorationPage.UMG_FieldGuideItemDecorationPage_C'",
+            "DisplayOrder": 4,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Decor_Rustic-DisplayName\", \"Rustic\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Decor_Rustic"
+            }
+        },
+        {
+            "Name": "Decor_Brutalist",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDecorationPage.UMG_FieldGuideItemDecorationPage_C'",
+            "DisplayOrder": 5,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Decor_Brutalist-DisplayName\", \"Brutalist\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Decor_Brutalist"
+            }
+        },
+        {
+            "Name": "Decor_Industrial",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDecorationPage.UMG_FieldGuideItemDecorationPage_C'",
+            "DisplayOrder": 6,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Decor_Industrial-DisplayName\", \"Industrial\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Decor_Industrial"
+            }
+        },
+        {
+            "Name": "Decor_Statues",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDecorationPage.UMG_FieldGuideItemDecorationPage_C'",
+            "DisplayOrder": 7,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Decor_Statues-DisplayName\", \"Statues\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Decor_Statues"
+            }
+        },
+        {
+            "Name": "Decor_Rugs",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDecorationPage.UMG_FieldGuideItemDecorationPage_C'",
+            "DisplayOrder": 8,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Decor_Rugs-DisplayName\", \"Rugs\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Decor_Rugs"
+            }
+        },
+        {
+            "Name": "Decor_GeodeLamps",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDecorationPage.UMG_FieldGuideItemDecorationPage_C'",
+            "DisplayOrder": 9,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Decor_GeodeLamps-DisplayName\", \"Geode Lamps\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Decor_GeodeLamps"
+            }
+        },
+        {
+            "Name": "Decor_Vases",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDecorationPage.UMG_FieldGuideItemDecorationPage_C'",
+            "DisplayOrder": 10,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Decor_Vases-DisplayName\", \"Vases\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Decor_Vases"
+            }
+        },
+        {
+            "Name": "Decor_Paintings",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDecorationPage.UMG_FieldGuideItemDecorationPage_C'",
+            "DisplayOrder": 11,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Decor_Paintings-DisplayName\", \"Paintings\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Decor_Paintings"
+            }
+        },
+        {
+            "Name": "Decor_Chimneys",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDecorationPage.UMG_FieldGuideItemDecorationPage_C'",
+            "DisplayOrder": 12,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Decor_Chimneys-DisplayName\", \"Chimneys & Caps\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Decor_Chimneys"
+            }
+        },
+        {
+            "Name": "Build_Walls",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemBuildingsPage.UMG_FieldGuideItemBuildingsPage_C'",
+            "DisplayOrder": 1,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Build_Walls-DisplayName\", \"Walls\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Build_Walls"
+            }
+        },
+        {
+            "Name": "Build_Floors",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemBuildingsPage.UMG_FieldGuideItemBuildingsPage_C'",
+            "DisplayOrder": 2,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Build_Floors-DisplayName\", \"Floors\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Build_Floors"
+            }
+        },
+        {
+            "Name": "Build_Roofs",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemBuildingsPage.UMG_FieldGuideItemBuildingsPage_C'",
+            "DisplayOrder": 3,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Build_Roofs-DisplayName\", \"Ramps\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Build_Roofs"
+            }
+        },
+        {
+            "Name": "Build_Beams",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemBuildingsPage.UMG_FieldGuideItemBuildingsPage_C'",
+            "DisplayOrder": 4,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Build_Beams-DisplayName\", \"Beams\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Build_Beams"
+            }
+        },
+        {
+            "Name": "Build_HalfPieces",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemBuildingsPage.UMG_FieldGuideItemBuildingsPage_C'",
+            "DisplayOrder": 5,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Build_HalfPieces-DisplayName\", \"Half Pieces\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Build_HalfPieces"
+            }
+        },
+        {
+            "Name": "Build_Sets",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemBuildingsPage.UMG_FieldGuideItemBuildingsPage_C'",
+            "DisplayOrder": 6,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Build_Sets-DisplayName\", \"Curved & Diagonal\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Build_Sets"
+            }
+        },
+        {
+            "Name": "Res_Metals",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourceNoStatsPage.UMG_FieldGuideItemResourceNoStatsPage_C'",
+            "DisplayOrder": 1,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Res_Metals-DisplayName\", \"Ingots & Alloys\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Res_Metals"
+            }
+        },
+        {
+            "Name": "Res_Settlement",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourceNoStatsPage.UMG_FieldGuideItemResourceNoStatsPage_C'",
+            "DisplayOrder": 2,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Res_Settlement-DisplayName\", \"Settlement Goods\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Res_Settlement"
+            }
+        },
+        {
+            "Name": "Res_Fertilizers",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourceNoStatsPage.UMG_FieldGuideItemResourceNoStatsPage_C'",
+            "DisplayOrder": 3,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Res_Fertilizers-DisplayName\", \"Fertilizers\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Res_Fertilizers"
+            }
+        },
+        {
+            "Name": "Res_Fuels",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourceNoStatsPage.UMG_FieldGuideItemResourceNoStatsPage_C'",
+            "DisplayOrder": 4,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Res_Fuels-DisplayName\", \"Fuels\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Res_Fuels"
+            }
+        },
+        {
+            "Name": "Res_Workshop",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourceNoStatsPage.UMG_FieldGuideItemResourceNoStatsPage_C'",
+            "DisplayOrder": 5,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Res_Workshop-DisplayName\", \"Workshop\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Res_Workshop"
+            }
+        },
+        {
+            "Name": "Res_Raw",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourceNoStatsPage.UMG_FieldGuideItemResourceNoStatsPage_C'",
+            "DisplayOrder": 6,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Res_Raw-DisplayName\", \"Raw Materials\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Res_Raw"
+            }
+        },
+        {
+            "Name": "Res_Components",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourceNoStatsPage.UMG_FieldGuideItemResourceNoStatsPage_C'",
+            "DisplayOrder": 7,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Res_Components-DisplayName\", \"Crafted Components\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Res_Components"
+            }
+        },
+        {
+            "Name": "Husb_Animals",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayOrder": 1,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Husb_Animals-DisplayName\", \"Animal Packages\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Husb_Animals"
+            }
+        },
+        {
+            "Name": "Husb_Feed",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayOrder": 2,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Husb_Feed-DisplayName\", \"Feed\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Husb_Feed"
+            }
+        },
+        {
+            "Name": "Husb_Serums",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayOrder": 3,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Husb_Serums-DisplayName\", \"Serums & Genetics\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Husb_Serums"
+            }
+        },
+        {
+            "Name": "Husb_Beds",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayOrder": 4,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Husb_Beds-DisplayName\", \"Beds & Coops\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Husb_Beds"
+            }
+        },
+        {
+            "Name": "Husb_Troughs",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayOrder": 5,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Husb_Troughs-DisplayName\", \"Troughs & Bowls\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Husb_Troughs"
+            }
+        },
+        {
+            "Name": "Husb_Baits",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayOrder": 6,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Husb_Baits-DisplayName\", \"Baits\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Husb_Baits"
+            }
+        },
+        {
+            "Name": "Bench_Cooking",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemBenchesPage.UMG_FieldGuideItemBenchesPage_C'",
+            "DisplayOrder": 1,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Bench_Cooking-DisplayName\", \"Cooking\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Bench_Cooking"
+            }
+        },
+        {
+            "Name": "Bench_Kitchen",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemBenchesPage.UMG_FieldGuideItemBenchesPage_C'",
+            "DisplayOrder": 2,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Bench_Kitchen-DisplayName\", \"Kitchen\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Bench_Kitchen"
+            }
+        },
+        {
+            "Name": "Bench_Furnaces",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemBenchesPage.UMG_FieldGuideItemBenchesPage_C'",
+            "DisplayOrder": 3,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Bench_Furnaces-DisplayName\", \"Furnaces\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Bench_Furnaces"
+            }
+        },
+        {
+            "Name": "Bench_Power",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemBenchesPage.UMG_FieldGuideItemBenchesPage_C'",
+            "DisplayOrder": 4,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Bench_Power-DisplayName\", \"Power Generation\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Bench_Power"
+            }
+        },
+        {
+            "Name": "Bench_Crafting",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemBenchesPage.UMG_FieldGuideItemBenchesPage_C'",
+            "DisplayOrder": 5,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Bench_Crafting-DisplayName\", \"Crafting\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Bench_Crafting"
+            }
+        },
+        {
+            "Name": "Med_Bandages",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemMedicinePage.UMG_FieldGuideItemMedicinePage_C'",
+            "DisplayOrder": 1,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Med_Bandages-DisplayName\", \"Bandages & Kits\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Med_Bandages"
+            }
+        },
+        {
+            "Name": "Med_Tonics",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemMedicinePage.UMG_FieldGuideItemMedicinePage_C'",
+            "DisplayOrder": 2,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Med_Tonics-DisplayName\", \"Tonics\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Med_Tonics"
+            }
+        },
+        {
+            "Name": "Med_Pills",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemMedicinePage.UMG_FieldGuideItemMedicinePage_C'",
+            "DisplayOrder": 3,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Med_Pills-DisplayName\", \"Pills\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Med_Pills"
+            }
+        },
+        {
+            "Name": "Med_Pastes",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemMedicinePage.UMG_FieldGuideItemMedicinePage_C'",
+            "DisplayOrder": 4,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Med_Pastes-DisplayName\", \"Pastes\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Med_Pastes"
+            }
+        },
+        {
+            "Name": "Med_Workshop",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemMedicinePage.UMG_FieldGuideItemMedicinePage_C'",
+            "DisplayOrder": 5,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Med_Workshop-DisplayName\", \"Workshop Medicine\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Med_Workshop"
+            }
+        },
+        {
+            "Name": "Plants_Vegetables",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemPlantsPage.UMG_FieldGuideItemPlantsPage_C'",
+            "DisplayOrder": 1,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Plants_Vegetables-DisplayName\", \"Vegetables\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Plants_Vegetables"
+            }
+        },
+        {
+            "Name": "Plants_Fruit",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemPlantsPage.UMG_FieldGuideItemPlantsPage_C'",
+            "DisplayOrder": 2,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Plants_Fruit-DisplayName\", \"Fruit\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Plants_Fruit"
+            }
+        },
+        {
+            "Name": "Plants_Herbs",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemPlantsPage.UMG_FieldGuideItemPlantsPage_C'",
+            "DisplayOrder": 3,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Plants_Herbs-DisplayName\", \"Herbs\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Plants_Herbs"
+            }
+        },
+        {
+            "Name": "Plants_Grains",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemPlantsPage.UMG_FieldGuideItemPlantsPage_C'",
+            "DisplayOrder": 4,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Plants_Grains-DisplayName\", \"Grains\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Plants_Grains"
+            }
+        },
+        {
+            "Name": "Plants_Speciality",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemPlantsPage.UMG_FieldGuideItemPlantsPage_C'",
+            "DisplayOrder": 5,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Plants_Speciality-DisplayName\", \"Speciality\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Plants_Speciality"
+            }
+        },
+        {
+            "Name": "Armor_Head",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemArmorPage.UMG_FieldGuideItemArmorPage_C'",
+            "DisplayOrder": 1,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Armor_Head-DisplayName\", \"Head\")",
+            "TagQuery": {
+                "RowName": "Helmet"
+            }
+        },
+        {
+            "Name": "Armor_Chest",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemArmorPage.UMG_FieldGuideItemArmorPage_C'",
+            "DisplayOrder": 2,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Armor_Chest-DisplayName\", \"Chest\")",
+            "TagQuery": {
+                "RowName": "Chest"
+            }
+        },
+        {
+            "Name": "Armor_Arms",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemArmorPage.UMG_FieldGuideItemArmorPage_C'",
+            "DisplayOrder": 3,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Armor_Arms-DisplayName\", \"Arms\")",
+            "TagQuery": {
+                "RowName": "Gloves"
+            }
+        },
+        {
+            "Name": "Armor_Legs",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemArmorPage.UMG_FieldGuideItemArmorPage_C'",
+            "DisplayOrder": 4,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Armor_Legs-DisplayName\", \"Legs\")",
+            "TagQuery": {
+                "RowName": "Pants"
+            }
+        },
+        {
+            "Name": "Armor_Feet",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemArmorPage.UMG_FieldGuideItemArmorPage_C'",
+            "DisplayOrder": 5,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Armor_Feet-DisplayName\", \"Feet\")",
+            "TagQuery": {
+                "RowName": "Boots"
+            }
+        },
+        {
+            "Name": "Creatures_Trophies",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemCraftAndStatsPage.UMG_FieldGuideItemCraftAndStatsPage_C'",
+            "DisplayOrder": 5,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Creatures_Trophies-DisplayName\", \"Trophies\")",
+            "TagQuery": {
+                "RowName": "Any_Trophy"
+            }
+        },
+        {
+            "Name": "Build_Trim",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayOrder": 7,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Build_Trim-DisplayName\", \"Building Trim\")",
+            "TagQuery": {
+                "RowName": "Any_BuildingTrim"
+            }
+        },
+        {
+            "Name": "Equipment_Gadgets",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemEquipmentPage.UMG_FieldGuideItemEquipmentPage_C'",
+            "DisplayOrder": 16,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Equipment_Gadgets-DisplayName\", \"Gadgets\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Equipment_Gadgets"
+            }
+        },
+        {
+            "Name": "Equipment_Shields",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemCraftAndStatsPage.UMG_FieldGuideItemCraftAndStatsPage_C'",
+            "DisplayOrder": 17,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Equipment_Shields-DisplayName\", \"Shields\")",
+            "TagQuery": {
+                "RowName": "Any_Shield"
+            }
+        },
+        {
+            "Name": "Defense_Turrets",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayOrder": 1,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Defense_Turrets-DisplayName\", \"Turrets\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Defense_Turrets"
+            }
+        },
+        {
+            "Name": "Defense_Fortifications",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayOrder": 2,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Defense_Fortifications-DisplayName\", \"Fortifications\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Defense_Fortifications"
+            }
+        },
+        {
+            "Name": "Defense_Traps",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayOrder": 3,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Defense_Traps-DisplayName\", \"Traps\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Defense_Traps"
+            }
+        },
+        {
+            "Name": "Defense_Deterrents",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayOrder": 4,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Defense_Deterrents-DisplayName\", \"Deterrents\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Defense_Deterrents"
+            }
+        },
+        {
+            "Name": "Husb_Control",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayOrder": 8,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Husb_Control-DisplayName\", \"Control\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Husb_Control"
+            }
+        },
+        {
+            "Name": "Plants_Exotics",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemPlantsPage.UMG_FieldGuideItemPlantsPage_C'",
+            "DisplayOrder": 6,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Plants_Exotics-DisplayName\", \"Exotics\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Plants_Exotics"
+            }
+        },
+        {
+            "Name": "Deployables_Targets",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDeployablePage.UMG_FieldGuideItemDeployablePage_C'",
+            "DisplayOrder": 18,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Deployables_Targets-DisplayName\", \"Targets\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Deployable_Targets"
+            }
+        },
+        {
+            "Name": "Deployables_Settlement",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDeployablePage.UMG_FieldGuideItemDeployablePage_C'",
+            "DisplayOrder": 19,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Deployables_Settlement-DisplayName\", \"Settlement\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Deployable_Settlement"
+            }
+        },
+        {
+            "Name": "Deployables_Stacks",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDeployablePage.UMG_FieldGuideItemDeployablePage_C'",
+            "DisplayOrder": 20,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Deployables_Stacks-DisplayName\", \"Stacks\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Deployable_Stacks"
+            }
+        },
+        {
+            "Name": "Decor_Lab",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDecorationPage.UMG_FieldGuideItemDecorationPage_C'",
+            "DisplayOrder": 13,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Decor_Lab-DisplayName\", \"Lab\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Decor_Lab"
+            }
+        },
+        {
+            "Name": "Decor_Wood",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDecorationPage.UMG_FieldGuideItemDecorationPage_C'",
+            "DisplayOrder": 14,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Decor_Wood-DisplayName\", \"Wood\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Decor_Wood"
+            }
+        },
+        {
+            "Name": "Decor_Curios",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDecorationPage.UMG_FieldGuideItemDecorationPage_C'",
+            "DisplayOrder": 15,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Decor_Curios-DisplayName\", \"Curios\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Decor_Curios"
+            }
+        },
+        {
+            "Name": "Decor_Flags",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemDecorationPage.UMG_FieldGuideItemDecorationPage_C'",
+            "DisplayOrder": 16,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Decor_Flags-DisplayName\", \"Flags\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Decor_Flags"
+            }
+        },
+        {
+            "Name": "Defense_Environmental",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemResourcePage.UMG_FieldGuideItemResourcePage_C'",
+            "DisplayOrder": 5,
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Defense_Environmental-DisplayName\", \"Environmental\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Defense_Environmental"
+            }
+        },
+        {
+            "Name": "Res_Ores",
+            "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemOrePage.UMG_FieldGuideItemOrePage_C'",
+            "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Res_Ores-DisplayName\", \"Ores\")",
+            "TagQuery": {
+                "RowName": "FieldGuide_Ore"
+            }
+        }
+    ]
 }

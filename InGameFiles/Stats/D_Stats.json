@@ -4285,7 +4285,7 @@
         {
             "Name": "FellingRewards_+%",
             "Title": "NSLOCTEXT(\"D_Stats\", \"FellingRewards_+%-Title\", \"Felling Yield\")",
-            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
             "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
             "bIsReplicated": true,
             "StatCategory": {
@@ -4302,12 +4302,12 @@
         },
         {
             "Name": "MiningRewards_+%",
-            "Title": "NSLOCTEXT(\"D_Stats\", \"MiningRewards_+%-Title\", \"Felling Yield\")",
-            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"MiningRewards_+%-Title\", \"Mining Yield\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
             "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
             "bIsReplicated": true,
             "StatCategory": {
-                "RowName": "Felling"
+                "RowName": "Mining"
             }
         },
         {
@@ -24417,7 +24417,7 @@
         {
             "Name": "NightFellingRewards_+%",
             "Title": "NSLOCTEXT(\"D_Stats\", \"NightFellingRewards_+%-Title\", \"Felling Yield at Night\")",
-            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
             "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
             "bIsReplicated": true,
             "StatCategory": {
@@ -24512,6 +24512,21 @@
             "bIsReplicated": true,
             "StatCategory": {
                 "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "BaseMiningLeadRewards_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMiningLeadRewards_+%-PositiveDescription\", \"+{0}% Yield from Mining Lead\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMiningLeadRewards_+%-NegativeDescription\", \"-{0}% Yield from Mining Lead\")",
+            "StatCategory": {
+                "RowName": "Mining"
+            }
+        },
+        {
+            "Name": "MiningLeadRewards_%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mining"
             }
         }
     ]

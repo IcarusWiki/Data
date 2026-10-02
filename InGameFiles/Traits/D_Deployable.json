@@ -12089,6 +12089,15 @@
                 }
             ],
             "EffectedByWeather": false
+        },
+        {
+            "Name": "Arc_Furnace",
+            "Variants": [
+                {
+                    "RowName": "Arc_Furnace",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ]
         }
     ]
 }

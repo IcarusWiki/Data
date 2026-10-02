@@ -722,6 +722,48 @@
             "VoxelTag": {
                 "TagName": "Harvest.Pickaxe.T2"
             }
+        },
+        {
+            "Name": "Lead_Normal",
+            "ResourceCategory": "Lead",
+            "ResourceType": {
+                "RowName": "Lead_Ore"
+            },
+            "PyriticCrustResourceType": {
+                "RowName": "Pyritic_Crust_Lead"
+            },
+            "DensityMultiplier": 1.399999976158142,
+            "FullyMinedSound": "/Game/FMOD/Events/SFX/D_Surfaces/SFX_VOXEL_FINAL_HIT.SFX_VOXEL_FINAL_HIT",
+            "ExperienceForMining": {
+                "RowName": "MineLead"
+            },
+            "RewardStat": {
+                "Value": "MiningLeadRewards_%"
+            },
+            "VoxelTag": {
+                "TagName": "Harvest.Pickaxe.T2"
+            }
+        },
+        {
+            "Name": "Lead_Dense",
+            "ResourceCategory": "Lead",
+            "ResourceType": {
+                "RowName": "Lead_Ore"
+            },
+            "PyriticCrustResourceType": {
+                "RowName": "Pyritic_Crust_Lead"
+            },
+            "DensityMultiplier": 2.799999952316284,
+            "FullyMinedSound": "/Game/FMOD/Events/SFX/D_Surfaces/SFX_VOXEL_FINAL_HIT.SFX_VOXEL_FINAL_HIT",
+            "ExperienceForMining": {
+                "RowName": "MineLead"
+            },
+            "RewardStat": {
+                "Value": "MiningLeadRewards_%"
+            },
+            "VoxelTag": {
+                "TagName": "Harvest.Pickaxe.T2"
+            }
         }
     ]
 }

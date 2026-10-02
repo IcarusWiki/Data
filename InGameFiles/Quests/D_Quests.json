@@ -607,7 +607,7 @@
         {
             "Name": "BW6_Survey_CollectTransmitter",
             "Class": "/Game/BP/Quests/Implementations/Bw6_Survey/BP_BW6_Survey_CollectTransmitter.BP_BW6_Survey_CollectTransmitter_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"BW6_Survey_CollectTransmitter-Description\", \"Collect Uplink Transmitter from Supply Crate\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"BW6_Survey_CollectTransmitter-Description\", \"Collect Uplink Transmitter from Supply Pod\")"
         },
         {
             "Name": "BW6_Survey_DeployTransmitter",
@@ -10494,7 +10494,7 @@
         {
             "Name": "GH_RG_C2_Observe_Scout_Oxite_Deposit",
             "Class": "/Game/BP/Quests/GreatHunts/Rock_Golem/GH_RG_C2/BPQ_GH_RG_C2_Observe_Scout_Oxite_Deposit.BPQ_GH_RG_C2_Observe_Scout_Oxite_Deposit_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"GH_RG_C2_Observe_Scout_Oxite_Deposit-Description\", \"Deposit Sample in the Sinotai Retrieval Pod (M)\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"GH_RG_C2_Observe_Scout_Oxite_Deposit-Description\", \"Deposit Sample in the Sinotai Retrieval Pod ([MAP])\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -10527,7 +10527,7 @@
         {
             "Name": "GH_RG_C2_Observe_Scout_Copper_Deposit",
             "Class": "/Game/BP/Quests/GreatHunts/Rock_Golem/GH_RG_C2/BPQ_GH_RG_C2_Observe_Scout_Copper_Deposit.BPQ_GH_RG_C2_Observe_Scout_Copper_Deposit_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"GH_RG_C2_Observe_Scout_Copper_Deposit-Description\", \"Deposit Sample in the Sinotai Retrieval Pod (M)\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"GH_RG_C2_Observe_Scout_Copper_Deposit-Description\", \"Deposit Sample in the Sinotai Retrieval Pod ([MAP])\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -10560,7 +10560,7 @@
         {
             "Name": "GH_RG_C2_Observe_Scout_Gold_Deposit",
             "Class": "/Game/BP/Quests/GreatHunts/Rock_Golem/GH_RG_C2/BPQ_GH_RG_C2_Observe_Scout_Gold_Deposit.BPQ_GH_RG_C2_Observe_Scout_Gold_Deposit_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"GH_RG_C2_Observe_Scout_Gold_Deposit-Description\", \"Deposit Sample in the Sinotai Retrieval Pod (M)\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"GH_RG_C2_Observe_Scout_Gold_Deposit-Description\", \"Deposit Sample in the Sinotai Retrieval Pod ([MAP])\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -10593,7 +10593,7 @@
         {
             "Name": "GH_RG_C2_Observe_Scout_Exotic_Deposit",
             "Class": "/Game/BP/Quests/GreatHunts/Rock_Golem/GH_RG_C2/BPQ_GH_RG_C2_Observe_Scout_Exotic_Deposit.BPQ_GH_RG_C2_Observe_Scout_Exotic_Deposit_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"GH_RG_C2_Observe_Scout_Exotic_Deposit-Description\", \"Deposit Sample in the Sinotai Retrieval Pod (M)\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"GH_RG_C2_Observe_Scout_Exotic_Deposit-Description\", \"Deposit Sample in the Sinotai Retrieval Pod ([MAP])\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -20333,7 +20333,7 @@
         {
             "Name": "OLY_SQ_Farmer_Setup_Collect_Aluminium",
             "Class": "/Game/BP/Quests/NPC/Farmer/BPQ_SQ_Farmer_Setup_Collect_Aluminium.BPQ_SQ_Farmer_Setup_Collect_Aluminium_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_SQ_Farmer_Setup_Collect_Aluminium-Description\", \"Aluminum Ingot <Number>({0} / {1})</>\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_SQ_Farmer_Setup_Collect_Aluminium-Description\", \"Aluminium Ingot <Number>({0} / {1})</>\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"

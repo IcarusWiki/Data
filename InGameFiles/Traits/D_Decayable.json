@@ -247,6 +247,14 @@
             }
         },
         {
+            "Name": "Decay_Pyritic_Crust_Lead",
+            "DecayTime": 300,
+            "SpoilTime": 300,
+            "SpoiledItem": {
+                "RowName": "Lead_Ore"
+            }
+        },
+        {
             "Name": "Decay_Pyritic_Crust_Sulfur",
             "DecayTime": 300,
             "SpoilTime": 300,
