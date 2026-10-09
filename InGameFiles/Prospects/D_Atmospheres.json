@@ -15,7 +15,8 @@
         "Bloom": "None",
         "DistFogScale": 1000,
         "MaterialParameterName": "None",
-        "Cubemap": "/Game/ThirdPartyAssets/ForestCollection/Textures/FX/TEX_CF_CubemapA.TEX_CF_CubemapA"
+        "Cubemap": "/Game/ThirdPartyAssets/ForestCollection/Textures/FX/TEX_CF_CubemapA.TEX_CF_CubemapA",
+        "FishingBackground": "None"
     },
     "GenerateEnum": true,
     "Rows": [
@@ -224,15 +225,15 @@
             "Image_Small": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Desert_M.T_Bestiary_Diorama_Desert_M",
             "Image_Medium": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Desert_XL.T_Bestiary_Diorama_Desert_XL",
             "Image_Large": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Desert_XXL.T_Bestiary_Diorama_Desert_XXL",
-            "FogColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_FogTint.C_CF_FogTint'",
-            "SunColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_AtmosSun.C_CF_AtmosSun'",
+            "FogColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/CF/C_ELY_Desert_FogTint.C_ELY_Desert_FogTint'",
+            "SunColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/DC/C_DC_AtmosSun.C_DC_AtmosSun'",
             "SunIntensity": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_SunIntensity.C_CF_SunIntensity'",
             "MoonIntensity": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_MoonIntensity.C_CF_MoonIntensity'",
             "SkyLightIntensity": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_SkyLight.C_CF_SkyLight'",
             "OvercastScattering": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_Overcast.C_CF_Overcast'",
             "Bloom": "CurveVector'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_BloomSettings.C_CF_BloomSettings'",
             "DistFogScale": 900,
-            "Cubemap": "/Game/ASS/VFX/CBE/CBE_CF02.CBE_CF02"
+            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Eden_02.T_Cubemap_Eden_02"
         },
         {
             "Name": "Tundra",

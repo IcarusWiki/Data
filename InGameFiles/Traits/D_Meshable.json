@@ -6558,7 +6558,7 @@
         },
         {
             "Name": "Mesh_Lead_Ore",
-            "ItemMesh": "/Game/ASS/ITM/Ore/SM_Rock_Ore_Iron.SM_Rock_Ore_Iron"
+            "ItemMesh": "/Game/ASS/ITM/Ore/SM_Rock_Ore_Lead.SM_Rock_Ore_Lead"
         },
         {
             "Name": "Mesh_Lead_Ingot",

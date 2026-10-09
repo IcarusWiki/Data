@@ -57354,6 +57354,9 @@
                     },
                     {
                         "TagName": "FieldGuide.Resource.Raw"
+                    },
+                    {
+                        "TagName": "Item.Consumable.Food.Spoiled"
                     }
                 ]
             },
@@ -57364,6 +57367,9 @@
                     },
                     {
                         "TagName": "FieldGuide.Resource.Raw"
+                    },
+                    {
+                        "TagName": "Item.Consumable.Food.Spoiled"
                     },
                     {
                         "TagName": "Traits.Meshable"

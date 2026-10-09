@@ -16963,6 +16963,7 @@
         },
         {
             "Name": "Cooked_Spinach",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Spinach_Braised.T_ITEM_Spinach_Braised'",
             "ModifierName": "INVTEXT(\"[DNT]Braised Spinach\")",
             "ModifierDescription": "INVTEXT(\"[DNT]A little stamina and extra weight capacity.\")",
             "GrantedStats": {
@@ -16985,6 +16986,7 @@
         },
         {
             "Name": "Spinach_Omelette",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Spinach_Omelette.T_ITEM_Spinach_Omelette'",
             "ModifierName": "INVTEXT(\"[DNT]Spinach Omelette\")",
             "ModifierDescription": "INVTEXT(\"[DNT]Boosts health, stamina, and weight capacity.\")",
             "GrantedStats": {
@@ -17008,6 +17010,7 @@
         },
         {
             "Name": "Creamed_Spinach",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Spinach_Creamed.T_ITEM_Spinach_Creamed'",
             "ModifierName": "INVTEXT(\"[DNT]Creamed Spinach\")",
             "ModifierDescription": "INVTEXT(\"[DNT]Boosts health and stamina. Increases weight capacity.\")",
             "GrantedStats": {
@@ -17031,6 +17034,7 @@
         },
         {
             "Name": "Spinach_Salad",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Spinach_Salad.T_ITEM_Spinach_Salad'",
             "ModifierName": "INVTEXT(\"[DNT]Spinach Salad\")",
             "ModifierDescription": "INVTEXT(\"[DNT]A boost to stamina and carry weight capacity.\")",
             "GrantedStats": {
@@ -17054,6 +17058,7 @@
         },
         {
             "Name": "Spinach_Pie",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Spinach_Pie.T_ITEM_Spinach_Pie'",
             "ModifierName": "INVTEXT(\"[DNT] Spinach Pie\")",
             "ModifierDescription": "INVTEXT(\"[DNT]Boosts health, stamina, health regeneration, and increased weight capacity.\")",
             "GrantedStats": {
@@ -17250,7 +17255,7 @@
         },
         {
             "Name": "Ginger_Tea",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Thermos.ITEM_Thermos'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Ginger_Tea.T_ITEM_Ginger_Tea'",
             "ModifierName": "INVTEXT(\"[DNT]Ginger Tea\")",
             "ModifierDescription": "INVTEXT(\"[DNT]Keeps you warm and increases basic wound resistance.\")",
             "GrantedStats": {
