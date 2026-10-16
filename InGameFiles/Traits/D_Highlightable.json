@@ -1683,6 +1683,11 @@
             "Name": "Pineapple",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Pineapple-DisplayName\", \"Pineapple\")",
             "Description": "INVTEXT(\"[DNT] A tart treat that tingles the tongue.\")"
+        },
+        {
+            "Name": "DragonFly_Geothermal_Nest",
+            "DisplayName": "INVTEXT(\"[DNT] Geothermal Venomfly Nest\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"DragonFly_Geothermal_Nest-Description\", \"A nest full of Venomflies. Be Careful.\")"
         }
     ]
 }

@@ -7784,7 +7784,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 }
@@ -7893,7 +7893,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 }
@@ -8111,7 +8111,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 }
@@ -13781,7 +13781,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 }
@@ -14559,7 +14559,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 }
@@ -16382,7 +16382,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 }
@@ -25089,7 +25089,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 }
@@ -30923,7 +30923,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 }
@@ -31089,7 +31089,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 }
@@ -31255,7 +31255,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 }
@@ -32350,7 +32350,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 }
@@ -33616,7 +33616,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 }
@@ -36015,7 +36015,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 }
@@ -39015,7 +39015,121 @@
             ]
         },
         {
+            "Name": "Crab_Parent_Head",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Crab_Parent_Head",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 1,
+                    "bRewardsScale": false,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
             "Name": "Crab_Coastal_Carcass_Loot",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Soft_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "PrimeMeatDropChance_%",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 3,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "MeatHarvestedFromAnimals_+%",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Stringy_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 30,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "PrimeMeatDropChance_%",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 2,
+                    "MaxRandomStackCount": 3,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "MeatHarvestedFromAnimals_+%",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Chitin",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 2,
+                    "MaxRandomStackCount": 5,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Crab_Coastal_Parent_Carcass_Loot",
             "Rewards": [
                 {
                     "Item": {
@@ -39091,7 +39205,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 }
@@ -39205,7 +39319,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 }
@@ -39373,8 +39487,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 10,
-                    "MaxRandomStackCount": 16,
+                    "MinRandomStackCount": 30,
+                    "MaxRandomStackCount": 50,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -39387,36 +39501,10 @@
                 },
                 {
                     "Item": {
-                        "RowName": "Raw_Meat",
-                        "DataTableName": "D_ItemTemplate"
-                    },
-                    "DropChance": 100,
-                    "DropChanceAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "RequiredStatToDrop": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "MinRandomStackCount": 3,
-                    "MaxRandomStackCount": 4,
-                    "bRewardsScale": true,
-                    "StackAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "StackMultiplicativeStat": {
-                        "RowName": "MeatHarvestedFromAnimals_+%",
-                        "DataTableName": "D_Stats"
-                    }
-                },
-                {
-                    "Item": {
                         "RowName": "Fatty_TBone",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "DropChance": 45,
+                    "DropChance": 100,
                     "DropChanceAdditiveStat": {
                         "RowName": "PrimeMeatDropChance_%",
                         "DataTableName": "D_Stats"
@@ -39425,8 +39513,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 3,
-                    "MaxRandomStackCount": 5,
+                    "MinRandomStackCount": 5,
+                    "MaxRandomStackCount": 10,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -39473,32 +39561,6 @@
         {
             "Name": "Beaver_Carcass_Loot",
             "Rewards": [
-                {
-                    "Item": {
-                        "RowName": "Leather",
-                        "DataTableName": "D_ItemTemplate"
-                    },
-                    "DropChance": 100,
-                    "DropChanceAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "RequiredStatToDrop": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "MinRandomStackCount": 5,
-                    "MaxRandomStackCount": 8,
-                    "bRewardsScale": true,
-                    "StackAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "StackMultiplicativeStat": {
-                        "RowName": "LeatherHarvestedFromAnimals_+%",
-                        "DataTableName": "D_Stats"
-                    }
-                },
                 {
                     "Item": {
                         "RowName": "Fur",
@@ -39661,7 +39723,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 },
@@ -39879,7 +39941,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 }
@@ -40025,7 +40087,7 @@
             "Rewards": [
                 {
                     "Item": {
-                        "RowName": "Slinker_Head",
+                        "RowName": "Slinker_Jungle_Head",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "DropChance": 100,
@@ -40242,7 +40304,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 },
@@ -41160,7 +41222,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 }
@@ -41751,7 +41813,7 @@
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 },
@@ -41814,7 +41876,7 @@
             "Rewards": [
                 {
                     "Item": {
-                        "RowName": "Sandwyrm_Queen_Head",
+                        "RowName": "Ground_Dragon_Head",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "DropChance": 100,
@@ -41845,33 +41907,7 @@
             "Rewards": [
                 {
                     "Item": {
-                        "RowName": "Sandwyrm_Wing",
-                        "DataTableName": "D_ItemTemplate"
-                    },
-                    "DropChance": 100,
-                    "DropChanceAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "RequiredStatToDrop": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "MinRandomStackCount": 15,
-                    "MaxRandomStackCount": 20,
-                    "bRewardsScale": true,
-                    "StackAdditiveStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    },
-                    "StackMultiplicativeStat": {
-                        "RowName": "None",
-                        "DataTableName": "D_Stats"
-                    }
-                },
-                {
-                    "Item": {
-                        "RowName": "Sandwyrm_Egg",
+                        "RowName": "Bone",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "DropChance": 100,
@@ -41884,20 +41920,20 @@
                         "DataTableName": "D_Stats"
                     },
                     "MinRandomStackCount": 10,
-                    "MaxRandomStackCount": 15,
+                    "MaxRandomStackCount": 16,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
-                        "RowName": "None",
+                        "RowName": "BoneHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 },
                 {
                     "Item": {
-                        "RowName": "Sandwyrm_Queen_Head",
+                        "RowName": "Raw_Meat",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "DropChance": 100,
@@ -41909,15 +41945,41 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 1,
-                    "MaxRandomStackCount": 1,
-                    "bRewardsScale": false,
+                    "MinRandomStackCount": 3,
+                    "MaxRandomStackCount": 4,
+                    "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
                     "StackMultiplicativeStat": {
+                        "RowName": "MeatHarvestedFromAnimals_+%",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Stringy_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 45,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "PrimeMeatDropChance_%",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
                         "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 3,
+                    "MaxRandomStackCount": 5,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "MeatHarvestedFromAnimals_+%",
                         "DataTableName": "D_Stats"
                     }
                 }
@@ -42762,6 +42824,587 @@
                     "MinRandomStackCount": 1,
                     "MaxRandomStackCount": 1,
                     "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Koala_Sheep_Head",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Koala_Sheep_Head",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 1,
+                    "bRewardsScale": false,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Koala_Sheep_Carcass_Loot",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Wool",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 5,
+                    "MaxRandomStackCount": 10,
+                    "bRewardsScale": false,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Bone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 2,
+                    "MaxRandomStackCount": 4,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "BoneHarvestedFromAnimals_+%",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Raw_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 2,
+                    "MaxRandomStackCount": 2,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "MeatHarvestedFromAnimals_+%",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Soft_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 10,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "PrimeMeatDropChance_%",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 3,
+                    "MaxRandomStackCount": 4,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "MeatHarvestedFromAnimals_+%",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Flightless_Tank_Geothermal_Head",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Flightless_Tank_Geothermal_Head",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 1,
+                    "bRewardsScale": false,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Flightless_Tank_Geothermal_Carcass_Loot",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 12,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "LeatherHarvestedFromAnimals_+%",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Bone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 32,
+                    "MaxRandomStackCount": 48,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "BoneHarvestedFromAnimals_+%",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Raw_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 12,
+                    "MaxRandomStackCount": 20,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "MeatHarvestedFromAnimals_+%",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Fatty_TBone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 50,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "PrimeMeatDropChance_%",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 12,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "MeatHarvestedFromAnimals_+%",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Flightless_Tank_Horn",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 75,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 1,
+                    "bRewardsScale": false,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "DragonFly_Geothermal_Head",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "DragonFly_Geothermal_Head",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 1,
+                    "bRewardsScale": false,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "DragonFly_Geothermal_Carcass_Loot",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Leather",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 2,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "LeatherHarvestedFromAnimals_+%",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Bone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 2,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "BoneHarvestedFromAnimals_+%",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Raw_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 2,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "MeatHarvestedFromAnimals_+%",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "White_Meat",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 25,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "PrimeMeatDropChance_%",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 2,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "MeatHarvestedFromAnimals_+%",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Chitin",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 2,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "ChitinHarvestedFromAnimals_+%",
+                        "DataTableName": "D_Stats"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "DragonFly_Geothermal_Nest_Loot",
+            "Rewards": [
+                {
+                    "Item": {
+                        "RowName": "Honey",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 5,
+                    "MaxRandomStackCount": 10,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Sulfur",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 50,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 5,
+                    "MaxRandomStackCount": 10,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Meta_Resource",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 1,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 3,
+                    "bRewardsScale": false,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Volatile_Substance",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 50,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 1,
+                    "MaxRandomStackCount": 4,
+                    "bRewardsScale": false,
                     "StackAdditiveStat": {
                         "RowName": "None",
                         "DataTableName": "D_Stats"

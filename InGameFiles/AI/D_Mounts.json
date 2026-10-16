@@ -3692,6 +3692,144 @@
                 "RowName": "Mount_WoollyMammoth"
             },
             "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_Mammoth.T_Talent_Base_Mammoth",
+            "Variations": [
+                {
+                    "bCanBeSelected": true,
+                    "bCanBeSelectedByForcedEvolution": false,
+                    "MeshMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth.M_CRE_Mammoth"
+                    },
+                    "GFurMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Fur.M_CRE_Mammoth_Fur"
+                    },
+                    "CarcassMeshMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Carcass.M_CRE_Mammoth_Carcass"
+                    },
+                    "CarcassGFurMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Fur_Short_Carcass.M_CRE_Mammoth_Fur_Short_Carcass"
+                    },
+                    "Weighting": 2000
+                },
+                {
+                    "bCanBeSelected": true,
+                    "bCanBeSelectedByForcedEvolution": false,
+                    "MeshMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarA.M_CRE_Mammoth_Arctic_VarA"
+                    },
+                    "GFurMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarA_Fur.M_CRE_Mammoth_Arctic_VarA_Fur"
+                    },
+                    "CarcassMeshMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarA_Carcass.M_CRE_Mammoth_Arctic_VarA_Carcass"
+                    },
+                    "CarcassGFurMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarA_Fur_Short_Carcass.M_CRE_Mammoth_Arctic_VarA_Fur_Short_Carcass"
+                    },
+                    "Weighting": 50
+                },
+                {
+                    "bCanBeSelected": true,
+                    "bCanBeSelectedByForcedEvolution": false,
+                    "MeshMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarB.M_CRE_Mammoth_Arctic_VarB"
+                    },
+                    "GFurMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarB_Fur.M_CRE_Mammoth_Arctic_VarB_Fur"
+                    },
+                    "CarcassMeshMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_LegendaryA_Carcass.M_CRE_Mammoth_Arctic_LegendaryA_Carcass"
+                    },
+                    "CarcassGFurMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_LegendaryA_Fur_Short_Carcass.M_CRE_Mammoth_Arctic_LegendaryA_Fur_Short_Carcass"
+                    },
+                    "Weighting": 50
+                },
+                {
+                    "bCanBeSelected": true,
+                    "bCanBeSelectedByForcedEvolution": false,
+                    "MeshMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarC.M_CRE_Mammoth_Arctic_VarC"
+                    },
+                    "GFurMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarC_Fur.M_CRE_Mammoth_Arctic_VarC_Fur"
+                    },
+                    "CarcassMeshMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarC_Carcass.M_CRE_Mammoth_Arctic_VarC_Carcass"
+                    },
+                    "CarcassGFurMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarC_Fur_Short_Carcass.M_CRE_Mammoth_Arctic_VarC_Fur_Short_Carcass"
+                    },
+                    "Weighting": 50
+                },
+                {
+                    "bCanBeSelected": true,
+                    "bCanBeSelectedByForcedEvolution": false,
+                    "MeshMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarD.M_CRE_Mammoth_Arctic_VarD"
+                    },
+                    "GFurMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarD_Fur.M_CRE_Mammoth_Arctic_VarD_Fur"
+                    },
+                    "CarcassMeshMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarD_Carcass.M_CRE_Mammoth_Arctic_VarD_Carcass"
+                    },
+                    "CarcassGFurMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarD_Fur_Short_Carcass.M_CRE_Mammoth_Arctic_VarD_Fur_Short_Carcass"
+                    },
+                    "Weighting": 50
+                },
+                {
+                    "bCanBeSelected": true,
+                    "bCanBeSelectedByForcedEvolution": false,
+                    "MeshMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarE.M_CRE_Mammoth_Arctic_VarE"
+                    },
+                    "GFurMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarE_Fur.M_CRE_Mammoth_Arctic_VarE_Fur"
+                    },
+                    "CarcassMeshMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarE_Carcass.M_CRE_Mammoth_Arctic_VarE_Carcass"
+                    },
+                    "CarcassGFurMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarE_Fur_Short_Carcass.M_CRE_Mammoth_Arctic_VarE_Fur_Short_Carcass"
+                    },
+                    "Weighting": 50
+                },
+                {
+                    "bCanBeSelected": true,
+                    "bCanBeSelectedByForcedEvolution": false,
+                    "MeshMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarF.M_CRE_Mammoth_Arctic_VarF"
+                    },
+                    "GFurMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarF_Fur.M_CRE_Mammoth_Arctic_VarF_Fur"
+                    },
+                    "CarcassMeshMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarF_Carcass.M_CRE_Mammoth_Arctic_VarF_Carcass"
+                    },
+                    "CarcassGFurMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarF_Fur_Short_Carcass.M_CRE_Mammoth_Arctic_VarF_Fur_Short_Carcass"
+                    },
+                    "Weighting": 50
+                },
+                {
+                    "bCanBeSelected": true,
+                    "bCanBeSelectedByForcedEvolution": false,
+                    "MeshMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_LegendaryA.M_CRE_Mammoth_Arctic_LegendaryA"
+                    },
+                    "GFurMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_LegendaryA_Fur.M_CRE_Mammoth_Arctic_LegendaryA_Fur"
+                    },
+                    "CarcassMeshMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_LegendaryA_Carcass.M_CRE_Mammoth_Arctic_LegendaryA_Carcass"
+                    },
+                    "CarcassGFurMaterials": {
+                        "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_LegendaryA_Fur_Short_Carcass.M_CRE_Mammoth_Arctic_LegendaryA_Fur_Short_Carcass"
+                    },
+                    "Weighting": 5
+                }
+            ],
             "RelevantSaddleQuery": {
                 "RowName": "Any_Saddle"
             },

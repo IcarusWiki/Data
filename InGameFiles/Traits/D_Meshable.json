@@ -6554,7 +6554,7 @@
         },
         {
             "Name": "Mesh_Heavy_Leather",
-            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Leather.SM_ITM_Leather"
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Heavy_Leather.SM_ITM_Heavy_Leather"
         },
         {
             "Name": "Mesh_Lead_Ore",
@@ -6656,7 +6656,7 @@
             "EquipHandMesh": "/Game/ASS/ITM/SM_ITM_Meat_Cooked.SM_ITM_Meat_Cooked"
         },
         {
-            "Name": "Mesh_Settlement_Microchips",
+            "Name": "Mesh_Microchips",
             "ItemMesh": "/Game/ASS/ITM/SM_ITM_Electronics.SM_ITM_Electronics"
         },
         {
@@ -6669,6 +6669,29 @@
             "ItemMesh": "/Game/ASS/ITM/Horn_Sandhorn/SM_ITM_Horn_Sandhorn.SM_ITM_Horn_Sandhorn",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
             "EquipBackMesh": "/Game/ASS/ITM/Horn_Sandhorn/SM_ITM_Horn_Sandhorn.SM_ITM_Horn_Sandhorn"
+        },
+        {
+            "Name": "Mesh_Carcass_Koala_Sheep",
+            "ItemMesh": "/Game/ASS/CRE/Koala_Sheep/SK_CRE_Koala_Sheep.SK_CRE_Koala_Sheep",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Koala_Sheep_Corpse.BP_Koala_Sheep_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Koala_Sheep/SK_CRE_Koala_Sheep.SK_CRE_Koala_Sheep",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Koala_Sheep_Corpse.BP_Koala_Sheep_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Fish_Paste",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Fish_Paste.SM_ITM_Fish_Paste"
+        },
+        {
+            "Name": "Mesh_Fish_Paste_Lure",
+            "ItemMesh": "/Game/ASS/ITM/SK_ITM_Rotten_Meat_Lure.SK_ITM_Rotten_Meat_Lure",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
+        },
+        {
+            "Name": "Mesh_Carcass_DragonFly_Geothermal",
+            "ItemMesh": "/Game/ASS/CRE/Dragonfly/SK_CRE_Dragonfly.SK_CRE_Dragonfly",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_DragonFly_Geothermal_Corpse.BP_DragonFly_Geothermal_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Dragonfly/SK_CRE_Dragonfly.SK_CRE_Dragonfly",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_DragonFly_Geothermal_Corpse.BP_DragonFly_Geothermal_Corpse_C"
         }
     ]
 }

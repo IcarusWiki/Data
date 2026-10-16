@@ -12098,6 +12098,16 @@
                     "DataTableName": "D_DeployableSetup"
                 }
             ]
+        },
+        {
+            "Name": "Workshop_Dehumidifier",
+            "Variants": [
+                {
+                    "RowName": "Workshop_Dehumidifier",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
         }
     ]
 }

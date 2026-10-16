@@ -766,6 +766,13 @@
             "EnergyFlow": {
                 "RowName": "Faction_Mission_Laser_Utility"
             }
+        },
+        {
+            "Name": "Advanced_Armor_Stand",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Advanced_Armor_Stand"
+            }
         }
     ]
 }

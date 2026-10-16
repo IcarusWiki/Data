@@ -2459,7 +2459,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Wine",
@@ -2477,7 +2478,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "DeathRun",
@@ -3364,7 +3366,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Meta_Soda",
@@ -3399,7 +3402,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Coconut",
@@ -3422,7 +3426,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Coconut_Mid",
@@ -3445,7 +3450,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Coconut_Mature",
@@ -3468,7 +3474,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Berry",
@@ -3491,7 +3498,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Watermelon",
@@ -3514,7 +3522,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "CookedFish",
@@ -3537,7 +3546,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "CookedMeat",
@@ -3555,7 +3565,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Spoiled_Meat",
@@ -3575,7 +3586,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_Prime_Meat",
@@ -3595,7 +3607,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_Corn",
@@ -3618,7 +3631,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_Pumpkin",
@@ -3641,7 +3655,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_Squash",
@@ -3664,7 +3679,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_Carrot",
@@ -3687,7 +3703,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_Mushroom",
@@ -3710,7 +3727,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Corn_Soup",
@@ -3733,7 +3751,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Mushroom_Soup",
@@ -3756,7 +3775,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Fruit_Salad",
@@ -3781,7 +3801,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Wild_Salad",
@@ -3805,7 +3826,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Meat_Stew",
@@ -3826,7 +3848,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Fried_Soy_Beans",
@@ -3852,7 +3875,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Fish_Dish",
@@ -3876,7 +3900,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Roasted_Vegetables",
@@ -3901,7 +3926,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Creamed_Corn",
@@ -3925,7 +3951,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "FlatBread",
@@ -3944,7 +3971,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Fruit_Pie",
@@ -3970,7 +3998,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Meat_Pie",
@@ -3991,7 +4020,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Vegetable_Pie",
@@ -4018,7 +4048,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Bread",
@@ -4036,7 +4067,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Pumpkin_Bread",
@@ -4060,7 +4092,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Crumbed_Fish",
@@ -4085,7 +4118,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Picked_Carrot",
@@ -4109,7 +4143,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Jar_Jam",
@@ -4133,7 +4168,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Antibiotic_Vaccine",
@@ -4372,7 +4408,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Dried_Fatty_Tbone",
@@ -4396,7 +4433,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Dried_Gamey_Meat",
@@ -4420,7 +4458,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Dried_Stringy_Meat",
@@ -4444,7 +4483,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Dried_Soft_Meat",
@@ -4468,7 +4508,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Dried_White_Meat",
@@ -4492,7 +4533,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_Bacon",
@@ -4511,7 +4553,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Crispy_Bacon",
@@ -4531,7 +4574,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Heatstroke",
@@ -5353,7 +5397,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_Tomato",
@@ -5376,7 +5421,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Hearty_Salad",
@@ -5400,7 +5446,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Tomato_Soup",
@@ -5423,7 +5470,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Picked_Tomato",
@@ -5447,7 +5495,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Potato_Carrot_Fries",
@@ -5473,7 +5522,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Potato_Bread",
@@ -5497,7 +5547,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Shepherds_Pie",
@@ -5518,7 +5569,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_Soy_Bean",
@@ -5541,7 +5593,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Health_Enhancement_Tonic",
@@ -5843,7 +5896,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Dried_Avocado",
@@ -5866,7 +5920,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Dried_Rhubarb",
@@ -5890,7 +5945,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_Rhubarb",
@@ -5913,7 +5969,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_Kumara",
@@ -5936,7 +5993,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Stuffed_Avocado",
@@ -5961,7 +6019,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Mixed_Berries",
@@ -5985,7 +6044,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Rhubarb_Stew",
@@ -6010,7 +6070,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Fried_Chunky_Vegetables",
@@ -6035,7 +6096,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Pickled_Avocado",
@@ -6059,7 +6121,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Strawberry_Jam",
@@ -6083,7 +6146,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Shepherds_Roll",
@@ -6105,7 +6169,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Savory_Roll",
@@ -6127,7 +6192,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Vegetable_Roll",
@@ -6154,7 +6220,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Fruit_Muffin",
@@ -6178,7 +6245,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Lava",
@@ -6226,7 +6294,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Fish_Chunk_Stew",
@@ -6252,7 +6321,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Dried_Freshwater_Fillet",
@@ -6277,7 +6347,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Dried_Saltwater_Fillet",
@@ -6302,7 +6373,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Freshwater_Fillet_Curry",
@@ -6326,7 +6398,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Saltwater_Fillet_Sashimi",
@@ -6352,7 +6425,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Pickled_Freshwater_Fillet",
@@ -6372,7 +6446,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Crumbed_Saltwater_Fillet",
@@ -6398,7 +6473,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Fish_Fillet_Pie",
@@ -6424,7 +6500,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "SpikedBrambles",
@@ -6560,7 +6637,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Grilled_Saltwater_Fillet",
@@ -6584,7 +6662,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Tearing_Fish",
@@ -7744,7 +7823,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Seed_Bread",
@@ -7768,7 +7848,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Berry_Bar",
@@ -7792,7 +7873,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Seed_Crackers",
@@ -7815,7 +7897,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Animal_Feed",
@@ -8205,7 +8288,8 @@
             ],
             "MergeType": "LongestDuration",
             "bEffectsPlayers": false,
-            "SaveToDatabase": false
+            "SaveToDatabase": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Animal_Feed_CarryWeight",
@@ -8228,7 +8312,8 @@
             ],
             "MergeType": "LongestDuration",
             "bEffectsPlayers": false,
-            "SaveToDatabase": false
+            "SaveToDatabase": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Smoked_Giant_Steak",
@@ -8254,7 +8339,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Smoked_Fatty_Tbone",
@@ -8279,7 +8365,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Smoked_Gamey_Meat",
@@ -8306,7 +8393,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Smoked_Stringy_Meat",
@@ -8332,7 +8420,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Smoked_Soft_Meat",
@@ -8357,7 +8446,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Smoked_White_Meat",
@@ -8383,7 +8473,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Smoked_Freshwater_Fillet",
@@ -8409,7 +8500,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Smoked_Saltwater_Fillet",
@@ -8436,7 +8528,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Dried_Meat_Generic",
@@ -8460,7 +8553,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Smoked_Meat_Generic",
@@ -8484,7 +8578,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Honey_Jar",
@@ -8503,7 +8598,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Honey",
@@ -8521,7 +8617,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Smoked_Bacon",
@@ -8548,7 +8645,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Honey_Pastry",
@@ -8567,7 +8665,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Bee_Swarm",
@@ -8809,7 +8908,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Honey_Bar",
@@ -8833,7 +8933,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Thermos_HoneyTea",
@@ -9354,7 +9455,8 @@
             ],
             "MergeType": "LongestDuration",
             "bEffectsPlayers": false,
-            "SaveToDatabase": false
+            "SaveToDatabase": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "ExoticDebuff",
@@ -9994,7 +10096,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Mushroom_Omlette",
@@ -10013,7 +10116,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Egg_Salad",
@@ -10033,7 +10137,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Pickled_Eggs",
@@ -10052,7 +10157,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Big_Breakfast",
@@ -10075,7 +10181,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Scrambled_Eggs",
@@ -10095,7 +10202,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Smashed_Avocado",
@@ -10119,7 +10227,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Grilled_Chicken",
@@ -10139,7 +10248,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Fried_Chicken",
@@ -10159,7 +10269,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Roast_Chicken",
@@ -10179,7 +10290,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Animal_Feed_Squash",
@@ -10204,7 +10316,8 @@
             ],
             "MergeType": "LongestDuration",
             "bEffectsPlayers": false,
-            "SaveToDatabase": false
+            "SaveToDatabase": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Animal_Feed_Pumpkin",
@@ -10229,7 +10342,8 @@
             ],
             "MergeType": "LongestDuration",
             "bEffectsPlayers": false,
-            "SaveToDatabase": false
+            "SaveToDatabase": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Animal_Feed_Potato",
@@ -10254,7 +10368,8 @@
             ],
             "MergeType": "LongestDuration",
             "bEffectsPlayers": false,
-            "SaveToDatabase": false
+            "SaveToDatabase": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Animal_Feed_Corn",
@@ -10278,7 +10393,8 @@
             ],
             "MergeType": "LongestDuration",
             "bEffectsPlayers": false,
-            "SaveToDatabase": false
+            "SaveToDatabase": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Animal_Feed_Carrot",
@@ -10302,7 +10418,8 @@
             ],
             "MergeType": "LongestDuration",
             "bEffectsPlayers": false,
-            "SaveToDatabase": false
+            "SaveToDatabase": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Animal_Feed_Mushroom",
@@ -10326,7 +10443,8 @@
             ],
             "MergeType": "LongestDuration",
             "bEffectsPlayers": false,
-            "SaveToDatabase": false
+            "SaveToDatabase": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Animal_Feed_Bean",
@@ -10350,7 +10468,8 @@
             ],
             "MergeType": "LongestDuration",
             "bEffectsPlayers": false,
-            "SaveToDatabase": false
+            "SaveToDatabase": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Tame_Hunger_1_Sheep",
@@ -10734,7 +10853,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Dried_Kiwifruit",
@@ -10758,7 +10878,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Kiwifruit_Jam",
@@ -10782,7 +10903,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Kiwifruit_Sorbet",
@@ -10806,7 +10928,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Fruit_Snack_Pack",
@@ -10831,7 +10954,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Fruit_Smoothie",
@@ -11603,7 +11727,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Coconut_Cookie",
@@ -11624,7 +11749,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Strawberry_Candy",
@@ -11677,7 +11803,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Caramel_Fruit_Tart",
@@ -11699,7 +11826,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Salted_Caramel_Pastry",
@@ -11719,7 +11847,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Indestructible",
@@ -11936,7 +12065,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Carrot_Cake_Piece",
@@ -11959,7 +12089,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Coconut_Cake_Piece",
@@ -11981,7 +12112,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cheese",
@@ -12000,7 +12132,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "LavaHunterAura_DynamicStatGain",
@@ -12227,7 +12360,8 @@
             ],
             "MergeType": "Replace",
             "MaxStackNum": 4,
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cheese_Pizza",
@@ -12248,7 +12382,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Pavlova",
@@ -12270,7 +12405,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Strawberries_And_Cream",
@@ -12289,7 +12425,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Bacon_Sandwich",
@@ -12310,7 +12447,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "GrantedAura_Earthquake",
@@ -13709,7 +13847,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Banana_Bread",
@@ -13737,7 +13876,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "OxygenRecovery_Buff",
@@ -13993,7 +14133,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Caramelized_Onions",
@@ -14017,7 +14158,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "French_Onion_Soup",
@@ -14042,7 +14184,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Onion_Rings",
@@ -14067,7 +14210,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Onion_Souffle",
@@ -14092,7 +14236,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_Agave",
@@ -14116,7 +14261,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Agave_Syrup",
@@ -14139,7 +14285,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Tequila",
@@ -14161,7 +14308,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Glazed_Carrots",
@@ -14185,7 +14333,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Pumpkin_Pie",
@@ -14210,7 +14359,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_PricklyPear",
@@ -14235,7 +14385,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "PricklyPear_Margarita",
@@ -14259,7 +14410,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "PricklyPear_Jelly",
@@ -14286,7 +14438,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "PricklyPear_Muffins",
@@ -14311,7 +14464,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_Garlic",
@@ -14336,7 +14490,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Garlic_Butter",
@@ -14355,7 +14510,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Garlic_Bread",
@@ -14381,7 +14537,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Garlic_Pizza",
@@ -14408,7 +14565,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Smoked_Garlic",
@@ -14434,7 +14592,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_Truffle",
@@ -14459,7 +14618,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Vodka",
@@ -14481,7 +14641,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Truffle_Vodka",
@@ -14505,7 +14666,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Truffle_Focaccia",
@@ -14532,7 +14694,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Truffle_Pasta",
@@ -14560,7 +14723,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Truffle_Fries",
@@ -14588,7 +14752,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Radiation_Sickness",
@@ -14963,7 +15128,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_Fatty_TBone",
@@ -14983,7 +15149,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_Gamey_Meat",
@@ -15003,7 +15170,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_Stringy_Meat",
@@ -15023,7 +15191,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_Soft_Meat",
@@ -15043,7 +15212,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_White_Meat",
@@ -15063,7 +15233,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Lithium_Knife",
@@ -15528,6 +15699,7 @@
             ],
             "MergeType": "LongestDuration",
             "bEffectsNPCs": false,
+            "RemovedOnClick": true,
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -15557,6 +15729,7 @@
             ],
             "MergeType": "LongestDuration",
             "bEffectsNPCs": false,
+            "RemovedOnClick": true,
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -15588,6 +15761,7 @@
             ],
             "MergeType": "LongestDuration",
             "bEffectsNPCs": false,
+            "RemovedOnClick": true,
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -15619,6 +15793,7 @@
             ],
             "MergeType": "LongestDuration",
             "bEffectsNPCs": false,
+            "RemovedOnClick": true,
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -15649,6 +15824,7 @@
             ],
             "MergeType": "LongestDuration",
             "bEffectsNPCs": false,
+            "RemovedOnClick": true,
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -15679,6 +15855,7 @@
             ],
             "MergeType": "LongestDuration",
             "bEffectsNPCs": false,
+            "RemovedOnClick": true,
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -16449,7 +16626,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "DNA_Serum",
@@ -16665,7 +16843,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Roast_Fowl",
@@ -16686,7 +16865,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Roast_Rabbit",
@@ -16707,7 +16887,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Roast_Critter",
@@ -16727,7 +16908,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Roast_Venison_Piece",
@@ -16749,7 +16931,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Roast_Panther_Piece",
@@ -16772,7 +16955,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Roast_Pork_Piece",
@@ -16794,7 +16978,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Roast_Mutton_Piece",
@@ -16816,7 +17001,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Roast_Wolf_Piece",
@@ -16838,7 +17024,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Roast_Reptile_Piece",
@@ -16860,7 +17047,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Roast_Exotic_Meat_Piece",
@@ -16882,7 +17070,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "DeepWound_NoEscalation",
@@ -16982,7 +17171,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Spinach_Omelette",
@@ -17006,7 +17196,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Creamed_Spinach",
@@ -17030,7 +17221,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Spinach_Salad",
@@ -17054,7 +17246,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Spinach_Pie",
@@ -17075,10 +17268,12 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Cooked_Pineapple",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Pineapple_Cooked.T_ITEM_Pineapple_Cooked'",
             "ModifierName": "INVTEXT(\"[DNT]Charred Pineapple\")",
             "ModifierDescription": "INVTEXT(\"[DNT]A little stamina and swiimming speed boost.\")",
             "GrantedStats": {
@@ -17097,10 +17292,12 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Dried_Pineapple",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Pineapple_Dried.T_ITEM_Pineapple_Dried'",
             "ModifierName": "INVTEXT(\"[DNT]Dried Pineapple Chips\")",
             "ModifierDescription": "INVTEXT(\"[DNT]A little stamina and swiimming speed boost.\")",
             "GrantedStats": {
@@ -17119,10 +17316,12 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Pineapple_Sorbet",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Pineapple_Sorbet.T_ITEM_Pineapple_Sorbet'",
             "ModifierName": "INVTEXT(\"[DNT]Pineapple Sorbet\")",
             "ModifierDescription": "INVTEXT(\"[DNT]Provides a large Stamina boost, extra experience, and a swimming speed boost.\")",
             "GrantedStats": {
@@ -17142,10 +17341,12 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Pineapple_Pork",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Pineapple_SweetSourPork.T_ITEM_Pineapple_SweetSourPork'",
             "ModifierName": "INVTEXT(\"[DNT]Sweet and Sour Pork\")",
             "ModifierDescription": "INVTEXT(\"[DNT]Increases Health, Stamina, Harvesting Rewards, Threat Against Animals, and Swimming Speed.\")",
             "GrantedStats": {
@@ -17162,10 +17363,12 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Pineapple_Cake_Piece",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Pineapple_CakeSlice.T_ITEM_Pineapple_CakeSlice'",
             "ModifierName": "INVTEXT(\"[DNT]Pineapple Cake Piece\")",
             "ModifierDescription": "INVTEXT(\"[DNT]A tasty cake perfect for going for long swims.\")",
             "GrantedStats": {
@@ -17182,7 +17385,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Pickled_Ginger",
@@ -17206,7 +17410,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Ginger_Curry",
@@ -17227,7 +17432,8 @@
                 }
             ],
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Ginger_Carrot_Soup",
@@ -17248,23 +17454,6 @@
             "ModifierLifetimeAffectors": [
                 {
                     "Value": "FoodModifierDuration_+%"
-                }
-            ],
-            "MergeType": "Replace",
-            "bEffectsNPCs": false
-        },
-        {
-            "Name": "Ginger_Tea",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Ginger_Tea.T_ITEM_Ginger_Tea'",
-            "ModifierName": "INVTEXT(\"[DNT]Ginger Tea\")",
-            "ModifierDescription": "INVTEXT(\"[DNT]Keeps you warm and increases basic wound resistance.\")",
-            "GrantedStats": {
-                "(Value=\"BaseInternalTemperatureModification_+\")": 1000,
-                "(Value=\"BaseWoundResistance_%\")": 25
-            },
-            "ModifierEffectivenessAffectors": [
-                {
-                    "Value": "FruitAndVegeModifierEffectiveness_+%"
                 }
             ],
             "MergeType": "Replace",
@@ -17294,7 +17483,8 @@
                 }
             ],
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "GrantedAura_Night_Yields",
@@ -17336,8 +17526,9 @@
         },
         {
             "Name": "Bandage_Poultice",
-            "ModifierName": "INVTEXT(\"[DNT]Poultice Bandage\")",
-            "ModifierDescription": "INVTEXT(\"[DNT]Heals bleedings and wounds and will prevent future wounds.\")",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Bandage_Poultice.T_ITEM_Bandage_Poultice'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Bandage_Poultice-ModifierName\", \"Poultice Bandage\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Bandage_Poultice-ModifierDescription\", \"Heals bleedings and wounds and will prevent future wounds.\")",
             "GrantedStats": {
                 "(Value=\"BaseWoundResistance_%\")": 15
             },
@@ -17357,6 +17548,312 @@
             "EffectsCustomActor": {
                 "RowName": "Faction_Mission_NPC"
             }
+        },
+        {
+            "Name": "Meta_Biolab_Inhaler_RadBoss",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Meta_Biolab_Inhaler_RadBoss.T_ITEM_Meta_Biolab_Inhaler_RadBoss'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Biolab_Inhaler_RadBoss-ModifierName\", \"Radioactive Boost Inhaler\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Biolab_Inhaler_RadBoss-ModifierDescription\", \"Increases Projectile and Melee Damage at the Cost of Continual Radiation Gain\")",
+            "GrantedStats": {
+                "(Value=\"BaseProjectileDamage_+%\")": 20,
+                "(Value=\"BaseMeleeDamage_+%\")": 20,
+                "(Value=\"BaseMovementSpeed_+%\")": 5
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_Irradiated.BP_ModifierStateBehaviour_Irradiated_C",
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Comfort_Buff",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_MODIFIER_FISH_COZINESS.T_ICON_MODIFIER_FISH_COZINESS'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Comfort_Buff-ModifierName\", \"Coziness Buff\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Comfort_Buff-ModifierDescription\", \"Increases Coziness by the Quality and Rarity of Fish\")",
+            "GrantedStats": {
+                "(Value=\"BaseComfortLevel_+%\")": 100
+            },
+            "ShouldTick": true,
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "GingerTea_Modifier",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Ginger_Tea.T_ITEM_Ginger_Tea'",
+            "ModifierName": "INVTEXT(\"[DNT] Ginger Tea\")",
+            "ModifierDescription": "INVTEXT(\"[DNT] Keeps you warm and increases basic wound resistance.\")",
+            "GrantedStats": {
+                "(Value=\"BaseInternalTemperatureModification_+\")": 1000,
+                "(Value=\"BaseWoundResistance_%\")": 25
+            },
+            "MergeType": "Replace",
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
+        },
+        {
+            "Name": "Dried_Fish_Chunks",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Fish_Dry_Chunks.T_ITEM_Fish_Dry_Chunks'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Fish_Chunks-ModifierName\", \"Dried Fish Chunks\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Fish_Chunks-ModifierDescription\", \"Boosts Stamina Regen and Reduces Food Consumption.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
+                "(Value=\"BaseStaminaRegen_+%\")": 10,
+                "(Value=\"BaseFoodConsumption_+%\")": -15
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FishFoodModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
+        },
+        {
+            "Name": "Fish_Chowder",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Fish_Chowder.T_ITEM_Fish_Chowder'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fish_Chowder-ModifierName\", \"Fish Chowder\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fish_Chowder-ModifierDescription\", \"Boosts Maximum Health, Stamina Regen and Exposure Resistance.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseStaminaRegen_+%\")": 15,
+                "(Value=\"BaseExposureResistance_+%\")": 10
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FishFoodModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
+        },
+        {
+            "Name": "Freshwater_Tartare",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Fish_Tartare.T_ITEM_Fish_Tartare'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Freshwater_Tartare-ModifierName\", \"Freshwater Tartare\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Freshwater_Tartare-ModifierDescription\", \"Provides a Mix of Maximum Stamina and Health with a chance to catch better freshwater fish.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseStaminaRegen_+%\")": 15,
+                "(Value=\"BaseHealthRegen_+%\")": 5,
+                "(Value=\"BaseCaughtFreshwaterFishQuality_+%\")": 10
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FishFoodModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
+        },
+        {
+            "Name": "Pickled_Saltwater_Fillet",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Fish_SaltwaterFillet.T_ITEM_Fish_SaltwaterFillet'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Pickled_Saltwater_Fillet-ModifierName\", \"Pickled Saltwater Fillet\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Pickled_Saltwater_Fillet-ModifierDescription\", \"Boosts Health, Stamina Regeneration and Shared Experience.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseStaminaRegen_+%\")": 30,
+                "(Value=\"BaseExposureResistance_+%\")": 10,
+                "(Value=\"BaseSharedExperience_+%\")": 20
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FishFoodModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
+        },
+        {
+            "Name": "Fish_And_Chips",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Fish_Chips.T_ITEM_Fish_Chips'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fish_And_Chips-ModifierName\", \"Fish and Chips\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fish_And_Chips-ModifierDescription\", \"Boosts Maximum Health, Maximum Stamina, Stamina Regen and Experience Gain.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseStaminaRegen_+%\")": 20,
+                "(Value=\"BaseExperience_+%\")": 10
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FishFoodModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
+        },
+        {
+            "Name": "Fish_Roll",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Fish_SausageRoll.T_ITEM_Fish_SausageRoll'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fish_Roll-ModifierName\", \"Fish Roll\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fish_Roll-ModifierDescription\", \"Greatly boosts Maximum Health, Health Regen, Stamina Regen and Experience Gain.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 225,
+                "(Value=\"BaseHealthRegen_+%\")": 10,
+                "(Value=\"BaseStaminaRegen_+%\")": 25,
+                "(Value=\"BaseExperience_+%\")": 10
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FishFoodModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
+        },
+        {
+            "Name": "Smoked_Fillet_Sandwich",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Fish_SandwichSmoked.T_ITEM_Fish_SandwichSmoked'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Fillet_Sandwich-ModifierName\", \"Smoked Fillet Sandwich\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Fillet_Sandwich-ModifierDescription\", \"Boosts Maximum Health, Maximum Stamina, Stamina Regen and Exposure Resistance, and Reduces Food Consumption.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseStaminaRegen_+%\")": 25,
+                "(Value=\"BaseExposureResistance_+%\")": 10,
+                "(Value=\"BaseFoodConsumption_+%\")": -25
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FishFoodModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
+        },
+        {
+            "Name": "Coconut_Fish_Curry",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Fish_CoconutCurry.T_ITEM_Fish_CoconutCurry'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Fish_Curry-ModifierName\", \"Coconut Fish Curry\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Fish_Curry-ModifierDescription\", \"Greatly boosts Maximum Health, Maximum Stamina, Health Regen, Stamina Regen and Exposure Resistance.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 225,
+                "(Value=\"BaseMaximumStamina_+\")": 150,
+                "(Value=\"BaseStaminaRegen_+%\")": 35,
+                "(Value=\"BaseExposureResistance_+%\")": 15,
+                "(Value=\"BaseHealthRegen_+%\")": 15
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FishFoodModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
+        },
+        {
+            "Name": "Chilled_Fish_Platter",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Fish_ChilledPlatter.T_ITEM_Fish_ChilledPlatter'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Chilled_Fish_Platter-ModifierName\", \"Chilled Fish Platter\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Chilled_Fish_Platter-ModifierDescription\", \"Boosts Maximum Health, Maximum Stamina and Stamina Regen, and Improves Caught Fish Quality, Rare Fish Chance and Fishing Capture Zone Size.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseMaximumStamina_+\")": 150,
+                "(Value=\"BaseStaminaRegen_+%\")": 25,
+                "(Value=\"BaseCaughtFishQuality_+%\")": 10,
+                "(Value=\"BaseChanceToCatchRareFish_+%\")": 20,
+                "(Value=\"BaseFishingCaptureZoneSize_+%\")": 10
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FishFoodModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
+        },
+        {
+            "Name": "Trophy_Fish_Feast",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Fish_TrophyPlatter.T_ITEM_Fish_TrophyPlatter'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Trophy_Fish_Feast-ModifierName\", \"Trophy Fish Feast\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Trophy_Fish_Feast-ModifierDescription\", \"Greatly boosts Maximum Health, Maximum Stamina, Stamina Regen and Experience Gain, and Increases the Chance to Catch Unique Fish.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 225,
+                "(Value=\"BaseMaximumStamina_+\")": 225,
+                "(Value=\"BaseStaminaRegen_+%\")": 35,
+                "(Value=\"BaseExperience_+%\")": 20,
+                "(Value=\"BaseChanceToCatchUniqueFish_+%\")": 25
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FishFoodModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         }
     ]
 }

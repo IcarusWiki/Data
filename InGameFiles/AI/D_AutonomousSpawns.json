@@ -18,7 +18,8 @@
         },
         "RequiredStat": {
             "Value": "None"
-        }
+        },
+        "GreatHuntCampaignSpawner": false
     },
     "Rows": [
         {
@@ -116,7 +117,8 @@
             "MaxDistanceToPlayers": 30000,
             "RequiredStat": {
                 "Value": "WorldJuvenileRockGolemWorldSpawn_?"
-            }
+            },
+            "GreatHuntCampaignSpawner": true
         },
         {
             "Name": "RockGolem_Desert",
@@ -127,7 +129,8 @@
             "MaxDistanceToPlayers": 30000,
             "RequiredStat": {
                 "Value": "WorldJuvenileRockGolemDesertSpawn_?"
-            }
+            },
+            "GreatHuntCampaignSpawner": true
         },
         {
             "Name": "RockGolem_Ice",
@@ -138,7 +141,8 @@
             "MaxDistanceToPlayers": 30000,
             "RequiredStat": {
                 "Value": "WorldJuvenileRockGolemWorldSpawn_?"
-            }
+            },
+            "GreatHuntCampaignSpawner": true
         },
         {
             "Name": "Ape_Forest",
@@ -149,7 +153,8 @@
             "MaxDistanceToPlayers": 30000,
             "RequiredStat": {
                 "Value": "WorldJuvenileApeForestSpawn_?"
-            }
+            },
+            "GreatHuntCampaignSpawner": true
         },
         {
             "Name": "Ape_Forest_Poison",
@@ -160,7 +165,8 @@
             "MaxDistanceToPlayers": 30000,
             "RequiredStat": {
                 "Value": "WorldJuvenileApeForestPoisonSpawn_?"
-            }
+            },
+            "GreatHuntCampaignSpawner": true
         },
         {
             "Name": "Ape_Desert",
@@ -171,7 +177,8 @@
             "MaxDistanceToPlayers": 30000,
             "RequiredStat": {
                 "Value": "WorldJuvenileApeDesertSpawn_?"
-            }
+            },
+            "GreatHuntCampaignSpawner": true
         },
         {
             "Name": "Ape_Arctic",
@@ -182,7 +189,8 @@
             "MaxDistanceToPlayers": 30000,
             "RequiredStat": {
                 "Value": "WorldJuvenileApeArcticSpawn_?"
-            }
+            },
+            "GreatHuntCampaignSpawner": true
         },
         {
             "Name": "Caveworm_Spawner",
@@ -192,7 +200,8 @@
             "MaxSpawnCount": 6,
             "RequiredStat": {
                 "Value": "WorldCavewormsSpawnOutsideCaves_?"
-            }
+            },
+            "GreatHuntCampaignSpawner": true
         },
         {
             "Name": "Snow_Slug",
@@ -202,7 +211,8 @@
             "MaxSpawnCount": 3,
             "RequiredStat": {
                 "Value": "WorldSnowSlugSpawn_?"
-            }
+            },
+            "GreatHuntCampaignSpawner": true
         },
         {
             "Name": "Geothermal_Bat",

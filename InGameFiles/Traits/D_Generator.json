@@ -184,6 +184,10 @@
                 {
                     "RowName": "Beeswax",
                     "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Fish_Paste",
+                    "DataTableName": "D_ItemsStatic"
                 }
             ]
         },
@@ -714,6 +718,19 @@
             "TransmutableResources": [
                 {
                     "Value": "Refined_Oil"
+                }
+            ]
+        },
+        {
+            "Name": "Workshop_Dehumidifier",
+            "Resource": {
+                "Value": "Energy"
+            },
+            "GenerationRate": 100,
+            "GenerationRatio": 180,
+            "TransmutableResources": [
+                {
+                    "Value": "Hydrazine"
                 }
             ]
         }

@@ -4543,6 +4543,27 @@
             "Setting": {
                 "RowName": "Persistent"
             }
+        },
+        {
+            "Name": "KoalaSheepIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/KoalaSheep/SFX_CRE_KOALA_SHEEP_IDLE.SFX_CRE_KOALA_SHEEP_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "KoalaSheepDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/KoalaSheep/SFX_CRE_KOALA_SHEEP_DEATH.SFX_CRE_KOALA_SHEEP_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "KoalaSheepFlee",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/KoalaSheep/SFX_CRE_KOALA_SHEEP_FLEE.SFX_CRE_KOALA_SHEEP_FLEE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
         }
     ]
 }

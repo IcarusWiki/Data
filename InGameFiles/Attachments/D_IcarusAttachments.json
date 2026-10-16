@@ -954,6 +954,12 @@
             "GrantedAlteration": {
                 "RowName": "RadBoss_Attachment"
             }
+        },
+        {
+            "Name": "Fish_Paste_Lure",
+            "GrantedAlteration": {
+                "RowName": "Fish_Paste_Lure"
+            }
         }
     ]
 }

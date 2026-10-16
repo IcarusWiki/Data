@@ -246,6 +246,18 @@
             },
             "Priority": 1,
             "bIsCrafted": false
+        },
+        {
+            "Name": "Ginger_Tea",
+            "Alteration": {
+                "Value": "Ginger_Tea"
+            },
+            "ModifierDuration": 300,
+            "Modifier": {
+                "RowName": "GingerTea_Modifier"
+            },
+            "Priority": -1,
+            "bCannotBeFurtherAltered": true
         }
     ]
 }

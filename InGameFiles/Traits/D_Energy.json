@@ -507,6 +507,13 @@
             "AutoActivate": true,
             "AutoShutoffFlowPercent": 99,
             "bAllowAutoRestart": true
+        },
+        {
+            "Name": "Advanced_Armor_Stand",
+            "AutoActivate": true,
+            "ResourceFlowRate": 100,
+            "AutoShutoffFlowPercent": 99,
+            "bAllowAutoRestart": true
         }
     ]
 }

@@ -79530,6 +79530,30 @@
                 }
             ],
             "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Bandage_Poultice",
+            "ExtraData": {
+                "RowName": "Item_Bandage_Poultice",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 9100,
+                "Y": 100
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Herbalism_Bench",
+                    "DataTableName": "D_Talents"
+                }
+            ]
         }
     ]
 }

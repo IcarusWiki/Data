@@ -1327,6 +1327,16 @@
             "StartingSlots": 12
         },
         {
+            "Name": "XL_Advanced_Aquarium",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Fish"
+            },
+            "StartingSlots": 14
+        },
+        {
             "Name": "Aquarium_Decoration_1",
             "StartingSlots": 1
         },

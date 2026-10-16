@@ -4385,7 +4385,7 @@
             "Type": {
                 "RowName": "Wall_Half_Upper"
             },
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Brick_Halfpiece_4.T_ITEM_Scoria_Brick_Halfpiece_4",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Scoria_Brick_Halfpiece_5.T_ITEM_Scoria_Brick_Halfpiece_5",
             "Blueprint": "/Game/BP/Building/ClayBrick/BP_Building_Wall_Half_2_Clay_Brick.BP_Building_Wall_Half_2_Clay_Brick_C",
             "Audio": {
                 "RowName": "Brick"

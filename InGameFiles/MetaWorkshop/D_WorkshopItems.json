@@ -8054,6 +8054,30 @@
             ]
         },
         {
+            "Name": "Meta_Hydrazine_Dehumidier",
+            "Item": {
+                "RowName": "Workshop_Dehumidifier"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 200
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ]
+        },
+        {
             "Name": "Meta_Hydrazine_Heater",
             "Item": {
                 "RowName": "Workshop_Heater"

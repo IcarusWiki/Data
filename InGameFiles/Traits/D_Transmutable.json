@@ -126,6 +126,10 @@
         {
             "Name": "SpiderSilk",
             "UnitsProvided": 20000
+        },
+        {
+            "Name": "Fish_Paste",
+            "UnitsProvided": 15000
         }
     ]
 }

@@ -35,7 +35,8 @@
             "Bloom": "CurveVector'/Game/ASS/ENV/ATM/Biomes/Cave/C_Cave_BloomSettings.C_Cave_BloomSettings'",
             "DistFogScale": 900,
             "MaterialParameterName": "CaveInfluence",
-            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Cave_01.T_Cubemap_Cave_01"
+            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Cave_01.T_Cubemap_Cave_01",
+            "FishingBackground": "/Game/Assets/2DArt/UI/HUD/FishingBackground/T_Fishing_Widget_Background_Cave.T_Fishing_Widget_Background_Cave"
         },
         {
             "Name": "Conifer",
@@ -51,7 +52,8 @@
             "OvercastScattering": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_Overcast.C_CF_Overcast'",
             "Bloom": "CurveVector'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_BloomSettings.C_CF_BloomSettings'",
             "MaterialParameterName": "CF",
-            "Cubemap": "/Game/ASS/VFX/CBE/CBE_CF02.CBE_CF02"
+            "Cubemap": "/Game/ASS/VFX/CBE/CBE_CF02.CBE_CF02",
+            "FishingBackground": "/Game/Assets/2DArt/UI/HUD/FishingBackground/T_Fishing_Widget_Background_Forest.T_Fishing_Widget_Background_Forest"
         },
         {
             "Name": "Arctic",
@@ -68,7 +70,8 @@
             "Bloom": "CurveVector'/Game/ASS/ENV/ATM/Biomes/AC/C_AC_BloomSettings.C_AC_BloomSettings'",
             "DistFogScale": 900,
             "MaterialParameterName": "AC",
-            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Arctic_01.T_Cubemap_Arctic_01"
+            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Arctic_01.T_Cubemap_Arctic_01",
+            "FishingBackground": "/Game/Assets/2DArt/UI/HUD/FishingBackground/T_Fishing_Widget_Background_Arctic.T_Fishing_Widget_Background_Arctic"
         },
         {
             "Name": "Desert",
@@ -85,7 +88,8 @@
             "Bloom": "CurveVector'/Game/ASS/ENV/ATM/Biomes/DC/C_DC_BloomSettings.C_DC_BloomSettings'",
             "DistFogScale": 900,
             "MaterialParameterName": "DC",
-            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Desert_02.T_Cubemap_Desert_02"
+            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Desert_02.T_Cubemap_Desert_02",
+            "FishingBackground": "/Game/Assets/2DArt/UI/HUD/FishingBackground/T_Fishing_Widget_Background_Desert.T_Fishing_Widget_Background_Desert"
         },
         {
             "Name": "Swamp",
@@ -102,7 +106,8 @@
             "Bloom": "CurveVector'/Game/ASS/ENV/ATM/Biomes/WL/C_WL_BloomSettings.C_WL_BloomSettings'",
             "DistFogScale": 900,
             "MaterialParameterName": "WL",
-            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Swamp_03.T_Cubemap_Swamp_03"
+            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Swamp_03.T_Cubemap_Swamp_03",
+            "FishingBackground": "/Game/Assets/2DArt/UI/HUD/FishingBackground/T_Fishing_Widget_Background_Swamp.T_Fishing_Widget_Background_Swamp"
         },
         {
             "Name": "Volcanic",
@@ -119,7 +124,8 @@
             "Bloom": "CurveVector'/Game/ASS/ENV/ATM/Biomes/LC/C_LC_BloomSettings.C_LC_BloomSettings'",
             "DistFogScale": 900,
             "MaterialParameterName": "LC",
-            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Volcanic_01.T_Cubemap_Volcanic_01"
+            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Volcanic_01.T_Cubemap_Volcanic_01",
+            "FishingBackground": "/Game/Assets/2DArt/UI/HUD/FishingBackground/T_Fishing_Widget_Background_Lava.T_Fishing_Widget_Background_Lava"
         },
         {
             "Name": "Grasslands",
@@ -136,7 +142,8 @@
             "Bloom": "CurveVector'/Game/ASS/ENV/ATM/Biomes/GL/C_GL_BloomSettings.C_GL_BloomSettings'",
             "DistFogScale": 900,
             "MaterialParameterName": "GL",
-            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Grasslands_02.T_Cubemap_Grasslands_02"
+            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Grasslands_02.T_Cubemap_Grasslands_02",
+            "FishingBackground": "/Game/Assets/2DArt/UI/HUD/FishingBackground/T_Fishing_Widget_Background_Grasslands.T_Fishing_Widget_Background_Grasslands"
         },
         {
             "Name": "Workshop",
@@ -217,7 +224,8 @@
             "SkyLightIntensity": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/GT/C_GT_SkyLight.C_GT_SkyLight'",
             "OvercastScattering": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/GT/C_GT_Overcast.C_GT_Overcast'",
             "Bloom": "CurveVector'/Game/ASS/ENV/ATM/Biomes/GT/C_GT_BloomSettings.C_GT_BloomSettings'",
-            "DistFogScale": 900
+            "DistFogScale": 900,
+            "FishingBackground": "/Game/Assets/2DArt/UI/HUD/FishingBackground/T_Fishing_Widget_Background_Geothermal.T_Fishing_Widget_Background_Geothermal"
         },
         {
             "Name": "Coastal",
@@ -225,15 +233,16 @@
             "Image_Small": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Desert_M.T_Bestiary_Diorama_Desert_M",
             "Image_Medium": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Desert_XL.T_Bestiary_Diorama_Desert_XL",
             "Image_Large": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Desert_XXL.T_Bestiary_Diorama_Desert_XXL",
-            "FogColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/CF/C_ELY_Desert_FogTint.C_ELY_Desert_FogTint'",
-            "SunColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/DC/C_DC_AtmosSun.C_DC_AtmosSun'",
+            "FogColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/CO/C_CO_FogColor.C_CO_FogColor'",
+            "SunColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/CO/C_CO_SunColor.C_CO_SunColor'",
             "SunIntensity": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_SunIntensity.C_CF_SunIntensity'",
             "MoonIntensity": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_MoonIntensity.C_CF_MoonIntensity'",
             "SkyLightIntensity": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_SkyLight.C_CF_SkyLight'",
             "OvercastScattering": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_Overcast.C_CF_Overcast'",
             "Bloom": "CurveVector'/Game/ASS/ENV/ATM/Biomes/CF/C_CF_BloomSettings.C_CF_BloomSettings'",
-            "DistFogScale": 900,
-            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Eden_02.T_Cubemap_Eden_02"
+            "MaterialParameterName": "CF",
+            "Cubemap": "/Game/ASS/VFX/CBE/CBE_CF02.CBE_CF02",
+            "FishingBackground": "/Game/Assets/2DArt/UI/HUD/FishingBackground/T_Fishing_Widget_Background_Desert.T_Fishing_Widget_Background_Desert"
         },
         {
             "Name": "Tundra",
@@ -250,7 +259,8 @@
             "Bloom": "CurveVector'/Game/ASS/ENV/ATM/Biomes/AC/C_AC_BloomSettings.C_AC_BloomSettings'",
             "DistFogScale": 900,
             "MaterialParameterName": "AC",
-            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Arctic_01.T_Cubemap_Arctic_01"
+            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Arctic_01.T_Cubemap_Arctic_01",
+            "FishingBackground": "/Game/Assets/2DArt/UI/HUD/FishingBackground/T_Fishing_Widget_Background_Tundra.T_Fishing_Widget_Background_Tundra"
         },
         {
             "Name": "Unknown",
@@ -266,7 +276,8 @@
             "OvercastScattering": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/Cave/C_Cave_Overcast.C_Cave_Overcast'",
             "Bloom": "CurveVector'/Game/ASS/ENV/ATM/Biomes/Cave/C_Cave_BloomSettings.C_Cave_BloomSettings'",
             "DistFogScale": 900,
-            "MaterialParameterName": "CaveInfluence"
+            "MaterialParameterName": "CaveInfluence",
+            "FishingBackground": "/Game/Assets/2DArt/UI/HUD/FishingBackground/T_Fishing_Widget_Background_Radiation.T_Fishing_Widget_Background_Radiation"
         },
         {
             "Name": "DesertELY",
@@ -274,7 +285,7 @@
             "Image_Small": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Desert_M.T_Bestiary_Diorama_Desert_M",
             "Image_Medium": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Desert_XL.T_Bestiary_Diorama_Desert_XL",
             "Image_Large": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Desert_XXL.T_Bestiary_Diorama_Desert_XXL",
-            "FogColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/CF/C_ELY_Desert_FogTint.C_ELY_Desert_FogTint'",
+            "FogColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/DC/C_DC_Elysium_FogColor.C_DC_Elysium_FogColor'",
             "SunColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/DC/C_DC_AtmosSun.C_DC_AtmosSun'",
             "SunIntensity": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/DC/C_DC_SunIntensity.C_DC_SunIntensity'",
             "MoonIntensity": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/DC/C_DC_MoonIntensity.C_DC_MoonIntensity'",
@@ -283,7 +294,8 @@
             "Bloom": "CurveVector'/Game/ASS/ENV/ATM/Biomes/DC/C_DC_BloomSettings.C_DC_BloomSettings'",
             "DistFogScale": 900,
             "MaterialParameterName": "DC",
-            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Desert_02.T_Cubemap_Desert_02"
+            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Desert_02.T_Cubemap_Desert_02",
+            "FishingBackground": "/Game/Assets/2DArt/UI/HUD/FishingBackground/T_Fishing_Widget_Background_Desert.T_Fishing_Widget_Background_Desert"
         },
         {
             "Name": "Eden",
@@ -291,7 +303,7 @@
             "Image_Small": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Desert_M.T_Bestiary_Diorama_Desert_M",
             "Image_Medium": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Desert_XL.T_Bestiary_Diorama_Desert_XL",
             "Image_Large": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Desert_XXL.T_Bestiary_Diorama_Desert_XXL",
-            "FogColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/CF/C_ELY_Desert_FogTint.C_ELY_Desert_FogTint'",
+            "FogColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/DC/C_DC_Elysium_FogColor.C_DC_Elysium_FogColor'",
             "SunColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/DC/C_DC_AtmosSun.C_DC_AtmosSun'",
             "SunIntensity": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/DC/C_DC_SunIntensity.C_DC_SunIntensity'",
             "MoonIntensity": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/DC/C_DC_MoonIntensity.C_DC_MoonIntensity'",
@@ -300,7 +312,8 @@
             "Bloom": "CurveVector'/Game/ASS/ENV/ATM/Biomes/DC/C_DC_BloomSettings.C_DC_BloomSettings'",
             "DistFogScale": 900,
             "MaterialParameterName": "DC",
-            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Eden_02.T_Cubemap_Eden_02"
+            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Eden_02.T_Cubemap_Eden_02",
+            "FishingBackground": "/Game/Assets/2DArt/UI/HUD/FishingBackground/T_Fishing_Widget_Background_Desert.T_Fishing_Widget_Background_Desert"
         },
         {
             "Name": "Jungle",
@@ -317,7 +330,8 @@
             "Bloom": "CurveVector'/Game/ASS/ENV/ATM/Biomes/Jungle/C_JU_BloomSettings.C_JU_BloomSettings'",
             "DistFogScale": 900,
             "MaterialParameterName": "CF",
-            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Swamp_02.T_Cubemap_Swamp_02"
+            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Swamp_02.T_Cubemap_Swamp_02",
+            "FishingBackground": "/Game/Assets/2DArt/UI/HUD/FishingBackground/T_Fishing_Widget_Background_Desert.T_Fishing_Widget_Background_Desert"
         },
         {
             "Name": "Jungle_Light",
@@ -334,7 +348,8 @@
             "Bloom": "CurveVector'/Game/ASS/ENV/ATM/Biomes/Jungle/C_JU_BloomSettings.C_JU_BloomSettings'",
             "DistFogScale": 900,
             "MaterialParameterName": "CF",
-            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Swamp_02.T_Cubemap_Swamp_02"
+            "Cubemap": "/Game/ASS/VFX/CBE/T_Cubemap_Swamp_02.T_Cubemap_Swamp_02",
+            "FishingBackground": "/Game/Assets/2DArt/UI/HUD/FishingBackground/T_Fishing_Widget_Background_Desert.T_Fishing_Widget_Background_Desert"
         },
         {
             "Name": "Arena_RadBoss",

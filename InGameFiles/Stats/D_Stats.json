@@ -24528,6 +24528,215 @@
             "StatCategory": {
                 "RowName": "Mining"
             }
+        },
+        {
+            "Name": "KoalaSheepExtraDamage_+%",
+            "Title": "INVTEXT(\"[DNT] Damage vs Koala Sheep\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseKoalaSheepExtraDamage_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Damage vs Koala Sheep\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] i{0}% Damage vs Koala Sheep\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "KoalaSheepExtraDamageResistance_+%",
+            "Title": "INVTEXT(\"[DNT] Resistance vs Koala Sheep\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseKoalaSheepExtraDamageResistance_+%",
+            "PositiveDescription": "INVTEXT(\"[DNT] +{0}% Resistance vs Koala Sheep\")",
+            "NegativeDescription": "INVTEXT(\"[DNT] -{0}% Resistance vs Koala Sheep\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseComfortLevel_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseComfortLevel_+%-PositiveDescription\", \"+{0}% Coziness Bonus\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseComfortLevel_+%-NegativeDescription\", \"{0}% Coziness Bonus\")",
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "WorldPostCampaignCreatureSpawning_?",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"WorldPostCampaignCreatureSpawning_?-Title\", \"Spawn Great Hunt Creatures Post Campaign\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"{0}\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"WorldPostCampaignCreatureSpawning_?-PositiveDescription\", \"Spawn Great Hunt Creatures Post Campaign\")",
+            "bIsReplicated": true,
+            "bIsWorldStat": true,
+            "StatCategory": {
+                "RowName": "World"
+            },
+            "bHideStatInUserInterface": true
+        },
+        {
+            "Name": "ChitinHarvestedFromAnimals_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"ChitinHarvestedFromAnimals_+%-Title\", \"Chitin Yielded by Animals\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Butchery"
+            }
+        },
+        {
+            "Name": "BaseChitinHarvestedFromAnimals_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChitinHarvestedFromAnimals_+%-PositiveDescription\", \"+{0}% Yield from Skinning Chitin\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChitinHarvestedFromAnimals_+%-NegativeDescription\", \"-{0}% Yield from Skinning Chitin\")",
+            "StatCategory": {
+                "RowName": "Butchery"
+            }
+        },
+        {
+            "Name": "HeavyLeatherHarvestedFromAnimals_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"HeavyLeatherHarvestedFromAnimals_+%-Title\", \"Thick Hide by Animals\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Butchery"
+            }
+        },
+        {
+            "Name": "BaseHeavyLeatherHarvestedFromAnimals_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseHeavyLeatherHarvestedFromAnimals_+%-PositiveDescription\", \"+{0}% Yield from Skinning Thick Hide\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseHeavyLeatherHarvestedFromAnimals_+%-NegativeDescription\", \"-{0}% Yield from Skinning Thick Hide\")",
+            "StatCategory": {
+                "RowName": "Butchery"
+            }
+        },
+        {
+            "Name": "ShatteringCobaltRewards_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"ShatteringCobaltRewards_+%-Title\", \"Shattering Cobalt Rewards\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "StatCategory": {
+                "RowName": "Mining"
+            }
+        },
+        {
+            "Name": "BaseShatteringCobaltRewards_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseShatteringCobaltRewards_+%-PositiveDescription\", \"+{0}% Shattering Cobalt Rewards\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseShatteringCobaltRewards_+%-NegativeDescription\", \"-{0}% Shattering Cobalt Rewards\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mining"
+            }
+        },
+        {
+            "Name": "FlightlessTankGeothermalSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BaseFlightlessTankGeothermalSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "FlightlessTankGeothermalExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"FlightlessTankGeothermalExtraDamage_+%-Title\", \"Damage vs Geothermal Sandhorn\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseFlightlessTankGeothermalExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFlightlessTankGeothermalExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Geothermal Sandhorn\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFlightlessTankGeothermalExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Geothermal Sandhorn\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "FlightlessTankGeothermalExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"FlightlessTankGeothermalExtraDamageResistance_+%-Title\", \"Resistance vs Geothermal Sandhorn\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseFlightlessTankGeothermalExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFlightlessTankGeothermalExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Geothermal Sandhorn\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFlightlessTankGeothermalExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Geothermal Sandhorn\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "DragonFlyGeothermalSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BaseDragonFlyGeothermalSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "DragonFlyGeothermalExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"DragonFlyGeothermalExtraDamage_+%-Title\", \"Damage vs Geothermal Venomfly\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseDragonFlyGeothermalExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseDragonFlyGeothermalExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Venomfly\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseDragonFlyGeothermalExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Venomfly\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "DragonFlyGeothermalExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"DragonFlyGeothermalExtraDamageResistance_+%-Title\", \"Resistance vs Geothermal Venomfly\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseDragonFlyGeothermalExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseDragonFlyGeothermalExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Venomfly\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseDragonFlyGeothermalExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Venomfly\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
         }
     ]
 }

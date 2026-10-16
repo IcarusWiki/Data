@@ -3253,7 +3253,7 @@
             "Name": "OLY_Desert_Construction_Head_To_Location",
             "Class": "/Game/BP/Quests/Common/BPQ_Travel.BPQ_Travel_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Head_To_Location-Description\", \"Reach build location ([Map])\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Head_To_Location-InfoText\", \"Search for a nearby cave.\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Head_To_Location-InfoText\", \"Search for a Nearby Cave\")",
             "DialogueEvents": {
                 "QuestEnd": {
                     "RowName": "ConstructionArrive4b",
@@ -3264,29 +3264,29 @@
         {
             "Name": "OLY_Desert_Construction_Forge",
             "Class": "/Game/BP/Quests/Olympus/Desert/Construction/BPQ_OLY_Desert_Construction_Forge.BPQ_OLY_Desert_Construction_Forge_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Forge-Description\", \"Construct a Forge Area\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Forge-Description\", \"Construct a Forge Area Inside the Cave\")"
         },
         {
             "Name": "OLY_Desert_Construction_Electric_Furnace",
             "Class": "/Game/BP/Quests/Olympus/Desert/Construction/BPQ_OLY_Desert_Construction_Electric_Furnace.BPQ_OLY_Desert_Construction_Electric_Furnace_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Electric_Furnace-Description\", \"Construct and power Electric Furnace\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Electric_Furnace-Description\", \"Construct and Power Electric Furnace\")"
         },
         {
             "Name": "OLY_Desert_Construction_Worklamps",
             "Class": "/Game/BP/Quests/Olympus/Desert/Construction/BPQ_OLY_Desert_Construction_Worklamp.BPQ_OLY_Desert_Construction_Worklamp_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Worklamps-Description\", \"Construct and power 2x Worklamps\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Worklamps-InfoText\", \"Can be either Directional or Omni-Directional Worklamp variations.\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Worklamps-Description\", \"Construct and Power Worklamps <Number>({0} / {1})</>  \")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Worklamps-InfoText\", \"Can be Either Directional or Omni-Directional Worklamp Variations\")"
         },
         {
             "Name": "OLY_Desert_Construction_Dehumidifier",
             "Class": "/Game/BP/Quests/Olympus/Desert/Construction/BPQ_OLY_Desert_Construction_Dehumidifier.BPQ_OLY_Desert_Construction_Dehumidifier_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Dehumidifier-Description\", \"Construct and power Electric Dehumidifier\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Dehumidifier-InfoText\", \"Toggle the Dehumidifier on when connected.\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Dehumidifier-Description\", \"Construct and Power Electric Dehumidifier\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Dehumidifier-InfoText\", \"Toggle the Dehumidifier on When Connected\")"
         },
         {
             "Name": "OLY_Desert_Construction_Machining_Bench",
             "Class": "/Game/BP/Quests/Olympus/Desert/Construction/BPQ_OLY_Desert_Construction_Machining_Bench.BPQ_OLY_Desert_Construction_Machining_Bench_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Machining_Bench-Description\", \"Construct Machining Bench\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Machining_Bench-Description\", \"Construct Fabricator\")"
         },
         {
             "Name": "OLY_Desert_Exploration_0",

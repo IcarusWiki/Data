@@ -8023,6 +8023,98 @@
             "DefaultGoal": {
                 "RowName": "Wander"
             }
+        },
+        {
+            "Name": "Koala_Sheep",
+            "Motivations": [
+                {
+                    "RowName": "Hunger",
+                    "DataTableName": "D_GOAPMotivations"
+                },
+                {
+                    "RowName": "Thirst",
+                    "DataTableName": "D_GOAPMotivations"
+                },
+                {
+                    "RowName": "Threat",
+                    "DataTableName": "D_GOAPMotivations"
+                },
+                {
+                    "RowName": "Cautious",
+                    "DataTableName": "D_GOAPMotivations"
+                },
+                {
+                    "RowName": "Tiredness",
+                    "DataTableName": "D_GOAPMotivations"
+                },
+                {
+                    "RowName": "Pacificity",
+                    "DataTableName": "D_GOAPMotivations"
+                }
+            ],
+            "Actions": [
+                {
+                    "RowName": "Wander",
+                    "DataTableName": "D_GOAPActions"
+                },
+                {
+                    "RowName": "Eat_Food_Foliage",
+                    "DataTableName": "D_GOAPActions"
+                },
+                {
+                    "RowName": "Drink_Water",
+                    "DataTableName": "D_GOAPActions"
+                },
+                {
+                    "RowName": "Run_For_Safety",
+                    "DataTableName": "D_GOAPActions"
+                },
+                {
+                    "RowName": "Be_Cautious",
+                    "DataTableName": "D_GOAPActions"
+                },
+                {
+                    "RowName": "Rest",
+                    "DataTableName": "D_GOAPActions"
+                },
+                {
+                    "RowName": "Become_Tamed",
+                    "DataTableName": "D_GOAPActions"
+                }
+            ],
+            "Goals": [
+                {
+                    "RowName": "Wander",
+                    "DataTableName": "D_GOAPGoals"
+                },
+                {
+                    "RowName": "Satisfy_Hunger",
+                    "DataTableName": "D_GOAPGoals"
+                },
+                {
+                    "RowName": "Satisfy_Thirst",
+                    "DataTableName": "D_GOAPGoals"
+                },
+                {
+                    "RowName": "Run_For_Safety",
+                    "DataTableName": "D_GOAPGoals"
+                },
+                {
+                    "RowName": "Be_Cautious",
+                    "DataTableName": "D_GOAPGoals"
+                },
+                {
+                    "RowName": "Rest",
+                    "DataTableName": "D_GOAPGoals"
+                },
+                {
+                    "RowName": "Become_Tamed",
+                    "DataTableName": "D_GOAPGoals"
+                }
+            ],
+            "DefaultGoal": {
+                "RowName": "Wander"
+            }
         }
     ]
 }

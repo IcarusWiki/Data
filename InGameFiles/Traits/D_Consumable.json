@@ -4918,18 +4918,6 @@
             ]
         },
         {
-            "Name": "Ginger_Tea",
-            "Stats": {
-                "(Value=\"BaseWaterRecovery_+\")": 300
-            },
-            "Modifier": {
-                "Modifier": {
-                    "RowName": "Ginger_Tea"
-                },
-                "ModifierLifetime": 1200
-            }
-        },
-        {
             "Name": "Ginger_Curry",
             "Stats": {
                 "(Value=\"BaseFoodRecovery_+\")": 100,
@@ -4976,6 +4964,156 @@
                 "ModifierLifetime": 300
             },
             "DescriptionText": "[DNT]Can be used to cure yourself and others."
+        },
+        {
+            "Name": "Biolab_Inhaler_RadBoss",
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Meta_Biolab_Inhaler_RadBoss"
+                },
+                "ModifierLifetime": 1800
+            }
+        },
+        {
+            "Name": "Dried_Fish_Chunks",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 120,
+                "(Value=\"BaseHealthRecovery_+\")": 20
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Dried_Fish_Chunks"
+                },
+                "ModifierLifetime": 900
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Fish_Chowder",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 100,
+                "(Value=\"BaseWaterRecovery_+\")": 25
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Fish_Chowder"
+                },
+                "ModifierLifetime": 900
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Freshwater_Tartare",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 100
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Freshwater_Tartare"
+                },
+                "ModifierLifetime": 900
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Pickled_Saltwater_Fillet",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 150
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Pickled_Saltwater_Fillet"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume.",
+            "Byproducts": [
+                {
+                    "RowName": "Glass_Jar",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Fish_And_Chips",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 150
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Fish_And_Chips"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Fish_Roll",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 150
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Fish_Roll"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Smoked_Fillet_Sandwich",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 200,
+                "(Value=\"BaseHealthRecovery_+\")": 30
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Smoked_Fillet_Sandwich"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Coconut_Fish_Curry",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 150,
+                "(Value=\"BaseHealthRecovery_+\")": 20
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Coconut_Fish_Curry"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Chilled_Fish_Platter",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 150
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Chilled_Fish_Platter"
+                },
+                "ModifierLifetime": 1800
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Trophy_Fish_Feast",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 200,
+                "(Value=\"BaseHealthRecovery_+\")": 30
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Trophy_Fish_Feast"
+                },
+                "ModifierLifetime": 1800
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         }
     ]
 }

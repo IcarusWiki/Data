@@ -15902,7 +15902,7 @@
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_ArmourStand_T4.BP_ArmourStand_T4_C",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Armour_Stand_T4-DeployableName\", \"None\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Armor_Stand_T4/SM_DEP_Armor_Stand_T4.SM_DEP_Armor_Stand_T4",
-            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
             "SnapToSurfaceNormal": false
         },
         {
@@ -16569,6 +16569,14 @@
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Furnace_Electric_V5.SM_DEP_Furnace_Electric_V5",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
             "SnapToSurfaceNormal": false
+        },
+        {
+            "Name": "Workshop_Dehumidifier",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Dehumidifier/BP_Workshop_Dehumidifier.BP_Workshop_Dehumidifier_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Dehumidifer_TMP.SM_DEP_Dehumidifer_TMP",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SupportsCustomRotation": false,
+            "MaxRestackingAmount": 1
         }
     ]
 }

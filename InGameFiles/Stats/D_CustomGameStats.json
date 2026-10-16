@@ -62,6 +62,18 @@
                 "RowName": "WorldUnclaimRequiresOwnership_?"
             },
             "MaxIntValue": 1
+        },
+        {
+            "Name": "GreatHuntEffects",
+            "DisplayName": "NSLOCTEXT(\"D_CustomGameStats\", \"GreatHuntEffects-DisplayName\", \"Spawn Great Hunt Creatures Post Campaign\")",
+            "Description": "NSLOCTEXT(\"D_CustomGameStats\", \"GreatHuntEffects-Description\", \"Spawning of Great Hunt Related Creatures and their Dens when a Great Hunt is Complete. (Quarrites, Rimetusks, Garganutans)\")",
+            "Category": "Creatures",
+            "StatChangeability": "Anytime",
+            "DefaultValue": 1,
+            "Stat": {
+                "RowName": "WorldPostCampaignCreatureSpawning_?"
+            },
+            "MaxIntValue": 1
         }
     ]
 }

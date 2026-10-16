@@ -3261,7 +3261,7 @@
                 "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 7500,
                 "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
                 "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
-                "(Value=\"BaseCharacterMass_+\")": 500,
+                "(Value=\"BaseCharacterMass_+\")": 100,
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseNPCAttackRadius_+\")": 500,
                 "(Value=\"CanNPCDamageDurableActors_?\")": 1,
@@ -5514,7 +5514,9 @@
                 "(Value=\"BaseMovementSpeed_+\")": 80,
                 "(Value=\"BaseExplosiveDamageResistance_%\")": -50,
                 "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 75,
-                "(Value=\"BaseProjectileDamageResistance_+%\")": 50
+                "(Value=\"BaseProjectileDamageResistance_+%\")": 50,
+                "(Value=\"BaseProjectileDamageResistance_%\")": 25,
+                "(Value=\"\")": 0
             },
             "Health": "CurveFloat'/Game/Data/AI/Curves/C_FlightlessTankHealth.C_FlightlessTankHealth'",
             "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_FlightlessTankMeleeDamage.C_FlightlessTankMeleeDamage'",
@@ -6687,7 +6689,7 @@
                 "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
                 "(Value=\"BaseGOAPMotivationProtectiveDistanceMinimumThreat_+\")": 1500,
                 "(Value=\"BaseGOAPMotivationProtectiveDistanceMaximumThreat_+\")": 200,
-                "(Value=\"BaseCharacterMass_+\")": 100,
+                "(Value=\"BaseCharacterMass_+\")": 75,
                 "(Value=\"BaseNPCAttackRadius_+\")": 500,
                 "(Value=\"CanNPCDamageDurableActors_?\")": 1,
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
@@ -6700,6 +6702,14 @@
             },
             "Health": "CurveFloat'/Game/Data/AI/Curves/C_CrabHealth.C_CrabHealth'",
             "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_CrabMeleeDamage.C_CrabMeleeDamage'",
+            "CustomStats": [
+                {
+                    "Stat": {
+                        "Value": "BaseAttacksCausePoison_%"
+                    },
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_CrabPoisonChance.C_CrabPoisonChance'"
+                }
+            ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -6718,7 +6728,7 @@
                 "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 7500,
                 "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
                 "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
-                "(Value=\"BaseCharacterMass_+\")": 500,
+                "(Value=\"BaseCharacterMass_+\")": 50,
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseNPCAttackRadius_+\")": 500,
                 "(Value=\"CanNPCDamageDurableActors_?\")": 1,
@@ -6776,10 +6786,19 @@
                 "(Value=\"BaseWaterConsumptionPerHour_+\")": 0,
                 "(Value=\"BaseFrostDamageResistance_+%\")": -100,
                 "(Value=\"BaseElectricDamageResistance_%\")": -50,
-                "(Value=\"BasePoisonResistance_%\")": 50
+                "(Value=\"BasePoisonResistance_%\")": 50,
+                "(Value=\"BaseImmobiliseResistance_%\")": 75
             },
             "Health": "CurveFloat'/Game/Data/AI/Curves/C_DinoLargeHealth.C_DinoLargeHealth'",
             "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_DinoLargeMeleeDamage.C_DinoLargeMeleeDamage'",
+            "CustomStats": [
+                {
+                    "Stat": {
+                        "Value": "BaseAttacksCauseHemorrhage_%"
+                    },
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_DinoAfflictionChance.C_DinoAfflictionChance'"
+                }
+            ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -6860,19 +6879,27 @@
                 "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
                 "(Value=\"BaseGOAPMotivationProtectiveDistanceMinimumThreat_+\")": 1500,
                 "(Value=\"BaseGOAPMotivationProtectiveDistanceMaximumThreat_+\")": 200,
-                "(Value=\"BaseCharacterMass_+\")": 100,
+                "(Value=\"BaseCharacterMass_+\")": 125,
                 "(Value=\"BaseNPCAttackRadius_+\")": 500,
                 "(Value=\"CanNPCDamageDurableActors_?\")": 1,
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseSlowResistance_%\")": 10,
                 "(Value=\"BaseImmobiliseResistance_%\")": 10,
-                "(Value=\"BaseMovementSpeed_+\")": 150,
+                "(Value=\"BaseMovementSpeed_+\")": 95,
                 "(Value=\"BasePoisonDamageResistance_%\")": 50,
                 "(Value=\"BaseFireDamageResistance_%\")": -100,
                 "(Value=\"BaseGOAPActionAnchoredWanderDistance_+\")": 2500
             },
             "Health": "CurveFloat'/Game/Data/AI/Curves/C_CrabHealth_Parent.C_CrabHealth_Parent'",
             "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_CrabMeleeDamage_Parent.C_CrabMeleeDamage_Parent'",
+            "CustomStats": [
+                {
+                    "Stat": {
+                        "Value": "BaseAttacksCausePoison_%"
+                    },
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_CrabPoisonChance.C_CrabPoisonChance'"
+                }
+            ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -7360,10 +7387,69 @@
                 "(Value=\"BaseMovementSpeed_+\")": 250,
                 "(Value=\"BaseLaserDamageResistance_+%\")": -50,
                 "(Value=\"BaseMeleeDamageAgainstBuildings_+%\")": 500,
-                "(Value=\"BaseProjectileDamageAgainstBuildings_+%\")": 500
+                "(Value=\"BaseProjectileDamageAgainstBuildings_+%\")": 500,
+                "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 50
             },
             "Health": "CurveFloat'/Game/Data/AI/Curves/C_GroundDragonHealth.C_GroundDragonHealth'",
             "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_GroundDragonMeleeDamage.C_GroundDragonMeleeDamage'",
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
+        },
+        {
+            "Name": "Koala_Sheep",
+            "Base": {
+                "(Value=\"BaseMovementSpeed_+\")": 120,
+                "(Value=\"BaseSwimSpeed_+\")": 150,
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 10,
+                "(Value=\"BaseMinimumFallDamage_%\")": 1,
+                "(Value=\"BaseMaximumFallDamage_%\")": 100,
+                "(Value=\"BaseMinimumFallDamageVelocity_+\")": 1250,
+                "(Value=\"BaseMaximumFallDamageVelocity_+\")": 1950,
+                "(Value=\"BaseAIPerceptionMaxAge_+\")": 3,
+                "(Value=\"BaseAIDamagePerceptionMaxAge_+\")": 10,
+                "(Value=\"BaseAIPerceptionSightRadius_+\")": 5000,
+                "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 7500,
+                "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
+                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
+                "(Value=\"BaseCharacterMass_+\")": 175,
+                "(Value=\"BaseHealthRegenDelay_+\")": 2,
+                "(Value=\"BaseFrostDamageResistance_%\")": 75,
+                "(Value=\"BaseFoodConsumptionPerHour_+\")": 60,
+                "(Value=\"BaseWaterConsumptionPerHour_+\")": 120,
+                "(Value=\"BaseFallDamageResistance_%\")": 60,
+                "(Value=\"BaseFireDamageResistance_%\")": -50
+            },
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_KoalaSheepHealth.C_KoalaSheepHealth'",
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
+        },
+        {
+            "Name": "DragonFly_Geothermal",
+            "Base": {
+                "(Value=\"BaseSwimSpeed_+\")": 300,
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 50,
+                "(Value=\"BaseMinimumFallDamage_%\")": 1,
+                "(Value=\"BaseMaximumFallDamage_%\")": 0,
+                "(Value=\"BaseMinimumFallDamageVelocity_+\")": 1250,
+                "(Value=\"BaseMaximumFallDamageVelocity_+\")": 1950,
+                "(Value=\"BaseAIPerceptionMaxAge_+\")": 3,
+                "(Value=\"BaseAIDamagePerceptionMaxAge_+\")": 10,
+                "(Value=\"BaseAIPerceptionSightRadius_+\")": 3000,
+                "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 3750,
+                "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
+                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
+                "(Value=\"BaseCharacterMass_+\")": 60,
+                "(Value=\"BaseNPCAttackRadius_+\")": 400,
+                "(Value=\"BaseHealthRegenDelay_+\")": 2,
+                "(Value=\"BaseSlowResistance_%\")": 33,
+                "(Value=\"BaseImmobiliseResistance_%\")": 33,
+                "(Value=\"BaseMovementSpeed_+\")": 400,
+                "(Value=\"BasePoisonDamage_+\")": 25,
+                "(Value=\"BaseAttacksCauseSlow_%\")": 10,
+                "(Value=\"BaseMaximumHealth_+\")": 25,
+                "(Value=\"BaseAttacksCausePoison_%\")": 75,
+                "(Value=\"BasePoisonDamageResistance_%\")": 100,
+                "(Value=\"BaseElectricDamageResistance_%\")": -100
+            },
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_DragonFlyGeothermalMeleeDamage.C_DragonFlyGeothermalMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         }
     ]

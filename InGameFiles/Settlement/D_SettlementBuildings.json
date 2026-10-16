@@ -5644,7 +5644,7 @@
                     "Outputs": [
                         {
                             "Item": {
-                                "RowName": "Settlement_Microchips",
+                                "RowName": "Microchip",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Resource": {
@@ -5680,6 +5680,13 @@
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 2
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Nanowire",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
                         }
                     ],
                     "InputResources": [

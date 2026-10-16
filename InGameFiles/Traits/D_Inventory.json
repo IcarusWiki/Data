@@ -1054,6 +1054,15 @@
             ]
         },
         {
+            "Name": "XL_Advanced_Aquarium",
+            "Inventories": [
+                {
+                    "RowName": "XL_Advanced_Aquarium",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
             "Name": "Fish_Wall_Display",
             "Inventories": [
                 {
@@ -1715,6 +1724,15 @@
             "Inventories": [
                 {
                     "RowName": "Mission_NPC_One_Slot",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Workshop_Dehumidifier",
+            "Inventories": [
+                {
+                    "RowName": "Fuel_Hydrazine",
                     "DataTableName": "D_InventoryInfo"
                 }
             ]

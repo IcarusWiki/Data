@@ -2472,6 +2472,42 @@
                     "GainedExperience": 0
                 }
             }
+        },
+        {
+            "Name": "Creature_Koala_Sheep",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_Koala_Sheep",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 520
+                }
+            }
+        },
+        {
+            "Name": "Creature_Flightless_Tank_Geothermal",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_Flightless_Tank_Geothermal",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
+        },
+        {
+            "Name": "Creature_DragonFly_Geothermal",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_DragonFly_Geothermal",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
         }
     ]
 }
