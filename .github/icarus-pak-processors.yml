@@ -64,3 +64,17 @@ targeted:
         consumer_id: datamaps
         artifact_id: plant-map-partials
         timeout_minutes: 30
+
+  - id: asset-sync
+    include_globs:
+      # Every Assets/2DArt/UI texture lives in this pak.
+      - Icarus/Content/Paks/pakchunk0_s20-WindowsNoEditor.pak
+    processors:
+      - id: asset-sync-detect
+        repo: IcarusWiki/AssetSync
+        ref: main
+        workdir: .
+        command: pip install -q . && python -m assetsync processor
+        consumer_id: assetsync
+        artifact_id: assetsync-partials
+        timeout_minutes: 30

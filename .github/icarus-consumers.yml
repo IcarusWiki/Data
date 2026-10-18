@@ -14,3 +14,18 @@ consumers:
         commit_paths:
           - plantMaps/
         commit_message: Update plant maps
+
+  - id: assetsync
+    repo: IcarusWiki/AssetSync
+    ref: main
+    checkout_path: AssetSync
+    finalizers:
+      - id: asset-sync
+        artifact_ids:
+          - assetsync-partials
+        workdir: .
+        command: pip install -q . && python -m assetsync finalize --partials-dir "$ICARUS_FINALIZER_ARTIFACT_DIR/assetsync-partials"
+        commit_paths:
+          - ledger/
+          - queue/
+        commit_message: Queue asset updates

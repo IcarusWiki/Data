@@ -244,6 +244,7 @@ jobs:
         run: |
           REPOS=(
             "TreeUI"
+            "AssetSync"
           )
 
           OWNER="${{ github.repository_owner }}"
@@ -560,6 +561,7 @@ jobs:
           ICARUS_FINALIZER_ARTIFACT_DIR: ${{ steps.prepare_artifacts.outputs.artifact_dir }}
           ICARUS_DATA_REPO_DIR: ${{ github.workspace }}/Data
           ICARUS_CONSUMER_REPO_DIR: ${{ format('{0}/{1}', github.workspace, matrix.consumer_checkout_path) }}
+          ICARUS_BUILD_ID: ${{ vars.ICARUS_BUILD_ID }}
         run: |
           CONSUMER_WORKDIR="$GITHUB_WORKSPACE/${{ matrix.consumer_checkout_path }}/${{ matrix.finalizer_workdir }}"
           cd "$CONSUMER_WORKDIR"
