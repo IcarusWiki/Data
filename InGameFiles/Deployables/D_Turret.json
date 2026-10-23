@@ -75,10 +75,14 @@
             "MuzzleMoveSpeed": {
                 "X": 3
             },
+            "MuzzleSpread": {
+                "X": 0.30000001192092896,
+                "Y": 0.20000000298023224
+            },
+            "PermitBeginFireAngle": 1,
             "MaxRange": 7500,
             "BurstFireShots": 1,
             "CheckTargetPeriod": 3,
-            "CoolDownPeriod": 4,
             "FireParticle": "/Game/ASS/VFX/WEP/NS_PistolHandgunMuzzle.NS_PistolHandgunMuzzle",
             "FireSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Turrets/SFX_TURRET_FIRE_RIFLE.SFX_TURRET_FIRE_RIFLE",
             "ValidAmmoTypes": {

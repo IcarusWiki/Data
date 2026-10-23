@@ -2812,6 +2812,25 @@
                     "RowName": "DangerousHorizons"
                 }
             }
+        },
+        {
+            "Name": "Juvenile_Stomper",
+            "CreatureName": "NSLOCTEXT(\"D_AICreatureType\", \"Juvenile_Stomper-CreatureName\", \"Juvenile Stomper\")",
+            "Tag": {
+                "TagName": "NPC.Juvenile.Stomper"
+            },
+            "AdditionalDamageStat": {
+                "Value": "MoaExtraDamage_+%"
+            },
+            "AdditionalResistanceStat": {
+                "Value": "MoaExtraDamageResistance_+%"
+            },
+            "SkinningXPEvent": {
+                "RowName": "Skin_JuvenileStomper"
+            },
+            "ParentCreatureTag": {
+                "TagName": "NPC.Stomper"
+            }
         }
     ]
 }

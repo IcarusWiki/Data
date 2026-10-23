@@ -4564,6 +4564,20 @@
             "Setting": {
                 "RowName": "Persistent"
             }
+        },
+        {
+            "Name": "PlantMinionDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Movement/PlantMinions/SFX_CRE_PLANT_MINION_DEATH_VOC.SFX_CRE_PLANT_MINION_DEATH_VOC",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "PlantMinionRoar",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Movement/PlantMinions/SFX_CRE_PLANT_MINION_ROAR.SFX_CRE_PLANT_MINION_ROAR",
+            "Setting": {
+                "RowName": "Default"
+            }
         }
     ]
 }

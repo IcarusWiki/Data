@@ -68,7 +68,7 @@
             "SlotTemplate": {
                 "RowName": "General_Inventory_Slot"
             },
-            "StartingSlots": 10,
+            "StartingSlots": 14,
             "SlotOverrides": [
                 {
                     "Query": {
@@ -139,6 +139,34 @@
                         "DataTableName": "D_TagQueries"
                     },
                     "Location": 9
+                },
+                {
+                    "Query": {
+                        "RowName": "Skin_Head_Eyebrows",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 10
+                },
+                {
+                    "Query": {
+                        "RowName": "Skin_Head_FacialHair",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 11
+                },
+                {
+                    "Query": {
+                        "RowName": "Skin_Head_Piercing",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 12
+                },
+                {
+                    "Query": {
+                        "RowName": "Skin_Head_Rebreather",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 13
                 }
             ]
         },
@@ -202,7 +230,7 @@
             "SlotTemplate": {
                 "RowName": "General_Inventory_Slot"
             },
-            "StartingSlots": 3,
+            "StartingSlots": 7,
             "SlotOverrides": [
                 {
                     "Query": {
@@ -224,6 +252,34 @@
                         "DataTableName": "D_TagQueries"
                     },
                     "Location": 2
+                },
+                {
+                    "Query": {
+                        "RowName": "Skin_Head_Eyebrows",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 3
+                },
+                {
+                    "Query": {
+                        "RowName": "Skin_Head_FacialHair",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 4
+                },
+                {
+                    "Query": {
+                        "RowName": "Skin_Head_Piercing",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 5
+                },
+                {
+                    "Query": {
+                        "RowName": "Skin_Head_Rebreather",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 6
                 }
             ]
         },

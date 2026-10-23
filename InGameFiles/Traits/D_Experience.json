@@ -2481,7 +2481,7 @@
                         "RowName": "Kill_Koala_Sheep",
                         "DataTableName": "D_ExperienceEvents"
                     },
-                    "GainedExperience": 520
+                    "GainedExperience": 0
                 }
             }
         },
@@ -2503,6 +2503,42 @@
                 "XP_OnDeath": {
                     "ExperienceEvent": {
                         "RowName": "Kill_DragonFly_Geothermal",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
+        },
+        {
+            "Name": "Creature_Juvenile_Stomper",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_JuvenileStomper",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
+        },
+        {
+            "Name": "Creature_Kangaroo_Jungle",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_Kangaroo_Jungle",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
+        },
+        {
+            "Name": "Creature_Artillery_Creature",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_Artillery_Creature",
                         "DataTableName": "D_ExperienceEvents"
                     },
                     "GainedExperience": 0

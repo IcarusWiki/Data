@@ -8050,6 +8050,7 @@
         },
         {
             "Name": "Plant_Minion_Elite",
+            "FootstepSound": "/Game/FMOD/Events/SFX/Creatures/Footsteps/SFX_FOOTSTEP_PLANTMINION.SFX_FOOTSTEP_PLANTMINION",
             "FrontFootSocket": "RigLFLeg1",
             "RearFootSocket": "RigLBLeg1",
             "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_FOLIAGE_PLANT_MINION.SFX_CRE_FOLIAGE_PLANT_MINION",
@@ -8057,41 +8058,15 @@
             "DeathCollisionSocket": "RigChest",
             "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_MED.SFX_CRE_DEATHFALL_WATER_MED",
             "VocalisationSocket": "RigTrunk4_M",
-            "StateVocalisations": {
-                "Idle": {
-                    "StateEnteredVocalisation": {
-                        "RowName": "None",
-                        "DataTableName": "D_Vocalisations"
-                    },
-                    "StatePersistentVocalisation": {
-                        "RowName": "None",
-                        "DataTableName": "D_Vocalisations"
-                    },
-                    "StateExitedVocalisation": {
-                        "RowName": "None",
-                        "DataTableName": "D_Vocalisations"
-                    }
-                },
-                "Attacking": {
-                    "StateEnteredVocalisation": {
-                        "RowName": "None",
-                        "DataTableName": "D_Vocalisations"
-                    },
-                    "StatePersistentVocalisation": {
-                        "RowName": "None",
-                        "DataTableName": "D_Vocalisations"
-                    },
-                    "StateExitedVocalisation": {
-                        "RowName": "None",
-                        "DataTableName": "D_Vocalisations"
-                    }
-                }
+            "DeathVocalisation": {
+                "RowName": "PlantMinionDeath"
             },
-            "ThreatComponentClass": "/Script/Icarus.CreatureAudioThreatGOAPComponent",
-            "ThreatLevel": 100,
+            "ThreatComponentClass": "/Script/Icarus.CreatureAudioThreatComponent",
+            "ThreatLevel": 1,
             "ThreatConfig": {
                 "RowName": "Default"
             },
+            "MusicConditionOverrideMinThreatLevel": 100,
             "FoliageCheckMaxDistance": 6000
         },
         {
@@ -8300,6 +8275,28 @@
                         "DataTableName": "D_Vocalisations"
                     }
                 }
+            }
+        },
+        {
+            "Name": "KangarooJungle",
+            "DeathCollisionSocket": "RigSpine",
+            "VocalisationSocket": "RigHead",
+            "ThreatComponentClass": "/Script/Icarus.CreatureAudioThreatGOAPComponent",
+            "ThreatLevel": 100,
+            "ThreatConfig": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "ArtilleryCreature",
+            "FrontFootSocket": "RigNeck1",
+            "RearFootSocket": "RigPelvis",
+            "DeathCollisionSocket": "RigChest",
+            "VocalisationSocket": "RigJaw_M",
+            "ThreatComponentClass": "/Script/Icarus.CreatureAudioThreatGOAPComponent",
+            "ThreatLevel": 100,
+            "ThreatConfig": {
+                "RowName": "Default"
             }
         }
     ]

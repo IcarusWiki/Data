@@ -3957,7 +3957,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fishing/ITEM_Bark_Lure.ITEM_Bark_Lure",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"CaughtFishWeight_+%\")": 50,
+                "(Value=\"BaseCaughtFishWeight_+%\")": 50,
                 "(Value=\"BaseFishingCaptureZoneSize_+%\")": 50
             }
         },

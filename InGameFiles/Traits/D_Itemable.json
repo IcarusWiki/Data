@@ -15521,7 +15521,7 @@
         },
         {
             "Name": "Item_Turret_Pistol",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Pistol-DisplayName\", \"Automated Defense System: Pistol\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Pistol-DisplayName\", \"Auto-Turret: Pistol\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Turret_Pistol.T_ITEM_Turret_Pistol",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Pistol-Description\", \"A turret that uses pistol ammunition to defend its surroundings. Fires a steady shots at a medium range. Power consumption reduced when idle.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Pistol-FlavorText\", \"This design is marked as \\\"experimental\\\" by the Lagos Group - The UDA is not liable for any injuries caused by this unit.\")",
@@ -15529,7 +15529,7 @@
         },
         {
             "Name": "Item_Turret_Rifle",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Rifle-DisplayName\", \"Automated Defense System: Burst Rifle\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Rifle-DisplayName\", \"Auto-Turret: Burst Rifle\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Turret_Rifle.T_ITEM_Turret_Rifle",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Rifle-Description\", \"A turret that uses rifle ammunition to defend its surroundings. Fires a short burst of rounds at medium range. Power consumption reduced when idle.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Rifle-FlavorText\", \"This design is marked as \\\"experimental\\\" by the Lagos Group - The UDA is not liable for any injuries caused by this unit.\")",
@@ -15537,7 +15537,7 @@
         },
         {
             "Name": "Item_Turret_Rifle_Precision",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Rifle_Precision-DisplayName\", \"Automated Defense System: Rifle\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Rifle_Precision-DisplayName\", \"Auto-Turret: Rifle\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Turret_Rifle.T_ITEM_Turret_Rifle",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Rifle_Precision-Description\", \"A turret that uses rifle ammunition to defend its surroundings. Fires slowly, at long range. Power consumption reduced when idle.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Rifle_Precision-FlavorText\", \"This design is marked as \\\"experimental\\\" by the Lagos Group - The UDA is not liable for any injuries caused by this unit.\")",
@@ -15545,7 +15545,7 @@
         },
         {
             "Name": "Item_Turret_Shotgun",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Shotgun-DisplayName\", \"Automated Defense System: Shotgun\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Shotgun-DisplayName\", \"Auto-Turret: Shotgun\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Turret_Shotgun.T_ITEM_Turret_Shotgun",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Shotgun-Description\", \"A turret that uses shotgun ammunition to defend its surroundings. Fires rapidly at short range. Power consumption reduced when idle.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Shotgun-FlavorText\", \"This design is marked as \\\"experimental\\\" by the Lagos Group - The UDA is not liable for any injuries caused by this unit.\")",
@@ -19110,7 +19110,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Natural_Oil_Refiner-DisplayName\", \"Natural Oil Refiner\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Natural_Oil_Refiner.T_ITEM_Natural_Oil_Refiner",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Natural_Oil_Refiner-Description\", \"A thermal refining unit engineered to distill biofuel into cleaner, high-efficiency oil.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Natural_Oil_Refiner-FlavorText\", \"Crude in, refined out, simple, if you ignore everything in between.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Natural_Oil_Refiner-FlavorText\", \"Biofuel in, refined oil out. Simple, if you ignore everything in between.\")",
             "Weight": 40000
         },
         {
@@ -21452,7 +21452,7 @@
         },
         {
             "Name": "Item_Enemy_Turret_Pistol",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_Pistol-DisplayName\", \"Blackmarket Automative Defence Turret (Pistol)\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_Pistol-DisplayName\", \"Blackmarket Auto-Turret: Pistol\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Turret_Pistol.T_ITEM_Turret_Pistol",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_Pistol-Description\", \"A turret that fires on anyone not registered to the system, fires pistol ammo.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_Pistol-FlavorText\", \"This design is marked as \\\"experimental\\\" by the Lagos Group - The UDA is not liable for any injuries caused by this unit.\")",
@@ -24324,7 +24324,7 @@
         },
         {
             "Name": "Item_Telsa_Coil",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Telsa_Coil-DisplayName\", \"Automated Defense System: Tesla Coil\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Telsa_Coil-DisplayName\", \"Tesla Coil\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Tesla_Coil.T_ITEM_Tesla_Coil",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Telsa_Coil-Description\", \"A sturdy tower which will thrust lightning at nearby enemies.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Telsa_Coil-FlavorText\", \"Tesla would be proud.\")",
@@ -24332,7 +24332,7 @@
         },
         {
             "Name": "Item_Turret_Flamethrower",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Flamethrower-DisplayName\", \"Automated Defense System: Flamethrower\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Flamethrower-DisplayName\", \"Auto-Turret: Flamethrower\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Turret_Flamethrower.T_ITEM_Turret_Flamethrower",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Flamethrower-Description\", \"A modified turret which fires a steady stream of flame at nearby enemies.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Flamethrower-FlavorText\", \"Burn baby burn. \")",
@@ -26748,7 +26748,7 @@
         },
         {
             "Name": "Item_Enemy_Turret_Flamethrower",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_Flamethrower-DisplayName\", \"Blackmarket Automative Defence Turret (Flamethrower)\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_Flamethrower-DisplayName\", \"Blackmarket Auto-Turret: Flamethrower\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Turret_Flamethrower.T_ITEM_Turret_Flamethrower",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_Flamethrower-Description\", \"A modified turret which fires a steady stream of flame at nearby enemies.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_Flamethrower-FlavorText\", \"This design is marked as \\\"experimental\\\" by the Lagos Group - The UDA is not liable for any injuries caused by this unit.\")",
@@ -29275,6 +29275,13 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_Paste_Lure-Description\", \"A compressed ball of fish paste designed to dissolve slowly in water.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_Paste_Lure-FlavorText\", \"Disperses a heavy scent trail that draws nearby fish right to your hook.\")",
             "Weight": 250
+        },
+        {
+            "Name": "Item_Carcass_Stomper_Juvenile",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Stomper_Juvenile-DisplayName\", \"Juvenile Stomper Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Moa.ITEM_AnimalCarcass_Moa",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Stomper_Juvenile-Description\", \"A juvenile Stomper which never quite made it to full adulthood.\")",
+            "Weight": 3500
         }
     ]
 }

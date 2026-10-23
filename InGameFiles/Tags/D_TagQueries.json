@@ -11344,6 +11344,78 @@
                 ],
                 "AutoDescription": " ANY( Item.Deployable.LightningRod )"
             }
+        },
+        {
+            "Name": "Skin_Head_Eyebrows",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Skin.Eyebrows"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Skin.Eyebrows )"
+            }
+        },
+        {
+            "Name": "Skin_Head_FacialHair",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Skin.FacialHair"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Skin.FacialHair )"
+            }
+        },
+        {
+            "Name": "Skin_Head_Piercing",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Skin.Piercing"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Skin.Piercing )"
+            }
+        },
+        {
+            "Name": "Skin_Head_Rebreather",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Skin.Rebreather"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Skin.Rebreather )"
+            }
         }
     ]
 }

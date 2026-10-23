@@ -22,8 +22,9 @@
             "RowName": "Settlement_Building_Complete",
             "DataTableName": "D_ExperienceEvents"
         },
-        "DefaultTasks": [],
-        "Generation": []
+        "SlotCount": 1,
+        "Tasks": [],
+        "DefaultTasks": []
     },
     "Rows": [
         {
@@ -41,7 +42,7 @@
             "Name": "House",
             "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"House-BuildingName\", \"Quarters\")",
             "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"House-BuildingDescription\", \"Houses two Settlers. Settlers with a home are happier.\")",
-            "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Housing_Blocking.SM_COL_Housing_Blocking",
+            "Mesh": "/Game/ASS/DEP/Settlement_Quarters/SM_DEP_Settlement_Quarters_TEST.SM_DEP_Settlement_Quarters_TEST",
             "BuildingStats": {
                 "(Value=\"BaseSettlementHousing_+\")": 2
             },
@@ -198,10 +199,16 @@
                     "Count": 40
                 }
             ],
+            "Tasks": [
+                {
+                    "RowName": "Watchtower_Guard",
+                    "DataTableName": "D_SettlementTasks"
+                }
+            ],
             "DefaultTasks": [
                 {
-                    "RowName": "Guard_Stationary",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Watchtower_Guard",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -254,34 +261,11 @@
                     "Count": 8
                 }
             ],
-            "DefaultTasks": [
+            "SlotCount": 0,
+            "Tasks": [
                 {
-                    "RowName": "OperateBuilding",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
-                }
-            ],
-            "Generation": [
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "None",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "Water"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementWaterProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": []
+                    "RowName": "WaterTower_Water",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -341,162 +325,25 @@
                     "Count": 20
                 }
             ],
-            "DefaultTasks": [
+            "SlotCount": 2,
+            "Tasks": [
                 {
-                    "RowName": "Heal",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Medical_Heal",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Medical_Herbs",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Herbs",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementHerbProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Lily",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
+                    "RowName": "Medical_Heal",
+                    "DataTableName": "D_SettlementTasks"
                 },
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Herbs",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementHerbProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Reed_Flower",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Herbs",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementHerbProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Agave",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Herbs",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementHerbProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "WildTea",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Herbs",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementHerbProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "GreenTea",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
+                    "RowName": "Medical_Herbs",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -557,199 +404,28 @@
                     "Count": 10
                 }
             ],
-            "DefaultTasks": [
+            "Tasks": [
                 {
-                    "RowName": "Craft",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Forge_Refined_Metal",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Forge_Refined_Copper",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Forge_Steel_Ingot",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Forge_Metalwork",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Refined_Metal",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementMetalProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Metal_Ore",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Refined_Copper",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementMetalProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Copper_Ore",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Steel_Ingot",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementMetalProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Metal_Ore",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Coal_Ore",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Metalwork",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementMetalworkProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Refined_Metal",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Metalwork",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementMetalworkProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Refined_Copper",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Metalwork",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementMetalworkProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Steel_Ingot",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        }
-                    ],
-                    "InputResources": []
+                    "RowName": "Forge_Refined_Metal",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -809,72 +485,20 @@
                     "Count": 20
                 }
             ],
-            "DefaultTasks": [
+            "Tasks": [
                 {
-                    "RowName": "Craft",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
-                }
-            ],
-            "Generation": [
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Timber",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementTimberProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Wood",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        }
-                    ],
-                    "InputResources": []
+                    "RowName": "Sawmill_Timber",
+                    "DataTableName": "D_SettlementTasks"
                 },
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Slate",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementSlateProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Stone",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        }
-                    ],
-                    "InputResources": []
+                    "RowName": "Sawmill_Slate",
+                    "DataTableName": "D_SettlementTasks"
+                }
+            ],
+            "DefaultTasks": [
+                {
+                    "RowName": "Sawmill_Timber",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -934,18 +558,17 @@
                     "Count": 10
                 }
             ],
+            "SlotCount": 3,
+            "Tasks": [
+                {
+                    "RowName": "Barracks_Guard",
+                    "DataTableName": "D_SettlementTasks"
+                }
+            ],
             "DefaultTasks": [
                 {
-                    "RowName": "Guard_Stationary",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
-                },
-                {
-                    "RowName": "Guard_Stationary",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
-                },
-                {
-                    "RowName": "Guard_Stationary",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Barracks_Guard",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -1007,93 +630,20 @@
                     "Count": 10
                 }
             ],
-            "DefaultTasks": [
+            "Tasks": [
                 {
-                    "RowName": "Craft",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
-                }
-            ],
-            "Generation": [
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Mortar",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementMortarProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Metal_Ore",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Settlement_Slate",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 5
-                        }
-                    ]
+                    "RowName": "Workshop_Mortar",
+                    "DataTableName": "D_SettlementTasks"
                 },
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Hardware",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementHardwareProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Settlement_Woodwork",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Settlement_Metalwork",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
+                    "RowName": "Workshop_Hardware",
+                    "DataTableName": "D_SettlementTasks"
+                }
+            ],
+            "DefaultTasks": [
+                {
+                    "RowName": "Workshop_Mortar",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -1154,34 +704,16 @@
                     "Count": 10
                 }
             ],
-            "DefaultTasks": [
+            "Tasks": [
                 {
-                    "RowName": "ChopWood",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "LoggingCamp_Wood",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Wood",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementWoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": []
+                    "RowName": "LoggingCamp_Wood",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -1241,41 +773,11 @@
                     "Count": 10
                 }
             ],
-            "DefaultTasks": [
+            "SlotCount": 0,
+            "Tasks": [
                 {
-                    "RowName": "OperateBuilding",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
-                }
-            ],
-            "Generation": [
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "None",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "Energy"
-                            },
-                            "Quantity": 1000,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementPowerProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 10,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Biofuel"
-                            },
-                            "RequiredUnits": 1
-                        }
-                    ]
+                    "RowName": "Generator_Energy",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -1332,122 +834,33 @@
                     "Count": 40
                 }
             ],
-            "DefaultTasks": [
+            "SlotCount": 2,
+            "Tasks": [
                 {
-                    "RowName": "Farm",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Farm_Carrot",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Farm_Potato",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Farm_Pumpkin",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Farm_Lily",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Farm_Reed_Flower",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Carrot",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Potato",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Pumpkin",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Lily",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Reed_Flower",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": []
+                    "RowName": "Farm_Carrot",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -1507,67 +920,20 @@
                     "Count": 40
                 }
             ],
-            "DefaultTasks": [
+            "Tasks": [
                 {
-                    "RowName": "Mine",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Mine_Stone",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Mine_Ore",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Stone",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 2,
-                            "Chance": 1
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Metal_Ore",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.5
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Copper_Ore",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.25
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Oxite",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.25
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementMineProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": []
+                    "RowName": "Mine_Stone",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -1624,34 +990,16 @@
                     "Count": 40
                 }
             ],
-            "DefaultTasks": [
+            "Tasks": [
                 {
-                    "RowName": "Fish",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "FishingDock_Raw_Fish",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Raw_Fish",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": []
+                    "RowName": "FishingDock_Raw_Fish",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -1873,34 +1221,11 @@
                     "Count": 6
                 }
             ],
-            "DefaultTasks": [
+            "SlotCount": 0,
+            "Tasks": [
                 {
-                    "RowName": "OperateBuilding",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
-                }
-            ],
-            "Generation": [
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "None",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "Water"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementWaterProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": []
+                    "RowName": "Water_Purifier_Water",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -1954,34 +1279,11 @@
                     "Count": 4
                 }
             ],
-            "DefaultTasks": [
+            "SlotCount": 0,
+            "Tasks": [
                 {
-                    "RowName": "OperateBuilding",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
-                }
-            ],
-            "Generation": [
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "None",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "Water"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementWaterProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": []
+                    "RowName": "Electric_Pump_Water",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -2143,244 +1445,53 @@
                     "Count": 12
                 }
             ],
-            "DefaultTasks": [
+            "SlotCount": 3,
+            "Tasks": [
                 {
-                    "RowName": "Farm",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Greenhouse_Carrot",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Greenhouse_Potato",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Greenhouse_Pumpkin",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Greenhouse_Tomato",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Greenhouse_Corn",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Greenhouse_Agave",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Greenhouse_Lily",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Greenhouse_Reed_Flower",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Carrot",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 1
-                        }
-                    ]
+                    "RowName": "Greenhouse_Carrot",
+                    "DataTableName": "D_SettlementTasks"
                 },
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Potato",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 1
-                        }
-                    ]
+                    "RowName": "Greenhouse_Potato",
+                    "DataTableName": "D_SettlementTasks"
                 },
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Pumpkin",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 1
-                        }
-                    ]
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Tomato",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 1
-                        }
-                    ]
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Corn",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 1
-                        }
-                    ]
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Agave",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 1
-                        }
-                    ]
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Lily",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 1
-                        }
-                    ]
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Reed_Flower",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 1
-                        }
-                    ]
+                    "RowName": "Greenhouse_Pumpkin",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -2437,302 +1548,65 @@
                     "Count": 4
                 }
             ],
-            "DefaultTasks": [
+            "SlotCount": 4,
+            "Tasks": [
                 {
-                    "RowName": "Farm",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Hydroponics_Carrot",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Hydroponics_Potato",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Hydroponics_Pumpkin",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Hydroponics_Tomato",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Hydroponics_Corn",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Hydroponics_Squash",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Hydroponics_Agave",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Hydroponics_Lily",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Hydroponics_Reed_Flower",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Hydroponics_WildTea",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Carrot",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 1
-                        }
-                    ]
+                    "RowName": "Hydroponics_Carrot",
+                    "DataTableName": "D_SettlementTasks"
                 },
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Potato",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 1
-                        }
-                    ]
+                    "RowName": "Hydroponics_Potato",
+                    "DataTableName": "D_SettlementTasks"
                 },
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Pumpkin",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 1
-                        }
-                    ]
+                    "RowName": "Hydroponics_Pumpkin",
+                    "DataTableName": "D_SettlementTasks"
                 },
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Tomato",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 1
-                        }
-                    ]
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Corn",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 1
-                        }
-                    ]
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Squash",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 1
-                        }
-                    ]
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Agave",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 1
-                        }
-                    ]
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Lily",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 1
-                        }
-                    ]
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Reed_Flower",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 1
-                        }
-                    ]
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "WildTea",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementFoodProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 1
-                        }
-                    ]
+                    "RowName": "Hydroponics_Tomato",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -2784,222 +1658,16 @@
                     "Count": 40
                 }
             ],
-            "DefaultTasks": [
+            "Tasks": [
                 {
-                    "RowName": "Cook",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Kitchen_Produce",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Produce",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementProduceProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Carrot",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Produce",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementProduceProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Potato",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Produce",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementProduceProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Pumpkin",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Produce",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementProduceProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Corn",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Produce",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementProduceProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Tomato",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Produce",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementProduceProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Raw_Meat",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Produce",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementProduceProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Raw_Fish",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
+                    "RowName": "Kitchen_Produce",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -3059,42 +1727,16 @@
                     "Count": 8
                 }
             ],
-            "DefaultTasks": [
+            "Tasks": [
                 {
-                    "RowName": "Cook",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Mess_Hall_Rations",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Rations",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementRationProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Settlement_Produce",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        }
-                    ],
-                    "InputResources": []
+                    "RowName": "Mess_Hall_Rations",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -3140,42 +1782,16 @@
                     "Count": 12
                 }
             ],
-            "DefaultTasks": [
+            "Tasks": [
                 {
-                    "RowName": "Cook",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Cafeteria_Cuisine",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Cuisine",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementCuisineProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Settlement_Rations",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        }
-                    ],
-                    "InputResources": []
+                    "RowName": "Cafeteria_Cuisine",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -3236,42 +1852,25 @@
                     "Count": 10
                 }
             ],
-            "DefaultTasks": [
+            "SlotCount": 2,
+            "Tasks": [
                 {
-                    "RowName": "Heal",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Clinic_Heal",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Clinic_Medicine",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Medicine",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementMedicineProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Settlement_Herbs",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        }
-                    ],
-                    "InputResources": []
+                    "RowName": "Clinic_Heal",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Clinic_Medicine",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -3325,42 +1924,25 @@
                     "Count": 3
                 }
             ],
-            "DefaultTasks": [
+            "SlotCount": 2,
+            "Tasks": [
                 {
-                    "RowName": "Heal",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Infirmary_Heal",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Infirmary_Pharmaceuticals",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Pharmaceuticals",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementPharmaceuticalProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Settlement_Medicine",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        }
-                    ],
-                    "InputResources": []
+                    "RowName": "Infirmary_Heal",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Infirmary_Pharmaceuticals",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -3415,82 +1997,25 @@
                     "Count": 10
                 }
             ],
-            "DefaultTasks": [
+            "SlotCount": 2,
+            "Tasks": [
                 {
-                    "RowName": "Craft",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Fabrication_Bay_Assemblies",
+                    "DataTableName": "D_SettlementTasks"
                 },
                 {
-                    "RowName": "Craft",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Fabrication_Bay_Lubricant",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Assemblies",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementAssemblyProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Settlement_Hardware",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Settlement_Metalwork",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
+                    "RowName": "Fabrication_Bay_Assemblies",
+                    "DataTableName": "D_SettlementTasks"
                 },
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Lubricant",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementLubricantProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Crude_Oil"
-                            },
-                            "RequiredUnits": 5
-                        }
-                    ]
+                    "RowName": "Fabrication_Bay_Lubricant",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -3544,104 +2069,25 @@
                     "Count": 20
                 }
             ],
-            "DefaultTasks": [
+            "SlotCount": 2,
+            "Tasks": [
                 {
-                    "RowName": "Mine",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Deep_Mine_Stone",
+                    "DataTableName": "D_SettlementTasks"
                 },
                 {
-                    "RowName": "Mine",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Deep_Mine_Ore",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Stone",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 2,
-                            "Chance": 1
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Metal_Ore",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.5
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Copper_Ore",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.25
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Oxite",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.25
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Platinum_Ore",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.25
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Titanium_Ore",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.25
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Coal_Ore",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.5
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementMineProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": []
+                    "RowName": "Deep_Mine_Stone",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Deep_Mine_Ore",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -3701,67 +2147,16 @@
                     "Count": 40
                 }
             ],
-            "DefaultTasks": [
+            "Tasks": [
                 {
-                    "RowName": "Hunt",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Hunting_Hut_Raw_Meat",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Raw_Meat",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 2,
-                            "Chance": 1
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Bone",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.5
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Leather",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.5
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Fur",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.25
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementHuntingProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": []
+                    "RowName": "Hunting_Hut_Raw_Meat",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -3815,115 +2210,17 @@
                     "Count": 12
                 }
             ],
-            "DefaultTasks": [
+            "SlotCount": 2,
+            "Tasks": [
                 {
-                    "RowName": "Hunt",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
-                },
-                {
-                    "RowName": "Hunt",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Hunting_Lodge_Raw_Meat",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Raw_Meat",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 2,
-                            "Chance": 1
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Bone",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.5
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Leather",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.5
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Fur",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.25
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Stringy_Meat",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.25
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Gamey_Meat",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.25
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Soft_Meat",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.25
-                        },
-                        {
-                            "Item": {
-                                "RowName": "White_Meat",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.25
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementHuntingProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": []
+                    "RowName": "Hunting_Lodge_Raw_Meat",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -3976,41 +2273,11 @@
                     "Count": 5
                 }
             ],
-            "DefaultTasks": [
+            "SlotCount": 0,
+            "Tasks": [
                 {
-                    "RowName": "OperateBuilding",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
-                }
-            ],
-            "Generation": [
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "None",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "Energy"
-                            },
-                            "Quantity": 1000,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementPowerProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 20,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Biofuel"
-                            },
-                            "RequiredUnits": 1
-                        }
-                    ]
+                    "RowName": "Reactor_Energy",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -4070,41 +2337,11 @@
                     "Count": 40
                 }
             ],
-            "DefaultTasks": [
+            "SlotCount": 0,
+            "Tasks": [
                 {
-                    "RowName": "OperateBuilding",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
-                }
-            ],
-            "Generation": [
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "None",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "Oxygen"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementOxygenProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Energy"
-                            },
-                            "RequiredUnits": 1000
-                        }
-                    ]
+                    "RowName": "Oxygen_Generator_Oxygen",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -4157,41 +2394,11 @@
                     "Count": 4
                 }
             ],
-            "DefaultTasks": [
+            "SlotCount": 0,
+            "Tasks": [
                 {
-                    "RowName": "OperateBuilding",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
-                }
-            ],
-            "Generation": [
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "None",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "Oxygen"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementOxygenProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Energy"
-                            },
-                            "RequiredUnits": 1000
-                        }
-                    ]
+                    "RowName": "Atmosphere_Plant_Oxygen",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -4244,86 +2451,16 @@
                     "Count": 10
                 }
             ],
-            "DefaultTasks": [
+            "Tasks": [
                 {
-                    "RowName": "OperateBuilding",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Decomposer_Biofuel",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "None",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "Biofuel"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementBiofuelProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Settlement_Produce",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 5
-                        }
-                    ]
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "None",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "Biofuel"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementBiofuelProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Raw_Meat",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 5
-                        }
-                    ]
+                    "RowName": "Decomposer_Biofuel",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -4376,197 +2513,16 @@
                     "Count": 5
                 }
             ],
-            "DefaultTasks": [
+            "Tasks": [
                 {
-                    "RowName": "OperateBuilding",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Bioprocessor_Biofuel",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "None",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "Biofuel"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementBiofuelProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Settlement_Produce",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 5
-                        }
-                    ]
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "None",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "Biofuel"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementBiofuelProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Raw_Meat",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 5
-                        }
-                    ]
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "None",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "Biofuel"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementBiofuelProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Raw_Fish",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 5
-                        }
-                    ]
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "None",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "Biofuel"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementBiofuelProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Carrot",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 5
-                        }
-                    ]
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "None",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "Biofuel"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementBiofuelProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Wood",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 5
-                        }
-                    ]
+                    "RowName": "Bioprocessor_Biofuel",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -4621,314 +2577,45 @@
                     "Count": 10
                 }
             ],
-            "DefaultTasks": [
+            "SlotCount": 2,
+            "Tasks": [
                 {
-                    "RowName": "Craft",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Alloy_Furnace_Refined_Metal",
+                    "DataTableName": "D_SettlementTasks"
                 },
                 {
-                    "RowName": "Craft",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Alloy_Furnace_Refined_Copper",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Alloy_Furnace_Steel_Ingot",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Alloy_Furnace_Metalwork",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Alloy_Furnace_Ferrotitanium_Alloy",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Alloy_Furnace_Aluminium_Bronze_Alloy",
+                    "DataTableName": "D_SettlementTasks"
+                },
+                {
+                    "RowName": "Alloy_Furnace_Nanowire",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Refined_Metal",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementMetalProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Metal_Ore",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        }
-                    ],
-                    "InputResources": []
+                    "RowName": "Alloy_Furnace_Refined_Metal",
+                    "DataTableName": "D_SettlementTasks"
                 },
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Refined_Copper",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementMetalProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Copper_Ore",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Steel_Ingot",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementMetalProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Metal_Ore",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Coal_Ore",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Metalwork",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementMetalworkProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Refined_Metal",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Metalwork",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementMetalworkProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Refined_Copper",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Metalwork",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementMetalworkProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Steel_Ingot",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Ferrotitanium_Alloy",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementAlloyProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Refined_Metal",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Titanium_Ore",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Aluminium_Bronze_Alloy",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementAlloyProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Refined_Copper",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Aluminium",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Nanowire",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementAlloyProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Refined_Copper",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Platinum_Ore",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
+                    "RowName": "Alloy_Furnace_Refined_Copper",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -4988,123 +2675,16 @@
                     "Count": 10
                 }
             ],
-            "DefaultTasks": [
+            "Tasks": [
                 {
-                    "RowName": "Craft",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Timber_Mill_Woodwork",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Woodwork",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementWoodworkProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Settlement_Timber",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Refined_Metal",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Woodwork",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementWoodworkProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Settlement_Timber",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Refined_Copper",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
-                },
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Settlement_Woodwork",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementWoodworkProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Settlement_Timber",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Steel_Ingot",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "InputResources": []
+                    "RowName": "Timber_Mill_Woodwork",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -5154,10 +2734,16 @@
                     "Count": 8
                 }
             ],
+            "Tasks": [
+                {
+                    "RowName": "Trading_Post_Operate",
+                    "DataTableName": "D_SettlementTasks"
+                }
+            ],
             "DefaultTasks": [
                 {
-                    "RowName": "OperateBuilding",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Trading_Post_Operate",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -5200,10 +2786,16 @@
                     "Count": 10
                 }
             ],
+            "Tasks": [
+                {
+                    "RowName": "Marketplace_Operate",
+                    "DataTableName": "D_SettlementTasks"
+                }
+            ],
             "DefaultTasks": [
                 {
-                    "RowName": "OperateBuilding",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Marketplace_Operate",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -5257,34 +2849,16 @@
                     "Count": 10
                 }
             ],
-            "DefaultTasks": [
+            "Tasks": [
                 {
-                    "RowName": "Mine",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Oil_Mine_Crude_Oil",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "None",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "Crude_Oil"
-                            },
-                            "Quantity": 5,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementOilProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": []
+                    "RowName": "Oil_Mine_Crude_Oil",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -5338,56 +2912,16 @@
                     "Count": 16
                 }
             ],
-            "DefaultTasks": [
+            "Tasks": [
                 {
-                    "RowName": "Farm",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Ranch_Wool",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Wool",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.5
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Egg",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.5
-                        },
-                        {
-                            "Item": {
-                                "RowName": "Milk_Bucket",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 0.25
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementAnimalProductProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": []
+                    "RowName": "Ranch_Wool",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -5440,34 +2974,11 @@
                     "Count": 5
                 }
             ],
-            "DefaultTasks": [
+            "SlotCount": 0,
+            "Tasks": [
                 {
-                    "RowName": "OperateBuilding",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
-                }
-            ],
-            "Generation": [
-                {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "None",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "Energy"
-                            },
-                            "Quantity": 1000,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementPowerProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [],
-                    "InputResources": []
+                    "RowName": "Solar_Array_Energy",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -5629,74 +3140,17 @@
                     "Count": 12
                 }
             ],
-            "DefaultTasks": [
+            "SlotCount": 2,
+            "Tasks": [
                 {
-                    "RowName": "Craft",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
-                },
-                {
-                    "RowName": "Craft",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Microchip_Fabrication_Microchip",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ],
-            "Generation": [
+            "DefaultTasks": [
                 {
-                    "Outputs": [
-                        {
-                            "Item": {
-                                "RowName": "Microchip",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Resource": {
-                                "Value": "None"
-                            },
-                            "Quantity": 1,
-                            "Chance": 1
-                        }
-                    ],
-                    "RateStat": {
-                        "Value": "SettlementMicrochipProduction_+"
-                    },
-                    "RequiredActivity": "Work",
-                    "OutputUnitsPerInput": 1,
-                    "InputItems": [
-                        {
-                            "Element": {
-                                "RowName": "Settlement_Assemblies",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Settlement_Lubricant",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Settlement_Pharmaceuticals",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 2
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Nanowire",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 5
-                        }
-                    ],
-                    "InputResources": [
-                        {
-                            "Type": {
-                                "Value": "Water"
-                            },
-                            "RequiredUnits": 10
-                        }
-                    ]
+                    "RowName": "Microchip_Fabrication_Microchip",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         },
@@ -5754,18 +3208,17 @@
                     "Count": 10
                 }
             ],
+            "SlotCount": 3,
+            "Tasks": [
+                {
+                    "RowName": "Scout_Outpost_Operate",
+                    "DataTableName": "D_SettlementTasks"
+                }
+            ],
             "DefaultTasks": [
                 {
-                    "RowName": "OperateBuilding",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
-                },
-                {
-                    "RowName": "OperateBuilding",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
-                },
-                {
-                    "RowName": "OperateBuilding",
-                    "DataTableName": "D_SettlementNPCTaskTypes"
+                    "RowName": "Scout_Outpost_Operate",
+                    "DataTableName": "D_SettlementTasks"
                 }
             ]
         }

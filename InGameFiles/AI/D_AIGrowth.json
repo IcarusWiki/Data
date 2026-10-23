@@ -6542,7 +6542,7 @@
                 "(Value=\"BaseMaximumFallDamageVelocity_+\")": 1950,
                 "(Value=\"BaseAIPerceptionMaxAge_+\")": 5,
                 "(Value=\"BaseAIDamagePerceptionMaxAge_+\")": 10,
-                "(Value=\"BaseAIPerceptionSightRadius_+\")": 1000,
+                "(Value=\"BaseAIPerceptionSightRadius_+\")": 10000,
                 "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 32000,
                 "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 130,
                 "(Value=\"BaseAIPerceptionSoundRadius_+\")": 3000,
@@ -7030,6 +7030,8 @@
                 "(Value=\"BaseFireDamageResistance_%\")": -50,
                 "(Value=\"BaseFrostDamageResistance_%\")": 50
             },
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_StorcaJungleHealth.C_StorcaJungleHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_StorcaJungleMeleeDamage.C_StorcaJungleMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -7104,6 +7106,8 @@
                 "(Value=\"BaseFireDamageResistance_%\")": -50,
                 "(Value=\"BaseFrostDamageOverTime_+%\")": -50
             },
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_JungleHunterHealth.C_JungleHunterHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_JungleHunterMeleeDamage.C_JungleHunterMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -7422,6 +7426,40 @@
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
+            "Name": "Flightless_Tank_Geothermal",
+            "Base": {
+                "(Value=\"BaseSwimSpeed_+\")": 300,
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 50,
+                "(Value=\"BaseMinimumFallDamage_%\")": 1,
+                "(Value=\"BaseMaximumFallDamage_%\")": 100,
+                "(Value=\"BaseMinimumFallDamageVelocity_+\")": 1250,
+                "(Value=\"BaseMaximumFallDamageVelocity_+\")": 1950,
+                "(Value=\"BaseAIPerceptionMaxAge_+\")": 3,
+                "(Value=\"BaseAIDamagePerceptionMaxAge_+\")": 10,
+                "(Value=\"BaseAIPerceptionSightRadius_+\")": 6000,
+                "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 6750,
+                "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
+                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
+                "(Value=\"BaseCharacterMass_+\")": 1000,
+                "(Value=\"BaseNPCAttackRadius_+\")": 650,
+                "(Value=\"CanNPCDamageDurableActors_?\")": 1,
+                "(Value=\"CanNPCDamageVoxels_?\")": 1,
+                "(Value=\"BaseMiningRadius_+\")": 100,
+                "(Value=\"BaseHealthRegenDelay_+\")": 2,
+                "(Value=\"BaseSlowResistance_%\")": 75,
+                "(Value=\"BaseImmobiliseResistance_%\")": 100,
+                "(Value=\"BaseMovementSpeed_+\")": 80,
+                "(Value=\"BaseExplosiveDamageResistance_%\")": -50,
+                "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 75,
+                "(Value=\"BaseProjectileDamageResistance_+%\")": 50,
+                "(Value=\"BaseProjectileDamageResistance_%\")": 25,
+                "(Value=\"\")": 0
+            },
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_FlightlessTankGeothermalHealth.C_FlightlessTankGeothermalHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_FlightlessTankGeothermalMeleeDamage.C_FlightlessTankGeothermalMeleeDamage'",
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
+        },
+        {
             "Name": "DragonFly_Geothermal",
             "Base": {
                 "(Value=\"BaseSwimSpeed_+\")": 300,
@@ -7450,6 +7488,98 @@
                 "(Value=\"BaseElectricDamageResistance_%\")": -100
             },
             "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_DragonFlyGeothermalMeleeDamage.C_DragonFlyGeothermalMeleeDamage'",
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
+        },
+        {
+            "Name": "Juvenile_Stomper",
+            "Base": {
+                "(Value=\"BaseMovementSpeed_+\")": 144,
+                "(Value=\"BaseSwimSpeed_+\")": 125,
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 3,
+                "(Value=\"BaseMinimumFallDamage_%\")": 1,
+                "(Value=\"BaseMaximumFallDamage_%\")": 100,
+                "(Value=\"BaseMinimumFallDamageVelocity_+\")": 1250,
+                "(Value=\"BaseMaximumFallDamageVelocity_+\")": 1950,
+                "(Value=\"BaseAIPerceptionMaxAge_+\")": 3,
+                "(Value=\"BaseAIDamagePerceptionMaxAge_+\")": 10,
+                "(Value=\"BaseAIPerceptionSightRadius_+\")": 5000,
+                "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 7500,
+                "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
+                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
+                "(Value=\"BaseCharacterMass_+\")": 75,
+                "(Value=\"BaseHealthRegenDelay_+\")": 2,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseGOAPActionWanderMinDistance_+\")": 250,
+                "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 850,
+                "(Value=\"BaseMaximumFood_+\")": 100,
+                "(Value=\"BaseMaximumWater_+\")": 100,
+                "(Value=\"BaseFoodConsumptionPerHour_+\")": 1200,
+                "(Value=\"BaseWaterConsumptionPerHour_+\")": 0
+            },
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
+        },
+        {
+            "Name": "Kangaroo_Jungle",
+            "Base": {
+                "(Value=\"BaseSwimSpeed_+\")": 300,
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 20,
+                "(Value=\"BaseMinimumFallDamage_%\")": 1,
+                "(Value=\"BaseMaximumFallDamage_%\")": 100,
+                "(Value=\"BaseMinimumFallDamageVelocity_+\")": 1250,
+                "(Value=\"BaseMaximumFallDamageVelocity_+\")": 1950,
+                "(Value=\"BaseAIPerceptionMaxAge_+\")": 3,
+                "(Value=\"BaseAIDamagePerceptionMaxAge_+\")": 10,
+                "(Value=\"BaseAIPerceptionSightRadius_+\")": 9000,
+                "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 10500,
+                "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
+                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 4500,
+                "(Value=\"BaseGOAPMotivationProtectiveDistanceMinimumThreat_+\")": 4500,
+                "(Value=\"BaseGOAPMotivationProtectiveDistanceMaximumThreat_+\")": 500,
+                "(Value=\"BaseCharacterMass_+\")": 100,
+                "(Value=\"BaseNPCAttackRadius_+\")": 250,
+                "(Value=\"CanNPCDamageDurableActors_?\")": 1,
+                "(Value=\"BaseHealthRegenDelay_+\")": 2,
+                "(Value=\"BaseSlowResistance_%\")": 10,
+                "(Value=\"BaseImmobiliseResistance_%\")": 10,
+                "(Value=\"BaseMovementSpeed_+\")": 90,
+                "(Value=\"NPCRunningAttackRequiresSimilarDirection_?\")": 1
+            },
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_KangarooJungleHealth.C_KangarooJungleHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_KangarooJungleMeleeDamage.C_KangarooJungleMeleeDamage'",
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
+        },
+        {
+            "Name": "Artillery_Creature",
+            "Base": {
+                "(Value=\"BaseSwimSpeed_+\")": 300,
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 50,
+                "(Value=\"BaseMinimumFallDamage_%\")": 1,
+                "(Value=\"BaseMaximumFallDamage_%\")": 100,
+                "(Value=\"BaseMinimumFallDamageVelocity_+\")": 1250,
+                "(Value=\"BaseMaximumFallDamageVelocity_+\")": 1950,
+                "(Value=\"BaseAIPerceptionMaxAge_+\")": 3,
+                "(Value=\"BaseAIDamagePerceptionMaxAge_+\")": 10,
+                "(Value=\"BaseAIPerceptionSightRadius_+\")": 6000,
+                "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 6750,
+                "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
+                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
+                "(Value=\"BaseCharacterMass_+\")": 1000,
+                "(Value=\"BaseNPCAttackRadius_+\")": 650,
+                "(Value=\"CanNPCDamageDurableActors_?\")": 1,
+                "(Value=\"CanNPCDamageVoxels_?\")": 1,
+                "(Value=\"BaseMiningRadius_+\")": 100,
+                "(Value=\"BaseHealthRegenDelay_+\")": 2,
+                "(Value=\"BaseSlowResistance_%\")": 75,
+                "(Value=\"BaseImmobiliseResistance_%\")": 100,
+                "(Value=\"BaseMovementSpeed_+\")": 80,
+                "(Value=\"BaseExplosiveDamageResistance_%\")": -50,
+                "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 75,
+                "(Value=\"BaseProjectileDamageResistance_+%\")": 50,
+                "(Value=\"BaseProjectileDamageResistance_%\")": 25,
+                "(Value=\"\")": 0
+            },
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_ArtilleryCreatureHealth.C_ArtilleryCreatureHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_ArtilleryCreatureMeleeDamage.C_ArtilleryCreatureMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         }
     ]

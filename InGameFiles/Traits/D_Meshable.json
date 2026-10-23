@@ -6562,7 +6562,7 @@
         },
         {
             "Name": "Mesh_Lead_Ingot",
-            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Platinum.SM_ITM_Platinum"
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Lead_Ingot.SM_ITM_Lead_Ingot"
         },
         {
             "Name": "Mesh_Carbide",
@@ -6687,11 +6687,42 @@
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         },
         {
+            "Name": "Mesh_Carcass_Flightless_Tank_Geothermal",
+            "ItemMesh": "/Game/ASS/CRE/Flightless_Tank/SK_CRE_Flightless_Tank.SK_CRE_Flightless_Tank",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Flightless_Tank_Geothermal_Corpse.BP_Flightless_Tank_Geothermal_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Flightless_Tank/SK_CRE_Flightless_Tank.SK_CRE_Flightless_Tank",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Flightless_Tank_Geothermal_Corpse.BP_Flightless_Tank_Geothermal_Corpse_C"
+        },
+        {
             "Name": "Mesh_Carcass_DragonFly_Geothermal",
             "ItemMesh": "/Game/ASS/CRE/Dragonfly/SK_CRE_Dragonfly.SK_CRE_Dragonfly",
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_DragonFly_Geothermal_Corpse.BP_DragonFly_Geothermal_Corpse_C",
             "EquipHandMesh": "/Game/ASS/CRE/Dragonfly/SK_CRE_Dragonfly.SK_CRE_Dragonfly",
             "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_DragonFly_Geothermal_Corpse.BP_DragonFly_Geothermal_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Basic_Fertilizer_Chitin",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_FertilizerMix_01.SM_ITM_FertilizerMix_01",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
+        },
+        {
+            "Name": "Mesh_Carcass_Stomper_Juvenile",
+            "ItemMesh": "/Game/ASS/CRE/Stomper/Juvenille/SK_Stomper_Juvenille.SK_Stomper_Juvenille",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Stomper_Juvenile_Corpse.BP_Stomper_Juvenile_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Kangaroo_Jungle",
+            "ItemMesh": "/Game/ASS/CRE/Striker/SK_CRE_Striker.SK_CRE_Striker",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Kangaroo_Jungle_Corpse.BP_Kangaroo_Jungle_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Striker/SK_CRE_Striker.SK_CRE_Striker",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Kangaroo_Jungle_Corpse.BP_Kangaroo_Jungle_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Artillery_Creature",
+            "ItemMesh": "/Game/ASS/CRE/Artillery_Creature/SK_CRE_Artillery_Creature.SK_CRE_Artillery_Creature",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Artillery_Creature_Corpse.BP_Artillery_Creature_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Artillery_Creature/SK_CRE_Artillery_Creature.SK_CRE_Artillery_Creature",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Artillery_Creature_Corpse.BP_Artillery_Creature_Corpse_C"
         }
     ]
 }

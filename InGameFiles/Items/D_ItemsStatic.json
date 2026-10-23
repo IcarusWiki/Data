@@ -133854,6 +133854,108 @@
             "TurretData": {
                 "RowName": "Basic_Pistol_Turret"
             },
+            "AdditionalStats": {
+                "(Value=\"BaseCriticalDamage_+%\")": 200
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "FieldGuide.Defense"
+                    },
+                    {
+                        "TagName": "FieldGuide.Defense.Turret"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "FieldGuide.Defense"
+                    },
+                    {
+                        "TagName": "FieldGuide.Defense.Turret"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Turret_Rifle_Precision",
+            "Meshable": {
+                "RowName": "Mesh_Generic_Fabricator"
+            },
+            "Itemable": {
+                "RowName": "Item_Turret_Rifle_Precision"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Basic_Turret_Rifle"
+            },
+            "Durable": {
+                "RowName": "Deployable_10000"
+            },
+            "Inventory": {
+                "RowName": "Inventory_Turret_Rifle"
+            },
+            "Decayable": {
+                "RowName": "Decay_10_Minutes"
+            },
+            "Weight": {
+                "RowName": "MediumDeployable"
+            },
+            "Resource": {
+                "RowName": "Turret"
+            },
+            "Audio": {
+                "RowName": "Turret"
+            },
+            "TurretData": {
+                "RowName": "Basic_Rifle_Turret_Precision"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseCriticalDamage_+%\")": 200
+            },
             "Manual_Tags": {
                 "GameplayTags": [
                     {
@@ -195286,169 +195388,6 @@
             }
         },
         {
-            "Name": "Ammo_Sniper_Round_Explosive",
-            "Meshable": {
-                "RowName": "Mesh_Ammo_Box"
-            },
-            "Itemable": {
-                "RowName": "Item_Sniper_Round_Explosive"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Ballistic": {
-                "RowName": "Sniper_Round_Explosive"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "AmmoType": {
-                "RowName": "Sniper_Round_Explosive"
-            },
-            "Audio": {
-                "RowName": "Default"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Ammo.Bullet"
-                    },
-                    {
-                        "TagName": "GameStateRecorder.DontRecord"
-                    },
-                    {
-                        "TagName": "Item.Meta"
-                    },
-                    {
-                        "TagName": "Item.Ammo.Sniper"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Ammo.Bullet"
-                    },
-                    {
-                        "TagName": "GameStateRecorder.DontRecord"
-                    },
-                    {
-                        "TagName": "Item.Meta"
-                    },
-                    {
-                        "TagName": "Item.Ammo.Sniper"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Ballistic"
-                    }
-                ],
-                "ParentTags": []
-            },
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "GreatHunts"
-                }
-            }
-        },
-        {
-            "Name": "Ammo_Sniper_Round_Explosive_Workshop_Bundle",
-            "Meshable": {
-                "RowName": "Mesh_Ammo_Box"
-            },
-            "Itemable": {
-                "RowName": "Item_Sniper_Round_Explosive_Workshop_Bundle"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Consumable": {
-                "RowName": "Workshop_Sniper_Explosive_Ammo_Bundle"
-            },
-            "Usable": {
-                "RowName": "Consume"
-            },
-            "Ballistic": {
-                "RowName": "Sniper_Round_Explosive"
-            },
-            "Decayable": {
-                "RowName": "Decay_General"
-            },
-            "AmmoType": {
-                "RowName": "Sniper_Round_Explosive"
-            },
-            "Audio": {
-                "RowName": "Default"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Meta.Consumable"
-                    },
-                    {
-                        "TagName": "Item.Meta.Package.Ammo.Sniper"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Meta.Consumable"
-                    },
-                    {
-                        "TagName": "Item.Meta.Package.Ammo.Sniper"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Consumable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    },
-                    {
-                        "TagName": "Traits.Ballistic"
-                    }
-                ],
-                "ParentTags": []
-            },
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "GreatHunts"
-                }
-            }
-        },
-        {
             "Name": "Ammo_Sniper_Round_Incendiary",
             "Meshable": {
                 "RowName": "Mesh_Ammo_Box"
@@ -239520,6 +239459,73 @@
                     },
                     {
                         "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "AnimalCarcass_Stomper_Juvenile",
+            "Meshable": {
+                "RowName": "Mesh_Carcass_Stomper_Juvenile"
+            },
+            "Itemable": {
+                "RowName": "Item_Carcass_Moa_Juvenile"
+            },
+            "Interactable": {
+                "RowName": "AnimalCorpse_NoCarry"
+            },
+            "Hitable": {
+                "RowName": "AnimalCarcass"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Durable": {
+                "RowName": "Carcass_Medium"
+            },
+            "Decayable": {
+                "RowName": "Decay_10_Minutes"
+            },
+            "Audio": {
+                "RowName": "Carcass"
+            },
+            "CraftingExperience": 400,
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Harvest.Knife.T1"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Harvest.Knife.T1"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Hitable"
                     },
                     {
                         "TagName": "Traits.Highlightable"
