@@ -5384,6 +5384,24 @@
             }
         },
         {
+            "Name": "T1_Forest_WS_Stockpile_Cave_Top",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.WSStockpile.Cave"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.WSStockpile.Cave )"
+            }
+        },
+        {
             "Name": "PRO_Story_Mo_Hideout2",
             "Query": {
                 "TagDictionary": [
@@ -15467,6 +15485,258 @@
                     0
                 ],
                 "AutoDescription": " ALL( Settlement.Origin.Geothermal )"
+            }
+        },
+        {
+            "Name": "T1_Forest_WS_Stockpile_Hut",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.WSStockpile.Hut"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.WSStockpile.Hut )"
+            }
+        },
+        {
+            "Name": "T1_Forest_WS_Stockpile_Hut_Torch",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.WSStockpile.Torch"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.WSStockpile.Torch )"
+            }
+        },
+        {
+            "Name": "T1_Forest_WS_Stockpile_Cave_Bottom",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.WSStockpile.CaveBottom"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.WSStockpile.CaveBottom )"
+            }
+        },
+        {
+            "Name": "T1_Forest_WS_Stockpile_Voxel_Iron",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.WSStockpile.IronVoxel"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.WSStockpile.IronVoxel )"
+            }
+        },
+        {
+            "Name": "T1_Forest_WS_Stockpile_Voxel_Iron_2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.WSStockpile.IronVoxel2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.WSStockpile.IronVoxel2 )"
+            }
+        },
+        {
+            "Name": "T1_Forest_WS_Stockpile_Voxel_Copper",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.WSStockpile.CopperVoxel"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.WSStockpile.CopperVoxel )"
+            }
+        },
+        {
+            "Name": "T1_Forest_WS_Stockpile_Voxel_Copper_2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.WSStockpile.CopperVoxel2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.WSStockpile.CopperVoxel2 )"
+            }
+        },
+        {
+            "Name": "T1_Forest_WS_Stockpile_Voxel_Bauxite",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.WSStockpile.BauxiteVoxel"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.WSStockpile.BauxiteVoxel )"
+            }
+        },
+        {
+            "Name": "T1_Forest_WS_Stockpile_Voxel_Gold",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.WSStockpile.GoldVoxel"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.WSStockpile.GoldVoxel )"
+            }
+        },
+        {
+            "Name": "T1_Forest_WS_Stockpile_Voxel_Platinum",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.WSStockpile.PlatinumVoxel"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.WSStockpile.PlatinumVoxel )"
+            }
+        },
+        {
+            "Name": "T1_Forest_WS_Stockpile_Voxel_Platinum_2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.WSStockpile.PlatinumVoxel2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.WSStockpile.PlatinumVoxel2 )"
+            }
+        },
+        {
+            "Name": "T1_Forest_WS_Stockpile_Voxel_Titanium",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.WSStockpile.TitaniumVoxel"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.WSStockpile.TitaniumVoxel )"
+            }
+        },
+        {
+            "Name": "T1_Forest_WS_Stockpile_Voxel_Titanium_2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.WSStockpile.TitaniumVoxel2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.WSStockpile.TitaniumVoxel2 )"
+            }
+        },
+        {
+            "Name": "T1_Forest_WS_Stockpile_Voxel_Exotic",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Forest.WSStockpile.ExoticVoxel"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Forest.WSStockpile.ExoticVoxel )"
             }
         }
     ]

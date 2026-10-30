@@ -2924,7 +2924,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Interior_Wood_Cupboard-DisplayName\", \"Interior Wood Cupboard\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Interior_Wood_Cupboard.ITEM_Interior_Wood_Cupboard",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Interior_Wood_Cupboard-Description\", \"A place to keep items, gear and the rest.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Interior_Wood_Cupboard-FlavorText\", \"Has 40 storage slots.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Interior_Wood_Cupboard-FlavorText\", \"Has 45 storage slots.\")",
             "Weight": 8000
         },
         {
@@ -5735,7 +5735,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Cupboard_Small-DisplayName\", \"Small Wood Cupboard\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Wood_Cupboard_Small.ITEM_Wood_Cupboard_Small",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Cupboard_Small-Description\", \"A modest wooden cupboard for storing small items.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Cupboard_Small-FlavorText\", \"Has 10 storage slots.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Wood_Cupboard_Small-FlavorText\", \"Has 24 storage slots.\")",
             "Weight": 2000
         },
         {
@@ -5743,7 +5743,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Interior_Wood_Cupboard_Small-DisplayName\", \"Small Interior Wood Cupboard\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Interior_Wood_Cupboard_Small.ITEM_Interior_Wood_Cupboard_Small",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Interior_Wood_Cupboard_Small-Description\", \"A small storage unit for items.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Interior_Wood_Cupboard_Small-FlavorText\", \"Has 10 storage slots.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Interior_Wood_Cupboard_Small-FlavorText\", \"Has 27 storage slots.\")",
             "Weight": 2000
         },
         {
@@ -5751,7 +5751,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Cupboard_Small-DisplayName\", \"Small Iron Cupboard\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Metal_Cupboard_Small.ITEM_Metal_Cupboard_Small",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Cupboard_Small-Description\", \"Strong protective storage for items.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Cupboard_Small-FlavorText\", \"Has 15 storage slots.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Cupboard_Small-FlavorText\", \"Has 30 storage slots.\")",
             "Weight": 3000
         },
         {
@@ -6590,9 +6590,18 @@
             "Name": "Item_Meta_Frag_Larkwell",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Frag_Larkwell-DisplayName\", \"Larkwell Martinez Frag Grenade\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/ITEM_Meta_Frag_Larkwell.ITEM_Meta_Frag_Larkwell",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Frag_Larkwell-Description\", \"A well-engineered explosive.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Frag_Larkwell-Description\", \"A well-engineered explosive which will detonate on impact.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Frag_Larkwell-FlavorText\", \"Larkwell Martinez is a prominent defence contractor to the ACS and its allies.\")",
-            "Weight": 500
+            "Weight": 500,
+            "MaxStack": 10
+        },
+        {
+            "Name": "Item_Meta_Frag_Larkwell_Set",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Frag_Larkwell_Set-DisplayName\", \"Larkwell Martinez Frag Grenade Bundle\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/ITEM_Meta_Frag_Larkwell.ITEM_Meta_Frag_Larkwell",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Frag_Larkwell_Set-Description\", \"A set of 10 well-engineered frag grenades which will detonate on impact. \\'CONSUME\\' to open bundle.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Frag_Larkwell_Set-FlavorText\", \"Larkwell Martinez is a prominent defence contractor to the ACS and its allies.\")",
+            "Weight": 5000
         },
         {
             "Name": "Item_Meta_Bow_Larkwell",
@@ -15525,6 +15534,9 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Turret_Pistol.T_ITEM_Turret_Pistol",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Pistol-Description\", \"A turret that uses pistol ammunition to defend its surroundings. Fires a steady shots at a medium range. Power consumption reduced when idle.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Pistol-FlavorText\", \"This design is marked as \\\"experimental\\\" by the Lagos Group - The UDA is not liable for any injuries caused by this unit.\")",
+            "FieldGuideKeywords": [
+                "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Pistol-FieldGuideKeywords-0\", \"turret\")"
+            ],
             "Weight": 20000
         },
         {
@@ -15533,6 +15545,9 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Turret_Rifle.T_ITEM_Turret_Rifle",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Rifle-Description\", \"A turret that uses rifle ammunition to defend its surroundings. Fires a short burst of rounds at medium range. Power consumption reduced when idle.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Rifle-FlavorText\", \"This design is marked as \\\"experimental\\\" by the Lagos Group - The UDA is not liable for any injuries caused by this unit.\")",
+            "FieldGuideKeywords": [
+                "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Rifle-FieldGuideKeywords-0\", \"turret\")"
+            ],
             "Weight": 25000
         },
         {
@@ -15541,6 +15556,9 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Turret_Rifle.T_ITEM_Turret_Rifle",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Rifle_Precision-Description\", \"A turret that uses rifle ammunition to defend its surroundings. Fires slowly, at long range. Power consumption reduced when idle.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Rifle_Precision-FlavorText\", \"This design is marked as \\\"experimental\\\" by the Lagos Group - The UDA is not liable for any injuries caused by this unit.\")",
+            "FieldGuideKeywords": [
+                "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Rifle_Precision-FieldGuideKeywords-0\", \"turret\")"
+            ],
             "Weight": 25000
         },
         {
@@ -15549,6 +15567,9 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Turret_Shotgun.T_ITEM_Turret_Shotgun",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Shotgun-Description\", \"A turret that uses shotgun ammunition to defend its surroundings. Fires rapidly at short range. Power consumption reduced when idle.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Shotgun-FlavorText\", \"This design is marked as \\\"experimental\\\" by the Lagos Group - The UDA is not liable for any injuries caused by this unit.\")",
+            "FieldGuideKeywords": [
+                "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Shotgun-FieldGuideKeywords-0\", \"turret\")"
+            ],
             "Weight": 25000
         },
         {
@@ -21456,6 +21477,9 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Turret_Pistol.T_ITEM_Turret_Pistol",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_Pistol-Description\", \"A turret that fires on anyone not registered to the system, fires pistol ammo.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_Pistol-FlavorText\", \"This design is marked as \\\"experimental\\\" by the Lagos Group - The UDA is not liable for any injuries caused by this unit.\")",
+            "FieldGuideKeywords": [
+                "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_Pistol-FieldGuideKeywords-0\", \"turret\")"
+            ],
             "Weight": 20000
         },
         {
@@ -24336,6 +24360,9 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Turret_Flamethrower.T_ITEM_Turret_Flamethrower",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Flamethrower-Description\", \"A modified turret which fires a steady stream of flame at nearby enemies.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Flamethrower-FlavorText\", \"Burn baby burn. \")",
+            "FieldGuideKeywords": [
+                "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Flamethrower-FieldGuideKeywords-0\", \"turret\")"
+            ],
             "Weight": 20000
         },
         {
@@ -26752,6 +26779,9 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Turret_Flamethrower.T_ITEM_Turret_Flamethrower",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_Flamethrower-Description\", \"A modified turret which fires a steady stream of flame at nearby enemies.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_Flamethrower-FlavorText\", \"This design is marked as \\\"experimental\\\" by the Lagos Group - The UDA is not liable for any injuries caused by this unit.\")",
+            "FieldGuideKeywords": [
+                "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_Flamethrower-FieldGuideKeywords-0\", \"turret\")"
+            ],
             "Weight": 20000
         },
         {
@@ -29070,11 +29100,6 @@
             "MaxStack": 5
         },
         {
-            "Name": "Item_Carcass_Jungle_Monkey",
-            "DisplayName": "INVTEXT(\"[DNT] Jungle Monkey Carcass\")",
-            "Weight": 15000
-        },
-        {
             "Name": "Item_Carcass_Tropical_Bird",
             "DisplayName": "INVTEXT(\"[DNT] Tropical Bird Carcass\")",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Tropical_Bird-Description\", \"A now flightless bird.\")",
@@ -29160,7 +29185,7 @@
             "Name": "Item_Meta_Biolab_Inhaler_RadBoss",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Biolab_Inhaler_RadBoss-DisplayName\", \"Radioactive Boost Inhaler\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Meta_Biolab_Inhaler_RadBoss.T_ITEM_Meta_Biolab_Inhaler_RadBoss",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Biolab_Inhaler_RadBoss-Description\", \"An inhaler that delivers a concerntraded dose of slow release radiation which slowly mutates cells providing buffs to melee, projectile and movement speed.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Biolab_Inhaler_RadBoss-Description\", \"An inhaler that delivers a concentrated dose of slow release radiation which slowly mutates cells providing buffs to melee, projectile and movement speed.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Biolab_Inhaler_RadBoss-FlavorText\", \"Worth the Risk?\")",
             "Weight": 100
         },

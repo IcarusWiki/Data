@@ -5208,13 +5208,13 @@
         {
             "Name": "GenericLanding6",
             "Audio": "/Game/FMOD/Events/Dialogue/VERSION_1_0/MISSION_3/VO_MISSION3_013.VO_MISSION3_013",
+            "Delay": 1.5,
             "Priority": 1,
             "Text": [
                 "NSLOCTEXT(\"D_Dialogue\", \"GenericLanding6-Text-0\", \"Last crew they sent down didn\\'t fare so well.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"GenericLanding6-Text-1\", \"But they didn\\'t have your track record.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"GenericLanding6-Text-2\", \"So check your hud for objectives, and get into it.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"GenericLanding6-Text-3\", \"Odds are on you, but this is still Icarus.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"GenericLanding6-Text-4\", \"If you know what I\\'m sayin\\'.\")"
+                "NSLOCTEXT(\"D_Dialogue\", \"GenericLanding6-Text-3\", \"Odds are on you, but this is still Icarus.\")"
             ]
         },
         {
@@ -5748,7 +5748,7 @@
             "Delay": 2,
             "Priority": 1,
             "Text": [
-                "NSLOCTEXT(\"D_Dialogue\", \"StyxIntroLanding-Text-0\", \"Allllllright, your survey equipment was loaded onto your dropship, make sure to grab it. \")",
+                "NSLOCTEXT(\"D_Dialogue\", \"StyxIntroLanding-Text-0\", \"Alright, your survey equipment was loaded onto your dropship, make sure to grab it. \")",
                 "NSLOCTEXT(\"D_Dialogue\", \"StyxIntroLanding-Text-1\", \"Consider\\'n you\\'re first on site they\\'ve tried to keep you away from the more risky areas. Allegedly.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"StyxIntroLanding-Text-2\", \"I\\'d still be cautious if I were you.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"StyxIntroLanding-Text-3\", \"Never know what\\'s lurking out there.\")"
@@ -6388,7 +6388,7 @@
             "Name": "StyxEExpeditionArriveEquipment",
             "Audio": "/Game/FMOD/Events/Dialogue/STYX/STYX_VO_VERTIGO_008.STYX_VO_VERTIGO_008",
             "Text": [
-                "NSLOCTEXT(\"D_Dialogue\", \"StyxEExpeditionArriveEquipment-Text-0\", \"Guess it\\'s not the only the scan sites. \")",
+                "NSLOCTEXT(\"D_Dialogue\", \"StyxEExpeditionArriveEquipment-Text-0\", \"Guess it\\'s not only the scan sites. \")",
                 "NSLOCTEXT(\"D_Dialogue\", \"StyxEExpeditionArriveEquipment-Text-1\", \"You\\'re going to have to build up there.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"StyxEExpeditionArriveEquipment-Text-2\", \"....That\\'s SOME aim.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"StyxEExpeditionArriveEquipment-Text-3\", \"You\\'d think they would do better, with all the tech they have.\")"
@@ -26976,6 +26976,48 @@
             "Text": [
                 "NSLOCTEXT(\"D_Dialogue\", \"NPC_FEMALE_GENERIC_HELPYOURSELF-Text-0\", \"Help yourself to the equipment. I\\'m done for the day!\")"
             ]
+        },
+        {
+            "Name": "GENERIC_SOL_WHATTHE",
+            "Audio": "/Game/FMOD/Events/Dialogue/DIALOGUE_WHERE_DID_THAT_COME_FROM.DIALOGUE_WHERE_DID_THAT_COME_FROM",
+            "Delay": 3.5,
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GENERIC_SOL_WHATTHE-Text-0\", \"What the? Where did that come from?\")"
+            ]
+        },
+        {
+            "Name": "GENERIC_THUNDER_REACT_SOL",
+            "Audio": "/Game/FMOD/Events/Dialogue/GENERIC/DIALOGUE_STORM_WARNING_SOL.DIALOGUE_STORM_WARNING_SOL",
+            "Delay": 4,
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GENERIC_THUNDER_REACT_SOL-Text-0\", \"[Distant Thunder Rumble]\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GENERIC_THUNDER_REACT_SOL-Text-1\", \"That nasty looking storm is heading right this way! Stay sharp!\")"
+            ],
+            "bUseSubtitleOverrides": true,
+            "SubtitleOverrides": [
+                {
+                    "OverrideLength": 5,
+                    "SpeakerOverride": {
+                        "RowName": "Unknown",
+                        "DataTableName": "D_DialogueSpeaker"
+                    }
+                },
+                {
+                    "OverrideLength": 0,
+                    "SpeakerOverride": {
+                        "RowName": "Sol",
+                        "DataTableName": "D_DialogueSpeaker"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Mission_Thunder_Cave",
+            "Audio": "/Game/FMOD/Events/Environment/Lightning/ENV_LIGHTNING_CAVE_MISSION.ENV_LIGHTNING_CAVE_MISSION",
+            "Delay": 4,
+            "Speaker": {
+                "RowName": "None"
+            }
         }
     ]
 }

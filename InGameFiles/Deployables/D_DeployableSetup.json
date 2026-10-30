@@ -591,7 +591,8 @@
             "SupportsCustomRotation": false,
             "SnapBehaviour": "WorldAndSnap",
             "SnapActorTags": [
-                "Building_Stairs"
+                "Building_Stairs",
+                "BuildableRamp"
             ],
             "SnapSocketsOrTags": [
                 "RailingSocket1",
@@ -658,7 +659,8 @@
             "SupportsCustomRotation": false,
             "SnapBehaviour": "WorldAndSnap",
             "SnapActorTags": [
-                "Building_Stairs"
+                "Building_Stairs",
+                "BuildableRamp"
             ],
             "SnapSocketsOrTags": [
                 "RailingSocket1",
@@ -1871,7 +1873,8 @@
             "SupportsCustomRotation": false,
             "SnapBehaviour": "WorldAndSnap",
             "SnapActorTags": [
-                "Building_Stairs"
+                "Building_Stairs",
+                "BuildableRamp"
             ],
             "SnapSocketsOrTags": [
                 "RailingSocket1",
@@ -1938,7 +1941,8 @@
             "SupportsCustomRotation": false,
             "SnapBehaviour": "WorldAndSnap",
             "SnapActorTags": [
-                "Building_Stairs"
+                "Building_Stairs",
+                "BuildableRamp"
             ],
             "SnapSocketsOrTags": [
                 "RailingSocket1",
@@ -2005,7 +2009,8 @@
             "SupportsCustomRotation": false,
             "SnapBehaviour": "WorldAndSnap",
             "SnapActorTags": [
-                "Building_Stairs"
+                "Building_Stairs",
+                "BuildableRamp"
             ],
             "SnapSocketsOrTags": [
                 "RailingSocket1",
@@ -2072,7 +2077,8 @@
             "SupportsCustomRotation": false,
             "SnapBehaviour": "WorldAndSnap",
             "SnapActorTags": [
-                "Building_Stairs"
+                "Building_Stairs",
+                "BuildableRamp"
             ],
             "SnapSocketsOrTags": [
                 "RailingSocket1",
@@ -3154,7 +3160,8 @@
             "SupportsCustomRotation": false,
             "SnapBehaviour": "WorldAndSnap",
             "SnapActorTags": [
-                "Building_Stairs"
+                "Building_Stairs",
+                "BuildableRamp"
             ],
             "SnapSocketsOrTags": [
                 "RailingSocket1",
@@ -10020,7 +10027,8 @@
             "SupportsCustomRotation": false,
             "SnapBehaviour": "WorldAndSnap",
             "SnapActorTags": [
-                "Building_Stairs"
+                "Building_Stairs",
+                "BuildableRamp"
             ],
             "SnapSocketsOrTags": [
                 "RailingSocket1",

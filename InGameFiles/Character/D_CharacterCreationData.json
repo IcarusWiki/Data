@@ -1240,7 +1240,7 @@
         },
         {
             "Name": "Hair_Female_1",
-            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Female_1-DisplayName\", \"Feminine Style 1\")",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Female_1-DisplayName\", \"Style 1\")",
             "Category": "HairV2",
             "BodyType": "Feminine",
             "Item": {
@@ -1681,6 +1681,397 @@
             "BodyType": "Neutral",
             "Item": {
                 "RowName": "Helmet_V2_1"
+            }
+        },
+        {
+            "Name": "Hair_Male_4",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Male_4-DisplayName\", \"Style 4\")",
+            "Category": "HairV2",
+            "Item": {
+                "RowName": "Hair_Male_4"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Male_Helmet_4"
+            }
+        },
+        {
+            "Name": "Hair_Male_5",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Male_5-DisplayName\", \"Style 5\")",
+            "Category": "HairV2",
+            "Item": {
+                "RowName": "Hair_Male_5"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Male_Helmet_5"
+            }
+        },
+        {
+            "Name": "Hair_Male_6",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Male_6-DisplayName\", \"Style 6\")",
+            "Category": "HairV2",
+            "Item": {
+                "RowName": "Hair_Male_6"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Male_Helmet_6"
+            }
+        },
+        {
+            "Name": "Hair_Male_7",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Male_7-DisplayName\", \"Style 7\")",
+            "Category": "HairV2",
+            "Item": {
+                "RowName": "Hair_Male_7"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Male_Helmet_7"
+            }
+        },
+        {
+            "Name": "Hair_Male_8",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Male_8-DisplayName\", \"Style 8\")",
+            "Category": "HairV2",
+            "Item": {
+                "RowName": "Hair_Male_8"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Male_Helmet_8"
+            }
+        },
+        {
+            "Name": "Hair_Male_9",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Male_9-DisplayName\", \"Style 9\")",
+            "Category": "HairV2",
+            "Item": {
+                "RowName": "Hair_Male_9"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Male_Helmet_9"
+            }
+        },
+        {
+            "Name": "Hair_Male_10",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Male_10-DisplayName\", \"Style 10\")",
+            "Category": "HairV2",
+            "Item": {
+                "RowName": "Hair_Male_10"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Male_Helmet_10"
+            }
+        },
+        {
+            "Name": "Hair_Male_11",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Male_11-DisplayName\", \"Style 11\")",
+            "Category": "HairV2",
+            "Item": {
+                "RowName": "Hair_Male_11"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Male_Helmet_11"
+            }
+        },
+        {
+            "Name": "Hair_Male_12",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Male_12-DisplayName\", \"Style 12\")",
+            "Category": "HairV2",
+            "Item": {
+                "RowName": "Hair_Male_12"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Male_Helmet_12"
+            }
+        },
+        {
+            "Name": "Hair_Female_4",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Female_4-DisplayName\", \"Style 4\")",
+            "Category": "HairV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Hair_Female_4"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Female_Helmet_4"
+            }
+        },
+        {
+            "Name": "Hair_Female_5",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Female_5-DisplayName\", \"Style 5\")",
+            "Category": "HairV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Hair_Female_5"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Female_Helmet_5"
+            }
+        },
+        {
+            "Name": "Hair_Female_6",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Female_6-DisplayName\", \"Style 6\")",
+            "Category": "HairV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Hair_Female_6"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Female_Helmet_6"
+            }
+        },
+        {
+            "Name": "Hair_Female_7",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Female_7-DisplayName\", \"Style 7\")",
+            "Category": "HairV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Hair_Female_7"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Female_Helmet_7"
+            }
+        },
+        {
+            "Name": "Hair_Female_8",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Female_8-DisplayName\", \"Style 8\")",
+            "Category": "HairV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Hair_Female_8"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Female_Helmet_8"
+            }
+        },
+        {
+            "Name": "Hair_Female_9",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Female_9-DisplayName\", \"Style 9\")",
+            "Category": "HairV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Hair_Female_9"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Female_Helmet_9"
+            }
+        },
+        {
+            "Name": "Hair_Female_10",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Female_10-DisplayName\", \"Style 10\")",
+            "Category": "HairV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Hair_Female_10"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Female_Helmet_10"
+            }
+        },
+        {
+            "Name": "Hair_Female_11",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Female_11-DisplayName\", \"Style 11\")",
+            "Category": "HairV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Hair_Female_11"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Female_Helmet_11"
+            }
+        },
+        {
+            "Name": "Hair_Female_12",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Female_12-DisplayName\", \"Style 12\")",
+            "Category": "HairV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Hair_Female_12"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Hair_Female_Helmet_12"
+            }
+        },
+        {
+            "Name": "Beard_Male_3",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Beard_Male_3-DisplayName\", \"Style 3\")",
+            "Category": "BeardV2",
+            "Item": {
+                "RowName": "Beard_Male_3"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Beard_Male_3"
+            }
+        },
+        {
+            "Name": "Beard_Male_4",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Beard_Male_4-DisplayName\", \"Style 4\")",
+            "Category": "BeardV2",
+            "Item": {
+                "RowName": "Beard_Male_4"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Beard_Male_4"
+            }
+        },
+        {
+            "Name": "Beard_Male_5",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Beard_Male_5-DisplayName\", \"Style 5\")",
+            "Category": "BeardV2",
+            "Item": {
+                "RowName": "Beard_Male_5"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Beard_Male_5"
+            }
+        },
+        {
+            "Name": "Beard_Male_6",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Beard_Male_6-DisplayName\", \"Style 6\")",
+            "Category": "BeardV2",
+            "Item": {
+                "RowName": "Beard_Male_6"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Beard_Male_6"
+            }
+        },
+        {
+            "Name": "Beard_Male_7",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Beard_Male_7-DisplayName\", \"Style 7\")",
+            "Category": "BeardV2",
+            "Item": {
+                "RowName": "Beard_Male_7"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Beard_Male_7"
+            }
+        },
+        {
+            "Name": "Beard_Male_8",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Beard_Male_8-DisplayName\", \"Style 8\")",
+            "Category": "BeardV2",
+            "Item": {
+                "RowName": "Beard_Male_8"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Beard_Male_8"
+            }
+        },
+        {
+            "Name": "Beard_Male_9",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Beard_Male_9-DisplayName\", \"Style 9\")",
+            "Category": "BeardV2",
+            "Item": {
+                "RowName": "Beard_Male_9"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Beard_Male_Helmet_2"
+            }
+        },
+        {
+            "Name": "Beard_Male_10",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Beard_Male_10-DisplayName\", \"Style 10\")",
+            "Category": "BeardV2",
+            "Item": {
+                "RowName": "Beard_Male_10"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Beard_Male_10"
+            }
+        },
+        {
+            "Name": "Beard_Female_3",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Beard_Female_3-DisplayName\", \"Style 3\")",
+            "Category": "BeardV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Beard_Female_3"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Beard_Female_3"
+            }
+        },
+        {
+            "Name": "Beard_Female_4",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Beard_Female_4-DisplayName\", \"Style 4\")",
+            "Category": "BeardV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Beard_Female_4"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Beard_Female_4"
+            }
+        },
+        {
+            "Name": "Beard_Female_5",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Beard_Female_5-DisplayName\", \"Style 5\")",
+            "Category": "BeardV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Beard_Female_5"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Beard_Female_5"
+            }
+        },
+        {
+            "Name": "Beard_Female_6",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Beard_Female_6-DisplayName\", \"Style 6\")",
+            "Category": "BeardV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Beard_Female_6"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Beard_Female_6"
+            }
+        },
+        {
+            "Name": "Beard_Female_7",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Beard_Female_7-DisplayName\", \"Style 7\")",
+            "Category": "BeardV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Beard_Female_7"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Beard_Female_7"
+            }
+        },
+        {
+            "Name": "Beard_Female_8",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Beard_Female_8-DisplayName\", \"Style 8\")",
+            "Category": "BeardV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Beard_Female_8"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Beard_Female_8"
+            }
+        },
+        {
+            "Name": "Beard_Female_9",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Beard_Female_9-DisplayName\", \"Style 9\")",
+            "Category": "BeardV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Beard_Female_9"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Beard_Female_Helmet_2"
+            }
+        },
+        {
+            "Name": "Beard_Female_10",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Beard_Female_10-DisplayName\", \"Style 10\")",
+            "Category": "BeardV2",
+            "BodyType": "Feminine",
+            "Item": {
+                "RowName": "Beard_Female_10"
+            },
+            "ItemHelmetVariant": {
+                "RowName": "Beard_Female_10"
             }
         }
     ]

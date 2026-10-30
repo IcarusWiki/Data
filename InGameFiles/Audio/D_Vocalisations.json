@@ -4578,6 +4578,111 @@
             "Setting": {
                 "RowName": "Default"
             }
+        },
+        {
+            "Name": "TurtleIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/GiantTurtle/SFX_CRE_VOCAL_GIANT_TURTLE_IDLE.SFX_CRE_VOCAL_GIANT_TURTLE_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "TurtleAttack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/GiantTurtle/SFX_CRE_VOCAL_GIANT_TURTLE_ATTACK.SFX_CRE_VOCAL_GIANT_TURTLE_ATTACK",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "TurtleRoar",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/GiantTurtle/SFX_CRE_VOCAL_GIANT_TURTLE_ROAR.SFX_CRE_VOCAL_GIANT_TURTLE_ROAR",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "TurtleAggro",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/GiantTurtle/SFX_CRE_VOCAL_GIANT_TURTLE_AGGRO_2.SFX_CRE_VOCAL_GIANT_TURTLE_AGGRO_2",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "TurtleDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/GiantTurtle/SFX_CRE_VOCAL_GIANT_TURTLE_DEATH.SFX_CRE_VOCAL_GIANT_TURTLE_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "BeetleIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Beetle/SFX_CRE_VOCAL_BEETLE.SFX_CRE_VOCAL_BEETLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "BeetleAggro",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Beetle/SFX_CRE_VOCAL_BEETLE_AGGRO.SFX_CRE_VOCAL_BEETLE_AGGRO",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "BeetleAttack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Beetle/SFX_CRE_VOCAL_BEETLE_ATTACK.SFX_CRE_VOCAL_BEETLE_ATTACK",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "BeetleDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Beetle/SFX_CRE_VOCAL_BEETLE_DEATH.SFX_CRE_VOCAL_BEETLE_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "JungleHunterAttack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/JungleHunter/SFX_CRE_VOCAL_JUNGLEHUNTER_ATTACK.SFX_CRE_VOCAL_JUNGLEHUNTER_ATTACK",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "JungleHunterRoar",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/JungleHunter/SFX_CRE_VOCAL_JUNGLEHUNTER_ROAR.SFX_CRE_VOCAL_JUNGLEHUNTER_ROAR",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "AxoAttack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Komodo/SFX_CRE_VOCAL_AXO_ATTACK.SFX_CRE_VOCAL_AXO_ATTACK",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "AxoDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Komodo/SFX_CRE_VOCAL_AXO_DEATH.SFX_CRE_VOCAL_AXO_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "AxoIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Komodo/SFX_CRE_VOCAL_AXO_IDLE.SFX_CRE_VOCAL_AXO_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "AxoSpot",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Komodo/SFX_CRE_VOCAL_AXO_SPOT.SFX_CRE_VOCAL_AXO_SPOT",
+            "Setting": {
+                "RowName": "Default"
+            }
         }
     ]
 }

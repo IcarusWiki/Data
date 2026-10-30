@@ -545,7 +545,7 @@
         },
         {
             "Name": "Laser_Weakness",
-            "TraitName": "NSLOCTEXT(\"D_BestiaryTraits\", \"Laser_Weakness-TraitName\", \"Weak Laser Damage\")",
+            "TraitName": "NSLOCTEXT(\"D_BestiaryTraits\", \"Laser_Weakness-TraitName\", \"Weak to Laser Damage\")",
             "Type": {
                 "RowName": "Weakness"
             },

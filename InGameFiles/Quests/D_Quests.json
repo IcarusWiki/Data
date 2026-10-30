@@ -487,8 +487,8 @@
         {
             "Name": "BW6_Recovery_Recombine",
             "Class": "/Game/BP/Quests/Implementations/Bw6_Recovery/BP_BW6_Recovery_Recombine.BP_BW6_Recovery_Recombine_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"BW6_Recovery_Recombine-Description\", \"Assemble Prototype Components (Crafting Menu)\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"BW6_Recovery_Recombine-InfoText\", \"Look for the \\\"Larkwell Martinez Device\\\" in your crafting menu\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"BW6_Recovery_Recombine-Description\", \"Assemble Prototype Components ([Crafting])\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"BW6_Recovery_Recombine-InfoText\", \"Look for the \\\"Larkwell Martinez Device\\\" in the Crafting Menu ([Crafting])\")",
             "DialogueEvents": {
                 "QuestStart": {
                     "RowName": "FM2RecoveryCraftItem1",
@@ -921,7 +921,7 @@
         {
             "Name": "Oly_Forest_Stockpile_Travel_A",
             "Class": "/Game/BP/Quests/Olympus/Forest/Stockpile/BPQ_Oly_ForesT_Stockpile_Travel_A.BPQ_Oly_ForesT_Stockpile_Travel_A_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Stockpile_Travel_A-Description\", \"Travel to map Location Alpha ([Map])\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Stockpile_Travel_A-Description\", \"Travel to Map Location Alpha ([Map])\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_Stockpile_Ship1"
             }
@@ -930,7 +930,7 @@
             "Name": "Oly_Forest_Stockpile_Travel_B",
             "Class": "/Game/BP/Quests/Olympus/Forest/Stockpile/BPQ_Oly_ForesT_Stockpile_Travel_B.BPQ_Oly_ForesT_Stockpile_Travel_B_C",
             "Variation": 1,
-            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Stockpile_Travel_B-Description\", \"Travel to map Location Beta ([Map])\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_Stockpile_Travel_B-Description\", \"Travel to Map Location Beta ([Map])\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_Stockpile_Ship2"
             }
@@ -1138,7 +1138,8 @@
         {
             "Name": "OLY_Glacier_Expedition_Recombine",
             "Class": "/Game/BP/Quests/Olympus/Glacier/Expedition/BPQ_Glacier_OLY_Expedition_Recombine.BPQ_Glacier_OLY_Expedition_Recombine_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Glacier_Expedition_Recombine-Description\", \"Assemble the device (Crafting Menu)\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Glacier_Expedition_Recombine-Description\", \"Assemble the Device ([Crafting])\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Glacier_Expedition_Recombine-InfoText\", \"Find the \\'Acoustic Cavitation Cannon\\' in the Crafting Menu ([Crafting])\")",
             "DialogueEvents": {
                 "QuestStart": {
                     "RowName": "Expedition2aDeviceExplanation",
@@ -2746,7 +2747,7 @@
         {
             "Name": "OLY_Arctic_Recovery_Combine",
             "Class": "/Game/BP/Quests/Olympus/Arctic/Recovery/BPQ_OLY_Arctic_Recovery_Reassemble.BPQ_OLY_Arctic_Recovery_Reassemble_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Arctic_Recovery_Combine-Description\", \"Assemble the device (Crafting Menu)\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Arctic_Recovery_Combine-Description\", \"Assemble the Device (Crafting Menu) ([Crafting])\")",
             "DialogueEvents": {
                 "QuestStart": {
                     "RowName": "RecoveryCraftItem4b",
@@ -3286,7 +3287,7 @@
         {
             "Name": "OLY_Desert_Construction_Machining_Bench",
             "Class": "/Game/BP/Quests/Olympus/Desert/Construction/BPQ_OLY_Desert_Construction_Machining_Bench.BPQ_OLY_Desert_Construction_Machining_Bench_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Machining_Bench-Description\", \"Construct Fabricator\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Construction_Machining_Bench-Description\", \"Construct a Fabricator\")"
         },
         {
             "Name": "OLY_Desert_Exploration_0",
@@ -3410,7 +3411,7 @@
         {
             "Name": "Common_Travel",
             "Class": "/Game/BP/Quests/Common/BPQ_Travel.BPQ_Travel_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"Common_Travel-Description\", \"Travel to the map Location ([Map])\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Common_Travel-Description\", \"Travel to the Map Location ([Map])\")",
             "bPreloadQuestClass": true
         },
         {
@@ -5413,7 +5414,7 @@
         {
             "Name": "STYX_E_Expedition_Scan_Travel",
             "Class": "/Game/BP/Quests/Styx/E/Expedition/BPQ_STYX_E_Expedition_Scan_Travel.BPQ_STYX_E_Expedition_Scan_Travel_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_E_Expedition_Scan_Travel-Description\", \"Travel to the map Location ([Map])\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_E_Expedition_Scan_Travel-Description\", \"Travel to the Map Location ([Map])\")"
         },
         {
             "Name": "STYX_E_Expedition_Scan_1",
@@ -5797,7 +5798,7 @@
         {
             "Name": "Common_Travel_Large",
             "Class": "/Game/BP/Quests/Common/BPQ_Travel_Large.BPQ_Travel_Large_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"Common_Travel_Large-Description\", \"Travel to the map Location ([Map])\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Common_Travel_Large-Description\", \"Travel to the Map Location ([Map])\")"
         },
         {
             "Name": "STYX_A_Extermination",
@@ -6546,9 +6547,15 @@
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_List_0-Description\", \"Collect ores from inside nearby caves\")"
         },
         {
+            "Name": "OLY_Forest_WS_Stockpile_List_1",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_List.BPQ_OLY_Forest_WS_Stockpile_List_C",
+            "Variation": 2,
+            "Description": "INVTEXT(\"[DNT] Smelt Ores and Stock the Pod\")"
+        },
+        {
             "Name": "OLY_Forest_WS_Stockpile_Ship",
             "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_Ship.BPQ_OLY_Forest_WS_Stockpile_Ship_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Ship-Description\", \"Stock pod as requested by Workshop Team\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Ship-Description\", \"Stock the Pod as Requested by the Workshop Team\")"
         },
         {
             "Name": "OLY_Forest_WS_Stockpile_Support",
@@ -6599,11 +6606,90 @@
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Stone-Description\", \"<Number>({0} / {1})</> Stone\")"
         },
         {
+            "Name": "OLY_Forest_WS_Stockpile_Iron_Ingot",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_Deposit_Iron_Ingot.BPQ_OLY_Forest_WS_Stockpile_Deposit_Iron_Ingot_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Iron_Ingot-Description\", \"<Number>({0} / {1})</> Iron Ingot\")",
+            "InfoText": "INVTEXT(\"[DNT] Smelt Ingots by Placing the Ore and Fuel in the Stone Furnace\")"
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_Copper_Ingot",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_Deposit_Copper_Ingot.BPQ_OLY_Forest_WS_Stockpile_Deposit_Copper_Ingot_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Copper_Ingot-Description\", \"<Number>({0} / {1})</> Copper Ingot\")"
+        },
+        {
             "Name": "OLY_Forest_WS_Stockpile_Cave",
             "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Cave.BPQ_OLY_Forest_WS_Cave_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Cave-Description\", \"Find the blocked entrance of the cave on the right of this gully.\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_WS_Stockpile_Cave"
+            }
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_Cave_Umbrella",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Cave_Umbrella.BPQ_OLY_Forest_WS_Cave_Umbrella_C",
+            "Description": "INVTEXT(\"[DNT] Explore the Nearby Caves\")",
+            "InfoText": "INVTEXT(\"[DNT] Use Ramps or Ladders for Hard to Reach Ores\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Cave"
+            }
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_Cave_Bottom",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_Travel_Cave_Bottom.BPQ_OLY_Forest_WS_Stockpile_Travel_Cave_Bottom_C",
+            "Description": "INVTEXT(\"[DNT] Explore the Depths of the Cave\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Cave_Bottom"
+            },
+            "DialogueEvents": {
+                "QuestEnd": {
+                    "RowName": "Mission_Thunder_Cave",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_Find_Hut",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_Find_Hut_New.BPQ_OLY_Forest_WS_Stockpile_Find_Hut_New_C",
+            "Description": "INVTEXT(\"[DNT] Find the Nearby Mining Hut\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Hut"
+            },
+            "DialogueEvents": {
+                "QuestEnd": {
+                    "RowName": "FillerRemarkSuspicion3",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_Return_Hut",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_TravelToHut.BPQ_OLY_Forest_WS_Stockpile_TravelToHut_C",
+            "Description": "INVTEXT(\"[DNT] Return to the Hut to Smelt Ore\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Cave_Top"
+            }
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_Save_Hut",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_Save_Hut.BPQ_OLY_Forest_WS_Stockpile_Save_Hut_C",
+            "Description": "INVTEXT(\"[DNT] Save the Hut <Number>({0}%)\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Hut"
+            }
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_Repair_Hut",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_Repair_Hut.BPQ_OLY_Forest_WS_Stockpile_Repair_Hut_C",
+            "Description": "INVTEXT(\"[DNT] Put out the Fire and Repair the Hut <Number>({0}%)</>\")",
+            "InfoText": "INVTEXT(\"[DNT] Use the Waterbombs and Firewhacker Before the Fire Spreads\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Hut"
+            },
+            "DialogueEvents": {
+                "QuestStart": {
+                    "RowName": "GENERIC_SOL_WHATTHE",
+                    "DataTableName": "D_Dialogue"
+                }
             }
         },
         {
@@ -7799,12 +7885,12 @@
         {
             "Name": "STYX_C_Extermination2_KitchenBench",
             "Class": "/Game/BP/Quests/Styx/C/Extermination2/BPQ_STYX_C_Extermination2_KitchenBench.BPQ_STYX_C_Extermination2_KitchenBench_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_C_Extermination2_KitchenBench-Description\", \"Kitchen Bench <Number>({0} / {1})</>\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_C_Extermination2_KitchenBench-Description\", \"Medicine Bench <Number>({0} / {1})</>\")"
         },
         {
             "Name": "STYX_C_Extermination2_Antiparasitic",
             "Class": "/Game/BP/Quests/Styx/C/Extermination2/BPQ_STYX_C_Extermination2_Antiparasitic.BPQ_STYX_C_Extermination2_Antiparasitic_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_C_Extermination2_Antiparasitic-Description\", \"Use Anti-Parasitic Pills.\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_C_Extermination2_Antiparasitic-Description\", \"Use Anti-Parasitic Pills\")"
         },
         {
             "Name": "STYX_C_Extermination2_Bloodthinning",
@@ -9312,7 +9398,7 @@
         {
             "Name": "STYX_A_Research_Nest_Setup_Craft",
             "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Nest_Setup_Craft.BPQ_Styx_A_Research_Nest_Setup_Craft_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Nest_Setup_Craft-Description\", \"Craft the Kiwi Nests in your crafting menu {0}/{1}\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Nest_Setup_Craft-Description\", \"Craft the Kiwi Nests in your Crafting Menu ([Crafting]) {0}/{1}\")"
         },
         {
             "Name": "STYX_A_Research_Nest_Setup_Place",
@@ -11860,7 +11946,7 @@
             "Name": "PRO_D_Recovery_Prepare_Craft",
             "Class": "/Game/BP/Quests/Prometheus/D/Recovery/BPQ_PRO_D_Recovery_Prepare_Craft.BPQ_PRO_D_Recovery_Prepare_Craft_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_D_Recovery_Prepare_Craft-Description\", \"Unlock, Craft and pick up a HEAL Device\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"PRO_D_Recovery_Prepare_Craft-InfoText\", \"The HEAL Device is Unlocked on the T3 Tech Tree and Crafted at the Fabricator\")"
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"PRO_D_Recovery_Prepare_Craft-InfoText\", \"The HEAL Device is Unlocked on the T3 Tech Tree and Crafted at the Machining Bench\")"
         },
         {
             "Name": "PRO_D_Recovery_Prepare_Optional",
@@ -12108,7 +12194,7 @@
         {
             "Name": "Common_Travel_Medium",
             "Class": "/Game/BP/Quests/Common/BPQ_Travel_Medium.BPQ_Travel_Medium_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"Common_Travel_Medium-Description\", \"Travel to the map Location ([Map])\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Common_Travel_Medium-Description\", \"Travel to the Map Location ([Map])\")"
         },
         {
             "Name": "PRO_Nullsector_Story",
@@ -18757,7 +18843,7 @@
             "Class": "/Game/BP/Quests/GreatHunts/Ice_Mammoth/GH_IM_O1/BPQ_GH_IM_O1_Craft_Heal.BPQ_GH_IM_O1_Craft_Heal_C",
             "Variation": 1,
             "Description": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_4_Prepare_Heal-Description\", \"Acquire a HEAL Device\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_4_Prepare_Heal-InfoText\", \"The HEAL Device is Unlocked on the T3 Tech Tree and Crafted at the Fabricator\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"ELY_Story_4_Prepare_Heal-InfoText\", \"The HEAL Device is Unlocked on the T3 Tech Tree and Crafted at the Machining Bench\")",
             "DialogueEvents": {
                 "QuestEnd": {
                     "RowName": "Ely_MissionFour_2",
@@ -20783,7 +20869,7 @@
             "Name": "OLY_SQ_Fisher_Establish_Tools_Heal",
             "Class": "/Game/BP/Quests/GreatHunts/Ice_Mammoth/GH_IM_O1/BPQ_GH_IM_O1_Craft_Heal.BPQ_GH_IM_O1_Craft_Heal_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_SQ_Fisher_Establish_Tools_Heal-Description\", \"Acquire a HEAL Device\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_SQ_Fisher_Establish_Tools_Heal-InfoText\", \"The HEAL Device is Unlocked on the T3 Tech Tree and Crafted at the Fabricator\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_SQ_Fisher_Establish_Tools_Heal-InfoText\", \"The HEAL Device is Unlocked on the T3 Tech Tree and Crafted at the Machining Bench\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -22712,6 +22798,105 @@
                     "DataTableName": "D_Dialogue"
                 }
             }
+        },
+        {
+            "Name": "Oly_Forest_WS_Stockpile_Collect_Items",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_Oly_Forest_WS_Stockpile_Collect.BPQ_Oly_Forest_WS_Stockpile_Collect_C",
+            "Description": "INVTEXT(\"[DNT] Collect Items Left Behind in the Hut\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Hut"
+            }
+        },
+        {
+            "Name": "Oly_Forest_WS_Stockpile_Collect_Firewhacker",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_Oly_Forest_WS_Stockpile_Collect_Firewhacker.BPQ_Oly_Forest_WS_Stockpile_Collect_Firewhacker_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Collect_Firewhacker-Description\", \"<Number>({0} / {1})</> Firewhacker\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Hut"
+            }
+        },
+        {
+            "Name": "Oly_Forest_WS_Stockpile_Collect_Hammer",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_Oly_Forest_WS_Stockpile_Collect_Hammer.BPQ_Oly_Forest_WS_Stockpile_Collect_Hammer_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Collect_Hammer-Description\", \"<Number>({0} / {1})</> Repair Hammer\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Hut"
+            }
+        },
+        {
+            "Name": "Oly_Forest_WS_Stockpile_Collect_Pickaxes",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_Oly_Forest_WS_Stockpile_Collect_Pickaxes.BPQ_Oly_Forest_WS_Stockpile_Collect_Pickaxes_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Collect_Pickaxes-Description\", \"<Number>({0} / {1})</> Pickaxe\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Hut"
+            }
+        },
+        {
+            "Name": "Oly_Forest_WS_Stockpile_Collect_OptionalItems",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_Oly_Forest_WS_Stockpile_Collect_OptionalItems.BPQ_Oly_Forest_WS_Stockpile_Collect_OptionalItems_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Collect_OptionalItems-Description\", \"(Optional) Collect Other Items in the Hut\")",
+            "InfoText": "INVTEXT(\"[DNT] Vaccines and Certain Foods can Prevent Ailments in the Cave\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Hut"
+            }
+        },
+        {
+            "Name": "Oly_Forest_WS_Stockpile_Craft_Pickaxe",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_Oly_Forest_WS_Stockpile_Craft_Pickaxe.BPQ_Oly_Forest_WS_Stockpile_Craft_Pickaxe_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Craft_Pickaxe-Description\", \"Craft a Pickaxe\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Hut"
+            }
+        },
+        {
+            "Name": "Oly_Forest_WS_Stockpile_Craft_Torch",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_Oly_Forest_WS_Stockpile_Craft_Torch.BPQ_Oly_Forest_WS_Stockpile_Craft_Torch_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Craft_Torch-Description\", \"Craft a Wood Rag Torch\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Hut"
+            }
+        },
+        {
+            "Name": "Oly_Forest_WS_Stockpile_Craft_Weapon",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_Oly_Forest_WS_Stockpile_Craft_Weapon.BPQ_Oly_Forest_WS_Stockpile_Craft_Weapon_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Craft_Weapon-Description\", \"(Optional) Craft Any Weapon\")",
+            "InfoText": "INVTEXT(\"[DNT] Spears are Particularly Useful in Caves\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Hut"
+            }
+        },
+        {
+            "Name": "Oly_Forest_WS_Stockpile_Craft",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_Oly_Forest_WS_Stockpile_Craft.BPQ_Oly_Forest_WS_Stockpile_Craft_C",
+            "Description": "INVTEXT(\"[DNT] Prepare Spelunking Equipment\")",
+            "InfoText": "INVTEXT(\"[DNT] Unlock Blueprints ([Tech]) if Needed and Craft in the Crafting Menu ([Crafting]) \")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Hut"
+            }
+        },
+        {
+            "Name": "Oly_Forest_WS_Stockpile_Collect_Surface_Ore",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_Oly_Forest_WS_Stockpile_Collect_Surface_Ore.BPQ_Oly_Forest_WS_Stockpile_Collect_Surface_Ore_C",
+            "Description": "INVTEXT(\"[DNT] Collect Ores from the Surface\")",
+            "InfoText": "INVTEXT(\"[DNT] Ores are Best Found Near Mountainsides and in Canyons \")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_Stockpile_Ship1"
+            }
+        },
+        {
+            "Name": "Oly_Forest_WS_Stockpile_Collect_Stone",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_Collect_Stone.BPQ_OLY_Forest_WS_Stockpile_Collect_Stone_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Collect_Stone-Description\", \"Collect Stone <Number>({0} / {1})</>\")"
+        },
+        {
+            "Name": "Oly_Forest_WS_Stockpile_Collect_Silica",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_Collect_Silica.BPQ_OLY_Forest_WS_Stockpile_Collect_Silica_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Collect_Silica-Description\", \"Collect Silica <Number>({0} / {1})</>\")"
+        },
+        {
+            "Name": "Oly_Forest_WS_Stockpile_Collect_Sulfur",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_Collect_Sulfur.BPQ_OLY_Forest_WS_Stockpile_Collect_Sulfur_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Collect_Sulfur-Description\", \"Collect Sulfur <Number>({0} / {1})</>\")"
         }
     ]
 }

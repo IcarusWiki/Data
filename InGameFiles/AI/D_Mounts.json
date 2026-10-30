@@ -3711,7 +3711,7 @@
                     "Weighting": 2000
                 },
                 {
-                    "bCanBeSelected": true,
+                    "bCanBeSelected": false,
                     "bCanBeSelectedByForcedEvolution": false,
                     "MeshMaterials": {
                         "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarA.M_CRE_Mammoth_Arctic_VarA"
@@ -3728,7 +3728,7 @@
                     "Weighting": 50
                 },
                 {
-                    "bCanBeSelected": true,
+                    "bCanBeSelected": false,
                     "bCanBeSelectedByForcedEvolution": false,
                     "MeshMaterials": {
                         "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarB.M_CRE_Mammoth_Arctic_VarB"
@@ -3745,7 +3745,7 @@
                     "Weighting": 50
                 },
                 {
-                    "bCanBeSelected": true,
+                    "bCanBeSelected": false,
                     "bCanBeSelectedByForcedEvolution": false,
                     "MeshMaterials": {
                         "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarC.M_CRE_Mammoth_Arctic_VarC"
@@ -3762,7 +3762,7 @@
                     "Weighting": 50
                 },
                 {
-                    "bCanBeSelected": true,
+                    "bCanBeSelected": false,
                     "bCanBeSelectedByForcedEvolution": false,
                     "MeshMaterials": {
                         "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarD.M_CRE_Mammoth_Arctic_VarD"
@@ -3779,7 +3779,7 @@
                     "Weighting": 50
                 },
                 {
-                    "bCanBeSelected": true,
+                    "bCanBeSelected": false,
                     "bCanBeSelectedByForcedEvolution": false,
                     "MeshMaterials": {
                         "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarE.M_CRE_Mammoth_Arctic_VarE"
@@ -3796,7 +3796,7 @@
                     "Weighting": 50
                 },
                 {
-                    "bCanBeSelected": true,
+                    "bCanBeSelected": false,
                     "bCanBeSelectedByForcedEvolution": false,
                     "MeshMaterials": {
                         "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_VarF.M_CRE_Mammoth_Arctic_VarF"
@@ -3813,7 +3813,7 @@
                     "Weighting": 50
                 },
                 {
-                    "bCanBeSelected": true,
+                    "bCanBeSelected": false,
                     "bCanBeSelectedByForcedEvolution": false,
                     "MeshMaterials": {
                         "0": "/Game/ASS/CRE/Mammoth/M_CRE_Mammoth_Arctic_LegendaryA.M_CRE_Mammoth_Arctic_LegendaryA"

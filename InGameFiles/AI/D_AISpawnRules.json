@@ -167,6 +167,13 @@
             "FilterParams": {
                 "Population": 2
             }
+        },
+        {
+            "Name": "Storca_Jungle_Population",
+            "SpawnFilter": "/Game/BP/AI/SpawnFilters/BP_SpawnFilter_PopulationCheck_Storca_Jungle.BP_SpawnFilter_PopulationCheck_Storca_Jungle_C",
+            "FilterParams": {
+                "Population": 2
+            }
         }
     ]
 }

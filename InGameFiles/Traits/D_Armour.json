@@ -22,6 +22,10 @@
             "RowName": "None",
             "DataTableName": "D_Armour"
         },
+        "ReworkedVariantHelmOff": {
+            "RowName": "None",
+            "DataTableName": "D_Armour"
+        },
         "bOverrideDefaultMaterials": false,
         "ArmourMeshMaterialOverrides": {},
         "FemaleArmourMeshMaterialOverrides": {},
@@ -302,7 +306,10 @@
             "FemaleMeshVariant": "/Game/ASS/CHA/Suits/SK_CHA_FEM_Envirosuit_Shengong_Helmet.SK_CHA_FEM_Envirosuit_Shengong_Helmet",
             "AnimBlueprintClass": "/Game/ASS/CHA/Human/3RD/SK_CHA_3RD_MAL_01_CopyPose_AnimBP.SK_CHA_3RD_MAL_01_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/Human/3RD/SK_CHA_3RD_MAL_01_CopyPose_AnimBP.SK_CHA_3RD_MAL_01_CopyPose_AnimBP_C",
-            "ArmourType": "Undersuit_Helmet"
+            "ArmourType": "Undersuit_Helmet",
+            "ReworkedVariant": {
+                "RowName": "Undersuit_Shengong_Helmet_V2"
+            }
         },
         {
             "Name": "Cloth_Head",
@@ -319,6 +326,12 @@
             "ArmourType": "Head",
             "ArmourSet": {
                 "RowName": "Cloth"
+            },
+            "ReworkedVariant": {
+                "RowName": "Cloth_Head_V2"
+            },
+            "ReworkedVariantHelmOff": {
+                "RowName": "Cloth_Head_V2_HelmOff"
             }
         },
         {
@@ -758,6 +771,9 @@
             "ArmourType": "Undersuit_Helmet",
             "ArmourSet": {
                 "RowName": "Composite"
+            },
+            "ReworkedVariant": {
+                "RowName": "Composite_Head_V2"
             }
         },
         {
@@ -1696,7 +1712,10 @@
             "FemaleMeshVariant": "/Game/ASS/CHA/SK_CHA_FEM_Envirosuit_Inaris_Helmet.SK_CHA_FEM_Envirosuit_Inaris_Helmet",
             "AnimBlueprintClass": "/Game/ASS/CHA/Human/3RD/SK_CHA_3RD_MAL_01_CopyPose_AnimBP.SK_CHA_3RD_MAL_01_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/Human/3RD/SK_CHA_3RD_MAL_01_CopyPose_AnimBP.SK_CHA_3RD_MAL_01_CopyPose_AnimBP_C",
-            "ArmourType": "Undersuit_Helmet"
+            "ArmourType": "Undersuit_Helmet",
+            "ReworkedVariant": {
+                "RowName": "Inaris_Envirosuit_Helmet_V2"
+            }
         },
         {
             "Name": "Larkwell_Backpack_Alpha",
@@ -2014,7 +2033,10 @@
                     "RowName": "Undersuit_Larkwell_HelmetAntenna",
                     "DataTableName": "D_Armour"
                 }
-            ]
+            ],
+            "ReworkedVariant": {
+                "RowName": "Undersuit_Larkwell_Helmet_V2"
+            }
         },
         {
             "Name": "Undersuit_Sand_Helmet",
@@ -2354,6 +2376,9 @@
             "ArmourType": "Head",
             "ArmourSet": {
                 "RowName": "Larkwell_Alpha"
+            },
+            "ReworkedVariant": {
+                "RowName": "Larkwell_Armor_Alpha_Head_V2"
             }
         },
         {
@@ -3262,6 +3287,9 @@
             "ArmourType": "Undersuit_Helmet",
             "ArmourSet": {
                 "RowName": "ArcticArmor"
+            },
+            "ReworkedVariant": {
+                "RowName": "ArcticArmor_Head_V2"
             }
         },
         {
@@ -3707,6 +3735,9 @@
             "ArmourType": "Undersuit_Helmet",
             "ArmourSet": {
                 "RowName": "Synthetic_Armor"
+            },
+            "ReworkedVariant": {
+                "RowName": "Synthetic_Armor_Head_V2"
             }
         },
         {
@@ -4015,7 +4046,10 @@
                     "RowName": "Envirosuit_Radboss_Helmet",
                     "DataTableName": "D_Armour"
                 }
-            ]
+            ],
+            "ReworkedVariant": {
+                "RowName": "Envirosuit_Radboss_Helmet_V2"
+            }
         },
         {
             "Name": "Envirosuit_Radboss_Helmet",
@@ -4023,7 +4057,10 @@
             "FemaleMeshVariant": "/Game/ASS/CHA/Suits/SK_CHA_MAL_ARM_Envirosuit_Radboss_helmet.SK_CHA_MAL_ARM_Envirosuit_Radboss_helmet",
             "AnimBlueprintClass": "/Game/ASS/CHA/Human/3RD/SK_CHA_3RD_MAL_01_CopyPose_AnimBP.SK_CHA_3RD_MAL_01_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/Human/3RD/SK_CHA_3RD_MAL_01_CopyPose_AnimBP.SK_CHA_3RD_MAL_01_CopyPose_AnimBP_C",
-            "ArmourType": "Undersuit_Helmet"
+            "ArmourType": "Undersuit_Helmet",
+            "ReworkedVariant": {
+                "RowName": "Envirosuit_Radboss_Helmet_V2"
+            }
         },
         {
             "Name": "Envirosuit_Radboss_Accessory",
@@ -4315,8 +4352,8 @@
             "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/SK_CHA_Head_01.SK_CHA_Head_01",
             "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/SK_CHA_Head_01.SK_CHA_Head_01",
             "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/SK_CHA_Head_01.SK_CHA_Head_01",
-            "AnimBlueprintClass": "/Game/ASS/CHA/Head/New_Heads/ABP_CHA_Head_01_InWorld.ABP_CHA_Head_01_InWorld_C",
-            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/Head/New_Heads/ABP_CHA_Head_01_InWorld.ABP_CHA_Head_01_InWorld_C",
+            "AnimBlueprintClass": "/Game/ASS/CHA/Head/New_Heads/ABP_CHA_Head_01.ABP_CHA_Head_01_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/Head/New_Heads/ABP_CHA_Head_01.ABP_CHA_Head_01_C",
             "ArmourType": "Skin_Head"
         },
         {
@@ -4324,8 +4361,8 @@
             "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/SK_CHA_Head_02.SK_CHA_Head_02",
             "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/SK_CHA_Head_02.SK_CHA_Head_02",
             "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/SK_CHA_Head_02.SK_CHA_Head_02",
-            "AnimBlueprintClass": "/Game/ASS/CHA/Head/New_Heads/ABP_CHA_Head_01_InWorld.ABP_CHA_Head_01_InWorld_C",
-            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/Head/New_Heads/ABP_CHA_Head_01_InWorld.ABP_CHA_Head_01_InWorld_C",
+            "AnimBlueprintClass": "/Game/ASS/CHA/Head/New_Heads/ABP_CHA_Head_01.ABP_CHA_Head_01_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/Head/New_Heads/ABP_CHA_Head_01.ABP_CHA_Head_01_C",
             "ArmourType": "Skin_Head"
         },
         {
@@ -4456,9 +4493,557 @@
             "Name": "IO_Undersuit_Helmet_V2",
             "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_3RD_MAL_Helmet_01_V2B.SK_CHA_3RD_MAL_Helmet_01_V2B",
             "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_3RD_MAL_Helmet_01_V2B.SK_CHA_3RD_MAL_Helmet_01_V2B",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Undersuit_Helmet"
+        },
+        {
+            "Name": "Hair_Male_4",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_01_Head_01.SK_CHA_Hair_01_Head_01",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_01_Head_01.SK_CHA_Hair_01_Head_01",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_01_Head_01.SK_CHA_Hair_01_Head_01",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Male_5",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_03_Head_01.SK_CHA_Hair_03_Head_01",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_03_Head_01.SK_CHA_Hair_03_Head_01",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_03_Head_01.SK_CHA_Hair_03_Head_01",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Male_6",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_04_Head_01.SK_CHA_Hair_04_Head_01",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_04_Head_01.SK_CHA_Hair_04_Head_01",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_04_Head_01.SK_CHA_Hair_04_Head_01",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Male_7",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_05_Head_01.SK_CHA_Hair_05_Head_01",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_05_Head_01.SK_CHA_Hair_05_Head_01",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_05_Head_01.SK_CHA_Hair_05_Head_01",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Male_8",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_07_Head_01.SK_CHA_Hair_07_Head_01",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_07_Head_01.SK_CHA_Hair_07_Head_01",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_07_Head_01.SK_CHA_Hair_07_Head_01",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Male_9",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_08_Head_01.SK_CHA_Hair_08_Head_01",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_08_Head_01.SK_CHA_Hair_08_Head_01",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_08_Head_01.SK_CHA_Hair_08_Head_01",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Male_10",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_09_Head_01.SK_CHA_Hair_09_Head_01",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_09_Head_01.SK_CHA_Hair_09_Head_01",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_09_Head_01.SK_CHA_Hair_09_Head_01",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Male_11",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_10_Head_01.SK_CHA_Hair_10_Head_01",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_10_Head_01.SK_CHA_Hair_10_Head_01",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_10_Head_01.SK_CHA_Hair_10_Head_01",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Male_12",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_12_Head_01.SK_CHA_Hair_12_Head_01",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_12_Head_01.SK_CHA_Hair_12_Head_01",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_12_Head_01.SK_CHA_Hair_12_Head_01",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Male_Helmet_4",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_01_Head_01_Helmet.SK_CHA_Hair_01_Head_01_Helmet",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_01_Head_01_Helmet.SK_CHA_Hair_01_Head_01_Helmet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_01_Head_01_Helmet.SK_CHA_Hair_01_Head_01_Helmet",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Male_Helmet_5",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_03_Head_01_Helmet.SK_CHA_Hair_03_Head_01_Helmet",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_03_Head_01_Helmet.SK_CHA_Hair_03_Head_01_Helmet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_03_Head_01_Helmet.SK_CHA_Hair_03_Head_01_Helmet",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Male_Helmet_6",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_04_Head_01_Helmet.SK_CHA_Hair_04_Head_01_Helmet",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_04_Head_01_Helmet.SK_CHA_Hair_04_Head_01_Helmet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_04_Head_01_Helmet.SK_CHA_Hair_04_Head_01_Helmet",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Male_Helmet_7",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_05_Head_01_Helmet.SK_CHA_Hair_05_Head_01_Helmet",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_05_Head_01_Helmet.SK_CHA_Hair_05_Head_01_Helmet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_05_Head_01_Helmet.SK_CHA_Hair_05_Head_01_Helmet",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Male_Helmet_8",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_07_Head_01_Helmet.SK_CHA_Hair_07_Head_01_Helmet",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_07_Head_01_Helmet.SK_CHA_Hair_07_Head_01_Helmet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_07_Head_01_Helmet.SK_CHA_Hair_07_Head_01_Helmet",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Male_Helmet_9",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_08_Head_01_Helmet.SK_CHA_Hair_08_Head_01_Helmet",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_08_Head_01_Helmet.SK_CHA_Hair_08_Head_01_Helmet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_08_Head_01_Helmet.SK_CHA_Hair_08_Head_01_Helmet",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Male_Helmet_10",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_09_Head_01_Helmet.SK_CHA_Hair_09_Head_01_Helmet",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_09_Head_01_Helmet.SK_CHA_Hair_09_Head_01_Helmet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_09_Head_01_Helmet.SK_CHA_Hair_09_Head_01_Helmet",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Male_Helmet_11",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_10_Head_01_Helmet.SK_CHA_Hair_10_Head_01_Helmet",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_10_Head_01_Helmet.SK_CHA_Hair_10_Head_01_Helmet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_10_Head_01_Helmet.SK_CHA_Hair_10_Head_01_Helmet",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Male_Helmet_12",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_12_Head_01_Helmet.SK_CHA_Hair_12_Head_01_Helmet",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_12_Head_01_Helmet.SK_CHA_Hair_12_Head_01_Helmet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_12_Head_01_Helmet.SK_CHA_Hair_12_Head_01_Helmet",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Female_4",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_01_Head_02.SK_CHA_Hair_01_Head_02",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_01_Head_02.SK_CHA_Hair_01_Head_02",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_01_Head_02.SK_CHA_Hair_01_Head_02",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Female_5",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_03_Head_02.SK_CHA_Hair_03_Head_02",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_03_Head_02.SK_CHA_Hair_03_Head_02",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_03_Head_02.SK_CHA_Hair_03_Head_02",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Female_6",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_04_Head_02.SK_CHA_Hair_04_Head_02",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_04_Head_02.SK_CHA_Hair_04_Head_02",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_04_Head_02.SK_CHA_Hair_04_Head_02",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Female_7",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_05_Head_02.SK_CHA_Hair_05_Head_02",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_05_Head_02.SK_CHA_Hair_05_Head_02",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_05_Head_02.SK_CHA_Hair_05_Head_02",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Female_8",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_07_Head_02.SK_CHA_Hair_07_Head_02",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_07_Head_02.SK_CHA_Hair_07_Head_02",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_07_Head_02.SK_CHA_Hair_07_Head_02",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Female_9",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_08_Head_02.SK_CHA_Hair_08_Head_02",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_08_Head_02.SK_CHA_Hair_08_Head_02",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_08_Head_02.SK_CHA_Hair_08_Head_02",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Female_10",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_09_Head_02.SK_CHA_Hair_09_Head_02",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_09_Head_02.SK_CHA_Hair_09_Head_02",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_09_Head_02.SK_CHA_Hair_09_Head_02",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Female_11",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_10_Head_02.SK_CHA_Hair_10_Head_02",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_10_Head_02.SK_CHA_Hair_10_Head_02",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_10_Head_02.SK_CHA_Hair_10_Head_02",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Female_12",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_12_Head_02.SK_CHA_Hair_12_Head_02",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_12_Head_02.SK_CHA_Hair_12_Head_02",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_12_Head_02.SK_CHA_Hair_12_Head_02",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Female_Helmet_4",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_01_Head_02_Helmet.SK_CHA_Hair_01_Head_02_Helmet",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_01_Head_02_Helmet.SK_CHA_Hair_01_Head_02_Helmet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_01_Head_02_Helmet.SK_CHA_Hair_01_Head_02_Helmet",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Female_Helmet_5",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_03_Head_02_Helmet.SK_CHA_Hair_03_Head_02_Helmet",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_03_Head_02_Helmet.SK_CHA_Hair_03_Head_02_Helmet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_03_Head_02_Helmet.SK_CHA_Hair_03_Head_02_Helmet",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Female_Helmet_6",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_04_Head_02_Helmet.SK_CHA_Hair_04_Head_02_Helmet",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_04_Head_02_Helmet.SK_CHA_Hair_04_Head_02_Helmet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_04_Head_02_Helmet.SK_CHA_Hair_04_Head_02_Helmet",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Female_Helmet_7",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_05_Head_02_Helmet.SK_CHA_Hair_05_Head_02_Helmet",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_05_Head_02_Helmet.SK_CHA_Hair_05_Head_02_Helmet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_05_Head_02_Helmet.SK_CHA_Hair_05_Head_02_Helmet",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Female_Helmet_8",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_07_Head_02_Helmet.SK_CHA_Hair_07_Head_02_Helmet",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_07_Head_02_Helmet.SK_CHA_Hair_07_Head_02_Helmet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_07_Head_02_Helmet.SK_CHA_Hair_07_Head_02_Helmet",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Female_Helmet_9",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_08_Head_02_Helmet.SK_CHA_Hair_08_Head_02_Helmet",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_08_Head_02_Helmet.SK_CHA_Hair_08_Head_02_Helmet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_08_Head_02_Helmet.SK_CHA_Hair_08_Head_02_Helmet",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Female_Helmet_10",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_09_Head_02_Helmet.SK_CHA_Hair_09_Head_02_Helmet",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_09_Head_02_Helmet.SK_CHA_Hair_09_Head_02_Helmet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_09_Head_02_Helmet.SK_CHA_Hair_09_Head_02_Helmet",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Female_Helmet_11",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_10_Head_02_Helmet.SK_CHA_Hair_10_Head_02_Helmet",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_10_Head_02_Helmet.SK_CHA_Hair_10_Head_02_Helmet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_10_Head_02_Helmet.SK_CHA_Hair_10_Head_02_Helmet",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Hair_Female_Helmet_12",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_12_Head_02_Helmet.SK_CHA_Hair_12_Head_02_Helmet",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_12_Head_02_Helmet.SK_CHA_Hair_12_Head_02_Helmet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Hair/SK_CHA_Hair_12_Head_02_Helmet.SK_CHA_Hair_12_Head_02_Helmet",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head_Hair"
+        },
+        {
+            "Name": "Beard_Male_3",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_01_Head_01.SK_CHA_Beard_01_Head_01",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_01_Head_01.SK_CHA_Beard_01_Head_01",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_01_Head_01.SK_CHA_Beard_01_Head_01",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head"
+        },
+        {
+            "Name": "Beard_Male_4",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_02_Head_01.SK_CHA_Beard_02_Head_01",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_02_Head_01.SK_CHA_Beard_02_Head_01",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_02_Head_01.SK_CHA_Beard_02_Head_01",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head"
+        },
+        {
+            "Name": "Beard_Male_5",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_03_Head_01.SK_CHA_Beard_03_Head_01",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_03_Head_01.SK_CHA_Beard_03_Head_01",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_03_Head_01.SK_CHA_Beard_03_Head_01",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head"
+        },
+        {
+            "Name": "Beard_Male_6",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_05_Head_01.SK_CHA_Beard_05_Head_01",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_05_Head_01.SK_CHA_Beard_05_Head_01",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_05_Head_01.SK_CHA_Beard_05_Head_01",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head"
+        },
+        {
+            "Name": "Beard_Male_7",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_06_Head_01.SK_CHA_Beard_06_Head_01",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_06_Head_01.SK_CHA_Beard_06_Head_01",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_06_Head_01.SK_CHA_Beard_06_Head_01",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head"
+        },
+        {
+            "Name": "Beard_Male_8",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_07_Head_01.SK_CHA_Beard_07_Head_01",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_07_Head_01.SK_CHA_Beard_07_Head_01",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_07_Head_01.SK_CHA_Beard_07_Head_01",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head"
+        },
+        {
+            "Name": "Beard_Male_9",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_09_Head_01.SK_CHA_Beard_09_Head_01",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_09_Head_01.SK_CHA_Beard_09_Head_01",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_09_Head_01.SK_CHA_Beard_09_Head_01",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head"
+        },
+        {
+            "Name": "Beard_Male_10",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_10_Head_01.SK_CHA_Beard_10_Head_01",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_10_Head_01.SK_CHA_Beard_10_Head_01",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_10_Head_01.SK_CHA_Beard_10_Head_01",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head"
+        },
+        {
+            "Name": "Beard_Female_3",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_01_Head_02.SK_CHA_Beard_01_Head_02",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_01_Head_02.SK_CHA_Beard_01_Head_02",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_01_Head_02.SK_CHA_Beard_01_Head_02",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head"
+        },
+        {
+            "Name": "Beard_Female_4",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_02_Head_02.SK_CHA_Beard_02_Head_02",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_02_Head_02.SK_CHA_Beard_02_Head_02",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_02_Head_02.SK_CHA_Beard_02_Head_02",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head"
+        },
+        {
+            "Name": "Beard_Female_5",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_03_Head_02.SK_CHA_Beard_03_Head_02",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_03_Head_02.SK_CHA_Beard_03_Head_02",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_03_Head_02.SK_CHA_Beard_03_Head_02",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head"
+        },
+        {
+            "Name": "Beard_Female_6",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_05_Head_02.SK_CHA_Beard_05_Head_02",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_05_Head_02.SK_CHA_Beard_05_Head_02",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_05_Head_02.SK_CHA_Beard_05_Head_02",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head"
+        },
+        {
+            "Name": "Beard_Female_7",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_06_Head_02.SK_CHA_Beard_06_Head_02",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_06_Head_02.SK_CHA_Beard_06_Head_02",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_06_Head_02.SK_CHA_Beard_06_Head_02",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head"
+        },
+        {
+            "Name": "Beard_Female_8",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_07_Head_02.SK_CHA_Beard_07_Head_02",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_07_Head_02.SK_CHA_Beard_07_Head_02",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_07_Head_02.SK_CHA_Beard_07_Head_02",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head"
+        },
+        {
+            "Name": "Beard_Female_9",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_09_Head_02.SK_CHA_Beard_09_Head_02",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_09_Head_02.SK_CHA_Beard_09_Head_02",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_09_Head_02.SK_CHA_Beard_09_Head_02",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head"
+        },
+        {
+            "Name": "Beard_Female_10",
+            "ArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_10_Head_02.SK_CHA_Beard_10_Head_02",
+            "HabArmourMesh": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_10_Head_02.SK_CHA_Beard_10_Head_02",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Head/New_Heads/Beards/SK_CHA_Beard_10_Head_02.SK_CHA_Beard_10_Head_02",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Skin_Head"
+        },
+        {
+            "Name": "ArcticArmor_Head_V2",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Arctic_Helmet_V2.SK_CHA_MAL_ARM_Arctic_Helmet_V2",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Arctic_Helmet_V2.SK_CHA_MAL_ARM_Arctic_Helmet_V2",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Undersuit_Helmet"
+        },
+        {
+            "Name": "Composite_Head_V2",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Composite_Head_V2.SK_CHA_MAL_ARM_Composite_Head_V2",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Composite_Head_V2.SK_CHA_MAL_ARM_Composite_Head_V2",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Undersuit_Helmet"
+        },
+        {
+            "Name": "Envirosuit_Radboss_Helmet_V2",
+            "ArmourMesh": "/Game/ASS/CHA/Suits/SK_CHA_MAL_ARM_Envirosuit_Radboss_helmet_V2.SK_CHA_MAL_ARM_Envirosuit_Radboss_helmet_V2",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Suits/SK_CHA_MAL_ARM_Envirosuit_Radboss_helmet_V2.SK_CHA_MAL_ARM_Envirosuit_Radboss_helmet_V2",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Undersuit_Helmet"
+        },
+        {
+            "Name": "Cloth_Head_V2",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Cloth.SK_CHA_MAL_ARM_Head_Cloth",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Cloth.SK_CHA_MAL_ARM_Head_Cloth",
+            "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP_C",
+            "ArmourType": "Head"
+        },
+        {
+            "Name": "Synthetic_Armor_Head_V2",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/Synthetic_Sleek/SK_CHA_MAL_ARM_Head_Synthetic_Sleek_V2.SK_CHA_MAL_ARM_Head_Synthetic_Sleek_V2",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/Synthetic_Sleek/SK_CHA_MAL_ARM_Head_Synthetic_Sleek_V2.SK_CHA_MAL_ARM_Head_Synthetic_Sleek_V2",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Undersuit_Helmet"
+        },
+        {
+            "Name": "Larkwell_Armor_Alpha_Head_V2",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Larkwell_Head_V2.SK_CHA_MAL_ARM_Larkwell_Head_V2",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Larkwell_Head_V2.SK_CHA_MAL_ARM_Larkwell_Head_V2",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Head"
+        },
+        {
+            "Name": "Inaris_Envirosuit_Helmet_V2",
+            "ArmourMesh": "/Game/ASS/CHA/SK_CHA_MAL_Envirosuit_Inaris_Helmet_V2.SK_CHA_MAL_Envirosuit_Inaris_Helmet_V2",
+            "FemaleMeshVariant": "/Game/ASS/CHA/SK_CHA_MAL_Envirosuit_Inaris_Helmet_V2.SK_CHA_MAL_Envirosuit_Inaris_Helmet_V2",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Undersuit_Helmet"
+        },
+        {
+            "Name": "Undersuit_Larkwell_Helmet_V2",
+            "ArmourMesh": "/Game/ASS/CHA/Suits/SK_CHA_MAL_Envirosuit_Lark_Helmet_V2.SK_CHA_MAL_Envirosuit_Lark_Helmet_V2",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Suits/SK_CHA_MAL_Envirosuit_Lark_Helmet_V2.SK_CHA_MAL_Envirosuit_Lark_Helmet_V2",
+            "AnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/PHX/SK_CHA_3RD_MAL_01_HEAD_Copy_Pose.SK_CHA_3RD_MAL_01_HEAD_Copy_Pose_C",
+            "ArmourType": "Undersuit_Helmet"
+        },
+        {
+            "Name": "Undersuit_Shengong_Helmet_V2",
+            "ArmourMesh": "/Game/ASS/CHA/Suits/SK_CHA_MAL_Envirosuit_Shengong_Helmet_V2.SK_CHA_MAL_Envirosuit_Shengong_Helmet_V2",
+            "FemaleMeshVariant": "/Game/ASS/CHA/Suits/SK_CHA_MAL_Envirosuit_Shengong_Helmet_V2.SK_CHA_MAL_Envirosuit_Shengong_Helmet_V2",
             "AnimBlueprintClass": "/Game/ASS/CHA/Human/3RD/SK_CHA_3RD_MAL_01_CopyPose_AnimBP.SK_CHA_3RD_MAL_01_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/Human/3RD/SK_CHA_3RD_MAL_01_CopyPose_AnimBP.SK_CHA_3RD_MAL_01_CopyPose_AnimBP_C",
             "ArmourType": "Undersuit_Helmet"
+        },
+        {
+            "Name": "Cloth_Head_V2_HelmOff",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Cloth_V2.SK_CHA_MAL_ARM_Head_Cloth_V2",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Cloth_V2.SK_CHA_MAL_ARM_Head_Cloth_V2",
+            "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP_C",
+            "ArmourType": "Head"
         }
     ]
 }

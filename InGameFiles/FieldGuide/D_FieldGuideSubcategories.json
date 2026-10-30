@@ -202,7 +202,7 @@
         {
             "Name": "Ranged_Grenades",
             "IndexView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideResourceItemsGrid.UMG_FieldGuideResourceItemsGrid_C'",
-            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemRangedPage.UMG_FieldGuideItemRangedPage_C'",
+            "DetailView": "WidgetBlueprintGeneratedClass'/Game/UI/Components/FieldGuide/UMG_FieldGuideItemAmmoPage.UMG_FieldGuideItemAmmoPage_C'",
             "DisplayOrder": 8,
             "DisplayName": "NSLOCTEXT(\"D_FieldGuideSubcategories\", \"Ranged_Grenades-DisplayName\", \"Grenades\")",
             "DisplayIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ICON_Grenade.T_ICON_Grenade",

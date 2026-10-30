@@ -68683,7 +68683,7 @@
                 "RowName": "Alteration_Bench"
             },
             "Durable": {
-                "RowName": "Deployable_500"
+                "RowName": "Deployable_750"
             },
             "Inventory": {
                 "RowName": "Alteration_Bench"
@@ -68788,7 +68788,7 @@
                 "RowName": "Advanced_Alteration_Bench"
             },
             "Durable": {
-                "RowName": "Deployable_500"
+                "RowName": "Deployable_1500"
             },
             "Inventory": {
                 "RowName": "Alteration_Bench"
@@ -68801,9 +68801,6 @@
             },
             "Decayable": {
                 "RowName": "Decay_General"
-            },
-            "Flammable": {
-                "RowName": "Flammable_Deployable"
             },
             "Weight": {
                 "RowName": "MediumDeployable"
@@ -68861,9 +68858,6 @@
                     },
                     {
                         "TagName": "Traits.Processing"
-                    },
-                    {
-                        "TagName": "Traits.Flammable"
                     }
                 ],
                 "ParentTags": []
@@ -90414,9 +90408,6 @@
             "Itemable": {
                 "RowName": "Item_Layered_Plating"
             },
-            "Interactable": {
-                "RowName": "Deployable_NoPickup"
-            },
             "Focusable": {
                 "RowName": "Focusable_1H"
             },
@@ -90458,9 +90449,6 @@
                     },
                     {
                         "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
                     },
                     {
                         "TagName": "Traits.Highlightable"
@@ -236511,6 +236499,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "NPC.Fish.Freshwater"
+                    },
+                    {
+                        "TagName": "NPC.Fish.Unique"
                     }
                 ]
             },
@@ -236518,6 +236509,9 @@
                 "GameplayTags": [
                     {
                         "TagName": "NPC.Fish.Freshwater"
+                    },
+                    {
+                        "TagName": "NPC.Fish.Unique"
                     },
                     {
                         "TagName": "Traits.Meshable"

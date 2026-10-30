@@ -11416,6 +11416,24 @@
                 ],
                 "AutoDescription": " ANY( Item.Skin.Rebreather )"
             }
+        },
+        {
+            "Name": "Settlement_Item",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Resource.Settlement"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Resource.Settlement )"
+            }
         }
     ]
 }

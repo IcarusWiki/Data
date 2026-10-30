@@ -7547,13 +7547,10 @@
             "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_LARGE.SFX_CRE_DEATHFALL_WATER_LARGE",
             "VocalisationSocket": "RigJaw_M",
             "AttackVocalisation": {
-                "RowName": "TankAttack"
-            },
-            "FlinchVocalisation": {
-                "RowName": "TankFlinch"
+                "RowName": "TurtleAttack"
             },
             "DeathVocalisation": {
-                "RowName": "TankDeath"
+                "RowName": "TurtleDeath"
             },
             "StateVocalisations": {
                 "Idle": {
@@ -7562,7 +7559,7 @@
                         "DataTableName": "D_Vocalisations"
                     },
                     "StatePersistentVocalisation": {
-                        "RowName": "TankIdle",
+                        "RowName": "TurtleIdle",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StateExitedVocalisation": {
@@ -7572,11 +7569,11 @@
                 },
                 "Attacking": {
                     "StateEnteredVocalisation": {
-                        "RowName": "TankAttack",
+                        "RowName": "None",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StatePersistentVocalisation": {
-                        "RowName": "TankAggro",
+                        "RowName": "TurtleAggro",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StateExitedVocalisation": {
@@ -7702,13 +7699,13 @@
             "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_MED.SFX_CRE_DEATHFALL_WATER_MED",
             "VocalisationSocket": "RigJaw_M",
             "AttackVocalisation": {
-                "RowName": "SlinkerAttack"
+                "RowName": "JungleHunterAttack"
             },
             "FlinchVocalisation": {
-                "RowName": "SlinkerFlinch"
+                "RowName": "MangeWolfFlinch"
             },
             "DeathVocalisation": {
-                "RowName": "SlinkerDeath"
+                "RowName": "MangeWolfAphaDeath"
             },
             "StateVocalisations": {
                 "Idle": {
@@ -7717,7 +7714,7 @@
                         "DataTableName": "D_Vocalisations"
                     },
                     "StatePersistentVocalisation": {
-                        "RowName": "SlinkerIdle",
+                        "RowName": "None",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StateExitedVocalisation": {
@@ -7731,7 +7728,7 @@
                         "DataTableName": "D_Vocalisations"
                     },
                     "StatePersistentVocalisation": {
-                        "RowName": "SlinkerAggro",
+                        "RowName": "None",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StateExitedVocalisation": {
@@ -8004,13 +8001,10 @@
             "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_LARGE.SFX_CRE_DEATHFALL_WATER_LARGE",
             "VocalisationSocket": "RigJaw_M",
             "AttackVocalisation": {
-                "RowName": "TankAttack"
-            },
-            "FlinchVocalisation": {
-                "RowName": "TankFlinch"
+                "RowName": "BeetleAttack"
             },
             "DeathVocalisation": {
-                "RowName": "TankDeath"
+                "RowName": "BeetleDeath"
             },
             "StateVocalisations": {
                 "Idle": {
@@ -8019,7 +8013,7 @@
                         "DataTableName": "D_Vocalisations"
                     },
                     "StatePersistentVocalisation": {
-                        "RowName": "TankIdle",
+                        "RowName": "BeetleIdle",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StateExitedVocalisation": {
@@ -8029,11 +8023,11 @@
                 },
                 "Attacking": {
                     "StateEnteredVocalisation": {
-                        "RowName": "TankAttack",
+                        "RowName": "BeetleAttack",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StatePersistentVocalisation": {
-                        "RowName": "TankAggro",
+                        "RowName": "BeetleAggro",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StateExitedVocalisation": {
@@ -8080,10 +8074,10 @@
             "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_MED.SFX_CRE_DEATHFALL_MED",
             "VocalisationSocket": "RigJaw1",
             "AttackVocalisation": {
-                "RowName": "KomodoAttack"
+                "RowName": "AxoAttack"
             },
             "DeathVocalisation": {
-                "RowName": "KomodoDeath"
+                "RowName": "AxoDeath"
             },
             "StateVocalisations": {
                 "Idle": {
@@ -8092,7 +8086,7 @@
                         "DataTableName": "D_Vocalisations"
                     },
                     "StatePersistentVocalisation": {
-                        "RowName": "KomodoIdle",
+                        "RowName": "AxoIdle",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StateExitedVocalisation": {
@@ -8106,7 +8100,7 @@
                         "DataTableName": "D_Vocalisations"
                     },
                     "StatePersistentVocalisation": {
-                        "RowName": "KomodoRelax",
+                        "RowName": "AxoIdle",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StateExitedVocalisation": {
@@ -8120,7 +8114,7 @@
                         "DataTableName": "D_Vocalisations"
                     },
                     "StatePersistentVocalisation": {
-                        "RowName": "KomodoAggro",
+                        "RowName": "AxoIdle",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StateExitedVocalisation": {

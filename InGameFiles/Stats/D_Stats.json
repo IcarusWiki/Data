@@ -24871,6 +24871,55 @@
             "StatCategory": {
                 "RowName": "AI"
             }
+        },
+        {
+            "Name": "KangarooArcticSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BaseKangarooArcticSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "KangarooArcticExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"KangarooArcticExtraDamage_+%-Title\", \"Damage vs Arctic Kangaroo\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseKangarooArcticExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseKangarooArcticExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Arctic Kangaroo\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseKangarooArcticExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Arctic Kangaroo\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "KangarooArcticExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"KangarooArcticExtraDamageResistance_+%-Title\", \"Resistance vs Arctic Kangaroo\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseKangarooArcticExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseKangarooArcticExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Arctic Kangaroo\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseKangarooArcticExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Arctic Kangaroo\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
         }
     ]
 }

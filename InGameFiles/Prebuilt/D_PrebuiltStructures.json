@@ -473,6 +473,10 @@
         {
             "Name": "Oly_Forest_Shack",
             "FileName": "Oly_Forest_Shack"
+        },
+        {
+            "Name": "OLY_FOREST_HUT",
+            "FileName": "OLY_FOREST_WS_STOCKPILE_HUT"
         }
     ]
 }

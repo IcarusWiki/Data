@@ -9781,6 +9781,95 @@
                     "TriggerTime": 370
                 }
             ]
+        },
+        {
+            "Name": "T0_Thunderclouds_Forming",
+            "DurationSeconds": 1580,
+            "DurationMinutes": 27,
+            "BiomeGroups": [
+                {
+                    "RowName": "Olympus_Conifer",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                }
+            ],
+            "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/Lightning_Light.Lightning_Light'",
+            "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T0_Thunderclouds_Forming-WeatherName\", \"Thunderclouds Gathering\")",
+            "WeatherActions": [
+                {
+                    "Action": {
+                        "RowName": "T0_Thunderclouds_Forming_Start",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 40
+                },
+                {
+                    "Action": {
+                        "RowName": "T0_Thunderclouds_Forming_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 120
+                },
+                {
+                    "Action": {
+                        "RowName": "T0_Thunderclouds_Forming_Chaos",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 40
+                },
+                {
+                    "Action": {
+                        "RowName": "T0_Thunderclouds_Forming_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 600
+                },
+                {
+                    "Action": {
+                        "RowName": "T0_Thunderclouds_Forming_Chaos",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 40
+                },
+                {
+                    "Action": {
+                        "RowName": "T0_Thunderclouds_Forming_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 600
+                },
+                {
+                    "Action": {
+                        "RowName": "T0_Thunderclouds_Forming_Stop",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 120
+                },
+                {
+                    "Action": {
+                        "RowName": "GenericStormEnd",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 20
+                }
+            ],
+            "MusicCues": [
+                {
+                    "MusicCondition": "Storm_Ramp",
+                    "TriggerTime": 0
+                },
+                {
+                    "MusicCondition": "Storm_Damage",
+                    "TriggerTime": 3
+                },
+                {
+                    "MusicCondition": "Storm_Chaos",
+                    "TriggerTime": 70
+                },
+                {
+                    "MusicCondition": "Normal",
+                    "TriggerTime": 1580
+                }
+            ]
         }
     ]
 }

@@ -6458,9 +6458,9 @@
         },
         {
             "Name": "Mesh_Carcass_Giant_Turtle",
-            "ItemMesh": "/Game/ASS/CRE/Flightless_Tank/SK_CRE_Flightless_Tank.SK_CRE_Flightless_Tank",
+            "ItemMesh": "/Game/ASS/CRE/Giant_turtle/SK_CRE_Giant_Turtle.SK_CRE_Giant_Turtle",
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Giant_Turtle_Corpse.BP_Giant_Turtle_Corpse_C",
-            "EquipHandMesh": "/Game/ASS/CRE/Flightless_Tank/SK_CRE_Flightless_Tank.SK_CRE_Flightless_Tank",
+            "EquipHandMesh": "/Game/ASS/CRE/Giant_turtle/SK_CRE_Giant_Turtle.SK_CRE_Giant_Turtle",
             "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Giant_Turtle_Corpse.BP_Giant_Turtle_Corpse_C"
         },
         {
@@ -6505,9 +6505,9 @@
         {
             "Name": "Mesh_Carcass_Jungle_Monkey",
             "ItemMesh": "/Game/ASS/CRE/Tundra_Monkey/SK_CRE_Tundra_Monkey.SK_CRE_Tundra_Monkey",
-            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tundra_Monkey_Corpse.BP_Tundra_Monkey_Corpse_C",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Jungle_Monkey_Corpse.BP_Jungle_Monkey_Corpse_C",
             "EquipHandMesh": "/Game/ASS/CRE/Tundra_Monkey/SK_CRE_Tundra_Monkey.SK_CRE_Tundra_Monkey",
-            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tundra_Monkey_Corpse.BP_Tundra_Monkey_Corpse_C"
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Jungle_Monkey_Corpse.BP_Jungle_Monkey_Corpse_C"
         },
         {
             "Name": "Mesh_Carcass_Tropical_Bird",
@@ -6570,11 +6570,15 @@
         },
         {
             "Name": "Mesh_Ferrotitanium_Alloy",
-            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Titanium_V2.SM_ITM_Titanium_V2"
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Alloy_FerroTitanium.SM_ITM_Alloy_FerroTitanium"
+        },
+        {
+            "Name": "Mesh_Nanowire_Alloy",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Alloy_Nanowire.SM_ITM_Alloy_Nanowire"
         },
         {
             "Name": "Mesh_Aluminium_Bronze_Alloy",
-            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Aluminum_V2.SM_ITM_Aluminum_V2"
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Alloy_AluminiumBronze.SM_ITM_Alloy_AluminiumBronze"
         },
         {
             "Name": "Mesh_Nanowire",
@@ -6657,7 +6661,7 @@
         },
         {
             "Name": "Mesh_Microchips",
-            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Electronics.SM_ITM_Electronics"
+            "ItemMesh": "/Game/ASS/ITM/Microchip/SM_ITM_Microchip.SM_ITM_Microchip"
         },
         {
             "Name": "Mesh_Settlement_Building_Tool",
@@ -6723,6 +6727,13 @@
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Artillery_Creature_Corpse.BP_Artillery_Creature_Corpse_C",
             "EquipHandMesh": "/Game/ASS/CRE/Artillery_Creature/SK_CRE_Artillery_Creature.SK_CRE_Artillery_Creature",
             "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Artillery_Creature_Corpse.BP_Artillery_Creature_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Kangaroo_Arctic",
+            "ItemMesh": "/Game/ASS/CRE/Striker/SK_CRE_Striker.SK_CRE_Striker",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Kangaroo_Arctic_Corpse.BP_Kangaroo_Arctic_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Striker/SK_CRE_Striker.SK_CRE_Striker",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Kangaroo_Arctic_Corpse.BP_Kangaroo_Arctic_Corpse_C"
         }
     ]
 }

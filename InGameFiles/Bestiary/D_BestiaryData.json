@@ -3493,7 +3493,7 @@
                     "DataTableName": "D_Terrains"
                 }
             ],
-            "TotalPointsRequired": 1200,
+            "TotalPointsRequired": 400,
             "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Lava_Hunter-Lore1\", \"This mysterious creature is mainly known for its size and the speed of its attack. Rumours abound in regards to its origins though many prospectors consider them to be the guardians of Prometheus and stay well away from their nests.\")",
             "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"Lava_Hunter-Lore2\", \"These creatures were first discovered by a Group 15 scientist posted at the only volcanic station on Icarus. After a tiring day of exploration and surveying it is believed they strayed off course on the return to their base. They managed to send a blurry and frantic stream to Group 15 HQ before the feed was abruptly cut off. Their body was never found.\")",
             "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"Lava_Hunter-Lore3\", \"\\\"I mean, I know us prospectors aren\\'t the most creative bunch but this name just makes sense. It lives in lava and it hunts literally anything that moves. And the sound it makes? I\\'ve still been getting nightmares from it months later... \\\"\")",
@@ -6445,7 +6445,7 @@
                     "DataTableName": "D_Terrains"
                 }
             ],
-            "TotalPointsRequired": 1500,
+            "TotalPointsRequired": 400,
             "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Sandwyrm_Queen-Lore1\", \"Sandwyrm Queens are colossal, airborne predators that dominate the deep desert and represent the final stage of the sandworm life cycle. Their immense size is substantial enough to interfere with satellite signals, and their armored exoskeleton shrugs off most conventional weapons. As matriarchs, they are responsible for laying clutches of eggs that eventually hatch into the sandworms that burrow unseen beneath the dunes. Highly territorial and violently aggressive, a Queen will respond to any perceived threat with overwhelming force. Despite their near-impenetrable hide, the cranial region and mouth cavity remain the only reliable vulnerabilities.\")",
             "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"Sandwyrm_Queen-Lore2\", \"Unlike many modern threats on Icarus, Sandwyrm Queens are not exotic mutations but remnants of the planet\\'s original biosphere-one of the few apex species resilient enough to survive failed terraforming and the collapse of native ecosystems. Their ability to fly, reproduce rapidly, and endure extreme arid climates gave them a significant evolutionary edge. Queens rarely appear on the surface unless provoked or during reproductive cycles, but when they do, their presence can destabilize entire regions.\")",
             "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"Sandwyrm_Queen-Lore3\", \"\\\"WHAT DO YOU MEAN THEY CAN FLY NOW?!\\\" \")",

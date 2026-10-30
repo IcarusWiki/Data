@@ -2346,6 +2346,17 @@
             "Name": "Skin_Artillery_Creature",
             "EventDescription": "INVTEXT(\"[DNT] Skinned Artillery Creature\")",
             "ExperienceGranted": 870
+        },
+        {
+            "Name": "Kill_Kangaroo_Arctic",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Arctic Kangaroo\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 2000
+        },
+        {
+            "Name": "Skin_Kangaroo_Arctic",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Arctic Kangaroo\")",
+            "ExperienceGranted": 1000
         }
     ]
 }

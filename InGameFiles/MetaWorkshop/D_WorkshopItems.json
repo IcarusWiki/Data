@@ -6508,6 +6508,37 @@
             ]
         },
         {
+            "Name": "Meta_Larkwell_Frag_Grenade",
+            "Item": {
+                "RowName": "Meta_Frag_Larkwell_Set"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 250
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 25
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                }
+            ]
+        },
+        {
             "Name": "Meta_Sickle_Inaris_00",
             "Item": {
                 "RowName": "Meta_Sickle_Inaris_00"

@@ -23665,12 +23665,6 @@
                 "X": 250,
                 "Y": 250
             },
-            "RequiredTalents": [
-                {
-                    "RowName": "Workshop_Workshop_Repair",
-                    "DataTableName": "D_Talents"
-                }
-            ],
             "DrawMethodOverride": "XThenY"
         },
         {
@@ -76597,7 +76591,7 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1200,
+                "X": 1900,
                 "Y": 1200
             },
             "Size": {
@@ -76616,8 +76610,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1200,
-                "Y": 570
+                "X": 1900,
+                "Y": 600
             },
             "Size": {
                 "X": 128,
@@ -76652,8 +76646,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1200,
-                "Y": 240
+                "X": 1900,
+                "Y": 250
             },
             "Size": {
                 "X": 128,
@@ -76692,8 +76686,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1301,
-                "Y": 792
+                "X": 2000,
+                "Y": 800
             },
             "Size": {
                 "X": 128,
@@ -76720,8 +76714,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1479,
-                "Y": 886
+                "X": 2150,
+                "Y": 900
             },
             "Size": {
                 "X": 128,
@@ -76748,8 +76742,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1593,
-                "Y": 1051
+                "X": 2300,
+                "Y": 1050
             },
             "Size": {
                 "X": 128,
@@ -76776,8 +76770,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1617,
-                "Y": 1251
+                "X": 2300,
+                "Y": 1250
             },
             "Size": {
                 "X": 128,
@@ -76804,8 +76798,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1546,
-                "Y": 1439
+                "X": 2250,
+                "Y": 1450
             },
             "Size": {
                 "X": 128,
@@ -76832,8 +76826,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1395,
-                "Y": 1572
+                "X": 2100,
+                "Y": 1600
             },
             "Size": {
                 "X": 128,
@@ -76860,8 +76854,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1200,
-                "Y": 1620
+                "X": 1900,
+                "Y": 1650
             },
             "Size": {
                 "X": 128,
@@ -76889,8 +76883,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1005,
-                "Y": 1572
+                "X": 1700,
+                "Y": 1600
             },
             "Size": {
                 "X": 128,
@@ -76917,8 +76911,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 854,
-                "Y": 1439
+                "X": 1550,
+                "Y": 1450
             },
             "Size": {
                 "X": 128,
@@ -76945,8 +76939,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 783,
-                "Y": 1251
+                "X": 1500,
+                "Y": 1250
             },
             "Size": {
                 "X": 128,
@@ -76973,8 +76967,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 807,
-                "Y": 1051
+                "X": 1500,
+                "Y": 1050
             },
             "Size": {
                 "X": 128,
@@ -77001,8 +76995,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 921,
-                "Y": 886
+                "X": 1600,
+                "Y": 900
             },
             "Size": {
                 "X": 128,
@@ -77029,8 +77023,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1099,
-                "Y": 792
+                "X": 1800,
+                "Y": 800
             },
             "Size": {
                 "X": 128,
@@ -77057,8 +77051,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1401,
-                "Y": 384
+                "X": 2100,
+                "Y": 400
             },
             "Size": {
                 "X": 128,
@@ -77089,8 +77083,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1757,
-                "Y": 571
+                "X": 2450,
+                "Y": 600
             },
             "Size": {
                 "X": 128,
@@ -77121,8 +77115,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1985,
-                "Y": 902
+                "X": 2700,
+                "Y": 900
             },
             "Size": {
                 "X": 128,
@@ -77153,8 +77147,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 2034,
-                "Y": 1301
+                "X": 2750,
+                "Y": 1300
             },
             "Size": {
                 "X": 128,
@@ -77185,8 +77179,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1891,
-                "Y": 1677
+                "X": 2600,
+                "Y": 1700
             },
             "Size": {
                 "X": 128,
@@ -77217,8 +77211,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1590,
-                "Y": 1944
+                "X": 2300,
+                "Y": 1950
             },
             "Size": {
                 "X": 128,
@@ -77249,8 +77243,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1200,
-                "Y": 2040
+                "X": 1900,
+                "Y": 2050
             },
             "Size": {
                 "X": 128,
@@ -77281,8 +77275,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 509,
-                "Y": 1677
+                "X": 1200,
+                "Y": 1700
             },
             "Size": {
                 "X": 128,
@@ -77313,8 +77307,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 366,
-                "Y": 1301
+                "X": 1050,
+                "Y": 1300
             },
             "Size": {
                 "X": 128,
@@ -77345,8 +77339,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 415,
-                "Y": 902
+                "X": 1100,
+                "Y": 900
             },
             "Size": {
                 "X": 128,
@@ -77377,8 +77371,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1463,
-                "Y": 132
+                "X": 2150,
+                "Y": 150
             },
             "Size": {
                 "X": 128,
@@ -77409,8 +77403,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1929,
-                "Y": 377
+                "X": 2600,
+                "Y": 400
             },
             "Size": {
                 "X": 128,
@@ -77441,8 +77435,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 2229,
-                "Y": 810
+                "X": 2900,
+                "Y": 800
             },
             "Size": {
                 "X": 128,
@@ -77473,8 +77467,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 2105,
-                "Y": 1825
+                "X": 2800,
+                "Y": 1850
             },
             "Size": {
                 "X": 128,
@@ -77505,8 +77499,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1711,
-                "Y": 2174
+                "X": 2400,
+                "Y": 2200
             },
             "Size": {
                 "X": 128,
@@ -77537,7 +77531,7 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1200,
+                "X": 1900,
                 "Y": 2300
             },
             "Size": {
@@ -77569,8 +77563,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 171,
-                "Y": 810
+                "X": 850,
+                "Y": 800
             },
             "Size": {
                 "X": 128,
@@ -77597,8 +77591,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 415,
-                "Y": 1498
+                "X": 1100,
+                "Y": 1500
             },
             "Size": {
                 "X": 128,
@@ -77629,8 +77623,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 366,
-                "Y": 1099
+                "X": 1050,
+                "Y": 1100
             },
             "Size": {
                 "X": 128,
@@ -77665,8 +77659,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1590,
-                "Y": 456
+                "X": 2300,
+                "Y": 450
             },
             "Size": {
                 "X": 128,
@@ -77693,8 +77687,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1891,
-                "Y": 723
+                "X": 2600,
+                "Y": 750
             },
             "Size": {
                 "X": 128,
@@ -77721,8 +77715,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 2034,
-                "Y": 1099
+                "X": 2750,
+                "Y": 1100
             },
             "Size": {
                 "X": 128,
@@ -77749,8 +77743,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1985,
-                "Y": 1498
+                "X": 2700,
+                "Y": 1500
             },
             "Size": {
                 "X": 128,
@@ -77777,8 +77771,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1401,
-                "Y": 2016
+                "X": 2100,
+                "Y": 2000
             },
             "Size": {
                 "X": 128,
@@ -77805,8 +77799,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1757,
-                "Y": 1829
+                "X": 2450,
+                "Y": 1850
             },
             "Size": {
                 "X": 128,
@@ -77833,8 +77827,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 999,
-                "Y": 2016
+                "X": 1700,
+                "Y": 2000
             },
             "Size": {
                 "X": 128,
@@ -77861,8 +77855,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 643,
-                "Y": 1829
+                "X": 1350,
+                "Y": 1850
             },
             "Size": {
                 "X": 128,
@@ -77885,8 +77879,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 171,
-                "Y": 1590
+                "X": 850,
+                "Y": 1600
             },
             "Size": {
                 "X": 128,
@@ -77921,8 +77915,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1711,
-                "Y": 226
+                "X": 2400,
+                "Y": 250
             },
             "Size": {
                 "X": 128,
@@ -77953,8 +77947,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 2105,
-                "Y": 575
+                "X": 2800,
+                "Y": 600
             },
             "Size": {
                 "X": 128,
@@ -77985,8 +77979,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 2292,
-                "Y": 1067
+                "X": 3000,
+                "Y": 1050
             },
             "Size": {
                 "X": 128,
@@ -78017,8 +78011,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 2229,
-                "Y": 1590
+                "X": 2900,
+                "Y": 1600
             },
             "Size": {
                 "X": 128,
@@ -78049,8 +78043,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1929,
-                "Y": 2023
+                "X": 2600,
+                "Y": 2050
             },
             "Size": {
                 "X": 128,
@@ -78081,8 +78075,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1463,
-                "Y": 2268
+                "X": 2150,
+                "Y": 2250
             },
             "Size": {
                 "X": 128,
@@ -78109,8 +78103,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 937,
-                "Y": 2268
+                "X": 1650,
+                "Y": 2250
             },
             "Size": {
                 "X": 128,
@@ -78137,8 +78131,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 471,
-                "Y": 2023
+                "X": 1150,
+                "Y": 2050
             },
             "Size": {
                 "X": 128,
@@ -78165,7 +78159,7 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1200,
+                "X": 1900,
                 "Y": 100
             },
             "Size": {
@@ -78193,8 +78187,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 108,
-                "Y": 1067
+                "X": 800,
+                "Y": 1050
             },
             "Size": {
                 "X": 128,
@@ -78215,8 +78209,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1351,
-                "Y": 588
+                "X": 2050,
+                "Y": 600
             },
             "Size": {
                 "X": 0,
@@ -78239,8 +78233,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1493,
-                "Y": 642
+                "X": 2200,
+                "Y": 650
             },
             "Size": {
                 "X": 0,
@@ -78263,8 +78257,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1618,
-                "Y": 728
+                "X": 2300,
+                "Y": 750
             },
             "Size": {
                 "X": 0,
@@ -78287,8 +78281,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1718,
-                "Y": 842
+                "X": 2400,
+                "Y": 850
             },
             "Size": {
                 "X": 0,
@@ -78311,8 +78305,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1789,
-                "Y": 977
+                "X": 2500,
+                "Y": 1000
             },
             "Size": {
                 "X": 0,
@@ -78335,8 +78329,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1825,
-                "Y": 1124
+                "X": 2500,
+                "Y": 1150
             },
             "Size": {
                 "X": 0,
@@ -78359,8 +78353,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1825,
-                "Y": 1276
+                "X": 2500,
+                "Y": 1300
             },
             "Size": {
                 "X": 0,
@@ -78383,8 +78377,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1789,
-                "Y": 1423
+                "X": 2500,
+                "Y": 1450
             },
             "Size": {
                 "X": 0,
@@ -78407,8 +78401,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1718,
-                "Y": 1558
+                "X": 2400,
+                "Y": 1550
             },
             "Size": {
                 "X": 0,
@@ -78431,8 +78425,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1618,
-                "Y": 1672
+                "X": 2300,
+                "Y": 1700
             },
             "Size": {
                 "X": 0,
@@ -78455,8 +78449,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1493,
-                "Y": 1758
+                "X": 2200,
+                "Y": 1750
             },
             "Size": {
                 "X": 0,
@@ -78479,8 +78473,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1351,
-                "Y": 1812
+                "X": 2050,
+                "Y": 1800
             },
             "Size": {
                 "X": 0,
@@ -78503,8 +78497,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1200,
-                "Y": 1830
+                "X": 1900,
+                "Y": 1850
             },
             "Size": {
                 "X": 0,
@@ -78527,8 +78521,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1049,
-                "Y": 1812
+                "X": 1750,
+                "Y": 1800
             },
             "Size": {
                 "X": 0,
@@ -78551,8 +78545,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 907,
-                "Y": 1758
+                "X": 1600,
+                "Y": 1750
             },
             "Size": {
                 "X": 0,
@@ -78575,8 +78569,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 782,
-                "Y": 1672
+                "X": 1500,
+                "Y": 1700
             },
             "Size": {
                 "X": 0,
@@ -78599,8 +78593,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 682,
-                "Y": 1558
+                "X": 1400,
+                "Y": 1550
             },
             "Size": {
                 "X": 0,
@@ -78623,8 +78617,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 611,
-                "Y": 1423
+                "X": 1300,
+                "Y": 1450
             },
             "Size": {
                 "X": 0,
@@ -78647,8 +78641,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 575,
-                "Y": 1276
+                "X": 1250,
+                "Y": 1300
             },
             "Size": {
                 "X": 0,
@@ -78671,8 +78665,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 575,
-                "Y": 1124
+                "X": 1250,
+                "Y": 1150
             },
             "Size": {
                 "X": 0,
@@ -78695,8 +78689,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 611,
-                "Y": 977
+                "X": 1300,
+                "Y": 1000
             },
             "Size": {
                 "X": 0,
@@ -78719,8 +78713,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 682,
-                "Y": 842
+                "X": 1400,
+                "Y": 850
             },
             "Size": {
                 "X": 0,
@@ -78743,8 +78737,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 782,
-                "Y": 728
+                "X": 1500,
+                "Y": 750
             },
             "Size": {
                 "X": 0,
@@ -78767,8 +78761,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 907,
-                "Y": 642
+                "X": 1600,
+                "Y": 650
             },
             "Size": {
                 "X": 0,
@@ -78791,8 +78785,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1049,
-                "Y": 588
+                "X": 1750,
+                "Y": 600
             },
             "Size": {
                 "X": 0,
@@ -78815,8 +78809,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1430,
-                "Y": 268
+                "X": 2150,
+                "Y": 250
             },
             "Size": {
                 "X": 0,
@@ -78839,7 +78833,7 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1646,
+                "X": 2350,
                 "Y": 350
             },
             "Size": {
@@ -78863,8 +78857,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1837,
-                "Y": 481
+                "X": 2550,
+                "Y": 500
             },
             "Size": {
                 "X": 0,
@@ -78887,8 +78881,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1990,
-                "Y": 655
+                "X": 2700,
+                "Y": 650
             },
             "Size": {
                 "X": 0,
@@ -78911,8 +78905,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 2098,
-                "Y": 860
+                "X": 2800,
+                "Y": 850
             },
             "Size": {
                 "X": 0,
@@ -78935,8 +78929,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 2153,
-                "Y": 1084
+                "X": 2850,
+                "Y": 1100
             },
             "Size": {
                 "X": 0,
@@ -78959,8 +78953,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 2153,
-                "Y": 1316
+                "X": 2850,
+                "Y": 1300
             },
             "Size": {
                 "X": 0,
@@ -78983,8 +78977,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 2098,
-                "Y": 1540
+                "X": 2800,
+                "Y": 1550
             },
             "Size": {
                 "X": 0,
@@ -79007,8 +79001,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1990,
-                "Y": 1745
+                "X": 2700,
+                "Y": 1750
             },
             "Size": {
                 "X": 0,
@@ -79031,8 +79025,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1837,
-                "Y": 1919
+                "X": 2550,
+                "Y": 1900
             },
             "Size": {
                 "X": 0,
@@ -79055,7 +79049,7 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1646,
+                "X": 2350,
                 "Y": 2050
             },
             "Size": {
@@ -79079,8 +79073,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1430,
-                "Y": 2132
+                "X": 2150,
+                "Y": 2150
             },
             "Size": {
                 "X": 0,
@@ -79103,8 +79097,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 1200,
-                "Y": 2160
+                "X": 1900,
+                "Y": 2150
             },
             "Size": {
                 "X": 0,
@@ -79127,8 +79121,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 970,
-                "Y": 2132
+                "X": 1650,
+                "Y": 2150
             },
             "Size": {
                 "X": 0,
@@ -79151,7 +79145,7 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 754,
+                "X": 1450,
                 "Y": 2050
             },
             "Size": {
@@ -79175,8 +79169,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 563,
-                "Y": 1919
+                "X": 1250,
+                "Y": 1900
             },
             "Size": {
                 "X": 0,
@@ -79199,8 +79193,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 410,
-                "Y": 1745
+                "X": 1100,
+                "Y": 1750
             },
             "Size": {
                 "X": 0,
@@ -79223,8 +79217,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 302,
-                "Y": 1540
+                "X": 1000,
+                "Y": 1550
             },
             "Size": {
                 "X": 0,
@@ -79247,8 +79241,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 247,
-                "Y": 1316
+                "X": 950,
+                "Y": 1300
             },
             "Size": {
                 "X": 0,
@@ -79271,8 +79265,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 247,
-                "Y": 1084
+                "X": 950,
+                "Y": 1100
             },
             "Size": {
                 "X": 0,
@@ -79295,8 +79289,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 302,
-                "Y": 860
+                "X": 1000,
+                "Y": 850
             },
             "Size": {
                 "X": 0,
@@ -79319,8 +79313,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 410,
-                "Y": 655
+                "X": 1100,
+                "Y": 650
             },
             "Size": {
                 "X": 0,
@@ -79343,8 +79337,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 563,
-                "Y": 481
+                "X": 1250,
+                "Y": 500
             },
             "Size": {
                 "X": 0,
@@ -79367,7 +79361,7 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 754,
+                "X": 1450,
                 "Y": 350
             },
             "Size": {
@@ -79391,8 +79385,8 @@
                 "RowName": "Settlement_Hub"
             },
             "Position": {
-                "X": 970,
-                "Y": 268
+                "X": 1650,
+                "Y": 250
             },
             "Size": {
                 "X": 0,

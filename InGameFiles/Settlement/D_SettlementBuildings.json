@@ -13,6 +13,7 @@
             "RowName": "None",
             "DataTableName": "D_Talents"
         },
+        "UpgradesTo": [],
         "ConstructionTime": 60,
         "BoundaryBuildRule": "BuildWithinSettlement",
         "ItemConstructionCost": [],
@@ -42,7 +43,7 @@
             "Name": "House",
             "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"House-BuildingName\", \"Quarters\")",
             "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"House-BuildingDescription\", \"Houses two Settlers. Settlers with a home are happier.\")",
-            "Mesh": "/Game/ASS/DEP/Settlement_Quarters/SM_DEP_Settlement_Quarters_TEST.SM_DEP_Settlement_Quarters_TEST",
+            "Mesh": "/Game/ASS/DEP/Settlement_Quarters/SM_DEP_Settlement_Quarters_T1.SM_DEP_Settlement_Quarters_T1",
             "BuildingStats": {
                 "(Value=\"BaseSettlementHousing_+\")": 2
             },
@@ -59,6 +60,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Residence"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Quarters_II",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "ItemConstructionCost": [
                 {
                     "Element": {
@@ -119,6 +126,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Stockpile"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Stockpile_II",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "ItemConstructionCost": [
                 {
                     "Element": {
@@ -155,7 +168,7 @@
             "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"Watchtower-BuildingName\", \"Watch Tower\")",
             "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"Watchtower-BuildingDescription\", \"Early warning against attacks. One assigned Guard watches over the settlement.\")",
             "BuildingClass": "BlueprintGeneratedClass'/Game/BP/Settlement/Buildings/BP_SettlementBuilding_Watchtower.BP_SettlementBuilding_Watchtower_C'",
-            "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Watchtower_Blocking.SM_COL_Watchtower_Blocking",
+            "Mesh": "/Game/ASS/DEP/Settlement_WatchTower/SM_DEP_Settlement_WatchTower_T1.SM_DEP_Settlement_WatchTower_T1",
             "BuildingStats": {
                 "(Value=\"BaseSettlementDefense_+\")": 15
             },
@@ -169,6 +182,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Watchtower"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Barracks",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "ItemConstructionCost": [
                 {
                     "Element": {
@@ -231,6 +250,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Watertower"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Water_Purifier",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "ItemConstructionCost": [
                 {
                     "Element": {
@@ -288,6 +313,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Medical"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Clinic",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "ItemConstructionCost": [
                 {
                     "Element": {
@@ -366,6 +397,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Forge"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Alloy_Furnace",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "ConstructionTime": 120,
             "ItemConstructionCost": [
                 {
@@ -448,6 +485,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Sawmill"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Workshop",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "ItemConstructionCost": [
                 {
                     "Element": {
@@ -592,6 +635,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Workshop"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Fabrication_Bay",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "ConstructionTime": 120,
             "ItemConstructionCost": [
                 {
@@ -735,6 +784,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Generator"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Reactor",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "ConstructionTime": 120,
             "ItemConstructionCost": [
                 {
@@ -803,6 +858,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Farm"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Greenhouse",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "BoundaryBuildRule": "BuildAnywhere",
             "ItemConstructionCost": [
                 {
@@ -882,6 +943,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Mine"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Deep_Mine",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "BoundaryBuildRule": "BuildOutsideSettlement",
             "ItemConstructionCost": [
                 {
@@ -1024,6 +1091,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Warehouse"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Stockpile_III",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "ConstructionTime": 120,
             "ItemConstructionCost": [
                 {
@@ -1183,6 +1256,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_WaterPurifier"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Electric_Pump",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "ConstructionTime": 120,
             "ItemConstructionCost": [
                 {
@@ -1308,6 +1387,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Quarters_2"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Quarters_III",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "ConstructionTime": 120,
             "ItemConstructionCost": [
                 {
@@ -1414,6 +1499,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Greenhouse"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Hydroponics",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "ConstructionTime": 120,
             "ItemConstructionCost": [
                 {
@@ -1614,7 +1705,7 @@
             "Name": "Kitchen",
             "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"Kitchen-BuildingName\", \"Kitchen\")",
             "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"Kitchen-BuildingDescription\", \"Prepares Produce from crops and meat.\")",
-            "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Housing_Blocking.SM_COL_Housing_Blocking",
+            "Mesh": "/Game/ASS/DEP/Settlement_Kitchen/SM_DEP_Settlement_Kitchen_T1.SM_DEP_Settlement_Kitchen_T1",
             "BuildingStats": {
                 "(Value=\"BaseSettlementProduceProduction_+\")": 1
             },
@@ -1628,6 +1719,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Kitchen"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Mess_Hall",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "ItemConstructionCost": [
                 {
                     "Element": {
@@ -1689,6 +1786,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_MessHall"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Cafeteria",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "ConstructionTime": 120,
             "ItemConstructionCost": [
                 {
@@ -1814,6 +1917,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Clinic"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Infirmary",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "ConstructionTime": 120,
             "ItemConstructionCost": [
                 {
@@ -2109,6 +2218,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_HuntingHut"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Hunting_Lodge",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "BoundaryBuildRule": "BuildOutsideSettlement",
             "ItemConstructionCost": [
                 {
@@ -2299,6 +2414,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_OxygenGenerator"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Atmosphere_Plant",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "ConstructionTime": 120,
             "ItemConstructionCost": [
                 {
@@ -2420,6 +2541,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_Decomposer"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Bioprocessor",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "ConstructionTime": 120,
             "ItemConstructionCost": [
                 {
@@ -2703,6 +2830,12 @@
             "RequiredTalent": {
                 "RowName": "Settlement_Hub_TradingPost"
             },
+            "UpgradesTo": [
+                {
+                    "RowName": "Marketplace",
+                    "DataTableName": "D_SettlementBuildings"
+                }
+            ],
             "ConstructionTime": 120,
             "ItemConstructionCost": [
                 {

@@ -1,0 +1,65 @@
+{
+    "RowStruct": "/Script/Icarus.FacePresetData",
+    "Defaults": {
+        "TopFaceShape": "None",
+        "TopFaceBlendValue": 0,
+        "BottomFaceShape": "None",
+        "BottomFaceBlendValue": 0,
+        "LeftFaceShape": "None",
+        "LeftFaceBlendValue": 0,
+        "RightFaceShape": "None",
+        "RightFaceBlendValue": 0
+    },
+    "Rows": [
+        {
+            "Name": "FacePreset_1",
+            "TopFaceShape": "FaceShape_Round",
+            "BottomFaceShape": "FaceShape_Square",
+            "LeftFaceShape": "FaceShape_Heart",
+            "RightFaceShape": "FaceShape_Narrow"
+        },
+        {
+            "Name": "FacePreset_2",
+            "TopFaceShape": "FaceShape_Heart",
+            "BottomFaceShape": "FaceShape_Round",
+            "LeftFaceShape": "FaceShape_Square",
+            "RightFaceShape": "FaceShape_Narrow"
+        },
+        {
+            "Name": "FacePreset_3",
+            "TopFaceShape": "FaceShape_Square",
+            "BottomFaceShape": "FaceShape_Round",
+            "LeftFaceShape": "FaceShape_Pear",
+            "RightFaceShape": "FaceShape_Triangle"
+        },
+        {
+            "Name": "FacePreset_4",
+            "TopFaceShape": "FaceShape_Triangle",
+            "BottomFaceShape": "FaceShape_Heart",
+            "LeftFaceShape": "FaceShape_Square",
+            "RightFaceShape": "FaceShape_Pear"
+        },
+        {
+            "Name": "FacePreset_5",
+            "TopFaceShape": "FaceShape_Narrow",
+            "BottomFaceShape": "FaceShape_Square",
+            "LeftFaceShape": "FaceShape_Pear",
+            "RightFaceShape": "FaceShape_Heart"
+        },
+        {
+            "Name": "FacePreset_6",
+            "TopFaceShape": "FaceShape_Triangle",
+            "TopFaceBlendValue": 1.1009999513626099,
+            "BottomFaceShape": "FaceShape_Heart",
+            "LeftFaceShape": "FaceShape_Square",
+            "LeftFaceBlendValue": 0.024000000208616257,
+            "RightFaceShape": "FaceShape_Pear"
+        },
+        {
+            "Name": "FacePreset_7",
+            "BottomFaceShape": "FaceShape_Heart",
+            "BottomFaceBlendValue": 1.25,
+            "RightFaceShape": "FaceShape_Pear"
+        }
+    ]
+}

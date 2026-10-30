@@ -5114,6 +5114,18 @@
                 "ModifierLifetime": 1800
             },
             "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Meta_Frag_Larkwell_Set",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Meta_Frag_Larkwell_Set_x10",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
         }
     ]
 }

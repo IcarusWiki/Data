@@ -115,6 +115,9 @@
             "MaxNumAroundPlayers": 2,
             "MaxSpawnCount": 5,
             "MaxDistanceToPlayers": 30000,
+            "GameplayTagsToApply": {
+                "GameplayTags": []
+            },
             "RequiredStat": {
                 "Value": "WorldJuvenileRockGolemWorldSpawn_?"
             },
@@ -127,6 +130,9 @@
             "MaxNumAroundPlayers": 2,
             "MaxSpawnCount": 5,
             "MaxDistanceToPlayers": 30000,
+            "GameplayTagsToApply": {
+                "GameplayTags": []
+            },
             "RequiredStat": {
                 "Value": "WorldJuvenileRockGolemDesertSpawn_?"
             },
@@ -139,6 +145,9 @@
             "MaxNumAroundPlayers": 2,
             "MaxSpawnCount": 5,
             "MaxDistanceToPlayers": 30000,
+            "GameplayTagsToApply": {
+                "GameplayTags": []
+            },
             "RequiredStat": {
                 "Value": "WorldJuvenileRockGolemWorldSpawn_?"
             },
@@ -151,6 +160,9 @@
             "MaxNumAroundPlayers": 2,
             "MaxSpawnCount": 5,
             "MaxDistanceToPlayers": 30000,
+            "GameplayTagsToApply": {
+                "GameplayTags": []
+            },
             "RequiredStat": {
                 "Value": "WorldJuvenileApeForestSpawn_?"
             },
@@ -163,6 +175,9 @@
             "MaxNumAroundPlayers": 2,
             "MaxSpawnCount": 2,
             "MaxDistanceToPlayers": 30000,
+            "GameplayTagsToApply": {
+                "GameplayTags": []
+            },
             "RequiredStat": {
                 "Value": "WorldJuvenileApeForestPoisonSpawn_?"
             },
@@ -175,6 +190,9 @@
             "MaxNumAroundPlayers": 2,
             "MaxSpawnCount": 5,
             "MaxDistanceToPlayers": 30000,
+            "GameplayTagsToApply": {
+                "GameplayTags": []
+            },
             "RequiredStat": {
                 "Value": "WorldJuvenileApeDesertSpawn_?"
             },
@@ -187,6 +205,9 @@
             "MaxNumAroundPlayers": 2,
             "MaxSpawnCount": 5,
             "MaxDistanceToPlayers": 30000,
+            "GameplayTagsToApply": {
+                "GameplayTags": []
+            },
             "RequiredStat": {
                 "Value": "WorldJuvenileApeArcticSpawn_?"
             },
@@ -209,6 +230,9 @@
             "AISpawnBehaviour": "/Game/BP/AI/SpawnBehaviours/BP_AISpawnBehaviour_AroundPlayers_GroundSpawner_Spawners.BP_AISpawnBehaviour_AroundPlayers_GroundSpawner_Spawners_C",
             "MaxNumAroundPlayers": 1,
             "MaxSpawnCount": 3,
+            "GameplayTagsToApply": {
+                "GameplayTags": []
+            },
             "RequiredStat": {
                 "Value": "WorldSnowSlugSpawn_?"
             },

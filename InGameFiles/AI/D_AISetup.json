@@ -29651,6 +29651,9 @@
                 ],
                 "AutoDescription": " ANY( GOAP.Food.Carnivore.Bait )"
             },
+            "Trophy": {
+                "RowName": "SulfurWorm_Head"
+            },
             "Loot": {
                 "RowName": "SulfurWorm_Loot"
             },
@@ -29699,6 +29702,9 @@
                     0
                 ],
                 "AutoDescription": " ANY( GOAP.Food.Carnivore.Bait )"
+            },
+            "Trophy": {
+                "RowName": "SulfurWorm_Head"
             },
             "Loot": {
                 "RowName": "SulfurWorm_Loot"
@@ -29749,6 +29755,9 @@
                 ],
                 "AutoDescription": " ANY( GOAP.Food.Carnivore.Bait )"
             },
+            "Trophy": {
+                "RowName": "SulfurWorm_Head"
+            },
             "Loot": {
                 "RowName": "SulfurWorm_Loot"
             },
@@ -29797,6 +29806,9 @@
                     0
                 ],
                 "AutoDescription": " ANY( GOAP.Food.Carnivore.Bait )"
+            },
+            "Trophy": {
+                "RowName": "SulfurWorm_Head"
             },
             "Loot": {
                 "RowName": "SulfurWorm_Loot"
@@ -32646,6 +32658,9 @@
                     0
                 ],
                 "AutoDescription": " ANY( GOAP.Food.Carnivore.Bait )"
+            },
+            "Trophy": {
+                "RowName": "Geothermal_Bat_Head"
             },
             "Loot": {
                 "RowName": "SulfurBatNest_Loot"

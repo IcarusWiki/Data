@@ -967,13 +967,11 @@
         {
             "Name": "Interact_Settlement_NPC",
             "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_SettlementNPC.BP_Interactable_SettlementNPC_C",
-            "AuthorityType": "ClientOnly",
             "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Settlement_NPC-InteractionText\", \"Talk To\")"
         },
         {
             "Name": "Interact_Settlement_NPC_Visitor",
             "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_SettlementNPC_Visitor.BP_Interactable_SettlementNPC_Visitor_C",
-            "AuthorityType": "ClientOnly",
             "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Settlement_NPC_Visitor-InteractionText\", \"Greet\")"
         },
         {

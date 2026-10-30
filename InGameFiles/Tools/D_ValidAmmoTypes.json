@@ -914,6 +914,10 @@
                 {
                     "RowName": "Launcher_Ammo_Rudimentary_Smoke",
                     "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Meta_Frag_Larkwell",
+                    "DataTableName": "D_ItemsStatic"
                 }
             ],
             "Description": "NSLOCTEXT(\"D_ValidAmmoTypes\", \"AllLauncher-Description\", \"Grenades/Flares\")"
