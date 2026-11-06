@@ -5304,7 +5304,7 @@
         {
             "Name": "STYX_D_Research_Analyzer_Activate",
             "Class": "/Game/BP/Quests/Styx/D/Research/BPQ_STYX_D_Research_Analyzer_Activate.BPQ_STYX_D_Research_Analyzer_Activate_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Research_Analyzer_Activate-Description\", \"Power the Analyzer and Place the Egg inside\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Research_Analyzer_Activate-Description\", \"Power the Analyzer up First, then Place the Egg inside\")"
         },
         {
             "Name": "STYX_D_Research_Analyzer_Progress",
@@ -6550,7 +6550,7 @@
             "Name": "OLY_Forest_WS_Stockpile_List_1",
             "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_List.BPQ_OLY_Forest_WS_Stockpile_List_C",
             "Variation": 2,
-            "Description": "INVTEXT(\"[DNT] Smelt Ores and Stock the Pod\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_List_1-Description\", \"Smelt Ores and Stock the Pod\")"
         },
         {
             "Name": "OLY_Forest_WS_Stockpile_Ship",
@@ -6607,13 +6607,13 @@
         },
         {
             "Name": "OLY_Forest_WS_Stockpile_Iron_Ingot",
-            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_Deposit_Iron_Ingot.BPQ_OLY_Forest_WS_Stockpile_Deposit_Iron_Ingot_C",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_OLY_Forest_WS_Stockpile_Deposit_Iron_Ingot.BPQ_OLY_Forest_WS_Stockpile_Deposit_Iron_Ingot_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Iron_Ingot-Description\", \"<Number>({0} / {1})</> Iron Ingot\")",
-            "InfoText": "INVTEXT(\"[DNT] Smelt Ingots by Placing the Ore and Fuel in the Stone Furnace\")"
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Iron_Ingot-InfoText\", \"Smelt Ingots by Placing the Ore and Fuel in the Stone Furnace\")"
         },
         {
             "Name": "OLY_Forest_WS_Stockpile_Copper_Ingot",
-            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_Deposit_Copper_Ingot.BPQ_OLY_Forest_WS_Stockpile_Deposit_Copper_Ingot_C",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_OLY_Forest_WS_Stockpile_Deposit_Copper_Ingot.BPQ_OLY_Forest_WS_Stockpile_Deposit_Copper_Ingot_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Copper_Ingot-Description\", \"<Number>({0} / {1})</> Copper Ingot\")"
         },
         {
@@ -6626,45 +6626,17 @@
         },
         {
             "Name": "OLY_Forest_WS_Stockpile_Cave_Umbrella",
-            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Cave_Umbrella.BPQ_OLY_Forest_WS_Cave_Umbrella_C",
-            "Description": "INVTEXT(\"[DNT] Explore the Nearby Caves\")",
-            "InfoText": "INVTEXT(\"[DNT] Use Ramps or Ladders for Hard to Reach Ores\")",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_OLY_Forest_WS_Cave_Umbrella.BPQ_OLY_Forest_WS_Cave_Umbrella_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Cave_Umbrella-Description\", \"Collect Ores from the Cave\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Cave_Umbrella-InfoText\", \"Use Ramps or Ladders for Hard to Reach Ores\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_WS_Stockpile_Cave"
             }
         },
         {
-            "Name": "OLY_Forest_WS_Stockpile_Cave_Bottom",
-            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_Travel_Cave_Bottom.BPQ_OLY_Forest_WS_Stockpile_Travel_Cave_Bottom_C",
-            "Description": "INVTEXT(\"[DNT] Explore the Depths of the Cave\")",
-            "LocationQuery": {
-                "RowName": "T1_Forest_WS_Stockpile_Cave_Bottom"
-            },
-            "DialogueEvents": {
-                "QuestEnd": {
-                    "RowName": "Mission_Thunder_Cave",
-                    "DataTableName": "D_Dialogue"
-                }
-            }
-        },
-        {
-            "Name": "OLY_Forest_WS_Stockpile_Find_Hut",
-            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_Find_Hut_New.BPQ_OLY_Forest_WS_Stockpile_Find_Hut_New_C",
-            "Description": "INVTEXT(\"[DNT] Find the Nearby Mining Hut\")",
-            "LocationQuery": {
-                "RowName": "T1_Forest_WS_Stockpile_Hut"
-            },
-            "DialogueEvents": {
-                "QuestEnd": {
-                    "RowName": "FillerRemarkSuspicion3",
-                    "DataTableName": "D_Dialogue"
-                }
-            }
-        },
-        {
             "Name": "OLY_Forest_WS_Stockpile_Return_Hut",
             "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_TravelToHut.BPQ_OLY_Forest_WS_Stockpile_TravelToHut_C",
-            "Description": "INVTEXT(\"[DNT] Return to the Hut to Smelt Ore\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Return_Hut-Description\", \"Return to the Hut to Smelt Ore\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_WS_Stockpile_Cave_Top"
             }
@@ -6672,7 +6644,7 @@
         {
             "Name": "OLY_Forest_WS_Stockpile_Save_Hut",
             "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_Save_Hut.BPQ_OLY_Forest_WS_Stockpile_Save_Hut_C",
-            "Description": "INVTEXT(\"[DNT] Save the Hut <Number>({0}%)\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Save_Hut-Description\", \"Save the Hut <Number>({0}%)\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_WS_Stockpile_Hut"
             }
@@ -6680,16 +6652,10 @@
         {
             "Name": "OLY_Forest_WS_Stockpile_Repair_Hut",
             "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_Repair_Hut.BPQ_OLY_Forest_WS_Stockpile_Repair_Hut_C",
-            "Description": "INVTEXT(\"[DNT] Put out the Fire and Repair the Hut <Number>({0}%)</>\")",
-            "InfoText": "INVTEXT(\"[DNT] Use the Waterbombs and Firewhacker Before the Fire Spreads\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Repair_Hut-Description\", \" Repair the Hut <Number>({0}%)</>\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Repair_Hut-InfoText\", \"Use the Hammer to Repair All the Walls\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_WS_Stockpile_Hut"
-            },
-            "DialogueEvents": {
-                "QuestStart": {
-                    "RowName": "GENERIC_SOL_WHATTHE",
-                    "DataTableName": "D_Dialogue"
-                }
             }
         },
         {
@@ -21845,7 +21811,7 @@
             "Name": "ELY_SQ_Courier_Craft",
             "Class": "/Game/BP/Quests/Elysium/SideQuests/Courier/BPQ_ELY_SQ_Courier_Craft.BPQ_ELY_SQ_Courier_Craft_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"ELY_SQ_Courier_Craft-Description\", \"Craft Items to Repair the Drone\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"ELY_SQ_Courier_Craft-InfoText\", \"All drone parts can be crafted on the Manufacturer (T5)\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"ELY_SQ_Courier_Craft-InfoText\", \"All Drone Parts can be Crafted on the Manufacturer (T5)\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -21886,7 +21852,7 @@
             "Name": "ELY_SQ_Courier_Fix",
             "Class": "/Game/BP/Quests/Elysium/SideQuests/Courier/BPQ_ELY_SQ_Courier_Fix.BPQ_ELY_SQ_Courier_Fix_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"ELY_SQ_Courier_Fix-Description\", \"Get the UDA Transport Drone Functional\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"ELY_SQ_Courier_Fix-InfoText\", \"Remember to bring an Electricity Tool To Jump-Start the Drone\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"ELY_SQ_Courier_Fix-InfoText\", \"Remember to bring an Electricity Tool Along with the Power Generator to Jump-Start the Drone\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -21972,7 +21938,7 @@
             "Name": "ELY_SQ_Courier_Fix_Charge_Percent",
             "Class": "/Game/BP/Quests/Elysium/SideQuests/Courier/BPQ_ELY_SQ_Courier_Fix_Charge_Percent.BPQ_ELY_SQ_Courier_Fix_Charge_Percent_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"ELY_SQ_Courier_Fix_Charge_Percent-Description\", \"Charge <Number>({0}%)</>\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"ELY_SQ_Courier_Fix_Charge_Percent-InfoText\", \"Connect the Drone to Power to Provide it Enough Power to Jump-Start it.\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"ELY_SQ_Courier_Fix_Charge_Percent-InfoText\", \"Connect the Drone to Power to Provide it Enough Power to Jump-Start It\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -21993,7 +21959,7 @@
             "Name": "ELY_SQ_Courier_Escort",
             "Class": "/Game/BP/Quests/Elysium/SideQuests/Courier/BPQ_ELY_SQ_Courier_Escort.BPQ_ELY_SQ_Courier_Escort_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"ELY_SQ_Courier_Escort-Description\", \"Escort the UDA Transport Drone to the Forward Base\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"ELY_SQ_Courier_Escort-InfoText\", \"Be prepared to defend the drone from hostiles\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"ELY_SQ_Courier_Escort-InfoText\", \"Be Prepared to Defend the Drone from Hostiles\")",
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "DangerousHorizons"
@@ -22801,23 +22767,16 @@
         },
         {
             "Name": "Oly_Forest_WS_Stockpile_Collect_Items",
-            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_Oly_Forest_WS_Stockpile_Collect.BPQ_Oly_Forest_WS_Stockpile_Collect_C",
-            "Description": "INVTEXT(\"[DNT] Collect Items Left Behind in the Hut\")",
-            "LocationQuery": {
-                "RowName": "T1_Forest_WS_Stockpile_Hut"
-            }
-        },
-        {
-            "Name": "Oly_Forest_WS_Stockpile_Collect_Firewhacker",
-            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_Oly_Forest_WS_Stockpile_Collect_Firewhacker.BPQ_Oly_Forest_WS_Stockpile_Collect_Firewhacker_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Collect_Firewhacker-Description\", \"<Number>({0} / {1})</> Firewhacker\")",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_Oly_Forest_WS_Stockpile_Collect.BPQ_Oly_Forest_WS_Stockpile_Collect_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Collect_Items-Description\", \"Collect Items Left Behind\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Collect_Items-InfoText\", \"Certain Foods, Drinks, and Medicines Will Greatly Assist Mining Endeavors\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_WS_Stockpile_Hut"
             }
         },
         {
             "Name": "Oly_Forest_WS_Stockpile_Collect_Hammer",
-            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_Oly_Forest_WS_Stockpile_Collect_Hammer.BPQ_Oly_Forest_WS_Stockpile_Collect_Hammer_C",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_Oly_Forest_WS_Stockpile_Collect_Hammer.BPQ_Oly_Forest_WS_Stockpile_Collect_Hammer_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Collect_Hammer-Description\", \"<Number>({0} / {1})</> Repair Hammer\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_WS_Stockpile_Hut"
@@ -22825,7 +22784,7 @@
         },
         {
             "Name": "Oly_Forest_WS_Stockpile_Collect_Pickaxes",
-            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_Oly_Forest_WS_Stockpile_Collect_Pickaxes.BPQ_Oly_Forest_WS_Stockpile_Collect_Pickaxes_C",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_Oly_Forest_WS_Stockpile_Collect_Pickaxes.BPQ_Oly_Forest_WS_Stockpile_Collect_Pickaxes_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Collect_Pickaxes-Description\", \"<Number>({0} / {1})</> Pickaxe\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_WS_Stockpile_Hut"
@@ -22833,16 +22792,15 @@
         },
         {
             "Name": "Oly_Forest_WS_Stockpile_Collect_OptionalItems",
-            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_Oly_Forest_WS_Stockpile_Collect_OptionalItems.BPQ_Oly_Forest_WS_Stockpile_Collect_OptionalItems_C",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_Oly_Forest_WS_Stockpile_Collect_OptionalItems.BPQ_Oly_Forest_WS_Stockpile_Collect_OptionalItems_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Collect_OptionalItems-Description\", \"(Optional) Collect Other Items in the Hut\")",
-            "InfoText": "INVTEXT(\"[DNT] Vaccines and Certain Foods can Prevent Ailments in the Cave\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_WS_Stockpile_Hut"
             }
         },
         {
             "Name": "Oly_Forest_WS_Stockpile_Craft_Pickaxe",
-            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_Oly_Forest_WS_Stockpile_Craft_Pickaxe.BPQ_Oly_Forest_WS_Stockpile_Craft_Pickaxe_C",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_Oly_Forest_WS_Stockpile_Craft_Pickaxe.BPQ_Oly_Forest_WS_Stockpile_Craft_Pickaxe_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Craft_Pickaxe-Description\", \"Craft a Pickaxe\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_WS_Stockpile_Hut"
@@ -22850,7 +22808,7 @@
         },
         {
             "Name": "Oly_Forest_WS_Stockpile_Craft_Torch",
-            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_Oly_Forest_WS_Stockpile_Craft_Torch.BPQ_Oly_Forest_WS_Stockpile_Craft_Torch_C",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_Oly_Forest_WS_Stockpile_Craft_Torch.BPQ_Oly_Forest_WS_Stockpile_Craft_Torch_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Craft_Torch-Description\", \"Craft a Wood Rag Torch\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_WS_Stockpile_Hut"
@@ -22858,18 +22816,18 @@
         },
         {
             "Name": "Oly_Forest_WS_Stockpile_Craft_Weapon",
-            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_Oly_Forest_WS_Stockpile_Craft_Weapon.BPQ_Oly_Forest_WS_Stockpile_Craft_Weapon_C",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_Oly_Forest_WS_Stockpile_Craft_Weapon.BPQ_Oly_Forest_WS_Stockpile_Craft_Weapon_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Craft_Weapon-Description\", \"(Optional) Craft Any Weapon\")",
-            "InfoText": "INVTEXT(\"[DNT] Spears are Particularly Useful in Caves\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Craft_Weapon-InfoText\", \"Spears are Particularly Useful in Caves\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_WS_Stockpile_Hut"
             }
         },
         {
             "Name": "Oly_Forest_WS_Stockpile_Craft",
-            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_Oly_Forest_WS_Stockpile_Craft.BPQ_Oly_Forest_WS_Stockpile_Craft_C",
-            "Description": "INVTEXT(\"[DNT] Prepare Spelunking Equipment\")",
-            "InfoText": "INVTEXT(\"[DNT] Unlock Blueprints ([Tech]) if Needed and Craft in the Crafting Menu ([Crafting]) \")",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_Oly_Forest_WS_Stockpile_Craft.BPQ_Oly_Forest_WS_Stockpile_Craft_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Craft-Description\", \"Prepare Spelunking Equipment\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Craft-InfoText\", \"Unlock Blueprints ([Tech]) if Needed and Craft in the Crafting Menu ([Crafting]) \")",
             "LocationQuery": {
                 "RowName": "T1_Forest_WS_Stockpile_Hut"
             }
@@ -22877,8 +22835,8 @@
         {
             "Name": "Oly_Forest_WS_Stockpile_Collect_Surface_Ore",
             "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_Oly_Forest_WS_Stockpile_Collect_Surface_Ore.BPQ_Oly_Forest_WS_Stockpile_Collect_Surface_Ore_C",
-            "Description": "INVTEXT(\"[DNT] Collect Ores from the Surface\")",
-            "InfoText": "INVTEXT(\"[DNT] Ores are Best Found Near Mountainsides and in Canyons \")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Collect_Surface_Ore-Description\", \"Collect Ores from the Surface\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Collect_Surface_Ore-InfoText\", \"Ores are Best Found Near Mountainsides and in Canyons \")",
             "LocationQuery": {
                 "RowName": "T1_Forest_Stockpile_Ship1"
             }
@@ -22897,6 +22855,136 @@
             "Name": "Oly_Forest_WS_Stockpile_Collect_Sulfur",
             "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_Collect_Sulfur.BPQ_OLY_Forest_WS_Stockpile_Collect_Sulfur_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Collect_Sulfur-Description\", \"Collect Sulfur <Number>({0} / {1})</>\")"
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_Salt",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_OLY_Forest_WS_Stockpile_Deposit_Salt.BPQ_OLY_Forest_WS_Stockpile_Deposit_Salt_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Salt-Description\", \"<Number>({0} / {1})</> Salt\")"
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_Sulfur2",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_OLY_Forest_WS_Stockpile_Deposit_Sulfur2.BPQ_OLY_Forest_WS_Stockpile_Deposit_Sulfur2_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Sulfur2-Description\", \"<Number>({0} / {1})</> Sulfur\")"
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_Silica2",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_OLY_Forest_WS_Stockpile_Deposit_Silica2.BPQ_OLY_Forest_WS_Stockpile_Deposit_Silica2_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Silica2-Description\", \"<Number>({0} / {1})</> Silica Ore\")"
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_List2",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_OLY_Forest_WS_Stockpile_List2.BPQ_OLY_Forest_WS_Stockpile_List2_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_List2-Description\", \"Collect Surface Ores and Stock the Sinotai Retrieval Pod\")"
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_List_02",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_OLY_Forest_WS_Stockpile_List2.BPQ_OLY_Forest_WS_Stockpile_List2_C",
+            "Variation": 1,
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_List_02-Description\", \"Collect Ores from Inside Nearby Caves\")"
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_List_12",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_OLY_Forest_WS_Stockpile_List2.BPQ_OLY_Forest_WS_Stockpile_List2_C",
+            "Variation": 2,
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_List_12-Description\", \"Smelt Ores and Stock the Sinotai Retrieval Pod\")"
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_Ship2",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_OLY_Forest_WS_Stockpile_Ship2.BPQ_OLY_Forest_WS_Stockpile_Ship2_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Ship2-Description\", \"Find the Last Prospector\\'s Mining Hut\")"
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_Ship_Delivery",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_OLY_Forest_WS_Stockpile_Ship_Delivery.BPQ_OLY_Forest_WS_Stockpile_Ship_Delivery_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Ship_Delivery-Description\", \"Stock the Pod as Requested by the Workshop Team\")"
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile2",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_OLY_Forest_WS_Stockpile2.BPQ_OLY_Forest_WS_Stockpile2_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile2-Description\", \"STOCKPILE: Assisted Ore Recovery\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_MapIcon"
+            }
+        },
+        {
+            "Name": "Oly_Forest_WS_Stockpile_Collect_HoneyBar",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_Oly_Forest_WS_Stockpile_Collect_Honeybar.BPQ_Oly_Forest_WS_Stockpile_Collect_HoneyBar_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Collect_HoneyBar-Description\", \"Collect Honeycomb Bars <Number>({0} / {1})</>\")"
+        },
+        {
+            "Name": "Oly_Forest_WS_Stockpile_Collect_HoneyTea",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_Oly_Forest_WS_Stockpile_Collect_HoneyTea.BPQ_Oly_Forest_WS_Stockpile_Collect_HoneyTea_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Collect_HoneyTea-Description\", \"Collect Honey Tea Waterskin\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Collect_HoneyTea-InfoText\", \"Check the Wall, Crate, and Campfire for Items\")"
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_Find_Hut",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile/BPQ_OLY_Forest_WS_Stockpile_Find_Hut_New.BPQ_OLY_Forest_WS_Stockpile_Find_Hut_New_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Find_Hut-Description\", \"Find the Hut at Location Alpha ([Map])\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Hut"
+            },
+            "DialogueEvents": {
+                "QuestEnd": {
+                    "RowName": "Spelunking_Hut_Arrive",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_Loot_Prospector",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_Oly_Forest_WS_Stockpile_Loot_Prospector.BPQ_Oly_Forest_WS_Stockpile_Loot_Prospector_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Loot_Prospector-Description\", \"Loot the Fallen Prospector\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Dead_Prospector"
+            }
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_Loot_Prospector_OptionalItems",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_Oly_Forest_WS_Stockpile_Loot_Prospector_OptionalItems.BPQ_Oly_Forest_WS_Stockpile_Loot_Prospector_OptionalItems_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Loot_Prospector_OptionalItems-Description\", \"(Optional) Loot Other Items\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Dead_Prospector"
+            }
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_Loot_Prospector_Loot_Prospector_Pickaxe",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_Oly_Forest_WS_Stockpile_Collect_Pickaxes.BPQ_Oly_Forest_WS_Stockpile_Collect_Pickaxes_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Loot_Prospector_Loot_Prospector_Pickaxe-Description\", \"<Number>({0} / {1})</> Iron Pickaxe\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Dead_Prospector"
+            }
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_Loot_Prospector_Loot_Prospector_Backpack",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_Oly_Forest_WS_Stockpile_Collect_Backpack.BPQ_Oly_Forest_WS_Stockpile_Collect_Backpack_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Loot_Prospector_Loot_Prospector_Backpack-Description\", \"<Number>({0} / {1})</> Backpack\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Dead_Prospector"
+            }
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_Cave2",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_OLY_Forest_WS_Cave_2.BPQ_OLY_Forest_WS_Cave_2_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Cave2-Description\", \"Find the Entrance to the Cave Outside of the Hut\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Cave"
+            }
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile_Cave_Bottom",
+            "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_OLY_Forest_WS_Stockpile_Travel_Cave_Bottom.BPQ_OLY_Forest_WS_Stockpile_Travel_Cave_Bottom_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Cave_Bottom-Description\", \"Explore the Cave\")",
+            "InfoText": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_WS_Stockpile_Cave_Bottom-InfoText\", \"Recent Tremors May Have Caused a Cave-In, Mine Through the Stone to Gain Access\")",
+            "LocationQuery": {
+                "RowName": "T1_Forest_WS_Stockpile_Cave_Top"
+            },
+            "DialogueEvents": {
+                "QuestEnd": {
+                    "RowName": "Spelunking_Dead_Prospector",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
         }
     ]
 }

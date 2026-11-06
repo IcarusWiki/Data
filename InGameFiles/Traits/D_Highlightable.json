@@ -1688,6 +1688,16 @@
             "Name": "DragonFly_Geothermal_Nest",
             "DisplayName": "INVTEXT(\"[DNT] Geothermal Venomfly Nest\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"DragonFly_Geothermal_Nest-Description\", \"A nest full of Venomflies. Be Careful.\")"
+        },
+        {
+            "Name": "Dead_Miner_Low_Tech",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Dead_Miner_Low_Tech-DisplayName\", \"Fallen Prospector\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Dead_Miner_Low_Tech-Description\", \"Another Prospector that underestimated the perils of spelunking.\")"
+        },
+        {
+            "Name": "Dead_Caveworm",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Dead_Caveworm-DisplayName\", \"Caveworm Carcass\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Dead_Caveworm-Description\", \"The remains of a very territorial creature.\")"
         }
     ]
 }

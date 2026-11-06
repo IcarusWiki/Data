@@ -27018,6 +27018,41 @@
             "Speaker": {
                 "RowName": "None"
             }
+        },
+        {
+            "Name": "Spelunking_Hut_Arrive",
+            "Audio": "/Game/FMOD/Events/Dialogue/GENERIC/DIALOGUE_SPELUNKING_FIX.DIALOGUE_SPELUNKING_FIX",
+            "Delay": 2,
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"Spelunking_Hut_Arrive-Text-0\", \"Someone has definitely been through here recently, looks a little worse for wear - fixable!\")"
+            ],
+            "bUseSubtitleOverrides": true,
+            "SubtitleOverrides": [
+                {
+                    "OverrideLength": 0,
+                    "SpeakerOverride": {
+                        "RowName": "None",
+                        "DataTableName": "D_DialogueSpeaker"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Spelunking_Dead_Prospector",
+            "Audio": "/Game/FMOD/Events/Dialogue/GENERIC/DIALOGUE_SPELUNKING_DEAD_PROSPECTOR.DIALOGUE_SPELUNKING_DEAD_PROSPECTOR",
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"Spelunking_Dead_Prospector-Text-0\", \"Damn, that\\'s a shame! Looks like this prospector wasn\\'t so lucky.\")"
+            ],
+            "bUseSubtitleOverrides": true,
+            "SubtitleOverrides": [
+                {
+                    "OverrideLength": 0,
+                    "SpeakerOverride": {
+                        "RowName": "None",
+                        "DataTableName": "D_DialogueSpeaker"
+                    }
+                }
+            ]
         }
     ]
 }

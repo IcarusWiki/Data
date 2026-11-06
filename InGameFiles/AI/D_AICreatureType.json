@@ -272,7 +272,7 @@
             "Name": "Woolly_Mammoth",
             "CreatureName": "NSLOCTEXT(\"D_AICreatureType\", \"Woolly_Mammoth-CreatureName\", \"Woolly Mammoth\")",
             "Tag": {
-                "TagName": "NPC.Mammoth"
+                "TagName": "NPC.Mammoth.Arctic"
             },
             "SpawnStat": {
                 "Value": "MammothSpawnRate_+%"
@@ -291,7 +291,7 @@
             "Name": "Columbian_Mammoth",
             "CreatureName": "NSLOCTEXT(\"D_AICreatureType\", \"Columbian_Mammoth-CreatureName\", \"Columbian Mammoth\")",
             "Tag": {
-                "TagName": "NPC.Mammoth"
+                "TagName": "NPC.Mammoth.Desert"
             },
             "SpawnStat": {
                 "Value": "MammothSpawnRate_+%"

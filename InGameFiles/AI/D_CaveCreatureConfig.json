@@ -1,0 +1,55 @@
+{
+    "RowStruct": "/Script/Icarus.CaveCreatureConfig",
+    "Defaults": {
+        "CreatureActor": "None",
+        "PreviewMesh": "None",
+        "PreviewMaterial": "None",
+        "CreatureScale": {
+            "X": 1,
+            "Y": 1,
+            "Z": 1
+        }
+    },
+    "Rows": [
+        {
+            "Name": "CaveWorm",
+            "CreatureActor": "BlueprintGeneratedClass'/Game/BP/AI/Basic/Caves/BP_CRE_CaveWorm.BP_CRE_CaveWorm_C'",
+            "PreviewMesh": "StaticMesh'/Game/ASS/CRE/CaveWorm/SM_CRE_Caveworm_SpawnerPreview.SM_CRE_Caveworm_SpawnerPreview'",
+            "PreviewMaterial": "MaterialInstanceConstant'/Game/Assets/Developer/DebugMaterials/M_TransparentRed.M_TransparentRed'",
+            "CreatureScale": {
+                "X": 0.10000000149011612,
+                "Y": 0.10000000149011612,
+                "Z": 0.10000000149011612
+            }
+        },
+        {
+            "Name": "CaveBat",
+            "CreatureActor": "BlueprintGeneratedClass'/Game/BP/AI/Basic/Caves/BP_BatNest.BP_BatNest_C'",
+            "PreviewMesh": "StaticMesh'/Game/ASS/ENV/LND/Bat_Nest/SM_CRE_Bat_Nest.SM_CRE_Bat_Nest'",
+            "PreviewMaterial": "MaterialInstanceConstant'/Game/Assets/Developer/DebugMaterials/M_TransparentOrange.M_TransparentOrange'"
+        },
+        {
+            "Name": "WildBeehive",
+            "CreatureActor": "BlueprintGeneratedClass'/Game/BP/AI/Basic/Caves/BP_WildBeeHive.BP_WildBeeHive_C'",
+            "PreviewMesh": "StaticMesh'/Game/ASS/ENV/LND/Beehive_Wild_Cave/SM_LND_Beehive_Wild_Cave.SM_LND_Beehive_Wild_Cave'",
+            "PreviewMaterial": "MaterialInstanceConstant'/Game/Assets/Developer/DebugMaterials/M_TransparentGreen.M_TransparentGreen'"
+        },
+        {
+            "Name": "Spider",
+            "CreatureActor": "BlueprintGeneratedClass'/Game/BP/AI/Basic/Caves/BP_SpiderNest.BP_SpiderNest_C'",
+            "PreviewMesh": "StaticMesh'/Game/ASS/CRE/SpiderNest/SM_CRE_Spider_Nest.SM_CRE_Spider_Nest'",
+            "PreviewMaterial": "MaterialInstanceConstant'/Game/Assets/Developer/DebugMaterials/M_TransparentYellow.M_TransparentYellow'"
+        },
+        {
+            "Name": "Landshark",
+            "CreatureActor": "BlueprintGeneratedClass'/Game/BP/AI/Basic/Caves/BP_CRE_LandShark.BP_CRE_LandShark_C'",
+            "PreviewMesh": "StaticMesh'/Game/ASS/CRE/CaveWorm/SM_CRE_CaveWorm.SM_CRE_CaveWorm'",
+            "PreviewMaterial": "MaterialInstanceConstant'/Game/Assets/Developer/DebugMaterials/M_TransparentPurple.M_TransparentPurple'",
+            "CreatureScale": {
+                "X": 0.6700000166893005,
+                "Y": 0.6700000166893005,
+                "Z": 0.6700000166893005
+            }
+        }
+    ]
+}

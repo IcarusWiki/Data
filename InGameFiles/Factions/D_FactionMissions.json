@@ -4420,28 +4420,28 @@
             "MissionObjectives": [
                 {
                     "QuestRow": {
-                        "RowName": "OLY_Forest_WS_Stockpile_Ship",
+                        "RowName": "Oly_Forest_WS_Stockpile_Craft",
                         "DataTableName": "D_Quests"
                     },
                     "Depth": 0
                 },
                 {
                     "QuestRow": {
-                        "RowName": "OLY_Forest_WS_Stockpile_List",
+                        "RowName": "OLY_Forest_WS_Stockpile_Ship2",
                         "DataTableName": "D_Quests"
                     },
-                    "Depth": 1
+                    "Depth": 0
                 },
                 {
                     "QuestRow": {
-                        "RowName": "OLY_Forest_WS_Stockpile_List_0",
+                        "RowName": "OLY_Forest_WS_Stockpile_List2",
                         "DataTableName": "D_Quests"
                     },
-                    "Depth": 1
+                    "Depth": 0
                 },
                 {
                     "QuestRow": {
-                        "RowName": "OLY_Forest_WS_Stockpile_Support",
+                        "RowName": "OLY_Forest_WS_Stockpile_List_12",
                         "DataTableName": "D_Quests"
                     },
                     "Depth": 0
@@ -4465,7 +4465,7 @@
                 }
             ],
             "InitialQuest": {
-                "RowName": "OLY_Forest_WS_Stockpile"
+                "RowName": "OLY_Forest_WS_Stockpile2"
             },
             "TalentsRewarded": [
                 {
@@ -11214,6 +11214,76 @@
                     "RowName": "DangerousHorizons"
                 }
             }
+        },
+        {
+            "Name": "OLY_Forest_WS_Stockpile2",
+            "MissionObjectives": [
+                {
+                    "QuestRow": {
+                        "RowName": "OLY_Forest_WS_Stockpile_Ship2",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "OLY_Forest_WS_Stockpile_List2",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "OLY_Forest_WS_Stockpile_List_02",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                },
+                {
+                    "QuestRow": {
+                        "RowName": "OLY_Forest_WS_Stockpile_List_12",
+                        "DataTableName": "D_Quests"
+                    },
+                    "Depth": 0
+                }
+            ],
+            "Faction": {
+                "RowName": "UDA"
+            },
+            "Types": [
+                {
+                    "RowName": "Training",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Stockpile",
+                    "DataTableName": "D_MissionTypes"
+                },
+                {
+                    "RowName": "Mining",
+                    "DataTableName": "D_MissionTypes"
+                }
+            ],
+            "InitialQuest": {
+                "RowName": "OLY_Forest_WS_Stockpile2"
+            },
+            "TalentsRewarded": [
+                {
+                    "RowName": "Prospect_OLY_Forest_WS_Stockpile",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "CurrencyRewarded": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 150
+                }
+            ],
+            "AccountExperience": 50,
+            "FactionExperience": 10
         }
     ]
 }

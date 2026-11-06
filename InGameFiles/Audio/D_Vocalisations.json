@@ -4683,6 +4683,48 @@
             "Setting": {
                 "RowName": "Default"
             }
+        },
+        {
+            "Name": "ElegantHorseIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/EleGANTHORSE/SFX_CRE_VOC_ELEGANTHORSE_IDLE.SFX_CRE_VOC_ELEGANTHORSE_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "JungleHunterDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/JungleHunter/SFX_CRE_VOCAL_JUNGLEHUNTER_DEATH.SFX_CRE_VOCAL_JUNGLEHUNTER_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "JungleHunterPreAttack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/JungleHunter/SFX_CRE_VOCAL_JUNGLEHUNTER_PRE_ATTACK.SFX_CRE_VOCAL_JUNGLEHUNTER_PRE_ATTACK",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "JungleHunterFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/JungleHunter/SFX_CRE_VOCAL_JUNGLEHUNTER_FLINCH.SFX_CRE_VOCAL_JUNGLEHUNTER_FLINCH",
+            "Setting": {
+                "RowName": "Lowest"
+            }
+        },
+        {
+            "Name": "JungleHunterAggro",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/JungleHunter/SFX_CRE_VOCAL_JUNGLEHUNTER_AGGRO.SFX_CRE_VOCAL_JUNGLEHUNTER_AGGRO",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "JungleHunterIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/JungleHunter/SFX_CRE_VOCAL_JUNGLEHUNTER_IDLE.SFX_CRE_VOCAL_JUNGLEHUNTER_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
         }
     ]
 }

@@ -2204,7 +2204,7 @@
             "Name": "Hunting_Hut",
             "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"Hunting_Hut-BuildingName\", \"Hunting Hut\")",
             "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"Hunting_Hut-BuildingDescription\", \"Hunters bring back meat, bone, leather and fur.\")",
-            "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_LoggingCamp.SM_COL_LoggingCamp",
+            "Mesh": "/Game/ASS/DEP/Settlement_Hunting_Hut/SM_DEP_Settlement_Hunting_Hut.SM_DEP_Settlement_Hunting_Hut",
             "BuildingStats": {
                 "(Value=\"BaseSettlementHuntingProduction_+\")": 1
             },

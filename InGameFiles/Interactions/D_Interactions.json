@@ -1014,6 +1014,11 @@
             "Name": "Interact_Roast",
             "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Roast.BP_Interactable_Interact_Roast_C",
             "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Roast-InteractionText\", \"Take Piece\")"
+        },
+        {
+            "Name": "Interact_NPC_Trade_Creatures",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_NPC_Trade_Creatures.BP_Interactable_Interact_NPC_Trade_Creatures_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_NPC_Trade_Creatures-InteractionText\", \"Sell Creatures\")"
         }
     ]
 }

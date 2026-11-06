@@ -7222,7 +7222,7 @@
             "Base": {
                 "(Value=\"BaseMeleeDamage_+\")": 70,
                 "(Value=\"BaseMaximumHealth_+\")": 300,
-                "(Value=\"BaseNPCStompAttackRadius_+\")": 1000,
+                "(Value=\"BaseNPCAttackRadius_+\")": 1500,
                 "(Value=\"CanNPCDamageDurableActors_?\")": 1,
                 "(Value=\"CanNPCDamageVoxels_?\")": 1,
                 "(Value=\"BaseMiningRadius_+\")": 500,
@@ -7238,7 +7238,7 @@
             "Base": {
                 "(Value=\"BaseMeleeDamage_+\")": 70,
                 "(Value=\"BaseMaximumHealth_+\")": 300,
-                "(Value=\"BaseNPCStompAttackRadius_+\")": 1000,
+                "(Value=\"BaseNPCAttackRadius_+\")": 1000,
                 "(Value=\"CanNPCDamageDurableActors_?\")": 1,
                 "(Value=\"CanNPCDamageVoxels_?\")": 1,
                 "(Value=\"BaseMiningRadius_+\")": 500,
@@ -7254,7 +7254,7 @@
             "Base": {
                 "(Value=\"BaseMeleeDamage_+\")": 70,
                 "(Value=\"BaseMaximumHealth_+\")": 300,
-                "(Value=\"BaseNPCStompAttackRadius_+\")": 1000,
+                "(Value=\"BaseNPCAttackRadius_+\")": 500,
                 "(Value=\"CanNPCDamageDurableActors_?\")": 1,
                 "(Value=\"CanNPCDamageVoxels_?\")": 1,
                 "(Value=\"BaseMiningRadius_+\")": 500,

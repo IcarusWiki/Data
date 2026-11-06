@@ -239530,6 +239530,45 @@
                 ],
                 "ParentTags": []
             }
+        },
+        {
+            "Name": "PlantMinion_Ranged_Needles",
+            "Meshable": {
+                "RowName": "Mesh_PlantMinion_Ranged_Needles"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Ballistic": {
+                "RowName": "PlantMinion_Ranged_Needles"
+            },
+            "Decayable": {
+                "RowName": "Decay_02_Minutes"
+            },
+            "Audio": {
+                "RowName": "Default"
+            },
+            "CraftingExperience": 0,
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Ballistic"
+                    }
+                ],
+                "ParentTags": []
+            }
         }
     ]
 }

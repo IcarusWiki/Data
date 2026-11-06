@@ -4266,7 +4266,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Spear-DisplayName\", \"Platinum Spear\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/Spears/ITEM_Platinum_Spear.ITEM_Platinum_Spear",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Spear-Description\", \"Priceless on Earth. An advanced survival tool on Icarus.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Spear-FlavorText\", \"A midweight, short-shafted ahlspeiss spear that, composition aside, would not have looked out of place in 16th century Prussia.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Spear-FlavorText\", \"A midweight, short-shafted ahlspiess spear that, composition aside, would not have looked out of place in 16th century Prussia.\")",
             "Weight": 1000
         },
         {
@@ -9024,7 +9024,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Throwing_Spear-DisplayName\", \"Platinum Javelin\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/ThrowingWeapons/ITEM_Javelin_Platinum.ITEM_Javelin_Platinum",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Throwing_Spear-Description\", \"Priceless on Earth. A projectile on Icarus.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Throwing_Spear-FlavorText\", \"A midweight, short-shafted ahlspeiss spear that, composition aside, would not have looked out of place in 16th century Prussia.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Throwing_Spear-FlavorText\", \"A midweight, short-shafted ahlspiess spear that, composition aside, would not have looked out of place in 16th century Prussia.\")",
             "Weight": 400,
             "MaxStack": 20
         },
@@ -28394,7 +28394,7 @@
             "Name": "Item_Carbon_Fishing_Rod",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carbon_Fishing_Rod-DisplayName\", \"Carbon Fishing Rod\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ITEM_Carbon_Fishing_Rod.T_ITEM_Carbon_Fishing_Rod",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carbon_Fishing_Rod-Description\", \"High-tensile angling rod reinforced with a lightweight carbon-composite weave. Engineered to handle extreme bending strain when hooking heavy aquatic organisms native to Icarus waters.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carbon_Fishing_Rod-Description\", \"High-tensile angling rod reinforced with a lightweight carbon-composite weave.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carbon_Fishing_Rod-FlavorText\", \"Perfect for when you need a quiet afternoon away from corporate quotas and man-eating mutagens.\")",
             "Weight": 1250
         },
@@ -29143,6 +29143,7 @@
         {
             "Name": "Item_Workshop_Lantern",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Lantern-DisplayName\", \"Inaris Lantern\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Workshop_Lantern.T_ITEM_Workshop_Lantern",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Lantern-Description\", \"An LED Lantern for illuminating dark corners. Can be recharged in a Charging Station.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Lantern-FlavorText\", \"Activate with secondary fire.\")",
             "Weight": 250
@@ -29192,6 +29193,8 @@
         {
             "Name": "Item_Workshop_Dehumidifier",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Dehumidifier-DisplayName\", \"MXC Dehumidifier\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Dehumidifier-Description\", \"A handy peice of equipment that runs off of a Hydrozine canister. Supports extended cave habitation by providing protection against cavern-dwelling parasites.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Dehumidifier-FlavorText\", \"The gas used by this appliance seems to smell faintly of wet socks, but the trade off is worth it.\")",
             "Weight": 20000
         },
         {
@@ -29307,6 +29310,21 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Moa.ITEM_AnimalCarcass_Moa",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Stomper_Juvenile-Description\", \"A juvenile Stomper which never quite made it to full adulthood.\")",
             "Weight": 3500
+        },
+        {
+            "Name": "Item_NPC_Rancher",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_NPC_Rancher-DisplayName\", \"Ranching Director Mills\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_NPC_Hunter.T_Icon_Map_NPC_Hunter",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_NPC_Rancher-Description\", \"A Rogue Prospector who will buy and trade creatures and their products.\")",
+            "Weight": 20000
+        },
+        {
+            "Name": "Item_Fertility_Serum_Mammoth_Arctic",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fertility_Serum_Mammoth_Arctic-DisplayName\", \"Woolly Mammoth Fertility Serum\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fertility_Serum_Mammoth_Arctic-Description\", \"Primes a Male Woolly Mammoth for mating. Once primed, will seek out and fertilize a nearby Female Woolly Mammoth.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fertility_Serum_Mammoth_Arctic-FlavorText\", \"Husbandry has come to Icarus\")",
+            "Weight": 50,
+            "MaxStack": 10
         }
     ]
 }

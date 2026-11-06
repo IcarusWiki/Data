@@ -12108,6 +12108,16 @@
                 }
             ],
             "EffectedByWeather": false
+        },
+        {
+            "Name": "NPC_Rancher",
+            "Variants": [
+                {
+                    "RowName": "NPC_Rancher",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
         }
     ]
 }

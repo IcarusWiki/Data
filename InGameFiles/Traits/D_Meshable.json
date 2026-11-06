@@ -6734,6 +6734,11 @@
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Kangaroo_Arctic_Corpse.BP_Kangaroo_Arctic_Corpse_C",
             "EquipHandMesh": "/Game/ASS/CRE/Striker/SK_CRE_Striker.SK_CRE_Striker",
             "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Kangaroo_Arctic_Corpse.BP_Kangaroo_Arctic_Corpse_C"
+        },
+        {
+            "Name": "Mesh_PlantMinion_Ranged_Needles",
+            "ItemMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "ItemActor": "/Game/BP/AI/Bosses/Misc/BP_PlantMinion_Ranged_Needles.BP_PlantMinion_Ranged_Needles_C"
         }
     ]
 }

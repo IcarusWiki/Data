@@ -1424,7 +1424,7 @@
         },
         {
             "Name": "Hair_Color_New_1",
-            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_1-DisplayName\", \"Brown\")",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_1-DisplayName\", \"Dark Brown\")",
             "Category": "HairColorV2",
             "BodyType": "Neutral",
             "Color": [
@@ -1445,7 +1445,7 @@
         },
         {
             "Name": "Hair_Color_New_2",
-            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_2-DisplayName\", \"Red\")",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_2-DisplayName\", \"Sepia\")",
             "Category": "HairColorV2",
             "BodyType": "Neutral",
             "Color": [
@@ -1466,20 +1466,20 @@
         },
         {
             "Name": "Hair_Color_New_3",
-            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_3-DisplayName\", \"Blonde\")",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_3-DisplayName\", \"Auburn\")",
             "Category": "HairColorV2",
             "BodyType": "Neutral",
             "Color": [
                 {
-                    "B": 12,
-                    "G": 28,
-                    "R": 38,
+                    "B": 5,
+                    "G": 15,
+                    "R": 33,
                     "A": 255
                 },
                 {
-                    "B": 12,
-                    "G": 21,
-                    "R": 38,
+                    "B": 5,
+                    "G": 15,
+                    "R": 33,
                     "A": 255
                 }
             ],
@@ -1487,41 +1487,272 @@
         },
         {
             "Name": "Hair_Color_New_4",
-            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_4-DisplayName\", \"Orange\")",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_4-DisplayName\", \"Black\")",
             "Category": "HairColorV2",
             "BodyType": "Neutral",
             "Color": [
                 {
-                    "B": 12,
-                    "G": 12,
-                    "R": 12,
+                    "B": 16,
+                    "G": 16,
+                    "R": 16,
                     "A": 255
                 },
                 {
-                    "B": 12,
-                    "G": 12,
-                    "R": 12,
+                    "B": 16,
+                    "G": 16,
+                    "R": 16,
                     "A": 255
                 }
             ],
             "ScalarParamValue": 1.5
         },
         {
-            "Name": "Hair_Color_New_5",
-            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_5-DisplayName\", \"Gray\")",
+            "Name": "Hair_Color_New_6",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_6-DisplayName\", \"Medium Brown\")",
             "Category": "HairColorV2",
             "BodyType": "Neutral",
             "Color": [
                 {
-                    "B": 21,
-                    "G": 21,
-                    "R": 21,
+                    "B": 13,
+                    "G": 24,
+                    "R": 33,
                     "A": 255
                 },
                 {
-                    "B": 58,
-                    "G": 58,
-                    "R": 58,
+                    "B": 13,
+                    "G": 24,
+                    "R": 33,
+                    "A": 255
+                }
+            ],
+            "ScalarParamValue": 1
+        },
+        {
+            "Name": "Hair_Color_New_17",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_17-DisplayName\", \"Light Brown\")",
+            "Category": "HairColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 27,
+                    "G": 44,
+                    "R": 57,
+                    "A": 255
+                },
+                {
+                    "B": 27,
+                    "G": 44,
+                    "R": 57,
+                    "A": 255
+                }
+            ],
+            "ScalarParamValue": 1
+        },
+        {
+            "Name": "Hair_Color_New_7",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_7-DisplayName\", \"Beige\")",
+            "Category": "HairColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 46,
+                    "G": 71,
+                    "R": 91,
+                    "A": 255
+                },
+                {
+                    "B": 46,
+                    "G": 71,
+                    "R": 91,
+                    "A": 255
+                }
+            ],
+            "ScalarParamValue": 1
+        },
+        {
+            "Name": "Hair_Color_New_8",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_8-DisplayName\", \"Chestnut\")",
+            "Category": "HairColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 33,
+                    "G": 34,
+                    "R": 53,
+                    "A": 255
+                },
+                {
+                    "B": 33,
+                    "G": 34,
+                    "R": 53,
+                    "A": 255
+                }
+            ],
+            "ScalarParamValue": 1
+        },
+        {
+            "Name": "Hair_Color_New_9",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_9-DisplayName\", \"Marigold\")",
+            "Category": "HairColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 40,
+                    "G": 73,
+                    "R": 110,
+                    "A": 255
+                },
+                {
+                    "B": 40,
+                    "G": 73,
+                    "R": 110,
+                    "A": 255
+                }
+            ],
+            "ScalarParamValue": 1
+        },
+        {
+            "Name": "Hair_Color_New_10",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_10-DisplayName\", \"Sandy\")",
+            "Category": "HairColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 59,
+                    "G": 72,
+                    "R": 79,
+                    "A": 255
+                },
+                {
+                    "B": 59,
+                    "G": 72,
+                    "R": 79,
+                    "A": 255
+                }
+            ],
+            "ScalarParamValue": 1
+        },
+        {
+            "Name": "Hair_Color_New_11",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_11-DisplayName\", \"White\")",
+            "Category": "HairColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 99,
+                    "G": 99,
+                    "R": 99,
+                    "A": 255
+                },
+                {
+                    "B": 99,
+                    "G": 99,
+                    "R": 99,
+                    "A": 255
+                }
+            ],
+            "ScalarParamValue": 1
+        },
+        {
+            "Name": "Hair_Color_New_12",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_12-DisplayName\", \"Light Gray\")",
+            "Category": "HairColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 60,
+                    "G": 60,
+                    "R": 60,
+                    "A": 255
+                },
+                {
+                    "B": 60,
+                    "G": 60,
+                    "R": 60,
+                    "A": 255
+                }
+            ],
+            "ScalarParamValue": 1
+        },
+        {
+            "Name": "Hair_Color_New_13",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_13-DisplayName\", \"Dark Gray\")",
+            "Category": "HairColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 44,
+                    "G": 44,
+                    "R": 44,
+                    "A": 255
+                },
+                {
+                    "B": 44,
+                    "G": 44,
+                    "R": 44,
+                    "A": 255
+                }
+            ],
+            "ScalarParamValue": 1
+        },
+        {
+            "Name": "Hair_Color_New_14",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_14-DisplayName\", \"Navy Blue\")",
+            "Category": "HairColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 28,
+                    "G": 16,
+                    "R": 11,
+                    "A": 255
+                },
+                {
+                    "B": 28,
+                    "G": 16,
+                    "R": 11,
+                    "A": 255
+                }
+            ],
+            "ScalarParamValue": 1
+        },
+        {
+            "Name": "Hair_Color_New_15",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_15-DisplayName\", \"Orange\")",
+            "Category": "HairColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 25,
+                    "G": 46,
+                    "R": 84,
+                    "A": 255
+                },
+                {
+                    "B": 25,
+                    "G": 46,
+                    "R": 84,
+                    "A": 255
+                }
+            ],
+            "ScalarParamValue": 1
+        },
+        {
+            "Name": "Hair_Color_New_16",
+            "DisplayName": "NSLOCTEXT(\"D_CharacterCreationData\", \"Hair_Color_New_16-DisplayName\", \"Red\")",
+            "Category": "HairColorV2",
+            "BodyType": "Neutral",
+            "Color": [
+                {
+                    "B": 8,
+                    "G": 17,
+                    "R": 46,
+                    "A": 255
+                },
+                {
+                    "B": 8,
+                    "G": 17,
+                    "R": 46,
                     "A": 255
                 }
             ],
@@ -2073,6 +2304,9 @@
             "ItemHelmetVariant": {
                 "RowName": "Beard_Female_10"
             }
+        },
+        {
+            "Name": "NewRow"
         }
     ]
 }

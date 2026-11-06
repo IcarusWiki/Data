@@ -7702,10 +7702,10 @@
                 "RowName": "JungleHunterAttack"
             },
             "FlinchVocalisation": {
-                "RowName": "MangeWolfFlinch"
+                "RowName": "AbominationAggro"
             },
             "DeathVocalisation": {
-                "RowName": "MangeWolfAphaDeath"
+                "RowName": "JungleHunterDeath"
             },
             "StateVocalisations": {
                 "Idle": {
@@ -7714,7 +7714,7 @@
                         "DataTableName": "D_Vocalisations"
                     },
                     "StatePersistentVocalisation": {
-                        "RowName": "None",
+                        "RowName": "JungleHunterIdle",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StateExitedVocalisation": {
@@ -7724,11 +7724,11 @@
                 },
                 "Attacking": {
                     "StateEnteredVocalisation": {
-                        "RowName": "None",
+                        "RowName": "JungleHunterAttack",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StatePersistentVocalisation": {
-                        "RowName": "None",
+                        "RowName": "JungleHunterAggro",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StateExitedVocalisation": {
@@ -7771,7 +7771,7 @@
                         "DataTableName": "D_Vocalisations"
                     },
                     "StatePersistentVocalisation": {
-                        "RowName": "HorseIdle",
+                        "RowName": "ElegantHorseIdle",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StateExitedVocalisation": {
@@ -7813,7 +7813,7 @@
                         "DataTableName": "D_Vocalisations"
                     },
                     "StatePersistentVocalisation": {
-                        "RowName": "HorseAggro",
+                        "RowName": "ElegantHorseIdle",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StateExitedVocalisation": {

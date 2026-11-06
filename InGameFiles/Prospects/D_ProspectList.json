@@ -9728,7 +9728,7 @@
             "Name": "STYX_D_Recovery",
             "DropName": "NSLOCTEXT(\"D_ProspectList\", \"STYX_D_Recovery-DropName\", \"GENESIS\")",
             "Description": "NSLOCTEXT(\"D_ProspectList\", \"STYX_D_Recovery-Description\", \"LOCATE AND RETRIEVE A LIVING BIOSAMPLES\")",
-            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"STYX_D_Recovery-FlavourText\", \"//OPERATOR: Uniao // BIOME: Alpine Valley // BACKGROUND: The operator requires a very delicate biosample from the surface. // MISSION: Retrieve the required sample and ensure its safe return to orbit. Note that the sample will be highly sensitive to death. //TERMS: Flat fee. No acknowledgement will be given for damaged or unusable samples.\\t \")",
+            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"STYX_D_Recovery-FlavourText\", \"//OPERATOR: Uniao // BIOME: Desert // BACKGROUND: The operator requires a very delicate biosample from the surface. // MISSION: Retrieve the required sample and ensure its safe return to orbit. Note that the sample will be highly sensitive to death. //TERMS: Flat fee. No acknowledgement will be given for damaged or unusable samples.\\t \")",
             "ProspectImage": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Crossbow01_Large.T_Prospect_Forest_Crossbow01_Large'",
             "DifficultySetup": {
                 "Easy": {
@@ -11729,7 +11729,7 @@
             "DropName": "NSLOCTEXT(\"D_ProspectList\", \"Tier1_Forest_WS_Stockpile-DropName\", \"SPELUNKING\")",
             "DesignNotes": "Forest Workshop Stockpile",
             "Description": "NSLOCTEXT(\"D_ProspectList\", \"Tier1_Forest_WS_Stockpile-Description\", \"EXPLORE CAVES TO COLLECT ORES\")",
-            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Tier1_Forest_WS_Stockpile-FlavourText\", \"//OPERATOR: UDA // BIOME: Forest // BACKGROUND: Workshop personnel request additional supplies from the surface. // MISSION: Supply pod with requested ore samples. //TERMS: Prospector will be provided pre-fabricated workshop gear, courtesy of Shengong.\")",
+            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Tier1_Forest_WS_Stockpile-FlavourText\", \"//OPERATOR: UDA // BIOME: Forest // BACKGROUND: Workshop personnel request additional supplies from the surface. // MISSION: Supply pod with requested ore samples. //TERMS: Prospector will be provided with the location of an existing mining hut.\")",
             "ProspectImage": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Dropship01_Large.T_Prospect_Forest_Dropship01_Large'",
             "DifficultySetup": {
                 "Easy": {
@@ -18461,7 +18461,7 @@
             "DropName": "NSLOCTEXT(\"D_ProspectList\", \"STYX_SQ_Hunter-DropName\", \"PREDATOR SPECIALIST\")",
             "DesignNotes": "Unlocks Vestige Trader on Styx",
             "Description": "NSLOCTEXT(\"D_ProspectList\", \"STYX_SQ_Hunter-Description\", \"Help the Predator Control Specialist Hunt Some Game\")",
-            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"STYX_SQ_Hunter-FlavourText\", \"//OPERATOR: Uniao // BIOME: Geothermal // BACKGROUND: Assist the officer in getting set up and operational planetside.// MISSION: Orders will be delivered on planet. //TERMS: All actual and conceptual risks and responsibilities are accepted by the Contractor alone.\")",
+            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"STYX_SQ_Hunter-FlavourText\", \"//OPERATOR: Uniao // BIOME: Forest // BACKGROUND: Assist the officer in getting set up and operational planetside.// MISSION: Orders will be delivered on planet. //TERMS: All actual and conceptual risks and responsibilities are accepted by the Contractor alone.\")",
             "ProspectImage": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/Images/T_SQ_STYX_NPC_Hunter.T_SQ_STYX_NPC_Hunter'",
             "DifficultySetup": {
                 "Easy": {
@@ -18554,7 +18554,7 @@
             "DropName": "NSLOCTEXT(\"D_ProspectList\", \"OLY_SQ_Hunter-DropName\", \"PREDATOR SPECIALIST\")",
             "DesignNotes": "Unlocks Vestige Trader on Oly",
             "Description": "NSLOCTEXT(\"D_ProspectList\", \"OLY_SQ_Hunter-Description\", \"Help the Predator Control Specialist Hunt Some Game\")",
-            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"OLY_SQ_Hunter-FlavourText\", \"//OPERATOR: Uniao // BIOME: Geothermal // BACKGROUND: Assist the officer in getting set up and operational planetside.// MISSION: Orders will be delivered on planet. //TERMS: All actual and conceptual risks and responsibilities are accepted by the Contractor alone.\")",
+            "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"OLY_SQ_Hunter-FlavourText\", \"//OPERATOR: Uniao // BIOME: Forest // BACKGROUND: Assist the officer in getting set up and operational planetside.// MISSION: Orders will be delivered on planet. //TERMS: All actual and conceptual risks and responsibilities are accepted by the Contractor alone.\")",
             "ProspectImage": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/Images/T_SQ_OLY_NPC_Hunter.T_SQ_OLY_NPC_Hunter'",
             "DifficultySetup": {
                 "Easy": {
@@ -19382,6 +19382,126 @@
                     "RowName": "DangerousHorizons"
                 }
             }
+        },
+        {
+            "Name": "Tier1_Forest_WS_Stockpile2",
+            "DropName": "INVTEXT(\"[DNT] SPELUNKING2\")",
+            "DesignNotes": "Forest Workshop Stockpile",
+            "Description": "NSLOCTEXT(\"D_ProspectList\", \"Tier1_Forest_WS_Stockpile2-Description\", \"EXPLORE CAVES TO COLLECT ORES\")",
+            "FlavourText": "INVTEXT(\"[DNT]//OPERATOR: UDA // BIOME: Forest // BACKGROUND: Workshop personnel request additional supplies from the surface. // MISSION: Supply pod with requested ore samples. //TERMS: Prospector will be provided with information of the location of a previous Prospector\\'s mining hut.\")",
+            "ProspectImage": "Texture2D'/Game/Assets/2DArt/UI/ProspectSelect/Images/T_Prospect_Forest_Dropship01_Large.T_Prospect_Forest_Dropship01_Large'",
+            "DifficultySetup": {
+                "Easy": {
+                    "DifficultyStats": [
+                        {
+                            "RowName": "Easy_Creatures",
+                            "DataTableName": "D_ProspectStats"
+                        },
+                        {
+                            "RowName": "Player_XP_75%",
+                            "DataTableName": "D_ProspectStats"
+                        }
+                    ],
+                    "Forecast": {
+                        "RowName": "None",
+                        "DataTableName": "D_ProspectForecast"
+                    }
+                },
+                "Medium": {
+                    "DifficultyStats": [],
+                    "Forecast": {
+                        "RowName": "None",
+                        "DataTableName": "D_ProspectForecast"
+                    }
+                },
+                "Hard": {
+                    "DifficultyStats": [
+                        {
+                            "RowName": "NPC_Increase_Hard",
+                            "DataTableName": "D_ProspectStats"
+                        },
+                        {
+                            "RowName": "NPC_Increase_Hard_SpawnRates",
+                            "DataTableName": "D_ProspectStats"
+                        },
+                        {
+                            "RowName": "Player_XP_125%",
+                            "DataTableName": "D_ProspectStats"
+                        },
+                        {
+                            "RowName": "Respawn_Three",
+                            "DataTableName": "D_ProspectStats"
+                        }
+                    ],
+                    "Forecast": {
+                        "RowName": "None",
+                        "DataTableName": "D_ProspectForecast"
+                    }
+                }
+            },
+            "Difficulty": "Normal",
+            "BriefingDialogue": {
+                "RowName": "GenericBriefingAny4"
+            },
+            "LandingDialogue": {
+                "RowName": "GenericLanding6"
+            },
+            "MissionCompleteDialogue": {
+                "RowName": "ExtractionComplete4b"
+            },
+            "RequiredTech": "Tier1",
+            "Forecast": {
+                "RowName": "MostlyMild"
+            },
+            "Terrain": {
+                "RowName": "Terrain_016"
+            },
+            "FactionMission": {
+                "RowName": "OLY_Forest_WS_Stockpile2"
+            },
+            "TimeDuration": {
+                "Days": {
+                    "Min": 15,
+                    "Max": 15
+                }
+            },
+            "StartingTime": 10,
+            "TimeScaleCurve": "CurveFloat'/Game/BP/Biomes/Curves/TimeScaleCurve.TimeScaleCurve'",
+            "PlayerSpawnGroupIndex": 7,
+            "MetaDepositSpawns": [
+                {
+                    "SpawnLocation": {
+                        "Value": "OLY_I14"
+                    },
+                    "MinMetaAmount": 80,
+                    "MaxMetaAmount": 120
+                },
+                {
+                    "SpawnLocation": {
+                        "Value": "OLY_O10"
+                    },
+                    "MinMetaAmount": 80,
+                    "MaxMetaAmount": 120
+                },
+                {
+                    "SpawnLocation": {
+                        "Value": "OLY_O11_2"
+                    },
+                    "MinMetaAmount": 80,
+                    "MaxMetaAmount": 120
+                },
+                {
+                    "SpawnLocation": {
+                        "Value": "OLY_L12"
+                    },
+                    "MinMetaAmount": 80,
+                    "MaxMetaAmount": 120
+                }
+            ],
+            "NumMetaSpawnsMin": 2,
+            "NumMetaSpawnsMax": 2,
+            "BoundsOverride": "/Game/Heatmaps/Terrain_016_OLY/GT_T016_Bounds_T1_ForestExploration.GT_T016_Bounds_T1_ForestExploration",
+            "OnProspectAvailability": "Base"
         }
     ]
 }
