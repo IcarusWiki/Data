@@ -482,7 +482,7 @@ jobs:
           tool-dir: ${{ steps.steamtools.outputs.tool_dir }}
 
       - name: Upload consumer artifacts
-        if: always()
+        if: ${{ success() }}
         uses: actions/upload-artifact@v6
         with:
           name: consumer-artifacts-${{ matrix.pak_slug }}
@@ -506,14 +506,22 @@ jobs:
     needs:
       - discover_content_paks
       - process_content_paks
-    if: needs.discover_content_paks.outputs.scheduled_count != '0' && needs.discover_content_paks.outputs.finalizer_count != '0' && needs.process_content_paks.result == 'success'
+
+    if: >-
+      ${{
+        !cancelled() &&
+        needs.discover_content_paks.result == 'success' &&
+        needs.discover_content_paks.outputs.scheduled_count != '0' &&
+        needs.discover_content_paks.outputs.finalizer_count != '0'
+      }}
+
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
     strategy:
-      fail-fast: true
+      fail-fast: false
       matrix: ${{ fromJSON(needs.discover_content_paks.outputs.finalizer_matrix) }}
-
+      
     steps:
       - name: Checkout current repo
         uses: actions/checkout@v6
