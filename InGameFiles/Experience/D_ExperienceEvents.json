@@ -2257,12 +2257,12 @@
             "Name": "Kill_Crawler",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Crawler-EventDescription\", \"Killed Xenoped\")",
             "SharedExperience": true,
-            "ExperienceGranted": 2000
+            "ExperienceGranted": 1800
         },
         {
             "Name": "Skin_Crawler",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Crawler-EventDescription\", \"Skinned Xenoped\")",
-            "ExperienceGranted": 1000
+            "ExperienceGranted": 900
         },
         {
             "Name": "Skin_Ground_Dragon",

@@ -238355,6 +238355,93 @@
             }
         },
         {
+            "Name": "Workshop_Lantern",
+            "Meshable": {
+                "RowName": "Mesh_Workshop_Latern"
+            },
+            "Itemable": {
+                "RowName": "Item_Workshop_Lantern"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Focusable": {
+                "RowName": "Focusable_Lantern"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Light_NoMelee"
+            },
+            "Fillable": {
+                "RowName": "Meta_Flashlight"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "Lantern"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Upgrade.Vision"
+                    },
+                    {
+                        "TagName": "Item.Tool.Light"
+                    },
+                    {
+                        "TagName": "Item.Powered.Battery"
+                    },
+                    {
+                        "TagName": "Item.Meta"
+                    },
+                    {
+                        "TagName": "MetaItem.Convert.ReplenishFillable"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Upgrade.Vision"
+                    },
+                    {
+                        "TagName": "Item.Tool.Light"
+                    },
+                    {
+                        "TagName": "Item.Powered.Battery"
+                    },
+                    {
+                        "TagName": "Item.Meta"
+                    },
+                    {
+                        "TagName": "MetaItem.Convert.ReplenishFillable"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Fillable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
             "Name": "Prop_Glass_Display_Cabinet",
             "Meshable": {
                 "RowName": "Mesh_Generic_Machining"
@@ -239544,6 +239631,112 @@
             },
             "Ballistic": {
                 "RowName": "PlantMinion_Ranged_Needles"
+            },
+            "Decayable": {
+                "RowName": "Decay_02_Minutes"
+            },
+            "Audio": {
+                "RowName": "Default"
+            },
+            "CraftingExperience": 0,
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Ballistic"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "AnimalCarcass_Bear_Mount",
+            "Meshable": {
+                "RowName": "Mesh_Carcass_Bear_Mount"
+            },
+            "Itemable": {
+                "RowName": "Item_Carcass_Bear"
+            },
+            "Interactable": {
+                "RowName": "AnimalCorpse_Mount"
+            },
+            "Hitable": {
+                "RowName": "AnimalCarcass"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Durable": {
+                "RowName": "Carcass_Large"
+            },
+            "Decayable": {
+                "RowName": "Decay_10_Minutes"
+            },
+            "Audio": {
+                "RowName": "Carcass"
+            },
+            "CraftingExperience": 400,
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Harvest.Knife.T2"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Harvest.Knife.T2"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Hitable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "PlantMinion_Spore_Spores",
+            "Meshable": {
+                "RowName": "Mesh_PlantMinion_Spore_Spores"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Ballistic": {
+                "RowName": "PlantMinion_Spore_Spores"
             },
             "Decayable": {
                 "RowName": "Decay_02_Minutes"

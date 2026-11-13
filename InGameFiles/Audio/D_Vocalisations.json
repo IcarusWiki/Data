@@ -4725,6 +4725,76 @@
             "Setting": {
                 "RowName": "Persistent"
             }
+        },
+        {
+            "Name": "ArtilleryIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Artillery/SFX_CRE_VOCAL_ARTILLERY_IDLE.SFX_CRE_VOCAL_ARTILLERY_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "JungleMonkeyIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/JungleMonkey/SFX_CRE_VOCAL_JUNGLEMONKEY_IDLE.SFX_CRE_VOCAL_JUNGLEMONKEY_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "JungleMonkeyRoar",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/JungleMonkey/SFX_CRE_VOCAL_JUNGLEMONKEY_ROAR.SFX_CRE_VOCAL_JUNGLEMONKEY_ROAR",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "BearMountAttack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Bear/SFX_CRE_VOCAL_BEAR_ATTACK_MOUNT.SFX_CRE_VOCAL_BEAR_ATTACK_MOUNT",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "BearMountIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Bear/SFX_CRE_VOCAL_BEAR_MOUNT_IDLE.SFX_CRE_VOCAL_BEAR_MOUNT_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "TurtlePetIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/PetTurtle/SFX_CRE_VOC_TURTLEPET_IDLE.SFX_CRE_VOC_TURTLEPET_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "TurtlePetDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/PetTurtle/SFX_CRE_VOC_TURTLEPET_DEATH.SFX_CRE_VOC_TURTLEPET_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "Rabbit_Flinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Raccoon/SFX_CRE_VOC_BUNNY_FLINCH.SFX_CRE_VOC_BUNNY_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "Lizard_Idle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Lizard/SFX_CRE_VOC_LIZARD_IDLE.SFX_CRE_VOC_LIZARD_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "LizardDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Lizard/SFX_CRE_VOC_LIZARD_DEATH.SFX_CRE_VOC_LIZARD_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
         }
     ]
 }

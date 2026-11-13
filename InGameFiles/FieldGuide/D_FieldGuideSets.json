@@ -2184,6 +2184,47 @@
                     "DataTableName": "D_ItemsStatic"
                 }
             ]
+        },
+        {
+            "Name": "Clay_Vase",
+            "SetItems": [
+                {
+                    "RowName": "Clay_Vase_A",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Clay_Vase_B",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Clay_Vase_C",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Clay_Vase_D",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Clay_Vase_E",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Clay_Vase_F",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Clay_Vase_G",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Clay_Vase_H",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Clay_Vase_I",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
         }
     ]
 }

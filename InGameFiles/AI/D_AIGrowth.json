@@ -7319,7 +7319,7 @@
                 "(Value=\"BaseNPCAttackRadius_+\")": 200,
                 "(Value=\"CanNPCDamageDurableActors_?\")": 1,
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
-                "(Value=\"BaseMovementSpeed_+\")": 50,
+                "(Value=\"BaseMovementSpeed_+\")": 145,
                 "(Value=\"BaseGOAPMotivationHungerIncreaseRatePerMinute_+\")": 500,
                 "(Value=\"BaseGOAPMotivationProtectiveDistanceMinimumThreat_+\")": 250,
                 "(Value=\"BaseGOAPMotivationProtectiveDistanceMaximumThreat_+\")": 0,
@@ -7607,6 +7607,66 @@
             "Health": "CurveFloat'/Game/Data/AI/Curves/C_KangarooArcticHealth.C_KangarooArcticHealth'",
             "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_KangarooArcticMeleeDamage.C_KangarooArcticMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
+        },
+        {
+            "Name": "Mount_Bear",
+            "Base": {
+                "(Value=\"BaseMovementSpeed_+\")": 200,
+                "(Value=\"BaseSwimSpeed_+\")": 300,
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 30,
+                "(Value=\"BaseMinimumFallDamage_%\")": 1,
+                "(Value=\"BaseMaximumFallDamage_%\")": 100,
+                "(Value=\"BaseMinimumFallDamageVelocity_+\")": 1250,
+                "(Value=\"BaseMaximumFallDamageVelocity_+\")": 1950,
+                "(Value=\"BaseAIPerceptionMaxAge_+\")": 3,
+                "(Value=\"BaseAIDamagePerceptionMaxAge_+\")": 10,
+                "(Value=\"BaseAIPerceptionSightRadius_+\")": 5000,
+                "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 7500,
+                "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
+                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
+                "(Value=\"BaseCharacterMass_+\")": 500,
+                "(Value=\"BaseHealthRegenDelay_+\")": 2,
+                "(Value=\"BaseNPCAttackRadius_+\")": 500,
+                "(Value=\"CanNPCDamageDurableActors_?\")": 1,
+                "(Value=\"BaseNPCMinTargetDistanceForCharge_+\")": 300,
+                "(Value=\"BaseNPCMaxTargetDistanceForCharge_+\")": 1500,
+                "(Value=\"BaseNPCChargeAttackCooldown_+\")": 10,
+                "(Value=\"CanNPCDamageVoxels_?\")": 0,
+                "(Value=\"BaseMiningRadius_+\")": 0,
+                "(Value=\"BaseStaminaRegenPerMinute_+\")": 1600,
+                "(Value=\"BaseStaminaRegenFromEmptyDelay_+\")": 6000,
+                "(Value=\"BaseStaminaRegenDelay_+\")": 3000,
+                "(Value=\"BaseWeightCapacity_+\")": 300,
+                "(Value=\"BaseMaximumOxygen_+\")": 300,
+                "(Value=\"BaseMaximumFood_+\")": 300,
+                "(Value=\"BaseMaximumWater_+\")": 300,
+                "(Value=\"BaseStaminaConsumed_+%\")": 0,
+                "(Value=\"BaseFoodConsumptionPerHour_+\")": 240,
+                "(Value=\"BaseWaterConsumptionPerHour_+\")": 120,
+                "(Value=\"BaseOxygenConsumptionPerHour_+\")": 0,
+                "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
+                "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
+                "(Value=\"BaseMountCargoSlots_+\")": 4,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+                "(Value=\"BaseMaximumStomachFullness_+\")": 2,
+                "(Value=\"BaseFallDamageResistance_%\")": 15,
+                "(Value=\"BaseCartActiveMovementSpeed_+%\")": -15,
+                "(Value=\"BaseFireDamageResistance_%\")": 40,
+                "(Value=\"BaseFrostDamageResistance_%\")": 40,
+                "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
+                "(Value=\"BasePoisonDamageResistance_%\")": 40
+            },
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Bear_Health.C_Mount_Bear_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Bear_MeleeDamage.C_Mount_Bear_MeleeDamage'",
+            "CustomStats": [
+                {
+                    "Stat": {
+                        "Value": "BaseMaximumStamina_+"
+                    },
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Buffalo_Stamina.C_Mount_Buffalo_Stamina'"
+                }
+            ],
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         }
     ]
 }

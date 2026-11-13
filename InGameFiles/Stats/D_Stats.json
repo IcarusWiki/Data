@@ -24920,6 +24920,14 @@
             "StatCategory": {
                 "RowName": "AI"
             }
+        },
+        {
+            "Name": "GrantedAuraFearsomePresence_?",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"GrantedAuraFearsomePresence_?-PositiveDescription\", \"Intimidates Nearby Hostile Creatures, Reducing Their Melee Damage\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
         }
     ]
 }

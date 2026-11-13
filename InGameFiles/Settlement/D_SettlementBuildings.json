@@ -236,7 +236,7 @@
             "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"WaterTower-BuildingName\", \"Rain Collector\")",
             "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"WaterTower-BuildingDescription\", \"Collects rainwater for the settlement.\")",
             "BuildingClass": "BlueprintGeneratedClass'/Game/BP/Settlement/Buildings/BP_SettlementBuilding_Watertower.BP_SettlementBuilding_Watertower_C'",
-            "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Water_Tower_Blocking.SM_COL_Water_Tower_Blocking",
+            "Mesh": "/Game/ASS/DEP/Settlement_Rain_Collector/SM_DEP_Settlement_Rain_Collector.SM_DEP_Settlement_Rain_Collector",
             "BuildingStats": {
                 "(Value=\"BaseSettlementWaterProduction_+\")": 20
             },
@@ -298,7 +298,7 @@
             "Name": "Medical",
             "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"Medical-BuildingName\", \"First Aid Station\")",
             "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"Medical-BuildingDescription\", \"Treats downed and hurt Settlers and prepares Herbs from medicinal plants.\")",
-            "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Medical_Blocking.SM_COL_Medical_Blocking",
+            "Mesh": "/Game/ASS/DEP/Settlement_FirstAid_Station/SM_DEP_Settlement_FirstAid_Station.SM_DEP_Settlement_FirstAid_Station",
             "BuildingStats": {
                 "(Value=\"BaseSettlementMedicalCapacity_+\")": 2,
                 "(Value=\"BaseSettlementHerbProduction_+\")": 1
@@ -701,7 +701,7 @@
             "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"LoggingCamp-BuildingName\", \"Lumber Yard\")",
             "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"LoggingCamp-BuildingDescription\", \"Fells and hauls wood for the settlement.\")",
             "BuildingClass": "BlueprintGeneratedClass'/Game/BP/Settlement/Buildings/BP_SettlementBuilding_LoggingCamp.BP_SettlementBuilding_LoggingCamp_C'",
-            "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_LoggingCamp.SM_COL_LoggingCamp",
+            "Mesh": "/Game/ASS/DEP/Settlement_Loggers_Cabin/SM_DEP_Settlement_Loggers_Cabin.SM_DEP_Settlement_Loggers_Cabin",
             "BuildingStats": {
                 "(Value=\"BaseSettlementWoodProduction_+\")": 5
             },
@@ -841,7 +841,7 @@
             "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"Farm-BuildingName\", \"Farm\")",
             "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"Farm-BuildingDescription\", \"Grows crops or medicinal plants while a Settler tends it.\")",
             "BuildingClass": "BlueprintGeneratedClass'/Game/BP/Settlement/Buildings/BP_SettlementBuilding_Farm.BP_SettlementBuilding_Farm_C'",
-            "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Farm.SM_COL_Farm",
+            "Mesh": "/Game/ASS/DEP/Settlement_Farm/SM_DEP_Settlement_Farm_T1.SM_DEP_Settlement_Farm_T1",
             "BuildingStats": {
                 "(Value=\"BaseSettlementFoodProduction_+\")": 1
             },
@@ -1186,7 +1186,7 @@
             "Name": "Builders_Hut",
             "BuildingName": "NSLOCTEXT(\"D_SettlementBuildings\", \"Builders_Hut-BuildingName\", \"Builders Hut\")",
             "BuildingDescription": "NSLOCTEXT(\"D_SettlementBuildings\", \"Builders_Hut-BuildingDescription\", \"Assigned Settlers build and repair settlement structures faster.\")",
-            "Mesh": "/Game/Developers/joecook/Colony_Blocking_Meshes/SM_COL_Workshop_Blocking.SM_COL_Workshop_Blocking",
+            "Mesh": "/Game/ASS/DEP/Settlement_Builders_Hut/SM_DEP_Settlement_Builders_Hut.SM_DEP_Settlement_Builders_Hut",
             "BuildingStats": {
                 "(Value=\"BaseSettlementConstructionSpeed_+%\")": 25
             },

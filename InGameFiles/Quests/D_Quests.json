@@ -22818,7 +22818,6 @@
             "Name": "Oly_Forest_WS_Stockpile_Craft_Weapon",
             "Class": "/Game/BP/Quests/Olympus/Forest/WSStockpile2/BPQ_Oly_Forest_WS_Stockpile_Craft_Weapon.BPQ_Oly_Forest_WS_Stockpile_Craft_Weapon_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Craft_Weapon-Description\", \"(Optional) Craft Any Weapon\")",
-            "InfoText": "NSLOCTEXT(\"D_Quests\", \"Oly_Forest_WS_Stockpile_Craft_Weapon-InfoText\", \"Spears are Particularly Useful in Caves\")",
             "LocationQuery": {
                 "RowName": "T1_Forest_WS_Stockpile_Hut"
             }

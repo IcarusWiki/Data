@@ -26627,6 +26627,22 @@
             }
         },
         {
+            "Name": "Workshop_Lantern",
+            "ItemStaticData": {
+                "RowName": "Workshop_Lantern"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 7500
+                },
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 1
+                }
+            ]
+        },
+        {
             "Name": "Prop_Glass_Display_Cabinet",
             "ItemStaticData": {
                 "RowName": "Prop_Glass_Display_Cabinet"
@@ -26721,6 +26737,22 @@
             "ItemStaticData": {
                 "RowName": "Basic_Fertilizer_Chitin"
             }
+        },
+        {
+            "Name": "Milk_Glass_Bottle_Full",
+            "ItemStaticData": {
+                "RowName": "Milk_Bottle_Glass"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 7
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 2000
+                }
+            ]
         }
     ]
 }

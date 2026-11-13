@@ -3311,6 +3311,22 @@
             "SaddleAnimBlueprint": "/Game/ASS/ITM/Saddle/SK_CRE_Slinker_Saddle_Skeleton_AnimBP.SK_CRE_Slinker_Saddle_Skeleton_AnimBP_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot"
+        },
+        {
+            "Name": "Saddle_Bear_Standard",
+            "SaddleTag": {
+                "TagName": "Item.Mount.Saddle.Standard"
+            },
+            "SupportedMount": [
+                {
+                    "RowName": "Bear",
+                    "DataTableName": "D_Mounts"
+                }
+            ],
+            "SkeletalMesh": "/Game/ASS/ITM/Saddle/SK_ITM_Saddle_Bear.SK_ITM_Saddle_Bear",
+            "SaddleAnimBlueprint": "/Game/ASS/ITM/Saddle/SK_ITM_Bear_Saddle_AnimBlueprint.SK_ITM_Bear_Saddle_AnimBlueprint_C",
+            "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
+            "AttachSocket": "RigRoot"
         }
     ]
 }

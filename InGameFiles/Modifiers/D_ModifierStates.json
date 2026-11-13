@@ -17854,6 +17854,68 @@
             "MergeType": "Replace",
             "bEffectsNPCs": false,
             "RemovedOnClick": true
+        },
+        {
+            "Name": "GrantedAura_FearsomePresence",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Enrage.T_ICON_Enrage'",
+            "Type": "Aura_Positive",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_FearsomePresence-ModifierName\", \"Aura: Fearsome Presence\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_FearsomePresence-ModifierDescription\", \"Nearby Hostile Creatures are Intimidated and deal less Melee Damage\")",
+            "bAura": true,
+            "AuraRange": 2000,
+            "AuraFlags": {
+                "EffectsSelf": false,
+                "EffectsPlayers": false,
+                "EffectsNPCs": true
+            },
+            "ModifierGrantedByAura": {
+                "RowName": "AuraEffect_FearsomePresence"
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Aura_Base.BP_Modifier_Aura_Base_C",
+            "ShouldTick": true,
+            "ModifierTickRate": 0.5,
+            "RemovedOnDeath": false,
+            "MergeType": "Count",
+            "bEffectsObjects": true,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "AuraEffect_FearsomePresence",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_DisorientedDebuff.Icon_DisorientedDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_FearsomePresence-ModifierName\", \"Intimidated\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_FearsomePresence-ModifierDescription\", \"Cowed by a Fearsome Presence, dealing less Melee Damage\")",
+            "GrantedStats": {
+                "(Value=\"BaseMeleeDamage_+%\")": -15
+            },
+            "AuraRange": 500,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
+            "MergeType": "LongestDuration",
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "NPC.Behaviour.Agressive"
+                    },
+                    {
+                        "TagName": "Character.NPC.Boss"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    2,
+                    2,
+                    1,
+                    0,
+                    3,
+                    1,
+                    1
+                ],
+                "AutoDescription": " ALL(  ALL( NPC.Behaviour.Agressive ),  NONE( Character.NPC.Boss ) )"
+            },
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
         }
     ]
 }

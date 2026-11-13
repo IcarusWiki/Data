@@ -294,6 +294,15 @@
             "ModifierEffectiveness": {
                 "Value": "KiwiAuraEffectiveness_%"
             }
+        },
+        {
+            "Name": "AuraFearsomePresence",
+            "Modifier": {
+                "RowName": "GrantedAura_FearsomePresence"
+            },
+            "Stat": {
+                "Value": "GrantedAuraFearsomePresence_?"
+            }
         }
     ]
 }
