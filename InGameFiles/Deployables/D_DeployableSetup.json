@@ -5927,9 +5927,9 @@
             }
         },
         {
-            "Name": "Smoker_T4",
-            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Smoker_T4.BP_Smoker_T4_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Roaster_T4/SM_DEP_Roaster_T4.SM_DEP_Roaster_T4",
+            "Name": "Roaster",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Roaster.BP_Roaster_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Roaster_T4/SM_DEP_Roaster_T4_V2.SM_DEP_Roaster_T4_V2",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
             "SnapToSurfaceNormal": false,
             "DeployCollisionExtentOffset": {
@@ -16581,7 +16581,7 @@
         {
             "Name": "Workshop_Dehumidifier",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Dehumidifier/BP_Workshop_Dehumidifier.BP_Workshop_Dehumidifier_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Dehumidifer_TMP.SM_DEP_Dehumidifer_TMP",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Hydrozine_Dehumidifier/SM_DEP_Hydrozine_Dehumidifier_Combined.SM_DEP_Hydrozine_Dehumidifier_Combined",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
             "SupportsCustomRotation": false,
             "MaxRestackingAmount": 1

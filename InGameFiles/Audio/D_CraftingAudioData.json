@@ -98,7 +98,7 @@
             "RecipeCraftedSound": "/Game/FMOD/Events/UI/Crafting/UI_CRAFT_RECIPE_DRYINGRACK.UI_CRAFT_RECIPE_DRYINGRACK",
             "ProcessorOverrideSounds": {
                 "(RowName=\"Smoker_T3\",DataTableName=\"D_Processing\")": "/Game/FMOD/Events/UI/Crafting/UI_CRAFT_RECIPE_SMOKER.UI_CRAFT_RECIPE_SMOKER",
-                "(RowName=\"Smoker_T4\",DataTableName=\"D_Processing\")": "/Game/FMOD/Events/UI/Crafting/UI_CRAFT_RECIPE_SMOKER.UI_CRAFT_RECIPE_SMOKER"
+                "(RowName=\"Roaster\",DataTableName=\"D_Processing\")": "/Game/FMOD/Events/UI/Crafting/UI_CRAFT_RECIPE_SMOKER.UI_CRAFT_RECIPE_SMOKER"
             }
         },
         {

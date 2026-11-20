@@ -4467,10 +4467,10 @@
             "bMustBeOutside": true
         },
         {
-            "Name": "Smoker_T4",
+            "Name": "Roaster",
             "Variants": [
                 {
-                    "RowName": "Smoker_T4",
+                    "RowName": "Roaster",
                     "DataTableName": "D_DeployableSetup"
                 }
             ]

@@ -515,9 +515,9 @@
             "MaxMilliwattage": 500
         },
         {
-            "Name": "Smoker_T4",
+            "Name": "Roaster",
             "DefaultRecipeSet": {
-                "RowName": "T4_Smoker"
+                "RowName": "Roaster"
             },
             "ManualActivation": true
         },

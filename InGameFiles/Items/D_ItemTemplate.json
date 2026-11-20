@@ -26515,6 +26515,12 @@
             }
         },
         {
+            "Name": "Armour_Stand_T4",
+            "ItemStaticData": {
+                "RowName": "Armour_Stand_T4"
+            }
+        },
+        {
             "Name": "Thumper_Deep",
             "ItemStaticData": {
                 "RowName": "Thumper_Deep"

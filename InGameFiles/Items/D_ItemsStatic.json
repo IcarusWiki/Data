@@ -100349,6 +100349,9 @@
                     },
                     {
                         "TagName": "Proxy.Liquid.Green"
+                    },
+                    {
+                        "TagName": "Item.Resource.Paint"
                     }
                 ]
             },
@@ -100359,6 +100362,9 @@
                     },
                     {
                         "TagName": "Proxy.Liquid.Green"
+                    },
+                    {
+                        "TagName": "Item.Resource.Paint"
                     },
                     {
                         "TagName": "Traits.Meshable"
@@ -237194,6 +237200,90 @@
                     },
                     {
                         "TagName": "Traits.Flammable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Armour_Stand_T4",
+            "Meshable": {
+                "RowName": "Mesh_Generic_Crafting"
+            },
+            "Itemable": {
+                "RowName": "Item_Armour_Stand_T4"
+            },
+            "Interactable": {
+                "RowName": "Deployable_ArmourStand"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Armour_Stand_T4"
+            },
+            "Durable": {
+                "RowName": "Deployable_2500"
+            },
+            "Inventory": {
+                "RowName": "Armour_Stand"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Resource": {
+                "RowName": "Advanced_Armor_Stand"
+            },
+            "Audio": {
+                "RowName": "Default"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "FieldGuide.Deployable.Storage"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "FieldGuide.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
                     }
                 ],
                 "ParentTags": []

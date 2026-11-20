@@ -1569,6 +1569,9 @@
                     "bUseAimingParameter": true
                 }
             ]
+        },
+        {
+            "Name": "Paint_Brush"
         }
     ]
 }

@@ -1165,7 +1165,7 @@
             ]
         },
         {
-            "Name": "Inventory_Smoker_T4",
+            "Name": "Inventory_Roaster",
             "Inventories": [
                 {
                     "RowName": "PotBellyStove",

@@ -885,15 +885,6 @@
                     "Tag": ""
                 }
             ],
-            "WorldHoldInteracts": [
-                {
-                    "InteractionRow": {
-                        "RowName": "Interact_Toggle_Device_On",
-                        "DataTableName": "D_Interactions"
-                    },
-                    "Tag": ""
-                }
-            ],
             "WorldAltHoldInteracts": [
                 {
                     "InteractionRow": {

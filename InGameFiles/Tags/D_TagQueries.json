@@ -11434,6 +11434,24 @@
                 ],
                 "AutoDescription": " ANY( Item.Resource.Settlement )"
             }
+        },
+        {
+            "Name": "Is_Paintable",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Paintable"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Paintable )"
+            }
         }
     ]
 }

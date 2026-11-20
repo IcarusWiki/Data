@@ -14037,11 +14037,11 @@
             "Weight": 1750
         },
         {
-            "Name": "Item_Smoker_T4",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Smoker_T4-DisplayName\", \"Roaster\")",
+            "Name": "Item_Roaster",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roaster-DisplayName\", \"Roaster\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Smoker_T4.T_ITEM_Smoker_T4",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Smoker_T4-Description\", \"An electric roasting oven large enough to take a whole animal carcass. Also preserves food like a smoker.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Smoker_T4-FlavorText\", \"The UDA advises you to use this item in a well-ventilated area.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roaster-Description\", \"An electric roasting oven large enough to take a whole animal carcass. Also preserves food like a smoker.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roaster-FlavorText\", \"The UDA advises you to use this item in a well-ventilated area.\")",
             "Weight": 2500
         },
         {
@@ -29321,7 +29321,7 @@
         {
             "Name": "Item_Fertility_Serum_Mammoth_Arctic",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fertility_Serum_Mammoth_Arctic-DisplayName\", \"Woolly Mammoth Fertility Serum\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_Serum_ArcticMammoth.T_ITEM_Serum_ArcticMammoth",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_Serum_WoolyMammoth.T_ITEM_Serum_WoolyMammoth",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fertility_Serum_Mammoth_Arctic-Description\", \"Primes a Male Woolly Mammoth for mating. Once primed, will seek out and fertilize a nearby Female Woolly Mammoth.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fertility_Serum_Mammoth_Arctic-FlavorText\", \"Husbandry has come to Icarus\")",
             "Weight": 50,

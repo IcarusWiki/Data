@@ -3423,6 +3423,57 @@
                 "RowName": "SMG_Rifle"
             },
             "WeaponLoudness": 3
+        },
+        {
+            "Name": "Paint_Brush",
+            "HipAccuracy": {
+                "X": 0.10000000149011612,
+                "Y": 0.10000000149011612
+            },
+            "AimAccuracy": {
+                "X": 0.10000000149011612,
+                "Y": 0.10000000149011612
+            },
+            "LaunchForce": 600,
+            "ChargeData": {
+                "ChargeSpeed": 0
+            },
+            "VisualData": {
+                "PreviewItemAttachSocket3P": "R_prop_00",
+                "FireShake": "BlueprintGeneratedClass'/Game/BP/CameraShake/Weapons/CS_AssaultRifle_Fire.CS_AssaultRifle_Fire_C'",
+                "FireShakeCrouchScale": 0.4000000059604645,
+                "VisualRecoil": 0,
+                "AimFOVMultiplier": 0.8999999761581421,
+                "SkeletalItemAnimData": {
+                    "Fire": "/Game/ASS/WEP/SK_GUN_Sub_Machine/ANI_GUN_Sub_Machine_Fire_Anim_Montage.ANI_GUN_Sub_Machine_Fire_Anim_Montage",
+                    "AimFire": "/Game/ASS/WEP/SK_GUN_Sub_Machine/ANI_GUN_Sub_Machine_Fire_Anim_Montage.ANI_GUN_Sub_Machine_Fire_Anim_Montage",
+                    "Reload": "/Game/ASS/WEP/SK_GUN_Sub_Machine/ANI_GUN_Sub_Machine_Reload_Montage.ANI_GUN_Sub_Machine_Reload_Montage"
+                },
+                "FirstPersonAnimData": {
+                    "Idle": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_1HWEPIdle.1ST_CHA_1HWEPIdle"
+                },
+                "ThirdPersonAnimData": {
+                    "Idle": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_1HWeaponIdle.3RD_CHA_MAL_1HWeaponIdle"
+                }
+            },
+            "RecoilAmount": {
+                "X": 1.600000023841858,
+                "Y": 2
+            },
+            "ValidAmmoTypes": {
+                "RowName": "AllPaint"
+            },
+            "AmmoCapacity": 100,
+            "ReloadTime": 0.10000000149011612,
+            "AudioData": {
+                "RowName": "Paint_Brush"
+            },
+            "WeaponLoudness": 1,
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "DangerousHorizons"
+                }
+            }
         }
     ]
 }

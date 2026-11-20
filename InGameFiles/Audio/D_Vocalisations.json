@@ -4795,6 +4795,48 @@
             "Setting": {
                 "RowName": "Important"
             }
+        },
+        {
+            "Name": "BearMountFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Bear/SFX_CRE_VOCAL_BEAR_MOUNT_FLINCH.SFX_CRE_VOCAL_BEAR_MOUNT_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "FoxIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Fox/SFX_CRE_VOC_FOX_IDLE.SFX_CRE_VOC_FOX_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "TurtlePetFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/PetTurtle/SFX_CRE_VOC_TURTLEPET_FLINCH.SFX_CRE_VOC_TURTLEPET_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "FoxFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Fox/SFX_CRE_VOC_FOX_FLINCH.SFX_CRE_VOC_FOX_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "FoxDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Fox/SFX_CRE_VOC_FOX_DEATH.SFX_CRE_VOC_FOX_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "FoxAttack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Fox/SFX_CRE_VOC_FOX_ATTACK.SFX_CRE_VOC_FOX_ATTACK",
+            "Setting": {
+                "RowName": "Default"
+            }
         }
     ]
 }
