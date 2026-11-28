@@ -11,6 +11,11 @@ on:
         required: false
         type: boolean
         default: false
+      steam_approve_loop:
+        description: "Also run the steamguard approve loop during Steam logins (only needed if logins wait for app confirmation)"
+        required: false
+        type: boolean
+        default: false
 
 concurrency:
   group: icarus-data-update-${{ github.ref }}
@@ -24,6 +29,9 @@ env:
   STEAMGUARD_VERSION: "0.17.1"
   STEAM_APP_ID: "1149460"
   STEAM_DEPOT_ID: "1149461"
+  # The 2FA code is passed with -no-mobile, so logins normally need no app confirmation.
+  # The approve loop is kept as an opt-in fallback for manual runs.
+  STEAM_APPROVE_LOOP: ${{ github.event_name == 'workflow_dispatch' && inputs.steam_approve_loop && 'true' || 'false' }}
 
 jobs:
   download-and-publish:
@@ -59,6 +67,10 @@ jobs:
             pyuepak==0.2.6.2 \
             cryptography==46.0.6
 
+      - name: Prefetch Oodle library
+        timeout-minutes: 3
+        run: python scripts/prefetch_oodle.py
+
       - name: Setup Steam tools
         id: steamtools
         timeout-minutes: 2
@@ -92,20 +104,22 @@ jobs:
           echo 'regex:^Icarus/Content/Data/data\.pak$' > "$WORKSPACE_UNIX/filelist.txt"
           mkdir -p "$RUNNER_TEMP_UNIX/depotdownloader"
 
-          attempts=0
-          max_attempts=12
+          if [ "$STEAM_APPROVE_LOOP" = "true" ]; then
+            attempts=0
+            max_attempts=12
 
-          (
-            while [ "$attempts" -lt "$max_attempts" ]; do
-              if ! "$TOOL_DIR/steamguard.exe" approve --dangerously-approve-all >/dev/null 2>&1; then
-                echo "::warning::steamguard approve failed on attempt $((attempts + 1))"
-              fi
-              attempts=$((attempts + 1))
-              sleep 5
-            done
-          ) &
-          APPROVER_PID=$!
-          trap 'kill "$APPROVER_PID" 2>/dev/null || true' EXIT
+            (
+              while [ "$attempts" -lt "$max_attempts" ]; do
+                if ! "$TOOL_DIR/steamguard.exe" approve --dangerously-approve-all >/dev/null 2>&1; then
+                  echo "::warning::steamguard approve failed on attempt $((attempts + 1))"
+                fi
+                attempts=$((attempts + 1))
+                sleep 5
+              done
+            ) &
+            APPROVER_PID=$!
+            trap 'kill "$APPROVER_PID" 2>/dev/null || true' EXIT
+          fi
 
           CODE="$("$TOOL_DIR/steamguard.exe" code)"
 
@@ -324,20 +338,22 @@ jobs:
           rm -rf "$MANIFEST_DIR"
           mkdir -p "$DEPOT_WORK_DIR"
 
-          attempts=0
-          max_attempts=12
+          if [ "$STEAM_APPROVE_LOOP" = "true" ]; then
+            attempts=0
+            max_attempts=12
 
-          (
-            while [ "$attempts" -lt "$max_attempts" ]; do
-              if ! "$TOOL_DIR/steamguard.exe" approve --dangerously-approve-all >/dev/null 2>&1; then
-                echo "::warning::steamguard approve failed on attempt $((attempts + 1))"
-              fi
-              attempts=$((attempts + 1))
-              sleep 5
-            done
-          ) &
-          APPROVER_PID=$!
-          trap 'kill "$APPROVER_PID" 2>/dev/null || true' EXIT
+            (
+              while [ "$attempts" -lt "$max_attempts" ]; do
+                if ! "$TOOL_DIR/steamguard.exe" approve --dangerously-approve-all >/dev/null 2>&1; then
+                  echo "::warning::steamguard approve failed on attempt $((attempts + 1))"
+                fi
+                attempts=$((attempts + 1))
+                sleep 5
+              done
+            ) &
+            APPROVER_PID=$!
+            trap 'kill "$APPROVER_PID" 2>/dev/null || true' EXIT
+          fi
 
           CODE="$("$TOOL_DIR/steamguard.exe" code)"
           LOG_FILE="$MANIFEST_DIR/depot-manifest.log"
@@ -418,6 +434,10 @@ jobs:
             pyuepak==0.2.6.2 \
             cryptography==46.0.6 \
             pyyaml==6.0.3
+
+      - name: Prefetch Oodle library
+        timeout-minutes: 5
+        run: python scripts/prefetch_oodle.py
 
       - name: Set up .NET (for Ue4Export)
         timeout-minutes: 5
