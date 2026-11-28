@@ -329,7 +329,10 @@ def download_pak(
 
     stop_event = threading.Event()
     approver = SteamApprover(steamguard_path, stop_event)
-    approver.start()
+    # The 2FA code is passed with -no-mobile, so the approve loop is an opt-in fallback.
+    approve_loop = os.environ.get("STEAM_APPROVE_LOOP", "false").strip().lower() == "true"
+    if approve_loop:
+        approver.start()
     try:
         code = run_command(
             [str(steamguard_path), "code"],
@@ -365,7 +368,8 @@ def download_pak(
         )
     finally:
         stop_event.set()
-        approver.join(timeout=1)
+        if approve_loop:
+            approver.join(timeout=1)
 
     pak_file = download_root / Path(*pak_path.split("/"))
     if not pak_file.is_file():
