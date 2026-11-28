@@ -181,6 +181,12 @@
             "TPAttachmentSocketName": "R_prop_00",
             "FPAttachmentSocketName": "s_butcher_knife",
             "BackAttachmentSocketName": "VB BackpackBone"
+        },
+        {
+            "Name": "Paint_Brush",
+            "TPAttachmentSocketName": "R_prop_00",
+            "FPAttachmentSocketName": "s_paint_brush",
+            "BackAttachmentSocketName": "VB BackpackBone"
         }
     ]
 }

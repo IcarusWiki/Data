@@ -26667,6 +26667,12 @@
             }
         },
         {
+            "Name": "Workshop_Dehumidifier",
+            "ItemStaticData": {
+                "RowName": "Workshop_Dehumidifier"
+            }
+        },
+        {
             "Name": "Dried_Fish_Chunks",
             "ItemStaticData": {
                 "RowName": "Dried_Fish_Chunks"
@@ -26697,12 +26703,6 @@
             }
         },
         {
-            "Name": "Fish_Roll",
-            "ItemStaticData": {
-                "RowName": "Fish_Roll"
-            }
-        },
-        {
             "Name": "Smoked_Fillet_Sandwich",
             "ItemStaticData": {
                 "RowName": "Smoked_Fillet_Sandwich"
@@ -26712,12 +26712,6 @@
             "Name": "Coconut_Fish_Curry",
             "ItemStaticData": {
                 "RowName": "Coconut_Fish_Curry"
-            }
-        },
-        {
-            "Name": "Chilled_Fish_Platter",
-            "ItemStaticData": {
-                "RowName": "Chilled_Fish_Platter"
             }
         },
         {

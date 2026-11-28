@@ -477,6 +477,10 @@
         {
             "Name": "OLY_FOREST_HUT",
             "FileName": "OLY_FOREST_WS_STOCKPILE_HUT"
+        },
+        {
+            "Name": "NPC_WILDLIFE",
+            "FileName": "NPC_WILDLIFE"
         }
     ]
 }

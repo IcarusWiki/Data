@@ -14039,7 +14039,7 @@
         {
             "Name": "Item_Roaster",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Roaster-DisplayName\", \"Roaster\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Smoker_T4.T_ITEM_Smoker_T4",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Roaster_T4.T_ITEM_Roaster_T4",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Roaster-Description\", \"An electric roasting oven large enough to take a whole animal carcass. Also preserves food like a smoker.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Roaster-FlavorText\", \"The UDA advises you to use this item in a well-ventilated area.\")",
             "Weight": 2500
@@ -18610,6 +18610,7 @@
         {
             "Name": "Item_Plant_Boss_Vine",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Plant_Boss_Vine-DisplayName\", \"Vineshade Vine\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_PlantBoss_ViciousVine.T_ITEM_PlantBoss_ViciousVine",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Plant_Boss_Vine-Description\", \"A piece of vine taken from the body of a great beast.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Plant_Boss_Vine-FlavorText\", \"Evidence of a hard-won fight.\")",
             "Weight": 1000,
@@ -18618,6 +18619,7 @@
         {
             "Name": "Item_Plant_Boss_Flower",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Plant_Boss_Flower-DisplayName\", \"Vineshade Flower\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_PlantBoss_FlowerExtract.T_ITEM_PlantBoss_FlowerExtract",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Plant_Boss_Flower-Description\", \"A flower taken from the body of a great beast.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Plant_Boss_Flower-FlavorText\", \"Evidence of a hard-won fight.\")",
             "Weight": 1000,
@@ -29193,7 +29195,8 @@
         {
             "Name": "Item_Workshop_Dehumidifier",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Dehumidifier-DisplayName\", \"MXC Dehumidifier\")",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Dehumidifier-Description\", \"A handy peice of equipment that runs off of a Hydrozine canister. Supports extended cave habitation by providing protection against cavern-dwelling parasites.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Hydrozine_Dehumidifier.T_ITEM_Hydrozine_Dehumidifier",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Dehumidifier-Description\", \"A handy piece of equipment that runs off of a Hydrazine canister. Supports extended cave habitation by providing protection against cavern-dwelling parasites.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Dehumidifier-FlavorText\", \"The gas used by this appliance seems to smell faintly of wet socks, but the trade off is worth it.\")",
             "Weight": 20000
         },
@@ -29313,9 +29316,9 @@
         },
         {
             "Name": "Item_NPC_Rancher",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_NPC_Rancher-DisplayName\", \"Ranching Director Mills\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_NPC_Rancher-DisplayName\", \"Wildlife Trader Mills\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_NPC_Hunter.T_Icon_Map_NPC_Hunter",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_NPC_Rancher-Description\", \"A Rogue Prospector who will buy and trade creatures and their products.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_NPC_Rancher-Description\", \"A Prospector who will buy and trade creatures and their products.\")",
             "Weight": 20000
         },
         {
@@ -29334,6 +29337,35 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Captured_Juvenile_Bear-Description\", \"A Bear Cub that was captured by a UDA Specialist.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Captured_Juvenile_Bear-FlavorText\", \"Can these be tamed?\")",
             "Weight": 5000
+        },
+        {
+            "Name": "Item_Mission_Cub_Cage",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Cub_Cage-DisplayName\", \"Bear Cub Cage\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Animal_Trap_Small_T4.T_ITEM_Animal_Trap_Small_T4",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Cub_Cage-Description\", \"Can contain small creatures such as Bear Cubs.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Cub_Cage-FlavorText\", \"Gotcha!\")",
+            "Weight": 5000
+        },
+        {
+            "Name": "Item_Mission_Cub_Cage_Teddy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Cub_Cage_Teddy-DisplayName\", \"Bear Cub Cage (Teddy)\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Animal_Trap_Small_T4.T_ITEM_Animal_Trap_Small_T4",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Cub_Cage_Teddy-Description\", \"A Bear Cub that was re-captured, ready to return home.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Cub_Cage_Teddy-FlavorText\", \"Gotcha!\")",
+            "Weight": 10000
+        },
+        {
+            "Name": "Item_Mission_Cub_Cage_Pickles",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Cub_Cage_Pickles-DisplayName\", \"Bear Cub Cage (Pickles)\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Animal_Trap_Small_T4.T_ITEM_Animal_Trap_Small_T4",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Cub_Cage_Pickles-Description\", \"A Bear Cub that was re-captured, ready to return home.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Cub_Cage_Pickles-FlavorText\", \"Gotcha!\")",
+            "Weight": 10000
+        },
+        {
+            "Name": "Item_Mission_Animal_Tracker",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Animal_Tracker-DisplayName\", \"Animal Tracker\")",
+            "Weight": 10000
         }
     ]
 }

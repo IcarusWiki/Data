@@ -1527,6 +1527,22 @@
             "TPFocusedMontage": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_RifleEquip_Montage.3RD_CHA_RifleEquip_Montage",
             "TPUprightIdle": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_RifleIdle.3RD_CHA_MAL_RifleIdle",
             "TPCrouchedIdle": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_2HGunCrouchIdle.3RD_CHA_MAL_2HGunCrouchIdle"
+        },
+        {
+            "Name": "Focusable_1H_Paint_Brush",
+            "Behaviour": "/Game/BP/Behaviours/Focusable/BP_FocusableBehaviour.BP_FocusableBehaviour_C",
+            "AttachmentData": {
+                "RowName": "Paint_Brush"
+            },
+            "AnimOverlayType": "OneHanded",
+            "AnimationData": {
+                "RowName": "1HWEP"
+            },
+            "FPFocusedMontage": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_Axe_Equip_Montage.1ST_CHA_Axe_Equip_Montage",
+            "FPIdleAnim": "/Game/ASS/CHA/1ST/1ST_NewRig/1ST_CHA_1HAxe_Idle.1ST_CHA_1HAxe_Idle",
+            "TPFocusedMontage": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_1HAxeEquip_Montage.3RD_CHA_1HAxeEquip_Montage",
+            "TPUprightIdle": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_1HWeaponIdle.3RD_CHA_MAL_1HWeaponIdle",
+            "TPCrouchedIdle": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_1HWEPCrouchIdle.3RD_CHA_MAL_1HWEPCrouchIdle"
         }
     ]
 }

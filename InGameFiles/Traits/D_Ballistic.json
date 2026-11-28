@@ -5196,8 +5196,7 @@
                 "MinTimeBetweenBounces": 0.30000001192092896
             },
             "AudioData": {
-                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_SANDWORM_BALLISTIC_TRAVEL_SMALL.SFX_CRE_SANDWORM_BALLISTIC_TRAVEL_SMALL",
-                "ImpactSound": "/Game/FMOD/Events/SFX/Creatures/Movement/PlantMinions/SFX_CRE_PLANT_GAS_PORES.SFX_CRE_PLANT_GAS_PORES"
+                "ImpactSound": "/Game/FMOD/Events/SFX/Creatures/Movement/PlantMinions/SFX_CRE_PLANT_SPORE_IMPACT.SFX_CRE_PLANT_SPORE_IMPACT"
             },
             "bUseActorPooling": true
         }

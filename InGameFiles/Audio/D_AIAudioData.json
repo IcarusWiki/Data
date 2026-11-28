@@ -7762,13 +7762,13 @@
             "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_MED.SFX_CRE_DEATHFALL_WATER_MED",
             "VocalisationSocket": "RigJaw1",
             "AttackVocalisation": {
-                "RowName": "HorseAttack"
+                "RowName": "ElegantHorseFlinch"
             },
             "FlinchVocalisation": {
-                "RowName": "HorseFlinch"
+                "RowName": "ElegantHorseFlinch"
             },
             "DeathVocalisation": {
-                "RowName": "HorseDeath"
+                "RowName": "ElegantHorseDeath"
             },
             "StateVocalisations": {
                 "Idle": {
@@ -7785,35 +7785,7 @@
                         "DataTableName": "D_Vocalisations"
                     }
                 },
-                "Fleeing": {
-                    "StateEnteredVocalisation": {
-                        "RowName": "None",
-                        "DataTableName": "D_Vocalisations"
-                    },
-                    "StatePersistentVocalisation": {
-                        "RowName": "HorseFlee",
-                        "DataTableName": "D_Vocalisations"
-                    },
-                    "StateExitedVocalisation": {
-                        "RowName": "None",
-                        "DataTableName": "D_Vocalisations"
-                    }
-                },
                 "Relaxing": {
-                    "StateEnteredVocalisation": {
-                        "RowName": "None",
-                        "DataTableName": "D_Vocalisations"
-                    },
-                    "StatePersistentVocalisation": {
-                        "RowName": "HorseRelax",
-                        "DataTableName": "D_Vocalisations"
-                    },
-                    "StateExitedVocalisation": {
-                        "RowName": "None",
-                        "DataTableName": "D_Vocalisations"
-                    }
-                },
-                "Attacking": {
                     "StateEnteredVocalisation": {
                         "RowName": "None",
                         "DataTableName": "D_Vocalisations"
@@ -7845,10 +7817,10 @@
                 "RowName": "TundraMonkeyAttack"
             },
             "FlinchVocalisation": {
-                "RowName": "TundraMonkeyFlinch"
+                "RowName": "JungleMonkeyFlinch"
             },
             "DeathVocalisation": {
-                "RowName": "TundraMonkeyDeath"
+                "RowName": "JungleMonkeyDeath"
             },
             "StateVocalisations": {
                 "Idle": {
@@ -7857,7 +7829,7 @@
                         "DataTableName": "D_Vocalisations"
                     },
                     "StatePersistentVocalisation": {
-                        "RowName": "TundraMonkeyIdle",
+                        "RowName": "JungleMonkeyIdle",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StateExitedVocalisation": {
@@ -7871,7 +7843,7 @@
                         "DataTableName": "D_Vocalisations"
                     },
                     "StatePersistentVocalisation": {
-                        "RowName": "TundraMonkeyAggro",
+                        "RowName": "JungleMonkeyAggro",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StateExitedVocalisation": {

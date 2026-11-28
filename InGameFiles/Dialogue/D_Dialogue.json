@@ -27053,6 +27053,46 @@
                     }
                 }
             ]
+        },
+        {
+            "Name": "NPC_PetTraderGreetings",
+            "Audio": "/Game/FMOD/Events/Dialogue/DH/DH_NPCS/NULL_NPC_PETTRADER_GREETINGS.NULL_NPC_PETTRADER_GREETINGS",
+            "Speaker": {
+                "RowName": "TraderMills"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"NPC_PetTraderGreetings-Text-0\", \"Hi there!\")"
+            ]
+        },
+        {
+            "Name": "NPC_PetTrader_TradingInteraction",
+            "Audio": "/Game/FMOD/Events/Dialogue/DH/DH_NPCS/NULL_NPC_PETTRADER_TRADING.NULL_NPC_PETTRADER_TRADING",
+            "Speaker": {
+                "RowName": "TraderMills"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"NPC_PetTrader_TradingInteraction-Text-0\", \"Lets make a deal!\")"
+            ]
+        },
+        {
+            "Name": "NPC_PetTrader_Thanks",
+            "Audio": "/Game/FMOD/Events/Dialogue/DH/DH_NPCS/NULL_NPC_PETTRADER_THANKS.NULL_NPC_PETTRADER_THANKS",
+            "Speaker": {
+                "RowName": "TraderMills"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"NPC_PetTrader_Thanks-Text-0\", \"Thanks\")"
+            ]
+        },
+        {
+            "Name": "NPC_PetTrader_Farewell",
+            "Audio": "/Game/FMOD/Events/Dialogue/DH/DH_NPCS/NULL_NPC_PETTRADER_FAREWELL.NULL_NPC_PETTRADER_FAREWELL",
+            "Speaker": {
+                "RowName": "TraderMills"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"NPC_PetTrader_Farewell-Text-0\", \"Catch you later!\")"
+            ]
         }
     ]
 }

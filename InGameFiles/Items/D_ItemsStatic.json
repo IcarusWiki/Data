@@ -237214,7 +237214,7 @@
                 "RowName": "Item_Armour_Stand_T4"
             },
             "Interactable": {
-                "RowName": "Deployable_ArmourStand"
+                "RowName": "Deployable_ArmourStand_T4"
             },
             "Focusable": {
                 "RowName": "Focusable_1H"
@@ -238751,6 +238751,99 @@
             }
         },
         {
+            "Name": "Workshop_Dehumidifier",
+            "Meshable": {
+                "RowName": "Mesh_Generic_Fabricator"
+            },
+            "Itemable": {
+                "RowName": "Item_Workshop_Dehumidifier"
+            },
+            "Interactable": {
+                "RowName": "Dehumidifier"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Workshop_Dehumidifier"
+            },
+            "Durable": {
+                "RowName": "Deployable_1000"
+            },
+            "Inventory": {
+                "RowName": "Workshop_Dehumidifier"
+            },
+            "Decayable": {
+                "RowName": "Decay_10_Minutes"
+            },
+            "Generator": {
+                "RowName": "Workshop_Dehumidifier"
+            },
+            "Resource": {
+                "RowName": "Simple_Internal_Flow_Only"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Deployable.Climate.Dehumidifier"
+                    },
+                    {
+                        "TagName": "Item.Meta"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Deployable.Climate.Dehumidifier"
+                    },
+                    {
+                        "TagName": "Item.Meta"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
             "Name": "Dried_Fish_Chunks",
             "Meshable": {
                 "RowName": "Mesh_Generic_Food"
@@ -239138,87 +239231,6 @@
             }
         },
         {
-            "Name": "Fish_Roll",
-            "Meshable": {
-                "RowName": "Mesh_Generic_Food"
-            },
-            "Itemable": {
-                "RowName": "Item_Fish_Roll"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Generic_Consumable"
-            },
-            "Consumable": {
-                "RowName": "Fish_Roll"
-            },
-            "Usable": {
-                "RowName": "Consume_Stack_Food"
-            },
-            "Decayable": {
-                "RowName": "Decay_Food_Generic"
-            },
-            "Audio": {
-                "RowName": "Default_Food"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Resource"
-                    },
-                    {
-                        "TagName": "Item.Consumable.Food.Cooked.Vege"
-                    },
-                    {
-                        "TagName": "Item.Consumable.Food.Cooked.Fish"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Resource"
-                    },
-                    {
-                        "TagName": "Item.Consumable.Food.Cooked.Vege"
-                    },
-                    {
-                        "TagName": "Item.Consumable.Food.Cooked.Fish"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Consumable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
             "Name": "Smoked_Fillet_Sandwich",
             "Meshable": {
                 "RowName": "Mesh_Generic_Food"
@@ -239348,81 +239360,6 @@
                     },
                     {
                         "TagName": "Item.Consumable.Food.Cooked.Fruit"
-                    },
-                    {
-                        "TagName": "Traits.Meshable"
-                    },
-                    {
-                        "TagName": "Traits.Itemable"
-                    },
-                    {
-                        "TagName": "Traits.Interactable"
-                    },
-                    {
-                        "TagName": "Traits.Highlightable"
-                    },
-                    {
-                        "TagName": "Traits.Actionable"
-                    },
-                    {
-                        "TagName": "Traits.Consumable"
-                    },
-                    {
-                        "TagName": "Traits.Usable"
-                    }
-                ],
-                "ParentTags": []
-            }
-        },
-        {
-            "Name": "Chilled_Fish_Platter",
-            "Meshable": {
-                "RowName": "Mesh_Generic_Food"
-            },
-            "Itemable": {
-                "RowName": "Item_Chilled_Fish_Platter"
-            },
-            "Interactable": {
-                "RowName": "Item"
-            },
-            "Focusable": {
-                "RowName": "Focusable_1H"
-            },
-            "Highlightable": {
-                "RowName": "Generic"
-            },
-            "Actionable": {
-                "RowName": "Generic_Consumable"
-            },
-            "Consumable": {
-                "RowName": "Chilled_Fish_Platter"
-            },
-            "Usable": {
-                "RowName": "Consume_Stack_Food"
-            },
-            "Decayable": {
-                "RowName": "Decay_Food_Generic"
-            },
-            "Audio": {
-                "RowName": "Default_Food"
-            },
-            "Manual_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Resource"
-                    },
-                    {
-                        "TagName": "Item.Consumable.Food.Cooked.Fish"
-                    }
-                ]
-            },
-            "Generated_Tags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "Item.Resource"
-                    },
-                    {
-                        "TagName": "Item.Consumable.Food.Cooked.Fish"
                     },
                     {
                         "TagName": "Traits.Meshable"

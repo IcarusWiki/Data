@@ -11452,6 +11452,50 @@
                 ],
                 "AutoDescription": " ANY( Item.Paintable )"
             }
+        },
+        {
+            "Name": "Building_Chainlink",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "Building.Chainlink"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( Traits.Buildable, Building.Chainlink )"
+            }
+        },
+        {
+            "Name": "Building_HeavyGlass",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "Building.Glass.Heavy"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( Traits.Buildable, Building.Glass.Heavy )"
+            }
         }
     ]
 }

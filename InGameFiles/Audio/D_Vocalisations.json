@@ -4837,6 +4837,41 @@
             "Setting": {
                 "RowName": "Default"
             }
+        },
+        {
+            "Name": "ElegantHorseFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/EleGANTHORSE/SFX_CRE_VOC_ELEGANTHORSE_FLINCH.SFX_CRE_VOC_ELEGANTHORSE_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "ElegantHorseDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/EleGANTHORSE/SFX_CRE_VOC_ELEGANTHORSE_DEATH.SFX_CRE_VOC_ELEGANTHORSE_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "JungleMonkeyAggro",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/JungleMonkey/SFX_CRE_VOCAL_JUNGLEMONKEY_AGGRO.SFX_CRE_VOCAL_JUNGLEMONKEY_AGGRO",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "JungleMonkeyFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/JungleMonkey/SFX_CRE_VOC_JUNGLEMONKEY_FLINCH.SFX_CRE_VOC_JUNGLEMONKEY_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "JungleMonkeyDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/JungleMonkey/SFX_CRE_VOC_JUNGLEMONKEY_DEATH.SFX_CRE_VOC_JUNGLEMONKEY_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
         }
     ]
 }

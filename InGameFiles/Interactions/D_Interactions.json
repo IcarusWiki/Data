@@ -1019,6 +1019,11 @@
             "Name": "Interact_NPC_Trade_Creatures",
             "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_NPC_Trade_Creatures.BP_Interactable_Interact_NPC_Trade_Creatures_C",
             "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_NPC_Trade_Creatures-InteractionText\", \"Sell Creatures\")"
+        },
+        {
+            "Name": "Interact_SecurityDoor_Powered",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Security_Door_Powered.BP_Interactable_Security_Door_Powered_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_SecurityDoor_Powered-InteractionText\", \"Enter Pin\")"
         }
     ]
 }

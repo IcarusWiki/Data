@@ -14382,7 +14382,7 @@
         },
         {
             "Name": "BaseMovementSpeedWhilePullingCart_+%",
-            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMovementSpeedWhilePullingCart_+%-PositiveDescription\", \"{0}% Movement Speed while Pulling Cart\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMovementSpeedWhilePullingCart_+%-PositiveDescription\", \"+{0}% Movement Speed while Pulling Cart\")",
             "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMovementSpeedWhilePullingCart_+%-NegativeDescription\", \"-{0}% Movement Speed while Pulling Cart\")",
             "StatCategory": {
                 "RowName": "Movement"

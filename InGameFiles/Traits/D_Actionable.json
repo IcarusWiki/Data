@@ -3116,9 +3116,21 @@
         {
             "Name": "Nailgun",
             "ActionMapping": {
-                "(RowName=\"Building_UpgradeTool\",DataTableName=\"D_Actions\")": {
+                "(RowName=\"Weapon_Semi_Auto_Nailgun\",DataTableName=\"D_Actions\")": {
                     "InputTypes": {
                         "Primary": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                },
+                "(RowName=\"Building_UpgradeTool\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Secondary": {
                             "RowName": "None",
                             "DataTableName": "D_StaminaActionCosts"
                         },

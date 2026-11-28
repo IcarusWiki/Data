@@ -219,6 +219,26 @@
                 "(Value=\"BaseTreeCollisionDamageResistance_%\")": 75,
                 "(Value=\"BaseWindDamageResistance_%\")": 75
             }
+        },
+        {
+            "Name": "Chainlink",
+            "TagQuery": {
+                "RowName": "Building_Chainlink"
+            },
+            "Stats": {
+                "(Value=\"BaseBuildingInsulation_+\")": 15,
+                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 100
+            }
+        },
+        {
+            "Name": "HeavyGlass",
+            "TagQuery": {
+                "RowName": "Building_HeavyGlass"
+            },
+            "Stats": {
+                "(Value=\"BaseBuildingInsulation_+\")": 15,
+                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 100
+            }
         }
     ]
 }

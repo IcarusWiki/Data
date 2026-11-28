@@ -75,7 +75,8 @@
             }
         ],
         "PercentChanceToSpawn": 0,
-        "AdditionalAIToSpawn": []
+        "AdditionalAIToSpawn": [],
+        "WorkshopItems": []
     },
     "GenerateEnum": true,
     "Rows": [
@@ -12150,7 +12151,13 @@
             "Experience": {
                 "RowName": "Creature_Juvenile_BearCub"
             },
-            "bUseSurvivalCharacterState": true
+            "bUseSurvivalCharacterState": true,
+            "WorkshopItems": [
+                {
+                    "RowName": "Captured_Juvenile_Bear",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
         },
         {
             "Name": "Rabbit_Variant",
@@ -15529,6 +15536,12 @@
             "BestiaryGroup": {
                 "RowName": "Chicken"
             },
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Chicken",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Laika"
@@ -17073,6 +17086,12 @@
                 "RowName": "Sheep"
             },
             "BlacklistBones": [],
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Sheep",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Laika"
@@ -18512,7 +18531,13 @@
             },
             "BestiaryGroup": {
                 "RowName": "Kiwi"
-            }
+            },
+            "WorkshopItems": [
+                {
+                    "RowName": "Frozen_Kiwi",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
         },
         {
             "Name": "Ape",
@@ -18830,6 +18855,12 @@
                 "RowName": "Horse_Standard"
             },
             "BlacklistBones": [],
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Horse_A1",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Laika"
@@ -18989,6 +19020,12 @@
                 "RowName": "Horse_Standard"
             },
             "BlacklistBones": [],
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Horse_A2",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Laika"
@@ -19148,6 +19185,12 @@
                 "RowName": "Horse_Standard"
             },
             "BlacklistBones": [],
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Horse_A3",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Laika"
@@ -19299,6 +19342,12 @@
             "BestiaryGroup": {
                 "RowName": "Dog"
             },
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Dog_A1",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Laika"
@@ -19450,6 +19499,12 @@
             "BestiaryGroup": {
                 "RowName": "Dog"
             },
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Dog_A2",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Laika"
@@ -19601,6 +19656,12 @@
             "BestiaryGroup": {
                 "RowName": "Dog"
             },
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Dog_B1",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Laika"
@@ -19752,6 +19813,12 @@
             "BestiaryGroup": {
                 "RowName": "Dog"
             },
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Dog_B2",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Laika"
@@ -19901,6 +19968,12 @@
                 "RowName": "Cat"
             },
             "BlacklistBones": [],
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Cat_A1",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Laika"
@@ -20050,6 +20123,12 @@
                 "RowName": "Cat"
             },
             "BlacklistBones": [],
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Cat_A2",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Laika"
@@ -20199,6 +20278,12 @@
                 "RowName": "Cat"
             },
             "BlacklistBones": [],
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Cat_A3",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Laika"
@@ -20666,6 +20751,12 @@
             "BestiaryGroup": {
                 "RowName": "Dog"
             },
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Dog_C1",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Laika"
@@ -21277,6 +21368,12 @@
             "BestiaryGroup": {
                 "RowName": "Dog"
             },
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Dog_D1",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Laika"
@@ -21428,6 +21525,12 @@
             "BestiaryGroup": {
                 "RowName": "Dog"
             },
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Dog_D2",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Laika"
@@ -23136,7 +23239,17 @@
             "bUseSurvivalCharacterState": true,
             "BestiaryGroup": {
                 "RowName": "Cattle"
-            }
+            },
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Calf",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Workshop_Calf_Male",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
         },
         {
             "Name": "Rooster",
@@ -23447,7 +23560,17 @@
             "bUseSurvivalCharacterState": true,
             "BestiaryGroup": {
                 "RowName": "Chicken"
-            }
+            },
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Chick_Male",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Workshop_Chick_Female",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
         },
         {
             "Name": "Ram",
@@ -23778,7 +23901,17 @@
             "bUseSurvivalCharacterState": true,
             "BestiaryGroup": {
                 "RowName": "Sheep"
-            }
+            },
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Lamb_Female",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Workshop_Lamb_Male",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
         },
         {
             "Name": "Juvenile_Rock_Golem",
@@ -35064,6 +35197,12 @@
                 "RowName": "Cat"
             },
             "BlacklistBones": [],
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Cat_B",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Homestead"
@@ -35216,6 +35355,12 @@
                 "RowName": "Cat"
             },
             "BlacklistBones": [],
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Cat_C",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Homestead"
@@ -35367,6 +35512,12 @@
             "BestiaryGroup": {
                 "RowName": "Dog"
             },
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Dog_C2",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Homestead"
@@ -35518,6 +35669,12 @@
             "BestiaryGroup": {
                 "RowName": "Dog"
             },
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Dog_E",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Homestead"
@@ -35974,6 +36131,16 @@
             "BestiaryGroup": {
                 "RowName": "Pig"
             },
+            "WorkshopItems": [
+                {
+                    "RowName": "Workshop_Piglet_Male",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Workshop_Piglet_Female",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "Homestead"

@@ -221,9 +221,9 @@
         },
         {
             "Name": "PenPals",
-            "DisplayName": "INVTEXT(\"Pen Pals\")",
-            "ShortName": "INVTEXT(\"PP\")",
-            "Description": "Feature level for Pen Pals",
+            "DisplayName": "INVTEXT(\"Ursa\")",
+            "ShortName": "INVTEXT(\"UR\")",
+            "Description": "Ursa",
             "Color": {
                 "R": 1,
                 "G": 0.20000000298023224,

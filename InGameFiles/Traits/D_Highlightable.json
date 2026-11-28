@@ -1615,6 +1615,11 @@
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Rancher-Description\", \"UDA assigned Specialist who deals in all manner of farmable creatures on Icarus.\")"
         },
         {
+            "Name": "NPC_Rancher_Trader",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Rancher_Trader-DisplayName\", \"Wildlife Trader Mills\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Rancher_Trader-Description\", \"UDA assigned Specialist who deals in all manner of farmable creatures on Icarus.\")"
+        },
+        {
             "Name": "Duke",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Duke-DisplayName\", \"EDEN\\'s Bull\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"Duke-Description\", \"Its cart contains a variety of explosive equipment.\")"
@@ -1698,6 +1703,11 @@
             "Name": "Dead_Caveworm",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Dead_Caveworm-DisplayName\", \"Caveworm Carcass\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"Dead_Caveworm-Description\", \"The remains of a very territorial creature.\")"
+        },
+        {
+            "Name": "Door_Wildlife_Cage",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Door_Wildlife_Cage-DisplayName\", \"Wildlife Cage Door\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Door_Wildlife_Cage-Description\", \"Requires power and a pin code to open.\")"
         }
     ]
 }

@@ -274,6 +274,28 @@
             "BuildingTier": 6,
             "MaxAnchoredStability": 5,
             "YellowStability": 1
+        },
+        {
+            "Name": "Heavy_Glass",
+            "BuildingTier": 6,
+            "MaxHardStability": 20,
+            "HardStabilityMaxRange": 5,
+            "MinimumUnstableStability": 1.2999999523162842,
+            "MaxAnchoredStability": 20,
+            "LowestGreenStability": 6,
+            "YellowStability": 2.5,
+            "HighestRedStability": 1.2999999523162842
+        },
+        {
+            "Name": "Chainlink",
+            "BuildingTier": 6,
+            "MaxHardStability": 20,
+            "HardStabilityMaxRange": 5,
+            "MinimumUnstableStability": 1.2999999523162842,
+            "MaxAnchoredStability": 20,
+            "LowestGreenStability": 6,
+            "YellowStability": 2.5,
+            "HighestRedStability": 1.2999999523162842
         }
     ]
 }

@@ -12118,6 +12118,16 @@
                 }
             ],
             "EffectedByWeather": false
+        },
+        {
+            "Name": "Mission_Animal_Tracker",
+            "Variants": [
+                {
+                    "RowName": "Mission_Animal_Tracker",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
         }
     ]
 }

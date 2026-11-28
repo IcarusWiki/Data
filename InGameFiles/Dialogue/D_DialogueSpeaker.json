@@ -115,6 +115,10 @@
         {
             "Name": "Rancher",
             "Speaker": "NSLOCTEXT(\"D_DialogueSpeaker\", \"Rancher-Speaker\", \"Rancher\")"
+        },
+        {
+            "Name": "TraderMills",
+            "Speaker": "NSLOCTEXT(\"D_DialogueSpeaker\", \"TraderMills-Speaker\", \"Trader Mills\")"
         }
     ]
 }

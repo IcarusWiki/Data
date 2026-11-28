@@ -15776,9 +15776,12 @@
             "PreviewStaticMesh": "/Game/ASS/DPS/SM_DPS_SML_Dropship_Full_V2.SM_DPS_SML_Dropship_Full_V2",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
             "SupportsCustomRotation": false,
-            "WorldPlacementType": "WallPlacement",
-            "bCanAffectNavigation": false,
-            "MaxRestackingAmount": -1
+            "MaxRestackingAmount": -1,
+            "DeployCollisionExtentOffset": {
+                "X": -500,
+                "Y": -500,
+                "Z": -500
+            }
         },
         {
             "Name": "Prop_Enzyme_PropagationUnit",
@@ -16582,6 +16585,14 @@
             "Name": "Workshop_Dehumidifier",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Dehumidifier/BP_Workshop_Dehumidifier.BP_Workshop_Dehumidifier_C",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Hydrozine_Dehumidifier/SM_DEP_Hydrozine_Dehumidifier_Combined.SM_DEP_Hydrozine_Dehumidifier_Combined",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SupportsCustomRotation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Mission_Animal_Tracker",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_Animal_Tracker.BP_Animal_Tracker_C",
+            "PreviewStaticMesh": "/Game/ASS/PRP/PRP_Laptop/SM_PRP_Laptop.SM_PRP_Laptop",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
             "SupportsCustomRotation": false,
             "MaxRestackingAmount": 1

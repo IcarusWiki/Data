@@ -4149,6 +4149,17 @@
                     "RowName": "DangerousHorizons"
                 }
             }
+        },
+        {
+            "Name": "Fish_Paste_Lure",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Fish_Paste_Lure-DisplayName\", \"Fish Paste Lure\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fishing/T_ITEM_Fish_Paste_Lure.T_ITEM_Fish_Paste_Lure",
+            "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+            "Stats": {
+                "(Value=\"BaseChanceToCatchUniqueFish_+%\")": 50,
+                "(Value=\"BaseCaughtSaltwaterFishQuality_+%\")": 10,
+                "(Value=\"BaseFishingCaptureZoneSize_+%\")": 10
+            }
         }
     ]
 }

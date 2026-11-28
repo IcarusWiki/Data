@@ -2436,6 +2436,16 @@
                 "Value": "Slotable"
             },
             "StartingSlots": 1
+        },
+        {
+            "Name": "Mount_Accessory",
+            "InventoryID": {
+                "Value": "Saddle"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Accessory"
+            },
+            "StartingSlots": 1
         }
     ]
 }

@@ -15900,6 +15900,60 @@
                 ],
                 "AutoDescription": " ALL( FactionMission.Forest.WSStockpile.MapIcon )"
             }
+        },
+        {
+            "Name": "SQ_NPC_RANCHER_CAGE",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.NPC.Rancher.Cage"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.NPC.Rancher.Cage )"
+            }
+        },
+        {
+            "Name": "SQ_NPC_RANCHER_DOOR",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.NPC.Rancher.Door"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.NPC.Rancher.Door )"
+            }
+        },
+        {
+            "Name": "SQ_NPC_RANCHER_STUCK",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.NPC.Rancher.Stuck"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.NPC.Rancher.Stuck )"
+            }
         }
     ]
 }

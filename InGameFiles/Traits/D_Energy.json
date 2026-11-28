@@ -513,6 +513,12 @@
             "AutoActivate": true,
             "AutoShutoffFlowPercent": 99,
             "bAllowAutoRestart": true
+        },
+        {
+            "Name": "Mission_Keypad",
+            "AlwaysActive": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 500
         }
     ]
 }

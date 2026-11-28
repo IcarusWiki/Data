@@ -1736,6 +1736,24 @@
                     "DataTableName": "D_InventoryInfo"
                 }
             ]
+        },
+        {
+            "Name": "Fish_Pond",
+            "Inventories": [
+                {
+                    "RowName": "Advanced_Aquarium",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Fish_Pond_Large",
+            "Inventories": [
+                {
+                    "RowName": "Large_Advanced_Aquarium",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
         }
     ]
 }

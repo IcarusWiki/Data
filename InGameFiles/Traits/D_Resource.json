@@ -773,6 +773,27 @@
             "EnergyFlow": {
                 "RowName": "Advanced_Armor_Stand"
             }
+        },
+        {
+            "Name": "Mission_Keypad",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Mission_Keypad"
+            }
+        },
+        {
+            "Name": "Fish_Pond",
+            "bHasWaterConnection": true,
+            "WaterFlow": {
+                "RowName": "Fish_Pond"
+            }
+        },
+        {
+            "Name": "Fish_Pond_Large",
+            "bHasWaterConnection": true,
+            "WaterFlow": {
+                "RowName": "Fish_Pond_Large"
+            }
         }
     ]
 }

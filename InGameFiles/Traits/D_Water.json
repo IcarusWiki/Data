@@ -263,6 +263,19 @@
             "OptionalFlowType": {
                 "RowName": "PerRecipe"
             }
+        },
+        {
+            "Name": "Fish_Pond",
+            "AlwaysActive": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 500,
+            "AutoShutoffFlowPercent": 99
+        },
+        {
+            "Name": "Fish_Pond_Large",
+            "AlwaysActive": true,
+            "AutoActivate": true,
+            "AutoShutoffFlowPercent": 99
         }
     ]
 }

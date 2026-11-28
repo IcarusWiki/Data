@@ -6,7 +6,7 @@
         },
         "SupportedMount": [],
         "SkeletalMesh": "None",
-        "SkeletalMeshMaterialOverride": "None",
+        "SkeletalMeshMaterialOverrides": {},
         "SaddleAnimBlueprint": "None",
         "SaddleBlueprint": "None",
         "AttachSocket": "None",
@@ -1537,7 +1537,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/SK_ITM_Saddle_Moa.SK_ITM_Saddle_Moa",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/M_ITM_Saddle_Arctic.M_ITM_Saddle_Arctic",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/M_ITM_Saddle_Arctic.M_ITM_Saddle_Arctic"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_Moa_Skeleton_AnimBlueprint.SK_ITM_Saddle_Moa_Skeleton_AnimBlueprint_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot"
@@ -1554,7 +1556,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/SK_ITM_Saddle_Buffalo.SK_ITM_Saddle_Buffalo",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/M_ITM_Saddle_Arctic.M_ITM_Saddle_Arctic",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/M_ITM_Saddle_Arctic.M_ITM_Saddle_Arctic"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_Buffalo_Skeleton_AnimBlueprint.SK_ITM_Saddle_Buffalo_Skeleton_AnimBlueprint_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot"
@@ -1571,7 +1575,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie.SK_ITM_Saddle_NormieHorsie",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/M_ITM_Saddle_Arctic.M_ITM_Saddle_Arctic",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/M_ITM_Saddle_Arctic.M_ITM_Saddle_Arctic"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot"
@@ -1588,7 +1594,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/SK_ITM_Saddle_Tusker.SK_ITM_Saddle_Tusker",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/M_ITM_Saddle_Arctic.M_ITM_Saddle_Arctic",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/M_ITM_Saddle_Arctic.M_ITM_Saddle_Arctic"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_Buffalo_Skeleton_AnimBlueprint.SK_ITM_Saddle_Buffalo_Skeleton_AnimBlueprint_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot",
@@ -1606,7 +1614,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie.SK_ITM_Saddle_NormieHorsie",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/M_ITM_Saddle_Arctic.M_ITM_Saddle_Arctic",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/M_ITM_Saddle_Arctic.M_ITM_Saddle_Arctic"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot"
@@ -1623,7 +1633,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/SK_ITM_Saddle_Wooly_Zebra.SK_ITM_Saddle_Wooly_Zebra",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/M_ITM_Saddle_Arctic.M_ITM_Saddle_Arctic",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/M_ITM_Saddle_Arctic.M_ITM_Saddle_Arctic"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot",
@@ -1641,7 +1653,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie.SK_ITM_Saddle_NormieHorsie",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/M_ITM_Saddle_Arctic.M_ITM_Saddle_Arctic",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/M_ITM_Saddle_Arctic.M_ITM_Saddle_Arctic"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot"
@@ -1658,7 +1672,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/SK_ITM_Saddle_Moa.SK_ITM_Saddle_Moa",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/M_ITM_Saddle_Arctic.M_ITM_Saddle_Arctic",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/M_ITM_Saddle_Arctic.M_ITM_Saddle_Arctic"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_Moa_Skeleton_AnimBlueprint.SK_ITM_Saddle_Moa_Skeleton_AnimBlueprint_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot",
@@ -1680,7 +1696,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/SK_ITM_Saddle_Moa.SK_ITM_Saddle_Moa",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/M_ITM_Saddle_Desert.M_ITM_Saddle_Desert",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/M_ITM_Saddle_Desert.M_ITM_Saddle_Desert"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_Moa_Skeleton_AnimBlueprint.SK_ITM_Saddle_Moa_Skeleton_AnimBlueprint_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot"
@@ -1697,7 +1715,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/SK_ITM_Saddle_Buffalo.SK_ITM_Saddle_Buffalo",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/M_ITM_Saddle_Desert.M_ITM_Saddle_Desert",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/M_ITM_Saddle_Desert.M_ITM_Saddle_Desert"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_Buffalo_Skeleton_AnimBlueprint.SK_ITM_Saddle_Buffalo_Skeleton_AnimBlueprint_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot"
@@ -1714,7 +1734,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie.SK_ITM_Saddle_NormieHorsie",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/M_ITM_Saddle_Desert.M_ITM_Saddle_Desert",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/M_ITM_Saddle_Desert.M_ITM_Saddle_Desert"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot"
@@ -1731,7 +1753,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/SK_ITM_Saddle_Tusker.SK_ITM_Saddle_Tusker",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/M_ITM_Saddle_Desert.M_ITM_Saddle_Desert",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/M_ITM_Saddle_Desert.M_ITM_Saddle_Desert"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_Buffalo_Skeleton_AnimBlueprint.SK_ITM_Saddle_Buffalo_Skeleton_AnimBlueprint_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot",
@@ -1749,7 +1773,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie.SK_ITM_Saddle_NormieHorsie",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/M_ITM_Saddle_Desert.M_ITM_Saddle_Desert",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/M_ITM_Saddle_Desert.M_ITM_Saddle_Desert"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot"
@@ -1766,7 +1792,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/SK_ITM_Saddle_Wooly_Zebra.SK_ITM_Saddle_Wooly_Zebra",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/M_ITM_Saddle_Desert.M_ITM_Saddle_Desert",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/M_ITM_Saddle_Desert.M_ITM_Saddle_Desert"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot",
@@ -1784,7 +1812,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie.SK_ITM_Saddle_NormieHorsie",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/M_ITM_Saddle_Desert.M_ITM_Saddle_Desert",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/M_ITM_Saddle_Desert.M_ITM_Saddle_Desert"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot"
@@ -1801,7 +1831,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/SK_ITM_Saddle_Moa.SK_ITM_Saddle_Moa",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/M_ITM_Saddle_Desert.M_ITM_Saddle_Desert",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/M_ITM_Saddle_Desert.M_ITM_Saddle_Desert"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_Moa_Skeleton_AnimBlueprint.SK_ITM_Saddle_Moa_Skeleton_AnimBlueprint_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot",
@@ -1844,7 +1876,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/Saddle_Arctic_Survival/SK_Saddle_Arctic_Survival_Moa.SK_Saddle_Arctic_Survival_Moa",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/Saddle_Arctic_Survival/M_ITM_Saddle_Arctic_Survival.M_ITM_Saddle_Arctic_Survival",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/Saddle_Arctic_Survival/M_ITM_Saddle_Arctic_Survival.M_ITM_Saddle_Arctic_Survival"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_Moa_Skeleton_AnimBlueprint.SK_ITM_Saddle_Moa_Skeleton_AnimBlueprint_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot"
@@ -1861,7 +1895,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/Saddle_Arctic_Survival/SK_Saddle_Arctic_Survival_Buffalo.SK_Saddle_Arctic_Survival_Buffalo",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/Saddle_Arctic_Survival/M_ITM_Saddle_Arctic_Survival.M_ITM_Saddle_Arctic_Survival",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/Saddle_Arctic_Survival/M_ITM_Saddle_Arctic_Survival.M_ITM_Saddle_Arctic_Survival"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_Buffalo_Skeleton_AnimBlueprint.SK_ITM_Saddle_Buffalo_Skeleton_AnimBlueprint_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot"
@@ -1878,7 +1914,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/Saddle_Arctic_Survival/SK_Saddle_Arctic_Survival_Horse.SK_Saddle_Arctic_Survival_Horse",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/Saddle_Arctic_Survival/M_ITM_Saddle_Arctic_Survival.M_ITM_Saddle_Arctic_Survival",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/Saddle_Arctic_Survival/M_ITM_Saddle_Arctic_Survival.M_ITM_Saddle_Arctic_Survival"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot"
@@ -1895,7 +1933,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/Saddle_Arctic_Survival/SK_Saddle_Arctic_Survival_Buffalo.SK_Saddle_Arctic_Survival_Buffalo",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/Saddle_Arctic_Survival/M_ITM_Saddle_Arctic_Survival.M_ITM_Saddle_Arctic_Survival",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/Saddle_Arctic_Survival/M_ITM_Saddle_Arctic_Survival.M_ITM_Saddle_Arctic_Survival"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_Buffalo_Skeleton_AnimBlueprint.SK_ITM_Saddle_Buffalo_Skeleton_AnimBlueprint_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot",
@@ -1913,7 +1953,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/Saddle_Arctic_Survival/SK_Saddle_Arctic_Survival_Horse.SK_Saddle_Arctic_Survival_Horse",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/Saddle_Arctic_Survival/M_ITM_Saddle_Arctic_Survival.M_ITM_Saddle_Arctic_Survival",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/Saddle_Arctic_Survival/M_ITM_Saddle_Arctic_Survival.M_ITM_Saddle_Arctic_Survival"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot"
@@ -1930,7 +1972,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/Saddle_Arctic_Survival/SK_Saddle_Arctic_Survival_Wooly_Zebra.SK_Saddle_Arctic_Survival_Wooly_Zebra",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/Saddle_Arctic_Survival/M_ITM_Saddle_Arctic_Survival.M_ITM_Saddle_Arctic_Survival",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/Saddle_Arctic_Survival/M_ITM_Saddle_Arctic_Survival.M_ITM_Saddle_Arctic_Survival"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot",
@@ -1948,7 +1992,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/Saddle_Arctic_Survival/SK_Saddle_Arctic_Survival_Standard_Horse.SK_Saddle_Arctic_Survival_Standard_Horse",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/Saddle_Arctic_Survival/M_ITM_Saddle_Arctic_Survival.M_ITM_Saddle_Arctic_Survival",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/Saddle_Arctic_Survival/M_ITM_Saddle_Arctic_Survival.M_ITM_Saddle_Arctic_Survival"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_NormieHorsie_AnimBP.SK_ITM_Saddle_NormieHorsie_AnimBP_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot"
@@ -1965,7 +2011,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/Saddle_Arctic_Survival/SK_Saddle_Arctic_Survival_Moa.SK_Saddle_Arctic_Survival_Moa",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/Saddle_Arctic_Survival/M_ITM_Saddle_Arctic_Survival.M_ITM_Saddle_Arctic_Survival",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/Saddle_Arctic_Survival/M_ITM_Saddle_Arctic_Survival.M_ITM_Saddle_Arctic_Survival"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_Moa_Skeleton_AnimBlueprint.SK_ITM_Saddle_Moa_Skeleton_AnimBlueprint_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot",
@@ -2793,7 +2841,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/Saddle/SK_ITM_Saddle_Raptor.SK_ITM_Saddle_Raptor",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/M_ITM_Saddle_Arctic.M_ITM_Saddle_Arctic",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/M_ITM_Saddle_Arctic.M_ITM_Saddle_Arctic"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/Saddle/SK_ITM_Saddle_Raptor_AnimBP.SK_ITM_Saddle_Raptor_AnimBP_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RaptorSaddle"
@@ -2814,7 +2864,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/Saddle/SK_ITM_Saddle_Raptor.SK_ITM_Saddle_Raptor",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/M_ITM_Saddle_Desert.M_ITM_Saddle_Desert",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/M_ITM_Saddle_Desert.M_ITM_Saddle_Desert"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/Saddle/SK_ITM_Saddle_Raptor_AnimBP.SK_ITM_Saddle_Raptor_AnimBP_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RaptorSaddle"
@@ -3290,7 +3342,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/Saddle/SK_ITM_Saddle_Slinker.SK_ITM_Saddle_Slinker",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/M_ITM_Saddle_Desert.M_ITM_Saddle_Desert",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/M_ITM_Saddle_Desert.M_ITM_Saddle_Desert"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/Saddle/SK_CRE_Slinker_Saddle_Skeleton_AnimBP.SK_CRE_Slinker_Saddle_Skeleton_AnimBP_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot"
@@ -3307,7 +3361,9 @@
                 }
             ],
             "SkeletalMesh": "/Game/ASS/ITM/Saddle/SK_ITM_Saddle_Slinker.SK_ITM_Saddle_Slinker",
-            "SkeletalMeshMaterialOverride": "/Game/ASS/ITM/M_ITM_Saddle_Arctic.M_ITM_Saddle_Arctic",
+            "SkeletalMeshMaterialOverrides": {
+                "0": "/Game/ASS/ITM/M_ITM_Saddle_Arctic.M_ITM_Saddle_Arctic"
+            },
             "SaddleAnimBlueprint": "/Game/ASS/ITM/Saddle/SK_CRE_Slinker_Saddle_Skeleton_AnimBP.SK_CRE_Slinker_Saddle_Skeleton_AnimBP_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RigRoot"

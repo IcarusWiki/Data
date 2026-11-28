@@ -6749,6 +6749,11 @@
             "Name": "Mesh_PlantMinion_Spore_Spores",
             "ItemMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
             "ItemActor": "/Game/BP/AI/Bosses/Misc/BP_PlantMinion_Spore_Spores.BP_PlantMinion_Spore_Spores_C"
+        },
+        {
+            "Name": "Mesh_Mission_Cub_Cage",
+            "ItemMesh": "/Game/ASS/DEP/SM_DEP_Trap_Small_T4.SM_DEP_Trap_Small_T4",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         }
     ]
 }

@@ -382,7 +382,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 21300,
+                "X": 21700,
                 "Y": 300
             },
             "Size": {
@@ -1113,7 +1113,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 13500,
+                "X": 13600,
                 "Y": 850
             },
             "Size": {
@@ -1139,7 +1139,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 13800,
+                "X": 13900,
                 "Y": 850
             },
             "Size": {
@@ -1531,7 +1531,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20050,
+                "X": 20450,
                 "Y": 100
             },
             "Size": {
@@ -1791,7 +1791,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 19450,
+                "X": 19850,
                 "Y": 100
             },
             "Size": {
@@ -2194,7 +2194,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20350,
+                "X": 20750,
                 "Y": 100
             },
             "Size": {
@@ -2244,7 +2244,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 13650,
+                "X": 13750,
                 "Y": 1200
             },
             "Size": {
@@ -2470,7 +2470,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15800,
+                "X": 15850,
                 "Y": 850
             },
             "Size": {
@@ -2693,7 +2693,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 13200,
+                "X": 13300,
                 "Y": 1050
             },
             "Size": {
@@ -2717,7 +2717,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20950,
+                "X": 21350,
                 "Y": 1050
             },
             "Size": {
@@ -5969,7 +5969,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20050,
+                "X": 20450,
                 "Y": 450
             },
             "Size": {
@@ -5993,7 +5993,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 19750,
+                "X": 20150,
                 "Y": 450
             },
             "Size": {
@@ -6015,7 +6015,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18850,
+                "X": 19250,
                 "Y": 100
             },
             "Size": {
@@ -11878,7 +11878,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 19750,
+                "X": 20150,
                 "Y": 100
             },
             "Size": {
@@ -17428,7 +17428,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 12900,
+                "X": 13000,
                 "Y": 1200
             },
             "Size": {
@@ -20957,7 +20957,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17700,
+                "X": 17200,
                 "Y": 1050
             },
             "Size": {
@@ -22514,7 +22514,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16400,
+                "X": 17850,
                 "Y": 450
             },
             "Size": {
@@ -22538,7 +22538,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17300,
+                "X": 16950,
                 "Y": 100
             },
             "Size": {
@@ -22562,8 +22562,8 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15500,
-                "Y": 100
+                "X": 16050,
+                "Y": 450
             },
             "Size": {
                 "X": 184,
@@ -22586,7 +22586,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17300,
+                "X": 16950,
                 "Y": 450
             },
             "Size": {
@@ -22635,7 +22635,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16400,
+                "X": 16050,
                 "Y": 100
             },
             "Size": {
@@ -23463,7 +23463,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16400,
+                "X": 16450,
                 "Y": 850
             },
             "Size": {
@@ -23487,7 +23487,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16400,
+                "X": 16450,
                 "Y": 1200
             },
             "Size": {
@@ -23511,7 +23511,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16100,
+                "X": 16150,
                 "Y": 850
             },
             "Size": {
@@ -23535,7 +23535,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16700,
+                "X": 16750,
                 "Y": 850
             },
             "Size": {
@@ -23731,8 +23731,8 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15200,
-                "Y": 100
+                "X": 15750,
+                "Y": 450
             },
             "Size": {
                 "X": 184,
@@ -23991,7 +23991,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20650,
+                "X": 21050,
                 "Y": 450
             },
             "Size": {
@@ -24294,7 +24294,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20600,
+                "X": 21000,
                 "Y": 850
             },
             "Size": {
@@ -24316,7 +24316,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 19150,
+                "X": 19550,
                 "Y": 100
             },
             "Size": {
@@ -24341,7 +24341,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20600,
+                "X": 21000,
                 "Y": 1200
             },
             "Size": {
@@ -24730,7 +24730,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 12300,
+                "X": 12400,
                 "Y": 850
             },
             "Size": {
@@ -25807,7 +25807,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20950,
+                "X": 21350,
                 "Y": 450
             },
             "Size": {
@@ -27140,7 +27140,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14400,
+                "X": 14500,
                 "Y": 850
             },
             "Size": {
@@ -28726,7 +28726,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 12900,
+                "X": 13000,
                 "Y": 850
             },
             "Size": {
@@ -28871,7 +28871,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 18550,
+                "X": 18850,
                 "Y": 1050
             },
             "Size": {
@@ -29297,7 +29297,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 21950,
+                "X": 22350,
                 "Y": 450
             },
             "Size": {
@@ -29322,7 +29322,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 22250,
+                "X": 22650,
                 "Y": 450
             },
             "Size": {
@@ -29347,7 +29347,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 21650,
+                "X": 22050,
                 "Y": 450
             },
             "Size": {
@@ -29372,7 +29372,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 21300,
+                "X": 21700,
                 "Y": 850
             },
             "Size": {
@@ -29397,7 +29397,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 21600,
+                "X": 22000,
                 "Y": 850
             },
             "Size": {
@@ -29422,7 +29422,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 21650,
+                "X": 22050,
                 "Y": 100
             },
             "Size": {
@@ -29448,7 +29448,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 21300,
+                "X": 21700,
                 "Y": 1200
             },
             "Size": {
@@ -29478,7 +29478,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 21600,
+                "X": 22000,
                 "Y": 1200
             },
             "Size": {
@@ -29585,7 +29585,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 19100,
+                "X": 19400,
                 "Y": 100
             },
             "Size": {
@@ -29610,7 +29610,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 19400,
+                "X": 19700,
                 "Y": 100
             },
             "Size": {
@@ -29635,7 +29635,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 18800,
+                "X": 19100,
                 "Y": 100
             },
             "Size": {
@@ -29660,7 +29660,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 19100,
+                "X": 19400,
                 "Y": 450
             },
             "Size": {
@@ -29685,7 +29685,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 19400,
+                "X": 19700,
                 "Y": 450
             },
             "Size": {
@@ -29710,7 +29710,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 18800,
+                "X": 19100,
                 "Y": 450
             },
             "Size": {
@@ -29735,7 +29735,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 19100,
+                "X": 19400,
                 "Y": 800
             },
             "Size": {
@@ -29765,7 +29765,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 19400,
+                "X": 19700,
                 "Y": 800
             },
             "Size": {
@@ -29796,7 +29796,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 19100,
+                "X": 19400,
                 "Y": 1200
             },
             "Size": {
@@ -29826,7 +29826,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 19400,
+                "X": 19700,
                 "Y": 1200
             },
             "Size": {
@@ -29856,7 +29856,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 20050,
+                "X": 20350,
                 "Y": 450
             },
             "Size": {
@@ -29882,7 +29882,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 18550,
+                "X": 18850,
                 "Y": 300
             },
             "Size": {
@@ -29905,7 +29905,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 18550,
+                "X": 18850,
                 "Y": 700
             },
             "Size": {
@@ -29958,7 +29958,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 21950,
+                "X": 22350,
                 "Y": 300
             },
             "Size": {
@@ -30336,7 +30336,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14100,
+                "X": 14200,
                 "Y": 850
             },
             "Size": {
@@ -30727,7 +30727,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18000,
+                "X": 18700,
                 "Y": 850
             },
             "Size": {
@@ -30814,7 +30814,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17100,
+                "X": 18100,
                 "Y": 850
             },
             "Size": {
@@ -31058,7 +31058,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17400,
+                "X": 18400,
                 "Y": 850
             },
             "Size": {
@@ -31248,7 +31248,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 12600,
+                "X": 12700,
                 "Y": 850
             },
             "Size": {
@@ -32143,7 +32143,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 20050,
+                "X": 20350,
                 "Y": 100
             },
             "Size": {
@@ -32173,7 +32173,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 20350,
+                "X": 20650,
                 "Y": 100
             },
             "Size": {
@@ -32261,7 +32261,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14800,
+                "X": 14850,
                 "Y": 850
             },
             "Size": {
@@ -32286,7 +32286,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15100,
+                "X": 15150,
                 "Y": 850
             },
             "Size": {
@@ -32311,7 +32311,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15400,
+                "X": 15450,
                 "Y": 850
             },
             "Size": {
@@ -32336,7 +32336,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15400,
+                "X": 15450,
                 "Y": 1200
             },
             "Size": {
@@ -32361,7 +32361,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15100,
+                "X": 15150,
                 "Y": 1200
             },
             "Size": {
@@ -32461,7 +32461,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 21950,
+                "X": 22350,
                 "Y": 100
             },
             "Size": {
@@ -32488,7 +32488,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 22250,
+                "X": 22650,
                 "Y": 100
             },
             "Size": {
@@ -32514,7 +32514,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18300,
+                "X": 17800,
                 "Y": 850
             },
             "Size": {
@@ -32545,7 +32545,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17100,
+                "X": 18100,
                 "Y": 1200
             },
             "Size": {
@@ -32581,7 +32581,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14900,
+                "X": 14550,
                 "Y": 450
             },
             "Size": {
@@ -32618,7 +32618,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 21900,
+                "X": 22300,
                 "Y": 850
             },
             "Size": {
@@ -32648,7 +32648,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 21900,
+                "X": 22300,
                 "Y": 1200
             },
             "Size": {
@@ -39891,7 +39891,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17600,
+                "X": 17250,
                 "Y": 450
             },
             "Size": {
@@ -39921,7 +39921,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17600,
+                "X": 17250,
                 "Y": 100
             },
             "Size": {
@@ -39951,7 +39951,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17900,
+                "X": 17550,
                 "Y": 450
             },
             "Size": {
@@ -39981,7 +39981,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17900,
+                "X": 17550,
                 "Y": 100
             },
             "Size": {
@@ -40249,7 +40249,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15200,
+                "X": 18450,
                 "Y": 450
             },
             "Size": {
@@ -41850,7 +41850,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17000,
+                "X": 16650,
                 "Y": 300
             },
             "Size": {
@@ -41880,8 +41880,8 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15500,
-                "Y": 450
+                "X": 17850,
+                "Y": 100
             },
             "Size": {
                 "X": 184,
@@ -41907,8 +41907,8 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15800,
-                "Y": 450
+                "X": 18150,
+                "Y": 100
             },
             "Size": {
                 "X": 184,
@@ -48863,7 +48863,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16650,
+                "X": 16300,
                 "Y": 300
             },
             "Size": {
@@ -48916,8 +48916,8 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14900,
-                "Y": 100
+                "X": 15450,
+                "Y": 450
             },
             "Size": {
                 "X": 184,
@@ -48949,7 +48949,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16700,
+                "X": 16350,
                 "Y": 450
             },
             "Size": {
@@ -49032,7 +49032,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 19750,
+                "X": 20050,
                 "Y": 450
             },
             "Size": {
@@ -50680,7 +50680,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 12600,
+                "X": 12700,
                 "Y": 1200
             },
             "Size": {
@@ -50943,7 +50943,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 20050,
+                "X": 20350,
                 "Y": 1200
             },
             "Size": {
@@ -50968,7 +50968,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 20350,
+                "X": 20650,
                 "Y": 1200
             },
             "Size": {
@@ -51112,7 +51112,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 12300,
+                "X": 12400,
                 "Y": 1200
             },
             "Size": {
@@ -51366,7 +51366,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 22250,
+                "X": 22650,
                 "Y": 1200
             },
             "Size": {
@@ -51510,7 +51510,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 13950,
+                "X": 14050,
                 "Y": 1200
             },
             "Size": {
@@ -54416,6 +54416,10 @@
                 {
                     "RowName": "Glass_Basic",
                     "DataTableName": "D_Talents"
+                },
+                {
+                    "RowName": "Heavy_Glass_Basic",
+                    "DataTableName": "D_Talents"
                 }
             ]
         },
@@ -54729,7 +54733,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16700,
+                "X": 16350,
                 "Y": 100
             },
             "Size": {
@@ -54753,7 +54757,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16100,
+                "X": 15750,
                 "Y": 100
             },
             "Size": {
@@ -54779,8 +54783,8 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14600,
-                "Y": 100
+                "X": 15150,
+                "Y": 450
             },
             "Size": {
                 "X": 184,
@@ -57204,7 +57208,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17400,
+                "X": 18400,
                 "Y": 1200
             },
             "Size": {
@@ -57661,7 +57665,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16100,
+                "X": 16150,
                 "Y": 1200
             },
             "Size": {
@@ -57691,7 +57695,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15800,
+                "X": 15850,
                 "Y": 1200
             },
             "Size": {
@@ -58189,7 +58193,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20000,
+                "X": 20400,
                 "Y": 850
             },
             "Size": {
@@ -58414,7 +58418,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20950,
+                "X": 21350,
                 "Y": 100
             },
             "Size": {
@@ -58570,7 +58574,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 12000,
+                "X": 12100,
                 "Y": 1200
             },
             "Size": {
@@ -58660,7 +58664,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20300,
+                "X": 20700,
                 "Y": 850
             },
             "Size": {
@@ -58834,7 +58838,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 22550,
+                "X": 22950,
                 "Y": 1200
             },
             "Size": {
@@ -59009,7 +59013,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20650,
+                "X": 21050,
                 "Y": 100
             },
             "Size": {
@@ -59141,7 +59145,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14250,
+                "X": 14350,
                 "Y": 1200
             },
             "Size": {
@@ -59176,7 +59180,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15800,
+                "X": 15450,
                 "Y": 100
             },
             "Size": {
@@ -59837,7 +59841,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 17700,
+                "X": 17550,
                 "Y": 450
             },
             "Size": {
@@ -59899,7 +59903,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 19700,
+                "X": 20000,
                 "Y": 100
             },
             "Size": {
@@ -59929,7 +59933,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 19700,
+                "X": 20000,
                 "Y": 800
             },
             "Size": {
@@ -59960,7 +59964,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 19700,
+                "X": 20000,
                 "Y": 1200
             },
             "Size": {
@@ -59990,7 +59994,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 20650,
+                "X": 20950,
                 "Y": 1200
             },
             "Size": {
@@ -60736,7 +60740,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18000,
+                "X": 17500,
                 "Y": 1200
             },
             "Size": {
@@ -65253,7 +65257,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 19300,
+                "X": 19750,
                 "Y": 1050
             },
             "Size": {
@@ -65282,7 +65286,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18950,
+                "X": 19400,
                 "Y": 850
             },
             "Size": {
@@ -65311,7 +65315,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18950,
+                "X": 19400,
                 "Y": 1200
             },
             "Size": {
@@ -65340,7 +65344,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18650,
+                "X": 19100,
                 "Y": 1200
             },
             "Size": {
@@ -65369,7 +65373,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18650,
+                "X": 19100,
                 "Y": 850
             },
             "Size": {
@@ -65485,8 +65489,8 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14300,
-                "Y": 450
+                "X": 14850,
+                "Y": 100
             },
             "Size": {
                 "X": 184,
@@ -70030,8 +70034,8 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14600,
-                "Y": 450
+                "X": 15150,
+                "Y": 100
             },
             "Size": {
                 "X": 184,
@@ -70209,8 +70213,8 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14300,
-                "Y": 100
+                "X": 14850,
+                "Y": 450
             },
             "Size": {
                 "X": 184,
@@ -70979,7 +70983,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 12000,
+                "X": 12100,
                 "Y": 850
             },
             "Size": {
@@ -71426,7 +71430,7 @@
             },
             "Position": {
                 "X": 16800,
-                "Y": 1000
+                "Y": 900
             },
             "Size": {
                 "X": 184,
@@ -71455,7 +71459,7 @@
             },
             "Position": {
                 "X": 17100,
-                "Y": 1000
+                "Y": 900
             },
             "Size": {
                 "X": 184,
@@ -71483,7 +71487,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16100,
+                "X": 18150,
                 "Y": 450
             },
             "Size": {
@@ -71510,7 +71514,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20000,
+                "X": 20400,
                 "Y": 1200
             },
             "Size": {
@@ -71537,7 +71541,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20300,
+                "X": 20700,
                 "Y": 1200
             },
             "Size": {
@@ -71566,7 +71570,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18550,
+                "X": 18950,
                 "Y": 450
             },
             "Size": {
@@ -71595,7 +71599,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18850,
+                "X": 19250,
                 "Y": 450
             },
             "Size": {
@@ -71625,7 +71629,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20350,
+                "X": 20750,
                 "Y": 450
             },
             "Size": {
@@ -71654,7 +71658,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 22600,
+                "X": 23200,
                 "Y": 300
             },
             "Size": {
@@ -71684,7 +71688,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 19450,
+                "X": 19850,
                 "Y": 450
             },
             "Size": {
@@ -71713,7 +71717,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 19150,
+                "X": 19550,
                 "Y": 450
             },
             "Size": {
@@ -75277,7 +75281,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 20650,
+                "X": 20950,
                 "Y": 100
             },
             "Size": {
@@ -79594,6 +79598,30 @@
             "RequiredTalents": [
                 {
                     "RowName": "Herbalism_Bench",
+                    "DataTableName": "D_Talents"
+                }
+            ]
+        },
+        {
+            "Name": "Workshop_Hydrazine_Dehumidifer",
+            "ExtraData": {
+                "RowName": "Meta_Hydrazine_Dehumidier",
+                "DataTableName": "D_WorkshopItems"
+            },
+            "TalentTree": {
+                "RowName": "Workshop_Deployables"
+            },
+            "Position": {
+                "X": 1800,
+                "Y": 450
+            },
+            "Size": {
+                "X": 250,
+                "Y": 250
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Workshop_Hydrazine_Canister",
                     "DataTableName": "D_Talents"
                 }
             ]

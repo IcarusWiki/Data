@@ -431,6 +431,36 @@
                 "R": 211,
                 "A": 255
             }
+        },
+        {
+            "Name": "WILDLIFE_BEAR_A",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"WILDLIFE_BEAR_A-Display\", \"TEDDY\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_BearCub.T_ICON_BearCub'",
+            "Color": {
+                "B": 229,
+                "G": 229,
+                "A": 255
+            }
+        },
+        {
+            "Name": "WILDLIFE_BEAR_B",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"WILDLIFE_BEAR_B-Display\", \"PICKLES\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_BearCub.T_ICON_BearCub'",
+            "Color": {
+                "B": 205,
+                "R": 229,
+                "A": 255
+            }
+        },
+        {
+            "Name": "WILDLIFE_BEAR_C",
+            "Display": "NSLOCTEXT(\"D_RecoveryBeacons\", \"WILDLIFE_BEAR_C-Display\", \"NIBBLES\")",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Bear.T_ICON_Bear'",
+            "Color": {
+                "G": 174,
+                "R": 229,
+                "A": 255
+            }
         }
     ]
 }

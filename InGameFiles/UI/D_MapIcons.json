@@ -1258,6 +1258,46 @@
             },
             "bShowNameOnHover": true,
             "HoverName": "NSLOCTEXT(\"D_MapIcons\", \"Farm-HoverName\", \"EDEN Domestication Outpost\")"
+        },
+        {
+            "Name": "NPC_Rancher",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_AnimalTraderNPC.T_ICON_AnimalTraderNPC'",
+            "Color": {
+                "B": 254,
+                "G": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "WILDLIFE_BEAR_A",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_BearCub.T_ICON_BearCub'",
+            "Color": {
+                "B": 229,
+                "G": 229,
+                "A": 255
+            }
+        },
+        {
+            "Name": "WILDLIFE_BEAR_B",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_BearCub.T_ICON_BearCub'",
+            "Color": {
+                "B": 205,
+                "R": 229,
+                "A": 255
+            }
+        },
+        {
+            "Name": "WILDLIFE_BEAR_C",
+            "WidgetClass": "/Game/BP/Objects/World/Items/Deployables/Radar/UMG_RadarIcon.UMG_RadarIcon_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_ICON_Bear.T_ICON_Bear'",
+            "Color": {
+                "G": 174,
+                "R": 229,
+                "A": 255
+            }
         }
     ]
 }
